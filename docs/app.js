@@ -199,7 +199,8 @@ class EPGViewer {
     }
 
     onDateChange() {
-        this.selectedDate = new Date(this.datePicker.value + 'T00:00:00');
+        const [year, month, day] = this.datePicker.value.split('-').map(Number);
+        this.selectedDate = new Date(year, month - 1, day);
         this.loadEPGData();
     }
 
