@@ -9,3 +9,10 @@ sources:
     url: https://xmltvfr.fr/xmltv/xmltv.xml
     priority: 2
     enabled: true
+
+html_sources:
+  - name: NouvelObs
+    type: nouvelobs
+    priority: 10
+    enabled: true
+    max_days_per_run: 30

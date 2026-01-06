@@ -34,6 +34,15 @@ class Config:
                     "priority": 2,
                     "enabled": True
                 }
+            ],
+            "html_sources": [
+                {
+                    "name": "NouvelObs",
+                    "type": "nouvelobs",
+                    "priority": 10,
+                    "enabled": True,
+                    "max_days_per_run": 50
+                }
             ]
         }
     
@@ -59,3 +68,11 @@ class Config:
     
     def get_time_tolerance(self) -> int:
         return self.data.get("time_tolerance_seconds", 300)
+    
+    def get_html_sources(self) -> list:
+        """Get HTML-based sources configuration."""
+        sources = []
+        for source_data in self.data.get("html_sources", []):
+            if source_data.get("enabled", True):
+                sources.append(source_data)
+        return sources

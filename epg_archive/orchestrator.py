@@ -9,15 +9,24 @@ from .parser import XMLTVParser
 from .merger import EPGMerger
 from .exporter import XMLTVExporter
 from .console import console, create_progress, print_source_status, print_summary
+from .scrapers import NouvelObsScraper
 
 logger = logging.getLogger(__name__)
 
 
 class EPGOrchestrator:
     
-    def __init__(self, sources: List[EPGSource], archive_dir: Path, time_tolerance: int = 300):
+    def __init__(
+        self, 
+        sources: List[EPGSource], 
+        archive_dir: Path, 
+        time_tolerance: int = 300,
+        html_sources: Optional[List[dict]] = None
+    ):
         self.sources = [s for s in sources if s.enabled]
         self.sources.sort(key=lambda s: s.priority)
+        self.archive_dir = archive_dir
+        self.html_sources = html_sources or []
         self.fetcher = EPGFetcher()
         self.parser = XMLTVParser()
         self.merger = EPGMerger(time_tolerance_seconds=time_tolerance)
@@ -44,8 +53,10 @@ class EPGOrchestrator:
         fetch_tasks = [self._fetch_source(source) for source in self.sources]
         results = await asyncio.gather(*fetch_tasks)
         
-        for result in results:
+        for i, result in enumerate(results):
             if result is None:
+                source = self.sources[i]
+                print_source_status(source.name, "error", "Failed to fetch")
                 sources_failed += 1
                 continue
             
@@ -71,6 +82,26 @@ class EPGOrchestrator:
             except Exception as e:
                 logger.error(f"Error parsing {source.name}: {e}")
                 print_source_status(source.name, "error", str(e))
+                sources_failed += 1
+        
+        for html_source in self.html_sources:
+            try:
+                if html_source.get("type") == "nouvelobs":
+                    scraper = NouvelObsScraper(
+                        archive_dir=self.archive_dir,
+                        priority=html_source.get("priority", 10)
+                    )
+                    max_days = html_source.get("max_days_per_run")
+                    channels, programmes = await scraper.scrape_missing_days(max_days)
+                    
+                    all_channels.extend(channels)
+                    all_programmes.extend(programmes)
+                    
+                    if programmes:
+                        sources_ok += 1
+            except Exception as e:
+                logger.error(f"Error scraping {html_source.get('name')}: {e}")
+                print_source_status(html_source.get("name", "HTML source"), "error", str(e))
                 sources_failed += 1
         
         if not all_programmes:
