@@ -5,13 +5,15 @@ Système d'archivage long terme d'EPG (Electronic Program Guide) avec support mu
 ## Fonctionnalités
 
 - **Archivage long terme** : Conserve les données EPG sur plusieurs mois/années
-- **Multi-sources avec priorités** : Combine plusieurs sources XML avec un système de priorités
+- **Multi-sources avec priorités** : Combine plusieurs sources XMLTV et HTML avec un système de priorités
+- **Scraping HTML** : Support des sites web sans flux XMLTV (ex: NouvelObs archives depuis 2024)
 - **Fusion intelligente** : 
   - Détection de consensus entre sources (2/3 sources d'accord = priorité au consensus)
   - Priorité à la première source en cas de désaccord total
   - Enrichissement des données (description, catégorie, etc.) depuis toutes les sources
 - **Mise à jour automatique** : Détecte et met à jour les changements dans les programmes déjà archivés
 - **Tolérance temporelle** : Gère les petites différences de timing entre sources (configurable)
+- **Organisation par année** : Archives organisées par dossiers annuels (archive/2024/, archive/2025/, etc.)
 
 ## Installation
 
@@ -55,17 +57,30 @@ sources:
     url: https://xmltvfr.fr/xmltv/xmltv.xml
     priority: 2
     enabled: true
+
+html_sources:
+  - name: NouvelObs
+    type: nouvelobs
+    priority: 10
+    enabled: true
+    max_days_per_run: 30
 ```
 
 ### Paramètres de configuration
 
 - **archive_dir** : Répertoire où stocker les archives (par défaut : `./archive`)
 - **time_tolerance_seconds** : Tolérance en secondes pour considérer deux programmes comme identiques (par défaut : 300 = 5 minutes)
-- **sources** : Liste des sources EPG
+- **sources** : Liste des sources XMLTV
   - **name** : Nom de la source
   - **url** : URL du fichier XML
   - **priority** : Priorité (1 = plus haute priorité)
   - **enabled** : Activer/désactiver la source
+- **html_sources** : Liste des sources HTML (scraping)
+  - **name** : Nom de la source
+  - **type** : Type de scraper (`nouvelobs`)
+  - **priority** : Priorité (nombre plus élevé = priorité plus basse)
+  - **enabled** : Activer/désactiver la source
+  - **max_days_per_run** : Nombre maximum de jours à scraper par exécution (évite les timeouts)
 
 ### Ajouter des sources supplémentaires
 
@@ -144,14 +159,21 @@ Le système fusionne les données de plusieurs sources selon ces règles :
 
 ### Format d'export XMLTV
 
-Les archives sont exportées au **format XMLTV standard**, compatible avec tous les lecteurs EPG :
+Les archives sont exportées au **format XMLTV standard**, organisées par année :
 
 ```
 archive/
-├── 2026-01-05.xml   # Fichier XMLTV du 5 janvier 2026
-├── 2026-01-06.xml   # Fichier XMLTV du 6 janvier 2026
-├── 2026-01-07.xml   # Fichier XMLTV du 7 janvier 2026
-└── ...
+├── 2024/
+│   ├── 2024-01-01.xml
+│   ├── 2024-01-02.xml
+│   └── ...
+├── 2025/
+│   ├── 2025-01-01.xml
+│   └── ...
+└── 2026/
+    ├── 2026-01-05.xml
+    ├── 2026-01-06.xml
+    └── ...
 ```
 
 **Chaque fichier XML contient :**
@@ -190,6 +212,50 @@ uv sync --dev
 uv run pytest
 ```
 
+## Sources HTML (Scraping)
+
+### NouvelObs Archive Scraper
+
+Le scraper NouvelObs permet de récupérer les archives EPG depuis **programme-tv.nouvelobs.com** à partir du 1er janvier 2024.
+
+**Fonctionnement :**
+- Scrape automatiquement les jours manquants dans votre archive
+- Parse 12 créneaux horaires par jour (0-2h, 2-4h, ..., 22-0h)
+- Calcule automatiquement les durées réelles des programmes
+- Affiche une barre de progression et un tableau récapitulatif
+
+**Configuration :**
+```yaml
+html_sources:
+  - name: NouvelObs
+    type: nouvelobs
+    priority: 10              # Priorité basse (sources XMLTV prioritaires)
+    enabled: true
+    max_days_per_run: 30      # Limite pour éviter les timeouts
+```
+
+**Exemple de sortie :**
+```
+📺 NouvelObs Archive Scraper
+   Fetching 30 days: 2024-01-01 → 2024-01-30
+
+  2024-01-30 (2,891 prog) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:02:15
+
+  📺 NouvelObs Scrape Results  
+╭────────────────┬────────────╮
+│ Date           │ Programmes │
+├────────────────┼────────────┤
+│ 2024-01-01     │      2,811 │
+│ 2024-01-02     │      2,913 │
+│ ...            │        ... │
+│ 2024-01-30     │      2,891 │
+├────────────────┼────────────┤
+│ Total (30 days)│     86,234 │
+╰────────────────┴────────────╯
+```
+
+**Note :** Le scraper récupère progressivement l'historique. Avec `max_days_per_run: 30`, il faudra environ 25 exécutions pour récupérer 2 ans d'archives (730 jours).
+
 ## Structure du projet
 
 ```
@@ -199,12 +265,15 @@ epg_archive/
 ├── parser.py            # Parser XMLTV
 ├── fetcher.py           # Téléchargement concurrent des sources
 ├── merger.py            # Logique de fusion et consensus
-├── exporter.py          # Export au format XMLTV
+├── exporter.py          # Export au format XMLTV (organisé par année)
 ├── orchestrator.py      # Orchestration du processus complet
 ├── config.py            # Gestion de la configuration
 ├── console.py           # Interface console avec Rich (couleurs, tableaux)
 ├── utils.py             # Utilitaires partagés (parsing datetime)
-└── cli.py               # Interface en ligne de commande
+├── cli.py               # Interface en ligne de commande
+└── scrapers/
+    ├── __init__.py      # Module scrapers
+    └── nouvelobs.py     # Scraper NouvelObs avec barre de progression
 ```
 
 ## Licence
