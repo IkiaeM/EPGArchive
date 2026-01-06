@@ -1,0 +1,44 @@
+name: Daily EPG Update
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM UTC (7:00 AM Paris time in winter, 8:00 AM in summer)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      
+      - name: Install dependencies
+        run: uv sync
+      
+      - name: Run EPG Archive update
+        run: uv run epg-archive
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add archive/
+          git diff --staged --quiet || git commit -m "📺 Daily EPG update - $(date +'%Y-%m-%d')"
+          git push

@@ -1,0 +1,27 @@
+[project]
+name = "epg-archive"
+version = "0.1.0"
+description = "Long-term EPG archiving system with multi-source support and priority-based merging"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27.0",
+    "lxml>=5.1.0",
+    "python-dateutil>=2.8.2",
+    "pyyaml>=6.0.1",
+    "pytz>=2024.1",
+    "rich>=13.7.0",
+]
+
+[project.scripts]
+epg-archive = "epg_archive.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
