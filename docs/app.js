@@ -166,10 +166,25 @@ class EPGViewer {
     parseXMLTVDate(dateStr) {
         if (!dateStr) return null;
         
-        const match = dateStr.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/);
+        // Format: 20250106002000 +0100
+        const match = dateStr.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s*([+-]\d{4})?/);
         if (!match) return null;
 
-        const [, year, month, day, hour, minute, second] = match;
+        const [, year, month, day, hour, minute, second, timezone] = match;
+        
+        // Si un fuseau horaire est présent, créer une date UTC puis ajuster
+        if (timezone) {
+            const tzHours = parseInt(timezone.substring(1, 3));
+            const tzMinutes = parseInt(timezone.substring(3, 5));
+            const tzOffsetMinutes = (timezone[0] === '+' ? 1 : -1) * (tzHours * 60 + tzMinutes);
+            
+            // Créer la date en UTC
+            const utcDate = Date.UTC(year, month - 1, day, hour, minute, second);
+            // Soustraire l'offset du fuseau horaire pour obtenir l'UTC réel
+            return new Date(utcDate - tzOffsetMinutes * 60000);
+        }
+        
+        // Sinon, créer une date en heure locale
         return new Date(year, month - 1, day, hour, minute, second);
     }
 
@@ -200,7 +215,7 @@ class EPGViewer {
 
     onDateChange() {
         const [year, month, day] = this.datePicker.value.split('-').map(Number);
-        this.selectedDate = new Date(year, month - 1, day);
+        this.selectedDate = new Date(year, month - 1, day, 0, 0, 0, 0);
         this.loadEPGData();
     }
 
