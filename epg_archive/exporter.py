@@ -52,7 +52,7 @@ class XMLTVExporter:
         
         root = etree.Element('tv')
         root.set('generator-info-name', 'EPG Archive')
-        root.set('generator-info-url', 'https://github.com/yourusername/epg-archive')
+        root.set('generator-info-url', 'https://github.com/IkiaeM/EPGArchive')
         
         for channel in sorted(channels, key=lambda c: c.id):
             channel_elem = etree.SubElement(root, 'channel')

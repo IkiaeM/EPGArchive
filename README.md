@@ -128,9 +128,19 @@ uv run epg-archive --verbose
 uv run epg-archive --stats
 ```
 
-### Automatisation avec cron
+### Automatisation avec GitHub Actions
 
-Pour mettre à jour l'archive automatiquement, ajoutez une tâche cron :
+Le projet inclut un workflow GitHub Actions (`daily-update.yml`) qui :
+- S'exécute automatiquement tous les jours à 6h UTC
+- Récupère les EPG depuis toutes les sources configurées
+- Commit et push les changements dans l'archive
+- Déclenche le déploiement du viewer GitHub Pages
+
+Pour l'activer, il suffit d'avoir le fichier `config.example.yaml` dans le repo.
+
+### Automatisation avec cron (alternative locale)
+
+Pour mettre à jour l'archive automatiquement en local, ajoutez une tâche cron :
 
 ```bash
 # Éditer crontab
@@ -256,24 +266,46 @@ html_sources:
 
 **Note :** Le scraper récupère progressivement l'historique. Avec `max_days_per_run: 30`, il faudra environ 25 exécutions pour récupérer 2 ans d'archives (730 jours).
 
+## Viewer Web (GitHub Pages)
+
+Le projet inclut un viewer web interactif déployé automatiquement sur GitHub Pages.
+
+**Fonctionnalités du viewer :**
+- Navigation par année et date
+- Affichage des programmes par chaîne
+- Recherche de programmes
+- Interface responsive
+
+**Déploiement automatique :**
+Le workflow `pages.yml` déploie automatiquement le viewer après chaque mise à jour de l'archive.
+
 ## Structure du projet
 
 ```
 epg_archive/
-├── __init__.py          # Package principal
-├── models.py            # Modèles de données (Programme, Channel, EPGSource)
-├── parser.py            # Parser XMLTV
-├── fetcher.py           # Téléchargement concurrent des sources
-├── merger.py            # Logique de fusion et consensus
-├── exporter.py          # Export au format XMLTV (organisé par année)
-├── orchestrator.py      # Orchestration du processus complet
-├── config.py            # Gestion de la configuration
-├── console.py           # Interface console avec Rich (couleurs, tableaux)
-├── utils.py             # Utilitaires partagés (parsing datetime)
-├── cli.py               # Interface en ligne de commande
+├── __init__.py              # Package principal
+├── models.py                # Modèles de données (Programme, Channel, EPGSource)
+├── parser.py                # Parser XMLTV
+├── fetcher.py               # Téléchargement concurrent des sources
+├── merger.py                # Logique de fusion et consensus
+├── exporter.py              # Export au format XMLTV (organisé par année)
+├── orchestrator.py          # Orchestration du processus complet
+├── config.py                # Gestion de la configuration
+├── console.py               # Interface console avec Rich (couleurs, tableaux)
+├── utils.py                 # Utilitaires partagés (parsing datetime)
+├── cli.py                   # Interface en ligne de commande
+├── channel_normalizer.py    # Normalisation et fusion des chaînes dupliquées
+├── overlap_detector.py      # Détection des chevauchements de programmes
 └── scrapers/
-    ├── __init__.py      # Module scrapers
-    └── nouvelobs.py     # Scraper NouvelObs avec barre de progression
+    ├── __init__.py          # Module scrapers
+    └── nouvelobs.py         # Scraper NouvelObs avec barre de progression
+
+docs/
+├── index.html           # Page principale du viewer
+├── app.js               # Application JavaScript
+├── styles.css           # Styles CSS
+├── dates.json           # Index des dates disponibles (généré)
+└── generate_index.py    # Script de génération de l'index
 ```
 
 ## Licence

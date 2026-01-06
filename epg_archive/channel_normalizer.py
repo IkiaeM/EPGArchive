@@ -9,13 +9,12 @@ Handles cases like:
 
 import re
 import unicodedata
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple
 from collections import defaultdict
-from datetime import datetime
 import logging
 
 from .models import Channel, Programme
-from .overlap_detector import validate_channel_merge, log_overlap_summary
+from .overlap_detector import validate_channel_merge
 
 logger = logging.getLogger(__name__)
 
