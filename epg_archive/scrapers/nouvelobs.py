@@ -5,7 +5,7 @@ import logging
 import re
 from datetime import datetime, date, timedelta
 from pathlib import Path
-from typing import List, Optional, Set, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 from bs4 import BeautifulSoup
 import httpx
 
@@ -45,10 +45,10 @@ class NouvelObsScraper:
         self._channel_cache: dict = {}
     
     def get_existing_dates(self) -> Set[str]:
-        """Get dates already present in archive."""
+        """Get dates already present in archive (supports year-based folders)."""
         existing = set()
         if self.archive_dir.exists():
-            for xml_file in self.archive_dir.glob("*.xml"):
+            for xml_file in self.archive_dir.glob("**/*.xml"):
                 existing.add(xml_file.stem)
         return existing
     
@@ -147,7 +147,7 @@ class NouvelObsScraper:
         slot_start_hour: int
     ) -> Optional[Programme]:
         """Parse a single programme cell."""
-        title_link = cell.find("a", class_="titre")
+        title_link = cell.find("a", class_=lambda c: c and "titre" in c.split())
         if not title_link:
             return None
         
@@ -155,7 +155,7 @@ class NouvelObsScraper:
         if not title:
             return None
         
-        time_span = cell.find("span", class_=lambda c: c and "b" in c.split() and ("t16" in c.split() or "t12" in c.split()))
+        time_span = cell.find("span", class_=lambda c: c and "b" in c.split())
         hour = slot_start_hour
         minute = 0
         
@@ -240,7 +240,27 @@ class NouvelObsScraper:
             
             await asyncio.sleep(0.2)
         
+        self._fix_programme_durations(all_programmes)
+        
         return all_channels, all_programmes
+    
+    def _fix_programme_durations(self, programmes: List[Programme]) -> None:
+        """Fix programme stop times based on next programme start."""
+        by_channel: Dict[str, List[Programme]] = {}
+        for prog in programmes:
+            if prog.channel not in by_channel:
+                by_channel[prog.channel] = []
+            by_channel[prog.channel].append(prog)
+        
+        for channel, progs in by_channel.items():
+            progs.sort(key=lambda p: p.start)
+            
+            for i, prog in enumerate(progs):
+                if i + 1 < len(progs):
+                    next_prog = progs[i + 1]
+                    prog.stop = next_prog.start
+                else:
+                    prog.stop = prog.start + timedelta(hours=2)
     
     async def scrape_missing_days(
         self, 

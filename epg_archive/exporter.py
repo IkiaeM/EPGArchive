@@ -39,8 +39,16 @@ class XMLTVExporter:
             day_channels = [channels_dict[ch_id] for ch_id in channel_ids if ch_id in channels_dict]
             self._export_day(date_key, progs, day_channels)
     
+    def _get_year_dir(self, date_key: str) -> Path:
+        """Get year-based directory for a date."""
+        year = date_key[:4]
+        year_dir = self.archive_dir / year
+        year_dir.mkdir(parents=True, exist_ok=True)
+        return year_dir
+    
     def _export_day(self, date_key: str, programmes: List[Programme], channels: List[Channel]):
-        file_path = self.archive_dir / f"{date_key}.xml"
+        year_dir = self._get_year_dir(date_key)
+        file_path = year_dir / f"{date_key}.xml"
         
         root = etree.Element('tv')
         root.set('generator-info-name', 'EPG Archive')
@@ -99,7 +107,8 @@ class XMLTVExporter:
         return format_xmltv_datetime(dt)
     
     def load_existing_programmes(self, date_key: str) -> Dict[tuple, Programme]:
-        file_path = self.archive_dir / f"{date_key}.xml"
+        year_dir = self._get_year_dir(date_key)
+        file_path = year_dir / f"{date_key}.xml"
         
         if not file_path.exists():
             return {}
@@ -161,7 +170,7 @@ class XMLTVExporter:
         if not self.archive_dir.exists():
             return {"total_days": 0, "total_programmes": 0, "date_range": None}
         
-        files = sorted(self.archive_dir.glob("*.xml"))
+        files = sorted(self.archive_dir.glob("**/*.xml"))
         if not files:
             return {"total_days": 0, "total_programmes": 0, "date_range": None}
         
