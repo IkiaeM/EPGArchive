@@ -10,6 +10,7 @@ from .merger import EPGMerger
 from .exporter import XMLTVExporter
 from .console import console, create_progress, print_source_status, print_summary
 from .scrapers import NouvelObsScraper
+from .channel_normalizer import merge_duplicate_channels
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +41,7 @@ class EPGOrchestrator:
         return None
     
     async def run(self) -> Optional[Dict[str, Any]]:
-        logger.info(f"Starting EPG archive update with {len(self.sources)} sources")
+        console.print(f"[dim]Starting update with {len(self.sources)} sources...[/dim]")
         
         all_programmes: List[Programme] = []
         all_channels: List[Channel] = []
@@ -109,14 +110,24 @@ class EPGOrchestrator:
             return None
         
         programmes_before = len(all_programmes)
+        channels_before = len(set(ch.id for ch in all_channels))
         console.print()
+        
+        # Normalize channels first (merge duplicates like "LCI" vs "lci")
+        with console.status(f"[dim]Normalizing {channels_before} channels...[/dim]"):
+            unique_channels, all_programmes, channel_mapping = merge_duplicate_channels(
+                all_channels, all_programmes
+            )
+        
+        channels_list = unique_channels
+        merged_count = channels_before - len(channels_list)
+        if merged_count > 0:
+            console.print(f"[dim]→ Merged {merged_count} duplicate channels ({channels_before} → {len(channels_list)})[/dim]")
+        
         console.print(f"[dim]Merging {programmes_before:,} programmes...[/dim]")
         
         merged_programmes = self.merger.merge_programmes(all_programmes)
         programmes_after = len(merged_programmes)
-        
-        unique_channels = {ch.id: ch for ch in all_channels}
-        channels_list = list(unique_channels.values())
         
         by_date: Dict[str, List[Programme]] = {}
         for prog in merged_programmes:

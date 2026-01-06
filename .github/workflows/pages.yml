@@ -6,6 +6,8 @@ on:
     paths:
       - 'archive/**'
       - 'docs/**'
+  repository_dispatch:
+    types: [epg-updated]
   workflow_dispatch:
 
 permissions:

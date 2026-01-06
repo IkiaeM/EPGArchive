@@ -12,6 +12,7 @@ jobs:
     
     permissions:
       contents: write
+      actions: write
     
     steps:
       - name: Checkout repository
@@ -45,3 +46,8 @@ jobs:
           git add archive/
           git diff --staged --quiet || git commit -m "📺 Daily EPG update - $(date +'%Y-%m-%d')"
           git push
+
+      - name: Trigger GitHub Pages deployment
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: epg-updated
