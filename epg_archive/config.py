@@ -41,7 +41,7 @@ class Config:
                     "type": "nouvelobs",
                     "priority": 10,
                     "enabled": True,
-                    "max_days_per_run": 50
+                    "max_days_per_run": 30
                 }
             ]
         }

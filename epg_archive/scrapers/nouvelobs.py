@@ -10,7 +10,9 @@ from bs4 import BeautifulSoup
 import httpx
 
 from ..models import Programme, Channel
-from ..console import console, print_source_status
+from ..console import console, print_source_status, create_progress
+from rich.table import Table
+from rich import box
 from ..utils import PARIS_TZ
 
 logger = logging.getLogger(__name__)
@@ -270,49 +272,104 @@ class NouvelObsScraper:
         missing_dates = self.get_missing_dates()
         
         if not missing_dates:
-            console.print(f"[dim]NouvelObs: No missing days to fetch[/dim]")
+            console.print("[dim]📺 NouvelObs: Archive is up to date[/dim]")
             return [], []
         
         if max_days:
             missing_dates = missing_dates[:max_days]
         
-        console.print(
-            f"[cyan]NouvelObs:[/cyan] Fetching {len(missing_dates)} missing days "
-            f"({missing_dates[0]} to {missing_dates[-1]})"
-        )
+        total_days = len(missing_dates)
+        all_channels: List[Channel] = []
+        all_programmes: List[Programme] = []
+        daily_stats: List[Tuple[date, int, int]] = []
         
-        all_channels = []
-        all_programmes = []
+        console.print()
+        console.print(f"[bold cyan]📺 NouvelObs Archive Scraper[/bold cyan]")
+        console.print(f"[dim]   Fetching {total_days} days: {missing_dates[0]} → {missing_dates[-1]}[/dim]")
+        console.print()
         
         async with httpx.AsyncClient(
             timeout=self.timeout,
             follow_redirects=True,
             headers={"User-Agent": "EPGArchive/1.0"}
         ) as client:
-            for i, target_date in enumerate(missing_dates):
-                channels, programmes = await self.scrape_day(client, target_date)
-                all_channels.extend(channels)
-                all_programmes.extend(programmes)
+            with create_progress() as progress:
+                task = progress.add_task(
+                    f"[cyan]Scraping NouvelObs...", 
+                    total=total_days
+                )
                 
-                if programmes:
-                    logger.debug(
-                        f"NouvelObs: {target_date} - {len(programmes)} programmes"
+                for target_date in missing_dates:
+                    channels, programmes = await self.scrape_day(client, target_date)
+                    all_channels.extend(channels)
+                    all_programmes.extend(programmes)
+                    
+                    daily_stats.append((target_date, len(channels), len(programmes)))
+                    
+                    progress.update(
+                        task, 
+                        advance=1,
+                        description=f"[cyan]{target_date} ({len(programmes):,} prog)"
                     )
-                
-                if (i + 1) % 10 == 0:
-                    console.print(
-                        f"[dim]  Progress: {i + 1}/{len(missing_dates)} days[/dim]"
-                    )
-                
-                await asyncio.sleep(0.5)
+                    
+                    await asyncio.sleep(0.3)
         
         unique_channels = list({ch.id: ch for ch in all_channels}.values())
+        
+        self._print_scrape_summary(daily_stats, unique_channels, all_programmes)
+        
+        return unique_channels, all_programmes
+    
+    def _print_scrape_summary(
+        self, 
+        daily_stats: List[Tuple[date, int, int]], 
+        channels: List[Channel],
+        programmes: List[Programme]
+    ) -> None:
+        """Print a summary table of the scraping results."""
+        console.print()
+        
+        table = Table(
+            title="📺 NouvelObs Scrape Results",
+            box=box.ROUNDED,
+            border_style="cyan",
+            title_style="bold cyan",
+        )
+        
+        table.add_column("Date", style="dim", no_wrap=True)
+        table.add_column("Programmes", justify="right", style="green")
+        
+        shown_stats = daily_stats[:5] if len(daily_stats) > 10 else daily_stats
+        for target_date, ch_count, prog_count in shown_stats:
+            table.add_row(
+                target_date.strftime("%Y-%m-%d"),
+                f"{prog_count:,}"
+            )
+        
+        if len(daily_stats) > 10:
+            table.add_row("...", "...")
+            for target_date, ch_count, prog_count in daily_stats[-3:]:
+                table.add_row(
+                    target_date.strftime("%Y-%m-%d"),
+                    f"{prog_count:,}"
+                )
+        elif len(daily_stats) > 5:
+            for target_date, ch_count, prog_count in daily_stats[5:]:
+                table.add_row(
+                    target_date.strftime("%Y-%m-%d"),
+                    f"{prog_count:,}"
+                )
+        
+        table.add_section()
+        table.add_row(
+            f"[bold]Total ({len(daily_stats)} days)[/bold]",
+            f"[bold]{len(programmes):,}[/bold]"
+        )
+        
+        console.print(table)
         
         print_source_status(
             self.source_name,
             "success",
-            f"{len(unique_channels)} channels, {len(all_programmes):,} programmes "
-            f"({len(missing_dates)} days)"
+            f"{len(channels)} channels, {len(programmes):,} programmes"
         )
-        
-        return unique_channels, all_programmes
