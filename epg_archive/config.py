@@ -40,7 +40,7 @@ class Config:
                     "name": "NouvelObs",
                     "type": "nouvelobs",
                     "priority": 10,
-                    "enabled": True,
+                    "enabled": False,
                     "max_days_per_run": 30
                 }
             ]
