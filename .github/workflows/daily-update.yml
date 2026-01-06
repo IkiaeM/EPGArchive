@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
       
+      - name: Create config from example
+        run: cp config.example.yaml config.yaml
+      
       - name: Run EPG Archive update
         run: uv run epg-archive
       
