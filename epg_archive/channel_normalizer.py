@@ -9,11 +9,13 @@ Handles cases like:
 
 import re
 import unicodedata
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Set
 from collections import defaultdict
+from datetime import datetime
 import logging
 
 from .models import Channel, Programme
+from .overlap_detector import validate_channel_merge, log_overlap_summary
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +27,7 @@ def normalize_channel_name(name: str) -> str:
     - Lowercase
     - Remove accents
     - Remove special characters except alphanumeric
-    - Remove common suffixes like HD, +1, etc.
+    - Remove common suffixes like HD, +1, Channel, TV, etc.
     """
     if not name:
         return ""
@@ -38,7 +40,11 @@ def normalize_channel_name(name: str) -> str:
     normalized = ''.join(c for c in normalized if not unicodedata.combining(c))
     
     # Remove common suffixes/prefixes that don't affect identity
+    # Order matters: remove longer patterns first
     suffixes_to_remove = [
+        r'\s*channel$',
+        r'\s*television$',
+        r'\s*tv$',
         r'\s*hd$',
         r'\s*sd$',
         r'\s*uhd$',
@@ -99,10 +105,15 @@ class ChannelNormalizer:
     
     def normalize_channels(
         self, 
-        channels: List[Channel]
+        channels: List[Channel],
+        programmes: List[Programme] = None
     ) -> Tuple[List[Channel], Dict[str, str]]:
         """
         Normalize a list of channels, merging duplicates.
+        
+        Args:
+            channels: List of channels to normalize
+            programmes: Optional list of programmes to validate merges
         
         Returns:
             - List of unique channels
@@ -127,22 +138,41 @@ class ChannelNormalizer:
                 self.canonical_channels[channel.id] = channel
                 self.channel_mapping[channel.id] = channel.id
             else:
-                # Multiple channels with same normalized name - merge them
-                best_channel = self._select_best_channel(channel_group)
-                canonical_id = best_channel.id
+                # Multiple channels with same normalized name - validate merge
+                channel_ids = [ch.id for ch in channel_group]
                 
-                self.canonical_channels[canonical_id] = best_channel
+                # If programmes provided, validate the merge won't create overlaps
+                should_merge = True
+                if programmes:
+                    is_valid, reason = validate_channel_merge(channel_ids, programmes, max_overlap_percent=15.0)
+                    if not is_valid:
+                        merged_names = [ch.display_name for ch in channel_group]
+                        logger.warning(
+                            f"Skipping merge of {merged_names}: {reason}"
+                        )
+                        should_merge = False
                 
-                # Map all channel IDs to the canonical one
-                for channel in channel_group:
-                    self.channel_mapping[channel.id] = canonical_id
+                if should_merge:
+                    # Merge them
+                    best_channel = self._select_best_channel(channel_group)
+                    canonical_id = best_channel.id
                     
-                if len(channel_group) > 1:
+                    self.canonical_channels[canonical_id] = best_channel
+                    
+                    # Map all channel IDs to the canonical one
+                    for channel in channel_group:
+                        self.channel_mapping[channel.id] = canonical_id
+                        
                     merged_names = [ch.display_name for ch in channel_group]
                     logger.debug(
                         f"Merged {len(channel_group)} channels into '{best_channel.display_name}': "
                         f"{merged_names}"
                     )
+                else:
+                    # Don't merge - keep channels separate
+                    for channel in channel_group:
+                        self.canonical_channels[channel.id] = channel
+                        self.channel_mapping[channel.id] = channel.id
         
         return list(self.canonical_channels.values()), self.channel_mapping
     
@@ -215,7 +245,8 @@ def merge_duplicate_channels(
     """
     normalizer = ChannelNormalizer()
     
-    unique_channels, mapping = normalizer.normalize_channels(channels)
+    # Pass programmes to validate merges
+    unique_channels, mapping = normalizer.normalize_channels(channels, programmes)
     normalized_programmes = normalizer.normalize_programmes(programmes, mapping)
     
     # Logging is handled by the orchestrator for consistent UI

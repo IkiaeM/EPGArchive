@@ -11,6 +11,7 @@ from .exporter import XMLTVExporter
 from .console import console, create_progress, print_source_status, print_summary
 from .scrapers import NouvelObsScraper
 from .channel_normalizer import merge_duplicate_channels
+from .overlap_detector import log_overlap_summary
 
 logger = logging.getLogger(__name__)
 
@@ -123,11 +124,14 @@ class EPGOrchestrator:
         merged_count = channels_before - len(channels_list)
         if merged_count > 0:
             console.print(f"[dim]→ Merged {merged_count} duplicate channels ({channels_before} → {len(channels_list)})[/dim]")
-        
+        console.print(f"[dim]Merged to {len(channels_list)} unique channels[/dim]")
         console.print(f"[dim]Merging {programmes_before:,} programmes...[/dim]")
         
         merged_programmes = self.merger.merge_programmes(all_programmes)
         programmes_after = len(merged_programmes)
+        
+        # Log overlap summary after merge
+        log_overlap_summary(merged_programmes)
         
         by_date: Dict[str, List[Programme]] = {}
         for prog in merged_programmes:
