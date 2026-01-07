@@ -1,12 +1,12 @@
 archive_dir: ./archive
 time_tolerance_seconds: 300
 sources:
-  - name: EPG.pw
-    url: https://epg.pw/xmltv/epg_FR.xml
-    priority: 1
-    enabled: true
   - name: XMLTV.fr
     url: https://xmltvfr.fr/xmltv/xmltv.xml
+    priority: 1
+    enabled: true
+  - name: EPG.pw
+    url: https://epg.pw/xmltv/epg_FR.xml
     priority: 2
     enabled: true
 
