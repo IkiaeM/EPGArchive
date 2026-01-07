@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<tv generator-info-name="EPG Archive" generator-info-url="https://github.com/yourusername/epg-archive">
+<tv generator-info-name="EPG Archive" generator-info-url="https://github.com/IkiaeM/EPGArchive">
   <channel id="01TV.fr">
     <display-name>TECH &amp; CO</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/SFR100x100COLORTECHCO.png"/>
@@ -1267,6 +1267,10 @@
     <display-name>J-One</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1585.png"/>
   </channel>
+  <channel id="KANAALZ.be">
+    <display-name>KANAALZ</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjOkiRSrN9WtxQwS_yfc0YilHxDl3dLqmE0TDHp57ayGsGX25e1pT4fwuyg&amp;amp;s"/>
+  </channel>
   <channel id="KIKA.de">
     <display-name>KIKA</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXZBr6zWiObQ4iCya4aKLvrm92Yomy-qCJ0WLpSIcjSoAjLGmyh5dePVpHw&amp;amp;s"/>
@@ -2236,6 +2240,9 @@
     <display-name>TV5 Monde Afrique</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180105/canal-ouah/CHN43FB/TV5MONDE2022_myCANAL_640x480"/>
   </channel>
+  <channel id="TV5MondeAmeriqueLatine.fr">
+    <display-name>TV5MondeAmeriqueLatine.fr</display-name>
+  </channel>
   <channel id="TV5MondeAsie.fr">
     <display-name>TV5 Monde Asie</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
@@ -2357,6 +2364,10 @@
     <display-name>Télé Congo</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180204/canal-ouah/CHN43FB/TELECONGO_myCANAL_640x480"/>
   </channel>
+  <channel id="TeleGrenobleIsere.fr">
+    <display-name>Télé Grenoble</display-name>
+    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LogoTlgrenoble100x100.png"/>
+  </channel>
   <channel id="TeleKreol.frdrom">
     <display-name>TELE KREOL</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/160203/canal-ouah/CHN43FB/TELEKREOL_myCANAL_640x480"/>
@@ -2436,6 +2447,10 @@
   <channel id="Toonami.fr">
     <display-name>Warner TV Next</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-2040.png"/>
+  </channel>
+  <channel id="TopSanteTV.fr">
+    <display-name>Top Santé TV</display-name>
+    <icon src="https://freebox.cdn.scw.iliad.fr/large_top_sante_ea66c2d6c5.jpg"/>
   </channel>
   <channel id="TouteHistoire.fr">
     <display-name>Toute l'Histoire</display-name>
@@ -41094,15 +41109,15 @@ l'ouvrier du batiment), Christopher Meloni
     <title lang="fr">Mission Impossible : Fallout</title>
     <desc lang="fr"> Quand une mission d'Ethan Hunt et ses amis tourne court, le monde doit en subir les conséquences. La CIA commence cependant à douter de la loyauté de Hunt. Des armes nucléaires se retrouvent entre les mains d'une organisation criminelle qui projette de détruire la civilisation. Pourchassés par des assassins, Ethan et les membres de son équipe de l'Impossible Mission Force se lancent dans une course contre la montre afin d'éviter la catastrophe. Ils n'ont pas d'autre choix que de s'associer à un agent de la CIA... </desc>
     <category lang="fr">Film</category>
-    <icon src="https://focus.telerama.fr/1280x720/2025/05/07/e25f0591b8d14f3a9f843aac3f0bf0cc.jpg"/>
+    <icon src="https://focus.telerama.fr/1280x720/2026/01/07/11a9c35a9da04bb6a97f4696dcbbae20.jpg"/>
   </programme>
-  <programme channel="ClubRTL.be" start="20260112221000 +0100" stop="20260112221500 +0100">
+  <programme channel="ClubRTL.be" start="20260112221000 +0100" stop="20260112222000 +0100">
     <title lang="fr">Météo Club</title>
     <desc lang="fr"> Quel temps fera-t-il demain ? Les bulletins météo tiennent au courant des prévisions. La pluie et le beau temps, annoncés par des spécialistes. </desc>
     <category lang="fr">Meteo</category>
     <icon src="https://focus.telerama.fr/1280x720/2025/07/16/6e08d1a27f05460fae9368ad05a0ec45.jpg"/>
   </programme>
-  <programme channel="ClubRTL.be" start="20260112221500 +0100" stop="20260113003500 +0100">
+  <programme channel="ClubRTL.be" start="20260112222000 +0100" stop="20260113004000 +0100">
     <title lang="fr">Mission Impossible : Rogue Nation</title>
     <desc lang="fr"> L'équipe de Mission impossible a été dissoute sur demande de la CIA, et ses membres sommés de se rendre et de faire amende honorable. C'est alors qu'Ethan Hunt découvre la preuve de l'existence du Syndicat, une puissante organisation criminelle. Traqué par la CIA et par le Syndicat, il disparaît et entre dans la clandestinité. Durant six mois, il resserre sa toile autour de ces terroristes ultra entraînés, qui semblent de surcroît lui en vouloir personnellement. Sa route croise de manière récurrente celle d'Ilsa Faust, une agente du MI6 qui navigue en eaux troubles. Pendant ce temps, Brandt et Benji sont forcés de se soumettre à Alan Hunley, le directeur de la CIA. Jusqu'au jour où Hunt contacte Benji, lui donnant rendez-vous en Autriche. L'équipe de Mission impossible est prête à reprendre du service pour éliminer le Syndicat... </desc>
     <category lang="fr">Film</category>
@@ -64546,6 +64561,84 @@ Acteurs : Na-Eun Son (Oh Soo-Jung), Sung Dong-il (Oh Joo-Myung / Tes), Cheol-min
     <category lang="fr">Autre</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F38e0678c3ee047379eca2a4dac30d929.jpg"/>
   </programme>
+  <programme channel="KANAALZ.be" start="20260112002700 +0100" stop="20260112010100 +0100">
+    <title lang="fr">Fleet TV S23</title>
+    <desc lang="fr">Informatief programma met de nieuwste reportages, actualiteiten en verhalen over de autowereld.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/11/2622519_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112010100 +0100" stop="20260112013500 +0100">
+    <title lang="fr">Transport TV S17</title>
+    <desc lang="fr">Nieuws en kletsen.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="https://images.voomotion.be/Events/2025/12/31/04/2649659_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112013500 +0100" stop="20260112015300 +0100">
+    <title lang="fr">Alle zaken op een Rijtje S10 (2/51)</title>
+    <desc lang="fr">'Alle Zaken op een Rijtje' is gecreëerd voor ondernemers die willen schitteren in de bedrijfswereld in het algemeen en de eigen bedrijfssector in het bijzonder.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/56/2622512_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112015300 +0100" stop="20260112020800 +0100">
+    <title lang="fr">City Reports S6</title>
+    <desc lang="fr">Montis Producties produceert de programma's City Reports. In dit programma volgen we de nieuwste trends en ontwikkelingen in het bedrijfsleven en de publieke sector. We bieden toonaangevende bedrijven en moderne steden de kans om zich aan de kijker van Kanaal Z te presenteren. City Reports is een vervolg van MT in the City.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/57/2622513_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112020800 +0100" stop="20260112021500 +0100">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Business Branding Infini Nieuwpoort.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/55/2622511_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112021500 +0100" stop="20260112060000 +0100">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/57/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112060000 +0100" stop="20260112100000 +0100">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/57/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112100000 +0100" stop="20260112150000 +0100">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/57/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112150000 +0100" stop="20260112200000 +0100">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/57/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112200000 +0100" stop="20260112201100 +0100">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/24/06/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112201100 +0100" stop="20260112202300 +0100">
+    <title lang="fr">Z-Beurs S2</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/24/37/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112202300 +0100" stop="20260112205700 +0100">
+    <title lang="fr">de CFO podcast S2</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/24/51/2619446_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260112205700 +0100" stop="20260113002700 +0100">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Zakenblad.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/55/2622511_A.jpg"/>
+  </programme>
   <programme channel="KIKA.de" start="20260112060000 +0100" stop="20260112060500 +0100">
     <title lang="fr">Kikaninchen Schnipselwelt</title>
     <desc lang="fr">Freundelied: "Komm, lass uns spielen! Heute ist ein schöner Tag. Einer von ganz vielen. Ein Tag, den ich mag!" Kikaninchen startet mit seinen Freunden von ARD und ZDF gut gelaunt in einen neuen Tag.</desc>
@@ -64800,9 +64893,9 @@ Acteurs : Na-Eun Son (Oh Soo-Jung), Sung Dong-il (Oh Joo-Myung / Tes), Cheol-min
   </programme>
   <programme channel="KIKA.de" start="20260112200000 +0100" stop="20260112201000 +0100">
     <title lang="fr">KiKA Live</title>
-    <desc lang="fr">Jess und Ben sind für dich unterwegs und spüren die neusten Trends in den Bereichen Mode, Musik und Lifestyle auf. Sie treffen Stars und berichten über alles, was dich interessiert. In den "KiKA LIVE"-Shows erwarten dich tolle Kandidaten und ungewöhnliche Herausforderungen.</desc>
+    <desc lang="fr">Thema: Ausbaden: Checker Tobi und Checkerin Marina: Bisher dachten Checker Tobi und Checkerin Marina, dass sie so schnell nichts aus der Ruhe bringt. Aber im "Ausbaden"-Klo und gegen die "KiKA LIVE"-Hosts Sarah und Ben kommen die KiKA-Moderatoren an ihre Grenzen und ihre Gelassenheit wird hart auf die Probe gestellt. Während je ein Teammitglied sich mit dem Gegner battelt, muss das andere Teammitglied im Klo hoffen und bangen, dass sein Team gewinnt. Denn wenn nicht, muss er oder sie es ausbaden und bekommt widerliches Zeug auf den Kopf. Und mit jeder weiteren Dusche von oben sinkt die Stimmung.</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="https://images.voomotion.be/Events/2025/12/31/11/2655544_A.jpg"/>
+    <icon src="https://images.voomotion.be/Events/2026/01/05/43/2655544_A.jpg"/>
   </programme>
   <programme channel="KIKA.de" start="20260112201000 +0100" stop="20260112210000 +0100">
     <title lang="fr">In anderen Welten (Kapitel 17 - Endlich glücklich? / Kapitel 18 - Der ewige Schlaf) S1 (17/24)</title>
@@ -106016,6 +106109,279 @@ Réalisateur(s) : Sigrid Clément
     <episode-num>18.0.</episode-num>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/plmws/images.media-press.cloud/bbcc/bbcccd82ff44422689bb94544bff31df"/>
   </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112000000 +0100" stop="20260112003000 +0100">
+    <title lang="fr">Le journal de France 2</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.77.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112003000 +0100" stop="20260112020700 +0100">
+    <title lang="fr">Un métier sérieux</title>
+    <desc lang="fr">C'est la rentrée. Une nouvelle année scolaire au collège qui voit se retrouver Pierre, Meriem, Fouad, Sophie, Sandrine, Alix et Sofiane, un groupe d'enseignants engagés et soudés. Ils sont rejoints par Benjamin, jeune professeur remplaçant sans expérience et rapidement confronté aux affres du métier.
+
+Réalisation, scénario : Thomas Lilti (France, 2023) 
+Distribution : Vincent Lacoste (Benjamin), François Cluzet (Pierre), Adèle Exarchopoulos (Meriem), Louise Bourgoin (Sandrine), William Lebghil (Fouad), Lucie Zhang (Sophie), Léo Chalié (Alix), Théo Navarro-Mussy (Sofiane)
+Genre : comédie dramatique
+Palmarès : sélectionné au Festival du film francophone de Vienne (Autriche, 2024), Tiantan Award au BJIFF (Chine, 2024), sélectionné hors compétition au Festival international du film de Saint-Sébastien (Espagne, 2023)</desc>
+    <category lang="fr">Cinéma</category>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112020700 +0100" stop="20260112023000 +0100">
+    <title lang="fr">Un bon garçon</title>
+    <desc lang="fr">Max, 16 ans, nageur talentueux, se prépare à entrer en sport étude. Entre entraînements et sorties avec ses amis, il mène l'existence d'un adolescent lambda. Mais lorsqu'un jour la police débarque pour interroger son coach, accusé d'abus sexuel, sa vie réglée bascule.
+
+Réalisation, scénario : Paul Vincent de Lestrade (France/Belgique, 2023)
+Distribution : Igor Van Dessel (Max), Sandrine Blancke (la mère de Max), Steve Driesen (le père de Max), Maxime Taffanel (le coach), Mara Taquin (Mégane)
+Genre : drame
+Palmarès : prix du meilleur court-métrage international à Cinemania (Canada, 2024) ; prix Be TV au Festival de Namur (FIFF) (Belgique, 2023) ; prix de la Fédération Wallonie-Bruxelles et prix du meilleur acteur (Igor Van Dessel) au Brussels Short Film Festival (BSFF) (Belgique, 2023) ; sélectionné aux Magritte du Cinéma (Belgique, 2024)</desc>
+    <category lang="fr">Cinéma</category>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112023000 +0100" stop="20260112025600 +0100">
+    <title lang="fr">Le journal de la RTBF</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.77.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112025600 +0100" stop="20260112044800 +0100">
+    <title lang="fr">Viva Maria !</title>
+    <desc lang="fr">1907, dans un pays d'Amérique du Sud. Après la mort de son père, un terroriste irlandais, Maria intègre une caravane de music-hall ambulant qui lui propose une place de duettiste parisienne. Sa partenaire porte le même prénom qu'elle. Ensemble, elles se retrouvent au coeur d'une révolution paysanne...
+
+Réalisation, scénario : Louis Malle (France/Italie, 1965)
+Distribution : Jeanne Moreau (Maria I), Brigitte Bardot (Maria II), George Hamilton (Florès), Gregor von Rezzori (Diogène), Paulette Dubost (Mme Diogène), Claudio Brook (Rodolfo)
+Genre : comédie</desc>
+    <category lang="fr">Cinéma</category>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-12/field_media_image-87464-6361128.jpg?h=d1cb525d&amp;itok=J98YC-oS"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112044800 +0100" stop="20260112063100 +0100">
+    <title lang="fr">BBLSQSID 2021?-EP001BYE BYE LA SUISSE QUE SONT-ILS</title>
+    <desc lang="fr">Ils ont tout quitté pour partir à l'aventure. Un an après leur installation loin de Suisse, que sont-ils devenus ? Les Kunz gèrent leur cabane à frites sur les rivages de la mer du Nord, les Almeida redressent un motel fatigué au Canada, les Althaus repartent de zéro en Uruguay.
+
+Réalisation : Regina Buol (Suisse, 2021)</desc>
+    <category lang="fr">Documentaires</category>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2022-09/field_media_image-44576-5737967.jpg?h=52605a11&amp;itok=yYssJ_Gw"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112063100 +0100" stop="20260112065600 +0100">
+    <title lang="fr">6h info</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.55.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112065600 +0100" stop="20260112094100 +0100">
+    <title lang="fr">BOUCAR ET LE MAGTOGOEK  / TELE QUEBEC</title>
+    <desc lang="fr">Magtogoek ou le chemin qui marche : c'est le nom que les Algonquins avaient donné au Saint-Laurent avant l'arrivée de Jacques Cartier. Boucar Diouf vogue à travers les paysages côtiers de Rimouski, Gaspé, Tadoussac et Québec pour partager avec quatre jeunes son amour du grand fleuve.
+
+Avec Boucar Diouf, Shiren Leislie Agbemavi, Joephillip Lafortune, Kelly-Ann Rousselot-Vallée, Alex Valiquette.
+
+Réalisation : Marie Carpentier (Canada, 2022)</desc>
+    <category lang="fr">Documentaires</category>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2024-11/field_media_image-72437-6210220.jpg?h=d1cb525d&amp;itok=zTw-v3lM"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112094100 +0100" stop="20260112100000 +0100">
+    <title lang="fr">Château !</title>
+    <desc lang="fr">Meillant
+
+Le château de Meillant, édifice majeur du gothique flamboyant avec sa célèbre tour Lion, a plus de mille ans d'histoire. Il a la particularité de ne jamais avoir été vendu.
+
+Présentation : André Manoukian</desc>
+    <category lang="fr">Documentaires</category>
+    <episode-num>2023.54.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-06/field_media_image-80646-6406208.jpg?h=d1cb525d&amp;itok=iUiY_C62"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112100000 +0100" stop="20260112102600 +0100">
+    <title lang="fr">Le téléjournal de Radio-Canada</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.23.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112102600 +0100" stop="20260112113200 +0100">
+    <title lang="fr">Télématin</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.55.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112113200 +0100" stop="20260112115900 +0100">
+    <title lang="fr">Le magazine de la Riviera</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Art de vivre</category>
+    <episode-num>0.71.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2026-01/field_media_image-87894-6540514.jpg?h=d1cb525d&amp;itok=R8bw96Sr"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112115900 +0100" stop="20260112124000 +0100">
+    <title lang="fr">Savourer</title>
+    <desc lang="fr">À la soupe !
+
+Au menu : soupe-lasagne tout-en-un, soupe à l'orge et au fromage halloumi, soupe-repas végé au cari thaï, soupe à l'oignon et aux fromages québécois.
+
+Présentation : Geneviève O'Gleman.
+Réalisation : Brian Desgagné, Alexandre Lepage (saison 3, Canada, 2023)</desc>
+    <category lang="fr">Art de vivre</category>
+    <episode-num>2.16.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-10/field_media_image-85120-6337012.jpg?h=d1cb525d&amp;itok=iNA6tTnv"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112124000 +0100" stop="20260112125400 +0100">
+    <title lang="fr">Château !</title>
+    <desc lang="fr">L'abbaye royale de Fontevraud 
+
+Visite royale à l'abbaye de Fontevraud sur fond musical. 
+
+Présentation : André Manoukian</desc>
+    <category lang="fr">Documentaires</category>
+    <episode-num>2023.53.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-06/field_media_image-80620-6406206.jpg?h=d1cb525d&amp;itok=p2cRUwwj"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112125400 +0100" stop="20260112133000 +0100">
+    <title lang="fr">Chef Pays</title>
+    <desc lang="fr">Sorbet coco
+
+La cheffe Leïla Albert prépare un parfait à la noix de coco et à l'ananas. 
+
+Présentation : Brice Laurent Dubois</desc>
+    <category lang="fr">Autre</category>
+    <episode-num>2022.11.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112133000 +0100" stop="20260112140000 +0100">
+    <title lang="fr">Le journal de la RTBF</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.78.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112140000 +0100" stop="20260112151100 +0100">
+    <title lang="fr">Télématin</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.55.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112151100 +0100" stop="20260112153800 +0100">
+    <title lang="fr">Chroniques d'en haut</title>
+    <desc lang="fr">Gil Alma, entre nature et tradition
+
+Direction les Vosges, un massif authentique où se mêlent traditions, rencontres inspirantes et paysages grandioses. Laurent Guillaume les sillonne en compagnie de Gil Alma, qui partage son attachement à cette région. Des forêts profondes aux crêtes enneigées, le comédien y trouve calme et inspiration.
+
+Présentation : Laurent Guillaume</desc>
+    <category lang="fr">Documentaires</category>
+    <episode-num>2024.9.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112153800 +0100" stop="20260112160700 +0100">
+    <title lang="fr">À bon entendeur</title>
+    <desc lang="fr">Le coût de la panne
+
+Le prix de réparation des voitures a augmenté ces dernières années. En cause : des véhicules de plus en plus technologiques et compliqués. Le prix des pièces est à la hausse et il devient de plus en plus complexe pour les garagistes d'accomplir certaines réparations. 
+
+Présentation : Linda Bourget</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2025.0.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2026-01/field_media_image-87880-6552739.jpg?h=d1cb525d&amp;itok=mMZxJqsl"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112160700 +0100" stop="20260112162700 +0100">
+    <title lang="fr">L'épicerie</title>
+    <desc lang="fr">Le poids santé, un mythe à déconstruire
+
+L'IMC, l'indice de masse corporelle, a longtemps été présenté comme un outil pour évaluer si une personne a un « poids santé ». Que se cache-t-il derrière ce chiffre ? Également : le retour des oeufs marinés ; la Fromagerie du Campus, un projet unique au Canada.
+
+Présentation : Myriam Fehmiu, Caroline Lacroix</desc>
+    <category lang="fr">Art de vivre</category>
+    <episode-num>2024.20.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-10/field_media_image-85275-6445740.jpg?h=d1cb525d&amp;itok=m6mkbKsz"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112162700 +0100" stop="20260112164100 +0100">
+    <title lang="fr">Château !</title>
+    <desc lang="fr">La chapelle d'Angillon
+
+La construction du château de la chapelle d'Angillon remonte au XIe siècle. Son donjon carré est l'un des plus anciens de la région.
+
+Présentation : André Manoukian</desc>
+    <category lang="fr">Documentaires</category>
+    <episode-num>2023.52.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-06/field_media_image-80593-6396623.jpg?h=d1cb525d&amp;itok=aBkaM2Gy"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112164100 +0100" stop="20260112173000 +0100">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Divertissement</category>
+    <episode-num>2024.47.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112173000 +0100" stop="20260112180000 +0100">
+    <title lang="fr">Un si grand soleil</title>
+    <desc lang="fr">Épisode 1667
+
+La police retrouve enfin la trace de leur suspect disparu. Pendant ce temps, Eliott se voit offrir une opportunité en or pour son business, 
+
+Réalisation : Julie Lipinski, Chris Nahon, Jérôme Portheault, Tatiana Werner (saison 7, France, 2025)
+Distribution : Chrystelle Labaude (Élizabeth), Mélanie Maudran (Claire), Emma Colberti (Ève), Tonya Kinzinger (Janet), Yvon Back (Becker), Benjamin Bourgeois (Alex), Moïse Santamaria (Manu), Bertrand Farge (Victor)
+Genre : comédie dramatique</desc>
+    <category lang="fr">Séries</category>
+    <episode-num>6.106.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-10/field_media_image-85005-6285326.jpg?h=d1cb525d&amp;itok=mk9mr7ta"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112180000 +0100" stop="20260112182600 +0100">
+    <title lang="fr">64' Actu</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.78.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112182600 +0100" stop="20260112183000 +0100">
+    <title lang="fr">Merci professeur !</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Divertissement</category>
+    <episode-num>11.10.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-12/field_media_image-87768-6517079.jpg?h=d1cb525d&amp;itok=H7mhor4l"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112183000 +0100" stop="20260112190300 +0100">
+    <title lang="fr">64' Débat</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.67.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112190300 +0100" stop="20260112210000 +0100">
+    <title lang="fr">BENIE SOIT SIXTINE </title>
+    <desc lang="fr">Quand elle épouse Pierre-Louis Sue de La Garde, Sixtine ignore tout de son appartenance à un groupuscule catholique intégriste. Se sentant piégée et menacée, elle décide de s'enfuir avec son bébé. Sous une fausse identité, elle trouve refuge dans un village auprès d'une communauté bienveillante.
+
+Réalisation : Sophie Reine (France, 2023)
+Scénario : Zoé Galeron, Dominique Garnier
+Distribution : Capucine Valmary (Sixtine), Adrien Dewitte (Pierre-Louis), Valérie Karsenti (Madeleine), Barbara Probst (Lydie), Guilaine Londez (Muriel), Sarah Suco (Agnès)
+Genre : drame
+Palmarès : prix du jeune espoir féminin Adami (Capucine Valmary) au Festival de La Rochelle (France, 2024)
+Signalétique : déconseillé aux moins de 10 ans (-10)</desc>
+    <category lang="fr">Cinéma</category>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-09/field_media_image-84218-6179667.jpg?h=d1cb525d&amp;itok=Gf1JVQam"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112210000 +0100" stop="20260112212700 +0100">
+    <title lang="fr">Le journal de la RTS</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.78.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112212700 +0100" stop="20260112220000 +0100">
+    <title lang="fr">Slam</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Divertissement</category>
+    <episode-num>2025.2.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112220000 +0100" stop="20260112223000 +0100">
+    <title lang="fr">Le journal Afrique</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.78.</episode-num>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112223000 +0100" stop="20260112231200 +0100">
+    <title lang="fr">Version française</title>
+    <desc lang="fr">Le musée Albert-Kahn dévoile le projet humaniste du banquier. Parfois appelée « la plieuse de temps », Simone Pheulpin travaille le ruban de coton. Pour son premier défilé chez Dries Van Noten, Julian Klausner se joue des textures et des couleurs. L'air de la plage gagne l'atelier de Sophie Brillouet.
+
+Présentation : Katherina Marx</desc>
+    <category lang="fr">Art de vivre</category>
+    <episode-num>10.13.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2025-09/field_media_image-84027-6355686.jpg?h=d1cb525d&amp;itok=_YjL0btd"/>
+  </programme>
+  <programme channel="TV5MondeAmeriqueLatine.fr" start="20260112231200 +0100" stop="20260113000000 +0100">
+    <title lang="fr">Temps présent</title>
+    <desc lang="fr">Racisme, police et les étranges enquêtes vaudoises
+
+En mai 2025, un Nigérian décède à Lausanne en tentant d'échapper à un contrôle de police. Il est le cinquième homme noir en moins de dix ans à trouver la mort au cours d'une interaction avec la police vaudoise. Une série hors-norme qui interroge, d'autant que des discussions WhatsApp à caractère raciste au sein de la police lausannoise ont été découvertes et ont semé le doute. Les enquêtes passées ont-elles suffisamment pris en compte un possible racisme systémique ? Ne faut-il pas les rouvrir à l'aune de ces nouveaux éléments ? 
+
+Présentation : François Roulet</desc>
+    <category lang="fr">Info &amp; Société</category>
+    <episode-num>2024.16.</episode-num>
+    <icon src="https://latina.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2026-01/field_media_image-87942-6552724.jpg?h=d1cb525d&amp;itok=8S37zxKu"/>
+  </programme>
   <programme channel="TV5MondeAsie.fr" start="20260112000000 +0100" stop="20260112002602 +0100">
     <title lang="fr">Version Française</title>
     <desc lang="fr">The Albert-Kahn museum unveils the banker's humanist project. Sometimes called "the time folder", Simone Pheulpin works with cotton ribbon. For his first show at Dries Van Noten, Julian Klausner plays with textures and colours. Sophie Brillouet's studio is alive with beach air.
@@ -110903,379 +111269,379 @@ Bulletin complet des événements de la journée, ainsi qu&amp;#039;un bloc de n
     <title lang="fr">La matinale</title>
     <desc lang="fr">Toute l'actualité et les informations à retenir du département de Vendée pour bien débuter la journée. </desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273148/d69df190dee248d7ae03128cff9c560e.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387421/d69df190dee248d7ae03128cff9c560e"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112090000 +0100" stop="20260112091500 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272939/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387318/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112091500 +0100" stop="20260112093000 +0100">
     <title lang="fr">Visage du sport</title>
     <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273151/e335a3f7be674d878acbda5c9360d2b8.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387424/e335a3f7be674d878acbda5c9360d2b8"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112093000 +0100" stop="20260112094500 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272945/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387319/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112094500 +0100" stop="20260112101000 +0100">
     <title lang="fr">Café de la marine</title>
     <desc lang="fr">Retrouvez dorénavant tous les 15 jours un plateau enregistré à la cité de la voile Eric Tabarly de Lorient.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273114/63379e5d00144f76b667f962782fb9fd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387403/63379e5d00144f76b667f962782fb9fd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112101000 +0100" stop="20260112103000 +0100">
     <title lang="fr">Chemin de traverse</title>
     <desc lang="fr">Grégoire de Chatillon révèle les beautés de notre département, des Hommes aux vieilles pierres, des initiatives locales au patrimoine oublié.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273165/0276af3bc26e42f0a5340a9811228175.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387269/0276af3bc26e42f0a5340a9811228175"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112103000 +0100" stop="20260112104500 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273007/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387351/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112104500 +0100" stop="20260112111000 +0100">
     <title lang="fr">Café de la marine</title>
     <desc lang="fr">Retrouvez dorénavant tous les 15 jours un plateau enregistré à la cité de la voile Eric Tabarly de Lorient.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273120/63379e5d00144f76b667f962782fb9fd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387406/63379e5d00144f76b667f962782fb9fd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112111000 +0100" stop="20260112113000 +0100">
     <title lang="fr">Chemin de traverse</title>
     <desc lang="fr">Grégoire de Chatillon révèle les beautés de notre département, des Hommes aux vieilles pierres, des initiatives locales au patrimoine oublié.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273161/0276af3bc26e42f0a5340a9811228175.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387267/0276af3bc26e42f0a5340a9811228175"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112113000 +0100" stop="20260112114500 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272932/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387314/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112114500 +0100" stop="20260112115500 +0100">
     <title lang="fr">Backstage</title>
     <desc lang="fr">Rendez-vous dans Backstage, notre toute nouvelle émission culturelle présentée par David Auvinet. Retrouvez chaque semaine des artistes vendéens, danse, musique, ou encore théâtre, il y en a pour tous les goûts… Backstage c'est aussi le Live, où les invités nous dispensent d'une prestation sur les plateaux de Tv Vendée en live !</desc>
     <category lang="fr">Emissions musique</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273141/8a35f9d5a43d475aa25d81f43f16282c.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387416/8a35f9d5a43d475aa25d81f43f16282c"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112115500 +0100" stop="20260112120000 +0100">
     <title lang="fr">Météo de l'emploi</title>
     <desc lang="fr">Retrouvez les prévisions météreologiques locales pour le département de Vendée et le Pays de la Loire, ainsi que pour toute la France. </desc>
     <category lang="fr">Emissions d'actualité</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273130/7766a4a6ea0d4169b07454b8147cfdaa.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387412/7766a4a6ea0d4169b07454b8147cfdaa"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112120000 +0100" stop="20260112121500 +0100">
     <title lang="fr">L'atelier du bien-être</title>
     <desc lang="fr">Magazine de l'art de vivre, qui vous fait découvrir le style de vie haut de gamme, y compris les sujets de l'art et de la culture, de l'architecture, de l'élégance et de la beauté. </desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272798/b1f49465282b4916b026d8fc7dfd9065.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387256/b1f49465282b4916b026d8fc7dfd9065"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112121500 +0100" stop="20260112123000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272829/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387277/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112123000 +0100" stop="20260112124000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273031/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387364/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112124000 +0100" stop="20260112124500 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272881/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387296/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112124500 +0100" stop="20260112130500 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273046/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387370/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112130500 +0100" stop="20260112131500 +0100">
     <title lang="fr">Visage du sport</title>
     <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273156/e335a3f7be674d878acbda5c9360d2b8.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387427/e335a3f7be674d878acbda5c9360d2b8"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112131500 +0100" stop="20260112132500 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272840/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387281/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112132500 +0100" stop="20260112133000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272885/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387298/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112133000 +0100" stop="20260112134000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272962/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387329/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112134000 +0100" stop="20260112140000 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273081/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387390/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112140000 +0100" stop="20260112141500 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272980/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387338/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112141500 +0100" stop="20260112142000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272824/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387275/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112142000 +0100" stop="20260112143000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272914/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387305/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112143000 +0100" stop="20260112144000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273014/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387354/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112144000 +0100" stop="20260112150000 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273070/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387383/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112150000 +0100" stop="20260112151500 +0100">
     <title lang="fr">L'atelier du bien-être</title>
     <desc lang="fr">Magazine de l'art de vivre, qui vous fait découvrir le style de vie haut de gamme, y compris les sujets de l'art et de la culture, de l'architecture, de l'élégance et de la beauté. </desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272803/b1f49465282b4916b026d8fc7dfd9065.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387258/b1f49465282b4916b026d8fc7dfd9065"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112151500 +0100" stop="20260112153000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272819/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387273/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112153000 +0100" stop="20260112154000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273020/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387358/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112154000 +0100" stop="20260112160000 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273051/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387373/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112160000 +0100" stop="20260112161500 +0100">
     <title lang="fr">L'atelier du bien-être</title>
     <desc lang="fr">Magazine de l'art de vivre, qui vous fait découvrir le style de vie haut de gamme, y compris les sujets de l'art et de la culture, de l'architecture, de l'élégance et de la beauté. </desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272807/b1f49465282b4916b026d8fc7dfd9065.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387262/b1f49465282b4916b026d8fc7dfd9065"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112161500 +0100" stop="20260112162000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272857/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387287/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112162000 +0100" stop="20260112163000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272927/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387311/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112163000 +0100" stop="20260112164000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272975/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387336/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112164000 +0100" stop="20260112170000 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273063/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387379/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112170000 +0100" stop="20260112171500 +0100">
     <title lang="fr">L'atelier du bien-être</title>
     <desc lang="fr">Magazine de l'art de vivre, qui vous fait découvrir le style de vie haut de gamme, y compris les sujets de l'art et de la culture, de l'architecture, de l'élégance et de la beauté. </desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272805/b1f49465282b4916b026d8fc7dfd9065.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387260/b1f49465282b4916b026d8fc7dfd9065"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112171500 +0100" stop="20260112173000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272847/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387283/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112173000 +0100" stop="20260112174000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272953/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387323/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112174000 +0100" stop="20260112180000 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273039/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387367/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112180000 +0100" stop="20260112181500 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272995/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387345/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112181500 +0100" stop="20260112183000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272852/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387285/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112183000 +0100" stop="20260112185000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272969/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387333/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112185000 +0100" stop="20260112191500 +0100">
     <title lang="fr">85 Chrono : Vestiaire</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273107/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387400/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112191500 +0100" stop="20260112192000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272862/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387289/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112192000 +0100" stop="20260112193000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272895/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387301/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112193000 +0100" stop="20260112195000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273026/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387362/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112195000 +0100" stop="20260112201500 +0100">
     <title lang="fr">85 Chrono : Vestiaire</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273101/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387397/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112201500 +0100" stop="20260112202500 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272815/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387271/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112202500 +0100" stop="20260112203000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272874/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387294/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112203000 +0100" stop="20260112205000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272988/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387342/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112205000 +0100" stop="20260112211500 +0100">
     <title lang="fr">85 Chrono : Vestiaire</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273095/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387394/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112211500 +0100" stop="20260112213500 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273057/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387376/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112213500 +0100" stop="20260112215500 +0100">
     <title lang="fr">L'atelier du bien-être</title>
     <desc lang="fr">Magazine de l'art de vivre, qui vous fait découvrir le style de vie haut de gamme, y compris les sujets de l'art et de la culture, de l'architecture, de l'élégance et de la beauté. </desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272811/b1f49465282b4916b026d8fc7dfd9065.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387264/b1f49465282b4916b026d8fc7dfd9065"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112215500 +0100" stop="20260112221500 +0100">
     <title lang="fr">85 Chrono : Vestiaire</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273088/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387393/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112221500 +0100" stop="20260112223000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272834/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387279/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112223000 +0100" stop="20260112225000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273000/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387348/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112225000 +0100" stop="20260112231000 +0100">
     <title lang="fr">85 Chrono : Le terrain</title>
     <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
     <category lang="fr">Emissions sportives</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273075/f4a64d8cfe7f44a1acdb293728084e64.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387387/f4a64d8cfe7f44a1acdb293728084e64"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112231000 +0100" stop="20260112231500 +0100">
     <title lang="fr">Météo de l'emploi</title>
     <desc lang="fr">Retrouvez les prévisions météreologiques locales pour le département de Vendée et le Pays de la Loire, ainsi que pour toute la France. </desc>
     <category lang="fr">Emissions d'actualité</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403273124/7766a4a6ea0d4169b07454b8147cfdaa.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387409/7766a4a6ea0d4169b07454b8147cfdaa"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112231500 +0100" stop="20260112232000 +0100">
     <title lang="fr">La Vendée en direct</title>
     <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
     <category lang="fr">Autres émissions</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272869/29fbc7d36e9f443e8829570fe933d03f.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387291/29fbc7d36e9f443e8829570fe933d03f"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112232000 +0100" stop="20260112233000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272921/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387308/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112233000 +0100" stop="20260112235000 +0100">
     <title lang="fr">Le journal / Météo</title>
     <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
     <category lang="fr">Journal TV</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272958/20de8b946978466dba8a62765917f94d.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387326/20de8b946978466dba8a62765917f94d"/>
   </programme>
   <programme channel="TVVendee.fr" start="20260112235000 +0100" stop="20260113000000 +0100">
     <title lang="fr">Laissez-vous guider</title>
-    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <desc lang="fr">Aucune description</desc>
     <category lang="fr">Magazines</category>
-    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/403272907/273383fb561f4a9386a9ff964e047acd.jpg"/>
+    <icon src="https://resize.programme-television.org/portrait_broadcast_desktop_324_webp/images/imported/programs/404387303/273383fb561f4a9386a9ff964e047acd"/>
   </programme>
   <programme channel="TahitiNuiTV.fr" start="20260112000800 +0100" stop="20260112002900 +0100">
     <title lang="fr">Te ve'a</title>
@@ -112092,6 +112458,306 @@ Bulletin complet des événements de la journée, ainsi qu&amp;#039;un bloc de n
     <desc lang="fr">Aucune description</desc>
     <category lang="fr">Divertissement</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50542/canal-ouah/GEN169/TELE_CONGO_FALLBACK_AFR_16x9-OoYF"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112000000 +0100" stop="20260112002500 +0100">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/98C574F66E9F60416DD1F3717CABAF27.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112002500 +0100" stop="20260112005500 +0100">
+    <title lang="fr">1,2,3 Dansez</title>
+    <desc lang="fr">Chaque semaine, l'animateur Pierre-Yves Lombard et son chroniqueur programmateur Jérôme Richard reçoivent les meilleurs accordéonistes de France.</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/53ED777956B4B4231D862514C0FD2646.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112005500 +0100" stop="20260112010500 +0100">
+    <title lang="fr">38 à table !</title>
+    <desc lang="fr">Avec "38 à table", l'Isère régale ! Chaque jour, le Chef étoilé Stéphane Froidevaux - Le Fantin-Latour, Grenoble, se met aux fourneaux pour vous dévoiler quelques astuces pour sublimer les produits de l'Isère…</desc>
+    <category lang="fr">Art de vivre</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7FF848AFE67EAD2193EF941E9AAA71AC.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112010500 +0100" stop="20260112011500 +0100">
+    <title lang="fr">Extralucile</title>
+    <desc lang="fr">\" Extralucile \" : L'émission qui montre ce qu'on ne voit pas ! Lucile explore les talents droit au coeur, sur le terrain, avec malice et complicité.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86B3D73656EA095F2383FEFFB6EC0384.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112011500 +0100" stop="20260112012500 +0100">
+    <title lang="fr">Voyons voir !</title>
+    <desc lang="fr">Toute l'équipe propose de découvrir en 13 minutes les richesses et les temps forts de la région Auvergne-Rhône-Alpes, grâce à la rencontre avec des passionnés.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B3EC08168A4793C79ADDD04518CD43F0.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112012500 +0100" stop="20260112015500 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/13C2F7F78AC8B5E432E6B97D513FDE01.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112015500 +0100" stop="20260112021000 +0100">
+    <title lang="fr">L'actu région</title>
+    <desc lang="fr">Retrouvez chaque semaine l'actu de la Région à travers les reportages de vos 3 chaînes régionales : 8Montblanc, TL7 et TéléGrenoble.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FAFF5FB34E18A6A46996EA80C9FEDF19.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112021000 +0100" stop="20260112030000 +0100">
+    <title lang="fr">La panthère des neiges</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Nature</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/84D7F38263B36D1AE9090ADE2178ECE2.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112030000 +0100" stop="20260112035500 +0100">
+    <title lang="fr">Le chant de l'eau</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/48371DDDBA83109F9A9C57C21462A102.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112035500 +0100" stop="20260112051000 +0100">
+    <title lang="fr">Swissway to Heaven</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F3E9EC8FA7F6ADE3F800A73115713317.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112051000 +0100" stop="20260112060000 +0100">
+    <title lang="fr">Zikagre</title>
+    <desc lang="fr">Du lundi au vendredi regardez les clips de la playlist 100% locale de télégrenoble, à 10h et à 14h !</desc>
+    <category lang="fr">Musique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/C29C35DE1870D48FA7A338EA77314DB4.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112060000 +0100" stop="20260112061000 +0100">
+    <title lang="fr">38 à table !</title>
+    <desc lang="fr">Avec "38 à table", l'Isère régale ! Chaque jour, le Chef étoilé Stéphane Froidevaux - Le Fantin-Latour, Grenoble, se met aux fourneaux pour vous dévoiler quelques astuces pour sublimer les produits de l'Isère…</desc>
+    <category lang="fr">Art de vivre</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7FF848AFE67EAD2193EF941E9AAA71AC.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112061000 +0100" stop="20260112062000 +0100">
+    <title lang="fr">Extralucile</title>
+    <desc lang="fr">\" Extralucile \" : L'émission qui montre ce qu'on ne voit pas ! Lucile explore les talents droit au coeur, sur le terrain, avec malice et complicité.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/86B3D73656EA095F2383FEFFB6EC0384.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112062000 +0100" stop="20260112065000 +0100">
+    <title lang="fr">#IsèreMag</title>
+    <desc lang="fr">A la découverte de ceux qui font l'actu en Isère, en collaboration avec Isère Mag, le mag du département.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4B8D3EA22687E9A577E2CA95C3E0E1D8.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112065000 +0100" stop="20260112070500 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E12A2AB4BFEAF69D8DC2AA6170A0AE43.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112070500 +0100" stop="20260112071500 +0100">
+    <title lang="fr">Voyons voir !</title>
+    <desc lang="fr">Toute l'équipe propose de découvrir en 13 minutes les richesses et les temps forts de la région Auvergne-Rhône-Alpes, grâce à la rencontre avec des passionnés.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B3EC08168A4793C79ADDD04518CD43F0.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112071500 +0100" stop="20260112073000 +0100">
+    <title lang="fr">Visite guidée</title>
+    <desc lang="fr">Départ pour une visite au coeur d'un musée départemental...</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CCE03B0DB45BB529F182150F76735C86.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112073000 +0100" stop="20260112083000 +0100">
+    <title lang="fr">LE +</title>
+    <desc lang="fr">Chaque jour, Yann et Marie-Caroline vous en donnent + : un rendez-vous quotidien où l'actualité se vit en direct. Toutes les 30 minutes, retrouvez l'Actu du + et la météo des Isérois.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7DD390AFA45D68CFD5B3F42674020A8B.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112083000 +0100" stop="20260112085500 +0100">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/98C574F66E9F60416DD1F3717CABAF27.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112085500 +0100" stop="20260112093000 +0100">
+    <title lang="fr">1,2,3 Dansez</title>
+    <desc lang="fr">Chaque semaine, l'animateur Pierre-Yves Lombard et son chroniqueur programmateur Jérôme Richard reçoivent les meilleurs accordéonistes de France.</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/53ED777956B4B4231D862514C0FD2646.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112093000 +0100" stop="20260112100000 +0100">
+    <title lang="fr">Zikagre</title>
+    <desc lang="fr">Du lundi au vendredi regardez les clips de la playlist 100% locale de télégrenoble, à 10h et à 14h !</desc>
+    <category lang="fr">Musique</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CB77F9730BCA1A11AE4DB35D914A051D.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112100000 +0100" stop="20260112101500 +0100">
+    <title lang="fr">Visite guidée</title>
+    <desc lang="fr">Départ pour une visite au coeur d'un musée départemental...</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CCE03B0DB45BB529F182150F76735C86.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112101500 +0100" stop="20260112104000 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">En collaboration avec les chaînes de télévision et les rédactions de la presse locales, un tour des régions à la rencontre des acteurs de l'actualité.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E495CAF4EFC2707F1975DDAAAD4F2712.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112104000 +0100" stop="20260112111000 +0100">
+    <title lang="fr">#IsèreMag</title>
+    <desc lang="fr">A la découverte de ceux qui font l'actu en Isère, en collaboration avec Isère Mag, le mag du département.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/49DFB00BB5D9AA155A1CF5711C7CA366.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112111000 +0100" stop="20260112112000 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E12A2AB4BFEAF69D8DC2AA6170A0AE43.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112112000 +0100" stop="20260112113000 +0100">
+    <title lang="fr">38 à table !</title>
+    <desc lang="fr">Avec "38 à table", l'Isère régale ! Chaque jour, le Chef étoilé Stéphane Froidevaux - Le Fantin-Latour, Grenoble, se met aux fourneaux pour vous dévoiler quelques astuces pour sublimer les produits de l'Isère…</desc>
+    <category lang="fr">Art de vivre</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112113000 +0100" stop="20260112122000 +0100">
+    <title lang="fr">Alpes Décideurs</title>
+    <desc lang="fr">Dans Alpes Decideurs regardez Christophe Revil et ses invités qui vous déchiffrez le quotidien des chefs d'entreprise.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4B8D3EA22687E9A577E2CA95C3E0E1D8.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112122000 +0100" stop="20260112123000 +0100">
+    <title lang="fr">Voyons voir !</title>
+    <desc lang="fr">Toute l'équipe propose de découvrir en 13 minutes les richesses et les temps forts de la région Auvergne-Rhône-Alpes, grâce à la rencontre avec des passionnés.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B3EC08168A4793C79ADDD04518CD43F0.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112123000 +0100" stop="20260112133000 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/E12A2AB4BFEAF69D8DC2AA6170A0AE43.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112133000 +0100" stop="20260112140000 +0100">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/18B8CDE62857CCDC1E4A37B1FD4308BF.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112140000 +0100" stop="20260112143000 +0100">
+    <title lang="fr">1,2,3 Dansez</title>
+    <desc lang="fr">Chaque semaine, l'animateur Pierre-Yves Lombard et son chroniqueur programmateur Jérôme Richard reçoivent les meilleurs accordéonistes de France.</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/92E571DBFF813E9526EFB74799EE1A8F.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112143000 +0100" stop="20260112144500 +0100">
+    <title lang="fr">L'actu région</title>
+    <desc lang="fr">Retrouvez chaque semaine l'actu de la Région à travers les reportages de vos 3 chaînes régionales : 8Montblanc, TL7 et TéléGrenoble.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FAFF5FB34E18A6A46996EA80C9FEDF19.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112144500 +0100" stop="20260112151000 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">En collaboration avec les chaînes de télévision et les rédactions de la presse locales, un tour des régions à la rencontre des acteurs de l'actualité.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/F065F295B5C39A676B02916BE3B3F207.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112151000 +0100" stop="20260112152500 +0100">
+    <title lang="fr">Visite guidée</title>
+    <desc lang="fr">Départ pour une visite au coeur d'un musée départemental...</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/CCE03B0DB45BB529F182150F76735C86.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112152500 +0100" stop="20260112153500 +0100">
+    <title lang="fr">Voyons voir !</title>
+    <desc lang="fr">Toute l'équipe propose de découvrir en 13 minutes les richesses et les temps forts de la région Auvergne-Rhône-Alpes, grâce à la rencontre avec des passionnés.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A02489D0AB3A5991D252BE71C9D294F5.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112153500 +0100" stop="20260112160000 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/13C2F7F78AC8B5E432E6B97D513FDE01.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112160000 +0100" stop="20260112173000 +0100">
+    <title lang="fr">Cher cinéma de Jean-Claude Gallotta - 2025</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Spectacle</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2D8B405786CF09E5C7CA6948DC2A34AD.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112173000 +0100" stop="20260112175000 +0100">
+    <title lang="fr">C'est ta Cam'</title>
+    <desc lang="fr">"C'est ta cam" est un programme dédié à la découverte et à la promotion de productions audiovisuelles en lien avec notre territoire, qu'il s'agisse de films, de séries, de documentaires ou même de courts-métrages. Ce programme a pour objectif de donner de la visibilité à des talents qui sont venus présenter leurs projets à nos journalistes. Avec "C'est ta cam", TéléGrenoble stimule la production et la créativité locale !</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B98CFF357B54C6AB91A004FB3B8CFA22.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112175000 +0100" stop="20260112180000 +0100">
+    <title lang="fr">38 à table !</title>
+    <desc lang="fr">Avec "38 à table", l'Isère régale ! Chaque jour, le Chef étoilé Stéphane Froidevaux - Le Fantin-Latour, Grenoble, se met aux fourneaux pour vous dévoiler quelques astuces pour sublimer les produits de l'Isère…</desc>
+    <category lang="fr">Art de vivre</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112180000 +0100" stop="20260112185500 +0100">
+    <title lang="fr">LE +</title>
+    <desc lang="fr">Chaque jour, Yann et Marie-Caroline vous en donnent + : un rendez-vous quotidien où l'actualité se vit en direct. Toutes les 30 minutes, retrouvez l'Actu du + et la météo des Isérois.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/85EE6A0DF326B4DDCAF0107DE61CFC87.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112185500 +0100" stop="20260112190500 +0100">
+    <title lang="fr">Voyons voir !</title>
+    <desc lang="fr">Toute l'équipe propose de découvrir en 13 minutes les richesses et les temps forts de la région Auvergne-Rhône-Alpes, grâce à la rencontre avec des passionnés.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/B3EC08168A4793C79ADDD04518CD43F0.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112190500 +0100" stop="20260112192000 +0100">
+    <title lang="fr">Visite guidée</title>
+    <desc lang="fr">Départ pour une visite au coeur d'un musée départemental...</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4B8D3EA22687E9A577E2CA95C3E0E1D8.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112192000 +0100" stop="20260112193000 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/13C2F7F78AC8B5E432E6B97D513FDE01.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112193000 +0100" stop="20260112205500 +0100">
+    <title lang="fr">Déblayage</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Sport</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112205500 +0100" stop="20260112215500 +0100">
+    <title lang="fr">Grand Air</title>
+    <desc lang="fr">Prenez un grand bol d'air avec l'émission montagne de télégrenoble ! Thibault Leduc vous présente la montagne sous tous les angles, été comme hiver, avec de nombreux invités en plateau.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/85EE6A0DF326B4DDCAF0107DE61CFC87.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112215500 +0100" stop="20260112220500 +0100">
+    <title lang="fr">Voyons voir !</title>
+    <desc lang="fr">Toute l'équipe propose de découvrir en 13 minutes les richesses et les temps forts de la région Auvergne-Rhône-Alpes, grâce à la rencontre avec des passionnés.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A02489D0AB3A5991D252BE71C9D294F5.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112220500 +0100" stop="20260112221500 +0100">
+    <title lang="fr">Extralucile</title>
+    <desc lang="fr">\" Extralucile \" : L'émission qui montre ce qu'on ne voit pas ! Lucile explore les talents droit au coeur, sur le terrain, avec malice et complicité.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3AE6D03A599A3B4DC7338EBA2593DDB9.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112221500 +0100" stop="20260112225000 +0100">
+    <title lang="fr">Reportage Télé Grenoble</title>
+    <desc lang="fr">Le Meilleur des reportages de la Rédaction de Télé Grenoble Isère.</desc>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/13C2F7F78AC8B5E432E6B97D513FDE01.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112225000 +0100" stop="20260112230000 +0100">
+    <title lang="fr">38 à table !</title>
+    <desc lang="fr">Avec "38 à table", l'Isère régale ! Chaque jour, le Chef étoilé Stéphane Froidevaux - Le Fantin-Latour, Grenoble, se met aux fourneaux pour vous dévoiler quelques astuces pour sublimer les produits de l'Isère…</desc>
+    <category lang="fr">Art de vivre</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="TeleGrenobleIsere.fr" start="20260112230000 +0100" stop="20260113000000 +0100">
+    <title lang="fr">LE +</title>
+    <desc lang="fr">Chaque jour, Yann et Marie-Caroline vous en donnent + : un rendez-vous quotidien où l'actualité se vit en direct. Toutes les 30 minutes, retrouvez l'Actu du + et la météo des Isérois.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/85EE6A0DF326B4DDCAF0107DE61CFC87.jpg"/>
   </programme>
   <programme channel="TeleKreol.frdrom" start="20260112023000 +0100" stop="20260112023500 +0100">
     <title lang="fr">Horoscope</title>
@@ -116722,6 +117388,408 @@ Bulletin complet des événements de la journée, ainsi qu&amp;#039;un bloc de n
     <category lang="fr">Série</category>
     <episode-num>2.1.</episode-num>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fc7379ff8a943450ab1a3daba12878999.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112025900 +0100" stop="20260112041700 +0100">
+    <title lang="fr">Fitness</title>
+    <desc lang="fr">Votre programme fitness Top Santé TV : Bodyshaping Yoga fonctionnel</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.61.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F8063bf20fe9144db8a03d1c4b773bd4f.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112041700 +0100" stop="20260112044400 +0100">
+    <title lang="fr">Fitness stars</title>
+    <desc lang="fr">26 minutes de fun, de sports et de découvertes en compagnie de vos personnalités favorites. Malika Ménard, ancienne miss France 2010 ouvre le bal. Cette émission est dédiée au hit cardio</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F3f56398b92774df9a3fac54135673bf7.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112044400 +0100" stop="20260112060000 +0100">
+    <title lang="fr">Ma gym à la maison</title>
+    <desc lang="fr">Et si on remusclait ses fessiers depuis son canapé en regardant sa série préférée ? Retrouvez notre série "Gym à la maison" où notre coach sportive Loreleï vous a concocté 4 petits exercices pour muscler ses fessiers sans se prendre la tête.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F3f56398b92774df9a3fac54135673bf7.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112060000 +0100" stop="20260112061400 +0100">
+    <title lang="fr">Mieux entendre pour mieux vivre</title>
+    <desc lang="fr">L'émission consacrée au bien-être de vos oreilles, présentée par Aida Touihri et son équipe d'experts en plateau.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112061400 +0100" stop="20260112062800 +0100">
+    <title lang="fr">Objectif minceur</title>
+    <desc lang="fr">Caroline Costa, nous parle de sa perte de poids spectaculaire, 20kg en 3 mois. Un programme minceur efficace et validé, conçut pour tout le monde et pour tous les goûts.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.2.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F2e2637e556794acea74bf9bd274ffdb0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112062800 +0100" stop="20260112065100 +0100">
+    <title lang="fr">Vieillir heureux</title>
+    <desc lang="fr">Elle a été Marie Pervenche pendant des années à la télévision et l'épouse de Jacques Martin à la ville. Il y a 15 ans, la pétillante Danièle Evenou invitait les téléspectateurs de 30 Millions d'Amis à découvrir sa passion pour les chats persans.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.3.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112065100 +0100" stop="20260112073700 +0100">
+    <title lang="fr">Fais ton sport à la maison</title>
+    <desc lang="fr">Cet épisode de \" Fais ton Sport à la Maison \" ciblé sur les abdos et les jambes, vous permettra de vous dépenser dans des exercices guidés par Elsa Claude et Teric Teav. Facile à reproduire chez soi et sans équipements, vous ferez des squats mais aussi du touche talons pour renforcer vos muscles.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F6acdb9ddeec44065b4fa7d58384eafd9.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112073700 +0100" stop="20260112074800 +0100">
+    <title lang="fr">Super parents</title>
+    <desc lang="fr">Chaque semaine, Marina et son équipe accompagnent les jeunes parents dans leur quotidien avec bébé, en partageant conseils, astuces et témoignages. Au programme aujourd'hui : l'alimentation bio.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F9a9c6bdc3382423d8b9e371efe54f4d7.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112074800 +0100" stop="20260112075000 +0100">
+    <title lang="fr">Santé en confiance : Le cancer</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112075000 +0100" stop="20260112075900 +0100">
+    <title lang="fr">Christmas seum</title>
+    <desc lang="fr">En cette fin d'année, le père Noël a mal au dos, aux articulations, il tousse, il est épuisé… Et il l'exprime dans un clip intitulé \" Christmas Seum \"</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112075900 +0100" stop="20260112082900 +0100">
+    <title lang="fr">Talk Doctissimo</title>
+    <desc lang="fr">Dans cette émission, le docteur Gérald Kierzek donne la parole à ceux qui réussit leur sevrage tabagique grâce à la vape. Cette semaine, il reçoit Hamza Abid, coach sportif.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.3.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112082900 +0100" stop="20260112091500 +0100">
+    <title lang="fr">Tais-toi et fume !</title>
+    <desc lang="fr">Cette enquête met en lumière l'histoire et l'influence du sachet de nicotine, une alternative sans combustion à la cigarette classique, très populaire en Suède.</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112091500 +0100" stop="20260112094200 +0100">
+    <title lang="fr">Capital Santé</title>
+    <desc lang="fr">Jean-Claude durousseaud présente l'émission de Santé Capital Santé : Tout savoir sur le microbiote</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.12.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4c12131a8b304cffbe22337345959810.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112094200 +0100" stop="20260112094700 +0100">
+    <title lang="fr">Météo santé</title>
+    <desc lang="fr">Quels sont les impacts de la chaleur sur notre santé ? Virginie Hilssone décrypte les événements météorologiques et leurs effets sur notre organisme.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.11.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112094700 +0100" stop="20260112095000 +0100">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.49.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112095000 +0100" stop="20260112101000 +0100">
+    <title lang="fr">Claudia coach</title>
+    <desc lang="fr">Claudia vous donne des astuces et conseils pour reprendre des bonnes habitudes physiques et nutritionnelles pour bien commencer la rentrée</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.3.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F8063bf20fe9144db8a03d1c4b773bd4f.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112101000 +0100" stop="20260112113400 +0100">
+    <title lang="fr">Fais ton sport à la maison</title>
+    <desc lang="fr">Dans cet épisode, Guillaume et Sabrina animent une séance spéciale chaise axée sur le bas du corps. Avec des exercices pratiques et accessibles, ce training ludique travaille les jambes et fessiers tout en mobilisant les articulations.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>3.34.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F9945af2008c0405b81b64f122bef67b1.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112113400 +0100" stop="20260112113700 +0100">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.40.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112113700 +0100" stop="20260112114200 +0100">
+    <title lang="fr">Intox Detox</title>
+    <desc lang="fr">Intox Detox, le service de décodage de vos questions santé : la méditation de pleine conscience est-elle efficace contre l'anxiété et la dépression ?</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.18.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112114200 +0100" stop="20260112121600 +0100">
+    <title lang="fr">Bien dans ma tête</title>
+    <desc lang="fr">Frederique Courtadon et Serge Hefez repondent à vos questions de Santé : peur et phobies</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.25.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F0c89e96f4ff046c288b7531d29ad946b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112121600 +0100" stop="20260112123000 +0100">
+    <title lang="fr">Docteur, j'ai arrêté !</title>
+    <desc lang="fr">Dans cette émission, le docteur Gérald Kierzek donne la parole à ceux qui réussit leur sevrage tabagique grâce à la vape. Cette semaine, il reçoit Daria Levannier, une mère de famille et comédienne de doublage.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112123000 +0100" stop="20260112125300 +0100">
+    <title lang="fr">Vieillir heureux</title>
+    <desc lang="fr">Dans cette émission, Danielle Moreau perce les clés pour bien vieillir. Cette semaine, elle part à la rencontre de Macha Méril qui va nous dévoiler le secret pour rester en forme.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.2.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112125300 +0100" stop="20260112125800 +0100">
+    <title lang="fr">Météo santé</title>
+    <desc lang="fr">Quels sont les impacts de la pollution, en été, sur notre santé ? D'où vient-elle ? Virginie Hilssone décrypte les événements météorologiques et leurs effets sur notre organisme.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.7.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112125800 +0100" stop="20260112130900 +0100">
+    <title lang="fr">Les chefs vous mettent à table</title>
+    <desc lang="fr">Le chef Alix Guiet, vous accueille dans son restaurant Bleue Blanche Rouge à Versailles. Le chef allie le plaisir gustatif tout en respectant le bon équilibre des glucides grâce aux conseils du Pr Michel Pinget</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>1.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F618748909e8f4b968fa59d075bc3d411.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112130900 +0100" stop="20260112132200 +0100">
+    <title lang="fr">Les chefs vous mettent à table</title>
+    <desc lang="fr">Le chef Marc Meurin vous accueille dans son restaurant "L'atelier de Marc Meurin" à Lens. Il allie le plaisir gustatif tout en respectant le bon équilibre des lipides grâce aux conseils du Pr Michel Pinget</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>1.7.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F618748909e8f4b968fa59d075bc3d411.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112132200 +0100" stop="20260112134300 +0100">
+    <title lang="fr">Star Santé</title>
+    <desc lang="fr">Cette semaine, Sabrina Perquis reçoit Philippe Croizon pour revenir sur son parcours et son histoire singulière.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.2.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112134300 +0100" stop="20260112135800 +0100">
+    <title lang="fr">Super parents</title>
+    <desc lang="fr">Chaque semaine, Marina et son équipe accompagnent les jeunes parents dans leur quotidien avec bébé, en partageant conseils, astuces et témoignages. Au programme aujourd'hui : la DME.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.2.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F9a9c6bdc3382423d8b9e371efe54f4d7.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112135800 +0100" stop="20260112140900 +0100">
+    <title lang="fr">Objectif minceur</title>
+    <desc lang="fr">Cécile Houdart, diététicienne, nous conseille et nous déconseille sur certaines méthodes de prise de poids adoptées par des stars. Tout n'est pas bon à prendre et à suivre, elle nous dit tout.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.3.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F2e2637e556794acea74bf9bd274ffdb0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112140900 +0100" stop="20260112141900 +0100">
+    <title lang="fr">Santé en confiance : Le cancer</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112141900 +0100" stop="20260112142000 +0100">
+    <title lang="fr">Christmas seum</title>
+    <desc lang="fr">En cette fin d'année, le père Noël a mal au dos, aux articulations, il tousse, il est épuisé… Et il l'exprime dans un clip intitulé \" Christmas Seum \"</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112142000 +0100" stop="20260112145400 +0100">
+    <title lang="fr">Talk Doctissimo</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112145400 +0100" stop="20260112152500 +0100">
+    <title lang="fr">Tais-toi et fume !</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112152500 +0100" stop="20260112154000 +0100">
+    <title lang="fr">Bien dans mon corps</title>
+    <desc lang="fr">Vous aimez prendre soin de votre santé et vous faites attention à votre alimentation ? Cette émission vous donne les clés pour vous sentir mieux dans votre corps et votre esprit</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>1.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112154000 +0100" stop="20260112161900 +0100">
+    <title lang="fr">Claudia coach</title>
+    <desc lang="fr">Claudia vous donne des astuces et conseils pour reprendre des bonnes habitudes physiques et nutritionnelles pour bien commencer la rentrée</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.3.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F8063bf20fe9144db8a03d1c4b773bd4f.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112161900 +0100" stop="20260112164900 +0100">
+    <title lang="fr">Sport santé</title>
+    <desc lang="fr">Maxime Brami présente l'émission Sport Santé Technologie avec ses invités : Alain Valentin président général FSASPTT, Jacques Roussel médecin fédéral FSASPTT et Yosi Goasdoue champion de France semi-marathon</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.22.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112164900 +0100" stop="20260112170300 +0100">
+    <title lang="fr">Docteur, j'ai arrêté !</title>
+    <desc lang="fr">Dans cette émission, le docteur Gérald Kierzek donne la parole à ceux qui réussit leur sevrage tabagique grâce à la vape. Cette semaine, il reçoit Faitha Le Néannec, professeur au lycée.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.5.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112170300 +0100" stop="20260112171800 +0100">
+    <title lang="fr">La vape, et vous ?</title>
+    <desc lang="fr">La cigarette électronique est aujourd'hui soumise aux règles de la TPD : la directive européenne sur les produits du tabac. On fait le point sur les restrictions gouvernementales avec Julien DIDRY, vice-président de la région de la Meuse et William Lowstein médecin et addictologue.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>1.14.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112171800 +0100" stop="20260112174200 +0100">
+    <title lang="fr">Zoom sur...</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.4.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112174200 +0100" stop="20260112180800 +0100">
+    <title lang="fr">Parlons bien-être</title>
+    <desc lang="fr">Annabelle Naudeau se rend au centre Elite Stimulation dans le 8e arrondissement de Paris pour découvrir l'EMS (l'Electro Myo Stimulation) avec Charlie.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112180800 +0100" stop="20260112181200 +0100">
+    <title lang="fr">Intox Detox</title>
+    <desc lang="fr">Intox Detox, le service de décodage de vos questions santé : est-il vrai qu'il faut éviter les siestes longues ?</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.19.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112181200 +0100" stop="20260112181400 +0100">
+    <title lang="fr">Dr Sport</title>
+    <desc lang="fr">Comment réaliser un strapping pour une entorse d'un orteil ?</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.6.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112181400 +0100" stop="20260112182400 +0100">
+    <title lang="fr">Tous pour la santé</title>
+    <desc lang="fr">Et si une crise en cachait une autre ?</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112182400 +0100" stop="20260112182600 +0100">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.35.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112182600 +0100" stop="20260112191200 +0100">
+    <title lang="fr">Fais ton sport à la maison</title>
+    <desc lang="fr">Dans cet épisode de "Fais ton sport à la maison", place à un entraînement full body accessible et dynamique. Échauffement complet, respiration, mobilité et bonne humeur sont au programme. Préparez votre tapis, hydratez-vous et c'est parti !</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>4.38.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F81cc0093329b46fe8668efc7b720ecca.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112191200 +0100" stop="20260112191700 +0100">
+    <title lang="fr">Météo santé</title>
+    <desc lang="fr">Quels sont les impacts de la pollution, en été, sur notre santé ? D'où vient-elle ? Virginie Hilssone décrypte les événements météorologiques et leurs effets sur notre organisme.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.12.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112191700 +0100" stop="20260112194400 +0100">
+    <title lang="fr">Capital Santé</title>
+    <desc lang="fr">Jean-Claude durousseaud présente l'émission de Santé Capital Santé : Demain, tous infertiles ?</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.27.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4c12131a8b304cffbe22337345959810.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112194400 +0100" stop="20260112201700 +0100">
+    <title lang="fr">Bien dans ma tête</title>
+    <desc lang="fr">Frederique Courtadon et Serge Hefez repondent à vos questions de Santé : La clef de la réussite en amour.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.16.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F0c89e96f4ff046c288b7531d29ad946b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112201700 +0100" stop="20260112204100 +0100">
+    <title lang="fr">Star Santé</title>
+    <desc lang="fr">Cette semaine, Sabrina Perquis reçoit Julie Bourges alias "DouzeFévrier" qui revient sur son terrible accident et son expérience de grande brûlée.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>1.3.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112204100 +0100" stop="20260112205000 +0100">
+    <title lang="fr">Santé en confiance : Le cancer</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112205000 +0100" stop="20260112205200 +0100">
+    <title lang="fr">Christmas seum</title>
+    <desc lang="fr">En cette fin d'année, le père Noël a mal au dos, aux articulations, il tousse, il est épuisé… Et il l'exprime dans un clip intitulé \" Christmas Seum \"</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112205200 +0100" stop="20260112213200 +0100">
+    <title lang="fr">Talk Doctissimo</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112213200 +0100" stop="20260112220500 +0100">
+    <title lang="fr">Tais-toi et fume !</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fbf3762882a154b49a6805ac1aabfdd45.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112220500 +0100" stop="20260112222000 +0100">
+    <title lang="fr">Docteur, j'ai arrêté !</title>
+    <desc lang="fr">Dans cette émission rétrospective, le docteur Gérald Kierek reçoit David Hanin, expert vape depuis plus d'une décennie, pour revenir sur les précédentes émissions.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112222000 +0100" stop="20260112223500 +0100">
+    <title lang="fr">Bien dans mon corps</title>
+    <desc lang="fr">Vous aimez prendre soin de votre santé et vous faites attention à votre alimentation ? Cette émission vous donne les clés pour vous sentir mieux dans votre corps et votre esprit</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>1.1.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112223500 +0100" stop="20260112230000 +0100">
+    <title lang="fr">Sport santé</title>
+    <desc lang="fr">Maxime Brami présente l'émission Sport Santé Technologie avec ses invités : Mobby et le Teqball</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.28.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Fe542b0642ab3443aaa5ffa34bcfe6ba0.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112230000 +0100" stop="20260112230300 +0100">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.33.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F43ea49bf892042358f67cbc94df6ff7a.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112230300 +0100" stop="20260112230700 +0100">
+    <title lang="fr">Dr Sport</title>
+    <desc lang="fr">Comment réaliser un kinésio tape pour une inflammation du tendon d'Achille à l'arrière du pied ?</desc>
+    <category lang="fr">Magazine</category>
+    <episode-num>0.7.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F4a3bd0ab1df54aefb33320c80c07b20b.jpg"/>
+  </programme>
+  <programme channel="TopSanteTV.fr" start="20260112230700 +0100" stop="20260113025900 +0100">
+    <title lang="fr">Faites le 15</title>
+    <desc lang="fr">Un focus sur les membres du personnel du SAMU, qui sont bien souvent, avec les urgences, le seul recours médical pour la population de l'Hexagone.</desc>
+    <category lang="fr">Documentaire</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F8f164671fc0d41fdbf741d4cf1f0713f.jpg"/>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260112002900 +0100" stop="20260112012400 +0100">
     <title lang="fr">Les secrets du château de Chantilly</title>
