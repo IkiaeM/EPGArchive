@@ -2,12 +2,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict
 from lxml import etree
-import logging
 
 from .models import Programme, Channel
 from .utils import parse_xmltv_datetime, format_xmltv_datetime
-
-logger = logging.getLogger(__name__)
 
 
 class XMLTVExporter:
@@ -18,7 +15,6 @@ class XMLTVExporter:
     
     def export_by_day(self, programmes: List[Programme], channels: List[Channel]):
         if not programmes:
-            logger.warning("No programmes to export")
             return
         
         by_date = {}
@@ -100,8 +96,6 @@ class XMLTVExporter:
             xml_declaration=True,
             pretty_print=True
         )
-        
-        logger.debug(f"Exported {len(programmes)} programmes and {len(channels)} channels to {file_path}")
     
     def _format_datetime(self, dt: datetime) -> str:
         return format_xmltv_datetime(dt)
@@ -159,8 +153,7 @@ class XMLTVExporter:
             
             return existing
             
-        except Exception as e:
-            logger.error(f"Error loading existing programmes from {file_path}: {e}")
+        except Exception:
             return {}
     
     def _parse_datetime(self, dt_str: str) -> datetime:
@@ -180,8 +173,7 @@ class XMLTVExporter:
                 tree = etree.parse(str(file))
                 root = tree.getroot()
                 total_programmes += len(root.findall('programme'))
-            except Exception as e:
-                logger.error(f"Error reading {file}: {e}")
+            except Exception:
                 continue
         
         first_date = files[0].stem
@@ -197,6 +189,7 @@ class XMLTVExporter:
         existing = self.load_existing_programmes(date_key)
         
         merged = {}
+        updated_count = 0
         
         for prog in new_programmes:
             key = (prog.channel, prog.start, prog.stop)
@@ -206,7 +199,7 @@ class XMLTVExporter:
                 if (old_prog.title != prog.title or 
                     old_prog.description != prog.description or
                     old_prog.category != prog.category):
-                    logger.info(f"Updating programme: {prog.title} on {prog.channel} at {prog.start}")
+                    updated_count += 1
                     merged[key] = prog
                 else:
                     merged[key] = old_prog
@@ -216,5 +209,9 @@ class XMLTVExporter:
         for key, prog in existing.items():
             if key not in merged:
                 merged[key] = prog
+        
+        if updated_count > 0:
+            from .console import console
+            console.print(f"[dim]  → Updated {updated_count} programmes for {date_key}[/dim]")
         
         return list(merged.values())

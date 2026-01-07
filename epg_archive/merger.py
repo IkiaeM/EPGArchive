@@ -1,11 +1,8 @@
 from typing import List, Dict, Tuple
 from collections import defaultdict
 from datetime import datetime
-import logging
 
 from .models import Programme
-
-logger = logging.getLogger(__name__)
 
 
 class EPGMerger:
@@ -77,10 +74,6 @@ class EPGMerger:
             else:
                 best = self._select_best_programme(similar_group)
                 merged.append(best)
-                logger.debug(
-                    f"Merged {len(similar_group)} similar programmes: '{best.title}' "
-                    f"on {best.channel} at {best.start.strftime('%H:%M')}"
-                )
             
             # Skip all programmes in the similar group
             i += len(similar_group)
@@ -110,17 +103,9 @@ class EPGMerger:
                     if current.source_priority < accepted.source_priority:
                         # Current has better priority, remove accepted and add current
                         cleaned.remove(accepted)
-                        logger.debug(
-                            f"Replaced '{accepted.title}' ({accepted.start.strftime('%H:%M')}) "
-                            f"with '{current.title}' ({current.start.strftime('%H:%M')}) - better priority"
-                        )
                     else:
                         # Accepted has better priority, skip current
                         overlaps_with_accepted = True
-                        logger.debug(
-                            f"Skipped '{current.title}' ({current.start.strftime('%H:%M')}) - "
-                            f"overlaps with '{accepted.title}' (lower priority)"
-                        )
                         break
             
             if not overlaps_with_accepted:
@@ -145,7 +130,6 @@ class EPGMerger:
             if vote_counts[0][1] >= 2:
                 winning_title = vote_counts[0][0]
                 candidates = title_votes[winning_title]
-                logger.debug(f"Consensus found: {vote_counts[0][1]} sources agree on '{winning_title}'")
             else:
                 candidates = programmes
         else:

@@ -11,12 +11,9 @@ import re
 import unicodedata
 from typing import List, Dict, Tuple
 from collections import defaultdict
-import logging
 
 from .models import Channel, Programme
 from .overlap_detector import validate_channel_merge
-
-logger = logging.getLogger(__name__)
 
 
 def normalize_channel_name(name: str) -> str:
@@ -145,10 +142,9 @@ class ChannelNormalizer:
                 if programmes:
                     is_valid, reason = validate_channel_merge(channel_ids, programmes, max_overlap_percent=15.0)
                     if not is_valid:
+                        from .console import console
                         merged_names = [ch.display_name for ch in channel_group]
-                        logger.warning(
-                            f"Skipping merge of {merged_names}: {reason}"
-                        )
+                        console.print(f"[dim yellow]   Skipping merge of {merged_names}: {reason}[/dim yellow]")
                         should_merge = False
                 
                 if should_merge:
@@ -161,12 +157,6 @@ class ChannelNormalizer:
                     # Map all channel IDs to the canonical one
                     for channel in channel_group:
                         self.channel_mapping[channel.id] = canonical_id
-                        
-                    merged_names = [ch.display_name for ch in channel_group]
-                    logger.debug(
-                        f"Merged {len(channel_group)} channels into '{best_channel.display_name}': "
-                        f"{merged_names}"
-                    )
                 else:
                     # Don't merge - keep channels separate
                     for channel in channel_group:
@@ -250,7 +240,5 @@ def merge_duplicate_channels(
     
     # Logging is handled by the orchestrator for consistent UI
     merged_count = len(channels) - len(unique_channels)
-    if merged_count > 0:
-        logger.debug(f"Merged {merged_count} duplicate channels ({len(channels)} → {len(unique_channels)})")
     
     return unique_channels, normalized_programmes, mapping

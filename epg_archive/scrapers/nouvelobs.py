@@ -1,7 +1,6 @@
 """Scraper for programme-tv.nouvelobs.com archives."""
 
 import asyncio
-import logging
 import re
 from datetime import datetime, date, timedelta
 from pathlib import Path
@@ -14,8 +13,6 @@ from ..console import console, print_source_status, create_progress
 from rich.table import Table
 from rich import box
 from ..utils import PARIS_TZ
-
-logger = logging.getLogger(__name__)
 
 BASE_URL = "https://programme-tv.nouvelobs.com"
 ARCHIVE_START_DATE = date(2024, 1, 1)
@@ -76,8 +73,7 @@ class NouvelObsScraper:
             response = await client.get(url)
             response.raise_for_status()
             return response.text
-        except Exception as e:
-            logger.debug(f"Error fetching {url}: {e}")
+        except Exception:
             return None
     
     def parse_time_slot_page(

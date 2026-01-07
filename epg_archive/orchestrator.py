@@ -1,5 +1,4 @@
 import asyncio
-import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 
@@ -12,8 +11,6 @@ from .console import console, create_progress, print_source_status, print_summar
 from .scrapers import NouvelObsScraper
 from .channel_normalizer import merge_duplicate_channels
 from .overlap_detector import log_overlap_summary
-
-logger = logging.getLogger(__name__)
 
 
 class EPGOrchestrator:
@@ -82,7 +79,6 @@ class EPGOrchestrator:
                 sources_ok += 1
                 
             except Exception as e:
-                logger.error(f"Error parsing {source.name}: {e}")
                 print_source_status(source.name, "error", str(e))
                 sources_failed += 1
         
@@ -102,12 +98,11 @@ class EPGOrchestrator:
                     if programmes:
                         sources_ok += 1
             except Exception as e:
-                logger.error(f"Error scraping {html_source.get('name')}: {e}")
                 print_source_status(html_source.get("name", "HTML source"), "error", str(e))
                 sources_failed += 1
         
         if not all_programmes:
-            logger.warning("No programmes fetched from any source")
+            console.print("[yellow]No programmes fetched from any source[/yellow]")
             return None
         
         programmes_before = len(all_programmes)
@@ -140,12 +135,12 @@ class EPGOrchestrator:
                 by_date[date_key] = []
             by_date[date_key].append(prog)
         
-        console.print(f"[dim]Exporting {len(by_date)} days to archive...[/dim]")
-        
-        for date_key, progs in by_date.items():
-            self.exporter.merge_with_existing(date_key, progs)
-        
-        self.exporter.export_by_day(merged_programmes, channels_list)
+        console.print()
+        with console.status(f"[cyan]Exporting {len(by_date)} days to archive...[/cyan]"):
+            for date_key, progs in by_date.items():
+                self.exporter.merge_with_existing(date_key, progs)
+            
+            self.exporter.export_by_day(merged_programmes, channels_list)
         
         stats = self.exporter.get_archive_stats()
         

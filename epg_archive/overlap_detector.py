@@ -8,11 +8,8 @@ were incorrectly merged together.
 from typing import List, Dict, Set, Tuple
 from collections import defaultdict
 from datetime import datetime
-import logging
 
 from .models import Programme
-
-logger = logging.getLogger(__name__)
 
 
 def detect_overlaps(programmes: List[Programme]) -> Dict[str, List[Tuple[Programme, Programme]]]:
@@ -137,33 +134,15 @@ def log_overlap_summary(programmes: List[Programme]) -> None:
     """
     Log a summary of programme overlaps for debugging.
     """
+    from .console import console
+    
     overlaps = detect_overlaps(programmes)
     
     if not overlaps:
-        logger.debug("No programme overlaps detected")
         return
     
     total_overlaps = sum(len(pairs) for pairs in overlaps.values())
     affected_channels = len(overlaps)
     
-    logger.warning(
-        f"Found {total_overlaps} programme overlaps across {affected_channels} channels"
-    )
-    
-    # Log details for worst offenders
-    worst_channels = sorted(
-        overlaps.items(), 
-        key=lambda x: len(x[1]), 
-        reverse=True
-    )[:5]
-    
-    for channel_id, pairs in worst_channels:
-        logger.warning(f"  {channel_id}: {len(pairs)} overlaps")
-        # Log first overlap as example
-        if pairs:
-            prog1, prog2 = pairs[0]
-            overlap_mins = (prog1.stop - prog2.start).total_seconds() / 60
-            logger.warning(
-                f"    Example: '{prog1.title}' ({prog1.start.strftime('%H:%M')}-{prog1.stop.strftime('%H:%M')}) "
-                f"overlaps '{prog2.title}' ({prog2.start.strftime('%H:%M')}) by {overlap_mins:.0f}min"
-            )
+    if total_overlaps > 0:
+        console.print(f"[dim yellow]⚠ Found {total_overlaps} programme overlaps across {affected_channels} channels[/dim yellow]")
