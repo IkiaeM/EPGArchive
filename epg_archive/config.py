@@ -32,14 +32,14 @@ class Config:
             ],
             "sources": [
                 {
-                    "name": "EPG.pw",
-                    "url": "https://epg.pw/xmltv/epg_FR.xml",
+                    "name": "XMLTV.fr",
+                    "url": "https://xmltvfr.fr/xmltv/xmltv.xml",
                     "priority": 5,
                     "enabled": True
                 },
                 {
-                    "name": "XMLTV.fr",
-                    "url": "https://xmltvfr.fr/xmltv/xmltv.xml",
+                    "name": "EPG.pw",
+                    "url": "https://epg.pw/xmltv/epg_FR.xml",
                     "priority": 6,
                     "enabled": True
                 }

@@ -11,12 +11,12 @@ json_sources:
 
 # XMLTV sources (priority 5-6)
 sources:
-  - name: EPG.pw
-    url: https://epg.pw/xmltv/epg_FR.xml
-    priority: 5
-    enabled: true
   - name: XMLTV.fr
     url: https://xmltvfr.fr/xmltv/xmltv.xml
+    priority: 5
+    enabled: true
+  - name: EPG.pw
+    url: https://epg.pw/xmltv/epg_FR.xml
     priority: 6
     enabled: true
 

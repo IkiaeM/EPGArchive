@@ -13,6 +13,7 @@ from rich.table import Table
 from rich import box
 
 BASE_URL = "https://api.oqee.net/api/v1/epg/all"
+SERVICE_PLAN_URL = "https://api.oqee.net/api/v6/service_plan"
 DAYS_BACK = 7
 DAYS_FORWARD = 14
 
@@ -26,6 +27,7 @@ class OQEEScraper:
         self.source_name = "OQEE"
         self.timeout = 30
         self._channel_cache: Dict[str, Channel] = {}
+        self._channel_info: Dict[str, dict] = {}
     
     def get_existing_dates(self) -> Set[str]:
         """Get dates already present in archive (supports year-based folders)."""
@@ -68,6 +70,27 @@ class OQEEScraper:
             timestamps.append(ts)
         
         return timestamps
+    
+    async def fetch_channel_info(self, client: httpx.AsyncClient) -> None:
+        """Fetch channel names and icons from service_plan API."""
+        if self._channel_info:
+            return
+        
+        try:
+            response = await client.get(SERVICE_PLAN_URL)
+            response.raise_for_status()
+            data = response.json()
+            
+            if data.get("success"):
+                channels = data.get("result", {}).get("channels", {})
+                for ch_id, info in channels.items():
+                    self._channel_info[ch_id] = {
+                        "name": info.get("name", f"Channel {ch_id}"),
+                        "icon": info.get("icon_dark") or info.get("icon_light"),
+                    }
+                console.print(f"[dim]   Loaded {len(self._channel_info)} channel names from OQEE[/dim]")
+        except Exception as e:
+            console.print(f"[yellow]   Warning: Could not fetch channel names: {e}[/yellow]")
     
     async def fetch_hour(self, client: httpx.AsyncClient, timestamp: int) -> Optional[dict]:
         """Fetch EPG data for a single hour."""
@@ -148,10 +171,16 @@ class OQEEScraper:
                     channel_id = self._normalize_channel_id(oqee_ch_id)
                     
                     if channel_id not in self._channel_cache:
+                        ch_info = self._channel_info.get(oqee_ch_id, {})
+                        display_name = ch_info.get("name", f"Channel {oqee_ch_id}")
+                        icon_url = ch_info.get("icon")
+                        if icon_url:
+                            icon_url = icon_url.replace("%d", "256")
+                        
                         channel = Channel(
                             id=channel_id,
-                            display_name=f"Channel {oqee_ch_id}",
-                            icon=None
+                            display_name=display_name,
+                            icon=icon_url
                         )
                         self._channel_cache[channel_id] = channel
                     
@@ -192,13 +221,15 @@ class OQEEScraper:
         console.print()
         console.print("[bold cyan]📡 OQEE API Scraper[/bold cyan]")
         console.print(f"[dim]   Fetching {total_days} days: {available_dates[0]} → {available_dates[-1]}[/dim]")
-        console.print()
         
         async with httpx.AsyncClient(
             timeout=self.timeout,
             follow_redirects=True,
             headers={"User-Agent": "EPGArchive/1.0"}
         ) as client:
+            await self.fetch_channel_info(client)
+            console.print()
+            
             with create_progress() as progress:
                 task = progress.add_task(
                     "[cyan]Scraping OQEE...", 

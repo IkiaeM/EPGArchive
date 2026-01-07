@@ -41,7 +41,8 @@ class EPGOrchestrator:
         return None
     
     async def run(self) -> Optional[Dict[str, Any]]:
-        console.print(f"[dim]Starting update with {len(self.sources)} sources...[/dim]")
+        total_sources = len(self.sources) + len([s for s in self.html_sources if s.get('enabled')]) + len([s for s in self.json_sources if s.get('enabled')])
+        console.print(f"[dim]Starting update with {total_sources} sources...[/dim]")
         
         all_programmes: List[Programme] = []
         all_channels: List[Channel] = []
