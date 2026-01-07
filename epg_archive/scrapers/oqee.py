@@ -193,51 +193,10 @@ class OQEEScraper:
             
             await asyncio.sleep(0.05)
         
-        # Filter out channels with only "This Channel Is Now Closed" programmes
-        programmes = list(all_programmes.values())
-        channels_to_exclude = self._find_closed_channels(programmes)
-        
-        if channels_to_exclude:
-            programmes = [p for p in programmes if p.channel not in channels_to_exclude]
-            for ch_id in channels_to_exclude:
-                self._channel_cache.pop(ch_id, None)
-        
         channels = list(self._channel_cache.values())
+        programmes = list(all_programmes.values())
         
         return channels, programmes
-    
-    def _find_closed_channels(self, programmes: List[Programme]) -> Set[str]:
-        """Find channels that only have 'This Channel Is Now Closed' programmes."""
-        from collections import defaultdict
-        
-        closed_phrases = [
-            "this channel is now closed",
-            "channel closed",
-            "chaîne fermée",
-        ]
-        
-        # Group programmes by channel
-        by_channel: Dict[str, List[Programme]] = defaultdict(list)
-        for prog in programmes:
-            by_channel[prog.channel].append(prog)
-        
-        # Find channels where all programmes are "closed" messages
-        channels_to_exclude = set()
-        for channel_id, progs in by_channel.items():
-            if not progs:
-                continue
-            
-            all_closed = True
-            for prog in progs:
-                title_lower = prog.title.lower() if prog.title else ""
-                if not any(phrase in title_lower for phrase in closed_phrases):
-                    all_closed = False
-                    break
-            
-            if all_closed:
-                channels_to_exclude.add(channel_id)
-        
-        return channels_to_exclude
     
     async def scrape_all_days(
         self, 
@@ -299,13 +258,6 @@ class OQEEScraper:
                     )
         
         unique_channels = list({ch.id: ch for ch in all_channels}.values())
-        
-        # Filter out closed channels from final results
-        closed_channels = self._find_closed_channels(all_programmes)
-        if closed_channels:
-            console.print(f"[dim]   Filtered {len(closed_channels)} closed channels[/dim]")
-            all_programmes = [p for p in all_programmes if p.channel not in closed_channels]
-            unique_channels = [ch for ch in unique_channels if ch.id not in closed_channels]
         
         self._print_scrape_summary(daily_stats, unique_channels, all_programmes)
         

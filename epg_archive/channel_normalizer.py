@@ -9,11 +9,21 @@ Handles cases like:
 
 import re
 import unicodedata
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Set
 from collections import defaultdict
 
 from .models import Channel, Programme
 from .overlap_detector import validate_channel_merge
+
+
+# Phrases indicating a closed/dead channel - filter these out
+CLOSED_CHANNEL_PHRASES = [
+    "this channel is now closed",
+    "channel closed",
+    "chaîne fermée",
+    "arrêt de la chaîne",
+    "arret de la chaine",
+]
 
 
 def normalize_channel_name(name: str) -> str:
@@ -248,18 +258,56 @@ class ChannelNormalizer:
         return normalized
 
 
+def find_closed_channels(programmes: List[Programme]) -> Set[str]:
+    """
+    Find channels that only have 'closed channel' placeholder programmes.
+    These channels should be filtered out from all sources.
+    """
+    # Group programmes by channel
+    by_channel: Dict[str, List[Programme]] = defaultdict(list)
+    for prog in programmes:
+        by_channel[prog.channel].append(prog)
+    
+    # Find channels where all programmes are "closed" messages
+    channels_to_exclude = set()
+    for channel_id, progs in by_channel.items():
+        if not progs:
+            continue
+        
+        all_closed = True
+        for prog in progs:
+            title_lower = prog.title.lower() if prog.title else ""
+            if not any(phrase in title_lower for phrase in CLOSED_CHANNEL_PHRASES):
+                all_closed = False
+                break
+        
+        if all_closed:
+            channels_to_exclude.add(channel_id)
+    
+    return channels_to_exclude
+
+
 def merge_duplicate_channels(
     channels: List[Channel], 
     programmes: List[Programme]
 ) -> Tuple[List[Channel], List[Programme], Dict[str, str]]:
     """
     Convenience function to normalize channels and programmes.
+    Also filters out closed/dead channels from all sources.
     
     Returns:
         - Deduplicated channels
         - Programmes with updated channel IDs
         - Channel ID mapping
     """
+    # First, filter out closed channels
+    closed_channels = find_closed_channels(programmes)
+    if closed_channels:
+        from .console import console
+        console.print(f"[dim]   Filtered {len(closed_channels)} closed channels[/dim]")
+        programmes = [p for p in programmes if p.channel not in closed_channels]
+        channels = [ch for ch in channels if ch.id not in closed_channels]
+    
     normalizer = ChannelNormalizer()
     
     # Pass programmes to validate merges

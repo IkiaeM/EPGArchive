@@ -56,10 +56,6 @@
     <display-name>Auto Plus TV</display-name>
     <icon src="https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png"/>
   </channel>
-  <channel id="BET.fr">
-    <display-name>BET</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1960.png"/>
-  </channel>
   <channel id="BFM2.fr">
     <display-name>BFM 2</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300BFM2coul.png"/>
@@ -308,10 +304,6 @@
     <display-name>France 5</display-name>
     <icon src="https://static.teleboy.ch/shared/stations/80/icon320_light.png?v2023_48_0"/>
   </channel>
-  <channel id="GameOne.fr">
-    <display-name>Game One</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-87.png"/>
-  </channel>
   <channel id="GongMax.fr">
     <display-name>GongMax</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-621.png"/>
@@ -355,10 +347,6 @@
   <channel id="MTV.fr">
     <display-name>MTV</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-128.png"/>
-  </channel>
-  <channel id="MTVHits.fr">
-    <display-name>MTV Hits</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/MTVHITSlogonoir100x100.png"/>
   </channel>
   <channel id="Mangas.fr">
     <display-name>Mangas</display-name>
@@ -443,10 +431,6 @@
   <channel id="ProSieben.de">
     <display-name>ProSieben</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/ProSieben_color.png"/>
-  </channel>
-  <channel id="PublicSenat.fr">
-    <display-name>Public Sénat</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/publicsenat-100x100.png"/>
   </channel>
   <channel id="RMCAlerteSecours.fr">
     <display-name>RMC Alerte Secours</display-name>
@@ -944,6 +928,10 @@
     <display-name>La Chaîne Météo</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1234/w256"/>
   </channel>
+  <channel id="oqee.153">
+    <display-name>MTV Hits</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/2700/w256"/>
+  </channel>
   <channel id="oqee.16">
     <display-name>GONG</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/1091/w256"/>
@@ -991,6 +979,10 @@
   <channel id="oqee.264">
     <display-name>France 3 NoA</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2256/w256"/>
+  </channel>
+  <channel id="oqee.289">
+    <display-name>Game One</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3337/w256"/>
   </channel>
   <channel id="oqee.291">
     <display-name>Automoto</display-name>
@@ -1131,6 +1123,10 @@
   <channel id="oqee.567">
     <display-name>LCP - Assemblée Nationale 24h/24</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/1309/w256"/>
+  </channel>
+  <channel id="oqee.569">
+    <display-name>Public Sénat</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/928/w256"/>
   </channel>
   <channel id="oqee.577">
     <display-name>TV8 International</display-name>
@@ -1312,6 +1308,10 @@
     <display-name>Stingray Festival 4K</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1102/w256"/>
   </channel>
+  <channel id="oqee.98">
+    <display-name>BET</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/2702/w256"/>
+  </channel>
   <programme channel="01TV.fr" start="20251230230000 +0100" stop="20251231063000 +0100">
     <title lang="fr">Tech &amp; Co, la quotidienne</title>
     <desc lang="fr">Innovations, les grandes levées de fonds, les prouesses technologiques, enjeux digitaux : chaque soir, tous les acteurs qui font vivre le monde de la tech se donnent rendez-vous sur le plateau de Tech &amp; Co pour décrypter et analyser les dernières actualités aux côtés de François Sorel.</desc>
@@ -1380,11 +1380,6 @@
     <title lang="fr">Essai</title>
     <desc lang="fr">Une nouvelle motorisation hybride est disponible sur la Fiat Tipo mais les prix montent... L'Italienne est-elle encore si bien placée sur le marché ?</desc>
     <category lang="fr">Magazine / Magazine de l'automobile</category>
-  </programme>
-  <programme channel="BET.fr" start="20251230232500 +0100" stop="20251231001500 +0100">
-    <title lang="fr">Love &amp; Hip Hop Atlanta - S02E08</title>
-    <desc lang="fr">Stevie veut que Joseline s'excuse, mais elle est trop jalouse. Shay regrette d'avoir accepté le retour de Scrappy dans sa vie. Kirk interrompt le photoshoot de Rasheeda.</desc>
-    <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="BFM2.fr" start="20251230223000 +0100" stop="20251231070000 +0100">
     <title lang="fr">La nuit BFM2</title>
@@ -1696,11 +1691,6 @@
     <desc lang="fr">Caroline Roux (du lundi au jeudi) et Aurélie Casse (le vendredi et le samedi) décryptent en direct l'actualité en compagnie de quatre experts. En fin d'émission, ceux-ci répondent aux questions des téléspectateurs.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251230235500 +0100" stop="20251231005000 +0100">
-    <title lang="fr">Jouer, apprendre</title>
-    <desc lang="fr">Un documentaire qui tente de comprendre dans quelle mesure les jeux vidéo peuvent beaucoup apprendre aux joueurs, en termes de connaissances mais aussi de compétences physiologiques ou neurologiques. Avec Pierre Boulay.</desc>
-    <category lang="fr">Documentaire / Documentaire multimédia</category>
-  </programme>
   <programme channel="GongMax.fr" start="20251230233000 +0100" stop="20251231003000 +0100">
     <title lang="fr">Whisper - S01E09</title>
     <desc lang="fr">Une inspectrice de police et un juge s'attaquent à démontrer la corruption d'un grand cabinet d'avocats.</desc>
@@ -1755,11 +1745,6 @@
     <title lang="fr">Ridiculous</title>
     <desc lang="fr">Rob, Chanel et Steelo parlent accidents de billard dans "triple bande d'abrutis", comparent des "fétichistes du fitness" et listent des façons surprenantes de "soigner sa sortie".</desc>
     <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="MTVHits.fr" start="20251230210000 +0100" stop="20251231010500 +0100">
-    <title lang="fr">Les 50 meilleurs morceaux pour mettre l'ambiance</title>
-    <desc lang="fr">Envie de faire la fête ? MTV est là pour vous. Lancez votre soirée avec 50 des meilleurs hits pour faire bouger la piste !</desc>
-    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="Mangas.fr" start="20251230231400 +0100" stop="20251231001500 +0100">
     <title lang="fr">L'attaque des Titans - S01E01</title>
@@ -1864,11 +1849,6 @@
     <title lang="fr">Harry Potter et le Prince de sang-mêlé</title>
     <desc lang="fr">Le jeune Harry Potter, le célèbre sorcier, commence sa sixième année à l'école de magie Poudlard. Il découvre un vieux manuel de potions portant la mention : "Cet ouvrage appartient au Prince de sang-mêlé". Ce livre lui permet de briller dans le cours du professeur Slughorn et d'être invité aux dîners qu'il donne pour ses élèves les plus assidus. Harry ne tarde pas à en apprendre plus sur le sombre passé de lord Voldemort, qui répand désormais la terreur dans tout le pays. Harry et ses meilleurs amis, Ron Weasley et Hermione Granger, soupçonnent Drago Malefoy, un de leurs camarades de classe, d'être devenu un mangemort. En parallèle, les jeunes étudiants de Poudlard doivent également faire face aux tourments liés à l'adolescence. Harry est sous le charme de Ginny, mais elle est courtisée par une autre garçon...</desc>
     <category lang="fr">Film / Film fantastique</category>
-  </programme>
-  <programme channel="PublicSenat.fr" start="20251230235700 +0100" stop="20251231002600 +0100">
-    <title lang="fr">Au bonheur des livres</title>
-    <desc lang="fr">Régis Jauffret et Justine Lévy ont en commun, comme beaucoup d'écrivains de cette rentrée littéraire, de consacrer leur nouveau livre aux liens familiaux.</desc>
-    <category lang="fr">Magazine / Magazine littéraire</category>
   </programme>
   <programme channel="RMCAlerteSecours.fr" start="20251230235500 +0100" stop="20251231012700 +0100">
     <title lang="fr">Enquête prioritaire</title>
@@ -2440,6 +2420,11 @@
     <desc lang="fr">Prévisions nationales / Prévisions régionales / Destinations Europe / Temps du weekend / Outre-mer / Prévisions Europe / Prévisions Monde. Prévisions nationales. Prévisions régionales. Destinations Europe. Outre-mer. Prévisions Europe. Prévisions Monde.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="oqee.153" start="20251230210000 +0100" stop="20251231010500 +0100">
+    <title lang="fr">Les 50 meilleurs morceaux pour mettre l'ambiance</title>
+    <desc lang="fr">Envie de faire la fête ? MTV est là pour vous. Lancez votre soirée avec 50 des meilleurs hits pour faire bouger la piste !</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
   <programme channel="oqee.16" start="20251230230000 +0100" stop="20251231001500 +0100">
     <title lang="fr">Hospital Ship - S01E02</title>
     <desc lang="fr">Un groupe de médecins se rend dans des villages isolés en Corée pour soigner ceux qui n'ont pas accès aux soins. </desc>
@@ -2496,6 +2481,11 @@
     <title lang="fr">ICI 19/20 - Aquitaine</title>
     <desc lang="fr">Le rendez-vous vespéral des rédactions régionales de France Télévisions, avec les journaux locaux, la météo et les reportages propres à chaque région.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.289" start="20251230235500 +0100" stop="20251231005000 +0100">
+    <title lang="fr">Jouer, apprendre</title>
+    <desc lang="fr">Un documentaire qui tente de comprendre dans quelle mesure les jeux vidéo peuvent beaucoup apprendre aux joueurs, en termes de connaissances mais aussi de compétences physiologiques ou neurologiques. Avec Pierre Boulay.</desc>
+    <category lang="fr">Documentaire / Documentaire multimédia</category>
   </programme>
   <programme channel="oqee.291" start="20251230233900 +0100" stop="20251231003500 +0100">
     <title lang="fr">Flipping Bangers : voitures à tout prix - S03E04</title>
@@ -2667,6 +2657,11 @@
     <title lang="fr">Un village français - S02E02</title>
     <desc lang="fr">L'Occupation est effective depuis un an dans le pays, apportant avec elle son lot de privations, de compromis et de dangers. Comment les habitants de Villeneuve vont-ils réapprendre à vivre, assurer le quotidien, assumer leurs engagements et leurs amours clandestines ?...</desc>
     <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.569" start="20251230235700 +0100" stop="20251231002600 +0100">
+    <title lang="fr">Au bonheur des livres</title>
+    <desc lang="fr">Régis Jauffret et Justine Lévy ont en commun, comme beaucoup d'écrivains de cette rentrée littéraire, de consacrer leur nouveau livre aux liens familiaux.</desc>
+    <category lang="fr">Magazine / Magazine littéraire</category>
   </programme>
   <programme channel="oqee.577" start="20251230231500 +0100" stop="20251231053000 +0100">
     <title lang="fr">Zahide Yetiş'le Sence</title>
@@ -2886,5 +2881,10 @@
     <title lang="fr">Classical:NEXT 2019</title>
     <desc lang="fr">Considéré comme l'un des ensembles les plus uniques de la scène tchèque des 25 dernières années, The Clarinet Factory possède un style qui oscille entre les musiques contemporaines, classiques, jazz et world. Le groupe expérimente aussi avec la musique électronique, tant ambiante qu'axée sur la piste de danse, et ses quatre membres fascinés par les possibilités offertes par leurs instruments considèrent leur travail comme un laboratoire musical. The Clarinet Factory a composé pour le cinéma, le théâtre, le ballet et la danse contemporaine. Lors de cette performance de 2019 à Classical : NEXT!, le quartette interprète ses œuvres " Bird Song ", " Husa divoká ", " B-A-C-H ", " Hikari ", " Luda's Dance " et " L'Amour ".</desc>
     <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="oqee.98" start="20251230232500 +0100" stop="20251231001500 +0100">
+    <title lang="fr">Love &amp; Hip Hop Atlanta - S02E08</title>
+    <desc lang="fr">Stevie veut que Joseline s'excuse, mais elle est trop jalouse. Shay regrette d'avoir accepté le retour de Scrappy dans sa vie. Kirk interrompt le photoshoot de Rasheeda.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
 </tv>
