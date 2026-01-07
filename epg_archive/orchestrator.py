@@ -8,7 +8,7 @@ from .parser import XMLTVParser
 from .merger import EPGMerger
 from .exporter import XMLTVExporter
 from .console import console, create_progress, print_source_status, print_summary
-from .scrapers import NouvelObsScraper
+from .scrapers import NouvelObsScraper, OQEEScraper
 from .channel_normalizer import merge_duplicate_channels
 from .overlap_detector import log_overlap_summary
 
@@ -20,12 +20,14 @@ class EPGOrchestrator:
         sources: List[EPGSource], 
         archive_dir: Path, 
         time_tolerance: int = 300,
-        html_sources: Optional[List[dict]] = None
+        html_sources: Optional[List[dict]] = None,
+        json_sources: Optional[List[dict]] = None
     ):
         self.sources = [s for s in sources if s.enabled]
         self.sources.sort(key=lambda s: s.priority)
         self.archive_dir = archive_dir
         self.html_sources = html_sources or []
+        self.json_sources = json_sources or []
         self.fetcher = EPGFetcher()
         self.parser = XMLTVParser()
         self.merger = EPGMerger(time_tolerance_seconds=time_tolerance)
@@ -80,6 +82,25 @@ class EPGOrchestrator:
                 
             except Exception as e:
                 print_source_status(source.name, "error", str(e))
+                sources_failed += 1
+        
+        for json_source in self.json_sources:
+            try:
+                if json_source.get("type") == "oqee":
+                    scraper = OQEEScraper(
+                        archive_dir=self.archive_dir,
+                        priority=json_source.get("priority", 1)
+                    )
+                    max_days = json_source.get("max_days_per_run")
+                    channels, programmes = await scraper.scrape_all_days(max_days)
+                    
+                    all_channels.extend(channels)
+                    all_programmes.extend(programmes)
+                    
+                    if programmes:
+                        sources_ok += 1
+            except Exception as e:
+                print_source_status(json_source.get("name", "JSON source"), "error", str(e))
                 sources_failed += 1
         
         for html_source in self.html_sources:

@@ -66,6 +66,7 @@ def main():
         archive_dir = config.get_archive_dir()
         time_tolerance = config.get_time_tolerance()
         html_sources = config.get_html_sources()
+        json_sources = config.get_json_sources()
         
         if args.stats:
             from .exporter import XMLTVExporter
@@ -78,7 +79,7 @@ def main():
         print_header()
         
         orchestrator = EPGOrchestrator(
-            sources, archive_dir, time_tolerance, html_sources
+            sources, archive_dir, time_tolerance, html_sources, json_sources
         )
         stats = asyncio.run(orchestrator.run())
         

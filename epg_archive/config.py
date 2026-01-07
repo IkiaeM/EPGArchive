@@ -21,17 +21,26 @@ class Config:
         return {
             "archive_dir": "./archive",
             "time_tolerance_seconds": 300,
+            "json_sources": [
+                {
+                    "name": "OQEE",
+                    "type": "oqee",
+                    "priority": 1,
+                    "enabled": True,
+                    "max_days_per_run": 22
+                }
+            ],
             "sources": [
                 {
                     "name": "EPG.pw",
                     "url": "https://epg.pw/xmltv/epg_FR.xml",
-                    "priority": 1,
+                    "priority": 5,
                     "enabled": True
                 },
                 {
                     "name": "XMLTV.fr",
                     "url": "https://xmltvfr.fr/xmltv/xmltv.xml",
-                    "priority": 2,
+                    "priority": 6,
                     "enabled": True
                 }
             ],
@@ -73,6 +82,14 @@ class Config:
         """Get HTML-based sources configuration."""
         sources = []
         for source_data in self.data.get("html_sources", []):
+            if source_data.get("enabled", True):
+                sources.append(source_data)
+        return sources
+    
+    def get_json_sources(self) -> list:
+        """Get JSON API sources configuration."""
+        sources = []
+        for source_data in self.data.get("json_sources", []):
             if source_data.get("enabled", True):
                 sources.append(source_data)
         return sources

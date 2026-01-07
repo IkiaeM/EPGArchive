@@ -1,15 +1,26 @@
 archive_dir: ./archive
 time_tolerance_seconds: 300
-sources:
-  - name: XMLTV.fr
-    url: https://xmltvfr.fr/xmltv/xmltv.xml
+
+# JSON API sources (priority 1 = highest)
+json_sources:
+  - name: OQEE
+    type: oqee
     priority: 1
     enabled: true
+    max_days_per_run: 22  # 7 days back + 14 days forward + today
+
+# XMLTV sources (priority 5-6)
+sources:
   - name: EPG.pw
     url: https://epg.pw/xmltv/epg_FR.xml
-    priority: 2
+    priority: 5
+    enabled: true
+  - name: XMLTV.fr
+    url: https://xmltvfr.fr/xmltv/xmltv.xml
+    priority: 6
     enabled: true
 
+# HTML scrapers (priority 10 = lowest, disabled by default)
 html_sources:
   - name: NouvelObs
     type: nouvelobs
