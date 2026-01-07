@@ -172,10 +172,6 @@
     <display-name>Crime District</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-2037.png"/>
   </channel>
-  <channel id="DiciTvAlpes.fr">
-    <display-name>BFM DICI ALPES DU SUD</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/BFMDICIALPESDUSUD100x100.png"/>
-  </channel>
   <channel id="DiscoveryInvestigation.fr">
     <display-name>Discovery Investigation</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/ID100x100.png"/>
@@ -496,10 +492,6 @@
     <display-name>RTL NITRO TV</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL_NITRO_TV_color.png"/>
   </channel>
-  <channel id="RealMadridTV.es">
-    <display-name>REAL MADRID TV</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png"/>
-  </channel>
   <channel id="Sat1.de">
     <display-name>Sat.1</display-name>
     <icon src="https://static.teleboy.ch/shared/stations/360/icon320_light.png?v2023_48_0"/>
@@ -675,6 +667,10 @@
   <channel id="oqee.1106">
     <display-name>Journal du Golf</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2849/w256"/>
+  </channel>
+  <channel id="oqee.1107">
+    <display-name>Real Madrid TV</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2873/w256"/>
   </channel>
   <channel id="oqee.1108">
     <display-name>TeleMadrid</display-name>
@@ -1264,6 +1260,10 @@
     <display-name>NTV</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/1689/w256"/>
   </channel>
+  <channel id="oqee.852">
+    <display-name>BFM DICI Alpes du Sud</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/2398/w256"/>
+  </channel>
   <channel id="oqee.86">
     <display-name>MBC Sat</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/1477/w256"/>
@@ -1525,10 +1525,6 @@
     <title lang="fr">Indices</title>
     <desc lang="fr">Jeudi 23 février 2017, Nantes en Loire Atlantique. La police est appelée pour une disparition inquiétante, celle de Brigitte Troadec 49 ans. Sa sœur est inquiète, elle n'a plus de nouvelles de Brigitte depuis six jours. Les policiers se rendent au domicile de la famille Troadec. La maison est vide. Brigitte et Pascal son époux, ainsi que leurs deux enfants - Sébastien et Charlotte - se sont volatilisés sans laisser de traces. Dépêchés sur place, des experts décèlent des traces de sang dans toute la maison grâce à un révélateur. L'enquête démarre et ce sont les téléphones portables de la famille qui apporteront les premiers indices. Mais c'est le sang qui parlera le mieux sur fond de secrets de famille et de vengeance.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
-  </programme>
-  <programme channel="DiciTvAlpes.fr" start="20251230200000 +0100" stop="20251231063000 +0100">
-    <title lang="fr">Bonsoir Dici</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiscoveryInvestigation.fr" start="20251230235000 +0100" stop="20251231004000 +0100">
     <title lang="fr">JonBenét : qui a tué la mini-miss ? - S01E02</title>
@@ -1928,10 +1924,6 @@
     <desc lang="fr">Des travaux ont lieu dans le métro londonien où un nouveau tunnel doit être percé. Mais lors de l'opération, un dragon millénaire est libéré. Le monstre s'en prend à la mère du jeune Quinn, 12 ans. Vingt ans plus tard, l'orphelin dirige un petit campement de survivants, les dragons ayant décimé la plus grande partie du monde civilisé. Un jour, des Américains, avec à leur tête Van Zan, un militaire charismatique et glacial, se présentent à Quinn. Ils disposent d'un peu de matériel de défense, dont un hélicoptère. Van Zan prétend connaître le moyen de tuer les créatures et, en effet, lorsque survient une attaque, il parvient à terrasser l'un des dragons...</desc>
     <category lang="fr">Film / Film de science-fiction</category>
   </programme>
-  <programme channel="RealMadridTV.es" start="20251230233500 +0100" stop="20251231013500 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
   <programme channel="Sat1.de" start="20251230221000 +0100" stop="20251231003000 +0100">
     <title lang="fr">Le pire voisin au monde</title>
     <desc lang="fr">Bourru, acariâtre et négatif, Otto est un jeune retraité grincheux qui ne croit plus en rien ni en personne depuis le décès de sa femme. S'il fut autrefois impliqué aussi bien dans son travail que dans ses relations avec son entourage, il fait désormais preuve de mépris, de nonchalance ou d'autorité débordante, et tout le voisinage doit subir son tempérament exécrable. Alors qu'il a décidé d'en finir avec la vie, Otto voit un jour débarquer de nouveaux voisins juste en face de chez lui. Cette sympathique famille promet de bousculer son quotidien aigri et peut-être même de marquer le début d'une amitié surprenante et inattendue...</desc>
@@ -2143,6 +2135,10 @@
     <title lang="fr">Swing</title>
     <desc lang="fr">Émission spéciale en direct de Birdieland, en plein cœur de Paris, pour fêter le 200e numéro du Journal du Golf. On va retracer l'histoire du journal à travers celles et ceux qui l'ont fait : les joueurs pros, les amateurs, les photographes, les journalistes. Actualités, enseignements, souvenirs, moments forts, tourisme, matériel… tous les sujets seront abordés !</desc>
     <category lang="fr">Documentaire sportif / Golf</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251230233500 +0100" stop="20251231013500 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="oqee.1108" start="20251230230100 +0100" stop="20251231010700 +0100">
     <title lang="fr">Le nouveau stagiaire</title>
@@ -2827,6 +2823,10 @@
     <title lang="fr">Anwälte der Toten - Die schlimmsten Serienkiller der Welt - S03E07</title>
     <desc lang="fr">Colin Ireland will als Serienmörder in die Geschichte eingehen. 1993 beginnt seine Mordserie, bei der er es auf homosexuelle Männer abgesehen hat. Er bringt 5 Männer um und hinterlässt krude Botschaften. Doch die führen dann auf seine Spur.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
+  </programme>
+  <programme channel="oqee.852" start="20251230200000 +0100" stop="20251231063000 +0100">
+    <title lang="fr">Bonsoir Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.86" start="20251230234900 +0100" stop="20251231000700 +0100">
     <title lang="fr">Rodrig prog : A Nou Kwi</title>

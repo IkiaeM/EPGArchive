@@ -648,10 +648,6 @@
     <display-name>RTL NITRO TV</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL_NITRO_TV_color.png"/>
   </channel>
-  <channel id="RealMadridTV.es">
-    <display-name>REAL MADRID TV</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png"/>
-  </channel>
   <channel id="Sat1.de">
     <display-name>Sat.1</display-name>
     <icon src="https://static.teleboy.ch/shared/stations/360/icon320_light.png?v2023_48_0"/>
@@ -860,10 +856,6 @@
     <display-name>beIN SPORTS 3</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1335.png"/>
   </channel>
-  <channel id="beINSPORTSMAX4.fr">
-    <display-name>beIN SPORTS MAX 4</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1336.png"/>
-  </channel>
   <channel id="oqee.10">
     <display-name>TVI Internacional</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1696/w256"/>
@@ -963,6 +955,10 @@
   <channel id="oqee.1106">
     <display-name>Journal du Golf</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2849/w256"/>
+  </channel>
+  <channel id="oqee.1107">
+    <display-name>Real Madrid TV</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2873/w256"/>
   </channel>
   <channel id="oqee.1108">
     <display-name>TeleMadrid</display-name>
@@ -1756,6 +1752,10 @@
     <display-name>Pro TV International</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1028/w256"/>
   </channel>
+  <channel id="oqee.823">
+    <display-name>beIN SPORTS MAX 4</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2817/w256"/>
+  </channel>
   <channel id="oqee.824">
     <display-name>beIN SPORTS MAX 5</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2819/w256"/>
@@ -1779,6 +1779,10 @@
   <channel id="oqee.829">
     <display-name>beIN SPORTS MAX 10</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2829/w256"/>
+  </channel>
+  <channel id="oqee.830">
+    <display-name>Game One +1</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3339/w256"/>
   </channel>
   <channel id="oqee.835">
     <display-name>RTL</display-name>
@@ -8523,7 +8527,7 @@
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20251231195000 +0100" stop="20251231203200 +0100">
     <title lang="fr">Super plan</title>
-    <desc lang="fr">Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.</desc>
+    <desc lang="fr">Antoine, Mina, Renan et Bertrand se souviennent des meilleurs moments de "Super Plan" dans un super best of de fin d'année.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20251231203200 +0100" stop="20251231210000 +0100">
@@ -23352,54 +23356,39 @@
     <desc lang="fr">Avant un défi inédit et gigantesque, Julien, Marcus, NT et Kayane donnent leur avis sur Starfield et Baldur's Gate 3 !</desc>
     <category lang="fr">Magazine / Magazine du multimédia</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251231075700 +0100" stop="20251231080000 +0100">
-    <title lang="fr">#Teamg1 Story</title>
-    <desc lang="fr">Au programme : RoadCraft, Mio : Memories in Orbit, Elden Ring : Nightreign et Mission Impossible : The Final Reckoning.</desc>
-    <category lang="fr">Magazine / Magazine du multimédia</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231080000 +0100" stop="20251231081500 +0100">
-    <title lang="fr">Retro Game One</title>
-    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
-    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231081500 +0100" stop="20251231083000 +0100">
-    <title lang="fr">Making Of Retro Game One 2019</title>
-    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
-    <category lang="fr">Documentaire / Documentaire téléréalité</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231083000 +0100" stop="20251231083500 +0100">
-    <title lang="fr">Making Of Retro Game One 2022</title>
-    <desc lang="fr">Behind the Scene de Retro Game One</desc>
-    <category lang="fr">Documentaire / Documentaire téléréalité</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231083500 +0100" stop="20251231090000 +0100">
-    <title lang="fr">#Teamg1</title>
-    <desc lang="fr">Pour le retour de #TEAMG1, toute l'équipe revient sur l'annonce du PlayStation Portal et l'énorme succès de One Piece sur Netflix !</desc>
-    <category lang="fr">Magazine / Magazine du multimédia</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231090000 +0100" stop="20251231092500 +0100">
-    <title lang="fr">#Teamg1</title>
-    <desc lang="fr">Avant de célébrer les 25 ans de la chaîne, la #TEAMG1 revient sur l'actu série de ce mois de septembre avec notamment The Continental et Daryl Dixon, les spin-offs de John Wick et The Walking Dead !</desc>
-    <category lang="fr">Magazine / Magazine du multimédia</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231092500 +0100" stop="20251231095000 +0100">
-    <title lang="fr">#Teamg1</title>
-    <desc lang="fr">Avant un défi inédit et gigantesque, Julien, Marcus, NT et Kayane donnent leur avis sur Starfield et Baldur's Gate 3 !</desc>
-    <category lang="fr">Magazine / Magazine du multimédia</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231095000 +0100" stop="20251231112000 +0100">
+  <programme channel="GameOne.fr" start="20251231075000 +0100" stop="20251231092000 +0100">
     <title lang="fr">Retro Game One</title>
     <desc lang="fr">Les gros doigts de Marcus ont encore frappé ! En voulant ajouter une commande vocale à sa machine spatio-temporelle, Marcus a effacé des pans entiers du rétrogaming. Aidé d'invités spécialistes du rétrogaming, il doit affronter les questionnaires du terrible TVA (le Tribunal des Variables d'Antan) pour rétablir le continuum temporel ! Venez découvrir la folle aventure de Marcus dans une soirée de quiz délirants consacrés exclusivement à la série Rétro Game One, vous n'êtes pas au bout de vos surprises !</desc>
     <category lang="fr">Magazine / Magazine du jeu vidéo</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251231112000 +0100" stop="20251231125500 +0100">
+  <programme channel="GameOne.fr" start="20251231092000 +0100" stop="20251231105500 +0100">
     <title lang="fr">Soirée Retro Game One</title>
     <desc lang="fr">La suite des aventures de Marcus avec des invités, des quiz et même de l'émotion. Un grand moment de télévision, tout simplement.</desc>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251231125500 +0100" stop="20251231131000 +0100">
+  <programme channel="GameOne.fr" start="20251231105500 +0100" stop="20251231111000 +0100">
     <title lang="fr">#Teamg1 Story</title>
     <desc lang="fr">En 1998 naquit une chaîne de télévision révolutionnaire et unique en son genre. Son nom : Game One. On retrace les 27 ans de son histoire, avec des images d'archives.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="GameOne.fr" start="20251231111000 +0100" stop="20251231114000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Plongée dans les coulisses de #TEAMG1 à travers la Paris Games Week et les #TEAMG1 Awards. Entre les moments d'engueulades et de rigolades, vous risquez d'être surpris !</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="GameOne.fr" start="20251231114000 +0100" stop="20251231121000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="GameOne.fr" start="20251231121000 +0100" stop="20251231124000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="GameOne.fr" start="20251231124000 +0100" stop="20251231131000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
     <category lang="fr">Magazine / Magazine du multimédia</category>
   </programme>
   <programme channel="GameOne.fr" start="20251231131000 +0100" stop="20251231134000 +0100">
@@ -23452,15 +23441,20 @@
     <desc lang="fr">Lundi 7 septembre 1998, Game One est lancée en France. Game One, c'est du jeu vidéo à la télévision. Une évidence qui en 1998 rime avec performance. Game One est tout simplement précurseur.</desc>
     <category lang="fr">Magazine / Magazine du multimédia</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251231162000 +0100" stop="20251231164500 +0100">
-    <title lang="fr">Level One</title>
-    <desc lang="fr">Johann, Gérard et Nabil nous font découvrir le jeu incroyable : Paris Marseille Racing 2.</desc>
+  <programme channel="GameOne.fr" start="20251231162500 +0100" stop="20251231162700 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Année 2000. Le nouveau millénaire. Le troisième. A l'heure où Internet s'apprête à changer le monde, Game One lance son site web. Et montre une nouvelle fois qu'elle est en avance sur son temps.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="GameOne.fr" start="20251231163000 +0100" stop="20251231164000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
     <category lang="fr">Magazine / Magazine du jeu vidéo</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251231164500 +0100" stop="20251231165500 +0100">
-    <title lang="fr">Level One</title>
-    <desc lang="fr">Level One était une des émissions phares de Game One, voici la toute première émission.</desc>
-    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  <programme channel="GameOne.fr" start="20251231164000 +0100" stop="20251231165500 +0100">
+    <title lang="fr">Making Of Retro Game One 2019</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="GameOne.fr" start="20251231165500 +0100" stop="20251231170000 +0100">
     <title lang="fr">Making Of Retro Game One 2022</title>
@@ -23482,19 +23476,9 @@
     <desc lang="fr">Marcus invite Julien Tellouck et Genius à découvrir le monde très coloré de Trine 4. Mais derrière ces graphismes enchanteurs, on retrouve pas mal de pièges et d'énigmes qui vont mettre à rude épreuve les 3 cerveaux de nos joyeux animateurs.</desc>
     <category lang="fr">Magazine / Magazine du jeu vidéo</category>
   </programme>
-  <programme channel="GameOne.fr" start="20251231182000 +0100" stop="20251231182500 +0100">
-    <title lang="fr">#Teamg1 Story</title>
-    <desc lang="fr">Lundi 7 septembre 1998. Il y a 27 ans, Game One est lancée. Avec une double ambition. Parler de jeu vidéo à la télévision. Et en parler à l'international. Game One est la première chaîne de jeu vidéo au monde.</desc>
-    <category lang="fr">Magazine / Magazine du multimédia</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231182700 +0100" stop="20251231183000 +0100">
-    <title lang="fr">#Teamg1 Story</title>
-    <desc lang="fr">Année 2006. Game One a acquis les droits de diffusion français de Naruto. Un animé qui va booster son audience et lui ouvrir les portes de la pop culture au sens large.</desc>
-    <category lang="fr">Magazine / Magazine du multimédia</category>
-  </programme>
-  <programme channel="GameOne.fr" start="20251231183000 +0100" stop="20251231184000 +0100">
-    <title lang="fr">Retro Game One</title>
-    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+  <programme channel="GameOne.fr" start="20251231182000 +0100" stop="20251231184000 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Marcus se lance dans The Stanley Parable, un jeu véritablement différent, et donc génial.</desc>
     <category lang="fr">Magazine / Magazine du jeu vidéo</category>
   </programme>
   <programme channel="GameOne.fr" start="20251231184000 +0100" stop="20251231191000 +0100">
@@ -33992,65 +33976,6 @@
     <desc lang="fr">Achtung: "This Workout'll Kill You!". So warnt uns jedenfalls die Tagline zu diesem solitären Slasher-Spektakel aus der Welt der kunterbunten 80'er-Pop-Gymnastik. Und auch wenn man beim Zuschauen nicht direkt körperlichen Schaden nimmt - AEROBICIDE schlägt doch gnadenlos, wertvolle Lebenszeit mausetot und metzelt nebenbei noch eiskalt jedes menschliche Plausibilitäts-Empfinden nieder! Ein neonfarbener Gymstudio-Schlitzer-Schocker, geschmiedet in glühend heißem Drehbuch-Irrsinn und somit wie gemacht, für einen exquisiten SchleFaZ-Abend im Kreise der Lieben! Spoiler: Wer am Ende für die über 12 bedauernswerten Slasher-Opfer in Spandex und wollenen Waden-Wärmern, verantwortlich ist, wird ihnen den Atem rauben.</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
-  <programme channel="RealMadridTV.es" start="20251231013500 +0100" stop="20251231043000 +0100">
-    <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231043000 +0100" stop="20251231070000 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231070000 +0100" stop="20251231085500 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231085500 +0100" stop="20251231110000 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231110000 +0100" stop="20251231133000 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231133000 +0100" stop="20251231140000 +0100">
-    <title lang="fr">Conecta informativo</title>
-    <desc lang="fr">Un repaso a la actualidad del Real Madrid, el fútbol, el baloncesto y la cantera, con entrevistas a los protagonistas de la noticia.</desc>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231140000 +0100" stop="20251231143500 +0100">
-    <title lang="fr">Ciudad Real Madrid</title>
-    <desc lang="fr">Sigua partidos Real Madrid y toda la actualidad del club madrileño.</desc>
-    <category lang="fr">Magazine / Magazine sportif</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231143500 +0100" stop="20251231164500 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231164500 +0100" stop="20251231170000 +0100">
-    <title lang="fr">Ciudad Real Madrid</title>
-    <desc lang="fr">Sigua partidos Real Madrid y toda la actualidad del club madrileño.</desc>
-    <category lang="fr">Magazine / Magazine sportif</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231170000 +0100" stop="20251231200000 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231200000 +0100" stop="20251231203000 +0100">
-    <title lang="fr">Conecta informativo</title>
-    <desc lang="fr">Un repaso a la actualidad del Real Madrid, el fútbol, el baloncesto y la cantera, con entrevistas a los protagonistas de la noticia.</desc>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231203000 +0100" stop="20251231224500 +0100">
-    <title lang="fr">Football : Supercoupe de l'UEFA</title>
-    <desc lang="fr">A suivre la prestigieuse affiche de la Supercoupe de l'UEFA. Créée en 1972 par le journaliste hollandais Anton Witkamp avec l'idée de départager enfin les différents vainqueurs des coupes d'Europe de son époque et désigner un champion ultime, cette finale se dispute depuis tous les ans dans les plus beaux stades du Vieux Continent et oppose depuis 1999 le vainqueur de la Ligue des Champions à celui de la Coupe de l'UEFA, renommée Ligue Europa en 2009.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20251231224500 +0100" stop="20260101005000 +0100">
-    <title lang="fr">Football : Coupe intercontinentale de la FIFA</title>
-    <desc lang="fr">Retransmission d'une rencontre de la Coupe intercontinentale de la FIFA. Créée en 2024 afin de remplacer la Coupe du monde des clubs, cette compétition accueille les six vainqueurs des différents championnats continentaux de la FIFA, et se déroule en fin d'année civile.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
   <programme channel="Sat1.de" start="20251231003000 +0100" stop="20251231021500 +0100">
     <title lang="fr">Cry Macho</title>
     <desc lang="fr">Mike Milo, un ancien champion de rodéo revenu de tout, est devenu éleveur de chevaux. Il accepte une mission aux allures d'odyssée rédemptrice. Le voici en route vers le Mexique, où il doit retrouver le fils d'un vieil ami et le lui ramener. Il faut protéger l'adolescent de Leta, sa mère alcoolique et fêtarde. Celle-ci ne veut pas qu'on lui enlève son fils. Après avoir tenté en vain de dissuader Mike en le séduisant, elle lance à ses trousses un homme de main. En fuite, le duo improbable fait halte dans un village mexicain. Mike s'éprend, et vice versa, d'une veuve propriétaire d'un restaurant...</desc>
@@ -43977,36 +43902,6 @@
     <desc lang="fr">Dans l'enceinte du Caesars Superdome de La Nouvelle-Orléans en Louisiane, le Super Bowl LIX désignera la franchise NFL qui succédera aux Kansas City Chiefs, sacrés en 2024, et de nouveau présents en 2025 cette fois contre les Eagles.</desc>
     <category lang="fr">Emission sportive / Football américain</category>
   </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20251231000000 +0100" stop="20251231010000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20251231010000 +0100" stop="20251231040000 +0100">
-    <title lang="fr">Hockey sur glace : NHL</title>
-    <desc lang="fr">Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace. Constituée de franchises canadiennes et américaines, cette compétition est la plus célèbre au monde concernant les clubs de hockey sur glace. Elle existe depuis 1917, date de sa création à l'hôtel Windsor de Montréal au Canada.</desc>
-    <category lang="fr">Emission sportive / Hockey sur glace</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20251231090000 +0100" stop="20251231130000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20251231130000 +0100" stop="20251231170000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20251231170000 +0100" stop="20251231213000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20251231213000 +0100" stop="20260101000000 +0100">
-    <title lang="fr">Basket-ball : NBA</title>
-    <desc lang="fr">Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.</desc>
-    <category lang="fr">Emission sportive / Basket-ball</category>
-  </programme>
   <programme channel="oqee.10" start="20251231001000 +0100" stop="20251231005000 +0100">
     <title lang="fr">Querido, mudei a casa!</title>
     <desc lang="fr">Apresentado por João Montez, todos os programas vão ter rúbricas de bricolage e ideias low-cost. Inteiramente dedicado à decoração e renovação de interiores, este programa conta com uma equipa de decoradores fantásticos e, claro, com os "Queridos".</desc>
@@ -49445,6 +49340,65 @@
     <title lang="fr">Swing</title>
     <desc lang="fr">Émission spéciale en direct de Birdieland, en plein cœur de Paris, pour fêter le 200e numéro du Journal du Golf. On va retracer l'histoire du journal à travers celles et ceux qui l'ont fait : les joueurs pros, les amateurs, les photographes, les journalistes. Actualités, enseignements, souvenirs, moments forts, tourisme, matériel… tous les sujets seront abordés !</desc>
     <category lang="fr">Documentaire sportif / Golf</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231013500 +0100" stop="20251231043000 +0100">
+    <title lang="fr">Football : Liga</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231043000 +0100" stop="20251231070000 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231070000 +0100" stop="20251231085500 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231085500 +0100" stop="20251231110000 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231110000 +0100" stop="20251231133000 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231133000 +0100" stop="20251231140000 +0100">
+    <title lang="fr">Conecta informativo</title>
+    <desc lang="fr">Un repaso a la actualidad del Real Madrid, el fútbol, el baloncesto y la cantera, con entrevistas a los protagonistas de la noticia.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231140000 +0100" stop="20251231143500 +0100">
+    <title lang="fr">Ciudad Real Madrid</title>
+    <desc lang="fr">Sigua partidos Real Madrid y toda la actualidad del club madrileño.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231143500 +0100" stop="20251231164500 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231164500 +0100" stop="20251231170000 +0100">
+    <title lang="fr">Ciudad Real Madrid</title>
+    <desc lang="fr">Sigua partidos Real Madrid y toda la actualidad del club madrileño.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231170000 +0100" stop="20251231200000 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231200000 +0100" stop="20251231203000 +0100">
+    <title lang="fr">Conecta informativo</title>
+    <desc lang="fr">Un repaso a la actualidad del Real Madrid, el fútbol, el baloncesto y la cantera, con entrevistas a los protagonistas de la noticia.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231203000 +0100" stop="20251231224500 +0100">
+    <title lang="fr">Football : Supercoupe de l'UEFA</title>
+    <desc lang="fr">A suivre la prestigieuse affiche de la Supercoupe de l'UEFA. Créée en 1972 par le journaliste hollandais Anton Witkamp avec l'idée de départager enfin les différents vainqueurs des coupes d'Europe de son époque et désigner un champion ultime, cette finale se dispute depuis tous les ans dans les plus beaux stades du Vieux Continent et oppose depuis 1999 le vainqueur de la Ligue des Champions à celui de la Coupe de l'UEFA, renommée Ligue Europa en 2009.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20251231224500 +0100" stop="20260101005000 +0100">
+    <title lang="fr">Football : Coupe intercontinentale de la FIFA</title>
+    <desc lang="fr">Retransmission d'une rencontre de la Coupe intercontinentale de la FIFA. Créée en 2024 afin de remplacer la Coupe du monde des clubs, cette compétition accueille les six vainqueurs des différents championnats continentaux de la FIFA, et se déroule en fin d'année civile.</desc>
+    <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="oqee.1108" start="20251231010700 +0100" stop="20251231024700 +0100">
     <title lang="fr">El análisis: el diario de la noche</title>
@@ -83209,6 +83163,36 @@ Le seul cas d’activité paranormale officiellement reconnu par la police espag
     <desc lang="fr">PROTEVELION 2026, show-ul care va întreține atmosfera în noaptea dintre ani. Cu Raluka și Pavel Bartoș în rol de gazde și o selecție impresionantă de artiști și vedete, ediția de anul acesta va umple casele românilor cu energie, bună dispoziție, umor și momente pline de surprize. Sub deviza: "Te distrăm de nu te vezi!", PROTEVELION 2026 promite să transforme noaptea dintre ani într-un spectacol de neuitat. Cei mai în vogă artiști vor aduce pe scenă momente muzicale spectaculoase, cu hituri care vor face publicul să cânte și să danseze toată noaptea. Comedia va fi și ea la cote maxime, invitații fiind surprinși în cele mai amuzante și neașteptate situații, stârnind râsete care se vor auzi atât în platou, cât și în casele românilor.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.823" start="20251231000000 +0100" stop="20251231010000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20251231010000 +0100" stop="20251231040000 +0100">
+    <title lang="fr">Hockey sur glace : NHL</title>
+    <desc lang="fr">Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace. Constituée de franchises canadiennes et américaines, cette compétition est la plus célèbre au monde concernant les clubs de hockey sur glace. Elle existe depuis 1917, date de sa création à l'hôtel Windsor de Montréal au Canada.</desc>
+    <category lang="fr">Emission sportive / Hockey sur glace</category>
+  </programme>
+  <programme channel="oqee.823" start="20251231090000 +0100" stop="20251231130000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20251231130000 +0100" stop="20251231170000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20251231170000 +0100" stop="20251231213000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20251231213000 +0100" stop="20260101000000 +0100">
+    <title lang="fr">Basket-ball : NBA</title>
+    <desc lang="fr">Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.</desc>
+    <category lang="fr">Emission sportive / Basket-ball</category>
+  </programme>
   <programme channel="oqee.824" start="20251231010000 +0100" stop="20251231050000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
@@ -83393,6 +83377,365 @@ Le seul cas d’activité paranormale officiellement reconnu par la police espag
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231000000 +0100" stop="20251231001300 +0100">
+    <title lang="fr">Level One Direct</title>
+    <desc lang="fr">Marcus accueille Camille Fievez, humoriste et grande fan de Level One, pour quelques parties sur Samurai Academy !</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231001300 +0100" stop="20251231003000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Lundi 7 septembre 1998. Il y a 27 ans, Game One est lancée. Avec une double ambition. Parler de jeu vidéo à la télévision. Et en parler à l'international. Game One est la première chaîne de jeu vidéo au monde.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231003000 +0100" stop="20251231010000 +0100">
+    <title lang="fr">Monster</title>
+    <desc lang="fr">Grimmer rencontre Petrov, l'ancien directeur du Kinderheim 511, un orphelinat maudit au sein duquel était pratiquées des expériences sur des enfants. Le journaliste souhaite récupérer les dossiers de ces expériences. Mais Petrov, qui dirige un nouvel établissement où les enfants paraissent heureux, refuse de se remémorer le passé. Le journaliste décide de le suivre jour et nuit. Au cours d'une de ses filatures, il se rend compte que Petrov n'a finalement rien perdu de ses vieilles habitudes et qu'il "éduque" plusieurs enfants. Grimmer craint qu'il ne reproduise le drame du Kinderheim 511...</desc>
+    <category lang="fr">Dessin animé / Dessin animé manga</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231010000 +0100" stop="20251231012500 +0100">
+    <title lang="fr">Monster</title>
+    <desc lang="fr">Grimmer, qui a découvert le corps de Pedroff, est retenu au poste de police et interrogé par les enquêteurs. Zeman, le policier débonnaire chargé des investigations, lui demande si Pedroff lui aurait livré une information particulière. Mais Grimmer répond par la négative. Lorsque le commissaire le laisse enfin quitter le poste de police, Grimmer se rend dans un orphelinat. Là, il remet une clé à l'un des petits pensionnaires...</desc>
+    <category lang="fr">Dessin animé / Dessin animé manga</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231012500 +0100" stop="20251231013000 +0100">
+    <title lang="fr">Soda - S15E18</title>
+    <desc lang="fr">Adam Fontella et ses copains de lycée Slim et Ludo sont plus doués pour se laisser vivre que pour leurs études. A part son amour des kebabs, Adam se signale par une passion inhibitrice pour Jenna, la plus belle fille du lycée, et une guérilla sans fin contre sa soeur Eve, qu'il appelle Chucky. Frimeur et extraverti, Adam fait moins le malin quand la situation se gâte. "Soda", c'est ados en verlan, une série à succès brocardant le monde de l'adolescence, qui repose pour beaucoup sur son comédien principal, Kev Adams...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231013000 +0100" stop="20251231013500 +0100">
+    <title lang="fr">Soda - S15E19</title>
+    <desc lang="fr">Adam Fontella et ses copains de lycée Slim et Ludo sont plus doués pour se laisser vivre que pour leurs études. A part son amour des kebabs, Adam se signale par une passion inhibitrice pour Jenna, la plus belle fille du lycée, et une guérilla sans fin contre sa soeur Eve, qu'il appelle Chucky. Frimeur et extraverti, Adam fait moins le malin quand la situation se gâte. "Soda", c'est ados en verlan, une série à succès brocardant le monde de l'adolescence, qui repose pour beaucoup sur son comédien principal, Kev Adams...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231013500 +0100" stop="20251231014000 +0100">
+    <title lang="fr">Soda - S15E20</title>
+    <desc lang="fr">Adam Fontella et ses copains de lycée Slim et Ludo sont plus doués pour se laisser vivre que pour leurs études. A part son amour des kebabs, Adam se signale par une passion inhibitrice pour Jenna, la plus belle fille du lycée, et une guérilla sans fin contre sa soeur Eve, qu'il appelle Chucky. Frimeur et extraverti, Adam fait moins le malin quand la situation se gâte. "Soda", c'est ados en verlan, une série à succès brocardant le monde de l'adolescence, qui repose pour beaucoup sur son comédien principal, Kev Adams...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231014000 +0100" stop="20251231014500 +0100">
+    <title lang="fr">Soda - S15E21</title>
+    <desc lang="fr">Adam Fontella et ses copains de lycée Slim et Ludo sont plus doués pour se laisser vivre que pour leurs études. A part son amour des kebabs, Adam se signale par une passion inhibitrice pour Jenna, la plus belle fille du lycée, et une guérilla sans fin contre sa soeur Eve, qu'il appelle Chucky. Frimeur et extraverti, Adam fait moins le malin quand la situation se gâte. "Soda", c'est ados en verlan, une série à succès brocardant le monde de l'adolescence, qui repose pour beaucoup sur son comédien principal, Kev Adams...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231014500 +0100" stop="20251231015000 +0100">
+    <title lang="fr">Soda - S15E22</title>
+    <desc lang="fr">Adam Fontella et ses copains de lycée Slim et Ludo sont plus doués pour se laisser vivre que pour leurs études. A part son amour des kebabs, Adam se signale par une passion inhibitrice pour Jenna, la plus belle fille du lycée, et une guérilla sans fin contre sa soeur Eve, qu'il appelle Chucky. Frimeur et extraverti, Adam fait moins le malin quand la situation se gâte. "Soda", c'est ados en verlan, une série à succès brocardant le monde de l'adolescence, qui repose pour beaucoup sur son comédien principal, Kev Adams...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231015000 +0100" stop="20251231015500 +0100">
+    <title lang="fr">Soda - S15E23</title>
+    <desc lang="fr">Adam Fontella et ses copains de lycée Slim et Ludo sont plus doués pour se laisser vivre que pour leurs études. A part son amour des kebabs, Adam se signale par une passion inhibitrice pour Jenna, la plus belle fille du lycée, et une guérilla sans fin contre sa soeur Eve, qu'il appelle Chucky. Frimeur et extraverti, Adam fait moins le malin quand la situation se gâte. "Soda", c'est ados en verlan, une série à succès brocardant le monde de l'adolescence, qui repose pour beaucoup sur son comédien principal, Kev Adams...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231015500 +0100" stop="20251231025000 +0100">
+    <title lang="fr">Jouer, apprendre</title>
+    <desc lang="fr">Un documentaire qui tente de comprendre dans quelle mesure les jeux vidéo peuvent beaucoup apprendre aux joueurs, en termes de connaissances mais aussi de compétences physiologiques ou neurologiques. Avec Pierre Boulay.</desc>
+    <category lang="fr">Documentaire / Documentaire multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231025000 +0100" stop="20251231030500 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231030500 +0100" stop="20251231032000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231032000 +0100" stop="20251231033500 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Au programme : Le marché africain du gaming, une sélection de jeux africains et l'interview de Loui, le mangaka de Red Flower. S'y ajoute, rien à voir, une chronique de Mission Impossible : The Last Reckoning.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231033500 +0100" stop="20251231035000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Rockstar est le plus grand éditeur de tous les temps car ses fondateurs ont tout fait pour réaliser leur rêve américain.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231035000 +0100" stop="20251231041000 +0100">
+    <title lang="fr">Hard Looters</title>
+    <desc lang="fr">Les looters se rendent à Osaka pour visiter une boutique particulièrement bien équipée en consoles rares...</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231041000 +0100" stop="20251231043000 +0100">
+    <title lang="fr">Hard Looters</title>
+    <desc lang="fr">Un épisode 100% Toys dans le quartier d'Akihabara à Tokyo, avec des jouets à plus de 20 000 € !</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231043000 +0100" stop="20251231044500 +0100">
+    <title lang="fr">Mémoire Vive 2.0</title>
+    <desc lang="fr">Valis est une héroïne sexy qui combat des monstres dans un univers parallèle. La série n'est jamais sortie en France, mais a connu un certain succès au Japon. Présentation des débuts de la série sur des ordinateurs assez méconnus chez nous, puis des autres épisodes surtout sur des consoles de NEC.Jeux de l'émission : Valis, Valis 2, SD Valis, Valis 3, Valis 4, Super Valis sur PC88, PCE S-CD, SNES, X68000, PCE CD, MD.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231044500 +0100" stop="20251231050000 +0100">
+    <title lang="fr">Mémoire Vive 2.0</title>
+    <desc lang="fr">Basée à Osaka, la société SNK s'est intéressée au football au début des années 90, lorsqu'il s'agissait encore d'un sport mineur au Japon. Les jeux, parfois d'autres éditeurs mais tournant tous sur la console Neo Geo, présentent le sport de plusieurs façons, tantôt très arcade, tantôt un peu plus réaliste.Jeux de l'émission : Super Sidekicks, SS 2, Goal! Goal! Goal!, SS 3 The Next Glory, Pleasure Goal, Tecmo World Soccer '96, The Ultimate 11, Neo Geo Cup '98, Soccer Brawl.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231050000 +0100" stop="20251231051500 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231051500 +0100" stop="20251231053000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231053000 +0100" stop="20251231055000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231055000 +0100" stop="20251231060500 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Au programme : Le marché africain du gaming, une sélection de jeux africains et l'interview de Loui, le mangaka de Red Flower. S'y ajoute, rien à voir, une chronique de Mission Impossible : The Last Reckoning.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231060500 +0100" stop="20251231062000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Au programme : RoadCraft, Mio : Memories in Orbit, Elden Ring : Nightreign et Mission Impossible : The Final Reckoning.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231062000 +0100" stop="20251231064000 +0100">
+    <title lang="fr">Hard Looters</title>
+    <desc lang="fr">Les looters se rendent à Osaka pour visiter une boutique particulièrement bien équipée en consoles rares...</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231064000 +0100" stop="20251231070000 +0100">
+    <title lang="fr">Hard Looters</title>
+    <desc lang="fr">Un épisode 100% Toys dans le quartier d'Akihabara à Tokyo, avec des jouets à plus de 20 000 € !</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231070000 +0100" stop="20251231071500 +0100">
+    <title lang="fr">Mémoire Vive 2.0</title>
+    <desc lang="fr">Valis est une héroïne sexy qui combat des monstres dans un univers parallèle. La série n'est jamais sortie en France, mais a connu un certain succès au Japon. Présentation des débuts de la série sur des ordinateurs assez méconnus chez nous, puis des autres épisodes surtout sur des consoles de NEC.Jeux de l'émission : Valis, Valis 2, SD Valis, Valis 3, Valis 4, Super Valis sur PC88, PCE S-CD, SNES, X68000, PCE CD, MD.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231071500 +0100" stop="20251231073000 +0100">
+    <title lang="fr">Mémoire Vive 2.0</title>
+    <desc lang="fr">Basée à Osaka, la société SNK s'est intéressée au football au début des années 90, lorsqu'il s'agissait encore d'un sport mineur au Japon. Les jeux, parfois d'autres éditeurs mais tournant tous sur la console Neo Geo, présentent le sport de plusieurs façons, tantôt très arcade, tantôt un peu plus réaliste.Jeux de l'émission : Super Sidekicks, SS 2, Goal! Goal! Goal!, SS 3 The Next Glory, Pleasure Goal, Tecmo World Soccer '96, The Ultimate 11, Neo Geo Cup '98, Soccer Brawl.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231073000 +0100" stop="20251231074200 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231074200 +0100" stop="20251231074500 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Au programme : Le marché africain du gaming, une sélection de jeux africains et l'interview de Loui, le mangaka de Red Flower. S'y ajoute, rien à voir, une chronique de Mission Impossible : The Last Reckoning.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231074500 +0100" stop="20251231075700 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Marcus et sa bande d'acolytes un peu bizarres vous emmènent dans un voyage déjanté à travers l'histoire des jeux vidéo! Attention effets très spéciaux!</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231075700 +0100" stop="20251231080000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Au programme : RoadCraft, Mio : Memories in Orbit, Elden Ring : Nightreign et Mission Impossible : The Final Reckoning.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231080000 +0100" stop="20251231081500 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231081500 +0100" stop="20251231083000 +0100">
+    <title lang="fr">Making Of Retro Game One 2019</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231083000 +0100" stop="20251231083500 +0100">
+    <title lang="fr">Making Of Retro Game One 2022</title>
+    <desc lang="fr">Behind the Scene de Retro Game One</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231083500 +0100" stop="20251231090000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pour le retour de #TEAMG1, toute l'équipe revient sur l'annonce du PlayStation Portal et l'énorme succès de One Piece sur Netflix !</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231090000 +0100" stop="20251231092500 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Avant de célébrer les 25 ans de la chaîne, la #TEAMG1 revient sur l'actu série de ce mois de septembre avec notamment The Continental et Daryl Dixon, les spin-offs de John Wick et The Walking Dead !</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231092500 +0100" stop="20251231095000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Avant un défi inédit et gigantesque, Julien, Marcus, NT et Kayane donnent leur avis sur Starfield et Baldur's Gate 3 !</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231095000 +0100" stop="20251231112000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Les gros doigts de Marcus ont encore frappé ! En voulant ajouter une commande vocale à sa machine spatio-temporelle, Marcus a effacé des pans entiers du rétrogaming. Aidé d'invités spécialistes du rétrogaming, il doit affronter les questionnaires du terrible TVA (le Tribunal des Variables d'Antan) pour rétablir le continuum temporel ! Venez découvrir la folle aventure de Marcus dans une soirée de quiz délirants consacrés exclusivement à la série Rétro Game One, vous n'êtes pas au bout de vos surprises !</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231112000 +0100" stop="20251231125500 +0100">
+    <title lang="fr">Soirée Retro Game One</title>
+    <desc lang="fr">La suite des aventures de Marcus avec des invités, des quiz et même de l'émotion. Un grand moment de télévision, tout simplement.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231125500 +0100" stop="20251231131000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">En 1998 naquit une chaîne de télévision révolutionnaire et unique en son genre. Son nom : Game One. On retrace les 27 ans de son histoire, avec des images d'archives.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231131000 +0100" stop="20251231134000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Plongée dans les coulisses de #TEAMG1 à travers la Paris Games Week et les #TEAMG1 Awards. Entre les moments d'engueulades et de rigolades, vous risquez d'être surpris !</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231134000 +0100" stop="20251231141000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231141000 +0100" stop="20251231144000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231144000 +0100" stop="20251231151000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231151000 +0100" stop="20251231154000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231154000 +0100" stop="20251231160500 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Marcus et l'excellent Thomas Deseur s'affrontent sur Towerfall Ascension.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231160500 +0100" stop="20251231162000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">En 1998 naquit une chaîne de télévision révolutionnaire et unique en son genre. Son nom : Game One. On retrace les 27 ans de son histoire, avec des images d'archives.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231162000 +0100" stop="20251231164500 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Johann, Gérard et Nabil nous font découvrir le jeu incroyable : Paris Marseille Racing 2.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231164500 +0100" stop="20251231165500 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Level One était une des émissions phares de Game One, voici la toute première émission.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231165500 +0100" stop="20251231170000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">La série The Dark Pictures revient en 2026 avec un nouvel épisode original, intitulé Directive 8020. Direction l'avenir pour une expédition spatiale pétrie d'horreur et de science-fiction.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231170000 +0100" stop="20251231172500 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">#TEAMG1, c'est le talk show geek qui parle jeu vidéo, série, ciné et high-tech. #TEAMG1, c'est Julien, Marcus, Sora, Kayane, Shyvahna, Newtiteuf et Anh Phan. #TEAMG1, c'est vous.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231172500 +0100" stop="20251231175000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">#TEAMG1, c'est le talk show geek qui parle jeu vidéo, série, ciné et high-tech. #TEAMG1, c'est Julien, Marcus, Sora, Kayane, Shyvahna, Newtiteuf et Anh Phan. #TEAMG1, c'est vous.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231175000 +0100" stop="20251231181500 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">#TEAMG1, c'est le talk show geek qui parle jeu vidéo, série, ciné et high-tech. #TEAMG1, c'est Julien, Marcus, Sora, Kayane, Shyvahna, Newtiteuf et Anh Phan. #TEAMG1, c'est vous.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231181500 +0100" stop="20251231182000 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Lundi 7 septembre 1998, Game One est lancée en France. Game One, c'est du jeu vidéo à la télévision. Une évidence qui en 1998 rime avec performance. Game One est tout simplement précurseur.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231182500 +0100" stop="20251231182700 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">Année 2000. Le nouveau millénaire. Le troisième. A l'heure où Internet s'apprête à changer le monde, Game One lance son site web. Et montre une nouvelle fois qu'elle est en avance sur son temps.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231183000 +0100" stop="20251231184000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231184000 +0100" stop="20251231185500 +0100">
+    <title lang="fr">Making Of Retro Game One 2019</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231185500 +0100" stop="20251231190000 +0100">
+    <title lang="fr">Making Of Retro Game One 2022</title>
+    <desc lang="fr">Behind the Scene de Retro Game One</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231190000 +0100" stop="20251231192500 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Marcus accueille Anh Phan, Julien Tellouck et Kayane pour une partie de Disney Illusion Island pour le moins chaotique !</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231192500 +0100" stop="20251231195000 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Histoire de fêter le 500è Level One (depuis son retour en 2019), Marcus a convié Julie, Yoyo et Gégé pour un épisode sur Overcooked 2 qui ne manque pas de mordant.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231195000 +0100" stop="20251231202000 +0100">
+    <title lang="fr">Level One Direct</title>
+    <desc lang="fr">Marcus invite Julien Tellouck et Genius à découvrir le monde très coloré de Trine 4. Mais derrière ces graphismes enchanteurs, on retrouve pas mal de pièges et d'énigmes qui vont mettre à rude épreuve les 3 cerveaux de nos joyeux animateurs.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231202000 +0100" stop="20251231204000 +0100">
+    <title lang="fr">Level One</title>
+    <desc lang="fr">Marcus se lance dans The Stanley Parable, un jeu véritablement différent, et donc génial.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231204000 +0100" stop="20251231211000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Plongée dans les coulisses de #TEAMG1 à travers la Paris Games Week et les #TEAMG1 Awards. Entre les moments d'engueulades et de rigolades, vous risquez d'être surpris !</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231211000 +0100" stop="20251231214000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231214000 +0100" stop="20251231221000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231221000 +0100" stop="20251231224000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231224000 +0100" stop="20251231231000 +0100">
+    <title lang="fr">#Teamg1</title>
+    <desc lang="fr">Pendant une dizaine d'années, #TEAMG1 a tout tenté pour vous informer et vous divertir. Voici quelques-uns des meilleurs moments...</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231231000 +0100" stop="20251231232500 +0100">
+    <title lang="fr">#Teamg1 Story</title>
+    <desc lang="fr">En 1998 naquit une chaîne de télévision révolutionnaire et unique en son genre. Son nom : Game One. On retrace les 27 ans de son histoire, avec des images d'archives.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231232500 +0100" stop="20251231234000 +0100">
+    <title lang="fr">Retro Game One</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Magazine / Magazine du jeu vidéo</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231234000 +0100" stop="20251231235500 +0100">
+    <title lang="fr">Making Of Retro Game One 2019</title>
+    <desc lang="fr">Immersion totale dans les coulisses de fabrication de Rétro Game One. Découvrez quelles personnes se cachent derrière cette émission culte et comment est fabriquée l'histoire du jeu vidéo.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.830" start="20251231235500 +0100" stop="20260101080000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="oqee.835" start="20251231005500 +0100" stop="20251231025500 +0100">
     <title lang="fr">Jurassic World</title>

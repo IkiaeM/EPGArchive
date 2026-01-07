@@ -135,10 +135,6 @@
     <display-name>Auto Plus TV</display-name>
     <icon src="https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png"/>
   </channel>
-  <channel id="AzurTV.fr">
-    <display-name>BFM NICE COTE D'AZUR</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NEUFBFMNICECOTEDAZUR100x100.png"/>
-  </channel>
   <channel id="BBC1.uk">
     <display-name>BBC One</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-16.png"/>
@@ -1400,10 +1396,6 @@
     <display-name>RTS Un</display-name>
     <icon src="https://static.teleboy.ch/shared/stations/331/icon320_light.png?v2023_48_0"/>
   </channel>
-  <channel id="RealMadridTV.es">
-    <display-name>REAL MADRID TV</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png"/>
-  </channel>
   <channel id="Reunion1.fr">
     <display-name>Reunion 1ère</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiRrCxtmHPxQ3iKm06l4a2o-XdJ_dl57SGSVfFFZaEJsoySEqS6FuKOdBucE&amp;amp;s"/>
@@ -1841,10 +1833,6 @@
     <display-name>VTMKids</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy6FQDAFPUNQW_9MqIanhnCNh1a2VWcLT2GlOv7iXOKZ2bWXLjciOWccuqwQ&amp;amp;s"/>
   </channel>
-  <channel id="VarAzur.fr">
-    <display-name>BFM TOULON VAR</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NEUFBFMTOULONVAR100x100.png"/>
-  </channel>
   <channel id="ViaGrandParis.fr">
     <display-name>Le Figaro TV</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/LEFIGARO100x100couleur.png"/>
@@ -1977,6 +1965,14 @@
     <display-name>Horse TV</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2548/w256"/>
   </channel>
+  <channel id="oqee.1050">
+    <display-name>BFM Nice Côte d'Azur</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2535/w256"/>
+  </channel>
+  <channel id="oqee.1052">
+    <display-name>BFM Toulon Var</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/2532/w256"/>
+  </channel>
   <channel id="oqee.1055">
     <display-name>Fuel TV</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2527/w256"/>
@@ -2033,10 +2029,6 @@
     <display-name>Rotana Aflam+</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2784/w256"/>
   </channel>
-  <channel id="oqee.1096">
-    <display-name>MTV 90s</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2788/w256"/>
-  </channel>
   <channel id="oqee.1099">
     <display-name>Maboke TV</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2803/w256"/>
@@ -2049,9 +2041,17 @@
     <display-name>Journal du Golf</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2849/w256"/>
   </channel>
+  <channel id="oqee.1107">
+    <display-name>Real Madrid TV</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2873/w256"/>
+  </channel>
   <channel id="oqee.1108">
     <display-name>TeleMadrid</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2875/w256"/>
+  </channel>
+  <channel id="oqee.1111">
+    <display-name>BFM Normandie</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/2878/w256"/>
   </channel>
   <channel id="oqee.1113">
     <display-name>Pitchoun Kids Music</display-name>
@@ -2457,10 +2457,6 @@
     <display-name>MTV 80s</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2598/w256"/>
   </channel>
-  <channel id="oqee.301">
-    <display-name>MTV 00s</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2596/w256"/>
-  </channel>
   <channel id="oqee.313">
     <display-name>Chasse &amp; Pêche</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1226/w256"/>
@@ -2789,6 +2785,10 @@
     <display-name>Pro TV International</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1028/w256"/>
   </channel>
+  <channel id="oqee.823">
+    <display-name>beIN SPORTS MAX 4</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2817/w256"/>
+  </channel>
   <channel id="oqee.824">
     <display-name>beIN SPORTS MAX 5</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2819/w256"/>
@@ -2813,6 +2813,10 @@
     <display-name>beIN SPORTS MAX 10</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2829/w256"/>
   </channel>
+  <channel id="oqee.830">
+    <display-name>Game One +1</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3339/w256"/>
+  </channel>
   <channel id="oqee.835">
     <display-name>RTL</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2716/w256"/>
@@ -2828,6 +2832,10 @@
   <channel id="oqee.851">
     <display-name>PNC Food</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2186/w256"/>
+  </channel>
+  <channel id="oqee.852">
+    <display-name>BFM DICI Alpes du Sud</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/2398/w256"/>
   </channel>
   <channel id="oqee.893">
     <display-name>TRT World</display-name>
@@ -9819,26 +9827,6 @@ Présentateur(s) : Barbara Jean-Elie
     <title lang="fr">Le Match</title>
     <desc lang="fr">Comparatif entre deux voitures similaires de marque différente. Aujourd'hui vous allez découvrir la Megane e-Tech et la Volkswagen ID.3</desc>
     <category lang="fr">Magazine sportif / Automobilisme</category>
-  </programme>
-  <programme channel="AzurTV.fr" start="20260114063000 +0100" stop="20260114093000 +0100">
-    <title lang="fr">Bonjour la Côte d'Azur</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="AzurTV.fr" start="20260114093000 +0100" stop="20260114120000 +0100">
-    <title lang="fr">Bonjour la Côte d'Azur</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="AzurTV.fr" start="20260114120000 +0100" stop="20260114170000 +0100">
-    <title lang="fr">Le 12-17</title>
-    <category lang="fr">Magazine / Magazine régional</category>
-  </programme>
-  <programme channel="AzurTV.fr" start="20260114170000 +0100" stop="20260114190000 +0100">
-    <title lang="fr">Bonsoir la Côte d'Azur</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="AzurTV.fr" start="20260114190000 +0100" stop="20260115063000 +0100">
-    <title lang="fr">Bonsoir la Côte d'Azur</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="BBC1.uk" start="20260114004000 +0100" stop="20260114022500 +0100">
     <title lang="fr">28 jours plus tard</title>
@@ -33246,37 +33234,37 @@ Acteurs : Carrie Preston (Elsbeth Tascioni), Blair Underwood (Cliff McGrath), Da
   <programme channel="DiciTvAlpes.fr" start="20260114063000 +0100" stop="20260114123000 +0100">
     <title lang="fr">Bonjour Dici</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
   </programme>
   <programme channel="DiciTvAlpes.fr" start="20260114123000 +0100" stop="20260114130000 +0100">
     <title lang="fr">Bonjour Dici</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
   </programme>
   <programme channel="DiciTvAlpes.fr" start="20260114130000 +0100" stop="20260114170000 +0100">
     <title lang="fr">Bonjour Dici</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
   </programme>
   <programme channel="DiciTvAlpes.fr" start="20260114170000 +0100" stop="20260114193000 +0100">
     <title lang="fr">Bonsoir Dici</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ef79bbe24d015a8.jpeg/640x360/quality/80/bonsoir-dici.jpg"/>
   </programme>
   <programme channel="DiciTvAlpes.fr" start="20260114193000 +0100" stop="20260114200000 +0100">
     <title lang="fr">Le JT du Sud</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~a6b60507d734e805.jpeg/640x360/quality/80/le-jt-du-sud.jpg"/>
   </programme>
   <programme channel="DiciTvAlpes.fr" start="20260114200000 +0100" stop="20260115063000 +0100">
     <title lang="fr">Bonsoir Dici</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ef79bbe24d015a8.jpeg/640x360/quality/80/bonsoir-dici.jpg"/>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260114063000 +0100" stop="20260114073000 +0100">
@@ -53446,37 +53434,37 @@ Réalisateur(s) : Régis Brochier
   <programme channel="LaChaineNormande.fr" start="20260114063000 +0100" stop="20260114123000 +0100">
     <title lang="fr">Bonjour la Normandie</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine régional</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fbb17f1da544a2fe.jpeg/640x360/quality/80/bonjour-la-normandie.jpg"/>
   </programme>
   <programme channel="LaChaineNormande.fr" start="20260114123000 +0100" stop="20260114130000 +0100">
     <title lang="fr">Le 12.30 - 17</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine régional</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d387b67e0997ff7a.jpeg/640x360/quality/80/le-12-30-17.jpg"/>
   </programme>
   <programme channel="LaChaineNormande.fr" start="20260114130000 +0100" stop="20260114170000 +0100">
     <title lang="fr">Le 12.30 - 17</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine régional</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d387b67e0997ff7a.jpeg/640x360/quality/80/le-12-30-17.jpg"/>
   </programme>
   <programme channel="LaChaineNormande.fr" start="20260114170000 +0100" stop="20260114180000 +0100">
     <title lang="fr">Bonsoir la Normandie</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine régional</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~544f816a85e2a147.jpeg/640x360/quality/80/bonsoir-la-normandie.jpg"/>
   </programme>
   <programme channel="LaChaineNormande.fr" start="20260114180000 +0100" stop="20260114210000 +0100">
     <title lang="fr">Bonsoir la Normandie</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine régional</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~544f816a85e2a147.jpeg/640x360/quality/80/bonsoir-la-normandie.jpg"/>
   </programme>
   <programme channel="LaChaineNormande.fr" start="20260114210000 +0100" stop="20260115063000 +0100">
     <title lang="fr">Bonsoir la Normandie</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Magazine / Magazine régional</category>
+    <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~544f816a85e2a147.jpeg/640x360/quality/80/bonsoir-la-normandie.jpg"/>
   </programme>
   <programme channel="LaChaineParlementaire.fr" start="20260114004000 +0100" stop="20260114014000 +0100">
@@ -75457,38 +75445,6 @@ Acteurs : Kelsey Grammer (Micky Adams), Jackson White (Charlie Porter), Julia Go
     <category lang="fr">Cinéma</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~ecc71d2cf18e2eac.jpg/640x360/quality/80/taxi-driver.jpg"/>
   </programme>
-  <programme channel="RealMadridTV.es" start="20260114010000 +0100" stop="20260114040000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114040000 +0100" stop="20260114060000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114060000 +0100" stop="20260114100000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114100000 +0100" stop="20260114130000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114130000 +0100" stop="20260114160000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114160000 +0100" stop="20260114190000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114190000 +0100" stop="20260114220000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260114220000 +0100" stop="20260115010000 +0100">
-    <title lang="fr">Real Madrid TV Internacional en español</title>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
   <programme channel="Reunion1.fr" start="20260114005800 +0100" stop="20260114012900 +0100">
     <title lang="fr">Anime, une épopée japonaise</title>
     <desc lang="fr">Au cœur des mythiques studios TMS Entertainment, l'épisode suit, pas à pas, la fabrique d'une œuvre d'animation, de sa conception à la diffusion. Storyboard, animatiques, compositing, montage, doublage, toute la production d'un épisode de "Détective Conan" se laisse découvrir. Réalisateurs, animateurs, monteurs et seyû (comédiens de doublage) racontent leur métier, leur rapport à l'anime et la place qu'ils occupent dans la chaîne de production. Se pose également la question de l'intelligence artificielle, ses promesses, ses limites et les tensions qu'elle suscite au sein de la profession.
@@ -95112,26 +95068,6 @@ Denver Pyle (Homer Lee Baldwin)
     <category lang="fr">Série Dramatique</category>
     <icon src="https://images.voomotion.be/Events/2025/12/31/48/2653240_A.jpg"/>
   </programme>
-  <programme channel="VarAzur.fr" start="20260114063000 +0100" stop="20260114093000 +0100">
-    <title lang="fr">Bonjour le Var</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="VarAzur.fr" start="20260114093000 +0100" stop="20260114120000 +0100">
-    <title lang="fr">Bonjour le Var</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="VarAzur.fr" start="20260114120000 +0100" stop="20260114170000 +0100">
-    <title lang="fr">Le 12-17</title>
-    <category lang="fr">Magazine / Magazine régional</category>
-  </programme>
-  <programme channel="VarAzur.fr" start="20260114170000 +0100" stop="20260114193000 +0100">
-    <title lang="fr">Bonsoir le Var</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="VarAzur.fr" start="20260114193000 +0100" stop="20260115063000 +0100">
-    <title lang="fr">Le JT du Sud</title>
-    <category lang="fr">Divers / Journal</category>
-  </programme>
   <programme channel="ViaGrandParis.fr" start="20260114000000 +0100" stop="20260114010000 +0100">
     <title lang="fr">Points de vue</title>
     <desc lang="fr">Invités : Alexis Brézet, Directeur des rédactions du Figaro, Franz-Olivier Giesbert, écrivain et Claire Blandin, commissaire de l'exposition.</desc>
@@ -98410,49 +98346,49 @@ En Isère, Kamilia a besoin d’une pièce en plus pour s’isoler de la vie de 
   <programme channel="beINSPORTSMAX4.fr" start="20260114010000 +0100" stop="20260114020000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
+    <category lang="fr">Magazine</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F85ab05297cde44b58bf6b47e8f35399b.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114020000 +0100" stop="20260114060000 +0100">
     <title lang="fr">Tennis : Tournoi WTA d'Hobart</title>
     <desc lang="fr">A suivre le Tournoi d'Hobart, un tournoi du circuit WTA 250 de tennis, situé sur l'île de la Tasmanie au sud d'Australie. Ce tournoi joué sur surface dure réunit les meilleures joueuses de la planète qui y viennent avec une motivation décuplée à l'idée de se préparer au mieux pour l'Open d'Australie ayant lieu peu après. </desc>
-    <category lang="fr">Emission sportive / Tennis</category>
+    <category lang="fr">Sport</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F30a4d3b2f13544cebcfd1afc34262a90.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114060000 +0100" stop="20260114113000 +0100">
     <title lang="fr">Tennis : Tournoi WTA d'Hobart</title>
     <desc lang="fr">A suivre le Tournoi d'Hobart, un tournoi du circuit WTA 250 de tennis, situé sur l'île de la Tasmanie au sud d'Australie. Ce tournoi joué sur surface dure réunit les meilleures joueuses de la planète qui y viennent avec une motivation décuplée à l'idée de se préparer au mieux pour l'Open d'Australie ayant lieu peu après. </desc>
-    <category lang="fr">Emission sportive / Tennis</category>
+    <category lang="fr">Sport</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F30a4d3b2f13544cebcfd1afc34262a90.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114113000 +0100" stop="20260114130000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
+    <category lang="fr">Magazine</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F85ab05297cde44b58bf6b47e8f35399b.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114130000 +0100" stop="20260114170000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
+    <category lang="fr">Magazine</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F85ab05297cde44b58bf6b47e8f35399b.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114170000 +0100" stop="20260114194500 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
+    <category lang="fr">Magazine</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F85ab05297cde44b58bf6b47e8f35399b.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114194500 +0100" stop="20260114214500 +0100">
     <title lang="fr">Handball : Championnat de France féminin</title>
     <desc lang="fr">Retransmission d'un match de la Ligue Butagaz Energie, la plus haute division de handball professionnel féminin en France. Créé en 1952, ce championnat regroupe douze clubs professionnels qui s'affrontent pour obtenir le titre suprême de championnes de France. Le Metz Handball est l'équipe ayant le plus de titres dans l'histoire (23 titres) et un record de titres qui sera difficilement atteignable par les outsiders.</desc>
-    <category lang="fr">Emission sportive / Handball</category>
+    <category lang="fr">Sport</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F2b4bc39fb6e24ebdaa8ac1d30031411e.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260114214500 +0100" stop="20260115010000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
+    <category lang="fr">Magazine</category>
     <icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F85ab05297cde44b58bf6b47e8f35399b.jpg"/>
   </programme>
   <programme channel="beINSPORTSMAX5.fr" start="20260114010000 +0100" stop="20260114040000 +0100">
@@ -99641,6 +99577,46 @@ En Isère, Kamilia a besoin d’une pièce en plus pour s’isoler de la vie de 
   <programme channel="oqee.1046" start="20260114230000 +0100" stop="20260115000000 +0100">
     <title lang="fr">Polo: Gold Cup in Dubai, United Arab Emirates</title>
     <category lang="fr">Emission sportive / Hippisme</category>
+  </programme>
+  <programme channel="oqee.1050" start="20260114063000 +0100" stop="20260114093000 +0100">
+    <title lang="fr">Bonjour la Côte d'Azur</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1050" start="20260114093000 +0100" stop="20260114120000 +0100">
+    <title lang="fr">Bonjour la Côte d'Azur</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1050" start="20260114120000 +0100" stop="20260114170000 +0100">
+    <title lang="fr">Le 12-17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1050" start="20260114170000 +0100" stop="20260114190000 +0100">
+    <title lang="fr">Bonsoir la Côte d'Azur</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1050" start="20260114190000 +0100" stop="20260115063000 +0100">
+    <title lang="fr">Bonsoir la Côte d'Azur</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1052" start="20260114063000 +0100" stop="20260114093000 +0100">
+    <title lang="fr">Bonjour le Var</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1052" start="20260114093000 +0100" stop="20260114120000 +0100">
+    <title lang="fr">Bonjour le Var</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1052" start="20260114120000 +0100" stop="20260114170000 +0100">
+    <title lang="fr">Le 12-17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1052" start="20260114170000 +0100" stop="20260114193000 +0100">
+    <title lang="fr">Bonsoir le Var</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1052" start="20260114193000 +0100" stop="20260115063000 +0100">
+    <title lang="fr">Le JT du Sud</title>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1055" start="20260114000000 +0100" stop="20260114003000 +0100">
     <title lang="fr">Behind the Gate</title>
@@ -103397,54 +103373,6 @@ En Isère, Kamilia a besoin d’une pièce en plus pour s’isoler de la vie de 
     <title lang="fr">Pharaoh Expedition</title>
     <category lang="fr">Film / Film d'action</category>
   </programme>
-  <programme channel="oqee.1096" start="20260114000000 +0100" stop="20260114020000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114020000 +0100" stop="20260114040000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114040000 +0100" stop="20260114060000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114060000 +0100" stop="20260114080000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114080000 +0100" stop="20260114100000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114100000 +0100" stop="20260114120000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114120000 +0100" stop="20260114140000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114140000 +0100" stop="20260114160000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114160000 +0100" stop="20260114180000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114180000 +0100" stop="20260114200000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114200000 +0100" stop="20260114220000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260114220000 +0100" stop="20260115000000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
   <programme channel="oqee.1099" start="20260114003000 +0100" stop="20260114011500 +0100">
     <title lang="fr">Ya Djo - S01E02</title>
     <desc lang="fr">L'histoire révèle que le pasteur YA DJO, marié et à la tête d'une importante église, entretenait des relations avec les épouses de ses collaborateurs, allant jusqu'à les mettre enceintes. Il a tout fait pour étouffer la vérité, mais elle finira par éclater. Que va-t-il se passer ensuite ?</desc>
@@ -103870,6 +103798,38 @@ En Isère, Kamilia a besoin d’une pièce en plus pour s’isoler de la vie de 
     <desc lang="fr">L'actualité du golf décryptée par les spécialistes de Journal du Golf.</desc>
     <category lang="fr">Documentaire sportif / Golf</category>
   </programme>
+  <programme channel="oqee.1107" start="20260114010000 +0100" stop="20260114040000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114040000 +0100" stop="20260114060000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114060000 +0100" stop="20260114100000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114100000 +0100" stop="20260114130000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114130000 +0100" stop="20260114160000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114160000 +0100" stop="20260114190000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114190000 +0100" stop="20260114220000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260114220000 +0100" stop="20260115010000 +0100">
+    <title lang="fr">Real Madrid TV Internacional en español</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
   <programme channel="oqee.1108" start="20260114011600 +0100" stop="20260114024200 +0100">
     <title lang="fr">El análisis: el diario de la noche</title>
     <desc lang="fr">Programa de debate político y social conducido por Antonio Naranjo y Mónica Martínez en el que participan figuras destacadas del periodismo, la política y el análisis social. Esta diversidad de perfiles permitirá abordar los acontecimientos desde múltiples perspectivas.</desc>
@@ -103973,6 +103933,30 @@ En Isère, Kamilia a besoin d’une pièce en plus pour s’isoler de la vie de 
     <title lang="fr">La noche golfa</title>
     <desc lang="fr">Humor y actualidad se mezclan en este programa presentado por el cómico Miguel Lago. El espacio cuenta con la participación de varios colaboradores y humoristas, así como del público con un grupo de mujeres mayores que actúan como un "consejo de sabias".</desc>
     <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1111" start="20260114063000 +0100" stop="20260114123000 +0100">
+    <title lang="fr">Bonjour la Normandie</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1111" start="20260114123000 +0100" stop="20260114130000 +0100">
+    <title lang="fr">Le 12.30 - 17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1111" start="20260114130000 +0100" stop="20260114170000 +0100">
+    <title lang="fr">Le 12.30 - 17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1111" start="20260114170000 +0100" stop="20260114180000 +0100">
+    <title lang="fr">Bonsoir la Normandie</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1111" start="20260114180000 +0100" stop="20260114210000 +0100">
+    <title lang="fr">Bonsoir la Normandie</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1111" start="20260114210000 +0100" stop="20260115063000 +0100">
+    <title lang="fr">Bonsoir la Normandie</title>
+    <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="oqee.1113" start="20260114000000 +0100" stop="20260114020000 +0100">
     <title lang="fr">La Playlist des Pitchouns</title>
@@ -121845,110 +121829,62 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
   <programme channel="oqee.300" start="20260114010000 +0100" stop="20260114030000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114030000 +0100" stop="20260114050000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114050000 +0100" stop="20260114070000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114070000 +0100" stop="20260114090000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114090000 +0100" stop="20260114110000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114110000 +0100" stop="20260114130000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114130000 +0100" stop="20260114150000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114150000 +0100" stop="20260114170000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114170000 +0100" stop="20260114190000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114190000 +0100" stop="20260114210000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114210000 +0100" stop="20260114230000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.300" start="20260114230000 +0100" stop="20260115010000 +0100">
     <title lang="fr">This Channel Is Now Closed</title>
     <desc lang="fr">Aucune description</desc>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114000000 +0100" stop="20260114020000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114020000 +0100" stop="20260114040000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114040000 +0100" stop="20260114060000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114060000 +0100" stop="20260114080000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114080000 +0100" stop="20260114100000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114100000 +0100" stop="20260114120000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114120000 +0100" stop="20260114140000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114140000 +0100" stop="20260114160000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114160000 +0100" stop="20260114180000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114180000 +0100" stop="20260114200000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114200000 +0100" stop="20260114220000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260114220000 +0100" stop="20260115000000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="oqee.313" start="20260114005700 +0100" stop="20260114014500 +0100">
     <title lang="fr">La quête des poissons trophées - S01E01</title>
@@ -136777,6 +136713,46 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Cătălin Măruţă a pregătit împreună cu echipa sa rubrici noi, filmări inedite, invitaţi cu poveşti surprinzătoare, dar şi subiecte ale momentului, exclusivităţi şi un decor reîmprospătat. Campionul în divertisment transmite cele mai proaspete ştiri din lumea mondenă şi lansează noi trend-uri în show-biz-ul românesc.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.823" start="20260114010000 +0100" stop="20260114020000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114020000 +0100" stop="20260114060000 +0100">
+    <title lang="fr">Tennis : Tournoi WTA d'Hobart</title>
+    <desc lang="fr">A suivre le Tournoi d'Hobart, un tournoi du circuit WTA 250 de tennis, situé sur l'île de la Tasmanie au sud d'Australie. Ce tournoi joué sur surface dure réunit les meilleures joueuses de la planète qui y viennent avec une motivation décuplée à l'idée de se préparer au mieux pour l'Open d'Australie ayant lieu peu après. </desc>
+    <category lang="fr">Emission sportive / Tennis</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114060000 +0100" stop="20260114113000 +0100">
+    <title lang="fr">Tennis : Tournoi WTA d'Hobart</title>
+    <desc lang="fr">A suivre le Tournoi d'Hobart, un tournoi du circuit WTA 250 de tennis, situé sur l'île de la Tasmanie au sud d'Australie. Ce tournoi joué sur surface dure réunit les meilleures joueuses de la planète qui y viennent avec une motivation décuplée à l'idée de se préparer au mieux pour l'Open d'Australie ayant lieu peu après. </desc>
+    <category lang="fr">Emission sportive / Tennis</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114113000 +0100" stop="20260114130000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114130000 +0100" stop="20260114170000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114170000 +0100" stop="20260114194500 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114194500 +0100" stop="20260114214500 +0100">
+    <title lang="fr">Handball : Championnat de France féminin</title>
+    <desc lang="fr">Retransmission d'un match de la Ligue Butagaz Energie, la plus haute division de handball professionnel féminin en France. Créé en 1952, ce championnat regroupe douze clubs professionnels qui s'affrontent pour obtenir le titre suprême de championnes de France. Le Metz Handball est l'équipe ayant le plus de titres dans l'histoire (23 titres) et un record de titres qui sera difficilement atteignable par les outsiders.</desc>
+    <category lang="fr">Emission sportive / Handball</category>
+  </programme>
+  <programme channel="oqee.823" start="20260114214500 +0100" stop="20260115010000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
   <programme channel="oqee.824" start="20260114010000 +0100" stop="20260114040000 +0100">
     <title lang="fr">Hockey sur glace : NHL</title>
     <desc lang="fr">Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace. Constituée de franchises canadiennes et américaines, cette compétition est la plus célèbre au monde concernant les clubs de hockey sur glace. Elle existe depuis 1917, date de sa création à l'hôtel Windsor de Montréal au Canada.</desc>
@@ -136986,6 +136962,34 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114020000 +0100" stop="20260114080000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114080000 +0100" stop="20260114110000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114110000 +0100" stop="20260114140000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114140000 +0100" stop="20260114170000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114170000 +0100" stop="20260114200000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114200000 +0100" stop="20260114230000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260114230000 +0100" stop="20260115020000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="oqee.835" start="20260114000000 +0100" stop="20260114004300 +0100">
     <title lang="fr">RTL Nachtjournal</title>
@@ -137563,6 +137567,30 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
   <programme channel="oqee.851" start="20260114210000 +0100" stop="20260115000000 +0100">
     <title lang="fr">PNC Food</title>
     <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="oqee.852" start="20260114063000 +0100" stop="20260114123000 +0100">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.852" start="20260114123000 +0100" stop="20260114130000 +0100">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.852" start="20260114130000 +0100" stop="20260114170000 +0100">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.852" start="20260114170000 +0100" stop="20260114193000 +0100">
+    <title lang="fr">Bonsoir Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.852" start="20260114193000 +0100" stop="20260114200000 +0100">
+    <title lang="fr">Le JT du Sud</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.852" start="20260114200000 +0100" stop="20260115063000 +0100">
+    <title lang="fr">Bonsoir Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260114000000 +0100" stop="20260114003000 +0100">
     <title lang="fr">News</title>

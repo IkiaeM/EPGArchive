@@ -138,28 +138,47 @@ class ChannelNormalizer:
                 channel_ids = [ch.id for ch in channel_group]
                 
                 # If programmes provided, validate the merge won't create overlaps
-                should_merge = True
+                channels_to_merge = channel_ids
+                excluded_channels = []
+                
                 if programmes:
-                    is_valid, reason = validate_channel_merge(channel_ids, programmes, max_overlap_percent=15.0)
-                    if not is_valid:
+                    is_valid, reason, compatible_ids = validate_channel_merge(
+                        channel_ids, programmes, max_overlap_percent=15.0
+                    )
+                    
+                    if compatible_ids:
+                        channels_to_merge = compatible_ids
+                        excluded_channels = [ch for ch in channel_ids if ch not in compatible_ids]
+                    else:
+                        # No compatible channels found
                         from .console import console
                         merged_names = [ch.display_name for ch in channel_group]
                         console.print(f"[dim yellow]   Skipping merge of {merged_names}: {reason}[/dim yellow]")
-                        should_merge = False
+                        # Keep all separate
+                        for channel in channel_group:
+                            self.canonical_channels[channel.id] = channel
+                            self.channel_mapping[channel.id] = channel.id
+                        continue
                 
-                if should_merge:
-                    # Merge them
-                    best_channel = self._select_best_channel(channel_group)
+                # Merge the compatible channels
+                mergeable_channels = [ch for ch in channel_group if ch.id in channels_to_merge]
+                if len(mergeable_channels) >= 2:
+                    best_channel = self._select_best_channel(mergeable_channels)
                     canonical_id = best_channel.id
                     
                     self.canonical_channels[canonical_id] = best_channel
                     
-                    # Map all channel IDs to the canonical one
-                    for channel in channel_group:
+                    # Map merged channel IDs to the canonical one
+                    for channel in mergeable_channels:
                         self.channel_mapping[channel.id] = canonical_id
-                else:
-                    # Don't merge - keep channels separate
-                    for channel in channel_group:
+                elif len(mergeable_channels) == 1:
+                    channel = mergeable_channels[0]
+                    self.canonical_channels[channel.id] = channel
+                    self.channel_mapping[channel.id] = channel.id
+                
+                # Keep excluded channels separate
+                for channel in channel_group:
+                    if channel.id in excluded_channels:
                         self.canonical_channels[channel.id] = channel
                         self.channel_mapping[channel.id] = channel.id
         
@@ -168,6 +187,7 @@ class ChannelNormalizer:
     def _select_best_channel(self, channels: List[Channel]) -> Channel:
         """
         Select the best channel from a group of duplicates.
+        Uses source priority for logo selection.
         """
         # Sort by priority score (lower = better)
         scored = [(ch, get_channel_priority_score(ch, ch.id)) for ch in channels]
@@ -175,14 +195,22 @@ class ChannelNormalizer:
         
         best = scored[0][0]
         
-        # Enrich best channel with data from others
-        for channel, _ in scored[1:]:
-            if channel.icon and not best.icon:
-                best = Channel(
-                    id=best.id,
-                    display_name=best.display_name,
-                    icon=channel.icon
-                )
+        # Find the best icon based on priority
+        # Channels with icons, sorted by their priority score
+        channels_with_icons = [(ch, score) for ch, score in scored if ch.icon]
+        
+        best_icon = None
+        if channels_with_icons:
+            # Take icon from highest priority channel that has one
+            best_icon = channels_with_icons[0][0].icon
+        
+        # Create final channel with best attributes
+        if best_icon and best_icon != best.icon:
+            best = Channel(
+                id=best.id,
+                display_name=best.display_name,
+                icon=best_icon
+            )
         
         return best
     

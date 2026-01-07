@@ -664,10 +664,6 @@
     <display-name>RTL NITRO TV</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL_NITRO_TV_color.png"/>
   </channel>
-  <channel id="RealMadridTV.es">
-    <display-name>REAL MADRID TV</display-name>
-    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png"/>
-  </channel>
   <channel id="Sat1.de">
     <display-name>Sat.1</display-name>
     <icon src="https://static.teleboy.ch/shared/stations/360/icon320_light.png?v2023_48_0"/>
@@ -876,10 +872,6 @@
     <display-name>beIN SPORTS 3</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1335.png"/>
   </channel>
-  <channel id="beINSPORTSMAX4.fr">
-    <display-name>beIN SPORTS MAX 4</display-name>
-    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1336.png"/>
-  </channel>
   <channel id="oqee.10">
     <display-name>TVI Internacional</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1696/w256"/>
@@ -964,14 +956,6 @@
     <display-name>Rotana Aflam+</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2784/w256"/>
   </channel>
-  <channel id="oqee.1096">
-    <display-name>MTV 90s</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2788/w256"/>
-  </channel>
-  <channel id="oqee.1097">
-    <display-name>Club MTV</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2786/w256"/>
-  </channel>
   <channel id="oqee.1099">
     <display-name>Maboke TV</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2803/w256"/>
@@ -983,6 +967,10 @@
   <channel id="oqee.1106">
     <display-name>Journal du Golf</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2849/w256"/>
+  </channel>
+  <channel id="oqee.1107">
+    <display-name>Real Madrid TV</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2873/w256"/>
   </channel>
   <channel id="oqee.1108">
     <display-name>TeleMadrid</display-name>
@@ -1440,14 +1428,6 @@
     <display-name>TVR</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1900/w256"/>
   </channel>
-  <channel id="oqee.300">
-    <display-name>MTV 80s</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2598/w256"/>
-  </channel>
-  <channel id="oqee.301">
-    <display-name>MTV 00s</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2596/w256"/>
-  </channel>
   <channel id="oqee.313">
     <display-name>Chasse &amp; Pêche</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1226/w256"/>
@@ -1792,6 +1772,10 @@
     <display-name>Pro TV International</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1028/w256"/>
   </channel>
+  <channel id="oqee.823">
+    <display-name>beIN SPORTS MAX 4</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2817/w256"/>
+  </channel>
   <channel id="oqee.824">
     <display-name>beIN SPORTS MAX 5</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2819/w256"/>
@@ -1815,6 +1799,10 @@
   <channel id="oqee.829">
     <display-name>beIN SPORTS MAX 10</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2829/w256"/>
+  </channel>
+  <channel id="oqee.830">
+    <display-name>Game One +1</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3339/w256"/>
   </channel>
   <channel id="oqee.835">
     <display-name>RTL</display-name>
@@ -33169,62 +33157,6 @@
     <desc lang="fr">Les Emancipateurs, un groupe d'extrémistes, a décidé de juger les hommes politiques corrompus de Los Angeles. Dans ce but, ils diffusent en direct sur Internet une parodie de procès qui doit se terminer par l'exécution de certaines personnalités en vue. Le SWAT tente de découvrir où ils se trouvent. Pendant ce temps, Deacon se sent indigne de la distinction qui va lui être remise par les plus hautes instances de la police de la ville...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
-  <programme channel="RealMadridTV.es" start="20260101005000 +0100" stop="20260101024500 +0100">
-    <title lang="fr">Basket-ball : Championnat d'Espagne</title>
-    <desc lang="fr">Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.</desc>
-    <category lang="fr">Emission sportive / Basket-ball</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101024500 +0100" stop="20260101044500 +0100">
-    <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101044500 +0100" stop="20260101070000 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101070000 +0100" stop="20260101073000 +0100">
-    <title lang="fr">30 Minutos</title>
-    <desc lang="fr">Programa que ofrece un resumen de las mejores jugadas del Real Madrid.</desc>
-    <category lang="fr">Magazine / Magazine sportif</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101073000 +0100" stop="20260101095500 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101095500 +0100" stop="20260101115000 +0100">
-    <title lang="fr">Basket-ball : Championnat d'Espagne</title>
-    <desc lang="fr">Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.</desc>
-    <category lang="fr">Emission sportive / Basket-ball</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101115000 +0100" stop="20260101143500 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101143500 +0100" stop="20260101162500 +0100">
-    <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101162500 +0100" stop="20260101183500 +0100">
-    <title lang="fr">Historia que tú hiciste</title>
-    <category lang="fr">Magazine sportif / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101183500 +0100" stop="20260101203000 +0100">
-    <title lang="fr">Basket-ball : Championnat d'Espagne</title>
-    <desc lang="fr">Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.</desc>
-    <category lang="fr">Emission sportive / Basket-ball</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101203000 +0100" stop="20260101223000 +0100">
-    <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="RealMadridTV.es" start="20260101223000 +0100" stop="20260102003500 +0100">
-    <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
   <programme channel="Sat1.de" start="20260101005000 +0100" stop="20260101025000 +0100">
     <title lang="fr">Die besten Comedians Deutschlands</title>
     <desc lang="fr">In dem Comedy Stand-Up-Format bleibt kein Auge trocken. Die wohl besten Comedians des Landes zeigen Ausschnitte aus ihren aktuellen Programmen. Da ist für jeden Humorgeschmack etwas dabei. Mario Barth, Chris Tall, Mirja Regensburg, Olaf Schubert, Cindy aus Marzahn und viele weitere beliebte Humorspezialisten schauen auf ihre persönliche Art und Weise auf das Jahr 2025 zurück, mit viel Biss und satirischer Schärfe.</desc>
@@ -42917,61 +42849,6 @@
     <title lang="fr">Baseball : MLB</title>
     <category lang="fr">Emission sportive / Baseball</category>
   </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101000000 +0100" stop="20260101013000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101013000 +0100" stop="20260101043000 +0100">
-    <title lang="fr">Football américain : NCAA</title>
-    <desc lang="fr">Diffusion d'un match de NCAA, le championnat universitaire de football américain aux Etats-Unis. Réunissant les universités américaines réparties en trois divisions. C'est l'anti-chambre de la NFL, où les meilleurs joueurs sont plus tard "draftés" par les meilleurs franchises NFL. </desc>
-    <category lang="fr">Emission sportive / Football américain</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101043000 +0100" stop="20260101050000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101050000 +0100" stop="20260101090000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101090000 +0100" stop="20260101132500 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101132500 +0100" stop="20260101153000 +0100">
-    <title lang="fr">Football : EFL Championship</title>
-    <desc lang="fr">Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EFL Championship. C'est probablement la plus fameuse ligue de deuxième niveau dans le monde. Chaque année trois équipes sont promues en Premier League.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101153000 +0100" stop="20260101155500 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101155500 +0100" stop="20260101180000 +0100">
-    <title lang="fr">Football : EFL Championship</title>
-    <desc lang="fr">Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EFL Championship. C'est probablement la plus fameuse ligue de deuxième niveau dans le monde. Chaque année trois équipes sont promues en Premier League.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101180000 +0100" stop="20260101182500 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101182500 +0100" stop="20260101203000 +0100">
-    <title lang="fr">Football : EFL Championship</title>
-    <desc lang="fr">Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EFL Championship. C'est probablement la plus fameuse ligue de deuxième niveau dans le monde. Chaque année trois équipes sont promues en Premier League.</desc>
-    <category lang="fr">Emission sportive / Football</category>
-  </programme>
-  <programme channel="beINSPORTSMAX4.fr" start="20260101203000 +0100" stop="20260102010000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
   <programme channel="oqee.10" start="20260101000500 +0100" stop="20260101005500 +0100">
     <title lang="fr">Querido, mudei a casa!</title>
     <desc lang="fr">Apresentado por João Montez, todos os programas vão ter rúbricas de bricolage e ideias low-cost. Inteiramente dedicado à decoração e renovação de interiores, este programa conta com uma equipa de decoradores fantásticos e, claro, com os "Queridos".</desc>
@@ -48008,102 +47885,6 @@
     <title lang="fr">Tatah</title>
     <category lang="fr">Film / Film d'action</category>
   </programme>
-  <programme channel="oqee.1096" start="20260101000000 +0100" stop="20260101020000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101020000 +0100" stop="20260101040000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101040000 +0100" stop="20260101060000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101060000 +0100" stop="20260101080000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101080000 +0100" stop="20260101100000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101100000 +0100" stop="20260101120000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101120000 +0100" stop="20260101140000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101140000 +0100" stop="20260101160000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101160000 +0100" stop="20260101180000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101180000 +0100" stop="20260101200000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101200000 +0100" stop="20260101220000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1096" start="20260101220000 +0100" stop="20260102000000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101010000 +0100" stop="20260101030000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101030000 +0100" stop="20260101050000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101050000 +0100" stop="20260101070000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101070000 +0100" stop="20260101090000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101090000 +0100" stop="20260101110000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101110000 +0100" stop="20260101130000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101130000 +0100" stop="20260101150000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101150000 +0100" stop="20260101170000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101170000 +0100" stop="20260101190000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101190000 +0100" stop="20260101210000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101210000 +0100" stop="20260101230000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.1097" start="20260101230000 +0100" stop="20260102010000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
   <programme channel="oqee.1099" start="20260101003000 +0100" stop="20260101011400 +0100">
     <title lang="fr">Un jour - S01E03</title>
     <desc lang="fr">Ursule, stérile malgré l'amour de son mari Vinny, voit sa belle-mère ramener une autre femme pour lui "donner des enfants". Mais Naomie cache une grossesse interdite, et les secrets de famille éclatent à Kinshasa.</desc>
@@ -48578,6 +48359,62 @@
     <title lang="fr">Swing</title>
     <desc lang="fr">Émission spéciale en direct de Birdieland, en plein cœur de Paris, pour fêter le 200e numéro du Journal du Golf. On va retracer l'histoire du journal à travers celles et ceux qui l'ont fait : les joueurs pros, les amateurs, les photographes, les journalistes. Actualités, enseignements, souvenirs, moments forts, tourisme, matériel… tous les sujets seront abordés !</desc>
     <category lang="fr">Documentaire sportif / Golf</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101005000 +0100" stop="20260101024500 +0100">
+    <title lang="fr">Basket-ball : Championnat d'Espagne</title>
+    <desc lang="fr">Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.</desc>
+    <category lang="fr">Emission sportive / Basket-ball</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101024500 +0100" stop="20260101044500 +0100">
+    <title lang="fr">Football : Liga</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101044500 +0100" stop="20260101070000 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101070000 +0100" stop="20260101073000 +0100">
+    <title lang="fr">30 Minutos</title>
+    <desc lang="fr">Programa que ofrece un resumen de las mejores jugadas del Real Madrid.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101073000 +0100" stop="20260101095500 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101095500 +0100" stop="20260101115000 +0100">
+    <title lang="fr">Basket-ball : Championnat d'Espagne</title>
+    <desc lang="fr">Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.</desc>
+    <category lang="fr">Emission sportive / Basket-ball</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101115000 +0100" stop="20260101143500 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101143500 +0100" stop="20260101162500 +0100">
+    <title lang="fr">Football : Liga</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101162500 +0100" stop="20260101183500 +0100">
+    <title lang="fr">Historia que tú hiciste</title>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101183500 +0100" stop="20260101203000 +0100">
+    <title lang="fr">Basket-ball : Championnat d'Espagne</title>
+    <desc lang="fr">Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.</desc>
+    <category lang="fr">Emission sportive / Basket-ball</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101203000 +0100" stop="20260101223000 +0100">
+    <title lang="fr">Football : Liga</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.1107" start="20260101223000 +0100" stop="20260102003500 +0100">
+    <title lang="fr">Football : Liga</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="oqee.1108" start="20260101010000 +0100" stop="20260101024600 +0100">
     <title lang="fr">Karaoke Inolvidables 2022</title>
@@ -68109,102 +67946,6 @@ Ce père de famille considéré par tous comme généreux et serviable, est peut
     <title lang="fr">Le Mag</title>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
-  <programme channel="oqee.300" start="20260101010000 +0100" stop="20260101030000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101030000 +0100" stop="20260101050000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101050000 +0100" stop="20260101070000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101070000 +0100" stop="20260101090000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101090000 +0100" stop="20260101110000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101110000 +0100" stop="20260101130000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101130000 +0100" stop="20260101150000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101150000 +0100" stop="20260101170000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101170000 +0100" stop="20260101190000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101190000 +0100" stop="20260101210000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101210000 +0100" stop="20260101230000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.300" start="20260101230000 +0100" stop="20260102010000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101000000 +0100" stop="20260101020000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101020000 +0100" stop="20260101040000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101040000 +0100" stop="20260101060000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101060000 +0100" stop="20260101080000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101080000 +0100" stop="20260101100000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101100000 +0100" stop="20260101120000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101120000 +0100" stop="20260101140000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101140000 +0100" stop="20260101160000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101160000 +0100" stop="20260101180000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101180000 +0100" stop="20260101200000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101200000 +0100" stop="20260101220000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
-  <programme channel="oqee.301" start="20260101220000 +0100" stop="20260102000000 +0100">
-    <title lang="fr">This Channel Is Now Closed</title>
-    <category lang="fr">Divers / Emission spéciale</category>
-  </programme>
   <programme channel="oqee.313" start="20260101001100 +0100" stop="20260101010200 +0100">
     <title lang="fr">J'irai pêcher chez vous - S01E08</title>
     <desc lang="fr">Rencontre avec Pierre Pommeret, directeur de la fédération de haute Vienne et son équipe. L'occasion de découvrir les plaisirs du street fishing.</desc>
@@ -83169,6 +82910,61 @@ Ce père de famille considéré par tous comme généreux et serviable, est peut
     <desc lang="fr">"Super Speed" - o emisiune prezentată de Costin Giurgea, cu maşini, teste incredibile şi vedete care vor fi puse în situaţii inedite. Jurnalistul are o vastă experienţă în presa auto şi este pregătit să le aducă românilor o emisiune plină de dinamism şi distracţie. În fiecare ediţie, Costin va testa maşini sport, va face teste comparative cu cele mai noi modele de pe piaţă şi va invita vedete pe care le va surprinde atât cu viteza de pe circuit, cât şi cu glume sau reacţii spumoase.</desc>
     <category lang="fr">Magazine sportif / Automobilisme</category>
   </programme>
+  <programme channel="oqee.823" start="20260101000000 +0100" stop="20260101013000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101013000 +0100" stop="20260101043000 +0100">
+    <title lang="fr">Football américain : NCAA</title>
+    <desc lang="fr">Diffusion d'un match de NCAA, le championnat universitaire de football américain aux Etats-Unis. Réunissant les universités américaines réparties en trois divisions. C'est l'anti-chambre de la NFL, où les meilleurs joueurs sont plus tard "draftés" par les meilleurs franchises NFL. </desc>
+    <category lang="fr">Emission sportive / Football américain</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101043000 +0100" stop="20260101050000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101050000 +0100" stop="20260101090000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101090000 +0100" stop="20260101132500 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101132500 +0100" stop="20260101153000 +0100">
+    <title lang="fr">Football : EFL Championship</title>
+    <desc lang="fr">Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EFL Championship. C'est probablement la plus fameuse ligue de deuxième niveau dans le monde. Chaque année trois équipes sont promues en Premier League.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101153000 +0100" stop="20260101155500 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101155500 +0100" stop="20260101180000 +0100">
+    <title lang="fr">Football : EFL Championship</title>
+    <desc lang="fr">Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EFL Championship. C'est probablement la plus fameuse ligue de deuxième niveau dans le monde. Chaque année trois équipes sont promues en Premier League.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101180000 +0100" stop="20260101182500 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101182500 +0100" stop="20260101203000 +0100">
+    <title lang="fr">Football : EFL Championship</title>
+    <desc lang="fr">Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EFL Championship. C'est probablement la plus fameuse ligue de deuxième niveau dans le monde. Chaque année trois équipes sont promues en Premier League.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.823" start="20260101203000 +0100" stop="20260102010000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
   <programme channel="oqee.824" start="20260101010000 +0100" stop="20260101050000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
@@ -83353,6 +83149,30 @@ Ce père de famille considéré par tous comme généreux et serviable, est peut
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.830" start="20260101080000 +0100" stop="20260101110000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260101110000 +0100" stop="20260101140000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260101140000 +0100" stop="20260101170000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260101170000 +0100" stop="20260101200000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260101200000 +0100" stop="20260101230000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.830" start="20260101230000 +0100" stop="20260102020000 +0100">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="oqee.835" start="20260101000000 +0100" stop="20260101000500 +0100">
     <title lang="fr">Willkommen in 2026 - Der Jahreswechsel live aus Berlin vom Brandenburger Tor</title>
