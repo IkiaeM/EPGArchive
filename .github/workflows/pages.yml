@@ -34,6 +34,9 @@ jobs:
       - name: Generate dates index
         run: python docs/generate_index.py
 
+      - name: Generate combined EPG
+        run: python docs/generate_combined_epg.py
+
       - name: Prepare Pages directory
         run: |
           mkdir -p _site
