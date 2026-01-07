@@ -10,7 +10,6 @@ from .exporter import XMLTVExporter
 from .console import console, create_progress, print_source_status, print_summary
 from .scrapers import NouvelObsScraper, OQEEScraper
 from .channel_normalizer import merge_duplicate_channels
-from .overlap_detector import log_overlap_summary
 
 
 class EPGOrchestrator:
@@ -146,9 +145,6 @@ class EPGOrchestrator:
         
         merged_programmes = self.merger.merge_programmes(all_programmes)
         programmes_after = len(merged_programmes)
-        
-        # Log overlap summary after merge
-        log_overlap_summary(merged_programmes)
         
         by_date: Dict[str, List[Programme]] = {}
         for prog in merged_programmes:

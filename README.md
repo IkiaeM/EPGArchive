@@ -294,8 +294,7 @@ epg_archive/
 ├── console.py               # Interface console avec Rich (couleurs, tableaux)
 ├── utils.py                 # Utilitaires partagés (parsing datetime)
 ├── cli.py                   # Interface en ligne de commande
-├── channel_normalizer.py    # Normalisation et fusion des chaînes dupliquées
-├── overlap_detector.py      # Détection des chevauchements de programmes
+├── channel_normalizer.py    # Normalisation et fusion des chaînes (priorité source)
 └── scrapers/
     ├── __init__.py          # Module scrapers
     └── nouvelobs.py         # Scraper NouvelObs avec barre de progression

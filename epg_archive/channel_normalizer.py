@@ -1,10 +1,11 @@
 """
 Channel normalizer - Merges duplicate channels from different sources.
 
-Handles cases like:
-- "LCI" vs "lci" vs "Lci" (case differences)
-- "La Une" from different sources with different IDs
-- "TF1.fr" vs "tf1.nouvelobs" (same channel, different source IDs)
+Simple approach:
+1. Group channels by normalized name
+2. Merge all channels with same name into one
+3. Use priority source for logo
+4. For programmes: priority source first, fill gaps with secondary sources
 """
 
 import re
@@ -13,7 +14,6 @@ from typing import List, Dict, Tuple, Set
 from collections import defaultdict
 
 from .models import Channel, Programme
-from .overlap_detector import validate_channel_merge
 
 
 # Phrases indicating a closed/dead channel - filter these out
@@ -29,258 +29,41 @@ CLOSED_CHANNEL_PHRASES = [
 def normalize_channel_name(name: str) -> str:
     """
     Normalize a channel name for comparison.
-    
-    - Lowercase
-    - Remove accents
-    - Remove special characters except alphanumeric
-    - Remove common suffixes like HD, +1, Channel, TV, etc.
     """
     if not name:
         return ""
     
-    # Lowercase
     normalized = name.lower().strip()
-    
-    # Remove accents
     normalized = unicodedata.normalize('NFKD', normalized)
     normalized = ''.join(c for c in normalized if not unicodedata.combining(c))
     
-    # Remove common suffixes/prefixes that don't affect identity
-    # Order matters: remove longer patterns first
-    suffixes_to_remove = [
-        r'\s*channel$',
-        r'\s*television$',
-        r'\s*tv$',
-        r'\s*hd$',
-        r'\s*sd$',
-        r'\s*uhd$',
-        r'\s*4k$',
-        r'\s*\+1$',
-        r'\s*\+2$',
-        r'\s*france$',
-        r'\s*fr$',
-    ]
-    for suffix in suffixes_to_remove:
+    # Remove common suffixes
+    for suffix in [r'\s*channel$', r'\s*television$', r'\s*tv$', r'\s*hd$', 
+                   r'\s*sd$', r'\s*uhd$', r'\s*4k$', r'\s*\+1$', r'\s*\+2$',
+                   r'\s*france$', r'\s*fr$']:
         normalized = re.sub(suffix, '', normalized, flags=re.IGNORECASE)
     
-    # Remove all non-alphanumeric characters
+    # Remove all non-alphanumeric
     normalized = re.sub(r'[^a-z0-9]', '', normalized)
     
     return normalized
 
 
-def get_channel_priority_score(channel: Channel, source_id: str) -> int:
-    """
-    Calculate priority score for a channel.
-    Lower score = higher priority.
-    
-    Prefer:
-    - Channels with icons
-    - Channels with proper display names (not just IDs)
-    - Channels from primary sources (shorter IDs often = main sources)
-    """
-    score = 0
-    
-    # Penalize if no icon
-    if not channel.icon:
-        score += 10
-    
-    # Penalize if display_name looks like an ID
-    if channel.display_name == channel.id:
-        score += 5
-    
-    # Penalize long source-specific IDs (like "lci.nouvelobs")
-    if '.' in channel.id or len(channel.id) > 20:
-        score += 3
-    
-    # Prefer numeric IDs (often from primary sources)
-    if channel.id.isdigit():
-        score -= 2
-    
-    return score
-
-
-class ChannelNormalizer:
-    """
-    Normalizes and merges channels from multiple sources.
-    """
-    
-    def __init__(self):
-        self.channel_mapping: Dict[str, str] = {}  # old_id -> canonical_id
-        self.canonical_channels: Dict[str, Channel] = {}  # canonical_id -> Channel
-    
-    def normalize_channels(
-        self, 
-        channels: List[Channel],
-        programmes: List[Programme] = None
-    ) -> Tuple[List[Channel], Dict[str, str]]:
-        """
-        Normalize a list of channels, merging duplicates.
-        
-        Args:
-            channels: List of channels to normalize
-            programmes: Optional list of programmes to validate merges
-        
-        Returns:
-            - List of unique channels
-            - Mapping from original channel IDs to canonical IDs
-        """
-        # Group channels by normalized name
-        by_normalized_name: Dict[str, List[Channel]] = defaultdict(list)
-        
-        for channel in channels:
-            normalized_name = normalize_channel_name(channel.display_name)
-            if normalized_name:
-                by_normalized_name[normalized_name].append(channel)
-        
-        # For each group, select the best channel and create mapping
-        self.channel_mapping = {}
-        self.canonical_channels = {}
-        
-        for normalized_name, channel_group in by_normalized_name.items():
-            if len(channel_group) == 1:
-                # Only one channel with this name, keep as-is
-                channel = channel_group[0]
-                self.canonical_channels[channel.id] = channel
-                self.channel_mapping[channel.id] = channel.id
-            else:
-                # Multiple channels with same normalized name - validate merge
-                channel_ids = [ch.id for ch in channel_group]
-                
-                # If programmes provided, validate the merge won't create overlaps
-                channels_to_merge = channel_ids
-                excluded_channels = []
-                
-                if programmes:
-                    is_valid, reason, compatible_ids = validate_channel_merge(
-                        channel_ids, programmes, max_overlap_percent=15.0
-                    )
-                    
-                    if compatible_ids:
-                        channels_to_merge = compatible_ids
-                        excluded_channels = [ch for ch in channel_ids if ch not in compatible_ids]
-                    else:
-                        # No compatible channels found
-                        from .console import console
-                        merged_names = [ch.display_name for ch in channel_group]
-                        console.print(f"[dim yellow]   Skipping merge of {merged_names}: {reason}[/dim yellow]")
-                        # Keep all separate
-                        for channel in channel_group:
-                            self.canonical_channels[channel.id] = channel
-                            self.channel_mapping[channel.id] = channel.id
-                        continue
-                
-                # Merge the compatible channels
-                mergeable_channels = [ch for ch in channel_group if ch.id in channels_to_merge]
-                if len(mergeable_channels) >= 2:
-                    best_channel = self._select_best_channel(mergeable_channels)
-                    canonical_id = best_channel.id
-                    
-                    self.canonical_channels[canonical_id] = best_channel
-                    
-                    # Map merged channel IDs to the canonical one
-                    for channel in mergeable_channels:
-                        self.channel_mapping[channel.id] = canonical_id
-                elif len(mergeable_channels) == 1:
-                    channel = mergeable_channels[0]
-                    self.canonical_channels[channel.id] = channel
-                    self.channel_mapping[channel.id] = channel.id
-                
-                # Keep excluded channels separate
-                for channel in channel_group:
-                    if channel.id in excluded_channels:
-                        self.canonical_channels[channel.id] = channel
-                        self.channel_mapping[channel.id] = channel.id
-        
-        return list(self.canonical_channels.values()), self.channel_mapping
-    
-    def _select_best_channel(self, channels: List[Channel]) -> Channel:
-        """
-        Select the best channel from a group of duplicates.
-        Uses source priority for logo selection.
-        """
-        # Sort by priority score (lower = better)
-        scored = [(ch, get_channel_priority_score(ch, ch.id)) for ch in channels]
-        scored.sort(key=lambda x: x[1])
-        
-        best = scored[0][0]
-        
-        # Find the best icon based on priority
-        # Channels with icons, sorted by their priority score
-        channels_with_icons = [(ch, score) for ch, score in scored if ch.icon]
-        
-        best_icon = None
-        if channels_with_icons:
-            # Take icon from highest priority channel that has one
-            best_icon = channels_with_icons[0][0].icon
-        
-        # Create final channel with best attributes
-        if best_icon and best_icon != best.icon:
-            best = Channel(
-                id=best.id,
-                display_name=best.display_name,
-                icon=best_icon
-            )
-        
-        return best
-    
-    def normalize_programmes(
-        self, 
-        programmes: List[Programme], 
-        channel_mapping: Dict[str, str]
-    ) -> List[Programme]:
-        """
-        Update programme channel IDs to use canonical channel IDs.
-        """
-        normalized = []
-        
-        for prog in programmes:
-            canonical_id = channel_mapping.get(prog.channel, prog.channel)
-            
-            if canonical_id != prog.channel:
-                # Create new programme with updated channel ID
-                normalized.append(Programme(
-                    channel=canonical_id,
-                    start=prog.start,
-                    stop=prog.stop,
-                    title=prog.title,
-                    description=prog.description,
-                    category=prog.category,
-                    episode_num=prog.episode_num,
-                    icon=prog.icon,
-                    source=prog.source,
-                    source_priority=prog.source_priority,
-                    last_updated=prog.last_updated
-                ))
-            else:
-                normalized.append(prog)
-        
-        return normalized
-
-
 def find_closed_channels(programmes: List[Programme]) -> Set[str]:
-    """
-    Find channels that only have 'closed channel' placeholder programmes.
-    These channels should be filtered out from all sources.
-    """
-    # Group programmes by channel
+    """Find channels that only have 'closed channel' placeholder programmes."""
     by_channel: Dict[str, List[Programme]] = defaultdict(list)
     for prog in programmes:
         by_channel[prog.channel].append(prog)
     
-    # Find channels where all programmes are "closed" messages
     channels_to_exclude = set()
     for channel_id, progs in by_channel.items():
         if not progs:
             continue
         
-        all_closed = True
-        for prog in progs:
-            title_lower = prog.title.lower() if prog.title else ""
-            if not any(phrase in title_lower for phrase in CLOSED_CHANNEL_PHRASES):
-                all_closed = False
-                break
-        
+        all_closed = all(
+            any(phrase in (prog.title or "").lower() for phrase in CLOSED_CHANNEL_PHRASES)
+            for prog in progs
+        )
         if all_closed:
             channels_to_exclude.add(channel_id)
     
@@ -292,29 +75,135 @@ def merge_duplicate_channels(
     programmes: List[Programme]
 ) -> Tuple[List[Channel], List[Programme], Dict[str, str]]:
     """
-    Convenience function to normalize channels and programmes.
-    Also filters out closed/dead channels from all sources.
+    Merge duplicate channels and their programmes.
     
-    Returns:
-        - Deduplicated channels
-        - Programmes with updated channel IDs
-        - Channel ID mapping
+    Strategy:
+    - Group channels by normalized name
+    - Select best channel (logo from highest priority source)
+    - For programmes: priority source first, fill gaps with secondary sources
     """
-    # First, filter out closed channels
+    from .console import console
+    
+    # Filter closed channels first
     closed_channels = find_closed_channels(programmes)
     if closed_channels:
-        from .console import console
         console.print(f"[dim]   Filtered {len(closed_channels)} closed channels[/dim]")
         programmes = [p for p in programmes if p.channel not in closed_channels]
         channels = [ch for ch in channels if ch.id not in closed_channels]
     
-    normalizer = ChannelNormalizer()
+    # Group channels by normalized name
+    by_normalized: Dict[str, List[Channel]] = defaultdict(list)
+    for ch in channels:
+        norm_name = normalize_channel_name(ch.display_name)
+        if norm_name:
+            by_normalized[norm_name].append(ch)
     
-    # Pass programmes to validate merges
-    unique_channels, mapping = normalizer.normalize_channels(channels, programmes)
-    normalized_programmes = normalizer.normalize_programmes(programmes, mapping)
+    # Build channel mapping and select best channel per group
+    channel_mapping: Dict[str, str] = {}
+    unique_channels: List[Channel] = []
     
-    # Logging is handled by the orchestrator for consistent UI
-    merged_count = len(channels) - len(unique_channels)
+    for norm_name, channel_group in by_normalized.items():
+        # Sort by source priority (lower = better), then by icon presence
+        channel_group.sort(key=lambda c: (
+            getattr(c, 'source_priority', 999),
+            0 if c.icon else 1
+        ))
+        
+        best = channel_group[0]
+        
+        # Find best icon from highest priority source that has one
+        best_icon = None
+        for ch in channel_group:
+            if ch.icon:
+                best_icon = ch.icon
+                break
+        
+        # Create canonical channel with best icon
+        canonical = Channel(
+            id=best.id,
+            display_name=best.display_name,
+            icon=best_icon or best.icon
+        )
+        unique_channels.append(canonical)
+        
+        # Map all channel IDs to canonical
+        for ch in channel_group:
+            channel_mapping[ch.id] = canonical.id
     
-    return unique_channels, normalized_programmes, mapping
+    # Merge programmes: priority first, fill gaps with secondary
+    merged_programmes = _merge_programmes_by_priority(programmes, channel_mapping)
+    
+    return unique_channels, merged_programmes, channel_mapping
+
+
+def _merge_programmes_by_priority(
+    programmes: List[Programme],
+    channel_mapping: Dict[str, str]
+) -> List[Programme]:
+    """
+    Merge programmes using priority-based gap filling.
+    
+    For each channel:
+    1. Take all programmes from priority source
+    2. Fill gaps with programmes from secondary sources
+    """
+    # Group programmes by canonical channel
+    by_channel: Dict[str, List[Programme]] = defaultdict(list)
+    for prog in programmes:
+        canonical_id = channel_mapping.get(prog.channel, prog.channel)
+        # Update channel ID to canonical
+        updated_prog = Programme(
+            channel=canonical_id,
+            start=prog.start,
+            stop=prog.stop,
+            title=prog.title,
+            description=prog.description,
+            category=prog.category,
+            episode_num=prog.episode_num,
+            icon=prog.icon,
+            source=prog.source,
+            source_priority=prog.source_priority,
+            last_updated=prog.last_updated
+        )
+        by_channel[canonical_id].append(updated_prog)
+    
+    merged: List[Programme] = []
+    
+    for channel_id, progs in by_channel.items():
+        # Sort by priority (lower = better), then by start time
+        progs.sort(key=lambda p: (p.source_priority or 999, p.start))
+        
+        # Use a timeline to track covered periods
+        # Take programmes from priority source, fill gaps with secondary
+        timeline: List[Programme] = []
+        
+        for prog in progs:
+            if _can_add_to_timeline(prog, timeline):
+                timeline.append(prog)
+        
+        merged.extend(timeline)
+    
+    return merged
+
+
+def _can_add_to_timeline(prog: Programme, timeline: List[Programme]) -> bool:
+    """
+    Check if programme can be added without significant overlap.
+    Allow adding if it fills a gap or only slightly overlaps.
+    """
+    if not timeline:
+        return True
+    
+    # Check for overlap with existing programmes
+    for existing in timeline:
+        # Check if there's significant overlap (more than 5 minutes)
+        overlap_start = max(prog.start, existing.start)
+        overlap_end = min(prog.stop, existing.stop)
+        
+        if overlap_start < overlap_end:
+            overlap_duration = (overlap_end - overlap_start).total_seconds()
+            # If more than 5 minutes overlap, skip this programme
+            if overlap_duration > 300:
+                return False
+    
+    return True
