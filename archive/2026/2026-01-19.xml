@@ -148,6 +148,10 @@
     <display-name>Cartoon Network</display-name>
     <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-36.png"/>
   </channel>
+  <channel id="Cdirect.af">
+    <display-name>CDIRECT</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/180765/canal-ouah/CHN43FB/CDIRECT_myCANAL_640x480"/>
+  </channel>
   <channel id="Cherie25.fr">
     <display-name>RMC Life</display-name>
     <icon src="https://i81.servimg.com/u/f81/19/39/09/46/img_4810.jpg"/>
@@ -426,6 +430,22 @@
   </channel>
   <channel id="Ligue1Plus.fr">
     <display-name>Ligue 1+</display-name>
+    <icon src="https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png"/>
+  </channel>
+  <channel id="Ligue1Plus2.fr">
+    <display-name>Ligue 1+ 2</display-name>
+    <icon src="https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png"/>
+  </channel>
+  <channel id="Ligue1Plus3.fr">
+    <display-name>Ligue 1+ 3</display-name>
+    <icon src="https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png"/>
+  </channel>
+  <channel id="Ligue1Plus4.fr">
+    <display-name>Ligue 1+ 4</display-name>
+    <icon src="https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png"/>
+  </channel>
+  <channel id="Ligue1Plus5.fr">
+    <display-name>Ligue 1+ 5</display-name>
     <icon src="https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png"/>
   </channel>
   <channel id="LuckyJack.fr">
@@ -1048,10 +1068,6 @@
     <display-name>E!</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/3132/w256"/>
   </channel>
-  <channel id="oqee.119">
-    <display-name>Paramount Network Décalé</display-name>
-    <icon src="https://img2.dc2.oqee.net/channel_pictures/3379/w256"/>
-  </channel>
   <channel id="oqee.1201">
     <display-name>Redlight HD</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/3185/w256"/>
@@ -1384,10 +1400,6 @@
     <display-name>C Music</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/864/w256"/>
   </channel>
-  <channel id="oqee.567">
-    <display-name>LCP - Assemblée Nationale 24h/24</display-name>
-    <icon src="https://img2.dc2.oqee.net/channel_pictures/1309/w256"/>
-  </channel>
   <channel id="oqee.577">
     <display-name>TV8 International</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1660/w256"/>
@@ -1483,6 +1495,10 @@
   <channel id="oqee.70">
     <display-name>TV3 CAT</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/835/w256"/>
+  </channel>
+  <channel id="oqee.701">
+    <display-name>Wéo</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3037/w256"/>
   </channel>
   <channel id="oqee.702">
     <display-name>Equinoxe TV</display-name>
@@ -2444,16 +2460,6 @@
   <programme channel="AB1.fr" start="20260119045000 +0100" stop="20260119051500 +0100">
     <title lang="fr">Hélène et les garçons - S01E124</title>
     <desc lang="fr">Les garçons sont persuadés que leur chanson va faire un tube et qu'ils deviendront des stars du rock. Thomas Fava voudrait enregistrer la chanson autrement...</desc>
-    <category lang="fr">Série / Série sentimentale</category>
-  </programme>
-  <programme channel="AB1.fr" start="20260119051500 +0100" stop="20260119054000 +0100">
-    <title lang="fr">Hélène et les garçons - S01E125</title>
-    <desc lang="fr">Les garçons arrivent au studio avec tout leur matériel pour refaire l'enregistrement. La chanson a été tellement modifiée qu'Hélène n'arrive plus à s'y retrouver...</desc>
-    <category lang="fr">Série / Série sentimentale</category>
-  </programme>
-  <programme channel="AB1.fr" start="20260119054000 +0100" stop="20260119061500 +0100">
-    <title lang="fr">Hélène et les garçons - S01E126</title>
-    <desc lang="fr">Bénédicte et José reviennent de vacances. Ils apprennent la triste nouvelle concernant le play-back et la vente de la chanson de Thomas Fava. Nathalie arrive alors en piteux état...</desc>
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="AB1.fr" start="20260119061500 +0100" stop="20260119071000 +0100">
@@ -5970,11 +5976,6 @@
     <desc lang="fr">Une sélection de clips tous tirés de l'univers rock anglais, américain, français et de bien d'autres pays encore.</desc>
     <category lang="fr">Divers / Clips</category>
   </programme>
-  <programme channel="CStar.ch" start="20260119050000 +0100" stop="20260119065200 +0100">
-    <title lang="fr">Top Clip</title>
-    <desc lang="fr">Dance, pop-rock, R'n'b, hip-hop, rap : «Top clip» offre une programmation éclectique des meilleurs clips du moment.</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
   <programme channel="CStar.ch" start="20260119065200 +0100" stop="20260119065300 +0100">
     <title lang="fr">L'éphéméride</title>
     <desc lang="fr">Une courte présentation de l'histoire du saint du jour qui se conclut par un dicton.</desc>
@@ -7003,17 +7004,17 @@
     <desc lang="fr">"My Way" est bien plus qu'une chanson : cette partition majeure a traversé époques, frontières et générations. C'est un hymne qui s'est inscrit durablement dans l'histoire de la musique. "My Way" est aussi l'une des chansons les plus reprises au monde, de Sid Vicious à Tom Jones, de Nina Simone à Pavarotti. Pourtant, on ignore souvent qu'elle a été conçue en France sous le titre "Comme d'habitude", à Megève par Jacques Revaux, puis terminée au bord de la piscine du Moulin de Dannemois, par Jacques Revaux et Claude François, lors d'une après-midi d'été 1967. Une succession de rencontres fortuites l'ont guidée outre-Atlantique vers Frank Sinatra, qui fera d'elle une légende grâce à des paroles de Paul Anka. Raconté par Jane Fonda en VO et Béatrice Dalle en VF.</desc>
     <category lang="fr">Documentaire / Documentaire musique</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119002800 +0100" stop="20260119011700 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119002800 +0100" stop="20260119011800 +0100">
     <title lang="fr">Canal Football Club</title>
     <desc lang="fr">Toutes les infos du foot français et international, des débats passionnés, des points de vue originaux, le tout dans la bonne humeur. Le magazine, emmené par Hervé Mathoux, est toujours accompagné des consultants emblématiques de la chaîne.</desc>
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119011700 +0100" stop="20260119015100 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119011800 +0100" stop="20260119015200 +0100">
     <title lang="fr">Canal Football Club</title>
     <desc lang="fr">Toutes les infos du foot français et international, des débats passionnés, des points de vue originaux, le tout dans la bonne humeur. Le magazine, emmené par Hervé Mathoux, est toujours accompagné des consultants emblématiques de la chaîne.</desc>
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119015100 +0100" stop="20260119071000 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119015200 +0100" stop="20260119071000 +0100">
     <title lang="fr">Fin des programmes</title>
     <category lang="fr">Divers / Fin</category>
   </programme>
@@ -7027,17 +7028,17 @@
     <desc lang="fr">Toutes les infos du foot français et international, des débats passionnés, des points de vue originaux, le tout dans la bonne humeur. Le magazine, emmené par Hervé Mathoux, est toujours accompagné des consultants emblématiques de la chaîne.</desc>
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119083600 +0100" stop="20260119101800 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119083600 +0100" stop="20260119101900 +0100">
     <title lang="fr">Football : Premier League</title>
     <desc lang="fr">A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119101800 +0100" stop="20260119120000 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119101900 +0100" stop="20260119120100 +0100">
     <title lang="fr">Football : Premier League</title>
     <desc lang="fr">Aston Villa accueille les Toffees d'Everton en position favorable : les hommes d'Unai Emery ont encore une belle opportunité de consolider leur 3e place au classement.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119120000 +0100" stop="20260119125000 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119120100 +0100" stop="20260119125000 +0100">
     <title lang="fr">Canal Football Club</title>
     <desc lang="fr">Toutes les infos du foot français et international, des débats passionnés, des points de vue originaux, le tout dans la bonne humeur. Le magazine, emmené par Hervé Mathoux, est toujours accompagné des consultants emblématiques de la chaîne.</desc>
     <category lang="fr">Magazine sportif / Football</category>
@@ -7052,17 +7053,17 @@
     <desc lang="fr">A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119150900 +0100" stop="20260119165100 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119150900 +0100" stop="20260119165200 +0100">
     <title lang="fr">Football : Premier League</title>
     <desc lang="fr">A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119165100 +0100" stop="20260119183400 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119165200 +0100" stop="20260119183500 +0100">
     <title lang="fr">Football : Premier League</title>
     <desc lang="fr">Solides leaders de Premier League, les Gunners d'Arsenal ont terminé 2025 en écartant brillamment (4-1) l'un de leurs principaux concurrents, Aston Villa. Leandro Trossard et les siens vont tenter de poursuivre sur leur belle lancée, à l'occasion de ce déplacement à West Bridgford face à des Reds de Forest en nette perte de vitesse.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260119183400 +0100" stop="20260119202000 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260119183500 +0100" stop="20260119202000 +0100">
     <title lang="fr">Football : Premier League</title>
     <desc lang="fr">Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?</desc>
     <category lang="fr">Emission sportive / Football</category>
@@ -7738,12 +7739,12 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260119204900 +0100" stop="20260119205800 +0100">
     <title lang="fr">Sam le pompier - S10E07</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260119205800 +0100" stop="20260119211800 +0100">
     <title lang="fr">Sam le pompier - S10E08</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260119211800 +0100" stop="20260119212700 +0100">
@@ -7826,36 +7827,36 @@
     <desc lang="fr">Le 20 novembre 2022, à l'issue du Grand Prix d'Abu Dhabi, Sebastian Vettel décide de mettre fin à sa carrière de pilote, à 35 ans. Conducteur surdoué, l'Allemand a été le plus jeune champion du monde de Formule 1. De ses débuts chez BMW Sauber F1 Team à sa domination avec Red Bull, retour sur le parcours de celui qui a été surnommé " Baby Schumi ".</desc>
     <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119043000 +0100" stop="20260119072900 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119043000 +0100" stop="20260119072500 +0100">
     <title lang="fr">Fin des programmes</title>
     <category lang="fr">Divers / Fin</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119072900 +0100" stop="20260119082200 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119072500 +0100" stop="20260119081700 +0100">
     <title lang="fr">Rallye : Rallye du Chili</title>
     <desc lang="fr">Les plus grands pilotes du monde s'affrontent aux quatre coins du globe dans des paysages à couper le souffle tout au long du championnat du monde des Rallyes, à suivre en intégralité.</desc>
     <category lang="fr">Emission sportive / Rallye</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119082200 +0100" stop="20260119112100 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119081700 +0100" stop="20260119111700 +0100">
     <title lang="fr">Golf : Open de Hawaii</title>
     <desc lang="fr">Retransmission du Sony Open in Hawaii, un tournoi du PGA Tour de golf. Ce tournoi accueille tous les ans 144 des meilleurs golfeurs professionnels sur le parcours du Waialae Country Club d'Honolulu à Hawaii pour essayer de remporter ce trophée. Créé en 1965, il se dispute généralement en début d'année, et il est classé sur le circuit du PGA Tour.</desc>
     <category lang="fr">Emission sportive / Golf</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119112100 +0100" stop="20260119130400 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119111700 +0100" stop="20260119130000 +0100">
     <title lang="fr">Rugby : Pro D2</title>
     <desc lang="fr">Cette nouvelle saison de PRO D2 s'annonce intense avec seize clubs en lice pour décrocher le titre et viser la montée en Top 14, avec des affiches prometteuses dès la première journée.</desc>
     <category lang="fr">Emission sportive / Rugby</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119130400 +0100" stop="20260119144600 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119130000 +0100" stop="20260119144500 +0100">
     <title lang="fr">Rugby : Pro D2</title>
     <desc lang="fr">Cette nouvelle saison de PRO D2 s'annonce intense avec seize clubs en lice pour décrocher le titre et viser la montée en Top 14, avec des affiches prometteuses dès la première journée.</desc>
     <category lang="fr">Emission sportive / Rugby</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119144600 +0100" stop="20260119151400 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119144500 +0100" stop="20260119151500 +0100">
     <title lang="fr">Team Hadjar</title>
     <desc lang="fr">Découverte du quotidien lors des GP de Formule 1 du pilote Isack Hadjar au sein de la Racing Bulls Formula One Team, pour sa première saison dans la catégorie reine en 2025.</desc>
     <category lang="fr">Documentaire sportif / Formule 1</category>
   </programme>
-  <programme channel="CanalPlusSport.ch" start="20260119151400 +0100" stop="20260119171100 +0100">
+  <programme channel="CanalPlusSport.ch" start="20260119151500 +0100" stop="20260119171100 +0100">
     <title lang="fr">Grand Prix, tours d'honneur</title>
     <desc lang="fr">Autour de Julien Fébreau, ce magazine réunit les voix incontournables des paddocks : Margot Laffite et Laurent Dupin pour la Formule 1, Laurent Rigal et Jules Deremble pour le MotoGP. Ensemble, ils revisitent les saisons F1 et MotoGP et reviennent sur les temps forts de l'exercice 2025, en dévoilant leurs coups de coeur dans chaque discipline : "Image de l'année", "Grand Prix de l'année", "Ecurie/Team de l'année", "Pilote révélation", sans oublier le "Dépassement de l'année" choisi en direct par les internautes et le "Pilote de l'année" élu en amont sur les réseaux. Invités, votes du public et anecdotes en plateau rythmeront également cette émission.</desc>
     <category lang="fr">Magazine sportif / Sports mécaniques</category>
@@ -7882,7 +7883,7 @@
   </programme>
   <programme channel="CanalPlusSport.ch" start="20260119222500 +0100" stop="20260120000700 +0100">
     <title lang="fr">Rugby : Pro D2</title>
-    <desc lang="fr">Les Bretons du RC Vannes sont bien installés dans le fauteuil de leader de la Pro D2 et ne voudront sans doute pas lâcher le moindre point lors de cette 17e journée et la réception des Brivistes. Emmené, entre autres, par son ailier Enzo Benmegal et par Robin Tacola, le club de Vannes dispose d'une force de frappe collective qui se révèle match après match comme son principal atout. En déplacement dans le Morbihan, le CA Brive va-t-il pouvoir déstabiliser les locaux dans ce match qui s'annonce déséquilibré ? Brive, calé en milieu de tableau, espère déjouer les pronostics mais en a-t-il les moyens ?</desc>
+    <desc lang="fr">Les Bretons de Vannes sont bien installés dans le fauteuil de leader et ne voudront sans doute pas lâcher le moindre point lors de cette 17e journée et la réception des Brivistes.</desc>
     <category lang="fr">Emission sportive / Rugby</category>
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260119010000 +0100" stop="20260119013000 +0100">
@@ -7892,7 +7893,7 @@
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260119013000 +0100" stop="20260119023500 +0100">
     <title lang="fr">L'année F1 2025</title>
-    <desc lang="fr">Le scénario de cette saison 2025 du championnat du monde de F1 aura été hitchcockien ! Jusqu'à la dernière course, Lando Norris, Oscar Piastri et Max Verstappen pouvaient encore prétendre au titre. Auteur d'une très bonne fin d'exercice, Verstappen s'était relancé dans la course à la conservation de sa couronne. Mais malgré sa victoire lors du Grand Prix d'Abu Dhabi, le pilote néerlandais a dû céder son titre à Lando Norris. Retour sur une saison 2025 haletante et riche en rebondissements.</desc>
+    <desc lang="fr">Le scénario de cette saison 2025 du championnat du monde de F1 aura été hitchcockien ! Jusqu'à la dernière course, Lando Norris, Oscar Piastri et Max Verstappen pouvaient encore prétendre au titre. Mais malgré sa victoire lors du Grand Prix d'Abu Dhabi, Verstappen a dû céder son titre à Lando Norris. Retour sur une saison 2025 haletante.</desc>
     <category lang="fr">Magazine sportif / Formule 1</category>
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260119023500 +0100" stop="20260119040500 +0100">
@@ -7921,7 +7922,7 @@
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260119102400 +0100" stop="20260119113000 +0100">
     <title lang="fr">L'année F1 2025</title>
-    <desc lang="fr">Le scénario de cette saison 2025 du championnat du monde de F1 aura été hitchcockien ! Jusqu'à la dernière course, Lando Norris, Oscar Piastri et Max Verstappen pouvaient encore prétendre au titre. Auteur d'une très bonne fin d'exercice, Verstappen s'était relancé dans la course à la conservation de sa couronne. Mais malgré sa victoire lors du Grand Prix d'Abu Dhabi, le pilote néerlandais a dû céder son titre à Lando Norris. Retour sur une saison 2025 haletante et riche en rebondissements.</desc>
+    <desc lang="fr">Le scénario de cette saison 2025 du championnat du monde de F1 aura été hitchcockien ! Jusqu'à la dernière course, Lando Norris, Oscar Piastri et Max Verstappen pouvaient encore prétendre au titre. Mais malgré sa victoire lors du Grand Prix d'Abu Dhabi, Verstappen a dû céder son titre à Lando Norris. Retour sur une saison 2025 haletante.</desc>
     <category lang="fr">Magazine sportif / Formule 1</category>
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260119113000 +0100" stop="20260119114500 +0100">
@@ -8824,6 +8825,34 @@
     <desc lang="fr">Finn et Jake décident de dépenser l'argent qui se trouve dans leur cabane. C'est au royaume Fruité que les deux comparses se rendent, dans le but de faire des folies avec leur magot...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="Cdirect.af" start="20260119000000 +0100" stop="20260119030000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260119030000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260119060000 +0100" stop="20260119120000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260119120000 +0100" stop="20260119150000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260119150000 +0100" stop="20260119180000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260119180000 +0100" stop="20260119210000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260119210000 +0100" stop="20260120000000 +0100">
+    <title lang="fr">Cdirect</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
   <programme channel="Cherie25.fr" start="20260119002800 +0100" stop="20260119060000 +0100">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
@@ -9423,17 +9452,17 @@
     <desc lang="fr">Sur un ferry qui les ramène à Oslo, Marianne, médecin, retrouve Tor, infirmier dans l'hôpital où elle exerce. Celui-ci lui raconte qu'il passe souvent ses nuits à bord, à la recherche d'aventures sans lendemain avec des hommes croisés sur des sites de rencontre. Ses propos résonnent en Marianne, qui revient d'un blind date organisé par sa meilleure amie et s'interroge sur le sens d'une vie amoureuse sans engagement. Mais ce soir-là, Tor succombe au charme de Bjørn, qui lui résiste et lui échappe...</desc>
     <category lang="fr">Film / Drame sentimental</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260119005600 +0100" stop="20260119025800 +0100">
+  <programme channel="CinePlusEmotion.fr" start="20260119005300 +0100" stop="20260119025200 +0100">
     <title lang="fr">Alliés</title>
     <desc lang="fr">A Casablanca en 1942, l'agent américain Max Vatan et la résistante française Marianne Beauséjour font équipe lors d'une mission périlleuse. Max tombe amoureux de la jeune femme et lui propose de le suivre à Londres. Sur place, ils se marient et fondent rapidement une famille. Vatan est persuadé d'avoir trouvé le bonheur. C'est alors que ses supérieurs le convoquent pour lui révéler que son épouse est en réalité un agent double, au service des nazis. Vatan est sommé d'éliminer Marianne, mais il ne peut croire en la culpabilité de la mère de son enfant. Il tente dès lors de la sonder et va tout mettre en oeuvre pour prouver son innocence...</desc>
     <category lang="fr">Film / Film d'espionnage</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260119025800 +0100" stop="20260119044400 +0100">
+  <programme channel="CinePlusEmotion.fr" start="20260119025200 +0100" stop="20260119043700 +0100">
     <title lang="fr">Paradis Paris</title>
     <desc lang="fr">Ancienne vedette de l'opéra, Giovanna fulmine : déclarée morte par erreur, elle constate que les hommages de la presse tardent à venir. Mike, cascadeur anglais, peut-il, quant à lui trembler, devant la mort alors qu'il la défie en permanence ? Fumer tue, mais Dolorès n'y prête guère attention : elle profite d'un anniversaire pour passer un pacte unilatéral avec Dieu. Lors d'une tentative de suicide, Marie-Cerise, une adolescente déprimée, est kidnappée par un ravisseur qui regrette bientôt son méfait. Edouard, présentateur d'une célèbre émission criminelle à la télévision, accuse le coup quand sa condition de mortel se rappelle à lui...</desc>
     <category lang="fr">Film / Comédie dramatique</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260119044400 +0100" stop="20260119062200 +0100">
+  <programme channel="CinePlusEmotion.fr" start="20260119043700 +0100" stop="20260119062200 +0100">
     <title lang="fr">Last Dance !</title>
     <desc lang="fr">Tous les deux à la retraite, Lise et Germain forment un couple très soudé. Lui passe son temps à lire, tandis qu'elle travaille sur un spectacle de danse contemporaine. Lorsque Lise décède subitement, les enfants du couple concoctent un planning quotidien très chargé pour leur père afin de l'aider à affronter la solitude et l'empêcher de sombrer dans la dépression. De son côté, Germain décide de reprendre le rôle de Lise dans le spectacle, sans en parler à ses enfants. Ne souhaitant pas décevoir Maria Ribot, la chorégraphe, il s'investit pleinement dans ce projet...</desc>
     <category lang="fr">Film / Comédie</category>
@@ -11490,7 +11519,7 @@
   </programme>
   <programme channel="DisneyChannel.fr" start="20260119061000 +0100" stop="20260119062000 +0100">
     <title lang="fr">Bluey - S01E44</title>
-    <desc lang="fr">Lorsque Maman et Papa s'effondrent sur le canapé après une journée chargée, ils accordent à Bluey et Bingo cinq minutes avant le coucher, juste le temps pour elles de monter jusqu'au sommet du Mont Papamaman. Bluey se précipite, trop impatiente pour attendre Bingo qui emballe ses provisions de camping, et qui l'accuse de tricherie. Leurs querelles réveillent la montagne grondante. Une avalanche d'oreillers et de chatouilles les envoie se réfugier dans la tente de Bingo. En attendant que la tempête passe, Bingo sort ses provisions et Bluey s'excuse d'avoir triché. La tempête finie, elles se dirigent vers le sommet et plantent leur drapeau ensemble.</desc>
+    <desc lang="fr">Jeune bouvier australien, Bluey transforme chaque jour en un terrain de jeux et d'aventures grâce à son imagination vive et à son énergie inépuisable.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="DisneyChannel.fr" start="20260119062000 +0100" stop="20260119062500 +0100">
@@ -11515,7 +11544,7 @@
   </programme>
   <programme channel="DisneyChannel.fr" start="20260119072500 +0100" stop="20260119073000 +0100">
     <title lang="fr">Bluey - S01E44</title>
-    <desc lang="fr">Lorsque Maman et Papa s'effondrent sur le canapé après une journée chargée, ils accordent à Bluey et Bingo cinq minutes avant le coucher, juste le temps pour elles de monter jusqu'au sommet du Mont Papamaman. Bluey se précipite, trop impatiente pour attendre Bingo qui emballe ses provisions de camping, et qui l'accuse de tricherie. Leurs querelles réveillent la montagne grondante. Une avalanche d'oreillers et de chatouilles les envoie se réfugier dans la tente de Bingo. En attendant que la tempête passe, Bingo sort ses provisions et Bluey s'excuse d'avoir triché. La tempête finie, elles se dirigent vers le sommet et plantent leur drapeau ensemble.</desc>
+    <desc lang="fr">Jeune bouvier australien, Bluey transforme chaque jour en un terrain de jeux et d'aventures grâce à son imagination vive et à son énergie inépuisable.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="DisneyChannel.fr" start="20260119073000 +0100" stop="20260119074000 +0100">
@@ -13426,6 +13455,16 @@
     <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
+  <programme channel="France2.fr" start="20260119050000 +0100" stop="20260119055000 +0100">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="France2.fr" start="20260119055000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France2.fr" start="20260119060000 +0100" stop="20260119063000 +0100">
     <title lang="fr">Le 6h info</title>
     <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
@@ -13502,7 +13541,7 @@
   </programme>
   <programme channel="France2.fr" start="20260119150500 +0100" stop="20260119161000 +0100">
     <title lang="fr">Ça commence aujourd'hui</title>
-    <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
+    <desc lang="fr">Pour cette semaine consacrée à la justice, Faustine Bollaert reçoit sur le plateau de "Ça commence aujourd'hui" deux femmes qui ont beaucoup soufferts mais qui restent extremement combatives. Elles nous confient leurs parcours et reviennent sur les tragédies qui ont bouleversé leurs vies : le meurtre de leur fille et de leur sœur. Leurs récits s...</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="France2.fr" start="20260119161000 +0100" stop="20260119162500 +0100">
@@ -14125,6 +14164,16 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
@@ -14284,6 +14333,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3Alpes.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Alpes.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Alpes.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -14475,6 +14534,16 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3Alsace.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Alsace.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3Alsace.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
@@ -14649,6 +14718,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3Aquitaine.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Aquitaine.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Aquitaine.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -14840,6 +14919,16 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3Auvergne.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Auvergne.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3Auvergne.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
@@ -15030,6 +15119,16 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3BasseNormandie.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3BasseNormandie.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3BasseNormandie.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
@@ -15219,6 +15318,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3Bourgogne.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Bourgogne.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Bourgogne.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -15429,7 +15538,7 @@
   </programme>
   <programme channel="France3Bretagne.fr" start="20260119091500 +0100" stop="20260119091700 +0100">
     <title lang="fr">Château !</title>
-    <desc lang="fr">Cité Royale de LochesLoches Un donjon imposant, un logis royal aux mille histoires. Bienvenue à la cité royale de Loches, l'une des constructions fortifiées les plus remarquables de France, dominant la ville et la vallée de l'Indre. Édifiée dès le XIe siècle, cette forteresse militaire a évolué au fil du temps pour devenir un site carcéral d'une grande importance. Château de Saint-Fargeau Un château, littéralement préservé par une famille de passionnés, où Jean d'Ormesson a passé plusieurs étés et qui lui a inspiré son roman " Au plaisir de dieu ". Mais surtout un château remodelé, réinventé et façonné par une femme, surnommée la Grande Demoiselle. En bref, Saint-Fargeau est un château exceptionnel qui, malheureusement, a été gravement touché par deux incendies au cours de son histoire.</desc>
+    <desc lang="fr">Un donjon imposant, un logis royal aux mille histoires. Bienvenue à la cité royale de Loches, l'une des constructions fortifiées les plus remarquables de France, dominant la ville et la vallée de l'Indre. Édifiée dès le XIe siècle, cette forteresse militaire a évolué au fil du temps pour devenir un site carcéral d'une grande importance.</desc>
     <category lang="fr">Magazine / Magazine de découvertes</category>
   </programme>
   <programme channel="France3Bretagne.fr" start="20260119093100 +0100" stop="20260119094500 +0100">
@@ -15612,24 +15721,49 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3Centre.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3Centre.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="France3Centre.fr" start="20260119063000 +0100" stop="20260119090500 +0100">
-    <title lang="fr">ICI Matin</title>
-    <desc lang="fr">De 6h30 à 9h, le premier rendez-vous de la journée avec l'information de proximité propose des journaux d'information, des points météo et trafic réguliers, et de la bonne humeur.</desc>
+    <title lang="fr">ICI Matin - Orléans</title>
+    <desc lang="fr">Une matinale d'actualités, de services et de bonne humeur pour bien commencer la journée avec des points météo réguliers et des infos trafic et mobilité en temps réel.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3Centre.fr" start="20260119090500 +0100" stop="20260119091500 +0100">
+  <programme channel="France3Centre.fr" start="20260119090500 +0100" stop="20260119091000 +0100">
     <title lang="fr">On vous emmène ici</title>
     <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
-  <programme channel="France3Centre.fr" start="20260119091500 +0100" stop="20260119104000 +0100">
-    <title lang="fr">ICI dans votre région</title>
-    <desc lang="fr">Des magazines ou documentaires proposés par les antennes régionales.</desc>
+  <programme channel="France3Centre.fr" start="20260119091000 +0100" stop="20260119091500 +0100">
+    <title lang="fr">Le journal des talents</title>
+    <desc lang="fr">Un magazine d'information consacré aux personnes talentueuses et aux héros du quotidien en région.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119091500 +0100" stop="20260119091700 +0100">
+    <title lang="fr">Château !</title>
+    <desc lang="fr">André Manoukian, artiste, animateur et amoureux de culture, visite les plus beaux châteaux de France, en images et en musique. Châteaux de la Loire ou d'Ile-de-France, grands ou petits, ils ont chacun leur particularité, leur histoire et leurs secrets.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119093100 +0100" stop="20260119094500 +0100">
+    <title lang="fr">Château !</title>
+    <desc lang="fr">Un donjon imposant, un logis royal aux mille histoires. Bienvenue à la cité royale de Loches, l'une des constructions fortifiées les plus remarquables de France, dominant la ville et la vallée de l'Indre. Édifiée dès le XIe siècle, cette forteresse militaire a évolué au fil du temps pour devenir un site carcéral d'une grande importance.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119094500 +0100" stop="20260119104000 +0100">
+    <title lang="fr">Le camion bleu des confidences</title>
+    <desc lang="fr">Depuis 5 ans, dans les Côtes-d'Armor, des soignants prennent la route dans un petit camion bleu où un salon a été aménagé. l'inverse de ce qui est habituellement pratiqué, ce sont eux qui vont vers les jeunes en souffrance, à l'écoute de leur spleen ou parfois de leurs pensées suicidaires. Depuis la crise sanitaire, ces détresses se sont intensifiées chez les adolescents. Dans ce département rural de Bretagne, l'initiative du camion bleu redonne un peu de lien, une oreille, une présence là où elle manque le plus. Peu à peu, ces rencontres tissent une autre manière de prendre soin, plus humaine, plus proche, et surtout pleine d'espérance.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="France3Centre.fr" start="20260119104000 +0100" stop="20260119105000 +0100">
@@ -15657,9 +15791,14 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3Centre.fr" start="20260119121500 +0100" stop="20260119125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3Centre.fr" start="20260119121500 +0100" stop="20260119122500 +0100">
+    <title lang="fr">Météo - Centre Val de Loire</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119122500 +0100" stop="20260119125500 +0100">
+    <title lang="fr">ICI 12/13 - Centre Val de Loire</title>
+    <desc lang="fr">Le journal télévisé régional de la mi-journée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3Centre.fr" start="20260119125500 +0100" stop="20260119140000 +0100">
@@ -15697,10 +15836,30 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="France3Centre.fr" start="20260119190000 +0100" stop="20260119200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3Centre.fr" start="20260119190000 +0100" stop="20260119190200 +0100">
+    <title lang="fr">ICI 19/20 Centre Val de Loire les titres</title>
+    <desc lang="fr">Les titres du journal télévisé régional de la soirée, qui propose une couverture complète de l'actualité régionale, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119190200 +0100" stop="20260119191000 +0100">
+    <title lang="fr">Météo - Centre Val de Loire</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119191000 +0100" stop="20260119191800 +0100">
+    <title lang="fr">7 ici politique</title>
+    <desc lang="fr">Un gros plan sur tous les sujets liés à l'actualité politique de la région Centre-Val-de-Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119191800 +0100" stop="20260119195000 +0100">
+    <title lang="fr">ICI 19/20 - Centre Val de Loire</title>
+    <desc lang="fr">Le journal télévisé régional de la soirée, qui propose une couverture complète de l'actualité régionale, mais aussi nationale et internationale,</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3Centre.fr" start="20260119195000 +0100" stop="20260119200000 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="France3Centre.fr" start="20260119200000 +0100" stop="20260119201000 +0100">
     <title lang="fr">Stade 2 la quotidienne</title>
@@ -15713,8 +15872,8 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3Centre.fr" start="20260119201500 +0100" stop="20260119202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Centre Val de Loire</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3Centre.fr" start="20260119202500 +0100" stop="20260119204500 +0100">
@@ -15771,6 +15930,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3ChampagneArdenne.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3ChampagneArdenne.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3ChampagneArdenne.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -15962,14 +16131,24 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3CotedAzur.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119063000 +0100" stop="20260119090500 +0100">
-    <title lang="fr">ICI Matin</title>
-    <desc lang="fr">De 6h30 à 9h, le premier rendez-vous de la journée avec l'information de proximité propose des journaux d'information, des points météo et trafic réguliers, et de la bonne humeur.</desc>
+    <title lang="fr">ICI Matin - Azur</title>
+    <desc lang="fr">Un journal d'info locale diffusé tous les quarts d'heure, avec des points sur le trafic en temps réel, la météo les offres d'emploi, et les infos pratiques.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119090500 +0100" stop="20260119091500 +0100">
@@ -15977,10 +16156,20 @@
     <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
-  <programme channel="France3CotedAzur.fr" start="20260119091500 +0100" stop="20260119104000 +0100">
-    <title lang="fr">ICI dans votre région</title>
-    <desc lang="fr">Des magazines ou documentaires proposés par les antennes régionales.</desc>
-    <category lang="fr">Documentaire / Documentaire société</category>
+  <programme channel="France3CotedAzur.fr" start="20260119091500 +0100" stop="20260119094200 +0100">
+    <title lang="fr">C'est pas le jour le mag de la nuit</title>
+    <desc lang="fr">L'homme d'affaires et musicien s'est longuement confié dans l'émission "C'est pas le jour" au cours d'une virée nocturne</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119094200 +0100" stop="20260119101000 +0100">
+    <title lang="fr">C'est pas le jour le mag de la nuit</title>
+    <desc lang="fr">Grégory Montel sest fait donc un nom grâce à un prénom : Gabriel, lagent des stars dans la série à très grand succès</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119101000 +0100" stop="20260119104000 +0100">
+    <title lang="fr">Vaqui</title>
+    <desc lang="fr">"Vaqui" est un magazine itinérant en langue d'Oc qui part à la découverte du territoire régional, avec des personnalités, acteurs, musiciens, écrivains ou chefs d'entreprise.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119104000 +0100" stop="20260119105000 +0100">
     <title lang="fr">Consomag</title>
@@ -16007,9 +16196,14 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3CotedAzur.fr" start="20260119121500 +0100" stop="20260119125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3CotedAzur.fr" start="20260119121500 +0100" stop="20260119122500 +0100">
+    <title lang="fr">Météo - Provence Alpes Côte d'Azur</title>
+    <desc lang="fr">Un bulletin d'actualité météorologique qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région Provence-Alpes-Côte d'Azur.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119122500 +0100" stop="20260119125500 +0100">
+    <title lang="fr">ICI 12/13 - Côte d'Azur</title>
+    <desc lang="fr">Le journal télévisé régional de la mi-journée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119125500 +0100" stop="20260119140000 +0100">
@@ -16047,10 +16241,30 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="France3CotedAzur.fr" start="20260119190000 +0100" stop="20260119200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3CotedAzur.fr" start="20260119190000 +0100" stop="20260119190200 +0100">
+    <title lang="fr">ICI 19/20 Côte d'Azur les titres</title>
+    <desc lang="fr">Les titres du journal télévisé régional de la soirée, qui propose une couverture complète de l'actualité régionale, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119190200 +0100" stop="20260119190400 +0100">
+    <title lang="fr">Météo - Provence Alpes Côte d'Azur</title>
+    <desc lang="fr">Un bulletin d'actualité météorologique qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région Provence-Alpes-Côte d'Azur.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119190400 +0100" stop="20260119191400 +0100">
+    <title lang="fr">ICI 19/20 - Nice</title>
+    <desc lang="fr">Le journal télévisé régional de la soirée, qui propose une couverture complète de l'actualité régionale, mais aussi nationale et internationale,</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119191400 +0100" stop="20260119195000 +0100">
+    <title lang="fr">ICI 19/20 - Côte d'Azur</title>
+    <desc lang="fr">Le rendez-vous vespéral des rédactions régionales de France Télévisions, avec les journaux locaux, la météo et les reportages propres à chaque région.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3CotedAzur.fr" start="20260119195000 +0100" stop="20260119200000 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119200000 +0100" stop="20260119201000 +0100">
     <title lang="fr">Stade 2 la quotidienne</title>
@@ -16063,8 +16277,8 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119201500 +0100" stop="20260119202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Provence Alpes Côte d'Azur</title>
+    <desc lang="fr">Un bulletin d'actualité météorologique qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région Provence-Alpes-Côte d'Azur.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3CotedAzur.fr" start="20260119202500 +0100" stop="20260119204500 +0100">
@@ -16121,6 +16335,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3FrancheComte.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3FrancheComte.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3FrancheComte.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -16304,6 +16528,16 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3HauteNormandie.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
@@ -16463,6 +16697,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3Limousin.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Limousin.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Limousin.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -16784,14 +17028,24 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119063000 +0100" stop="20260119090500 +0100">
-    <title lang="fr">ICI Matin</title>
-    <desc lang="fr">De 6h30 à 9h, le premier rendez-vous de la journée avec l'information de proximité propose des journaux d'information, des points météo et trafic réguliers, et de la bonne humeur.</desc>
+    <title lang="fr">ICI Matin - Occitanie</title>
+    <desc lang="fr">Une matinale d'actualités, de services et de bonne humeur pour bien commencer la journée avec des points météo réguliers et des infos trafic et mobilité en temps réel.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119090500 +0100" stop="20260119091500 +0100">
@@ -16829,9 +17083,13 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3MidiPyrenees.fr" start="20260119121500 +0100" stop="20260119125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3MidiPyrenees.fr" start="20260119121500 +0100" stop="20260119122500 +0100">
+    <title lang="fr">Météo - Occitanie</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119122500 +0100" stop="20260119125500 +0100">
+    <title lang="fr">ICI 12/13 - Midi Pyrénées</title>
+    <desc lang="fr">Regarder la vidéo Émission du lundi 2 décembre 2024 sur france.tv</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119125500 +0100" stop="20260119140000 +0100">
@@ -16869,10 +17127,29 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="France3MidiPyrenees.fr" start="20260119190000 +0100" stop="20260119200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3MidiPyrenees.fr" start="20260119190000 +0100" stop="20260119190500 +0100">
+    <title lang="fr">Météo - Occitanie</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119190500 +0100" stop="20260119190700 +0100">
+    <title lang="fr">Exéo</title>
+    <desc lang="fr">L'Occitanie affiche une vitalité culturelle exceptionnelle. C'est pourquoi Exéo sélectionne les événements de la région, notamment ceux organisés par des partenaires.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119190700 +0100" stop="20260119191400 +0100">
+    <title lang="fr">ICI 19/20 - Tarn</title>
+    <desc lang="fr">Le journal télévisé régional en soirée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119191400 +0100" stop="20260119194600 +0100">
+    <title lang="fr">ICI 19/20 - Midi Pyrénées</title>
+    <desc lang="fr">Regarder la vidéo Émission du lundi 2 décembre 2024 sur france.tv</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3MidiPyrenees.fr" start="20260119194600 +0100" stop="20260119200000 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119200000 +0100" stop="20260119201000 +0100">
     <title lang="fr">Stade 2 la quotidienne</title>
@@ -16885,8 +17162,7 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119201500 +0100" stop="20260119202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Occitanie</title>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260119202500 +0100" stop="20260119204500 +0100">
@@ -16943,6 +17219,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3NordPasDeCalais.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3NordPasDeCalais.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3NordPasDeCalais.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -17304,6 +17590,16 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="France3PaysDeLaLoire.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3PaysDeLaLoire.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="France3PaysDeLaLoire.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
@@ -17321,7 +17617,7 @@
   </programme>
   <programme channel="France3PaysDeLaLoire.fr" start="20260119091500 +0100" stop="20260119091700 +0100">
     <title lang="fr">Château !</title>
-    <desc lang="fr">Cité Royale de LochesLoches Un donjon imposant, un logis royal aux mille histoires. Bienvenue à la cité royale de Loches, l'une des constructions fortifiées les plus remarquables de France, dominant la ville et la vallée de l'Indre. Édifiée dès le XIe siècle, cette forteresse militaire a évolué au fil du temps pour devenir un site carcéral d'une grande importance. Château de Saint-Fargeau Un château, littéralement préservé par une famille de passionnés, où Jean d'Ormesson a passé plusieurs étés et qui lui a inspiré son roman " Au plaisir de dieu ". Mais surtout un château remodelé, réinventé et façonné par une femme, surnommée la Grande Demoiselle. En bref, Saint-Fargeau est un château exceptionnel qui, malheureusement, a été gravement touché par deux incendies au cours de son histoire.</desc>
+    <desc lang="fr">Un donjon imposant, un logis royal aux mille histoires. Bienvenue à la cité royale de Loches, l'une des constructions fortifiées les plus remarquables de France, dominant la ville et la vallée de l'Indre. Édifiée dès le XIe siècle, cette forteresse militaire a évolué au fil du temps pour devenir un site carcéral d'une grande importance.</desc>
     <category lang="fr">Magazine / Magazine de découvertes</category>
   </programme>
   <programme channel="France3PaysDeLaLoire.fr" start="20260119093100 +0100" stop="20260119094500 +0100">
@@ -17493,6 +17789,16 @@
     <title lang="fr">Enquêtes de région le mag</title>
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="France3Picardie.fr" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="France3Picardie.fr" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Picardie.fr" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -18186,7 +18492,7 @@
   </programme>
   <programme channel="France4.fr" start="20260119071400 +0100" stop="20260119073400 +0100">
     <title lang="fr">Les as de la jungle à la rescousse - S02E42</title>
-    <desc lang="fr">Joey le crapaud débarque à la mare pour retrouver son ami d'enfance Al. Jeff propose de rejouer au jeu préféré de leur enfance, le cap ou pas cap, sous le regard un peu jaloux de Bob. Mais après quelques défis, Jeff révèle la vraie raison de sa venue : il a promis à Tonio le rhino de lui ramener une fleur très particulière, mais cette fleur est entourée de sables mouvants. Le cap ou pas cap n'était qu'un prétexte pour qu'Al aille lui chercher la fleur...</desc>
+    <desc lang="fr">Joey le crapaud débarque à la mare pour retrouver son ami d'enfance: Al. A peine retrouvé Jeff propose de rejouer au jeu préféré de leur enfance, le cap ou pas cap, sous le regard un peu jaloux de Bob. Mais après quelques défis Jeff révèle la vraie raison de sa venue: Il a promis à Tonio le rhino de lui ramener une fleur très particulière, mais cette fleur est entourée de sables mouvants. Le cap ou pas cap n'était qu'un prétexte pour qu' Al aille lui chercher la fleur. Pendant ce temps des castors viennent se plaindre au près des As: deux rhinos plutôt énervés mettent la pagaille dans la jungle, apparemment il cherche activement un certain crapaud nommé Joey...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260119073400 +0100" stop="20260119074500 +0100">
@@ -18521,7 +18827,7 @@
   </programme>
   <programme channel="France4.fr" start="20260119192200 +0100" stop="20260119192800 +0100">
     <title lang="fr">Bluey - S02E37</title>
-    <desc lang="fr">Bluey, un bouvier australien au tempérament joueur, et sa soeur Bingo transforment la vie quotidienne en un terrain de jeu plein d'aventures et de découvertes.</desc>
+    <desc lang="fr">Bluey et Bingo jouent au jeu du silence. Elles ne veulent pas parler pour expliquer à Papa quel jouet acheter. Il finit par demander l'aide d'Alfie, le nouvel employé, pour décryper les mimes des filles.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260119192800 +0100" stop="20260119193000 +0100">
@@ -18579,15 +18885,15 @@
     <desc lang="fr">Patricia Wright, primatologue et professeure américaine, mène une expédition de trente jours dans la forêt primaire d'Ivohiboro, une oasis de verdure qu'elle a découverte en 2019. Ce site exceptionnel se trouve au milieu des plaines arides du Sud-Est de Madagascar et a miraculeusement survécu jusqu'à aujourd'hui. Cet îlot de seulement 14km2, situé à à 1500 mètres d'altitude, attire l'attention car il concentre toute la biodiversité de l'île. Les scientifiques venus l'étudier espèrent y trouver de nouvelles espèces et participer à sa sauvegarde face au changement climatique.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
-  <programme channel="France5.fr" start="20260119020500 +0100" stop="20260119033400 +0100">
+  <programme channel="France5.fr" start="20260119020500 +0100" stop="20260119042600 +0100">
     <title lang="fr">Une planète, deux mondes sauvages</title>
     <desc lang="fr">L'hémisphère Sud abrite un monde sauvage à la beauté indomptée, des terres extrêmes de l'Antarctique aux forêts mystérieuses de l'Amazonie. Les phoques de Weddell et les manchots papous en Antarctique, les kangourous, araignées sauteuses, diables cornus, requins et casoar à casque en Australie, les pumas, ours à lunettes, et manakins en Amérique du Sud, et enfin les chimpanzés, guépards et éléphants en Afrique révèlent des comportements étonnants, captés avec une étonnante précision par des caméras ultrasophistiquées. Un voyage spectaculaire à la découverte des secrets du monde sauvage.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
-  <programme channel="France5.fr" start="20260119033400 +0100" stop="20260119050500 +0100">
-    <title lang="fr">La nuit France 5</title>
-    <desc lang="fr">La programmation nocturne de France 5, composée principalement de rediffusions de documentaires variés.</desc>
-    <category lang="fr">Magazine / Magazine de reportages</category>
+  <programme channel="France5.fr" start="20260119042600 +0100" stop="20260119050500 +0100">
+    <title lang="fr">Dynasties - S01E01</title>
+    <desc lang="fr">Pendant quatre années, une équipe a filmé les liens qui unissent les membres d'une même famille de chimpanzés. Au Sénégal, David, mâle alpha, règne depuis trois ans sur son groupe. Alors que la saison sèche s'installe, l'eau et la nourriture se font plus rares, contraignant le groupe à rester ensemble pour survivre. Mais David peine à défendre son leadership face aux jeunes challengers, qui profitent de ce moment critique pour former une alliance et le défier en vue de lui ravir le trône. S'il n'a pas de bons alliés, David risque d'être tué.</desc>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
   <programme channel="France5.fr" start="20260119050500 +0100" stop="20260119051200 +0100">
     <title lang="fr">Les mini-héros de la forêt - S01E43</title>
@@ -18701,7 +19007,7 @@
   </programme>
   <programme channel="France5.fr" start="20260119072000 +0100" stop="20260119072600 +0100">
     <title lang="fr">Bluey - S03E23</title>
-    <desc lang="fr">Bluey et Bingo adorent chatter par vidéo avec Muffin et Socks afin de toutes dessiner ensemble. Lorsque Muffin ne veut pas laisser son tour à Socks, les enfants découvrent ce qui se passe quand on ne veut pas partager.</desc>
+    <desc lang="fr">Quand Papa est accusé d'avoir pété au nez de Bluey, Maman organise une réunion de famille pour éclaircir la situation.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260119072600 +0100" stop="20260119072800 +0100">
@@ -18721,7 +19027,7 @@
   </programme>
   <programme channel="France5.fr" start="20260119074500 +0100" stop="20260119075000 +0100">
     <title lang="fr">Bluey - S02E44</title>
-    <desc lang="fr">Bluey veut aider Papa à faire le gâteau d'anniversaire de Bingo, mais elle doit d'abord ranger ses jouets, ce qui ne l'amuse guère jusqu'à ce que Papa fasse tomber le gâteau.</desc>
+    <desc lang="fr">Bluey, un bouvier australien au tempérament joueur, et sa soeur Bingo transforment la vie quotidienne en un terrain de jeu plein d'aventures et de découvertes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260119075000 +0100" stop="20260119075600 +0100">
@@ -20006,7 +20312,7 @@
   </programme>
   <programme channel="KTO.fr" start="20260119143300 +0100" stop="20260119152600 +0100">
     <title lang="fr">Associons-nous !</title>
-    <desc lang="fr">Grâce à un réseau d'établissements d'accueil et de soins, l'association Habitat et Humanisme Soin vient en aide aux personnes âgées fragilisées ou dépendantes, à faibles ressources. Au sein de ses 62 établissements, le personnel met en œuvre une charité active et s'engage à "prendre soin" des personnes accueillies dans une approche globale. Faciliter les liens avec les familles et le monde extérieur, offrir à chacun une écoute et un accompagnement personnalisé, maintenir l'autonomie le plus longtemps possible dans le respect de la dignité des personnes pour que les personnes âgées puissent bien vieillir chez elles… Autant de manières de développer une culture du soin chrétienne, au service des personnes fragiles.</desc>
+    <desc lang="fr">Dans ses établissements d'accueil et de soins, l'association Habitat et Humanisme Soin vient en aide aux personnes âgées fragilisées ou dépendantes, à faibles ressources.</desc>
     <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
   <programme channel="KTO.fr" start="20260119152600 +0100" stop="20260119153000 +0100">
@@ -20021,7 +20327,7 @@
   </programme>
   <programme channel="KTO.fr" start="20260119160200 +0100" stop="20260119165500 +0100">
     <title lang="fr">Lumière intérieure</title>
-    <desc lang="fr">Riad Sattouf est un auteur de bandes dessinées et réalisateur, connu pour ses séries \" L'Arabe du futur \" et \" Les Cahiers d'Esther \", récompensées par le Fauve d'or à Angoulême. Sur le plateau de KTO, il vient nous présenter son nouvel ouvrage, \" Terres des hommes \" ( Gallimard), qui témoigne une fois de plus de son talent narratif. Au cours de cet échange avec Bénédicte Delelis, il évoque les motivations profondes qui nourrissent son travail créatif. \" J'ai soif de faire des livres \", déclare-t-il avec une franchise désarmante, révélant cette urgence créatrice qui l'anime au quotidien.</desc>
+    <desc lang="fr">L'auteur de bandes dessinées Riad Sattouf présente son nouvel ouvrage "Terres des hommes" et évoque les motivations profondes qui nourrissent son travail créatif.</desc>
     <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
   <programme channel="KTO.fr" start="20260119165500 +0100" stop="20260119172200 +0100">
@@ -20116,7 +20422,7 @@
   </programme>
   <programme channel="KTO.fr" start="20260119234000 +0100" stop="20260120001000 +0100">
     <title lang="fr">Un coeur qui écoute</title>
-    <desc lang="fr">À la veille de la Semaine de prière pour l'unité des chrétiens, Brigitte Vilanova, orthodoxe et ancienne vice-présidente de l'Action des chrétiens pour l'Abolition de la Torture, partage un parcours de foi singulier. De sa découverte de l'Église orthodoxe à travers la liturgie mystique à son engagement de plus de 40 ans contre la torture et la peine de mort, elle témoigne d'une vie où la prière nourrit l'action. Entre rencontres transformatrices avec des réfugiés chiliens torturés, correspondance avec des condamnés à mort et relèvement face aux épreuves personnelles, Brigitte incarne cette conviction que le Christ nous relève toujours.</desc>
+    <desc lang="fr">Brigitte Vilanova, orthodoxe et ancienne vice-présidente de l'Action des chrétiens pour l'Abolition de la Torture, partage un parcours de foi singulier.</desc>
     <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
   <programme channel="LCI.fr" start="20260119000000 +0100" stop="20260119033000 +0100">
@@ -20764,6 +21070,41 @@
     <title lang="fr">Football : Ligue 1 McDonald's</title>
     <desc lang="fr">Match de la 18ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant OL et BREST.</desc>
     <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus2.fr" start="20260119030000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Ligue 1+ 2</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus3.fr" start="20260119000000 +0100" stop="20260119030000 +0100">
+    <title lang="fr">Ligue 1+ 3</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus3.fr" start="20260119030000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Ligue 1+ 3</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus4.fr" start="20260119000000 +0100" stop="20260119030000 +0100">
+    <title lang="fr">Ligue 1+ 4</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus4.fr" start="20260119030000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Ligue 1+ 4</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus5.fr" start="20260119000000 +0100" stop="20260119030000 +0100">
+    <title lang="fr">Ligue 1+ 5</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus5.fr" start="20260119030000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Ligue 1+ 5</title>
+    <desc lang="fr">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="LuckyJack.fr" start="20260119001900 +0100" stop="20260119010700 +0100">
     <title lang="fr">European Poker Tour</title>
@@ -25742,6 +26083,11 @@
     <desc lang="fr">Dans l'Ain, à quelques kilomètres de la frontière suisse, les gendarmes de la compagnie de Gex veillent sur les populations locales. Dans cette région où il fait bon vivre, les forces de l'ordre doivent aussi faire face à une délinquance multiple.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="Numero23.fr" start="20260119050000 +0100" stop="20260119070000 +0100">
+    <title lang="fr">5/7 le morning RMC - S01E106</title>
+    <desc lang="fr">A la tête de cette pré-matinale, un duo de professionnels talentueux pour un rendez-vous puissant et plein d'énergie : Pascale de la Tour du Pin et Matthieu Belliard. Au programme, de l'interactivité : toutes les trente minutes, Matthieu Belliard converse en direct depuis le standard pour recueillir les appels et prendre le pouls de l'actualité en temps réel.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Numero23.fr" start="20260119070000 +0100" stop="20260119083000 +0100">
     <title lang="fr">Apolline matin</title>
     <desc lang="fr">Apolline de Malherbe donne rendez-vous aux auditeurs de RMC et téléspectateurs de RMC Découverte pour une nouvelle matinale d' info : " Apolline matin ". Explications, débats et bonne humeur pour tout savoir, tout comprendre et se faire sa propre opinion. Tous les jours, dès 6h, ceux qui font l'actualité répondent aux questions d'Apolline de Malherbe et aux auditeurs/télespectateurs.</desc>
@@ -26278,12 +26624,12 @@
   </programme>
   <programme channel="PIWI.fr" start="20260119151500 +0100" stop="20260119153000 +0100">
     <title lang="fr">Oui-Oui, enquêtes au Pays des jouets - S01E32</title>
-    <desc lang="fr">Équipé de sa mallette d'investigation et de sa tablette, Oui-Oui résout des mystères et des énigmes enquête après enquête. Il révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</desc>
+    <desc lang="fr">Tous les ballons que les jouets ont reçus à la fête de Dinasaurus éclatent les uns après les autres... Et les jouets sont très contrariés ! Oui-Oui mène l'enquête pour trouver ce qui fait éclater tous les ballons.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260119153000 +0100" stop="20260119154500 +0100">
     <title lang="fr">Oui-Oui, enquêtes au Pays des jouets - S01E33</title>
-    <desc lang="fr">Équipé de sa mallette d'investigation et de sa tablette, Oui-Oui résout des mystères et des énigmes enquête après enquête. Il révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</desc>
+    <desc lang="fr">Après une visite chez la Reine Paillette, Oui-Oui a la surprise de voir le grand Deltoïd flotter dans les airs ! Oui-Oui doit comprendre comment Deltoïd s'est retrouvé là-haut. Et c'est d'autant plus urgent que d'autres jouets s'envolent à leur tour !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260119154500 +0100" stop="20260119155200 +0100">
@@ -28464,26 +28810,6 @@
     <desc lang="fr">Sabine est poursuivie par Aline, la femme de Jean, l'un de ses anciens amants. Aline, armée, arrive à la salle de sport, où elle insiste pour rencontrer Sabine...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="RTL9.fr" start="20260119051000 +0100" stop="20260119053500 +0100">
-    <title lang="fr">Les nouvelles filles d'à côté - S01E88</title>
-    <desc lang="fr">Pour essayer d'oublier Adeline, Marc propose à Gérard d'organiser l'élection de miss "salle de gym"...</desc>
-    <category lang="fr">Série / Série humoristique</category>
-  </programme>
-  <programme channel="RTL9.fr" start="20260119053500 +0100" stop="20260119054000 +0100">
-    <title lang="fr">Pep's - S01E149</title>
-    <desc lang="fr">Professeurs dépressifs, parents stressés et écoliers dans la lune tentent de survivre aux horreurs et aux joies de la vie quotidienne à l'école. Les relations s'entremêlent pour le meilleur et souvent pour le pire !</desc>
-    <category lang="fr">Série / Série humoristique</category>
-  </programme>
-  <programme channel="RTL9.fr" start="20260119054000 +0100" stop="20260119054600 +0100">
-    <title lang="fr">Pep's - S01E120</title>
-    <desc lang="fr">Qu'on y enseigne, qu'on y étudie ou qu'on y dépose sa progéniture tous les matins, l'école ne laisse personne indifférent. </desc>
-    <category lang="fr">Série / Série humoristique</category>
-  </programme>
-  <programme channel="RTL9.fr" start="20260119054600 +0100" stop="20260119060000 +0100">
-    <title lang="fr">Pep's - S01E124</title>
-    <desc lang="fr">Qu'on y enseigne, qu'on y étudie ou qu'on y dépose sa progéniture tous les matins, l'école ne laisse personne indifférent. </desc>
-    <category lang="fr">Série / Série humoristique</category>
-  </programme>
   <programme channel="RTL9.fr" start="20260119060000 +0100" stop="20260119060500 +0100">
     <title lang="fr">Capucine - S01E14</title>
     <desc lang="fr">Capucine, une fille de son temps, parle de tout devant tout le monde et aborde différents thèmes, de sa sexualité à ses soucis au travail.</desc>
@@ -28745,7 +29071,7 @@
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="RTLNitroTV.de" start="20260119201500 +0100" stop="20260119210500 +0100">
-    <title lang="fr">Medical Detectives - S01E140</title>
+    <title lang="fr">Medical Detectives - S03E06</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
@@ -29862,7 +30188,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260119192000 +0100" stop="20260119194000 +0100">
     <title lang="fr">Oscar &amp; Malika, toujours en retard - S03E02</title>
-    <desc lang="fr">Oscar et Malika sont voisins et sont scolarisés dans la même classe. Aussi, ils font ensemble chaque matin le chemin vers l'école et, chaque matin, il leur arrive une aventure extraordinaire qui fait que, systématiquement, ils arrivent en retard à l'école. Une création française bourrée d'aventure et d'humour, qui parvient à surprendre à chaque épisode.</desc>
+    <desc lang="fr">Oscar et Malika ont été kidnappés par des extra-terrestres fascinés par leurs aventures matinales. Tellement fascinés que Quotax, le</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260119194000 +0100" stop="20260119200100 +0100">
@@ -30748,17 +31074,17 @@
   </programme>
   <programme channel="TIJI.fr" start="20260119085000 +0100" stop="20260119090000 +0100">
     <title lang="fr">Oui-Oui, enquêtes au Pays des jouets - S01E31</title>
-    <desc lang="fr">Équipé de sa mallette d'investigation et de sa tablette, Oui-Oui résout des mystères et des énigmes enquête après enquête. Il révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</desc>
+    <desc lang="fr">Il se passe de drôles de choses au pays des jouets : la théière de Potiron a disparu, la niche de Zim-Zim a été déplacée... Quelqu'un s'amuse à semer la pagaille ! Oui-Oui doit trouver celui qui multiplie les bêtises au pays des jouets avant que ça n'aille trop loin.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TIJI.fr" start="20260119090000 +0100" stop="20260119091500 +0100">
     <title lang="fr">Oui-Oui, enquêtes au Pays des jouets - S01E32</title>
-    <desc lang="fr">Équipé de sa mallette d'investigation et de sa tablette, Oui-Oui résout des mystères et des énigmes enquête après enquête. Il révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</desc>
+    <desc lang="fr">Tous les ballons que les jouets ont reçus à la fête de Dinasaurus éclatent les uns après les autres... Et les jouets sont très contrariés ! Oui-Oui mène l'enquête pour trouver ce qui fait éclater tous les ballons.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TIJI.fr" start="20260119091500 +0100" stop="20260119092500 +0100">
     <title lang="fr">Oui-Oui, enquêtes au Pays des jouets - S01E33</title>
-    <desc lang="fr">Équipé de sa mallette d'investigation et de sa tablette, Oui-Oui résout des mystères et des énigmes enquête après enquête. Il révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</desc>
+    <desc lang="fr">Après une visite chez la Reine Paillette, Oui-Oui a la surprise de voir le grand Deltoïd flotter dans les airs ! Oui-Oui doit comprendre comment Deltoïd s'est retrouvé là-haut. Et c'est d'autant plus urgent que d'autres jouets s'envolent à leur tour !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TIJI.fr" start="20260119092500 +0100" stop="20260119093500 +0100">
@@ -36447,7 +36773,7 @@
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260119190000 +0100" stop="20260119195800 +0100">
     <title lang="fr">Bienvenue en Ile-de-France</title>
-    <desc lang="fr">Chaque jour, Victoire Sikora, Damien Canivez et leurs invités vous emmènent à la découverte des multiples visages de l'Île-de-France. Entre histoire, culture, innovation et travail, explorez cette région dynamique à travers des rencontres et des entretiens passionnants. Redécouvrez l'Île-de-France sous un angle nouveau !</desc>
+    <desc lang="fr">Invités : Elya Birman, comédien et Clémentine Niewdanski, metteuse en scène de "Les travailleurs de la mer".</desc>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260119195800 +0100" stop="20260119200000 +0100">
@@ -36623,37 +36949,32 @@
     <title lang="fr">Paroles d'élu(e)</title>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
-  <programme channel="Vox.de" start="20260119001500 +0100" stop="20260119011500 +0100">
+  <programme channel="Vox.de" start="20260119003000 +0100" stop="20260119012500 +0100">
     <title lang="fr">Medical Detectives - S01E06</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="Vox.de" start="20260119011500 +0100" stop="20260119020500 +0100">
+  <programme channel="Vox.de" start="20260119012500 +0100" stop="20260119021500 +0100">
     <title lang="fr">Medical Detectives - S01E56</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="Vox.de" start="20260119020500 +0100" stop="20260119025500 +0100">
+  <programme channel="Vox.de" start="20260119021500 +0100" stop="20260119030500 +0100">
     <title lang="fr">Medical Detectives - S01E28</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="Vox.de" start="20260119025500 +0100" stop="20260119034500 +0100">
+  <programme channel="Vox.de" start="20260119030500 +0100" stop="20260119035500 +0100">
     <title lang="fr">Medical Detectives</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="Vox.de" start="20260119034500 +0100" stop="20260119043500 +0100">
+  <programme channel="Vox.de" start="20260119035500 +0100" stop="20260119044500 +0100">
     <title lang="fr">Medical Detectives - S02E52</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="Vox.de" start="20260119043500 +0100" stop="20260119044000 +0100">
-    <title lang="fr">Medical Detectives - S01E66</title>
-    <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
-    <category lang="fr">Documentaire / Documentaire justice</category>
-  </programme>
-  <programme channel="Vox.de" start="20260119044000 +0100" stop="20260119053000 +0100">
+  <programme channel="Vox.de" start="20260119044500 +0100" stop="20260119053000 +0100">
     <title lang="fr">Medical Detectives</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
@@ -37596,6 +37917,26 @@
     <desc lang="fr">Diffusion d'un match de la NFL (National Football League), championnat de football américain se déroulant aux Etats-Unis et s'achevant par un événement majeur : le Super Bowl. La première saison de cette ligue a été jouée en 1920. </desc>
     <category lang="fr">Emission sportive / Football américain</category>
   </programme>
+  <programme channel="beINSPORTS2.fr" start="20260119050000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <desc lang="fr">Ça se passe sur beIN SPORTS est un condensé de l'actualité sportive, des résultats et des meilleures images des derniers jours : football, tennis, basket, rugby, handball ou encore les sports US (NBA, MLB, NFL), toutes les compétitions sont passées en revue.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="beINSPORTS2.fr" start="20260119051500 +0100" stop="20260119053000 +0100">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <desc lang="fr">Ça se passe sur beIN SPORTS est un condensé de l'actualité sportive, des résultats et des meilleures images des derniers jours : football, tennis, basket, rugby, handball ou encore les sports US (NBA, MLB, NFL), toutes les compétitions sont passées en revue.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="beINSPORTS2.fr" start="20260119053000 +0100" stop="20260119054500 +0100">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <desc lang="fr">Ça se passe sur beIN SPORTS est un condensé de l'actualité sportive, des résultats et des meilleures images des derniers jours : football, tennis, basket, rugby, handball ou encore les sports US (NBA, MLB, NFL), toutes les compétitions sont passées en revue.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="beINSPORTS2.fr" start="20260119054500 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Ça se passe sur beIN SPORTS</title>
+    <desc lang="fr">Ça se passe sur beIN SPORTS est un condensé de l'actualité sportive, des résultats et des meilleures images des derniers jours : football, tennis, basket, rugby, handball ou encore les sports US (NBA, MLB, NFL), toutes les compétitions sont passées en revue.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
   <programme channel="beINSPORTS2.fr" start="20260119060000 +0100" stop="20260119080000 +0100">
     <title lang="fr">Football</title>
     <desc lang="fr">A suivre, un match disputé dans le cadre d'une compétition de football. Aucun continent n'échappe à la ferveur de la pratique de cette discipline, et chaque pays dispose de ses propres fédérations et divisions. Ce sport, dont les premières règles furent adoptées dès la fin du XIXe siècle au Royaume-Uni, est régi au niveau mondial par la FIFA, créée en 1904, et chaque continent possède sa propre fédération, l'UEFA représentant l'Europe.</desc>
@@ -37776,6 +38117,11 @@
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
+  <programme channel="beINSPORTSMAX4.fr" start="20260119051500 +0100" stop="20260119090000 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
   <programme channel="beINSPORTSMAX4.fr" start="20260119090000 +0100" stop="20260119130000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
@@ -37821,12 +38167,27 @@
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
-  <programme channel="beINSPORTSMAX5.fr" start="20260119170000 +0100" stop="20260119210000 +0100">
+  <programme channel="beINSPORTSMAX5.fr" start="20260119170000 +0100" stop="20260119175500 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
-  <programme channel="beINSPORTSMAX5.fr" start="20260119210000 +0100" stop="20260120010000 +0100">
+  <programme channel="beINSPORTSMAX5.fr" start="20260119175500 +0100" stop="20260119200000 +0100">
+    <title lang="fr">Football : Süper Lig</title>
+    <desc lang="fr">Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig. La plus haute compétition de football de Turquie. Cette compétition professionnelle, placée sous la supervision de la Fédération de Turquie de football, a été fondée en 1959.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="beINSPORTSMAX5.fr" start="20260119200000 +0100" stop="20260119205500 +0100">
+    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="beINSPORTSMAX5.fr" start="20260119205500 +0100" stop="20260119230000 +0100">
+    <title lang="fr">Football : Liga</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="beINSPORTSMAX5.fr" start="20260119230000 +0100" stop="20260120050000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
@@ -37851,15 +38212,15 @@
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
-  <programme channel="beINSPORTSMAX6.fr" start="20260119170000 +0100" stop="20260119210000 +0100">
+  <programme channel="beINSPORTSMAX6.fr" start="20260119170000 +0100" stop="20260119220000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
-  <programme channel="beINSPORTSMAX6.fr" start="20260119210000 +0100" stop="20260120010000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
+  <programme channel="beINSPORTSMAX6.fr" start="20260119220000 +0100" stop="20260120010000 +0100">
+    <title lang="fr">Hockey sur glace : NHL</title>
+    <desc lang="fr">Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace. Constituée de franchises canadiennes et américaines, cette compétition est la plus célèbre au monde concernant les clubs de hockey sur glace. Elle existe depuis 1917, date de sa création à l'hôtel Windsor de Montréal au Canada.</desc>
+    <category lang="fr">Emission sportive / Hockey sur glace</category>
   </programme>
   <programme channel="beINSPORTSMAX7.fr" start="20260119010000 +0100" stop="20260119050000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
@@ -37896,11 +38257,6 @@
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
-  <programme channel="beINSPORTSMAX8.fr" start="20260119050000 +0100" stop="20260119090000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
   <programme channel="beINSPORTSMAX8.fr" start="20260119090000 +0100" stop="20260119130000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
@@ -37922,11 +38278,6 @@
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
   <programme channel="beINSPORTSMAX9.fr" start="20260119010000 +0100" stop="20260119050000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX9.fr" start="20260119050000 +0100" stop="20260119090000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
@@ -44304,7 +44655,7 @@
   </programme>
   <programme channel="oqee.1137" start="20260119200500 +0100" stop="20260119210000 +0100">
     <title lang="fr">L'élixir du docteur Carter</title>
-    <desc lang="fr">John Wayne is back, doing what he does best - slingin' guns and throwing fists in this action-packed tale of intrigue in the Wild West. John Wyatt (Wayne) is a government agent who must go undercover in a traveling medicine show to infiltrate a dangerous gang of counterfeiters. Guns Along the Trail has been beautifully restored and is in color for the very first time.</desc>
+    <desc lang="fr">Un agent secret du gouvernement est envoyé pour arrêter une bande de faussaires opérant près de la frontière mexicaine.</desc>
     <category lang="fr">Film / Western</category>
   </programme>
   <programme channel="oqee.1137" start="20260119210000 +0100" stop="20260119223500 +0100">
@@ -46115,10 +46466,6 @@
     <desc lang="fr">Un autre problème de moteur survient, forçant le Capitaine Glenn a modifier le programme et à garder divertis les invités qui reviennent. Avec toute l'incertitude qui règne dans la salle des machines, le Capitaine Glenn prend les commandes et souligne les erreurs de l'équipage. Daisy et Colin se réconcilient après leur dispute et leur relation se renforce. Daisy confronte Gary au sujet de Mads et prétend qu'il joue son jeu habituel. Fatigué par ces histoires, Chase organise une soirée Twister arrosée et une séance de yoga surprenante.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
-  <programme channel="oqee.119" start="20260119020000 +0100" stop="20260119080000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
   <programme channel="oqee.1201" start="20260119002500 +0100" stop="20260119010000 +0100">
     <title lang="fr">After Dark-Tori Black And Marcus Dupree</title>
     <category lang="fr">Film / Film pornographique</category>
@@ -46470,6 +46817,16 @@
     <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
+  <programme channel="oqee.1212" start="20260119050000 +0100" stop="20260119055000 +0100">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1212" start="20260119055000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="oqee.1212" start="20260119060000 +0100" stop="20260119063000 +0100">
     <title lang="fr">Le 6h info</title>
     <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
@@ -46546,7 +46903,7 @@
   </programme>
   <programme channel="oqee.1212" start="20260119150500 +0100" stop="20260119161000 +0100">
     <title lang="fr">Ça commence aujourd'hui</title>
-    <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
+    <desc lang="fr">Pour cette semaine consacrée à la justice, Faustine Bollaert reçoit sur le plateau de "Ça commence aujourd'hui" deux femmes qui ont beaucoup soufferts mais qui restent extremement combatives. Elles nous confient leurs parcours et reviennent sur les tragédies qui ont bouleversé leurs vies : le meurtre de leur fille et de leur sœur. Leurs récits s...</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.1212" start="20260119161000 +0100" stop="20260119162500 +0100">
@@ -47410,6 +47767,16 @@
     <desc lang="fr">Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
+  <programme channel="oqee.1228" start="20260119050000 +0100" stop="20260119055000 +0100">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1228" start="20260119055000 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="oqee.1228" start="20260119060000 +0100" stop="20260119063000 +0100">
     <title lang="fr">Le 6h info</title>
     <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
@@ -47486,7 +47853,7 @@
   </programme>
   <programme channel="oqee.1228" start="20260119150500 +0100" stop="20260119161000 +0100">
     <title lang="fr">Ça commence aujourd'hui</title>
-    <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
+    <desc lang="fr">Pour cette semaine consacrée à la justice, Faustine Bollaert reçoit sur le plateau de "Ça commence aujourd'hui" deux femmes qui ont beaucoup soufferts mais qui restent extremement combatives. Elles nous confient leurs parcours et reviennent sur les tragédies qui ont bouleversé leurs vies : le meurtre de leur fille et de leur sœur. Leurs récits s...</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.1228" start="20260119161000 +0100" stop="20260119162500 +0100">
@@ -50607,112 +50974,112 @@
     <title lang="fr">Coffee Chat</title>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
-  <programme channel="oqee.139" start="20260119002200 +0100" stop="20260119011200 +0100">
+  <programme channel="oqee.139" start="20260119002500 +0100" stop="20260119011400 +0100">
     <title lang="fr">Alexia, autopsie d'un féminicide - S01E03</title>
     <desc lang="fr">Le 29 janvier 2018, Isabelle Fouillot apprend l'arrestation de Jonathann Daval pour le meurtre de sa fille. La famille est sous le choc lorsque l'avocat de Jonathann Daval, à l'issue des aveux de son client, prend la parole à la télévision.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119011200 +0100" stop="20260119021400 +0100">
+  <programme channel="oqee.139" start="20260119011400 +0100" stop="20260119021800 +0100">
     <title lang="fr">Alexia, autopsie d'un féminicide - S01E04</title>
     <desc lang="fr">Le 27 juin 2018, Grégory Gay reçoit une convocation du juge d'instruction. Il se rend au tribunal le 4 juillet et apprend que Jonathann l'accuse du meurtre d'Alexia.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119021400 +0100" stop="20260119030100 +0100">
+  <programme channel="oqee.139" start="20260119021800 +0100" stop="20260119030600 +0100">
     <title lang="fr">Cyberattaque à l'hôpital</title>
     <desc lang="fr">Dans la nuit du 31 octobre 2021, à l'hôpital de Handa, au Japon, des documents annonçant que toutes les données de l'établissement ont été volées et cryptées sortent des imprimantes. Victime d'une attaque par ransomware, l'hôpital devra payer une rançon pour les récupérer. N'étant plus en mesure d'accéder aux données médicales des patients, l'équipe médicale doit reporter des opérations chirurgicales et refuser des cas d'urgence.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119030100 +0100" stop="20260119035300 +0100">
+  <programme channel="oqee.139" start="20260119030600 +0100" stop="20260119035800 +0100">
     <title lang="fr">Des crimes presque parfaits - S01E01</title>
     <desc lang="fr">Danielle Thiéry, première femme commissaire divisionnaire, remonte aux origines de la police scientifique en revenant sur un fait divers d'août 1889. Ce jour-là, un cantonnier a fait une macabre découverte dans un buisson en contrebas d'une route départementale : un colis renfermant un corps humain, celui de l'huissier de justice, Toussaint-Auguste Gouffé, en décomposition. Cette découverte marque le début de la fameuse affaire Gouffé.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119035300 +0100" stop="20260119061800 +0100">
+  <programme channel="oqee.139" start="20260119035800 +0100" stop="20260119060200 +0100">
     <title lang="fr">Des crimes presque parfaits - S01E02</title>
     <desc lang="fr">En 1887, l'affaire Henri Pranzini défraie la chronique. Bel homme, cultivé et intelligent, ce séducteur oriental au charme langoureux est un aventurier, doublé d'un joueur invétéré. En 1887, il rencontre Marie Régnault, dite Régine de Montille, célèbre courtisane de l'époque. Cette rencontre va se conclure par un bain de sang.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119061800 +0100" stop="20260119071000 +0100">
+  <programme channel="oqee.139" start="20260119060200 +0100" stop="20260119065500 +0100">
     <title lang="fr">50 ans de faits divers</title>
     <desc lang="fr">En 1987, sur l'île de Faaité, en Polynésie française, six personnes sont brûlées au nom de Dieu. Le massacre ressemble à un suicide collectif, à un exorcisme meurtrier. Ce fait divers soulève un pan méconnu de la Polynésie, où pratiques religieuses et emprise des sectes traduisent un mal profond d'une société isolée, en proie à l'ennui et qui, parfois, voit ressurgir des pratiques d'un autre âge.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119071000 +0100" stop="20260119080100 +0100">
+  <programme channel="oqee.139" start="20260119065500 +0100" stop="20260119074600 +0100">
     <title lang="fr">Des crimes presque parfaits - S09E01</title>
     <desc lang="fr">A Jully-les-Nonnains, dans l'Yonne, en 1909, la ferme du château est le théâtre d'un crime épouvantable. Trois domestiques et le couple d'exploitants de la ferme ont été sauvagement assassinés. Un quatrième domestique a survécu et il désigne les auteurs du carnage : il s'agit de deux jeunes vachers, âgés de 16 et 14 ans, recrutés récemment.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119080100 +0100" stop="20260119090200 +0100">
+  <programme channel="oqee.139" start="20260119074600 +0100" stop="20260119084800 +0100">
     <title lang="fr">Des crimes presque parfaits - S09E02</title>
     <desc lang="fr">En 1870, dans un contexte politique déjà très tendu, Victor Noir, jeune journaliste de 21 ans, est abattu par un cousin de l'empereur Napoléon III, le prince Pierre-Napoléon Bonaparte. Le tireur, prétend avoir agi en état de légitime défense, une version contestée par le seul témoin des faits. Victor Noir devient alors le symbole de la résistance au régime impérial.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119090200 +0100" stop="20260119094700 +0100">
+  <programme channel="oqee.139" start="20260119084800 +0100" stop="20260119093400 +0100">
     <title lang="fr">Mon voisin, ce tueur - S09E01</title>
     <desc lang="fr">Contester les limites de propriété quand on est nouveau dans un quartier n'attire pas la sympathie des voisins. C'est le sanglant constat que va faire un nouvel arrivant un peu trop procédurier.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119094700 +0100" stop="20260119104100 +0100">
+  <programme channel="oqee.139" start="20260119093400 +0100" stop="20260119102900 +0100">
     <title lang="fr">Mon voisin, ce tueur - S09E02</title>
     <desc lang="fr">Une association de propriétaires est censée établir et faire appliquer des règles au sein d'un lotissement ou d'une résidence. Si cela peut parfois simplifier les rapports entre voisins, dans cette affaire, les discussion se sont finies dans le sang.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119104100 +0100" stop="20260119112000 +0100">
+  <programme channel="oqee.139" start="20260119102900 +0100" stop="20260119110900 +0100">
     <title lang="fr">#DisMoiQuandT'esRentrée - S02E13</title>
     <desc lang="fr">Star montante des réseaux sociaux, Alexis Murphy, 17 ans, n'est jamais arrivée chez le coiffeur, où elle devait se rendre. Sa famille s'est immédiatement inquiétée.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119112000 +0100" stop="20260119120500 +0100">
+  <programme channel="oqee.139" start="20260119110900 +0100" stop="20260119115500 +0100">
     <title lang="fr">#DisMoiQuandT'esRentrée - S02E09</title>
     <desc lang="fr">En 2018, Carla Stefaniak, blogueuse américaine d'origine vénézuélienne, devait fêter son 36e anniversaire au Costa Rica. Lorsque ses proches attendent son retour à Miami, ils découvrent qu'elle n'est jamais montée dans l'avion.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119120500 +0100" stop="20260119124500 +0100">
+  <programme channel="oqee.139" start="20260119115500 +0100" stop="20260119123500 +0100">
     <title lang="fr">Au commissariat</title>
     <desc lang="fr">A Mons, Mélanie confronte un voisin encombrant, tandis qu'à Charleroi, un homme a une drôle de surprise une fois passé le portique de sécurité du commissariat.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="oqee.139" start="20260119124500 +0100" stop="20260119133300 +0100">
+  <programme channel="oqee.139" start="20260119123500 +0100" stop="20260119132700 +0100">
     <title lang="fr">Au commissariat</title>
     <desc lang="fr">A Bruxelles, l'inspecteur Martin s'occupe d'une affaire mystérieuse, tandis qu'à Charleroi, les policiers entendent une femme suspectée de plusieurs faits graves.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="oqee.139" start="20260119133300 +0100" stop="20260119151100 +0100">
+  <programme channel="oqee.139" start="20260119132700 +0100" stop="20260119150500 +0100">
     <title lang="fr">Faites entrer l'accusé</title>
     <desc lang="fr">Le 8 février 2003, à Coulogne, dans le Pas-de-Calais, Monique Lejeune a été tuée de 58 coups de couteau. Cette femme n'avait pourtant aucun ennemi. Mère de trois garçons, elle s'était remariée avec Claude Lejeune, lui-même père de trois grandes filles. D'après ses proches, Monique était devenue le pilier de cette famille recomposée. Mais peu à peu l'apparente cohésion de la famille Lejeune se fissure. Les policiers soupçonnent Béatrice Matis, l'ex-femme de Claude Lejeune. Devant les assises, les jurés suivent la démonstration de la défense et acquittent cette dernière. Mais le répit n'est que de courte durée pour elle et ses filles, car le parquet fait appel.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="oqee.139" start="20260119151100 +0100" stop="20260119155100 +0100">
+  <programme channel="oqee.139" start="20260119150500 +0100" stop="20260119154600 +0100">
     <title lang="fr">Meurtres à Philadelphie - S01E09</title>
     <desc lang="fr">En mai 1998, Shannon Schieber, 23 ans, étudiante en doctorat, a été retrouvée morte dans son appartement de Rittenhouse Square, à Philadelphie.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119155100 +0100" stop="20260119163600 +0100">
+  <programme channel="oqee.139" start="20260119154600 +0100" stop="20260119163100 +0100">
     <title lang="fr">Meurtres à Philadelphie - S01E10</title>
     <desc lang="fr">En avril 2021, Rachel Siani, 21 ans, qui travaillait comme danseuse exotique le soir pour payer ses études, a été battue puis jetée d'un pont.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119163600 +0100" stop="20260119171600 +0100">
+  <programme channel="oqee.139" start="20260119163100 +0100" stop="20260119171200 +0100">
     <title lang="fr">Les procès du mal avec Kelly Siegler - S01E01</title>
     <desc lang="fr">Kelly Siegler, ancien procureur, rouvre les dossiers des affaires criminelles les plus marquantes et fait le point sur les procès les plus durs de l'histoire judiciaire du Texas.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119171600 +0100" stop="20260119180500 +0100">
+  <programme channel="oqee.139" start="20260119171200 +0100" stop="20260119180100 +0100">
     <title lang="fr">Les procès du mal avec Kelly Siegler - S01E02</title>
     <desc lang="fr">Le 27 novembre 1998, un homme est entré dans une boutique et a poignarde trois personnes, avant de prendre la fuite. Un témoin a noté le numéro de la d'immatriculation.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119180500 +0100" stop="20260119184500 +0100">
+  <programme channel="oqee.139" start="20260119180100 +0100" stop="20260119184200 +0100">
     <title lang="fr">Face au juge</title>
     <desc lang="fr">Les prévenus qui viennent d'être arrêtés par la police belge doivent être reçus par le procureur du Roi dans les vingt-quatre heures qui suivent leur interpellation. Les caméras de FACE AU JUGE ont pu filmer ces entrevues. Elles ont également saisi le quotidien des salles d'audiences - excès de vitesse, loyers impayés, violences intrafamiliales - pour rendre compte du destin de citoyens confrontés à la justice.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="oqee.139" start="20260119184500 +0100" stop="20260119192400 +0100">
+  <programme channel="oqee.139" start="20260119184200 +0100" stop="20260119192300 +0100">
     <title lang="fr">Face au juge</title>
     <desc lang="fr">Les prévenus qui viennent d'être arrêtés par la police belge doivent être reçus par le procureur du Roi dans les vingt-quatre heures qui suivent leur interpellation. Les caméras de FACE AU JUGE ont pu filmer ces entrevues. Elles ont également saisi le quotidien des salles d'audiences - excès de vitesse, loyers impayés, violences intrafamiliales - pour rendre compte du destin de citoyens confrontés à la justice.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="oqee.139" start="20260119192400 +0100" stop="20260119210000 +0100">
+  <programme channel="oqee.139" start="20260119192300 +0100" stop="20260119210000 +0100">
     <title lang="fr">Faites entrer l'accusé</title>
     <desc lang="fr">Le 15 septembre 2003, Orlando Capozzi, un homme d'affaires de 39 ans, a été abattu de trois balles de carabine de chasse devant sa villa de Cassis. Pour les policiers marseillais, l'affaire est complexe, et les pistes pour la démêler, inexistantes. Mais deux jours plus tard, un informateur se présente à eux pour leur livrer trois noms : Malon, Spadoni et Giustiniani, le commanditaire, l'assassin, et le complice. La police comprend peu à peu que ces personnes étaient associées dans un vaste projet immobilier en République dominicaine et que l'assassinat de Capozzi est le résultat de leur brouille mortelle.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
@@ -50727,12 +51094,12 @@
     <desc lang="fr">A Verviers, Didier reçoit un homme harcelé par son ex-compagne, tandis qu'à Mouscron, la police enquête sur des démarchages téléphoniques suspects.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="oqee.139" start="20260119222800 +0100" stop="20260119231700 +0100">
+  <programme channel="oqee.139" start="20260119222800 +0100" stop="20260119231800 +0100">
     <title lang="fr">Surviving Jeffrey Epstein - S01E01</title>
     <desc lang="fr">Le suicide en prison de l'homme d'affaires Jeffrey Epstein, à New York, le 10 août 2019, a causé la stupeur aux Etats-Unis. Arrêté un mois plus tôt, le milliardaire était accusé d'agressions sexuelles et d'avoir organisé pendant des années un véritable trafic de jeunes filles mineures. La mort de Jeffrey Epstein a privé ses victimes d'un procès, elles livrent leurs témoignage dans ce documentaire.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
-  <programme channel="oqee.139" start="20260119231700 +0100" stop="20260120000900 +0100">
+  <programme channel="oqee.139" start="20260119231800 +0100" stop="20260120001000 +0100">
     <title lang="fr">Surviving Jeffrey Epstein - S01E02</title>
     <desc lang="fr">Ce documentaire dévoile comment l'homme d'affaires Jeffrey Epstein a usé de sa puissance, de son argent, de ses relations pour assouvir ses fantasmes et ceux de ses célèbres amis pendant de trop nombreuses années.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
@@ -53680,6 +54047,19 @@
     <desc lang="fr">Une découverte "Low slow" en train, vélo et bateau des paysages de la Nouvelle-Aquitaine.</desc>
     <category lang="fr">Magazine / Magazine du tourisme</category>
   </programme>
+  <programme channel="oqee.264" start="20260119052500 +0100" stop="20260119052600 +0100">
+    <title lang="fr">Ketokole</title>
+    <desc lang="fr">Cagouille, ajhasse... Un abécédaire animé des mots du poitevin-saintongeais, un territoire linguistique qui mérite que l'on s'y intèresse. Le comédien Yannick Jaulin raconte avec humour et l'accent typique du saintongeais, ces mots que nous avons dans l'oreille sans forcément en connaître l'origine.</desc>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="oqee.264" start="20260119052600 +0100" stop="20260119055300 +0100">
+    <title lang="fr">Txirrita</title>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.264" start="20260119055300 +0100" stop="20260119060000 +0100">
+    <title lang="fr">NoA découverte</title>
+    <category lang="fr">Magazine / Magazine de reportages</category>
+  </programme>
   <programme channel="oqee.264" start="20260119060000 +0100" stop="20260119062600 +0100">
     <title lang="fr">Le temps d'un détour</title>
     <desc lang="fr">En Gironde, dans le Médoc, La réserve naturelle nationale de Cousseau est un havre de paix pour bon nombre d'espèces. L'hiver est une période particulière pour cette réserve qui accueille des milliers de grues cendrées. L'occasion de revenir en vallée d'Ossau, dans la réserve naturelle nationale des vautours à Aste-Béon qui abrite la plus grande la plus grande colonie de toutes les Pyrénées. Puis le temps d'un détour en Médoc : rencontre avec un ostréiculteur, qui, en donnant une fonction économique à ces marais, permet la subsistance de ces zones humides, indispensables à la biodiversité.</desc>
@@ -55431,8 +55811,8 @@
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.340" start="20260119044500 +0100" stop="20260119053000 +0100">
-    <title lang="fr">Kulturalni PL</title>
-    <desc lang="fr">Interaktywny program, w którym w lekkiej formie prowadzący rozmawiają z gośćmi i widzami na interesujące tematy. Goście to odkrywcy, naukowcy, artyści, intelektualiści, ludzie z pierwszych stron gazet, a także gwiazdy sceny muzycznej.</desc>
+    <title lang="fr">Kulturalni</title>
+    <desc lang="fr">Magazyn prezentuje najciekawsze wydarzenia kulturalne, artystyczne i społeczne z życia Polonii. Prowadzący program rozmawiają z zaproszonymi gośćmi na temat aktualnych imprez rozrywkowych, sportowych, koncertów i wystaw z udziałem polskich artystów. Nie zabraknie także informacji o nowościach kinowych i wydawniczych.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="oqee.340" start="20260119053000 +0100" stop="20260119060000 +0100">
@@ -55491,8 +55871,8 @@
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="oqee.340" start="20260119141000 +0100" stop="20260119150000 +0100">
-    <title lang="fr">Kulturalni PL</title>
-    <desc lang="fr">Interaktywny program, w którym w lekkiej formie prowadzący rozmawiają z gośćmi i widzami na interesujące tematy. Goście to odkrywcy, naukowcy, artyści, intelektualiści, ludzie z pierwszych stron gazet, a także gwiazdy sceny muzycznej.</desc>
+    <title lang="fr">Kulturalni</title>
+    <desc lang="fr">Magazyn prezentuje najciekawsze wydarzenia kulturalne, artystyczne i społeczne z życia Polonii. Prowadzący program rozmawiają z zaproszonymi gośćmi na temat aktualnych imprez rozrywkowych, sportowych, koncertów i wystaw z udziałem polskich artystów. Nie zabraknie także informacji o nowościach kinowych i wydawniczych.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="oqee.340" start="20260119150000 +0100" stop="20260119151000 +0100">
@@ -55630,14 +56010,24 @@
     <desc lang="fr">Chaque semaine, une rédaction régionale propose une enquête, un portrait, une révélation sur la société, l'économie, l'environnement ou la santé, au cœur d'un territoire. </desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="oqee.353" start="20260119051000 +0100" stop="20260119051500 +0100">
+    <title lang="fr">Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.353" start="20260119051500 +0100" stop="20260119060100 +0100">
+    <title lang="fr">Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce célèbre jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="oqee.353" start="20260119060100 +0100" stop="20260119063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
     <desc lang="fr">Nos Balades gourmandes terminent l'année de manière insolite ! Pour ce nouvel épisode, partons à la rencontre de ces chefs lyonnais qui proposent des créations culinaires originales.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="oqee.353" start="20260119063000 +0100" stop="20260119090500 +0100">
-    <title lang="fr">ICI Matin</title>
-    <desc lang="fr">De 6h30 à 9h, le premier rendez-vous de la journée avec l'information de proximité propose des journaux d'information, des points météo et trafic réguliers, et de la bonne humeur.</desc>
+    <title lang="fr">ICI Matin - Hérault</title>
+    <desc lang="fr">Une matinale d'actualités, de services et de bonne humeur pour bien commencer la journée avec des points météo réguliers et des infos trafic et mobilité en temps réel.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.353" start="20260119090500 +0100" stop="20260119091500 +0100">
@@ -55675,9 +56065,13 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.353" start="20260119121500 +0100" stop="20260119125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="oqee.353" start="20260119121500 +0100" stop="20260119122500 +0100">
+    <title lang="fr">Météo - Occitanie</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.353" start="20260119122500 +0100" stop="20260119125500 +0100">
+    <title lang="fr">ICI 12/13 - Languedoc Roussillon</title>
+    <desc lang="fr">Regarder la vidéo Émission du lundi 2 décembre 2024 sur france.tv</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.353" start="20260119125500 +0100" stop="20260119140000 +0100">
@@ -55715,10 +56109,24 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="oqee.353" start="20260119190000 +0100" stop="20260119200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="oqee.353" start="20260119190000 +0100" stop="20260119190500 +0100">
+    <title lang="fr">Météo - Occitanie</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.353" start="20260119190500 +0100" stop="20260119191400 +0100">
+    <title lang="fr">ICI 19/20 - Pays Catalan</title>
+    <desc lang="fr">Le journal télévisé régional en soirée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.353" start="20260119191400 +0100" stop="20260119194600 +0100">
+    <title lang="fr">ICI 19/20 - Languedoc Roussillon</title>
+    <desc lang="fr">Regarder la vidéo Émission du lundi 2 décembre 2024 sur france.tv</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.353" start="20260119194600 +0100" stop="20260119200000 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="oqee.353" start="20260119200000 +0100" stop="20260119201000 +0100">
     <title lang="fr">Stade 2 la quotidienne</title>
@@ -55731,8 +56139,7 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="oqee.353" start="20260119201500 +0100" stop="20260119202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Occitanie</title>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.353" start="20260119202500 +0100" stop="20260119204500 +0100">
@@ -57327,7 +57734,7 @@
   </programme>
   <programme channel="oqee.401" start="20260119190000 +0100" stop="20260119195800 +0100">
     <title lang="fr">Bienvenue en Ile-de-France</title>
-    <desc lang="fr">Chaque jour, Victoire Sikora, Damien Canivez et leurs invités vous emmènent à la découverte des multiples visages de l'Île-de-France. Entre histoire, culture, innovation et travail, explorez cette région dynamique à travers des rencontres et des entretiens passionnants. Redécouvrez l'Île-de-France sous un angle nouveau !</desc>
+    <desc lang="fr">Invités : Elya Birman, comédien et Clémentine Niewdanski, metteuse en scène de "Les travailleurs de la mer".</desc>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="oqee.401" start="20260119195800 +0100" stop="20260119200000 +0100">
@@ -60435,34 +60842,6 @@
     <desc lang="fr">Moonlight Melodies présente les plus belles mélodies classiques pour vous faire découvrir un clair de lune musical étonnant.</desc>
     <category lang="fr">Concert / Classique</category>
   </programme>
-  <programme channel="oqee.567" start="20260119000000 +0100" stop="20260119060000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="oqee.567" start="20260119060000 +0100" stop="20260119090000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="oqee.567" start="20260119090000 +0100" stop="20260119120000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="oqee.567" start="20260119120000 +0100" stop="20260119150000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="oqee.567" start="20260119150000 +0100" stop="20260119180000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="oqee.567" start="20260119180000 +0100" stop="20260119210000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="oqee.567" start="20260119210000 +0100" stop="20260120000000 +0100">
-    <title lang="fr">Arrêt de la chaîne</title>
-    <category lang="fr">Divers / Autre</category>
-  </programme>
   <programme channel="oqee.577" start="20260119053000 +0100" stop="20260119080000 +0100">
     <title lang="fr">Oynat Bakalım</title>
     <desc lang="fr">Oynat Bakalım, izleyicileri güldürüp eğlendiren bir video ve eğlence programı. Programda sosyal medyada dikkat çeken komik, ilginç, şaşırtıcı videolar ekrana geliyor. Her bölümde farklı konular işleniyor; kullanıcı videoları, viral içerikler, beklenmedik sahneler izleyiciyi ekran başına kilitliyor. Sunucunun enerjik anlatımıyla, gündelik hayatın sıradan anları bile eğlenceye dönüşüyor. Hafif, keyifli bir vakit geçirmek isteyenler için ideal bir program.</desc>
@@ -62074,7 +62453,7 @@
   </programme>
   <programme channel="oqee.613" start="20260119201400 +0100" stop="20260119210000 +0100">
     <title lang="fr">Le cercle</title>
-    <desc lang="fr">Lily Bloom entourée de son équipe de fous de cinéma débattent des films à l'affiche.</desc>
+    <desc lang="fr">"Le Cercle" est un magazine de débats et de critiques cinéphiles animé par un journaliste en compagnie de chroniqueurs et en présence d'un public d'étudiants en cinéma.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="oqee.613" start="20260119210000 +0100" stop="20260119224000 +0100">
@@ -62097,22 +62476,18 @@
     <desc lang="fr">Mélanie, une jeune avocate atteinte d'une maladie incurable, a décidé qu'il était temps de profiter de la vie. Elle embarque Benjamin, son ami de toujours, dans un périple vers l'Espagne pour explorer enfin leur sensualité dans une maison close. Les voici à bord d'un van délabré, conduit par Lucas, un chauffeur bourru sorti de prison la veille. Contrairement à Mélanie, Benjamin ne semble pas pressé d'arriver et fait d'ailleurs tout pour prolonger cet improbable voyage à ses côtés…</desc>
     <category lang="fr">Film / Comédie dramatique</category>
   </programme>
-  <programme channel="oqee.642" start="20260119000000 +0100" stop="20260119013000 +0100">
+  <programme channel="oqee.642" start="20260119013000 +0100" stop="20260119030000 +0100">
     <title lang="fr">ΠΕΦΤΕΙ Η ΝΥΧΤΑ ΜΕ... ΡΥΘΜΟ</title>
     <category lang="fr">Divers / Variétés</category>
   </programme>
-  <programme channel="oqee.642" start="20260119013000 +0100" stop="20260119030000 +0100">
-    <title lang="fr">ΕΛΛΗΝΙΚΗ ΣΕΙΡΑ</title>
-    <category lang="fr">Série / Série Autre</category>
-  </programme>
   <programme channel="oqee.642" start="20260119030000 +0100" stop="20260119040000 +0100">
-    <title lang="fr">Working Woman</title>
-    <desc lang="fr">Using the medium of comedy, Eleni Rantou parodies how females are portrayed in modern Greece, playing a different working woman in each episode of this comedy series and revealing the difficulties many professional women face on a daily basis. Each profession is wildly different but bares the same perception from her male counterparts and, as amusing as the series is, plays on the sexism that is still rife in the country.</desc>
+    <title lang="fr">Dream Catcher</title>
+    <desc lang="fr">Greek comedy-romance series. After washing ashore following a shipwreck, Katerina finds herself on a remote island with no money, and no hope, until she meets Petros, a hostel owner, who decides to take her in. Hidden behind the trees, Petros' hostel, Dream Catcher, is the perfect place for dreams to come true, and Katerina's life begins to change completely. Alone on this remote island, her relationship with Petros begins to blossom, and the series follows their ensuing romance. Featuring performances from Maria Solomou and Yorgos Karamihos, who star as the show's protagonists.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.642" start="20260119040000 +0100" stop="20260119070000 +0100">
-    <title lang="fr">Sunday Breakfast</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <title lang="fr">ΑΝΟΔΟΣ LIVE STAGE</title>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.642" start="20260119070000 +0100" stop="20260119100000 +0100">
     <title lang="fr">Kalimera Ellada</title>
@@ -65923,6 +66298,342 @@
     <desc lang="fr">Espai que fa un cop d'ull al panorama del blues i les seves variants a Catalunya. Un dels elements clau d'aquest programa musical és que permet veure artistes clau d'aquest gènere en el seus àmbits naturals: els estudis de gravació.</desc>
     <category lang="fr">Documentaire / Documentaire musique</category>
   </programme>
+  <programme channel="oqee.701" start="20260119000100 +0100" stop="20260119002700 +0100">
+    <title lang="fr">Voyance</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119002700 +0100" stop="20260119003000 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119003000 +0100" stop="20260119005700 +0100">
+    <title lang="fr">Voyance</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119005700 +0100" stop="20260119010000 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119010000 +0100" stop="20260119012700 +0100">
+    <title lang="fr">Voyance</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119012700 +0100" stop="20260119013000 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119013000 +0100" stop="20260119015700 +0100">
+    <title lang="fr">Voyance</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119015700 +0100" stop="20260119020000 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119020000 +0100" stop="20260119022900 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119022900 +0100" stop="20260119023100 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119023100 +0100" stop="20260119025900 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119025900 +0100" stop="20260119030200 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119030200 +0100" stop="20260119031700 +0100">
+    <title lang="fr">Vivre comme tout le monde ou presque</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119031700 +0100" stop="20260119033200 +0100">
+    <title lang="fr">Watt's In</title>
+    <desc lang="fr">Interviews, extraits de clips, concerts : un rendez-vous pour tout connaître de l'actualité musicale avec ce magazine consacré à la musique sous toutes ses formes.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119033200 +0100" stop="20260119040000 +0100">
+    <title lang="fr">La santé d'abord</title>
+    <desc lang="fr">Une émission qui répond aux questions de santé et de bien-être des Français dans tous les territoires, grâce à des reportages et à l'éclairage d'experts en plateau.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119040000 +0100" stop="20260119040300 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119040300 +0100" stop="20260119043200 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119043200 +0100" stop="20260119043400 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119043400 +0100" stop="20260119050500 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119050500 +0100" stop="20260119053600 +0100">
+    <title lang="fr">La santé d'abord</title>
+    <desc lang="fr">Une émission qui répond aux questions de santé et de bien-être des Français dans tous les territoires, grâce à des reportages et à l'éclairage d'experts en plateau.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119053600 +0100" stop="20260119054800 +0100">
+    <title lang="fr">Vivre comme tout le monde ou presque</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119054800 +0100" stop="20260119060000 +0100">
+    <title lang="fr">Watt's In</title>
+    <desc lang="fr">Interviews, extraits de clips, concerts : un rendez-vous pour tout connaître de l'actualité musicale avec ce magazine consacré à la musique sous toutes ses formes.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119060000 +0100" stop="20260119062000 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119062000 +0100" stop="20260119062200 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119062200 +0100" stop="20260119064700 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119064700 +0100" stop="20260119064900 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119064900 +0100" stop="20260119071700 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119071700 +0100" stop="20260119071900 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119071900 +0100" stop="20260119074700 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119074700 +0100" stop="20260119074900 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119074900 +0100" stop="20260119081700 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119081700 +0100" stop="20260119081900 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119081900 +0100" stop="20260119084700 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119084700 +0100" stop="20260119084900 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119084900 +0100" stop="20260119092000 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119092000 +0100" stop="20260119092200 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119092200 +0100" stop="20260119100300 +0100">
+    <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119100300 +0100" stop="20260119100600 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119100600 +0100" stop="20260119101900 +0100">
+    <title lang="fr">Watt's In</title>
+    <desc lang="fr">Interviews, extraits de clips, concerts : un rendez-vous pour tout connaître de l'actualité musicale avec ce magazine consacré à la musique sous toutes ses formes.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119101900 +0100" stop="20260119102100 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119102100 +0100" stop="20260119105000 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119105000 +0100" stop="20260119105200 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119105200 +0100" stop="20260119112300 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119112300 +0100" stop="20260119115100 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">En collaboration avec les chaînes de télévision et les rédactions de la presse locales, un tour des régions à la rencontre des acteurs de l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119115100 +0100" stop="20260119115200 +0100">
+    <title lang="fr">Dites-moi tout</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119115200 +0100" stop="20260119120000 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119120000 +0100" stop="20260119122300 +0100">
+    <title lang="fr">Rebond sport</title>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119122300 +0100" stop="20260119122800 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119122800 +0100" stop="20260119125600 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119125600 +0100" stop="20260119133000 +0100">
+    <title lang="fr">Vivre comme tout le monde ou presque</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119133000 +0100" stop="20260119140300 +0100">
+    <title lang="fr">Sur un Air d'accordéon</title>
+    <desc lang="fr">Une dose de bonne humeur, une pincée de guinguette et des chansons pour faire danser les Hauts-de-France. Michel Pruvot reçoit ses nombreux amis chanteurs et accordéonistes pour faire la fête avec bonne humeur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119140300 +0100" stop="20260119143500 +0100">
+    <title lang="fr">Sur un Air d'accordéon</title>
+    <desc lang="fr">Une dose de bonne humeur, une pincée de guinguette et des chansons pour faire danser les Hauts-de-France. Michel Pruvot reçoit ses nombreux amis chanteurs et accordéonistes pour faire la fête avec bonne humeur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119143500 +0100" stop="20260119150900 +0100">
+    <title lang="fr">Sur un Air d'accordéon</title>
+    <desc lang="fr">Une dose de bonne humeur, une pincée de guinguette et des chansons pour faire danser les Hauts-de-France. Michel Pruvot reçoit ses nombreux amis chanteurs et accordéonistes pour faire la fête avec bonne humeur.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119150900 +0100" stop="20260119154000 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119154000 +0100" stop="20260119155500 +0100">
+    <title lang="fr">Vivre comme tout le monde ou presque</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119155500 +0100" stop="20260119161000 +0100">
+    <title lang="fr">Watt's In</title>
+    <desc lang="fr">Interviews, extraits de clips, concerts : un rendez-vous pour tout connaître de l'actualité musicale avec ce magazine consacré à la musique sous toutes ses formes.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119161000 +0100" stop="20260119164100 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">En collaboration avec les chaînes de télévision et les rédactions de la presse locales, un tour des régions à la rencontre des acteurs de l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119164100 +0100" stop="20260119171200 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119171200 +0100" stop="20260119174300 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119174300 +0100" stop="20260119175800 +0100">
+    <title lang="fr">Vivre comme tout le monde ou presque</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119175800 +0100" stop="20260119180000 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119180000 +0100" stop="20260119183100 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119183100 +0100" stop="20260119190000 +0100">
+    <title lang="fr">Rebond sport</title>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119190000 +0100" stop="20260119190200 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119190200 +0100" stop="20260119193300 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119193300 +0100" stop="20260119193900 +0100">
+    <title lang="fr">Dites-moi tout</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119193900 +0100" stop="20260119194800 +0100">
+    <title lang="fr">Dites-moi tout</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119194800 +0100" stop="20260119200300 +0100">
+    <title lang="fr">Watt's In</title>
+    <desc lang="fr">Interviews, extraits de clips, concerts : un rendez-vous pour tout connaître de l'actualité musicale avec ce magazine consacré à la musique sous toutes ses formes.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119200300 +0100" stop="20260119203200 +0100">
+    <title lang="fr">Rebond sport</title>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119203200 +0100" stop="20260119203400 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119203400 +0100" stop="20260119210300 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119210300 +0100" stop="20260119210500 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119210500 +0100" stop="20260119213600 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119213600 +0100" stop="20260119220500 +0100">
+    <title lang="fr">Rebond sport</title>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119220500 +0100" stop="20260119220700 +0100">
+    <title lang="fr">La météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119220700 +0100" stop="20260119233300 +0100">
+    <title lang="fr">Flux</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119233300 +0100" stop="20260119234600 +0100">
+    <title lang="fr">Vivre comme tout le monde ou presque</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119234600 +0100" stop="20260119235200 +0100">
+    <title lang="fr">Dites-moi tout</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.701" start="20260119235200 +0100" stop="20260120000100 +0100">
+    <title lang="fr">Dites-moi tout</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="oqee.702" start="20260119023000 +0100" stop="20260119030000 +0100">
     <title lang="fr">Dimanche avec vous</title>
     <desc lang="fr">Dans cette émission hebdomadaire, suivez l'actualité de la semaine ou des personnalités de différentes sphères ce rencontres pour commenter et débattre.</desc>
@@ -67838,7 +68549,7 @@
   </programme>
   <programme channel="oqee.835" start="20260119120000 +0100" stop="20260119150000 +0100">
     <title lang="fr">Punkt 12</title>
-    <desc lang="fr">Aktuelle Informationen, Servicethemen, Lifestyle und das Neueste aus der Welt der Prominenten.</desc>
+    <desc lang="fr">Aktuelle Informationen, Servicethemen, jede Menge Lifestyle und das Neueste aus der Welt der Prominenten - das ist nur die eine Seite von "Punkt 12". Darüber hinaus gibt es täglich spannende und ausführliche Reportagen und Mini-Dokus, die je nach Blickwinkel verblüffende, schrille oder schockierende Einblicke in den Alltag der Deutschen geben.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.835" start="20260119150000 +0100" stop="20260119160000 +0100">
