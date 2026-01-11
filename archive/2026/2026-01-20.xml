@@ -1340,6 +1340,10 @@
     <display-name>TV5 Turkey</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2094/w256"/>
   </channel>
+  <channel id="oqee.484">
+    <display-name>Euro D</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3201/w256"/>
+  </channel>
   <channel id="oqee.485">
     <display-name>Star TV</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1640/w256"/>
@@ -2139,11 +2143,6 @@
     <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="6ter.fr" start="20260120030000 +0100" stop="20260120063000 +0100">
-    <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
   <programme channel="6ter.fr" start="20260120063000 +0100" stop="20260120065000 +0100">
     <title lang="fr">Véto &amp; Co - S10E06</title>
     <desc lang="fr">A Namur, Hélène sort sa blouse de dentiste pour une consultation originale, avant de tenter d'attraper Rose, une patiente réticente. Elle vient ensuite en aide à Molly, qui est une abonnée aux urgences vétérinaires. Les pompiers plongeurs se portent au secours d'un castor. A la campagne, François fait d'étonnantes échographies, tandis qu'Audrey s'occupe d'un chat.</desc>
@@ -2502,16 +2501,6 @@
   <programme channel="AB1.fr" start="20260120045000 +0100" stop="20260120051000 +0100">
     <title lang="fr">Hélène et les garçons - S01E125</title>
     <desc lang="fr">Les garçons arrivent au studio avec tout leur matériel pour refaire l'enregistrement. La chanson a été tellement modifiée qu'Hélène n'arrive plus à s'y retrouver...</desc>
-    <category lang="fr">Série / Série sentimentale</category>
-  </programme>
-  <programme channel="AB1.fr" start="20260120051000 +0100" stop="20260120054000 +0100">
-    <title lang="fr">Hélène et les garçons - S01E126</title>
-    <desc lang="fr">Bénédicte et José reviennent de vacances. Ils apprennent la triste nouvelle concernant le play-back et la vente de la chanson de Thomas Fava. Nathalie arrive alors en piteux état...</desc>
-    <category lang="fr">Série / Série sentimentale</category>
-  </programme>
-  <programme channel="AB1.fr" start="20260120054000 +0100" stop="20260120060500 +0100">
-    <title lang="fr">Hélène et les garçons - S01E127</title>
-    <desc lang="fr">Les garçons répètent dans le garage. Hélène et Laly viennent les rejoindre. Elles expliquent à Christian que Johanna est souffrante...</desc>
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="AB1.fr" start="20260120060500 +0100" stop="20260120064000 +0100">
@@ -3611,11 +3600,6 @@
   <programme channel="Arte.fr" start="20260120042900 +0100" stop="20260120051000 +0100">
     <title lang="fr">Pause</title>
     <category lang="fr">Divers / Autre</category>
-  </programme>
-  <programme channel="Arte.fr" start="20260120051000 +0100" stop="20260120060000 +0100">
-    <title lang="fr">L'Afrique vue du ciel - S01E09</title>
-    <desc lang="fr">Les paysages du Cameroun sont d'une incroyable diversité, des côtes qui offrent une vue imprenable sur l'Atlantique jusqu'aux rives du lac Ossa.</desc>
-    <category lang="fr">Documentaire / Documentaire voyage</category>
   </programme>
   <programme channel="Arte.fr" start="20260120060000 +0100" stop="20260120065500 +0100">
     <title lang="fr">L'Afrique vue du ciel - S01E10</title>
@@ -6747,7 +6731,7 @@
   </programme>
   <programme channel="CanalPlus.fr" start="20260120095000 +0100" stop="20260120103600 +0100">
     <title lang="fr">Le cercle</title>
-    <desc lang="fr">"Le Cercle" est un magazine de débats et de critiques cinéphiles animé par un journaliste en compagnie de chroniqueurs et en présence d'un public d'étudiants en cinéma.</desc>
+    <desc lang="fr">Lily Bloom entourée de son équipe de fous de cinéma débattent des films à l'affiche.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlus.fr" start="20260120103600 +0100" stop="20260120120500 +0100">
@@ -7123,7 +7107,7 @@
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260120182700 +0100" stop="20260120191300 +0100">
     <title lang="fr">Le cercle</title>
-    <desc lang="fr">"Le Cercle" est un magazine de débats et de critiques cinéphiles animé par un journaliste en compagnie de chroniqueurs et en présence d'un public d'étudiants en cinéma.</desc>
+    <desc lang="fr">Lily Bloom entourée de son équipe de fous de cinéma débattent des films à l'affiche.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260120191300 +0100" stop="20260120210400 +0100">
@@ -7713,37 +7697,37 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120212000 +0100" stop="20260120212900 +0100">
     <title lang="fr">Sam le pompier - S10E11</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120212900 +0100" stop="20260120213900 +0100">
     <title lang="fr">Sam le pompier - S10E12</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120213900 +0100" stop="20260120215800 +0100">
     <title lang="fr">Sam le pompier - S10E13</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120215800 +0100" stop="20260120220800 +0100">
     <title lang="fr">Sam le pompier - S10E15</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120220800 +0100" stop="20260120221700 +0100">
     <title lang="fr">Sam le pompier - S10E16</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120221700 +0100" stop="20260120224000 +0100">
     <title lang="fr">Les mystérieuses cités d'or *2012 - S02E20</title>
-    <desc lang="fr">Esteban, Zia et Tao reprennent leur quête des cités d'or à bord du Grand Condor, un oiseau mécanique qui leur permet de voler en utilisant l'énergie solaire. Leurs pérégrinations les entraînent notamment en Chine et au Tibet. Au cours de leur expédition, les enfants rencontrent Ambrosius, un alchimiste français, et se retrouvent poursuivis par le mystérieux Zarès.</desc>
+    <desc lang="fr">Six mois après avoir découvert la première cité d'or, et de retour à Barcelone, Esteban, le Fils du Soleil, et ses jeunes amis, Zia et Tao, se laissent entraîner dans de nouvelles aventures par Mendoza, le mystérieux marin. À bord du Grand Condor, les trois enfants embarquent pour l'Asie, et plus particulièrement pour la Chine, où ils espèrent découvrir les six autres légendaires Cités d'or.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120224000 +0100" stop="20260120230300 +0100">
     <title lang="fr">Les mystérieuses cités d'or *2012 - S02E21</title>
-    <desc lang="fr">Esteban, Zia et Tao reprennent leur quête des cités d'or à bord du Grand Condor, un oiseau mécanique qui leur permet de voler en utilisant l'énergie solaire. Leurs pérégrinations les entraînent notamment en Chine et au Tibet. Au cours de leur expédition, les enfants rencontrent Ambrosius, un alchimiste français, et se retrouvent poursuivis par le mystérieux Zarès.</desc>
+    <desc lang="fr">Six mois après avoir découvert la première cité d'or, et de retour à Barcelone, Esteban, le Fils du Soleil, et ses jeunes amis, Zia et Tao, se laissent entraîner dans de nouvelles aventures par Mendoza, le mystérieux marin. À bord du Grand Condor, les trois enfants embarquent pour l'Asie, et plus particulièrement pour la Chine, où ils espèrent découvrir les six autres légendaires Cités d'or.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120230300 +0100" stop="20260120232600 +0100">
@@ -7753,7 +7737,7 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120232600 +0100" stop="20260120232800 +0100">
     <title lang="fr">Manger, bouger, dormir</title>
-    <desc lang="fr">Marcus mange n'importe quoi, reste des heures sur son canapé, et dort trop peu. Toute son éducation est à refaire. Il est là pour sensibiliser les enfants à une bonne hygiène de vie grâce à des comportements alimentaires, des activités physiques et une bonne qualité de sommeil.</desc>
+    <desc lang="fr">Trois ans ont passé depuis que Felix, Andy, Sam et Jake ont réussi à réintégrer leur monde. Luke, un ado féru de nouvelles technologies et de science-fiction, vient de s'installer à Bremin, dans la banlieue de Melbourne. Son arrivée dans la petite ville coïncide avec le début d'une vague de disparitions inquiétantes. Luke ne va pas tarder à former une bande de jeunes aventuriers avec Ben, un lycéen solitaire qui s'y connaît en magie, Heath, la charismatique star de l'équipe de football, Jesse, un fan de comédies musicales, mais aussi Niccolina, dite "Nicco" , seule fille de la bande possédant des nerfs d'acier et une âme de meneuse.</desc>
     <category lang="fr">Magazine / Magazine éducatif</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260120233100 +0100" stop="20260120233300 +0100">
@@ -9629,11 +9613,6 @@
     <desc lang="fr">Marianne est officier dans un sous-marin nucléaire. Marco est chef de cabine dans une compagnie aérienne. Ils se rencontrent dans un bar lors d'une escale. Mais au grand dam de Marco, leur histoire naissante doit subitement s'interrompre, un fait qui émeut peu Marianne, qui ne prévoyait rien de plus qu'une simple aventure d'un soir. Tombé fou amoureux, Marco, lui, refuse d'abandonner si facilement. Il décide de s'infiltrer discrètement dans le sous-marin de Marianne, convaincu de pouvoir la conquérir en faisant preuve d'un tel "romantisme"...</desc>
     <category lang="fr">Film / Comédie romantique</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260120055700 +0100" stop="20260120083000 +0100">
-    <title lang="fr">Lust, Caution</title>
-    <desc lang="fr">Dans les années 40, alors que le Japon occupe une partie de la Chine, un groupe d'étudiants décide de réagir aux exactions commises par l'Empire du Soleil levant. Leur première cible : un notable chinois, monsieur Yee, qui collabore étroitement avec les services secrets nippons. Pour l'approcher, ils confient à Wong, une étudiante, la mission de le séduire. La jeune femme est consciente du danger : duper cet homme redoutable pourrait bien s'avérer fatal. Pourtant, elle n'hésite pas. Peu à peu, la relation entre elle et le troublant monsieur Yee se complique. La jeune femme se retrouve prise au piège, entre sa fidélité à la Résistance et son respect pour cet homme ambigu...</desc>
-    <category lang="fr">Film / Drame</category>
-  </programme>
   <programme channel="CinePlusEmotion.fr" start="20260120083000 +0100" stop="20260120104000 +0100">
     <title lang="fr">40 ans, mode d'emploi</title>
     <desc lang="fr">Mariés depuis des années, Pete et Debbie mènent de front leur vie de couple, leur travail et l'éducation de leurs deux filles, Charlotte et Sadie. Les deux époux se connaissent par coeur et, ensemble, s'apprêtent à aborder le tournant fatidique de la quarantaine. Pour Pete, le seul homme de la famille, le bilan est rude : la maison de disques indépendante qu'il a créée est à l'agonie. Comble de l'ironie : son père, qui vient d'avoir des triplés, compte sur lui pour l'aider à financer les dépenses du foyer. Avec Debbie, le glamour des débuts a laissé place à la réalité du quotidien, avec ses bons et ses mauvais côtés. Sadie, l'aînée de la fratrie, en pleine crise d'adolescence, multiplie les provocations. La vie n'est pas de tout repos pour le couple qui, pour garder l'équilibre et ne pas s'entretuer, va devoir composer...</desc>
@@ -10094,22 +10073,42 @@
     <desc lang="fr">Une personne très spéciale exprime son engouement pour Beverly. C'est alors que Dave Kim revient à Jenkintown avec des nouvelles passionnantes.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260120065500 +0100" stop="20260120071100 +0100">
+  <programme channel="ComediePlus.fr" start="20260120065500 +0100" stop="20260120070000 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260120071100 +0100" stop="20260120072700 +0100">
+  <programme channel="ComediePlus.fr" start="20260120070500 +0100" stop="20260120071100 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260120072700 +0100" stop="20260120074300 +0100">
+  <programme channel="ComediePlus.fr" start="20260120071100 +0100" stop="20260120071800 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260120074300 +0100" stop="20260120075900 +0100">
+  <programme channel="ComediePlus.fr" start="20260120071800 +0100" stop="20260120072300 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260120072700 +0100" stop="20260120073200 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260120073700 +0100" stop="20260120074300 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260120074300 +0100" stop="20260120074800 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260120075200 +0100" stop="20260120075500 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
@@ -12039,7 +12038,7 @@
   </programme>
   <programme channel="DorcelTV.fr" start="20260120165300 +0100" stop="20260120191100 +0100">
     <title lang="fr">Lithe</title>
-    <desc lang="fr">Elles s'abandonnent à des situations sexuelles risquées. Elles explorent l'infidélité, la soumission et le plaisir d'être vues ou prises sur le fait. Chacune joue avec les limites de ce qu'on peut se permettre en public.</desc>
+    <desc lang="fr">They abandon themselves to risky sexual situations. They explore infidelity, submission and the pleasure of being seen or caught in the act. Each plays with the limits of what is permissible in public.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTV.fr" start="20260120191100 +0100" stop="20260120194000 +0100">
@@ -12131,7 +12130,7 @@
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260120055100 +0100" stop="20260120083200 +0100">
     <title lang="fr">Level Up Vol.4</title>
-    <desc lang="fr">Ada Lapiedra, Mellany, Millie Morgan, Molly Little, Nicole Kitt et Stacy Cruz font partie des actrices les plus excitantes de ces dernières années. Si vous ne les connaissez pas encore, ces scènes devraient vous convaincre de faire plus ample connaissance.</desc>
+    <desc lang="fr">Ada Lapiedra, Mellany, Millie Morgan, Molly Little, Nicole Kitt and Stacy Cruz are among the most exciting actresses of recent years. If you don't already know them, these scenes should convince you to get to know them better.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260120083200 +0100" stop="20260120091000 +0100">
@@ -26212,7 +26211,7 @@
   </programme>
   <programme channel="Nickelodeon.be" start="20260120151800 +0100" stop="20260120153100 +0100">
     <title lang="fr">Bob l'éponge - S07E19</title>
-    <desc lang="fr">Bob, Patrick et Carlo se font accidentellement enfermer dans la première capsule à voyager dans le temps de Bikini Bottom.</desc>
+    <desc lang="fr">Plankton voyage deux mille ans dans le futur et fait des rencontres quelque peu étranges.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Nickelodeon.be" start="20260120153100 +0100" stop="20260120155500 +0100">
@@ -26652,7 +26651,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260120112800 +0100" stop="20260120114000 +0100">
     <title lang="fr">Ruben &amp; Cie - S02E08</title>
-    <desc lang="fr">Pour l'anniversaire de Charlie, les chiens organisent une fête surprise au musée des dinosaures.</desc>
+    <desc lang="fr">Ruben et sa famille de bâtisseurs continuent à développer et embellir la charmante cité de Bricoville, pour le plus grand plaisir de ses habitants. Rien ne semble difficile pour eux : bâtir une gare pour accueillir la vache Meuline, aménager un parcours de lapinouball pour divertir une colonie de lapins ou construire des montagnes russes très hautes et hyper solides. Mais Madame Greatway, la maire, les appelle également souvent à la rescousse pour empêcher Maître Rapido et son acolyte Canardito de nuire…</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260120114000 +0100" stop="20260120120300 +0100">
@@ -26667,7 +26666,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260120122500 +0100" stop="20260120123800 +0100">
     <title lang="fr">Paw Patrol, la Pat'Patrouille - S04E17</title>
-    <desc lang="fr">Everest, les Turbot et la pierre de l'espace sont piégés dans une grotte.</desc>
+    <desc lang="fr">Quand les habitants de la Grande Vallée ont des problèmes, ils peuvent compter sur Ryder, un garçon de dix ans, et sa Pat'Patrouille. Composée de Marcus, Zuma, Rocky, Chase, Ruben et Stella, des chiens aux qualités et compétences diverses, cette patrouille intervient pour aider et sauver les personnes en difficulté. Extraite de la série à succès, cette compilation de courts métrages reprend tout l'univers de la Pat'Patrouille pour le plus grand bonheur des petits.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260120123800 +0100" stop="20260120130000 +0100">
@@ -26717,7 +26716,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260120154700 +0100" stop="20260120160000 +0100">
     <title lang="fr">Ruben &amp; Cie - S01E13</title>
-    <desc lang="fr">Omar, le responsable du courrier, se blesse à la jambe. Les chiens lui construisent des rampes pour qu'il livre le courrier.</desc>
+    <desc lang="fr">Ruben et sa famille de bricoleurs emménagent à Bricoville et aident les habitants à construire tout ce dont ils ont besoin, en leur offrant un supplément de joie et de bonne humeur. Ruben l'adorable bulldog anglais de la "Pat' Patrouille", doué d'une force exceptionnelle et pour tout ce qui touche à la construction, est au centre de ce spin-of qui devrait réjouir les plus jeunes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260120160000 +0100" stop="20260120160700 +0100">
@@ -27460,7 +27459,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260120073600 +0100" stop="20260120074500 +0100">
     <title lang="fr">Sam le pompier - S10E05</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260120074500 +0100" stop="20260120080000 +0100">
@@ -27540,7 +27539,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260120111500 +0100" stop="20260120113000 +0100">
     <title lang="fr">1 2 3 cuisine</title>
-    <desc lang="fr">Deux enfants réalisent une recette en trois étapes clés, autour d'un ingrédient phare sous le regard bienveillant de Louise Denisot.</desc>
+    <desc lang="fr">Deux enfants réalisent une recette appétissante à chaque émission, et cuisinent avec talent une entrée, un plat ou un dessert qui plaira aux petits comme aux grands. Louise Denisot leur fournit des astuces culinaires et anti-gaspillage, ainsi que des informations sur les aliments et la nutrition.</desc>
     <category lang="fr">Magazine / Magazine jeunesse</category>
   </programme>
   <programme channel="PIWI.fr" start="20260120113000 +0100" stop="20260120114000 +0100">
@@ -27710,12 +27709,12 @@
   </programme>
   <programme channel="PIWI.fr" start="20260120173100 +0100" stop="20260120174100 +0100">
     <title lang="fr">Sam le pompier - S10E21</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260120174100 +0100" stop="20260120175100 +0100">
     <title lang="fr">Sam le pompier - S10E22</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260120175100 +0100" stop="20260120180100 +0100">
@@ -29924,7 +29923,7 @@
     <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="RTLNitroTV.de" start="20260120000500 +0100" stop="20260120005500 +0100">
-    <title lang="fr">Medical Detectives - S01E140</title>
+    <title lang="fr">Medical Detectives - S03E06</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
@@ -31006,12 +31005,12 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260120074000 +0100" stop="20260120075000 +0100">
     <title lang="fr">Ruben &amp; Cie - S01E12</title>
-    <desc lang="fr">Les chiens sont fous de joie lorsque le célèbre bricoleur Loïc Lapointe se rend sur leur chantier.</desc>
+    <desc lang="fr">Ruben et sa famille de bricoleurs emménagent à Bricoville et aident les habitants à construire tout ce dont ils ont besoin, en leur offrant un supplément de joie et de bonne humeur. Ruben l'adorable bulldog anglais de la "Pat' Patrouille", doué d'une force exceptionnelle et pour tout ce qui touche à la construction, est au centre de ce spin-of qui devrait réjouir les plus jeunes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260120075000 +0100" stop="20260120080000 +0100">
     <title lang="fr">Ruben &amp; Cie - S01E12</title>
-    <desc lang="fr">L'équipe doit construire un phare pour aider le Capitaine Turbot à rejoindre Bricoville.</desc>
+    <desc lang="fr">Ruben et sa famille de bricoleurs emménagent à Bricoville et aident les habitants à construire tout ce dont ils ont besoin, en leur offrant un supplément de joie et de bonne humeur. Ruben l'adorable bulldog anglais de la "Pat' Patrouille", doué d'une force exceptionnelle et pour tout ce qui touche à la construction, est au centre de ce spin-of qui devrait réjouir les plus jeunes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260120080000 +0100" stop="20260120080500 +0100">
@@ -31066,7 +31065,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260120091500 +0100" stop="20260120092500 +0100">
     <title lang="fr">Paw Patrol, la Pat'Patrouille</title>
-    <desc lang="fr">Les chatons qui sèment la pagaille prennent un bain de shampoing volumateur et s'envolent dans le ciel.</desc>
+    <desc lang="fr">Quand les habitants de la Grande Vallée ont des problèmes, ils peuvent compter sur Ryder, un garçon de dix ans, et sa Pat'Patrouille. Composée de Marcus, Zuma, Rocky, Chase, Ruben et Stella, des chiens aux qualités et compétences diverses, cette patrouille intervient pour aider et sauver les personnes en difficulté. Extraite de la série à succès, cette compilation de courts métrages reprend tout l'univers de la Pat'Patrouille pour le plus grand bonheur des petits.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260120092500 +0100" stop="20260120093500 +0100">
@@ -31201,7 +31200,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260120150500 +0100" stop="20260120152500 +0100">
     <title lang="fr">Tom et Jerry à New York - S01E01</title>
-    <desc lang="fr">Tom repère une jolie bague dans un jeu de pêche au trésor et veut l'offrir à Toodles mais Jerry fait tour pour lui mettre de bâtons dans les roues. / Jerry se lie d'amitié avec un pigeon maladroit qui ne sait pas voler et se fait fort d'apprendre à celui-ci à se servir de ses ailes. / La guerre des chewing-gums fait rage entre Tom et Jerry et seul le plus mâcheurs des deux l'emportera ! / Pour se gagner les faveurs du public du zoo, Tom s'occupe d'un tout jeune bébé panda mais celui-ci prend la poudre d'escampette.</desc>
+    <desc lang="fr">Tom et Jerry débarquent à New York et s'installent dans leurs nouveaux locaux du Royal Gate Hotel. Ils déclenchent la pagaille dans la "grosse pomme", provoquant un chaos partout où leurs escapades les mènent.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260120152500 +0100" stop="20260120154000 +0100">
@@ -38431,6 +38430,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120060000 +0100" stop="20260120062000 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120062000 +0100" stop="20260120062200 +0100">
@@ -38439,6 +38439,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120062200 +0100" stop="20260120064700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120064700 +0100" stop="20260120064900 +0100">
@@ -38447,6 +38448,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120064900 +0100" stop="20260120071700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120071700 +0100" stop="20260120071900 +0100">
@@ -38455,6 +38457,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120071900 +0100" stop="20260120074700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120074700 +0100" stop="20260120074900 +0100">
@@ -38463,6 +38466,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120074900 +0100" stop="20260120081700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120081700 +0100" stop="20260120081900 +0100">
@@ -38471,6 +38475,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120081900 +0100" stop="20260120084700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120084700 +0100" stop="20260120084900 +0100">
@@ -38479,6 +38484,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120084900 +0100" stop="20260120092000 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120092000 +0100" stop="20260120092200 +0100">
@@ -38487,6 +38493,7 @@
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120092200 +0100" stop="20260120100300 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="WeoPicardie.fr" start="20260120100300 +0100" stop="20260120101900 +0100">
@@ -39638,7 +39645,7 @@
   </programme>
   <programme channel="oqee.1044" start="20260120200200 +0100" stop="20260120224500 +0100">
     <title lang="fr">Level Up Vol.4</title>
-    <desc lang="fr">Ada Lapiedra, Mellany, Millie Morgan, Molly Little, Nicole Kitt et Stacy Cruz font partie des actrices les plus excitantes de ces dernières années. Si vous ne les connaissez pas encore, ces scènes devraient vous convaincre de faire plus ample connaissance.</desc>
+    <desc lang="fr">Ada Lapiedra, Mellany, Millie Morgan, Molly Little, Nicole Kitt and Stacy Cruz are among the most exciting actresses of recent years. If you don't already know them, these scenes should convince you to get to know them better.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="oqee.1044" start="20260120224500 +0100" stop="20260120233000 +0100">
@@ -48370,7 +48377,7 @@
   </programme>
   <programme channel="oqee.1224" start="20260120000000 +0100" stop="20260120003000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E26</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120003000 +0100" stop="20260120010000 +0100">
@@ -48395,12 +48402,12 @@
   </programme>
   <programme channel="oqee.1224" start="20260120033000 +0100" stop="20260120040000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E25</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120040000 +0100" stop="20260120043000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E26</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120043000 +0100" stop="20260120050000 +0100">
@@ -48415,12 +48422,12 @@
   </programme>
   <programme channel="oqee.1224" start="20260120063000 +0100" stop="20260120070000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E25</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120070000 +0100" stop="20260120073000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E26</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120073000 +0100" stop="20260120080000 +0100">
@@ -48435,12 +48442,12 @@
   </programme>
   <programme channel="oqee.1224" start="20260120083000 +0100" stop="20260120090000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E25</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120090000 +0100" stop="20260120093000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E26</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120093000 +0100" stop="20260120100000 +0100">
@@ -48465,12 +48472,12 @@
   </programme>
   <programme channel="oqee.1224" start="20260120123000 +0100" stop="20260120130000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E25</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120130000 +0100" stop="20260120133000 +0100">
     <title lang="fr">Zeydi le fils du khalife - S01E26</title>
-    <desc lang="fr">Zeydi, le fils d'un important dignitaire musulman, voit sa réputation entachée après des accusations de trafic de drogue et de participation à des réseaux criminels. Mis au ban de sa famille et jeté en prison, Zeydi semble ne plus être maître de son destin. Mais lors de son séjour derrière les barreaux, il va faire une rencontre déterminante.</desc>
+    <desc lang="fr">Le parcours de Zeydi, jeune homme de bonne famille dont le destin va basculer lors d'un séjour en prison après de graves accusations de trafic de drogue.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1224" start="20260120133000 +0100" stop="20260120140000 +0100">
@@ -59959,6 +59966,50 @@
     <desc lang="fr">"Hava-Yol-Para Durumu", izleyicinin günlük planlamasını kolaylaştırmak için tasarlanmış kapsamlı bir bilgi programıdır. Program; günün hava durumu tahminlerini, şehir içi ve şehirlerarası yol ve trafik bilgisini, ayrıca ekonomi ve finans piyasalarındaki son gelişmeleri tek bir ekranda buluşturur. Meteorolojik verilerle günün sıcaklık, yağış ve rüzgâr durumları aktarılırken; kara, hava ve deniz ulaşımındaki güncel hareketlilik ve yol durumu detaylı şekilde paylaşılır. Program, aynı zamanda döviz kurları, altın fiyatları, borsa verileri ve ekonomik göstergelerdeki değişimleri sade ve anlaşılır bir dille izleyiciye sunar.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.484" start="20260120011500 +0100" stop="20260120025500 +0100">
+    <title lang="fr">Min ajli ibni</title>
+    <desc lang="fr">Poyraz Karel, un policier qui lutte contre la contrebande se retrouve piéger et accuser à tort d'un crime qu'il n'a pas commis. Il se retrouve en prison pendant un an et perd la garde de son fils. Sans emploi et ne pouvant récupérer son fils, il devient chauffeur de taxi, tout en suivant le boss de la plus grande mafia turque, et en informant son ancien chef de ces agissements. Un jour, il sauve la vie de ce gangster, qui lui propose d'intégrer son organisation, ce qu'il accepte tout en continuant de transmettre toutes les informations à son ancien supérieur dans la police.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120025500 +0100" stop="20260120050000 +0100">
+    <title lang="fr">Üç Kız Kardeş</title>
+    <desc lang="fr">Türkan, Dönüş ve Derya... Biri güzelliği, biri uysallığı, diğeri de asiliğiyle dillere destan, birbirlerine delicesine bağlı üç kız kardeş... Yaşıtları gibi basit hayaller kurarken ne geçmişlerindeki gölge onların peşini bırakacak, ne de talihleri onlardan yana olacaktır.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120050000 +0100" stop="20260120070000 +0100">
+    <title lang="fr">Küçük Ağa</title>
+    <desc lang="fr">Anne ve babasının boşanma kararından çok etkilenen ve binbir türlü yaramazlığı yapma potansiyelinin yüksek olduğu, 6 yaşındaki Mehmet Can, anne ve babasının ayrılmaması için elinden geleni yapar. Evde, okulda ve mahallede onca yaramazlık, anne ve babasını tekrar bir araya getirmek için çare olmamıştır. Bu evlilikten pek de hoşnut olmayan, ayrı kültürlere ait aile büyüklerini işin içine karıştırır.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120070000 +0100" stop="20260120090000 +0100">
+    <title lang="fr">Neler Oluyor Hayatta?</title>
+    <desc lang="fr">Kanal D'nin sevilen sabah programı 'Neler Oluyor Hayatta' güncel konuları, özel konukları ve röportajlarıyla izleyiciyle buluşuyor. Hakan Ural ile Ferda Yıldırım'ın hazırladığı Neler Oluyor Hayatta, yeni sezonda da fark yaratmaya devam ediyor. Hafta içi her gün 09.00'da canlı yayında ekrana gelen programda birbirinden ilginç konular masaya yatırılıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120090000 +0100" stop="20260120120000 +0100">
+    <title lang="fr">Yaprak Dökümü</title>
+    <desc lang="fr">Bütün hayatını beş çocuğuna iyi fikirler ve temiz ahlak vermeye adayan Ali Rıza Bey, bir haksızlığa göz yumması istenince kaymakamlık görevinden istifa eder. Kızı Necla da İstanbul'da üniversiteyi kazanınca, ailece İstanbul'a yerleşmeye karar verirler ve olaylar gelişir.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120120000 +0100" stop="20260120143000 +0100">
+    <title lang="fr">Gelinim Mutfakta</title>
+    <desc lang="fr">Gelinler yarışıyor, kayınvalideler puanlıyor! Hangi yemek, hangi gelinin? Kimse bilmiyor! Bu yarışmada kendini elemekte var, birinci yapmakta! Eğlenceyi ve muhteşem yemek tariflerini kaçırma!</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120143000 +0100" stop="20260120161500 +0100">
+    <title lang="fr">Arka Sokaklar</title>
+    <desc lang="fr">Polislerimizin ve ailelerinin hayatları ile İstanbul sokaklarının serüveni iç içe geçecek, kahramanlarımız; sevinçte, kederde, aşkta ve yalnızlıkta her zaman birbirlerinin yanında olacaklar...</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120161500 +0100" stop="20260120170000 +0100">
+    <title lang="fr">Sıcak Gelişme</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.484" start="20260120170000 +0100" stop="20260121004000 +0100">
+    <title lang="fr">Kanal D Ana Haber</title>
+    <desc lang="fr">Dünyada ve Türkiye'de yaşanan son dakika gelişmeleri, siyaset ve ekonomi haberleri,gündem belirleyen özel haberler Merve Dinçkol'un sunumu ile 29 Temmuz Pazartesi'denitibaren hafta içi her gün saat 19.00'da ekrana gelecek. Merve Dinçkol, gündemin önemli notlarını ve sıcak gelişmelerini Kanal D Ana Haber ileizleyicilere aktaracak.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.485" start="20260120010000 +0100" stop="20260120030000 +0100">
     <title lang="fr">Açlık Oyunları: Alaycı Kuş 2</title>
     <category lang="fr">Film / Film de science-fiction</category>
@@ -65574,64 +65625,64 @@
     <desc lang="fr">Traditional techniques and resourceful recipes! Chefs Saito and Rika, present their unique approaches to cooking delicious Japanese food.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
-  <programme channel="oqee.690" start="20260120000000 +0100" stop="20260120010000 +0100">
+  <programme channel="oqee.690" start="20260120003000 +0100" stop="20260120010000 +0100">
+    <title lang="fr">Savdhaan India - India Fights Back</title>
+    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.690" start="20260120010000 +0100" stop="20260120013000 +0100">
+    <title lang="fr">Savdhaan India - India Fights Back</title>
+    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.690" start="20260120013000 +0100" stop="20260120023000 +0100">
+    <title lang="fr">Savdhaan India - India Fights Back</title>
+    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.690" start="20260120023000 +0100" stop="20260120033000 +0100">
+    <title lang="fr">Savdhaan India - F.I.R.</title>
+    <desc lang="fr">Blood is spilt when a group of goons in clown masks attack a young couple with sickles and hatchets. What will the police uncover as they follow this gruesome trail?</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.690" start="20260120033000 +0100" stop="20260120043000 +0100">
     <title lang="fr">Savdhaan India - Naya Adhyay</title>
-    <desc lang="fr">Savdhaan India returns with a new thrilling season of modern day crime showcasing upgraded criminals who are using all the tricks of trade, technology and otherwise.</desc>
+    <desc lang="fr">The podcast examines real-life crime stories in India and highlights the victims' fight for justice.</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
-  <programme channel="oqee.690" start="20260120010000 +0100" stop="20260120020000 +0100">
+  <programme channel="oqee.690" start="20260120043000 +0100" stop="20260120053000 +0100">
     <title lang="fr">Savdhaan India - India Fights Back</title>
     <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
-  <programme channel="oqee.690" start="20260120020000 +0100" stop="20260120030000 +0100">
+  <programme channel="oqee.690" start="20260120053000 +0100" stop="20260120063000 +0100">
     <title lang="fr">Savdhaan India - India Fights Back</title>
     <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
     <category lang="fr">Série / Série policière</category>
-  </programme>
-  <programme channel="oqee.690" start="20260120030000 +0100" stop="20260120040000 +0100">
-    <title lang="fr">Savdhaan India - India Fights Back</title>
-    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
-    <category lang="fr">Série / Série policière</category>
-  </programme>
-  <programme channel="oqee.690" start="20260120040000 +0100" stop="20260120050000 +0100">
-    <title lang="fr">Savdhaan India - India Fights Back</title>
-    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
-    <category lang="fr">Série / Série policière</category>
-  </programme>
-  <programme channel="oqee.690" start="20260120050000 +0100" stop="20260120060000 +0100">
-    <title lang="fr">Savdhaan India - India Fights Back</title>
-    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
-    <category lang="fr">Série / Série policière</category>
-  </programme>
-  <programme channel="oqee.690" start="20260120060000 +0100" stop="20260120063000 +0100">
-    <title lang="fr">Ajeeb Daastaan Hai Ye</title>
-    <desc lang="fr">Shobha is shattered when her politician-husband is caught in a scandal. As she rediscovers her life, she finds an unlikely friend in her boss, Vikram.</desc>
-    <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120063000 +0100" stop="20260120070000 +0100">
     <title lang="fr">Radhakrishn</title>
-    <desc lang="fr">Ayan makes fun of Balram as a dancer; Balram takes his revenge, as she starts beating Ayan and his friends. Krishna agrees on stopping Balram keeping a big condition in-front of Radha.</desc>
+    <desc lang="fr">Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120070000 +0100" stop="20260120080000 +0100">
     <title lang="fr">Devon Ke Dev...Mahadev</title>
-    <desc lang="fr">Shiv tells Parvati that their son will be born from their energies. Agni dev takes the energy away and gives it over to Ganga. The energies get transformed as one individual, Kartikeya.</desc>
+    <desc lang="fr">Mahadev appears in front of Ravana and tells him that he has placed the Shivling on the earth and now it will stay there for eternity. At Kailash, everyone gets happy seeing Mahadev.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120080000 +0100" stop="20260120090000 +0100">
-    <title lang="fr">Savdhaan India - Naya Adhyay</title>
-    <desc lang="fr">Savdhaan India returns with a new thrilling season of modern day crime showcasing upgraded criminals who are using all the tricks of trade, technology and otherwise.</desc>
-    <category lang="fr">Série / Série policière</category>
+    <title lang="fr">Aloukik Na Loukik</title>
+    <desc lang="fr">Five friends set out to unmask the villainy of con-men, who exploit the innocent and the vulnerable in the name of faith and superstitions.</desc>
+    <category lang="fr">Série / Série de suspense</category>
   </programme>
   <programme channel="oqee.690" start="20260120090000 +0100" stop="20260120100000 +0100">
     <title lang="fr">Savdhaan India - Naya Adhyay</title>
-    <desc lang="fr">Savdhaan India returns with a new thrilling season of modern day crime showcasing upgraded criminals who are using all the tricks of trade, technology and otherwise.</desc>
+    <desc lang="fr">The show deals with real-life crimes stories of murder, kidnapping, domestic violence, fraud, robbery, forgery, rape, sexual assault and other crimes.</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="oqee.690" start="20260120100000 +0100" stop="20260120103000 +0100">
     <title lang="fr">Radhakrishn</title>
-    <desc lang="fr">Ayan makes fun of Balram as a dancer; Balram takes his revenge, as she starts beating Ayan and his friends. Krishna agrees on stopping Balram keeping a big condition in-front of Radha.</desc>
+    <desc lang="fr">Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120103000 +0100" stop="20260120110000 +0100">
@@ -65641,12 +65692,12 @@
   </programme>
   <programme channel="oqee.690" start="20260120110000 +0100" stop="20260120120000 +0100">
     <title lang="fr">Devon Ke Dev...Mahadev</title>
-    <desc lang="fr">Shiv tells Parvati that their son will be born from their energies. Agni dev takes the energy away and gives it over to Ganga. The energies get transformed as one individual, Kartikeya.</desc>
+    <desc lang="fr">Mahadev appears in front of Ravana and tells him that he has placed the Shivling on the earth and now it will stay there for eternity. At Kailash, everyone gets happy seeing Mahadev.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120120000 +0100" stop="20260120123000 +0100">
     <title lang="fr">Radhakrishn</title>
-    <desc lang="fr">Ayan makes fun of Balram as a dancer; Balram takes his revenge, as she starts beating Ayan and his friends. Krishna agrees on stopping Balram keeping a big condition in-front of Radha.</desc>
+    <desc lang="fr">Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120123000 +0100" stop="20260120130000 +0100">
@@ -65655,13 +65706,13 @@
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120130000 +0100" stop="20260120140000 +0100">
-    <title lang="fr">Savdhaan India - India Fights Back</title>
-    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
-    <category lang="fr">Série / Série policière</category>
+    <title lang="fr">Aloukik Na Loukik</title>
+    <desc lang="fr">Five friends set out to unmask the villainy of con-men, who exploit the innocent and the vulnerable in the name of faith and superstitions.</desc>
+    <category lang="fr">Série / Série de suspense</category>
   </programme>
   <programme channel="oqee.690" start="20260120140000 +0100" stop="20260120143000 +0100">
-    <title lang="fr">Cook Smart</title>
-    <desc lang="fr">This show will teach you easy and healthy recipes cooked in a smart way. Master Chef Sanjeev Kapoor will help you give up on unhealthy food and make you to fall in love with your kitchen.</desc>
+    <title lang="fr">Sweet Desire</title>
+    <desc lang="fr">Tantalize your taste buds with some sweet preparations. Now it's easy to prepare the best of sweet dishes at your own home, only on Sweet Desire.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="oqee.690" start="20260120143000 +0100" stop="20260120153000 +0100">
@@ -65676,27 +65727,32 @@
   </programme>
   <programme channel="oqee.690" start="20260120160000 +0100" stop="20260120163000 +0100">
     <title lang="fr">Radhakrishn</title>
-    <desc lang="fr">Ayan makes fun of Balram as a dancer; Balram takes his revenge, as she starts beating Ayan and his friends. Krishna agrees on stopping Balram keeping a big condition in-front of Radha.</desc>
+    <desc lang="fr">Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120163000 +0100" stop="20260120173000 +0100">
     <title lang="fr">Devon Ke Dev...Mahadev</title>
-    <desc lang="fr">Shiv tells Parvati that their son will be born from their energies. Agni dev takes the energy away and gives it over to Ganga. The energies get transformed as one individual, Kartikeya.</desc>
+    <desc lang="fr">Mahadev appears in front of Ravana and tells him that he has placed the Shivling on the earth and now it will stay there for eternity. At Kailash, everyone gets happy seeing Mahadev.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120173000 +0100" stop="20260120183000 +0100">
     <title lang="fr">Savdhaan India - Naya Adhyay</title>
-    <desc lang="fr">Savdhaan India returns with a new thrilling season of modern day crime showcasing upgraded criminals who are using all the tricks of trade, technology and otherwise.</desc>
-    <category lang="fr">Série / Série policière</category>
-  </programme>
-  <programme channel="oqee.690" start="20260120183000 +0100" stop="20260120193000 +0100">
-    <title lang="fr">Savdhaan India - India Fights Back</title>
     <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="oqee.690" start="20260120183000 +0100" stop="20260120190000 +0100">
+    <title lang="fr">Ajeeb Daastaan Hai Ye</title>
+    <desc lang="fr">Shobha is shattered when her politician-husband is caught in a scandal. As she rediscovers her life, she finds an unlikely friend in her boss, Vikram.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.690" start="20260120190000 +0100" stop="20260120193000 +0100">
+    <title lang="fr">Chef's Special</title>
+    <desc lang="fr">Talented and renowned chefs share some of the most delicious and unique food recipes to the viewers from their respective homes.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
   <programme channel="oqee.690" start="20260120193000 +0100" stop="20260120200000 +0100">
-    <title lang="fr">Cook Smart</title>
-    <desc lang="fr">This show will teach you easy and healthy recipes cooked in a smart way. Master Chef Sanjeev Kapoor will help you give up on unhealthy food and make you to fall in love with your kitchen.</desc>
+    <title lang="fr">Sweet Desire</title>
+    <desc lang="fr">Tantalize your taste buds with some sweet preparations. Now it's easy to prepare the best of sweet dishes at your own home, only on Sweet Desire.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="oqee.690" start="20260120200000 +0100" stop="20260120203000 +0100">
@@ -65705,9 +65761,8 @@
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120203000 +0100" stop="20260120210000 +0100">
-    <title lang="fr">Ajeeb Daastaan Hai Ye</title>
-    <desc lang="fr">Shobha is shattered when her politician-husband is caught in a scandal. As she rediscovers her life, she finds an unlikely friend in her boss, Vikram.</desc>
-    <category lang="fr">Série / Série dramatique</category>
+    <title lang="fr">Kaccha Papad Pakka Papad</title>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.690" start="20260120210000 +0100" stop="20260120220000 +0100">
     <title lang="fr">Devon Ke Dev...Mahadev</title>
@@ -65715,11 +65770,16 @@
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.690" start="20260120220000 +0100" stop="20260120230000 +0100">
-    <title lang="fr">Savdhaan India - India Fights Back</title>
-    <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
-    <category lang="fr">Série / Série policière</category>
+    <title lang="fr">Aloukik Na Loukik</title>
+    <desc lang="fr">Five friends set out to unmask the villainy of con-men, who exploit the innocent and the vulnerable in the name of faith and superstitions.</desc>
+    <category lang="fr">Série / Série de suspense</category>
   </programme>
-  <programme channel="oqee.690" start="20260120230000 +0100" stop="20260121000000 +0100">
+  <programme channel="oqee.690" start="20260120230000 +0100" stop="20260120233000 +0100">
+    <title lang="fr">Ajeeb Daastaan Hai Ye</title>
+    <desc lang="fr">Shobha is shattered when her politician-husband is caught in a scandal. As she rediscovers her life, she finds an unlikely friend in her boss, Vikram.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.690" start="20260120233000 +0100" stop="20260121003000 +0100">
     <title lang="fr">Savdhaan India - India Fights Back</title>
     <desc lang="fr">See shocking crime stories based on real life events. The show focuses on stories where justice was delivered.</desc>
     <category lang="fr">Série / Série policière</category>
@@ -67536,6 +67596,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120060000 +0100" stop="20260120062000 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120062000 +0100" stop="20260120062200 +0100">
@@ -67544,6 +67605,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120062200 +0100" stop="20260120064700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120064700 +0100" stop="20260120064900 +0100">
@@ -67552,6 +67614,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120064900 +0100" stop="20260120071700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120071700 +0100" stop="20260120071900 +0100">
@@ -67560,6 +67623,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120071900 +0100" stop="20260120074700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120074700 +0100" stop="20260120074900 +0100">
@@ -67568,6 +67632,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120074900 +0100" stop="20260120081700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120081700 +0100" stop="20260120081900 +0100">
@@ -67576,6 +67641,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120081900 +0100" stop="20260120084700 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120084700 +0100" stop="20260120084900 +0100">
@@ -67584,6 +67650,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120084900 +0100" stop="20260120092000 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120092000 +0100" stop="20260120092200 +0100">
@@ -67592,6 +67659,7 @@
   </programme>
   <programme channel="oqee.701" start="20260120092200 +0100" stop="20260120100300 +0100">
     <title lang="fr">Le Réveil du Grand Nord : La radio à la télé avec Contact FM</title>
+    <desc lang="fr">La radio à la télé avec CONTACT FM et L'Info 100 % Hauts-de-France.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.701" start="20260120100300 +0100" stop="20260120101900 +0100">
@@ -69848,7 +69916,7 @@
   </programme>
   <programme channel="oqee.842" start="20260120001500 +0100" stop="20260120005500 +0100">
     <title lang="fr">Spiegel TV</title>
-    <desc lang="fr">Seit vielen Jahren setzt "SPIEGEL TV" die Prinzipien des SPIEGEL-Journalismus im Fernsehen um: investigativ, authentisch, hintergründig, aktuell und emotional. Die Sendung "SPIEGEL TV" steht für spannenden Journalismus, der die gesellschaftliche Realität emotional und nicht inszeniert zeigt. Meist mit mehreren Beiträgen pro Sendung, werden die Themen der Woche aktuell umgesetzt. Dabei ist das Spektrum bewusst breit angelegt.</desc>
+    <desc lang="fr">Eine spektakuläre Polizeiaktion in Berlin führt zur Festnahme von drei Männern aus Nordafrika, die einem ahnungslosen Mann eine Luxusuhr im Wert von 360.000 Euro gestohlen hatten. Die Hehler kommen aus Italien und die Urteile wurden nun gesprochen. Zudem wird der Hass radikaler Christen thematisiert, die gegen Andersdenkende hetzen und sich als Influencer oder in radikalen Freikirchen betätigen.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.842" start="20260120005500 +0100" stop="20260120014000 +0100">
@@ -69878,7 +69946,7 @@
   </programme>
   <programme channel="oqee.842" start="20260120044000 +0100" stop="20260120052000 +0100">
     <title lang="fr">Spiegel TV</title>
-    <desc lang="fr">Seit vielen Jahren setzt "SPIEGEL TV" die Prinzipien des SPIEGEL-Journalismus im Fernsehen um: investigativ, authentisch, hintergründig, aktuell und emotional. Die Sendung "SPIEGEL TV" steht für spannenden Journalismus, der die gesellschaftliche Realität emotional und nicht inszeniert zeigt. Meist mit mehreren Beiträgen pro Sendung, werden die Themen der Woche aktuell umgesetzt. Dabei ist das Spektrum bewusst breit angelegt.</desc>
+    <desc lang="fr">Eine spektakuläre Polizeiaktion in Berlin führt zur Festnahme von drei Männern aus Nordafrika, die einem ahnungslosen Mann eine Luxusuhr im Wert von 360.000 Euro gestohlen hatten. Die Hehler kommen aus Italien und die Urteile wurden nun gesprochen. Zudem wird der Hass radikaler Christen thematisiert, die gegen Andersdenkende hetzen und sich als Influencer oder in radikalen Freikirchen betätigen.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.842" start="20260120052000 +0100" stop="20260120060000 +0100">
