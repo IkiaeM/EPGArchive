@@ -24,6 +24,9 @@
     <display-name>3SAT</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/8/81/3sat_2019.svg"/>
   </channel>
+  <channel id="459282">
+    <display-name>Canal+ Polynésie</display-name>
+  </channel>
   <channel id="4Plus.ch">
     <display-name>4Plus.ch</display-name>
   </channel>
@@ -3061,6 +3064,10 @@
     <display-name>Fashion TV Secrets</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/3680/w256"/>
   </channel>
+  <channel id="oqee.1373">
+    <display-name>Films d'Action - Rakuten TV</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/3788/w256"/>
+  </channel>
   <channel id="oqee.1374">
     <display-name>Popcorn</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/3779/w256"/>
@@ -3072,6 +3079,22 @@
   <channel id="oqee.1381">
     <display-name>Newsmax</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/3727/w256"/>
+  </channel>
+  <channel id="oqee.1385">
+    <display-name>Top Films - Rakuten TV</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/3790/w256"/>
+  </channel>
+  <channel id="oqee.1386">
+    <display-name>Comédies - Rakuten TV</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/3791/w256"/>
+  </channel>
+  <channel id="oqee.1387">
+    <display-name>Films Romantiques - Rakuten TV</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/3796/w256"/>
+  </channel>
+  <channel id="oqee.1388">
+    <display-name>Crime - Rakuten TV</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/3794/w256"/>
   </channel>
   <channel id="oqee.1389">
     <display-name>LingoToons</display-name>
@@ -4502,6 +4525,28 @@
     <category lang="fr">Cinéma</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e00e59a4e034d88b.jpeg/640x360/quality/80/une-vie.jpg"/>
   </programme>
+  <programme channel="459282" start="20260130004900 +0000" stop="20260130011800 +0000">
+    <title lang="fr">Hot Ones</title>
+    <desc lang="fr">Monsieur Poulpe est à la table très épicée de Kyan Khojandi et découvre qu'on pouvait avoir les pores de la peau qui rotent : c'est ça l'effet Hot Ones !</desc>
+  </programme>
+  <programme channel="459282" start="20260130011800 +0000" stop="20260130024500 +0000">
+    <title lang="fr">Romain Ntamack, tu seras un homme mon fils</title>
+  </programme>
+  <programme channel="459282" start="20260130024500 +0000" stop="20260130034700 +0000">
+    <title lang="fr">Canal Champions Club</title>
+    <desc lang="fr">En Direct. En prélude des rencontres du jour, Hervé Mathoux et Laure Boulleau se chargent de présenter cette émission qui dévoile les dernières indiscrétions récoltées avant le coup d'envoi des hommes en noir. Placés au bord des pelouses dans les stades hôtes des matchs, les journalistes de la chaîne font vivre l'avant-match au plus près du feu de l'action. Les consultants experts en matière de ba</desc>
+  </programme>
+  <programme channel="459282" start="20260130034700 +0000" stop="20260130035400 +0000">
+    <title lang="fr">Zapsport 360</title>
+  </programme>
+  <programme channel="459282" start="20260130035400 +0000" stop="20260130040000 +0000">
+    <title lang="fr">Plateau avant-match UEFA</title>
+    <desc lang="fr">En Direct. Les dernières informations en direct des couloirs qui mènent à la pelouse et l'ambiance à quelques minutes du coup d'envoi des rencontres de coupes d'Europe UEFA.</desc>
+  </programme>
+  <programme channel="459282" start="20260130040000 +0000" stop="20260131000000 +0000">
+    <title lang="fr">Multiplex</title>
+    <desc lang="fr">En Direct.</desc>
+  </programme>
   <programme channel="4Plus.ch" start="20260130001500 +0100" stop="20260130023000 +0100">
     <title lang="fr">Kill Command - Die Zukunft ist unbesiegbar</title>
     <desc lang="fr">Eine Gruppe erfahrener Soldaten soll die Einsatzmöglichkeiten einer modernen Cyborg-Einheit testen.</desc>
@@ -4827,7 +4872,7 @@
   </programme>
   <programme channel="6ter.fr" start="20260130140000 +0100" stop="20260130142000 +0100">
     <title lang="fr">Notre belle famille - S04E11</title>
-    <desc lang="fr">Frank est persuadé que Carol va dorénavant consacrer tout son amour et son attention au bébé. Il l'emmène alors en week-end romantique dans un chalet en montagne, afin de restaurer leur complicité...</desc>
+    <desc lang="fr">Frank est persuadé que Carol va dorénavant consacrer tout son amour et son attention au bébé. Il l'emmène alors en week-end romantique dans un chalet en montagne.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="6ter.fr" start="20260130142000 +0100" stop="20260130144000 +0100">
@@ -21304,7 +21349,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="Boomerang.fr" start="20260130211000 +0100" stop="20260130212000 +0100">
     <title lang="fr">Les as de la jungle à la rescousse - S01E50</title>
-    <desc lang="fr">Une gerbille vient demander de l'aide aux As car depuis plusieurs semaines elle a un hoquet monstrueux. Pas de problème, Maurice et les siens vont juste devoir lui faire peur.</desc>
+    <desc lang="fr">Les Lemmings ont mis en place un long enchainement de dominos dans la cabane, qui se termine par de gigantesques blocs de glace et une fusée à l'extérieur. Las de ne pas pouvoir trouver le calme qu'il espère, Grizzy sabote le parcours. La fusée percute un bloc de glace qui provoque, en tombant, un souffle détruisant la cabane. Grizzy met la main sur une machine pouvant sculpter la glace. Alors que l'ours rêve d'un igloo, les Lemmings ont d'autres projets…</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260130212000 +0100" stop="20260130213000 +0100">
@@ -41613,11 +41658,6 @@ Présentateur(s) : Camille Combal
     <desc lang="fr">Mère de trois jeunes enfants, deux fois divorcée, sans travail ni diplôme, Erin Brockovich ne peut compter que sur son énergie et son charme pour trouver le travail qui, enfin, renflouera son compte en banque désespérément vide. Pour l'heure, la malchance s'acharne sur elle. Blessée par un chauffard, Erin vient d'apprendre qu'elle ne touchera pas un sou de dédommagement. Cependant, pris de compassion, son avocat consent à l'engager dans son cabinet. Il lui confie le classement des archives. Alors qu'elle met de l'ordre dans les papiers, Erin tombe sur le dossier de la famille Jensen, dont une puissante compagnie d'électricité, la PG&amp;E, convoite le terrain. Erin comprend rapidement qu'elle vient de mettre la main sur une information qui pourrait bien lui brûler les doigts.</desc>
     <category lang="fr">Film / Comédie dramatique</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260130041900 +0100" stop="20260130061000 +0100">
-    <title lang="fr">Rosalie</title>
-    <desc lang="fr">Dans les années 1870, en France. Jeune femme a priori comme les autres, Rosalie cache en réalité un lourd secret. En effet, depuis sa naissance, son corps comme son visage sont recouverts de poils. Par crainte d'être rejetée par son entourage, elle s'impose de se raser pour dissimuler cette anomalie gênante. Un jour, Abel, un tenancier de bar pris à la gorge par ses dettes, accepte de l'épouser pour sa dot sans connaître son secret. Déterminée à révéler sa véritable image et à voir Abel l'aimer comme elle est, Rosalie veut saisir cette opportunité pour se libérer. Malgré les risques, elle décide alors de se laisser pousser la barbe...</desc>
-    <category lang="fr">Film / Drame</category>
-  </programme>
   <programme channel="CinePlusEmotion.fr" start="20260130061000 +0100" stop="20260130064100 +0100">
     <title lang="fr">Les rosiers grimpants</title>
     <desc lang="fr">Après un événement douloureux, Rosalie, jeune femme énergique d'une trentaine d'années, retourne dans son village natal du Jura...</desc>
@@ -45377,7 +45417,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="DisneyChannel.fr" start="20260130000000 +0100" stop="20260130002000 +0100">
     <title lang="fr">Phineas et Ferb - S01E08</title>
-    <desc lang="fr">Dans la petite ville de Danville, dans l'Etat américain de Virginie, Phineas et Ferb Fletcher, deux demi-frères, s'ennuient. Pour tromper leur désoeuvrement, ils se lancent dans des inventions plus abracadabrantes les unes que les autres. Leur grande soeur, Candice, observe leurs constructions avec circonspection.</desc>
+    <desc lang="fr">Isabella a le hoquet. Pour la guérir, Phinéas et Ferb décident de fabriquer la maison hantée la plus effrayante du monde. De son côté, Candice est confrontée à la petite sœur de Jeremy, véritable petite peste qui veut garder son frère rien que pour elle.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="DisneyChannel.fr" start="20260130002000 +0100" stop="20260130004000 +0100">
@@ -48172,7 +48212,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="DorcelTV.fr" start="20260130000200 +0100" stop="20260130023200 +0100">
     <title lang="fr">Hot Girls In Hot Cars</title>
-    <desc lang="fr">The most powerful girls in the industry require the most powerful sports cars on the market, and in Hot Girls In Hot Cars, our girls are ready to put the pedal to the metal and provide the ultimate combination of power and passion! Driving fast and riding hard; Eliz Benson celebrates Valentines Day with a very special gift, Ada Lapiedra celebrates an unforgettable first anniversary, Sireno Milano stars in a breathtaking photoshoot, and Misha Maver shows off her curves in a sexy car wash! Hot Girls In Hot Cars, buckle up for a wild ride!</desc>
+    <desc lang="fr">Eliz Benson, Ada Lapiedra, Sirena Milano and Misha Maver have two passions in common: sex and big cars. They won't regret taking part in this shoot.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTV.fr" start="20260130023200 +0100" stop="20260130042900 +0100">
@@ -50529,8 +50569,8 @@ Depuis qu’il s’est évanoui dans la nature, les enquêteurs ont reçu près 
   </programme>
   <programme channel="Eurosport1.fr" start="20260130043000 +0100" stop="20260130073000 +0100">
     <title lang="fr">Tennis : Open d'Australie</title>
-    <desc lang="fr">A suivre les matchs d'Open d'Australie, un des plus prestigieux tournois de tennis. L'Open d'Australie est organisé depuis 1905. Avec Roland-Garros, Wimbledon et l'US Open, l'Open d'Australie est l'un des quatre tournois du Grand Chelem. C'est le premier grand tournoi de la saison de tennis qui se joue chaque année en janvier et février à Melbourne. </desc>
-    <category lang="fr">Emission sportive / Tennis</category>
+    <desc lang="fr">A suivre les matchs d'Open d'Australie, un des plus prestigieux tournois de tennis. L'Open d'Australie est organisé depuis 1905. Avec Roland-Garros, Wimbledon et l'US Open, l'Open d'Australie est l'un des quatre tournois du Grand Chelem. C'est le premier grand tournoi de la saison de tennis qui se joue chaque année en janvier et février à Melbourne.</desc>
+    <category lang="fr">Tennis</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260130073000 +0100" stop="20260130080000 +0100">
     <title lang="fr">Eurosport Tennis Club</title>
@@ -54081,9 +54121,8 @@ Depuis qu’il s’est évanoui dans la nature, les enquêteurs ont reçu près 
   </programme>
   <programme channel="France3Bourgogne.fr" start="20260130052000 +0100" stop="20260130060100 +0100">
     <title lang="fr">Slam</title>
-    <desc lang="fr">Accessible à tous les publics, Slam est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118586599"/>
+    <desc lang="fr">Accessible à tous les publics, "Slam" est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Bourgogne.fr" start="20260130060100 +0100" stop="20260130063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -54285,9 +54324,8 @@ Depuis qu’il s’est évanoui dans la nature, les enquêteurs ont reçu près 
   </programme>
   <programme channel="France3Bretagne.fr" start="20260130052000 +0100" stop="20260130060100 +0100">
     <title lang="fr">Slam</title>
-    <desc lang="fr">Accessible à tous les publics, Slam est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118586599"/>
+    <desc lang="fr">Accessible à tous les publics, "Slam" est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3Bretagne.fr" start="20260130060100 +0100" stop="20260130063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -55346,9 +55384,8 @@ Depuis qu’il s’est évanoui dans la nature, les enquêteurs ont reçu près 
   </programme>
   <programme channel="France3FrancheComte.fr" start="20260130052000 +0100" stop="20260130060100 +0100">
     <title lang="fr">Slam</title>
-    <desc lang="fr">Accessible à tous les publics, Slam est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118586599"/>
+    <desc lang="fr">Accessible à tous les publics, "Slam" est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France3FrancheComte.fr" start="20260130060100 +0100" stop="20260130063000 +0100">
     <title lang="fr">Nos balades gourmandes</title>
@@ -56336,7 +56373,7 @@ Depuis qu’il s’est évanoui dans la nature, les enquêteurs ont reçu près 
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260130094400 +0100" stop="20260130101200 +0100">
     <title lang="fr">Mon côté sud</title>
-    <desc lang="fr">Une production 13 Prods et France Télévisions Réalisé par Romain Fiorucci Invité : Mathieu Madénian Et si on découvrait</desc>
+    <desc lang="fr">"Mon côté sud", c'est l'exploration d'une ville ou d'un village, guidée par une personnalité qui y habite et en partage les secrets avec Carole Gaessler.</desc>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260130101200 +0100" stop="20260130104000 +0100">
@@ -75866,7 +75903,7 @@ Année : 2023
   </programme>
   <programme channel="Museum.fr" start="20260130081400 +0100" stop="20260130084100 +0100">
     <title lang="fr">Sketchbook</title>
-    <desc lang="fr">Raphael Federici (street artist), Marine Goodmorning (illustrator), Luca Fiore (cartoonist) and Harry Boudchicha (drawing teacher) reveal their best drawing techniques. Each episode focuses on a specific subject: movement, oil painting, shadows, hair... For the first 10 minutes, each artist gives a theoretical lesson illustrated by sketches. Then they each start working on their creation. Finally, they end with a debrief, comparing and explaining their techniques</desc>
+    <desc lang="fr">Harry, Raphaël, Luca et Marine nous révèlent leurs meilleures techniques de dessins. Aujourd'hui, vous apprendrez à dessiner le nez.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Museum.fr" start="20260130084100 +0100" stop="20260130085600 +0100">
@@ -75994,7 +76031,7 @@ Année : 2023
   </programme>
   <programme channel="Museum.fr" start="20260130180200 +0100" stop="20260130185300 +0100">
     <title lang="fr">We Are Artists not Vandals - S01E05</title>
-    <desc lang="fr">Follow the artists that adorn the streets soil walls. Being in the right place at the right time. The formula often repeated in the speech Stew. At 36, Stew knows whereof he speaks. It took almost twenty years to make a name in the world of street art. From his first tag vandal to monumental fresco of 52 meters in Paris 13, he has come a long way.</desc>
+    <desc lang="fr">Être au bon endroit au bon moment. La formule revient souvent dans le discours de Stew. À 36 ans, Stew sait de quoi il parle. Il lui aura fallu près de vingt ans pour se faire un nom dans le milieu du street art. De son premier tag de vandale à la fresque monumentale de 52 mètres à Paris 13, il en a parcouru du chemin.</desc>
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="Museum.fr" start="20260130185300 +0100" stop="20260130190800 +0100">
@@ -76470,11 +76507,9 @@ Année : 2023
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="NT1.fr" start="20260130093000 +0100" stop="20260130093500 +0100">
-    <title lang="fr">Top Info</title>
+    <title lang="fr">Top Info - S02E30</title>
     <desc lang="fr">Top Info est un JT quotidien pensé pour les jeunes adultes. Chaque édition s'ouvrira sur trois temps forts de l'actualité, avant de se poursuivre avec un sujet de fond, incarné par de jeunes journalistes, pour approfondir une thématique. Une fois par semaine, cette séquence mettra l'accent sur la lutte contre la désinformation et l'éducation aux médias.</desc>
     <category lang="fr">Divers / Journal</category>
-    <episode-num>0.0.</episode-num>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/117848416"/>
   </programme>
   <programme channel="NT1.fr" start="20260130093500 +0100" stop="20260130100500 +0100">
     <title lang="fr">Le destin de Lisa - S01E172</title>
@@ -78799,7 +78834,7 @@ Année : 2023
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260130112800 +0100" stop="20260130114000 +0100">
     <title lang="fr">Ruben &amp; Cie - S02E14</title>
-    <desc lang="fr">Ruben et sa famille de bâtisseurs continuent à développer et embellir la charmante cité de Bricoville, pour le plus grand plaisir de ses habitants. Rien ne semble difficile pour eux : bâtir une gare pour accueillir la vache Meuline, aménager un parcours de lapinouball pour divertir une colonie de lapins ou construire des montagnes russes très hautes et hyper solides. Mais Madame Greatway, la maire, les appelle également souvent à la rescousse pour empêcher Maître Rapido et son acolyte Canardito de nuire…</desc>
+    <desc lang="fr">Maître Rapido vole le bus de Bricoville et les chiens doivent le récupérer avant le concert de Sierra Superstar. / Les chiens vont à la plage et construisent une tour de surveillance.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260130114000 +0100" stop="20260130120300 +0100">
@@ -87328,8 +87363,10 @@ Année : 2023
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
   <programme channel="RMCDecouverte.fr" start="20260130010800 +0100" stop="20260130065000 +0100">
-    <title lang="fr">Pause</title>
-    <category lang="fr">Divers / Autre</category>
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Aucune description</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50051/canal-ouah/GEN169/RMC_decouverte-TtxG"/>
   </programme>
   <programme channel="RMCDecouverte.fr" start="20260130065000 +0100" stop="20260130080000 +0100">
     <title lang="fr">Flic story - S02E28</title>
@@ -97669,7 +97706,7 @@ Acteurs : Rain, Kim Beom, Uie, Na-Eun Son (Oh Soo-Jung), Dong-il Sung (Oh Joo-My
   </programme>
   <programme channel="TF1.fr" start="20260130105500 +0100" stop="20260130114500 +0100">
     <title lang="fr">Les Feux de l'amour</title>
-    <desc lang="fr">La famille Abbott, installée à Genoa City, dans le Wisconsin, possède une immense fortune et une gigantesque entreprise. Les luttes de pouvoir, trahisons au sein même du clan sont monnaie courante. Leur ennemi de toujours, l'industriel Victor Newman, ne fait rien pour leur faciliter la tâche, bien au contraire. D'alliances en ruptures, les illusions de chacun se heurtent à l'hostilité, à la jalousie et à la haine des autres. Entre amour et pouvoir, le choix est souvent celui de la puissance. Un Soap Opera mondialement célèbre, produit et diffusé depuis plus de quarante ans aux Etats-Unis ! A ce jour, une trentaine de pays différents diffusent le feuilleton chaque jour, et c'est en France que le feuilleton réalise ses meilleures audiences, juste derrière les Etats-Unis.</desc>
+    <desc lang="fr">Episode du 30 janvier 2026 - Le soap américain numéro 1 qui propose chaque jour de suivre les rivalités, les amours, les espoirs et les craintes des habitants de Genoa City à travers la vie des familles Newman, Abbott, Baldwin et Winters.</desc>
     <category lang="fr">Feuilleton / Feuilleton sentimental</category>
   </programme>
   <programme channel="TF1.fr" start="20260130114500 +0100" stop="20260130115000 +0100">
@@ -97680,7 +97717,7 @@ Acteurs : Rain, Kim Beom, Uie, Na-Eun Son (Oh Soo-Jung), Dong-il Sung (Oh Joo-My
   </programme>
   <programme channel="TF1.fr" start="20260130115000 +0100" stop="20260130125500 +0100">
     <title lang="fr">Les douze coups de midi</title>
-    <desc lang="fr">Chaque jour, des candidats tentent de répondre à des questions ludiques et culturelles afin de gagner jusqu'à 30 000 euros. Mais ils devront avoir décroché la mystérieuse étoile aux cadeaux avant que ne retentissent Les 12 coups de midi.</desc>
+    <desc lang="fr">Emission du 30 janvier 2026 - Chaque jour, quatre candidats s'affrontent pour empocher les 30 000 euros de la cagnotte et décrocher l'étoile mystérieuse et ses cadeaux. Seule condition, bien répondre aux questions de culture générale posées par...</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="TF1.fr" start="20260130125500 +0100" stop="20260130130000 +0100">
@@ -97691,7 +97728,7 @@ Acteurs : Rain, Kim Beom, Uie, Na-Eun Son (Oh Soo-Jung), Dong-il Sung (Oh Joo-My
   </programme>
   <programme channel="TF1.fr" start="20260130130000 +0100" stop="20260130135000 +0100">
     <title lang="fr">JT 13h</title>
-    <desc lang="fr">Tous les jours, à 13h, la rédaction propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective.</desc>
+    <desc lang="fr">" JT 13h Semaine " du vendredi 30 janvier 2026. Du lundi au vendredi, la rédaction de TF1 propose "LE 13H" un rendez-vous d'information sur l'actualité régionale, nationale et internationale présenté par Marie-Sophie Lacarrau ou Isabelle Ithurburu, son joker. "LE 13H" met en valeur les régions de France depuis près de 50 ans à travers de nombreux reportages, documentaires et duplex.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20260130135000 +0100" stop="20260130135500 +0100">
@@ -97713,7 +97750,7 @@ Acteurs : Rain, Kim Beom, Uie, Na-Eun Son (Oh Soo-Jung), Dong-il Sung (Oh Joo-My
   </programme>
   <programme channel="TF1.fr" start="20260130142500 +0100" stop="20260130160000 +0100">
     <title lang="fr">Assassiné au pied de l'autel</title>
-    <desc lang="fr">Malorie et Jon sont sur le point de se marier. Aux tensions avec certains invités, on devine que cette union n'est pas évidente pour tout le monde. Au moment de prononcer le "oui" tant attendu, Jon est pris d'une violente quinte de toux. Il se met à cracher du sang et meurt sous les yeux de ses invités effarés...</desc>
+    <desc lang="fr">Malorie et Jon sont sur le point de se marier. Aux tensions avec certains invités, on devine que cette union n'est pas évidente pour tout le monde. Et au moment de dire "oui", Jon est pris d'une violente quinte de toux. Il finit par cracher du sang et meurt sous les yeux de ses invités. Commence alors une enquête qui oriente les soupçons vers Pamela, la mère de Malorie, puisque les enquêteurs retrouvent de la strychnine dans le tiroir de son bureau, le poison qui a tué Jon. Des doutes naissent également concernant l'ambitieuse Amy, petite amie de Zach, le cousin de Jon...</desc>
     <category lang="fr">Téléfilm / Téléfilm de suspense</category>
   </programme>
   <programme channel="TF1.fr" start="20260130160000 +0100" stop="20260130173000 +0100">
@@ -97742,7 +97779,7 @@ Acteurs : Rain, Kim Beom, Uie, Na-Eun Son (Oh Soo-Jung), Dong-il Sung (Oh Joo-My
   </programme>
   <programme channel="TF1.fr" start="20260130200000 +0100" stop="20260130204500 +0100">
     <title lang="fr">JT 20h</title>
-    <desc lang="fr">Le journal télévisé présente les faits marquants et les événements essentiels de l'actualité nationale et internationale, tout en mettant en valeur l'actualité régionale.</desc>
+    <desc lang="fr">" JT 20h WE " du vendredi 30 janvier 2026. Du vendredi au dimanche, la rédaction de TF1 propose "LE 20H" un rendez-vous d'information exposant avec clarté l'actualité française et internationale présentée par Anne-Claire Coudray ou Audrey Crespo-Mara, sa joker.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20260130204500 +0100" stop="20260130205000 +0100">
@@ -97757,8 +97794,8 @@ Acteurs : Rain, Kim Beom, Uie, Na-Eun Son (Oh Soo-Jung), Dong-il Sung (Oh Joo-My
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="TF1.fr" start="20260130210000 +0100" stop="20260130211000 +0100">
-    <title lang="fr">C'est Canteloup</title>
-    <desc lang="fr">Détournements d'images d'actualité, parodies, interviews décalées, Nicolas Canteloup propose une satire des faits marquants de la journée avec, pour signature, ses imitations des personnages qui font l'événement dans le monde de la politique, du spectacle et des médias.</desc>
+    <title lang="fr">C'est Canteloup - S13E2054</title>
+    <desc lang="fr">Emission du 30 janvier 2026 - Nicolas Canteloup et la journaliste Hélène Mannarino reviennent avec leur émission de décryptage et de parodie de l'actualité. Le duo propose un rendez-vous incontournable mêlant humour, dérision et insolence pour analyser l'information et la politique. Avec la participation des auteurs Laurent Vassilian et Arnaud Demanche.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
   <programme channel="TF1.fr" start="20260130211000 +0100" stop="20260130223000 +0100">
@@ -119874,7 +119911,6 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260130003000 +0100" stop="20260130023000 +0100">
     <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260130023000 +0100" stop="20260130033000 +0100">
@@ -119894,7 +119930,6 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260130040000 +0100" stop="20260130060000 +0100">
     <title lang="fr">Football : Ligue 2 BKT</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260130060000 +0100" stop="20260130070000 +0100">
@@ -120019,7 +120054,6 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260130100000 +0100" stop="20260130120000 +0100">
     <title lang="fr">Football : Ligue 2 BKT</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260130120000 +0100" stop="20260130140000 +0100">
@@ -125184,7 +125218,7 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="oqee.1085" start="20260130030000 +0100" stop="20260130070000 +0100">
     <title lang="fr">Can't Complain</title>
-    <desc lang="fr">Des triplés avec un seul certificat de naissance. Ils profitent de leur similitude pour devenir des escrocs mais les choses basculent lorsqu'ils font la connaissance d'une femme.</desc>
+    <desc lang="fr">Une mère donne naissance à des triplés et meurt. Elle les confie à un père escroc qui leur donne une seule identité sous le nom de Rida. En grandissant, ils deviennent compétents pour escroquer les gens en utilisant leur ressemblance, bien qu'ils aient des personnalités différentes.</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="oqee.1085" start="20260130070000 +0100" stop="20260130090000 +0100">
@@ -125264,7 +125298,7 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="oqee.1093" start="20260130063000 +0100" stop="20260130110000 +0100">
     <title lang="fr">Banat Thanawy</title>
-    <desc lang="fr">Cinq adolescentes sont confrontées à de nombreux dilemmes sociaux et psychologiques en raison des problèmes difficiles à gérer en l'absence d'un d'encadrement familial.</desc>
+    <desc lang="fr">Le film tourne autour de la période de l'adolescence, où cinq adolescentes sont à la recherche de leur identité et de leur personnalité, confrontées à de nombreux problèmes et difficultés au cours de leurs années de lycée.</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="oqee.1093" start="20260130110000 +0100" stop="20260130123000 +0100">
@@ -125278,7 +125312,7 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="oqee.1093" start="20260130140000 +0100" stop="20260130170000 +0100">
     <title lang="fr">Banat Thanawy</title>
-    <desc lang="fr">Cinq adolescentes sont confrontées à de nombreux dilemmes sociaux et psychologiques en raison des problèmes difficiles à gérer en l'absence d'un d'encadrement familial.</desc>
+    <desc lang="fr">Le film tourne autour de la période de l'adolescence, où cinq adolescentes sont à la recherche de leur identité et de leur personnalité, confrontées à de nombreux problèmes et difficultés au cours de leurs années de lycée.</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="oqee.1093" start="20260130170000 +0100" stop="20260130183000 +0100">
@@ -125297,7 +125331,7 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
   </programme>
   <programme channel="oqee.1093" start="20260130220000 +0100" stop="20260131000000 +0100">
     <title lang="fr">Gunshot</title>
-    <desc lang="fr">Des affrontements entre un groupe de manifestants et les forces de sécurité font beaucoup de morts. Le rapport d'autopsie sur un corps en particulier met en évidence des circonstances de décès différentes.</desc>
+    <desc lang="fr">Après l'un des affrontements entre un groupe de manifestants et les forces de sécurité, l'un des corps arrive à la morgue, et le médecin légiste (Yassin Al-Manesterly) rédige son rapport médical après avoir examiné le corps, indiquant que cette personne a été abattue à bout portant et non à distance comme les autres corps, mais les problèmes commencent lorsque ce rapport médical est divulgué aux médias.</desc>
     <category lang="fr">Film / Film policier</category>
   </programme>
   <programme channel="oqee.1099" start="20260130003000 +0100" stop="20260130012000 +0100">
@@ -133734,7 +133768,7 @@ Pour d'autres, Noël est un véritable casse-tête. Ils doivent concilier travai
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1250" start="20260130120000 +0100" stop="20260130124500 +0100">
-    <title lang="fr">Голодомор. Літописці. Частина 1</title>
+    <title lang="fr">Holodomor. Chrinals. Part 1</title>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.1250" start="20260130124500 +0100" stop="20260130140000 +0100">
@@ -139213,6 +139247,26 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.1373" start="20260130000548 +0100" stop="20260130015246 +0100">
+    <title lang="fr">Killing Salazar</title>
+    <desc lang="fr">Une équipe d'élite d'agents est chargée de protéger un dangereux baron de la drogue. Ils se réfugient dans un hôtel de luxe en attendant leur extraction. Ils se retrouvent bientôt au centre d'une embuscade alors que les anciens associés du baron de la drogue lancent un assaut explosif sur l'hôtel.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260130015247 +0100" stop="20260130034800 +0100">
+    <title lang="fr">Russian Raid</title>
+    <desc lang="fr">Nikita, ancien agent des forces spéciales russes, est missionné pour trouver une faille dans la sécurité d’une usine sur laquelle l’organisation secrète qui l’emploie veut mettre la main.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260130034801 +0100" stop="20260130052031 +0100">
+    <title lang="fr">Trigger point</title>
+    <desc lang="fr">Nicolas Shaw, un agent de la CIA à la retraite, souffrant de perte de mémoire, revient dans le monde de l'espionnage suite à la disparition mystérieuse d'une amie proche, ex-collègue.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260130052032 +0100" stop="20260130065819 +0100">
+    <title lang="fr">Zero Tolerance</title>
+    <desc lang="fr">Un ancien agent paramilitaire recherche les assassins de sa fille à Bangkok. Il fait un carnage pour se venger et se faire justice.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260130065820 +0100" stop="20260130065959 +0100">
+    <title lang="fr">Votre programme reprendra rapidement</title>
+    <desc lang="fr">Nous nous refaisons une beauté ! Restez à l'écoute pour d'autres divertissements inestimables sélectionnés par Rakuten TV.</desc>
+  </programme>
   <programme channel="oqee.1374" start="20260130020329 +0100" stop="20260130043235 +0100">
     <title lang="fr">Popcorn - S04E05</title>
     <desc lang="fr">Retrouvez Domingo et ses chroniqueurs pour deux heures d'actus, de discussion et de rigolade sur le monde d'internet et la pop culture.</desc>
@@ -139406,6 +139460,86 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   <programme channel="oqee.1381" start="20260130230000 +0100" stop="20260131000000 +0100">
     <title lang="fr">Ed Henry the Big Take</title>
     <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.1385" start="20260130012315 +0100" stop="20260130031414 +0100">
+    <title lang="fr">Le Monde de John</title>
+    <desc lang="fr">John, 13 ans, ressemble à tous les ados de son âge : élève moyen, il aime jouer aux jeux vidéo. En famille aussi, il se sent bien. Un jour, il découvre, par hasard, au fond de son jardin, un vieux bunker. Contre toute attente, il décide d'y enfermer sa soeur et ses parents après les avoir drogués.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260130031415 +0100" stop="20260130045306 +0100">
+    <title lang="fr">Impitoyable</title>
+    <desc lang="fr">Un entraîneur de lycée, dont la fille adolescente a été assassinée, prend les choses en main en poursuivant les hommes qui ont kidnappé son élève pour en faire un trafic d'êtres humains.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260130045307 +0100" stop="20260130062914 +0100">
+    <title lang="fr">Interrogation</title>
+    <desc lang="fr">Après que le FBI a reçu une alerte à la bombe, deux spécialistes du FBI (Copeland et Lana) sont plongés dans un jeu mortel, dans une course désespérée contre la montre pour découvrir les véritables intentions de leur adversaire, tout en luttant pour sauver leur ville.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260130062915 +0100" stop="20260130082805 +0100">
+    <title lang="fr">Golem, le tueur de Londres</title>
+    <desc lang="fr">Londres, 1880. Une série de meurtres secouent le quartier malfamé de Limehouse. Selon la rumeur, ces crimes ne peuvent avoir été perpétrés que par le Golem, une créature des légendes hébraïques d’Europe centrale.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260130003905 +0100" stop="20260130021519 +0100">
+    <title lang="fr">Apartment 12</title>
+    <desc lang="fr">Un artiste de Los Angeles voit sa vie basculer lorsque son exposition d'art est annulée et que sa petite-amie mannequin le quitte.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260130021520 +0100" stop="20260130035155 +0100">
+    <title lang="fr">Holy Shit !</title>
+    <desc lang="fr">L'architecte Frank se réveille d'un coma, écrasé dans une toilette portative. Mais ça empire : pour ne pas exploser lors de la démolition imminente, Frank doit sortir de sa tombe bleue en moins d'une heure.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260130035156 +0100" stop="20260130053223 +0100">
+    <title lang="fr">Bienvenue à Acapulco</title>
+    <desc lang="fr">Matt Booth, développeur de jeux vidéo, doit se rendre au Nouveau-Mexique pour la présentation qui doit sauver sa carrière. Après avoir bu quelques verres à l’aéroport, il embarque dans le mauvais avion et se retrouve alors à Acapulco au Mexique.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260130053224 +0100" stop="20260130070934 +0100">
+    <title lang="fr">Détestables Nous</title>
+    <desc lang="fr">Trois amis d'enfance organisent un complot afin de trouver une copine pour Barry, leur ami d'enfance insupportable, vulgaire et désagréable. Leur plan se retourne contre eux quand sa nouvelle petite amie se révèle tout aussi détestable que lui.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260130003511 +0100" stop="20260130024417 +0100">
+    <title lang="fr">Entre les jambes</title>
+    <desc lang="fr">Tout commence lors d’une réunion des sexopathes anonymes où Javier et Miranda se rencontrent. Javier, scénariste-producteur, avait un avenir brillant jusqu’au jour où il s’est livré à un jeu sexuel au téléphone qui a détruit son mariage et Miranda, animatrice d’une émission radio.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260130024418 +0100" stop="20260130042221 +0100">
+    <title lang="fr">Le merveilleux jardin secret de Bella Brown</title>
+    <desc lang="fr">Bella, jeune femme fantasque, risque l’expulsion si elle ne remet pas son jardin en état. Elle fait alors la rencontre d’Alfie, son voisin bougon et passionné de jardinage, qui va bouleverser sa vie.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260130042222 +0100" stop="20260130061327 +0100">
+    <title lang="fr">No Such Thing as Housewives</title>
+    <desc lang="fr">Géorgie, jeune femme ambitieuse qui essaye désespérément de tomber enceinte de son compagnon et d’évoluer dans sa société de publicité ; sa sœur ainée Margot, femme mariée et mère de trois enfants qui vient de perdre son poste de journaliste et leurs mère Lucy.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260130061328 +0100" stop="20260130080401 +0100">
+    <title lang="fr">Coup de Foudre à Oxford</title>
+    <desc lang="fr">Caro Drake, émotionnellement gardée, arrive à Oxford avec le seul objectif d'obtenir son doctorat, mais à travers une amitié turbulente avec un charmant jeune homme, Caro commence à s'ouvrir au mystère des nouvelles expériences, à la vulnérabilité et à l'amour.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130010017 +0100" stop="20260130020102 +0100">
+    <title lang="fr">Boss</title>
+    <desc lang="fr">Kane s’amourache sa nouvelle adjointe, Mona, et se laisse emporter par sa passion pour le projet HLM.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130020103 +0100" stop="20260130030452 +0100">
+    <title lang="fr">Boss</title>
+    <desc lang="fr">Kane s’amourache sa nouvelle adjointe, Mona, et se laisse emporter par sa passion pour le projet HLM.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130030453 +0100" stop="20260130035502 +0100">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le 28 septembre 2000, alors qu'il rentre chez lui après un entraînement de basket-ball, David Camm découvre dans le garage les corps ensanglantés de sa femme et de ses deux enfants. L'ancien policier d'État passe un appel d'urgence au 911.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130035503 +0100" stop="20260130044512 +0100">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le 28 septembre 2000, alors qu'il rentre chez lui après un entraînement de basket-ball, David Camm découvre dans le garage les corps ensanglantés de sa femme et de ses deux enfants. L'ancien policier d'État passe un appel d'urgence au 911.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130044513 +0100" stop="20260130051114 +0100">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Dans une ville de carte postale de la côte Est, une veuve de 80 ans est sauvagement assassinée lors d'un rituel macabre. Les preuves indiquent que le tueur lui a arraché le cœur et a bu son sang. </desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130051115 +0100" stop="20260130053716 +0100">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Dans une ville de carte postale de la côte Est, une veuve de 80 ans est sauvagement assassinée lors d'un rituel macabre. Les preuves indiquent que le tueur lui a arraché le cœur et a bu son sang. </desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130053717 +0100" stop="20260130062658 +0100">
+    <title lang="fr">The Dresden Files</title>
+    <desc lang="fr">Dresden se heurte au Conseil lorsqu'ils le soupçonnent d'être impliqué dans les morts d'un étudiant et d'un gangster du coin, qui ont succombé à de la magie noire.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260130062659 +0100" stop="20260130071624 +0100">
+    <title lang="fr">The Dresden Files</title>
+    <desc lang="fr">Dresden se heurte au Conseil lorsqu'ils le soupçonnent d'être impliqué dans les morts d'un étudiant et d'un gangster du coin, qui ont succombé à de la magie noire.</desc>
   </programme>
   <programme channel="oqee.1389" start="20260130002400 +0100" stop="20260130003000 +0100">
     <title lang="fr">Irregular Verbs</title>
@@ -142645,6 +142779,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.244" start="20260130070100 +0100" stop="20260130075500 +0100">
     <title lang="fr">Le Retour de Billy the Kid</title>
+    <desc lang="fr">Rogers joue le rôle d'un sosie du défunt Billy The Kid et rétablit la tranquillité du comté de Lincoln après avoir maîtrisé les éléments criminels.</desc>
     <category lang="fr">Film / Western</category>
   </programme>
   <programme channel="oqee.244" start="20260130075500 +0100" stop="20260130094900 +0100">
@@ -146714,7 +146849,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.353" start="20260130094200 +0100" stop="20260130101200 +0100">
     <title lang="fr">Mon côté sud</title>
-    <desc lang="fr">Une production 13 Prods et France Télévisions Réalisé par Romain Fiorucci Invité : Mathieu Madénian Et si on découvrait</desc>
+    <desc lang="fr">"Mon côté sud", c'est l'exploration d'une ville ou d'un village, guidée par une personnalité qui y habite et en partage les secrets avec Carole Gaessler.</desc>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="oqee.353" start="20260130101200 +0100" stop="20260130104000 +0100">
@@ -148732,7 +148867,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.405" start="20260130074500 +0100" stop="20260130080000 +0100">
     <title lang="fr">Kitapçı Dükkanı</title>
-    <desc lang="fr">İsmet Numanoğlu'nun anlatımıyla "Kitapçı Dükkanı" her cumartesi TRT TÜRK'te</desc>
+    <desc lang="fr">Kitapçı Dükkanı programında Türkiye'nin dört bir yanındaki kitapçı dükkanları ve sahafların büyülü dünyası gözler önüne seriliyor. Tozlu raflarda saklı nadir eserler, eski haritalar, el yazması kitaplar, unutulmuş yazarların imzalı nüshaları anlatılıyor. Kitapçıların günlük hayatı, müşterilerle kurulan bağlar, edebiyat sohbetleri, okuma tutkusu ve nostaljik anılar her bölümde işleniyor. Bu mekanlar sadece kitap satmıyor, kültür mirasını koruyor, yeni nesillere aktarıyor. Kitap kokusunun sardığı bu yolculukta hem geçmişe dönün, hem de edebiyatın gücünü hissedin. Kalbinize dokunsun, raflarınıza yeni dostlar eklesin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260130080000 +0100" stop="20260130083000 +0100">
@@ -148777,7 +148912,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.405" start="20260130115000 +0100" stop="20260130120000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260130120000 +0100" stop="20260130125000 +0100">
@@ -148787,7 +148922,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.405" start="20260130125000 +0100" stop="20260130130000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260130130000 +0100" stop="20260130140000 +0100">
@@ -148817,7 +148952,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.405" start="20260130164500 +0100" stop="20260130170000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260130170000 +0100" stop="20260130174500 +0100">
@@ -148827,7 +148962,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.405" start="20260130174500 +0100" stop="20260130180000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260130180000 +0100" stop="20260130190000 +0100">
@@ -148857,6 +148992,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.405" start="20260130221500 +0100" stop="20260130231500 +0100">
     <title lang="fr">Wolfgang Borchert'in Sesi</title>
+    <desc lang="fr">Wolfgang Borchert'in Sesi belgeselinde savaşın enkazı altında kalan bir neslin sesi olan yazarın trajik ve etkileyici hayatı gözler önüne seriliyor. 1921 doğumlu Borchert'in cephe deneyimi, yaralanması, kısa sürede tükenen ömrü, 1947'de ölümünden önce yazdığı öyküler, şiirler, Dış Kapının Mandalı gibi eserleri anlatılıyor. Yıkılmış şehirler, açlık, umutsuzluk, bireyin iç çığlığı, insanlık arayışı, savaş sonrası Almanya'nın ruh hali detaylıca işleniyor. Alıntılarla zenginleştirilen anlatım, dönemin fotoğrafları, ses kayıtları, edebiyat dünyasındaki etkisiyle derinlik kazanıyor. Bu yapım Borchert'in sessiz ama güçlü çığlığını duyursun, savaşın insan üzerindeki yıkımını hissettirsin, edebiyatın iyileştirici gücünü hatırlatsın.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.405" start="20260130231500 +0100" stop="20260130234000 +0100">

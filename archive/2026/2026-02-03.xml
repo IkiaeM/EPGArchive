@@ -672,6 +672,14 @@
     <display-name>TV5 Monde</display-name>
     <icon src="https://static.teleboy.ch/shared/stations/61/icon320_light.png?v2023_48_0"/>
   </channel>
+  <channel id="TV5MondeAsie.fr">
+    <display-name>TV5 Monde Asie</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
+  </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
+  </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXVw8Rje6lVtl5nTNZmZqy7eINTVEXGnYKl5O1re6DZ8OLRJcRauRGUpxJPA&amp;amp;s"/>
@@ -944,6 +952,10 @@
     <display-name>EroX</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2991/w256"/>
   </channel>
+  <channel id="oqee.1140">
+    <display-name>Puissance Télévision</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/2981/w256"/>
+  </channel>
   <channel id="oqee.1141">
     <display-name>Gametoon</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/3001/w256"/>
@@ -955,6 +967,10 @@
   <channel id="oqee.1150">
     <display-name>TGCOM24</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/3044/w256"/>
+  </channel>
+  <channel id="oqee.1152">
+    <display-name>Cannes Lérins TV</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/3054/w256"/>
   </channel>
   <channel id="oqee.1153">
     <display-name>Chada TV</display-name>
@@ -2171,7 +2187,7 @@
   </programme>
   <programme channel="6ter.fr" start="20260203151000 +0100" stop="20260203154000 +0100">
     <title lang="fr">Notre belle famille - S04E21</title>
-    <desc lang="fr">Cody offre des billets à son petit cousin Brendan, pour qu'il puisse aller voir son héros, le célèbre joueur de base-ball Kenny Barton...</desc>
+    <desc lang="fr">C'est l'effervescence : Cody offre des billets à son petit cousin Brendan, pour qu'il puisse aller voir son héros, le célèbre joueur de base-ball Kenny Barton.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="6ter.fr" start="20260203154000 +0100" stop="20260203160000 +0100">
@@ -5763,11 +5779,6 @@
     <desc lang="fr">Une compilation des meilleurs titres qui ont fait ou qui font l'actualité du rap et du hip hop.</desc>
     <category lang="fr">Divers / Clips</category>
   </programme>
-  <programme channel="CStar.ch" start="20260203050000 +0100" stop="20260203065200 +0100">
-    <title lang="fr">Top Clip</title>
-    <desc lang="fr">Dance, pop-rock, R'n'b, hip-hop, rap : «Top clip» offre une programmation éclectique des meilleurs clips du moment.</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
   <programme channel="CStar.ch" start="20260203065200 +0100" stop="20260203070000 +0100">
     <title lang="fr">L'éphéméride</title>
     <desc lang="fr">Une courte présentation de l'histoire du saint du jour qui se conclut par un dicton.</desc>
@@ -6555,7 +6566,7 @@
   </programme>
   <programme channel="CanalPlus.fr" start="20260203234100 +0100" stop="20260204002300 +0100">
     <title lang="fr">Super plan</title>
-    <desc lang="fr">Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.</desc>
+    <desc lang="fr">SUPER PLAN, c'est la nouvelle émission cinéma de CANAL+. Chaque semaine, Antoine de Caunes vous accueille non plus seul, mais entouré d'une bande de journalistes et d'humoristes : Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra. Ensemble, ils recevront celles et ceux qui font l'actualité du septième art, et aborderont le Cinéma avec expertise, passion et enthousiasme, alliés à l'humeur et la bienveillance qui sont la signature de CANAL+ depuis toujours.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260203000500 +0100" stop="20260203020900 +0100">
@@ -7505,7 +7516,7 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260203221700 +0100" stop="20260203224000 +0100">
     <title lang="fr">Les mystérieuses cités d'or *2012 - S02E10</title>
-    <desc lang="fr">Nos héros se posent dans les environs de Pékin. Ils attendent la venue d'Ambrosius qui doit les repérer grâce à sa boussole détectant la masse d'orichalque du Condor. Dans la Cité impériale, Zarès est reçu par l'Empereur et en profite pour jeter un œil à sa collection de dragons. Il est déçu de constater qu'il n'y en a pas de jaune.</desc>
+    <desc lang="fr">Six mois après avoir découvert la première cité d'or, et de retour à Barcelone, Esteban, le Fils du Soleil, et ses jeunes amis, Zia et Tao, se laissent entraîner dans de nouvelles aventures par Mendoza, le mystérieux marin. À bord du Grand Condor, les trois enfants embarquent pour l'Asie, et plus particulièrement pour la Chine, où ils espèrent découvrir les six autres légendaires Cités d'or.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260203224000 +0100" stop="20260203230300 +0100">
@@ -11446,12 +11457,11 @@
   </programme>
   <programme channel="DorcelTV.fr" start="20260203103800 +0100" stop="20260203130800 +0100">
     <title lang="fr">Hot Girls In Hot Cars</title>
-    <desc lang="fr">The most powerful girls in the industry require the most powerful sports cars on the market, and in Hot Girls In Hot Cars, our girls are ready to put the pedal to the metal and provide the ultimate combination of power and passion! Driving fast and riding hard; Eliz Benson celebrates Valentines Day with a very special gift, Ada Lapiedra celebrates an unforgettable first anniversary, Sireno Milano stars in a breathtaking photoshoot, and Misha Maver shows off her curves in a sexy car wash! Hot Girls In Hot Cars, buckle up for a wild ride!</desc>
+    <desc lang="fr">Eliz Benson, Ada Lapiedra, Sirena Milano and Misha Maver have two passions in common: sex and big cars. They won't regret taking part in this shoot.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTV.fr" start="20260203130800 +0100" stop="20260203150300 +0100">
     <title lang="fr">Tiffany la soumise</title>
-    <desc lang="fr">Tiffany, une jeune avocate menant jusque-là une vie paisible et rangée découvre les plaisirs de la soumission</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTV.fr" start="20260203150300 +0100" stop="20260203153300 +0100">
@@ -23579,7 +23589,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203013600 +0100" stop="20260203015000 +0100">
     <title lang="fr">Visite privée - S01E12</title>
-    <desc lang="fr">Private Tour takes you to discover the exhibition "Jean-Jacques Lequeu - Builder of fantasies" at the Petit Palais. This exhibition is dedicated to the work of the late 18th century architect Jean-Jacques Lequeu. Despite his profession, he was not known for his constructions, but for his drawings. He made many portraits or drawings of everyday objects, architectural diagrams.</desc>
+    <desc lang="fr">Visite privée vous emmène à la découverte de l'exposition " Jean-Jacques Lequeu - Bâtisseur de fantasmes " au Petit Palais. Cette exposition est consacrée au travail de l'architecte de la fin du XVIIIe siècle Jean-Jacques Lequeu. Malgré son métier, il ne fut pas reconnu pour ses constructions, mais pour ses dessins. Il a réalisé de nombreux portraits ou encore des dessins d'objets de la vie de tous les jours, des schémas d'architecture.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
   <programme channel="Museum.fr" start="20260203015000 +0100" stop="20260203021900 +0100">
@@ -23614,7 +23624,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203055700 +0100" stop="20260203061100 +0100">
     <title lang="fr">Instant décisif - S01E15</title>
-    <desc lang="fr">In this episode, we will meet Isabelle Lesuisse, photographer. She is strongly influenced by architecture. Her photography work shows a taste for abstraction and graphics. She also works a lot with color, mainly in overprinting.</desc>
+    <desc lang="fr">Dans cet épisode, nous ferons la connaissance d'Isabelle Lesuisse, photographe. Elle est fortement influencée par l'architecture. Son travail de photographie témoigne d'un goût de l'abstraction et du graphisme. Elle travaille également beaucoup la couleur, et principalement en surimpression.</desc>
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="Museum.fr" start="20260203061100 +0100" stop="20260203063700 +0100">
@@ -23629,7 +23639,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203064100 +0100" stop="20260203073500 +0100">
     <title lang="fr">Art Contest - S01E02</title>
-    <desc lang="fr">1 subject and 45 minutes to create! 4 artists confront each other in public and create an artwork based on a theme linked with a particular event.</desc>
+    <desc lang="fr">Des artistes s'affrontent sur un thème imposé. Aujourd'hui : la Seconde Guerre mondiale.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
   <programme channel="Museum.fr" start="20260203074500 +0100" stop="20260203080000 +0100">
@@ -23669,7 +23679,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203103700 +0100" stop="20260203110500 +0100">
     <title lang="fr">Sketchbook</title>
-    <desc lang="fr">Raphael Federici (street artist), Marine Goodmorning (illustrator), Luca Fiore (cartoonist) and Harry Boudchicha (drawing teacher) reveal their best drawing techniques. Each episode focuses on a specific subject: movement, oil painting, shadows, hair... For the first 10 minutes, each artist gives a theoretical lesson illustrated by sketches. Then they each start working on their creation. Finally, they end with a debrief, comparing and explaining their techniques</desc>
+    <desc lang="fr">Harry, Raphaël, Luca et Marine nous révèlent leurs meilleures techniques de dessins. Aujourd'hui, découvrez la technique de l'estompe.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Museum.fr" start="20260203110500 +0100" stop="20260203112900 +0100">
@@ -23689,7 +23699,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203120100 +0100" stop="20260203122900 +0100">
     <title lang="fr">Quand je serai grand je serai photographe - S01E16</title>
-    <desc lang="fr">In the last episode follow the daily life of the students of the prestigious Condé school. The last days of school are here. Leah and the third year students will pass an exam for their Bachelor of Photography in front of the jury. Will Leah obtain her degree ? All the students are here to support her.</desc>
+    <desc lang="fr">Pour la première fois, une école de photographie reconnue au niveau international, l'Ecole de Condé, nous ouvre ses portes afin de suivre le parcours de sept jeunes étudiants en photographie. Depuis leurs débuts jusqu'à l'obtention de leur diplôme, leurs rêves, leur évolution, ainsi que tous leurs secrets pour obtenir les meilleurs clichés vous seront dévoilés. Suivez dans ce dernier épisode le quotidien des élèves de la prestigieuse école Condé. Les derniers jours d'école sont là. Léa et les troisième année, passent la soutenance de leur Bachelor de photographie devant le jury. Léa obtiendra-t-elle son diplôme ? En tout cas tous les élèves sont venus la soutenir.</desc>
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="Museum.fr" start="20260203122900 +0100" stop="20260203123800 +0100">
@@ -23719,7 +23729,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203134700 +0100" stop="20260203141500 +0100">
     <title lang="fr">Sketchbook</title>
-    <desc lang="fr">Raphael Federici (street artist), Marine Goodmorning (illustrator), Luca Fiore (cartoonist) and Harry Boudchicha (drawing teacher) reveal their best drawing techniques. Each episode focuses on a specific subject: movement, oil painting, shadows, hair... For the first 10 minutes, each artist gives a theoretical lesson illustrated by sketches. Then they each start working on their creation. Finally, they end with a debrief, comparing and explaining their techniques</desc>
+    <desc lang="fr">Harry, Raphaël, Luca et Marine nous révèlent leurs meilleures techniques de dessins. Aujourd'hui, vous apprendrez à représenter le drapé.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Museum.fr" start="20260203141500 +0100" stop="20260203142400 +0100">
@@ -23734,7 +23744,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260203143900 +0100" stop="20260203150600 +0100">
     <title lang="fr">Sketchbook</title>
-    <desc lang="fr">Raphael Federici (street artist), Marine Goodmorning (illustrator), Luca Fiore (cartoonist) and Harry Boudchicha (drawing teacher) reveal their best drawing techniques. Each episode focuses on a specific subject: movement, oil painting, shadows, hair... For the first 10 minutes, each artist gives a theoretical lesson illustrated by sketches. Then they each start working on their creation. Finally, they end with a debrief, comparing and explaining their techniques</desc>
+    <desc lang="fr">Harry, Raphaël, Luca et Marine nous révèlent leurs meilleures techniques de dessins. Aujourd'hui, apprenez à peindre sans outils.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Museum.fr" start="20260203150600 +0100" stop="20260203151000 +0100">
@@ -26091,7 +26101,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260203073600 +0100" stop="20260203074500 +0100">
     <title lang="fr">Sam le pompier - S10E07</title>
-    <desc lang="fr">L'équipe de secours de Pontypandy continue de sauver les habitants et les animaux de Pontypandy des incendies, des rivières en crue, de l'océan et des montagnes. Elle dispose désormais d'une caserne de pompiers modernisée et d'une unité de commandement mobile à la pointe de la technologie pour l'aider dans ses missions.</desc>
+    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260203074500 +0100" stop="20260203080000 +0100">
@@ -29677,7 +29687,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260203121500 +0100" stop="20260203122500 +0100">
     <title lang="fr">Bob l'éponge - S13E14</title>
-    <desc lang="fr">Bob, une joyeuse éponge de mer, vit dans la jolie cité de Bikini Bottom, dans les profondeurs de l'océan Pacifique. Il est cuisinier dans le snack aquatique du capitaine Krabs. Sandy Ecureuil, championne de surf sous l'eau, et Patrick Etoile de mer sont ses meilleurs amis. Il n'a pour ennemis que Carlo Tentacule, un calamar désagréable, et Sheldon Plankton, un restaurateur rival, qui n'a de cesse qu'il n'ait volé la fabuleuse recette du hamburger au crabe que cuisine Bob.</desc>
+    <desc lang="fr">Bob l'éponge est une éponge de mer qui vit avec son escargot de compagnie, Gary, dans un ananas... Bob l'éponge est sacrément optimiste mais se débrouille toujours pour s'attirer des ennuis...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260203122500 +0100" stop="20260203124000 +0100">
@@ -31829,6 +31839,16 @@
     <title lang="fr">Les mecs - S02E01</title>
     <desc lang="fr">Christian découvre la charge mentale. La cohabitation avec Martin et Simon commence à lui peser, sans compter que son fils Sébastien tarde à voler de ses propres ailes. Etienne se sent déprimé et désillusionné depuis sa rupture.</desc>
     <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="TV5MondeAsie.fr" start="20260203000000 +0100" stop="20260203003000 +0100">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
+  <programme channel="TV5MondeInfo.fr" start="20260203000000 +0100" stop="20260203003000 +0100">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
   </programme>
   <programme channel="TVPitchoun.fr" start="20260203000000 +0100" stop="20260203000300 +0100">
     <title lang="fr">Danse de Pitchoun</title>
@@ -37191,7 +37211,7 @@
   </programme>
   <programme channel="WarnerTV.fr" start="20260203084500 +0100" stop="20260203091000 +0100">
     <title lang="fr">Mon oncle Charlie - S08E15</title>
-    <desc lang="fr">Alan découvre que le cabinet d'un de ses amis chiropracteurs fait un gros chiffre d'affaire grâce à une publicité bien ciblée. Il décide d'investir dans une campagne de publicité et demande des prêts à ses amis. Chaque prêt lui permet de rembourser le précédent avec des intérêts. Impressionnés par ces intérêts, ses investisseurs décident de rejouer leur mise. Cependant, Alan est rattrapé par sa mauvaise conscience et laisse s'exprimer le bad boy en lui. De son côté, Charlie continue à voir Rose en cachette de son «mari» qui s'avère être un mannequin...</desc>
+    <desc lang="fr">Alan découvre que le cabinet d'un de ses amis chiropracteurs fait un gros chiffre d'affaire grâce à une publicité bien ciblée. Il décide d'investir dans une campagne de publicité et demande des prêts à ses amis. Chaque prêt lui permet de rembourser le précédent avec des intérêts. Impressionnés par ces intérêts, ses investisseurs décident de rejouer leur mise. Cependant, Alan est rattrapé par sa mauvaise conscience et laisse s'exprimer le bad boy en lui. De son côté, Charlie continue à voir Rose en cachette de son "mari" qui s'avère être un mannequin...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="WarnerTV.fr" start="20260203091000 +0100" stop="20260203093500 +0100">
@@ -44125,6 +44145,111 @@
     <desc lang="fr">Happy Birthday babe! Birthday boy Steve gets the best present ever: his wife shows him 6 sexy ladies, to choose one that he can play with all night. He picks no. 5, which turns out to be a very lucky number. For him, but for his wife too...</desc>
     <category lang="fr">Série / Série pornographique</category>
   </programme>
+  <programme channel="oqee.1140" start="20260203000000 +0100" stop="20260203070000 +0100">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">Rediffusion des programmes de la chaîne &amp; des meilleurs moments de l'actualités locale.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203070000 +0100" stop="20260203120000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203120000 +0100" stop="20260203190000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203190000 +0100" stop="20260203191500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203191500 +0100" stop="20260203193000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203193000 +0100" stop="20260203194500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203194500 +0100" stop="20260203200000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203200000 +0100" stop="20260203201500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203201500 +0100" stop="20260203203000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203203000 +0100" stop="20260203204500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203204500 +0100" stop="20260203210000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203210000 +0100" stop="20260203211500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203211500 +0100" stop="20260203213000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203213000 +0100" stop="20260203214500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203214500 +0100" stop="20260203220000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203220000 +0100" stop="20260203221500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203221500 +0100" stop="20260203223000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203223000 +0100" stop="20260203224500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203224500 +0100" stop="20260203230000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203230000 +0100" stop="20260203231500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203231500 +0100" stop="20260203233000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203233000 +0100" stop="20260203234500 +0100">
+    <title lang="fr">L'Info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1140" start="20260203234500 +0100" stop="20260204000000 +0100">
+    <title lang="fr">Vivons l'info</title>
+    <desc lang="fr">Toute l'actualité locale en temps réel actualisée par la rédaction de Puissance Télévision. Au programme : Reportages, Agendas et bulletins météos.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="oqee.1141" start="20260203001500 +0100" stop="20260203004000 +0100">
     <title lang="fr">Autospeed</title>
     <desc lang="fr">AutoSpeed is all action, all style and all the news. Weekly Grand Prix update, race previews and feature stories. Action from the world of international racing and rallying. New car releases from the world's prestige motor shows and the future of motoring are all covered.</desc>
@@ -44676,6 +44801,36 @@
   <programme channel="oqee.1150" start="20260203234500 +0100" stop="20260204001500 +0100">
     <title lang="fr">Sport Mediaset</title>
     <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1152" start="20260203000000 +0100" stop="20260203070000 +0100">
+    <title lang="fr">Musique Non Stop</title>
+    <desc lang="fr">Programmation musicale des années 2000 à aujourd'hui.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1152" start="20260203070000 +0100" stop="20260203100000 +0100">
+    <title lang="fr">Le 7/10</title>
+    <desc lang="fr">Rubriques : Flash d'informations Côte d'Azur et national; L'agenda du Bassin Cannois; Les offres d'emploi du Bassin Cannois; Les évènements du Bassin Cannois; L'invité de la semaine; Portrait Business; Horoscope; Ephéméride; Programme TV; Cinéma; Sport; People.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1152" start="20260203100000 +0100" stop="20260203130000 +0100">
+    <title lang="fr">Lérins actu</title>
+    <desc lang="fr">Rubriques : Flash d'informations Côte d'Azur et national; L'agenda du Bassin Cannois; Les offres d'emploi du Bassin Cannois; Les évènements du Bassin Cannois; L'invité de la semaine; Portrait Business; Horoscope; Ephéméride; Programme TV; Médias; Artiste du jour.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1152" start="20260203130000 +0100" stop="20260203170000 +0100">
+    <title lang="fr">Lérins Pédagogie</title>
+    <desc lang="fr">Programmation musicale des années 2000 à aujourd'hui entrecoupée de reportages et de chroniques enregistrés dans le cadre des ateliers avec la MJC, l'Université Côte d'Azur, le BTS Communication du Lycée Bristol et l'Association des Jeunes de Mougins.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1152" start="20260203170000 +0100" stop="20260203200000 +0100">
+    <title lang="fr">Direct Lérins</title>
+    <desc lang="fr">Rubriques : Flash d'informations Côte d'Azur et national; L'agenda du Bassin Cannois; Les offres d'emploi du Bassin Cannois; Les évènements du Bassin Cannois; L'invité de la semaine; Portrait Business; Programme TV; Cinéma; People; Médias; Sport; Artiste du jour; C'est mon droit.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1152" start="20260203200000 +0100" stop="20260204000000 +0100">
+    <title lang="fr">Rétro Lérins</title>
+    <desc lang="fr">Programmation musicale des années 90 à 2010 ( Musique Rétro Electro, Dance, Variété ).</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="oqee.1153" start="20260203000000 +0100" stop="20260203003000 +0100">
     <title lang="fr">Clap</title>
@@ -46583,6 +46738,7 @@
   </programme>
   <programme channel="oqee.1220" start="20260203171300 +0100" stop="20260203180500 +0100">
     <title lang="fr">Le Retour de Billy the Kid</title>
+    <desc lang="fr">Rogers joue le rôle d'un sosie du défunt Billy The Kid et rétablit la tranquillité du comté de Lincoln après avoir maîtrisé les éléments criminels.</desc>
     <category lang="fr">Film / Western</category>
   </programme>
   <programme channel="oqee.1220" start="20260203180500 +0100" stop="20260203193100 +0100">
@@ -57574,7 +57730,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203074500 +0100" stop="20260203080000 +0100">
     <title lang="fr">Kitapçı Dükkanı</title>
-    <desc lang="fr">İsmet Numanoğlu'nun anlatımıyla "Kitapçı Dükkanı" her cumartesi TRT TÜRK'te</desc>
+    <desc lang="fr">Kitapçı Dükkanı programında Türkiye'nin dört bir yanındaki kitapçı dükkanları ve sahafların büyülü dünyası gözler önüne seriliyor. Tozlu raflarda saklı nadir eserler, eski haritalar, el yazması kitaplar, unutulmuş yazarların imzalı nüshaları anlatılıyor. Kitapçıların günlük hayatı, müşterilerle kurulan bağlar, edebiyat sohbetleri, okuma tutkusu ve nostaljik anılar her bölümde işleniyor. Bu mekanlar sadece kitap satmıyor, kültür mirasını koruyor, yeni nesillere aktarıyor. Kitap kokusunun sardığı bu yolculukta hem geçmişe dönün, hem de edebiyatın gücünü hissedin. Kalbinize dokunsun, raflarınıza yeni dostlar eklesin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260203080000 +0100" stop="20260203083000 +0100">
@@ -57584,7 +57740,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203083000 +0100" stop="20260203084500 +0100">
     <title lang="fr">Emlak Günlüğü</title>
-    <desc lang="fr">Doğru yatırım, doğru bilgiyle başlar. Gayrimenkul yatırımında sezgiler değil, bilgi kazandırır. Bir mülkün sadece görünen değerini değil; gizli maliyetlerini, risklerini ve gerçek piyasa karşılığını uzman bakışıyla ele alan bir program: Emlak Günlüğü...</desc>
+    <desc lang="fr">Emlak Günlüğü programında Türkiye'nin emlak sektöründeki güncel gelişmeler gözler önüne seriliyor. Yeni açılan konut projeleri, lüks rezidanslardan mütevazı evlere, arsa yatırımlarından ticari gayrimenkule kadar geniş bir yelpazede fırsatlar anlatılıyor. Kentsel dönüşüm projeleri, deprem dayanıklılığı, çevre dostu mimari, akıllı ev sistemleri gibi konular işleniyor. Piyasa trendleri, bölge bazlı fiyat hareketleri, yatırım getirileri, yaşam tarzına uygun mekan seçimleri detaylıca paylaşılıyor. Bu yolculukta hem bilgilenin, hem de geleceğe yönelik doğru adımlar atın. Emlak dünyasının dinamiklerini hissedin, hayallerinizdeki eve bir adım yaklaşın.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.405" start="20260203084500 +0100" stop="20260203091500 +0100">
@@ -57619,7 +57775,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203115000 +0100" stop="20260203120000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260203120000 +0100" stop="20260203125000 +0100">
@@ -57629,7 +57785,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203125000 +0100" stop="20260203130000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260203130000 +0100" stop="20260203140000 +0100">
@@ -57649,7 +57805,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203155000 +0100" stop="20260203160500 +0100">
     <title lang="fr">Kitapçı Dükkanı</title>
-    <desc lang="fr">İsmet Numanoğlu'nun anlatımıyla "Kitapçı Dükkanı" her cumartesi TRT TÜRK'te</desc>
+    <desc lang="fr">Kitapçı Dükkanı programında Türkiye'nin dört bir yanındaki kitapçı dükkanları ve sahafların büyülü dünyası gözler önüne seriliyor. Tozlu raflarda saklı nadir eserler, eski haritalar, el yazması kitaplar, unutulmuş yazarların imzalı nüshaları anlatılıyor. Kitapçıların günlük hayatı, müşterilerle kurulan bağlar, edebiyat sohbetleri, okuma tutkusu ve nostaljik anılar her bölümde işleniyor. Bu mekanlar sadece kitap satmıyor, kültür mirasını koruyor, yeni nesillere aktarıyor. Kitap kokusunun sardığı bu yolculukta hem geçmişe dönün, hem de edebiyatın gücünü hissedin. Kalbinize dokunsun, raflarınıza yeni dostlar eklesin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260203160500 +0100" stop="20260203164500 +0100">
@@ -57659,7 +57815,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203164500 +0100" stop="20260203170000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260203170000 +0100" stop="20260203174500 +0100">
@@ -57669,7 +57825,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203174500 +0100" stop="20260203180000 +0100">
     <title lang="fr">Mikrofon Senin</title>
-    <desc lang="fr">Yurt dışında yaşayan; kadın, erkek, genç, yaşlı, eğitimli, eğitimsiz, esnaf, çalışan, çalışmayan, ilk kuşak giden, orada doğup büyüyen kişilerin yaşadıkları şehir, eğitimleri, iş hayatları, aile ilişkileri, memleketlerine duydukları özlem, Avrupa'da Türk olmak, gelenek-göreneklerini ne kadar devam ettirebildiklerine dair hazırlanan sorulara cevap verecekleri bir program olacaktır.</desc>
+    <desc lang="fr">Mikrofon Senin Norveç ile bu İskandinav ülkesinin derinliklerine yolculuk yapın. Oslo'dan kuzey kutup dairesine uzanan hikayeler, fiyortların büyüleyici manzaraları, Viking döneminden kalan eserler, Sami kültürü, modern mimari, doğa sporları detaylıca ele alınıyor. Yerel halkın günlük hayatı, müzik gelenekleri, çevre bilinci samimi röportajlarla paylaşılıyor. Bu program Norveç'in hem huzurlu hem maceracı ruhunu hissettirsin.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.405" start="20260203180000 +0100" stop="20260203190000 +0100">
@@ -57709,7 +57865,7 @@
   </programme>
   <programme channel="oqee.405" start="20260203231500 +0100" stop="20260203232500 +0100">
     <title lang="fr">Emlak Günlüğü</title>
-    <desc lang="fr">Doğru yatırım, doğru bilgiyle başlar. Gayrimenkul yatırımında sezgiler değil, bilgi kazandırır. Bir mülkün sadece görünen değerini değil; gizli maliyetlerini, risklerini ve gerçek piyasa karşılığını uzman bakışıyla ele alan bir program: Emlak Günlüğü...</desc>
+    <desc lang="fr">Emlak Günlüğü programında Türkiye'nin emlak sektöründeki güncel gelişmeler gözler önüne seriliyor. Yeni açılan konut projeleri, lüks rezidanslardan mütevazı evlere, arsa yatırımlarından ticari gayrimenkule kadar geniş bir yelpazede fırsatlar anlatılıyor. Kentsel dönüşüm projeleri, deprem dayanıklılığı, çevre dostu mimari, akıllı ev sistemleri gibi konular işleniyor. Piyasa trendleri, bölge bazlı fiyat hareketleri, yatırım getirileri, yaşam tarzına uygun mekan seçimleri detaylıca paylaşılıyor. Bu yolculukta hem bilgilenin, hem de geleceğe yönelik doğru adımlar atın. Emlak dünyasının dinamiklerini hissedin, hayallerinizdeki eve bir adım yaklaşın.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.405" start="20260203232500 +0100" stop="20260203235500 +0100">
@@ -61381,7 +61537,12 @@
     <desc lang="fr">Dietmar Deffner berichtet live über die wichtigsten Themen, die die Märkte und Börsen zur Halbzeit des Tages bewegen. Der Moderator präsentiert den aktuellen Überblick über die Lage an den Aktienmärkten.</desc>
     <category lang="fr">Documentaire / Documentaire economie</category>
   </programme>
-  <programme channel="oqee.56" start="20260203130000 +0100" stop="20260203130500 +0100">
+  <programme channel="oqee.56" start="20260203130000 +0100" stop="20260203131500 +0100">
+    <title lang="fr">Die Welt am Mittag</title>
+    <desc lang="fr">Ab 12 Uhr gibt es in "Die Welt am Mittag" eine erste Zusammenfassung des aktuellen Geschehens und Interviews zu den Top-Themen, kompakt und inklusive der Entwicklungen an den Börsen.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260203131500 +0100" stop="20260203133000 +0100">
     <title lang="fr">Die Welt am Mittag</title>
     <desc lang="fr">Ab 12 Uhr gibt es in "Die Welt am Mittag" eine erste Zusammenfassung des aktuellen Geschehens und Interviews zu den Top-Themen, kompakt und inklusive der Entwicklungen an den Börsen.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -61391,7 +61552,12 @@
     <desc lang="fr">"WELT" bringt Sie auf den neuesten Stand: Entdecken Sie die wichtigsten Themen des Tages und erhalten Sie einen exklusiven Einblick darüber, was morgen relevant sein wird.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260203140000 +0100" stop="20260203140500 +0100">
+  <programme channel="oqee.56" start="20260203140000 +0100" stop="20260203141500 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogäste, Erläuterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260203141500 +0100" stop="20260203143000 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogäste, Erläuterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -61401,7 +61567,12 @@
     <desc lang="fr">Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogäste, Erläuterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260203150000 +0100" stop="20260203150500 +0100">
+  <programme channel="oqee.56" start="20260203150000 +0100" stop="20260203151500 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogäste, Erläuterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260203151500 +0100" stop="20260203153000 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogäste, Erläuterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -61446,17 +61617,17 @@
     <desc lang="fr">Moderator Dietmar Deffner fasst das aktuelle Börsengeschehen des Tages zusammen. Er präsentiert die kursbestimmenden Ereignisse und Trends des Börsentages und befragt Entscheider und Finanzexperten zum Geschehen an den Finanzmärkten. "Börse am Abend" liefert alles, was man zur Kursentwicklung wissen muss: von Experten analysiert, verständlich zusammengefasst und kompetent präsentiert.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
-  <programme channel="oqee.56" start="20260203180000 +0100" stop="20260203180500 +0100">
+  <programme channel="oqee.56" start="20260203180000 +0100" stop="20260203181000 +0100">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">Was war heute wichtig und was wird morgen Thema sein? "Die Welt am Abend" fasst zusammen, schaut, was morgen wichtig wird und bietet besonderen Blick auf das bestimmende Thema des Tages.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260203180500 +0100" stop="20260203181000 +0100">
+  <programme channel="oqee.56" start="20260203181000 +0100" stop="20260203181500 +0100">
     <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
     <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
-  <programme channel="oqee.56" start="20260203181000 +0100" stop="20260203183000 +0100">
+  <programme channel="oqee.56" start="20260203181500 +0100" stop="20260203183000 +0100">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">Was war heute wichtig und was wird morgen Thema sein? "Die Welt am Abend" fasst zusammen, schaut, was morgen wichtig wird und bietet besonderen Blick auf das bestimmende Thema des Tages.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -61466,7 +61637,12 @@
     <desc lang="fr">Was war heute wichtig und was wird morgen Thema sein? "Die Welt am Abend" fasst zusammen, schaut, was morgen wichtig wird und bietet besonderen Blick auf das bestimmende Thema des Tages.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260203185500 +0100" stop="20260203190000 +0100">
+  <programme channel="oqee.56" start="20260203185500 +0100" stop="20260203191000 +0100">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">Was war heute wichtig und was wird morgen Thema sein? "Die Welt am Abend" fasst zusammen, schaut, was morgen wichtig wird und bietet besonderen Blick auf das bestimmende Thema des Tages.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260203191000 +0100" stop="20260203193000 +0100">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">Was war heute wichtig und was wird morgen Thema sein? "Die Welt am Abend" fasst zusammen, schaut, was morgen wichtig wird und bietet besonderen Blick auf das bestimmende Thema des Tages.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -68577,7 +68753,7 @@
   </programme>
   <programme channel="oqee.932" start="20260203133000 +0100" stop="20260203134000 +0100">
     <title lang="fr">Les minijusticiers - S01E14</title>
-    <desc lang="fr">Zoé qui louche voit tout en double. Ça lui donne un air bête et les autres se moquent, surtout le Grand Dédé qui voit en elle le moyen de ne plus perdre au Mikado ! Pour ne rien arranger, il y a des tas de choses que Zoé ne peut pas faire, comme du vélo par exemple. Pas de chance car aujourd'hui tout le monde va à la fête foraine, en vélo vu que c'est trop loin à pied.</desc>
+    <desc lang="fr">Les Minijusticiers sont de petits héros dotés brièvement de supers pouvoirs incongrus qui leur permettent de se sortir de situations quotidiennes embarrassantes. Ces justiciers assument leurs défauts et font de leurs faiblesses une force.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.932" start="20260203134000 +0100" stop="20260203140000 +0100">
@@ -68772,7 +68948,7 @@
   </programme>
   <programme channel="oqee.932" start="20260203222500 +0100" stop="20260203223000 +0100">
     <title lang="fr">Les minijusticiers - S01E14</title>
-    <desc lang="fr">Zoé qui louche voit tout en double. Ça lui donne un air bête et les autres se moquent, surtout le Grand Dédé qui voit en elle le moyen de ne plus perdre au Mikado ! Pour ne rien arranger, il y a des tas de choses que Zoé ne peut pas faire, comme du vélo par exemple. Pas de chance car aujourd'hui tout le monde va à la fête foraine, en vélo vu que c'est trop loin à pied.</desc>
+    <desc lang="fr">Les Minijusticiers sont de petits héros dotés brièvement de supers pouvoirs incongrus qui leur permettent de se sortir de situations quotidiennes embarrassantes. Ces justiciers assument leurs défauts et font de leurs faiblesses une force.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.932" start="20260203223000 +0100" stop="20260203225000 +0100">
