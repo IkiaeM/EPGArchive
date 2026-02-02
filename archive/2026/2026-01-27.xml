@@ -556,6 +556,10 @@
     <display-name>NA TV</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NATV100x100couleur.png"/>
   </channel>
+  <channel id="NCI.af">
+    <display-name>NCI</display-name>
+    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/NCI100x100couleurNCI.png"/>
+  </channel>
   <channel id="NOVO19.fr">
     <display-name>NOVO19</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png"/>
@@ -956,10 +960,6 @@
     <display-name>ART Hekayat 1</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/2448/w256"/>
   </channel>
-  <channel id="oqee.1031">
-    <display-name>NCI</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/2432/w256"/>
-  </channel>
   <channel id="oqee.1033">
     <display-name>DMC Drama</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/2459/w256"/>
@@ -1351,10 +1351,6 @@
   <channel id="oqee.1364">
     <display-name>Le meilleur des jeux tv</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/3667/w256"/>
-  </channel>
-  <channel id="oqee.1366">
-    <display-name>docs &amp; enquêtes by Society+</display-name>
-    <icon src="https://img1.dc2.oqee.net/channel_pictures/3776/w256"/>
   </channel>
   <channel id="oqee.1371">
     <display-name>Desire TV</display-name>
@@ -7240,7 +7236,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260127190500 +0100" stop="20260127191500 +0100">
     <title lang="fr">Zig &amp; Sharko - S04E24</title>
-    <desc lang="fr">Zig découvre que Sharko a une peur bleue des clowns. La hyène se déguise en clown et invite Marina à faire des gags avec elle pour mieux l'approcher et la croquer. </desc>
+    <desc lang="fr">Zig découvre que Sharko a une peur bleue des clowns. La hyène se déguise en clown et invite Marina à faire des gags avec elle pour mieux l'approcher et la croquer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260127191500 +0100" stop="20260127192500 +0100">
@@ -21290,12 +21286,12 @@
   </programme>
   <programme channel="France4.fr" start="20260127110700 +0100" stop="20260127111800 +0100">
     <title lang="fr">Les as de la jungle à la rescousse - S01E24</title>
-    <desc lang="fr">La cabane du ranger est équipée d'un détecteur d'animaux nuisibles ultra performant capable de détecter la présence d'un intrus puis de le chasser en envoyant une onde qui ordonne à son cerveau de sortir immédiatement. Grizzy et les Lemmings ne parviennent plus à rester à l'intérieur jusqu'à ce qu'ils découvrent que la télécommande du boitier permet de sélectionner quel type d'animal sera épargné ou visé par l'onde.</desc>
+    <desc lang="fr">L'oeuf d'un colibri éclot devant la grotte des As. Le petit Colibri pense que Miguel est son papa, et celui-ci développe un instinct paternel très fort pour le colibri. Mais Maurice a décidé qu'il fallait ramener le colibri à ses parents.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260127111800 +0100" stop="20260127111900 +0100">
     <title lang="fr">Les as de la jungle à la rescousse - S01E21</title>
-    <desc lang="fr">Mais qui est ce Captain Cahouète qui prétend être aussi courageux que les As de la Jungle et qui défie le Grand Furax? Va-t-il prendre la places des As? Maurice s'inquiète. Heureusement les Cinq Flamboyants (les As...) sont là et vont remettre les choses en ordre.</desc>
+    <desc lang="fr">Ernest le kiwi voulait juste se faire chauffer de l'eau pour sa tisane, dans le volcan des As. Plus que 7 minutes avant que le volcan n'explose.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260127111900 +0100" stop="20260127112900 +0100">
@@ -21989,6 +21985,7 @@
   </programme>
   <programme channel="GongMax.fr" start="20260127004000 +0100" stop="20260127014000 +0100">
     <title lang="fr">Romantic Doctor, Teacher Kim - S01E13</title>
+    <desc lang="fr">L'intervention imminente du Président Shin devrait donner à Seo-jeong l'occasion de briller. Le Doldam va peut-être devoir gérer une épidémie.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="GongMax.fr" start="20260127014000 +0100" stop="20260127025000 +0100">
@@ -28015,7 +28012,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260127002500 +0100" stop="20260127003400 +0100">
     <title lang="fr">Origami</title>
-    <desc lang="fr">Bring the charm of the ocean to life by folding a playful walrus with tusks and flippers. This fun design is sure to delight origami fans of all ages.</desc>
+    <desc lang="fr">Donnez vie au charme de l'océan en pliant un morse enjoué avec des défenses et des nageoires. Ce motif amusant ravira les amateurs d'origami de tous âges.</desc>
     <category lang="fr">Magazine / Magazine des loisirs</category>
   </programme>
   <programme channel="Museum.fr" start="20260127004500 +0100" stop="20260127010000 +0100">
@@ -28140,7 +28137,7 @@
   </programme>
   <programme channel="Museum.fr" start="20260127151600 +0100" stop="20260127160700 +0100">
     <title lang="fr">We Are Artists not Vandals - S01E05</title>
-    <desc lang="fr">Follow the artists that adorn the streets soil walls. Being in the right place at the right time. The formula often repeated in the speech Stew. At 36, Stew knows whereof he speaks. It took almost twenty years to make a name in the world of street art. From his first tag vandal to monumental fresco of 52 meters in Paris 13, he has come a long way.</desc>
+    <desc lang="fr">Être au bon endroit au bon moment. La formule revient souvent dans le discours de Stew. À 36 ans, Stew sait de quoi il parle. Il lui aura fallu près de vingt ans pour se faire un nom dans le milieu du street art. De son premier tag de vandale à la fresque monumentale de 52 mètres à Paris 13, il en a parcouru du chemin.</desc>
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="Museum.fr" start="20260127160700 +0100" stop="20260127162200 +0100">
@@ -28473,6 +28470,366 @@
   <programme channel="NATV.fr" start="20260127230000 +0100" stop="20260128000000 +0100">
     <title lang="fr">NA Sport Show</title>
     <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127000000 +0100" stop="20260127002000 +0100">
+    <title lang="fr">NCI News</title>
+    <desc lang="fr">L&amp;apos;actualité de Côte d&amp;apos;Ivoire et du monde sur NCI, présentée en alternance par Ali DIARRASSOUBA, Mélina MAKISSI, Evelyne DÉBA et Alassane DRABO.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127002000 +0100" stop="20260127002200 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Les prévisions météorologiques sur la Côte d'Ivoire présentée par Maïmouna Hébrard</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127002200 +0100" stop="20260127003000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127003000 +0100" stop="20260127004500 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127004500 +0100" stop="20260127010000 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127010000 +0100" stop="20260127011500 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127011500 +0100" stop="20260127013000 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127013000 +0100" stop="20260127015000 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127015000 +0100" stop="20260127020500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127020500 +0100" stop="20260127022500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127022500 +0100" stop="20260127030200 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127030200 +0100" stop="20260127032200 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127032200 +0100" stop="20260127034000 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127034000 +0100" stop="20260127035500 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127035500 +0100" stop="20260127041000 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127041000 +0100" stop="20260127042500 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127042500 +0100" stop="20260127044000 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127044000 +0100" stop="20260127050000 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127050000 +0100" stop="20260127051500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127051500 +0100" stop="20260127053500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127053500 +0100" stop="20260127061200 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127061200 +0100" stop="20260127063200 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127063200 +0100" stop="20260127065000 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127065000 +0100" stop="20260127080000 +0100">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Une sélection de clips vidéo divers pour débuter ou achever la journée en beauté.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127080000 +0100" stop="20260127083000 +0100">
+    <title lang="fr">N'mix</title>
+    <desc lang="fr">Bienvenue sur la piste de danse ! Vibrez au rythme des scratchs! Les clips vidéos les plus en vogue mixés sur NCI</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127083000 +0100" stop="20260127083500 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127083500 +0100" stop="20260127090000 +0100">
+    <title lang="fr">Nostalgie Hits</title>
+    <desc lang="fr">Les meilleurs hits IVOIRE, AFRIQUE et INTER de la saison 2020-2021 se succèdent sur NCI. Les plus grosses claques sont ici sur NCI dans NOSTALGIE HITS</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127090000 +0100" stop="20260127093000 +0100">
+    <title lang="fr">Ivory Best</title>
+    <desc lang="fr">Chaque semaine, coup de projecteur sur les talents, innovations et réussites qui font rayonner la Côte d'Ivoire, dans une émission inspirante et 100 % positive.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127093000 +0100" stop="20260127095000 +0100">
+    <title lang="fr">La quotidienne info</title>
+    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127095000 +0100" stop="20260127102000 +0100">
+    <title lang="fr">La quotidienne info</title>
+    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127102000 +0100" stop="20260127104500 +0100">
+    <title lang="fr">La quotidienne info</title>
+    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127104500 +0100" stop="20260127110000 +0100">
+    <title lang="fr">La quotidienne info</title>
+    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127110000 +0100" stop="20260127112000 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127112000 +0100" stop="20260127113500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127113500 +0100" stop="20260127115500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127115500 +0100" stop="20260127120000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127120000 +0100" stop="20260127122600 +0100">
+    <title lang="fr">Castes, les amours interdites - S01E06</title>
+    <desc lang="fr">Lamine Koulibaly, patriarche implacable, cherche à consolider son empire familial à travers des alliances stratégiques. Mais ses desseins se heurtent à la volonté de sa femme Awa, aux ambitions troubles de Rokhya, une femme aussi séduisante que manipulatrice, et aux ambitions de ses enfants. Entre mariages arrangés et amours interdites, la série explore la lente dislocation d'une famille rongée de l'intérieur par des doubles vies sentimentales.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127122600 +0100" stop="20260127123000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127123000 +0100" stop="20260127134500 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Les chroniqueurs "dépaporisent" l'actu des people sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127134500 +0100" stop="20260127135000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127135000 +0100" stop="20260127140000 +0100">
+    <title lang="fr">NCI JT 12h50</title>
+    <desc lang="fr">L&amp;apos;actualité de Côte d&amp;apos;Ivoire et du monde en images sur NCI.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127140000 +0100" stop="20260127140500 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127140500 +0100" stop="20260127142500 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127142500 +0100" stop="20260127144000 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127144000 +0100" stop="20260127150000 +0100">
+    <title lang="fr">Les femmes d'ici</title>
+    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127150000 +0100" stop="20260127150500 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127150500 +0100" stop="20260127153000 +0100">
+    <title lang="fr">Une note d'espoir - S01E129</title>
+    <desc lang="fr">Sol est une jeune femme ambitieuse et travailleuse qui se voit offrir une opportunité unique : devenir choriste pour un chanteur de funk renommé. Cette proposition lui permettrait de renouer avec sa passion de jeunesse pour la danse. Très engagée dans sa communauté, Sol se retrouve tiraillée entre les attentes de sa famille, les jugements de sa communauté religieuse et son désir de s'épanouir sur scène. Cette nouvelle chance va la confronter à son passé, lui permettant de retrouver son premier amour tout en la mettant face à des choix cornéliens.</desc>
+    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127153000 +0100" stop="20260127155500 +0100">
+    <title lang="fr">Une note d'espoir</title>
+    <desc lang="fr">Sol est une jeune femme ambitieuse et travailleuse qui se voit offrir une opportunité unique : devenir choriste pour un chanteur de funk renommé. Cette proposition lui permettrait de renouer avec sa passion de jeunesse pour la danse. Très engagée dans sa communauté, Sol se retrouve tiraillée entre les attentes de sa famille, les jugements de sa communauté religieuse et son désir de s'épanouir sur scène. Cette nouvelle chance va la confronter à son passé, lui permettant de retrouver son premier amour tout en la mettant face à des choix cornéliens.</desc>
+    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127155500 +0100" stop="20260127160000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127160000 +0100" stop="20260127162600 +0100">
+    <title lang="fr">Castes, les amours interdites - S01E06</title>
+    <desc lang="fr">Lamine Koulibaly, patriarche implacable, cherche à consolider son empire familial à travers des alliances stratégiques. Mais ses desseins se heurtent à la volonté de sa femme Awa, aux ambitions troubles de Rokhya, une femme aussi séduisante que manipulatrice, et aux ambitions de ses enfants. Entre mariages arrangés et amours interdites, la série explore la lente dislocation d'une famille rongée de l'intérieur par des doubles vies sentimentales.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127162600 +0100" stop="20260127163000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127163000 +0100" stop="20260127165600 +0100">
+    <title lang="fr">Kiu - S01E60</title>
+    <desc lang="fr">KIU est une histoire d&amp;apos;amour, désir et de vengeance. L&amp;apos;histoire suit Alisha (Celestine Gachuhi), épouse parfaite d&amp;apos;Alex (Blessing Lung&amp;apos;aho), dont le monde s&amp;apos;écroule après avoir découvert la liaison de son mari avec sa meilleure amie, Diana (Anita Wawuda). Elle se lance alors dans une quête de vengeance envers ceux qu&amp;apos;elle chérissait et en qui elle avait confiance après leur trahison.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127165600 +0100" stop="20260127170000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127170000 +0100" stop="20260127173700 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127173700 +0100" stop="20260127175700 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127175700 +0100" stop="20260127181500 +0100">
+    <title lang="fr">Showbuzz</title>
+    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127181500 +0100" stop="20260127183000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127183000 +0100" stop="20260127193000 +0100">
+    <title lang="fr">Ivory Best</title>
+    <desc lang="fr">Chaque semaine, coup de projecteur sur les talents, innovations et réussites qui font rayonner la Côte d'Ivoire, dans une émission inspirante et 100 % positive.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127193000 +0100" stop="20260127194500 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127194500 +0100" stop="20260127200000 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127200000 +0100" stop="20260127201500 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127201500 +0100" stop="20260127203000 +0100">
+    <title lang="fr">La télé d'ici</title>
+    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127203000 +0100" stop="20260127205000 +0100">
+    <title lang="fr">La quotidienne info</title>
+    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127205000 +0100" stop="20260127211000 +0100">
+    <title lang="fr">NCI News</title>
+    <desc lang="fr">Le point sur l'actualité de la journée dans un format facilement accessible.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127211000 +0100" stop="20260127221500 +0100">
+    <title lang="fr">La quotidienne info</title>
+    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127221500 +0100" stop="20260127221700 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Les prévisions météorologiques sur la Côte d'Ivoire présentée par Maïmouna Hébrard</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127221700 +0100" stop="20260127223000 +0100">
+    <title lang="fr">Focus faits divers</title>
+    <desc lang="fr">Tous les lundis à 20h15, NCI revient sur ces histoires fortes qui ont marqué l&amp;apos;actualité et les mémoires de la société ivoirienne. Faits insolites, témoigjages palpitants, drames, issues heureuses... FOCUS FAITS DIVERS, l&amp;apos;actualité des faits divers présentée par Evelyne DÉBA, tous les lundis à 20h15 sur NCI.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127223000 +0100" stop="20260127225600 +0100">
+    <title lang="fr">Castes, les amours interdites - S01E07</title>
+    <desc lang="fr">Lamine Koulibaly, patriarche implacable, cherche à consolider son empire familial à travers des alliances stratégiques. Mais ses desseins se heurtent à la volonté de sa femme Awa, aux ambitions troubles de Rokhya, une femme aussi séduisante que manipulatrice, et aux ambitions de ses enfants. Entre mariages arrangés et amours interdites, la série explore la lente dislocation d'une famille rongée de l'intérieur par des doubles vies sentimentales.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127225600 +0100" stop="20260127230000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127230000 +0100" stop="20260127232600 +0100">
+    <title lang="fr">Cash Cache - S01E01</title>
+    <desc lang="fr">Cash-Cache, c'est l'histoire du braquage de la Banque Municipale de Côte d'Ivoire (BMCI), qui est transformé en prise d'otages par Lino,le chef des gangsters, pour assouvir une vengeance personnelle. D'un côté, Willy, l'inspecteur aux commandes des opérations et de l'autre Lino, deux adversaires, fins stratèges, vont alors entamer une bataille et révéler les secrets de leur passé commun et de leur amitié. Comme au jeu d'échecs, les pions sont poussés, contrés et certains sacrifiés. Mais, ils devront faire face à leurs cas de conscience, à des trahisons dans leurs propres camps et à la vérité sur leur ancienne vie.</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127232600 +0100" stop="20260127235200 +0100">
+    <title lang="fr">Cash Cache - S01E02</title>
+    <desc lang="fr">" Cash-Cache ", c'est l'histoire du braquage de la Banque Municipale de Côte d'Ivoire (BMCI), qui est transformé en prise d'otages par Lino (Kané Mahoula) le chef des gangsters, pour assouvir une vengeance personnelle. D'un côté, Willy (Nicolas Mouen), l'inspecteur aux commandes des opérations et de l'autre Lino, deux adversaires, fins stratèges, vont alors entamer une bataille et révéler les secrets de leur passé commun et de leur amitié. Comme au jeu d'échecs, les pions sont poussés, contrés et certains sacrifiés. Mais, ils devront faire face à leurs cas de conscience, à des trahisons dans leurs propres camps et à la vérité sur leur ancienne vie.</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="NCI.af" start="20260127235200 +0100" stop="20260128000000 +0100">
+    <title lang="fr">Comblage</title>
+    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="NOVO19.fr" start="20260127010400 +0100" stop="20260127021200 +0100">
     <title lang="fr">Adolescents et criminels : comment ont-ils basculé ? - S02E04</title>
@@ -31314,7 +31671,7 @@
   </programme>
   <programme channel="PlaneteAction.fr" start="20260127033700 +0100" stop="20260127044300 +0100">
     <title lang="fr">Direct Auto Express *2005</title>
-    <desc lang="fr">Ce rendez-vous des passionnés du sport motorisé et d'émotions fortes propose une sélection de reportages consacrés à la passion automobile.</desc>
+    <desc lang="fr">Le meilleur de la passion automobile : les courses, les plus beaux modèles, les nouveautés.</desc>
     <category lang="fr">Magazine / Magazine de l'automobile</category>
   </programme>
   <programme channel="PlaneteAction.fr" start="20260127044300 +0100" stop="20260127072600 +0100">
@@ -32163,7 +32520,7 @@
   <programme channel="RMCMystere.fr" start="20260127001500 +0100" stop="20260127011600 +0100">
     <title lang="fr">Les templiers : la démesure des bâtisseurs</title>
     <desc lang="fr">Tout le monde connait les Templiers, cet ordre religieux dont l'ascension fulgurante puis la disparition brutale ont marqué le Moyen Age. Mais peu de gens savent qu'ils ont construit des bâtiments exceptionnels dans l'ensemble du monde chrétien, en Terre Sainte mais aussi et surtout en Europe. Grâce aux recherches archéologiques les plus récentes, à des reconstitutions en trois dimensions et à l'intervention d'experts internationaux, ce documentaire révèle les secrets de construction des Templiers.</desc>
-    <category lang="fr">Documentaire / Documentaire découvertes</category>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="RMCMystere.fr" start="20260127011600 +0100" stop="20260127021800 +0100">
     <title lang="fr">Les mormons : qui sont-ils vraiment ?</title>
@@ -38815,7 +39172,7 @@
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260127153600 +0100" stop="20260127154900 +0100">
     <title lang="fr">Angelo la débrouille - S05E04</title>
-    <desc lang="fr">Après la démisson de coach Zonka, Angelo recrute de nouveaux coachs et prépare un entrainement inhabituel pour le match de basket contre l'équipe de l'école Marie Curie.</desc>
+    <desc lang="fr">Quand on a onze ans comme Angelo, la vie n'est pas tous les jours facile : il y a les adultes, la famille, les profs, tous ces rabat-joie qui te disent ce que tu dois faire, ce que tu dois dire, et bla bla bla… Dans cette cinquième saison, Angelo va devoir composer avec les élèves du très branché Lycée Marie Curie dont la rivalité suscite des enjeux toujours plus fous, et recompose les alliances ! Heureusement, Angelo, en observateur malicieux, est aidé par ses copains Lola et Victor. Ensemble ils vont tout faire pour s'assurer une place dans ce monde où les enjeux écologiques et sociétaux s'invitent désormais dans l'école.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260127154900 +0100" stop="20260127160000 +0100">
@@ -38840,7 +39197,7 @@
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260127163600 +0100" stop="20260127164900 +0100">
     <title lang="fr">Angelo la débrouille - S05E04</title>
-    <desc lang="fr">Après la démisson de coach Zonka, Angelo recrute de nouveaux coachs et prépare un entrainement inhabituel pour le match de basket contre l'équipe de l'école Marie Curie.</desc>
+    <desc lang="fr">Quand on a onze ans comme Angelo, la vie n'est pas tous les jours facile : il y a les adultes, la famille, les profs, tous ces rabat-joie qui te disent ce que tu dois faire, ce que tu dois dire, et bla bla bla… Dans cette cinquième saison, Angelo va devoir composer avec les élèves du très branché Lycée Marie Curie dont la rivalité suscite des enjeux toujours plus fous, et recompose les alliances ! Heureusement, Angelo, en observateur malicieux, est aidé par ses copains Lola et Victor. Ensemble ils vont tout faire pour s'assurer une place dans ce monde où les enjeux écologiques et sociétaux s'invitent désormais dans l'école.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260127164900 +0100" stop="20260127170000 +0100">
@@ -40546,7 +40903,7 @@
   </programme>
   <programme channel="TopSanteTV.fr" start="20260127055100 +0100" stop="20260127063700 +0100">
     <title lang="fr">Fais ton sport à la maison !</title>
-    <desc lang="fr">Dans ce nouvel épisode de la saison 5, retrouvez Sabrina Simard et Guillaume Pernic pour un renforcement Pilate Cuisse Abdo Fessier.</desc>
+    <desc lang="fr">Une séance cuisses-abdos-fessiers inspirée du Pilates pour travailler les muscles profonds tout en douceur. Posture, respiration et alignement sont au cœur de ce training respectueux du corps. Un moment efficace et bienveillant !</desc>
     <category lang="fr">Magazine sportif / Fitness</category>
   </programme>
   <programme channel="TopSanteTV.fr" start="20260127063700 +0100" stop="20260127065200 +0100">
@@ -43897,366 +44254,6 @@
   <programme channel="oqee.1024" start="20260127230000 +0100" stop="20260128000000 +0100">
     <title lang="fr">Harret El Qubba</title>
     <category lang="fr">Série / Série dramatique</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127000000 +0100" stop="20260127002000 +0100">
-    <title lang="fr">NCI News</title>
-    <desc lang="fr">L&amp;apos;actualité de Côte d&amp;apos;Ivoire et du monde sur NCI, présentée en alternance par Ali DIARRASSOUBA, Mélina MAKISSI, Evelyne DÉBA et Alassane DRABO.</desc>
-    <category lang="fr">Divers / Journal</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127002000 +0100" stop="20260127002200 +0100">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Les prévisions météorologiques sur la Côte d'Ivoire présentée par Maïmouna Hébrard</desc>
-    <category lang="fr">Divers / Météo</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127002200 +0100" stop="20260127003000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127003000 +0100" stop="20260127004500 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127004500 +0100" stop="20260127010000 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127010000 +0100" stop="20260127011500 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127011500 +0100" stop="20260127013000 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127013000 +0100" stop="20260127015000 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127015000 +0100" stop="20260127020500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127020500 +0100" stop="20260127022500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127022500 +0100" stop="20260127030200 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127030200 +0100" stop="20260127032200 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127032200 +0100" stop="20260127034000 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127034000 +0100" stop="20260127035500 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127035500 +0100" stop="20260127041000 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127041000 +0100" stop="20260127042500 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127042500 +0100" stop="20260127044000 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127044000 +0100" stop="20260127050000 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127050000 +0100" stop="20260127051500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127051500 +0100" stop="20260127053500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127053500 +0100" stop="20260127061200 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127061200 +0100" stop="20260127063200 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127063200 +0100" stop="20260127065000 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127065000 +0100" stop="20260127080000 +0100">
-    <title lang="fr">Clips</title>
-    <desc lang="fr">Une sélection de clips vidéo divers pour débuter ou achever la journée en beauté.</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127080000 +0100" stop="20260127083000 +0100">
-    <title lang="fr">N'mix</title>
-    <desc lang="fr">Bienvenue sur la piste de danse ! Vibrez au rythme des scratchs! Les clips vidéos les plus en vogue mixés sur NCI</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127083000 +0100" stop="20260127083500 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127083500 +0100" stop="20260127090000 +0100">
-    <title lang="fr">Nostalgie Hits</title>
-    <desc lang="fr">Les meilleurs hits IVOIRE, AFRIQUE et INTER de la saison 2020-2021 se succèdent sur NCI. Les plus grosses claques sont ici sur NCI dans NOSTALGIE HITS</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127090000 +0100" stop="20260127093000 +0100">
-    <title lang="fr">Ivory Best</title>
-    <desc lang="fr">Chaque semaine, coup de projecteur sur les talents, innovations et réussites qui font rayonner la Côte d'Ivoire, dans une émission inspirante et 100 % positive.</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127093000 +0100" stop="20260127095000 +0100">
-    <title lang="fr">La quotidienne info</title>
-    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127095000 +0100" stop="20260127102000 +0100">
-    <title lang="fr">La quotidienne info</title>
-    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127102000 +0100" stop="20260127104500 +0100">
-    <title lang="fr">La quotidienne info</title>
-    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127104500 +0100" stop="20260127110000 +0100">
-    <title lang="fr">La quotidienne info</title>
-    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127110000 +0100" stop="20260127112000 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127112000 +0100" stop="20260127113500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127113500 +0100" stop="20260127115500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127115500 +0100" stop="20260127120000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127120000 +0100" stop="20260127122600 +0100">
-    <title lang="fr">Castes, les amours interdites - S01E06</title>
-    <desc lang="fr">Lamine Koulibaly, patriarche implacable, cherche à consolider son empire familial à travers des alliances stratégiques. Mais ses desseins se heurtent à la volonté de sa femme Awa, aux ambitions troubles de Rokhya, une femme aussi séduisante que manipulatrice, et aux ambitions de ses enfants. Entre mariages arrangés et amours interdites, la série explore la lente dislocation d'une famille rongée de l'intérieur par des doubles vies sentimentales.</desc>
-    <category lang="fr">Série / Série dramatique</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127122600 +0100" stop="20260127123000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127123000 +0100" stop="20260127134500 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Les chroniqueurs "dépaporisent" l'actu des people sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127134500 +0100" stop="20260127135000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127135000 +0100" stop="20260127140000 +0100">
-    <title lang="fr">NCI JT 12h50</title>
-    <desc lang="fr">L&amp;apos;actualité de Côte d&amp;apos;Ivoire et du monde en images sur NCI.</desc>
-    <category lang="fr">Divers / Journal</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127140000 +0100" stop="20260127140500 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127140500 +0100" stop="20260127142500 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127142500 +0100" stop="20260127144000 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127144000 +0100" stop="20260127150000 +0100">
-    <title lang="fr">Les femmes d'ici</title>
-    <desc lang="fr">Votre magazine 100% féminin co-animé par Khady Touré, Aurélie Éliam, Yasmine Réda et Deeja, destiné aux femmes d'ici et d'ailleurs autour de thématiques actuelles, de développement et bien d'autres sujets.</desc>
-    <category lang="fr">Magazine / Magazine de la femme</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127150000 +0100" stop="20260127150500 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127150500 +0100" stop="20260127153000 +0100">
-    <title lang="fr">Une note d'espoir - S01E129</title>
-    <desc lang="fr">Sol est une jeune femme ambitieuse et travailleuse qui se voit offrir une opportunité unique : devenir choriste pour un chanteur de funk renommé. Cette proposition lui permettrait de renouer avec sa passion de jeunesse pour la danse. Très engagée dans sa communauté, Sol se retrouve tiraillée entre les attentes de sa famille, les jugements de sa communauté religieuse et son désir de s'épanouir sur scène. Cette nouvelle chance va la confronter à son passé, lui permettant de retrouver son premier amour tout en la mettant face à des choix cornéliens.</desc>
-    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127153000 +0100" stop="20260127155500 +0100">
-    <title lang="fr">Une note d'espoir</title>
-    <desc lang="fr">Sol est une jeune femme ambitieuse et travailleuse qui se voit offrir une opportunité unique : devenir choriste pour un chanteur de funk renommé. Cette proposition lui permettrait de renouer avec sa passion de jeunesse pour la danse. Très engagée dans sa communauté, Sol se retrouve tiraillée entre les attentes de sa famille, les jugements de sa communauté religieuse et son désir de s'épanouir sur scène. Cette nouvelle chance va la confronter à son passé, lui permettant de retrouver son premier amour tout en la mettant face à des choix cornéliens.</desc>
-    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127155500 +0100" stop="20260127160000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127160000 +0100" stop="20260127162600 +0100">
-    <title lang="fr">Castes, les amours interdites - S01E06</title>
-    <desc lang="fr">Lamine Koulibaly, patriarche implacable, cherche à consolider son empire familial à travers des alliances stratégiques. Mais ses desseins se heurtent à la volonté de sa femme Awa, aux ambitions troubles de Rokhya, une femme aussi séduisante que manipulatrice, et aux ambitions de ses enfants. Entre mariages arrangés et amours interdites, la série explore la lente dislocation d'une famille rongée de l'intérieur par des doubles vies sentimentales.</desc>
-    <category lang="fr">Série / Série dramatique</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127162600 +0100" stop="20260127163000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127163000 +0100" stop="20260127165600 +0100">
-    <title lang="fr">Kiu - S01E60</title>
-    <desc lang="fr">KIU est une histoire d&amp;apos;amour, désir et de vengeance. L&amp;apos;histoire suit Alisha (Celestine Gachuhi), épouse parfaite d&amp;apos;Alex (Blessing Lung&amp;apos;aho), dont le monde s&amp;apos;écroule après avoir découvert la liaison de son mari avec sa meilleure amie, Diana (Anita Wawuda). Elle se lance alors dans une quête de vengeance envers ceux qu&amp;apos;elle chérissait et en qui elle avait confiance après leur trahison.</desc>
-    <category lang="fr">Série / Série dramatique</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127165600 +0100" stop="20260127170000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127170000 +0100" stop="20260127173700 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127173700 +0100" stop="20260127175700 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127175700 +0100" stop="20260127181500 +0100">
-    <title lang="fr">Showbuzz</title>
-    <desc lang="fr">Du lundi au vendredi, Dj Mulukuku, Ozone et Carina Style \" dépaporisent \" l'actu des people à 11H45 sur NCI, la Nouvelle Chaine Ivoirienne.</desc>
-    <category lang="fr">Magazine / Magazine du show-biz</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127181500 +0100" stop="20260127183000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127183000 +0100" stop="20260127193000 +0100">
-    <title lang="fr">Ivory Best</title>
-    <desc lang="fr">Chaque semaine, coup de projecteur sur les talents, innovations et réussites qui font rayonner la Côte d'Ivoire, dans une émission inspirante et 100 % positive.</desc>
-    <category lang="fr">Divers / Clips</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127193000 +0100" stop="20260127194500 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127194500 +0100" stop="20260127200000 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127200000 +0100" stop="20260127201500 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127201500 +0100" stop="20260127203000 +0100">
-    <title lang="fr">La télé d'ici</title>
-    <desc lang="fr">Autour de Cheick Yvhane et ses chroniqueurs, les acteurs majeurs de la société ivoirienne et d&amp;apos;Afrique se succèdent et se prononcent sur les sujets d&amp;apos;intérêt général dans une ambiance bon enfant.</desc>
-    <category lang="fr">Divers / Talk-show</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127203000 +0100" stop="20260127205000 +0100">
-    <title lang="fr">La quotidienne info</title>
-    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127205000 +0100" stop="20260127211000 +0100">
-    <title lang="fr">NCI News</title>
-    <desc lang="fr">Le point sur l'actualité de la journée dans un format facilement accessible.</desc>
-    <category lang="fr">Divers / Journal</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127211000 +0100" stop="20260127221500 +0100">
-    <title lang="fr">La quotidienne info</title>
-    <desc lang="fr">L'essentiel de l'actualité du jour, les grands sujets qui font débat, des invités qui répondent aux questions et des duels d'opinions francs et sans filtre.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127221500 +0100" stop="20260127221700 +0100">
-    <title lang="fr">Météo</title>
-    <desc lang="fr">Les prévisions météorologiques sur la Côte d'Ivoire présentée par Maïmouna Hébrard</desc>
-    <category lang="fr">Divers / Météo</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127221700 +0100" stop="20260127223000 +0100">
-    <title lang="fr">Focus faits divers</title>
-    <desc lang="fr">Tous les lundis à 20h15, NCI revient sur ces histoires fortes qui ont marqué l&amp;apos;actualité et les mémoires de la société ivoirienne. Faits insolites, témoigjages palpitants, drames, issues heureuses... FOCUS FAITS DIVERS, l&amp;apos;actualité des faits divers présentée par Evelyne DÉBA, tous les lundis à 20h15 sur NCI.</desc>
-    <category lang="fr">Magazine / Magazine de société</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127223000 +0100" stop="20260127225600 +0100">
-    <title lang="fr">Castes, les amours interdites - S01E07</title>
-    <desc lang="fr">Lamine Koulibaly, patriarche implacable, cherche à consolider son empire familial à travers des alliances stratégiques. Mais ses desseins se heurtent à la volonté de sa femme Awa, aux ambitions troubles de Rokhya, une femme aussi séduisante que manipulatrice, et aux ambitions de ses enfants. Entre mariages arrangés et amours interdites, la série explore la lente dislocation d'une famille rongée de l'intérieur par des doubles vies sentimentales.</desc>
-    <category lang="fr">Série / Série dramatique</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127225600 +0100" stop="20260127230000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127230000 +0100" stop="20260127232600 +0100">
-    <title lang="fr">Cash Cache - S01E01</title>
-    <desc lang="fr">Cash-Cache, c'est l'histoire du braquage de la Banque Municipale de Côte d'Ivoire (BMCI), qui est transformé en prise d'otages par Lino,le chef des gangsters, pour assouvir une vengeance personnelle. D'un côté, Willy, l'inspecteur aux commandes des opérations et de l'autre Lino, deux adversaires, fins stratèges, vont alors entamer une bataille et révéler les secrets de leur passé commun et de leur amitié. Comme au jeu d'échecs, les pions sont poussés, contrés et certains sacrifiés. Mais, ils devront faire face à leurs cas de conscience, à des trahisons dans leurs propres camps et à la vérité sur leur ancienne vie.</desc>
-    <category lang="fr">Série / Série d'action</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127232600 +0100" stop="20260127235200 +0100">
-    <title lang="fr">Cash Cache - S01E02</title>
-    <desc lang="fr">" Cash-Cache ", c'est l'histoire du braquage de la Banque Municipale de Côte d'Ivoire (BMCI), qui est transformé en prise d'otages par Lino (Kané Mahoula) le chef des gangsters, pour assouvir une vengeance personnelle. D'un côté, Willy (Nicolas Mouen), l'inspecteur aux commandes des opérations et de l'autre Lino, deux adversaires, fins stratèges, vont alors entamer une bataille et révéler les secrets de leur passé commun et de leur amitié. Comme au jeu d'échecs, les pions sont poussés, contrés et certains sacrifiés. Mais, ils devront faire face à leurs cas de conscience, à des trahisons dans leurs propres camps et à la vérité sur leur ancienne vie.</desc>
-    <category lang="fr">Série / Série d'action</category>
-  </programme>
-  <programme channel="oqee.1031" start="20260127235200 +0100" stop="20260128000000 +0100">
-    <title lang="fr">Comblage</title>
-    <desc lang="fr">De courts moments présentés entre deux programmes.</desc>
-    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.1033" start="20260127010000 +0100" stop="20260127070000 +0100">
     <title lang="fr">DMC Drama</title>
@@ -59294,7 +59291,7 @@
     <category lang="fr">Magazine / Magazine historique</category>
   </programme>
   <programme channel="oqee.1332" start="20260127080000 +0100" stop="20260127080100 +0100">
-    <title lang="fr">Minute of Silence</title>
+    <title lang="fr">Minuta tišine</title>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
   <programme channel="oqee.1332" start="20260127080100 +0100" stop="20260127083000 +0100">
@@ -59316,7 +59313,7 @@
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.1332" start="20260127110000 +0100" stop="20260127110100 +0100">
-    <title lang="fr">Minute of Silence</title>
+    <title lang="fr">Minuta tišine</title>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
   <programme channel="oqee.1332" start="20260127110100 +0100" stop="20260127112000 +0100">
@@ -63106,84 +63103,6 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
     <title lang="fr">Avec ou Sans Joker - S01E14</title>
     <desc lang="fr">"Avec ou Sans Joker" est un quiz présenté par Bruno Guillon, où les candidats répondent à des questions de culture G. Ils peuvent utiliser des jokers stratégiques pour tenter de gagner de l'argent.</desc>
   </programme>
-  <programme channel="oqee.1366" start="20260127000337 +0100" stop="20260127011209 +0100">
-    <title lang="fr">Immigration en Australie : les camps de la honte</title>
-    <desc lang="fr">Ce sont deux îles perdues dans l’océan pacifique. Deux minuscules îles, parmi les plus pauvres du monde. Leurs noms : Manus et Nauru. Rares sont ceux qui connaissent leur existence. Pourtant, ces îlots cachent une situation que le grand pays voisin, l’Australie, voudrait à tout prix garder secrète. C’est en effet là, que, depuis 2001 et surtout 2012, il enferme, dans des conditions absolument déplorables, les migrants qui tentent d’atteindre ses côtes.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127011210 +0100" stop="20260127033233 +0100">
-    <title lang="fr">lataupe</title>
-  </programme>
-  <programme channel="oqee.1366" start="20260127033233 +0100" stop="20260127043652 +0100">
-    <title lang="fr">CO2, le casse du siècle</title>
-    <desc lang="fr">En quelques mois seulement, de novembre 2008 à juin 2009, la fraude à la TVA sur les quotas carbone a permis à des escrocs de détourner 1 milliard 600 millions d'euros en France et plus de 6 milliards au niveau européen.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127043652 +0100" stop="20260127053837 +0100">
-    <title lang="fr">Gladiator</title>
-    <desc lang="fr">Double champion du monde de motocross, Marvin Musquin a conquis les coeurs et le respect des Américains. Mais il n’a pas voulu s’arrêter là. Après être monté sur le podium plusieurs dizaines de fois en catégorie 250 centimètres cubes, le jeune Français qui risque sa vie en permanence a décidé de passer un cap décisif : concourir dans la catégorie reine, en 450 centimètres cubes. Alors qu'il est habituellement impossible de suivre ainsi un champion en coulisses, ce film se glisse dans l'intimité de sa préparation.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127053838 +0100" stop="20260127064023 +0100">
-    <title lang="fr">Gladiator 2</title>
-    <desc lang="fr">Sa préparation enfin terminée, Marvin Musquin vit sa première saison dans le championnat américain de super cross catégorie 450cm3. Ce film suit le pilote français de 27 ans, devenu une star aux États-Unis, du début à la fin, dans l'intimité de sa vie de famille, dans sa rage de vaincre, dans ses doutes et blessures, et dans ses rivalités avec les autres pilotes. Une plongée haletante dans la vie d'un champion.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127064023 +0100" stop="20260127082104 +0100">
-    <title lang="fr">Le vrai du faux</title>
-    <desc lang="fr">Il était une fois le réalisateur Armel Hostiou qui, un beau jour, découvre que son identité et ses photos personnelles sont utilisées pour alimenter un compte Facebook semblant arnaquer des femmes en organisant de faux castings en République Démocratique du Congo. L’usurpé s’envole alors vers Kinshasa à la recherche de son usurpateur, ce qui équivaut à peu près à chercher une aiguille dans mille bottes de foin.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127082105 +0100" stop="20260127093743 +0100">
-    <title lang="fr">Moi, policier, j’ai tué un homme</title>
-    <desc lang="fr">Pour la première fois, des policiers auteurs de ce qu'on appelait autrefois des "bavures" témoignent face à la caméra, levant ainsi le plus grand tabou au sein des forces de l'ordre françaises.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127093743 +0100" stop="20260127104557 +0100">
-    <title lang="fr">Marseille, capitale du rap</title>
-    <desc lang="fr">Pour la première fois, des policiers auteurs de ce qu'on appelait autrefois des "bavures" témoignent face à la caméra, levant ainsi le plus grand tabou au sein des forces de l'ordre françaises.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127104557 +0100" stop="20260127115031 +0100">
-    <title lang="fr">Tant qu'ils ne retrouvent pas le corps - Agnès ne répond plus</title>
-    <desc lang="fr">Nice, 1977. Sur la Promenade des Anglais, deux casinos se disputent la mainmise sur la Riviera : le Palais de la Méditerranée de Renée Le Roux face au clinquant Ruhl. Dans ce duel, sa fille Agnès, 29 ans, rêve d’échapper à un héritage encombrant. Séduite par l’avocat Maurice Agnelet, elle prend une décision qui scellera le destin de sa famille. Peu de temps après, Agnès disparaît.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127115031 +0100" stop="20260127125505 +0100">
-    <title lang="fr">Tant qu'ils ne retrouvent pas le corps - Père et fils</title>
-    <desc lang="fr">Condamné pour ses malversations financières, Maurice Agnelet sort de prison sous l’œil implacable de Renée Le Roux, décidée à percer le mystère de la disparition de sa fille. Son obstination fissure l’alibi d’Agnelet et relance l’affaire. Alors qu’un procès pour assassinat se profile, père et fils, Maurice et Guillaume, s’enferment dans une préparation glaçante, filmée comme une répétition générale.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127125506 +0100" stop="20260127135729 +0100">
-    <title lang="fr">Tant qu'ils ne retrouvent pas le corps - La déposition</title>
-    <desc lang="fr">Mars 2014. Maurice Agnelet, 76 ans, se défend une nouvelle fois devant les assises, soutenu par son plus jeune fils, Thomas, et son ex-femme. Mais au fil du procès, une voix inattendue surgit : celle de Guillaume, l’aîné, qui jusque-là avait toujours défendu son père. Sa déposition fait l’effet d’un coup de tonnerre.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127135729 +0100" stop="20260127145019 +0100">
-    <title lang="fr">La clinique du Dr. Karbaat I - Un enfant à tout prix</title>
-    <desc lang="fr">Mais comment le Dr Jan Karbaat a-t-il pu se faire passer pour un bienfaiteur de l'humanité pendant des années alors qu'il inséminait les femmes venues faire une fécondation in vitro avec son propre sperme ? La réponse à travers documents d'époque et témoignages de victimes.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127145020 +0100" stop="20260127154307 +0100">
-    <title lang="fr">La clinique du Dr. Karbaat II - La descendance</title>
-    <desc lang="fr">Comment vit-on lorsqu'on découvre, à l'âge adulte, que son père biologique n'est pas celui qu'on croyait, et qu'on a 90 demi-soeurs et demi-frères ? Les "enfants" du Dr Karbaat répondent a cette question chacun à leurs manières, y compris les plus surprenantes.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127154308 +0100" stop="20260127163527 +0100">
-    <title lang="fr">La clinique du Dr. Karbaat III - La quête des origines</title>
-    <desc lang="fr">L'affaire du Dr Karbaat a fait boule de neige : puisque sa clinique ne respectait aucune règle, de nombreux autres donneurs ayant parfois engendré plus de 200 enfants se sont révélés les uns après les autres. Ils témoignent dans cet épisode.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127163528 +0100" stop="20260127181424 +0100">
-    <title lang="fr">Lève-toi et marche</title>
-    <desc lang="fr">Il m'est arrivé une histoire de dingue. Jamais je n'aurais imaginé une dinguerie pareille. Je me suis en effet retrouvé brusquement paraplégique suite à un accident vasculaire. Les médecins ne savaient pas si je pourrais un jour remarcher.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127181424 +0100" stop="20260127191746 +0100">
-    <title lang="fr">Lève-toi et marche 2</title>
-    <desc lang="fr">Dans un premier documentaire bouleversant "Lève-toi et marche", Matthieu Firmin filmait son combat pour remarcher après être devenu paraplégique suite à un accident vasculaire. Dans le second volet, il part à la découverte de ses enfants, ils vont enquêter sur leur père et les circonstances de leur naissance.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127191746 +0100" stop="20260127204744 +0100">
-    <title lang="fr">Berlusconi, pouvoir et décadence</title>
-    <desc lang="fr">Berlusconi, pouvoir et décadence</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127204744 +0100" stop="20260127215054 +0100">
-    <title lang="fr">Opium en Indochine, une affaire d’état</title>
-    <desc lang="fr">Et si on vous disait que la France avait été un narco-État pendant presque 50 ans ? De 1897 à 1945, la Régie de l’Opium, créée par les autorités coloniales en Indochine, contrôle la production et la vente du puissant psychotrope dans la région. Une manne qui financera en partie la Première Guerre mondiale, et qui plongera les années folles parisiennes dans des volutes de fumée.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127215055 +0100" stop="20260127225927 +0100">
-    <title lang="fr">Immigration en Australie : les camps de la honte</title>
-    <desc lang="fr">Ce sont deux îles perdues dans l’océan pacifique. Deux minuscules îles, parmi les plus pauvres du monde. Leurs noms : Manus et Nauru. Rares sont ceux qui connaissent leur existence. Pourtant, ces îlots cachent une situation que le grand pays voisin, l’Australie, voudrait à tout prix garder secrète. C’est en effet là, que, depuis 2001 et surtout 2012, il enferme, dans des conditions absolument déplorables, les migrants qui tentent d’atteindre ses côtes.</desc>
-  </programme>
-  <programme channel="oqee.1366" start="20260127225927 +0100" stop="20260128011950 +0100">
-    <title lang="fr">lataupe</title>
-  </programme>
   <programme channel="oqee.1371" start="20260127000000 +0100" stop="20260127002100 +0100">
     <title lang="fr">True romance with sweet blonde teen</title>
     <desc lang="fr">Sweet blonde teen Lilly Bella is adorable in her white romper, and kisses her loving boyfriend Bangkok. Bangkok takes down the straps of her outfit and sucks her pert boobs, then Lilly takes out her boyfriend's dick so she can stroke it.</desc>
@@ -64151,87 +64070,87 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.1388" start="20260127003700 +0100" stop="20260127014250 +0100">
     <title lang="fr">Boss</title>
-    <desc lang="fr">Après la découverte d’une maladie grave, le maire Tom Kane doit lancer la primaire pour l’élection du gouverneur tout en tentant de renouer avec sa femme et sa fille.</desc>
+    <desc lang="fr">Avec la publication d’informations longtemps enfouies, Kane se bat avec les médias pour le contrôle de l’opinion publique. Son camp doit tout faire pour garder le contrôle et l’avantage.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127014251 +0100" stop="20260127024959 +0100">
     <title lang="fr">Boss</title>
-    <desc lang="fr">Après la découverte d’une maladie grave, le maire Tom Kane doit lancer la primaire pour l’élection du gouverneur tout en tentant de renouer avec sa femme et sa fille.</desc>
+    <desc lang="fr">Avec la publication d’informations longtemps enfouies, Kane se bat avec les médias pour le contrôle de l’opinion publique. Son camp doit tout faire pour garder le contrôle et l’avantage.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127025000 +0100" stop="20260127034404 +0100">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Cheryl Miller est une jeune étudiante belle et populaire de Saginaw, dans le Michigan. Mais le 15 juin 1974, elle est brutalement violée, étranglée et laissée pour morte sur le sol de sa chambre.</desc>
+    <desc lang="fr">Un appel au 911 conduit la police de Washington D.C. au domicile de Dennis Dolinger, un militant anti-criminalité très en vue.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127034405 +0100" stop="20260127043809 +0100">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Cheryl Miller est une jeune étudiante belle et populaire de Saginaw, dans le Michigan. Mais le 15 juin 1974, elle est brutalement violée, étranglée et laissée pour morte sur le sol de sa chambre.</desc>
+    <desc lang="fr">Un appel au 911 conduit la police de Washington D.C. au domicile de Dennis Dolinger, un militant anti-criminalité très en vue.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127043810 +0100" stop="20260127050453 +0100">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un cadavre découvert à l'extérieur d'une église mène à un monde de sexe, de drogue et de farces d'Halloween.</desc>
+    <desc lang="fr">Un aspirant cannibale trouve un ami en ligne qui fantasme sur le fait d'être mangé. Et lorsque les deux hommes organisent un dîner où l'invité d'honneur est aussi le plat principal, la soirée macabre se transforme en un effroyable bain de sang.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127050454 +0100" stop="20260127053132 +0100">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un cadavre découvert à l'extérieur d'une église mène à un monde de sexe, de drogue et de farces d'Halloween.</desc>
+    <desc lang="fr">Un aspirant cannibale trouve un ami en ligne qui fantasme sur le fait d'être mangé. Et lorsque les deux hommes organisent un dîner où l'invité d'honneur est aussi le plat principal, la soirée macabre se transforme en un effroyable bain de sang.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127053133 +0100" stop="20260127062008 +0100">
     <title lang="fr">The Dresden Files</title>
-    <desc lang="fr">Une belle jeune femme demande à Harry à l'aider à récupérer de l'argent volé. Bientôt, Dresden découvre la connexion entre son dossier et un démon surnaturel… Sa cliente lui a caché quelque chose.</desc>
+    <desc lang="fr">Dresden se heurte au Conseil lorsqu'ils le soupçonnent d'être impliqué dans les morts d'un étudiant et d'un gangster du coin, qui ont succombé à de la magie noire.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127062009 +0100" stop="20260127070850 +0100">
     <title lang="fr">The Dresden Files</title>
-    <desc lang="fr">Une belle jeune femme demande à Harry à l'aider à récupérer de l'argent volé. Bientôt, Dresden découvre la connexion entre son dossier et un démon surnaturel… Sa cliente lui a caché quelque chose.</desc>
+    <desc lang="fr">Dresden se heurte au Conseil lorsqu'ils le soupçonnent d'être impliqué dans les morts d'un étudiant et d'un gangster du coin, qui ont succombé à de la magie noire.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127070851 +0100" stop="20260127081528 +0100">
     <title lang="fr">Agathe Koltès</title>
-    <desc lang="fr">En retrouvant le cadavre d’Hervé Leguen, le célèbre navigateur, Agathe s’aperçoit que la navigation en solitaire est une grande famille, mais dont les membres pourraient bien s’entretuer.</desc>
+    <desc lang="fr">Le corps d’un kite-surfeur est retrouvé en mer accroché à son aile. Le groupe enquêtes se plonge dans le milieu du kite-surf et découvre les tensions existant entre kite-sufers et pêcheurs, mais aussi entre compétiteurs d’un sport de plus en plus populaire.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127081529 +0100" stop="20260127091952 +0100">
     <title lang="fr">Agathe Koltès</title>
-    <desc lang="fr">En retrouvant le cadavre d’Hervé Leguen, le célèbre navigateur, Agathe s’aperçoit que la navigation en solitaire est une grande famille, mais dont les membres pourraient bien s’entretuer.</desc>
+    <desc lang="fr">Le corps d’un kite-surfeur est retrouvé en mer accroché à son aile. Le groupe enquêtes se plonge dans le milieu du kite-surf et découvre les tensions existant entre kite-sufers et pêcheurs, mais aussi entre compétiteurs d’un sport de plus en plus populaire.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127091953 +0100" stop="20260127101040 +0100">
     <title lang="fr">Leverage: Redemption</title>
-    <desc lang="fr">L'équipe affronte un brillant développeur de logiciels qui vend un système de reconnaissance faciale révolutionnaire qui menace la vie privée de tout le monde sauf la sienne.</desc>
+    <desc lang="fr">L'équipe explore la mémoire défaillante d'un escroc légendaire pour essayer de découvrir son meilleur coup avant que son ancien gardien abusif ne mette la main dessus.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127101041 +0100" stop="20260127110126 +0100">
     <title lang="fr">Leverage: Redemption</title>
-    <desc lang="fr">L'équipe affronte un brillant développeur de logiciels qui vend un système de reconnaissance faciale révolutionnaire qui menace la vie privée de tout le monde sauf la sienne.</desc>
+    <desc lang="fr">L'équipe explore la mémoire défaillante d'un escroc légendaire pour essayer de découvrir son meilleur coup avant que son ancien gardien abusif ne mette la main dessus.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127110127 +0100" stop="20260127124119 +0100">
     <title lang="fr">Une femme d'honneur</title>
-    <desc lang="fr">Deux adolescents sont retrouvés enfermé dans une grotte détruite par une explosion d'origine criminelle. Son autonomie en oxygène est limitée et Isabelle a très peu de temps pour les sortir de là.</desc>
+    <desc lang="fr">Sur la piste d'un gang de braconniers, l'adjudant Florent et le gendarme Cluzeau partent enquêter en forêt. En arrivant à la lisière de la forêt, ils aperçoivent un nuage de fumée s'échappant des arbres.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127124120 +0100" stop="20260127142316 +0100">
     <title lang="fr">Une femme d'honneur</title>
-    <desc lang="fr">Deux adolescents sont retrouvés enfermé dans une grotte détruite par une explosion d'origine criminelle. Son autonomie en oxygène est limitée et Isabelle a très peu de temps pour les sortir de là.</desc>
+    <desc lang="fr">Sur la piste d'un gang de braconniers, l'adjudant Florent et le gendarme Cluzeau partent enquêter en forêt. En arrivant à la lisière de la forêt, ils aperçoivent un nuage de fumée s'échappant des arbres.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127142317 +0100" stop="20260127160245 +0100">
     <title lang="fr">Une femme d'honneur</title>
-    <desc lang="fr">Deux adolescents sont retrouvés enfermé dans une grotte détruite par une explosion d'origine criminelle. Son autonomie en oxygène est limitée et Isabelle a très peu de temps pour les sortir de là.</desc>
+    <desc lang="fr">Sur la piste d'un gang de braconniers, l'adjudant Florent et le gendarme Cluzeau partent enquêter en forêt. En arrivant à la lisière de la forêt, ils aperçoivent un nuage de fumée s'échappant des arbres.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127160246 +0100" stop="20260127174322 +0100">
     <title lang="fr">Baltic Crimes</title>
-    <desc lang="fr">Les relations entre Karin et Julia sont toujours compliquées. Sophie, la fille de Julia découvre que sa mère a une liaison avec un collègue polonais. Mais Julia doit mener une enquête sur la mort d'une patronne de supérette retrouvée morte à moitié nue dans un parc polonais.</desc>
+    <desc lang="fr">Un bateau brûle sur le port, sous les yeux de Simone, une adolescente en détresse. Sophie tombe amoureuse de Jacob Emmerich, qui s’avère être le fils d’un couple mort dans un naufrage, dix ans plus tôt, à cause de ce même bateau. Karin et Julia vont mener l’enquête, chacune de leur côté.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127174323 +0100" stop="20260127184909 +0100">
     <title lang="fr">Bron</title>
-    <desc lang="fr">À Copenhague, l'acquittement de quatre policiers accusés d'avoir battu à mort un jeune immigré fait scandale. Peu de temps après, l'un des prévenus disparait. Le tueur, qui est derrière cet enlèvement, prétend ainsi dénoncer l'échec de la politique d'immigration.</desc>
+    <desc lang="fr">Les prisonniers du navire sont porteurs d'une forme rare de peste pulmonaire. L'action est revendiquée par quatre militants affublés de masques d'animaux. L'enquête s'oriente vers d'anciens membres d'une association écologiste.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127184910 +0100" stop="20260127195443 +0100">
     <title lang="fr">Bron</title>
-    <desc lang="fr">À Copenhague, l'acquittement de quatre policiers accusés d'avoir battu à mort un jeune immigré fait scandale. Peu de temps après, l'un des prévenus disparait. Le tueur, qui est derrière cet enlèvement, prétend ainsi dénoncer l'échec de la politique d'immigration.</desc>
+    <desc lang="fr">Les prisonniers du navire sont porteurs d'une forme rare de peste pulmonaire. L'action est revendiquée par quatre militants affublés de masques d'animaux. L'enquête s'oriente vers d'anciens membres d'une association écologiste.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127195444 +0100" stop="20260127210017 +0100">
     <title lang="fr">Bron</title>
-    <desc lang="fr">À Copenhague, l'acquittement de quatre policiers accusés d'avoir battu à mort un jeune immigré fait scandale. Peu de temps après, l'un des prévenus disparait. Le tueur, qui est derrière cet enlèvement, prétend ainsi dénoncer l'échec de la politique d'immigration.</desc>
+    <desc lang="fr">Les prisonniers du navire sont porteurs d'une forme rare de peste pulmonaire. L'action est revendiquée par quatre militants affublés de masques d'animaux. L'enquête s'oriente vers d'anciens membres d'une association écologiste.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127210018 +0100" stop="20260127225932 +0100">
     <title lang="fr">Une femme d'honneur</title>
-    <desc lang="fr">Deux adolescents sont retrouvés enfermé dans une grotte détruite par une explosion d'origine criminelle. Son autonomie en oxygène est limitée et Isabelle a très peu de temps pour les sortir de là.</desc>
+    <desc lang="fr">Sur la piste d'un gang de braconniers, l'adjudant Florent et le gendarme Cluzeau partent enquêter en forêt. En arrivant à la lisière de la forêt, ils aperçoivent un nuage de fumée s'échappant des arbres.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260127225933 +0100" stop="20260128005229 +0100">
     <title lang="fr">Une femme d'honneur</title>
-    <desc lang="fr">Deux adolescents sont retrouvés enfermé dans une grotte détruite par une explosion d'origine criminelle. Son autonomie en oxygène est limitée et Isabelle a très peu de temps pour les sortir de là.</desc>
+    <desc lang="fr">Sur la piste d'un gang de braconniers, l'adjudant Florent et le gendarme Cluzeau partent enquêter en forêt. En arrivant à la lisière de la forêt, ils aperçoivent un nuage de fumée s'échappant des arbres.</desc>
   </programme>
   <programme channel="oqee.1389" start="20260127003000 +0100" stop="20260127003400 +0100">
     <title lang="fr">Sing&amp;Spell</title>
@@ -66795,7 +66714,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="oqee.1407" start="20260127080000 +0100" stop="20260127080100 +0100">
-    <title lang="fr">Minute of Silence</title>
+    <title lang="fr">Minuta tišine</title>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
   <programme channel="oqee.1407" start="20260127080100 +0100" stop="20260127081000 +0100">
@@ -67210,7 +67129,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.16" start="20260127145000 +0100" stop="20260127160500 +0100">
     <title lang="fr">Defendant - S01E09</title>
-    <desc lang="fr">Park Jung-Woo se réveille un jour en prison. Accusé du meurtre de sa femme et de sa fille dont le corps n'a pas encore été retrouvé, il ne se souvient cependant de rien.</desc>
+    <desc lang="fr">Park Jung-Woo est un procureur au bureau de Seoul. Un jour, il se réveille enfermé dans un poste de police. Il est atteint d'amnésie. Park Jung-Woo est condamné à mort et doit maintenant prouver son innocence.</desc>
     <category lang="fr">Série / Série de suspense</category>
   </programme>
   <programme channel="oqee.16" start="20260127160500 +0100" stop="20260127163500 +0100">
@@ -69073,7 +68992,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.269" start="20260127144400 +0100" stop="20260127154000 +0100">
     <title lang="fr">Versus : an alt porn story</title>
-    <desc lang="fr">Dive into the behind-the-scenes of the Playboy Netherlands January 2025 cover shoot, where actress Sophie Bouquet transforms under the lens of Everon Jackson Hooi. Inspired by the magazine's golden age, this session boldly reinterprets the glamour and sensuality of the past. Guided by the artistic vision of Amanda Elise K., each image captures the essence of a modern icon, reaffirming Playboy as a reference of desire and style.</desc>
+    <desc lang="fr">Dans les coulisses du Porn Film Festival de Berlin 2023, des voix singulières s'élèvent : acteurs, performeurs et spectateurs partagent leurs expériences sur la liberté des corps, la diversité des sexualités, et la manière de montrer le plaisir. Versus an Alt porn story, est une enquête de fond sur le cinéma alternatif au regard de la pornographie mainstream produite par les grands studios internationaux.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="oqee.269" start="20260127154000 +0100" stop="20260127162300 +0100">
@@ -69563,7 +69482,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
     <category lang="fr">Magazine / Magazine de l'automobile</category>
   </programme>
   <programme channel="oqee.291" start="20260127142400 +0100" stop="20260127151300 +0100">
-    <title lang="fr">Fast life avec sung kang</title>
+    <title lang="fr">Fast life avec sung kang - S01E01</title>
     <desc lang="fr">Sung se rend au Royaume-Uni, berceau de certaines des marques automobiles les plus emblématiques au monde, comme Land Rover, Rolls Royce et Jaguar. C'est une terre riche en histoire, et Sung rencontre les personnes qui la rendent si mémorable.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
