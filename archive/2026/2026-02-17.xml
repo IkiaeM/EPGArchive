@@ -688,6 +688,18 @@
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
   </channel>
+  <channel id="TV5MondeAsie.fr">
+    <display-name>TV5 Monde Asie</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
+  </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
+  </channel>
+  <channel id="TV5MondePacifique.fr">
+    <display-name>TV5 Monde Pacifique</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
+  </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
@@ -723,6 +735,10 @@
   <channel id="Teva.fr">
     <display-name>Téva</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~4421904d874fa072.png/480x480/quality/100/teva.png"/>
+  </channel>
+  <channel id="Tivi5.fr">
+    <display-name>Tivi5</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcAytYRQf0WCYv17p-4MHv0YKLWK-Rmh2JFMZmqzrv_S-RjqXHy9Nnht9TQ&amp;amp;s"/>
   </channel>
   <channel id="Toonami.fr">
     <display-name>Warner TV Next</display-name>
@@ -5168,7 +5184,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260217153000 +0100" stop="20260217160000 +0100">
     <title lang="fr">Tiny Toons Looniversity - S01E08</title>
-    <desc lang="fr">Babs et Buster sont ravis d'aller à la fac, mais supporteront-ils de cuisiner pour le chef de l'école ?</desc>
+    <desc lang="fr">Comme tous les ans, Cool Cat doit faire une visite de la Loo Acmé pour vois si elle reste première au classement des looniversités les plus cools. Mais cette année, c'est son fils Stylet Cat qui vient à sa place.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260217160000 +0100" stop="20260217161000 +0100">
@@ -5681,6 +5697,11 @@
     <desc lang="fr">Une compilation des meilleurs titres qui ont fait ou qui font l'actualité du rap et du hip hop.</desc>
     <category lang="fr">Divers / Clips</category>
   </programme>
+  <programme channel="CStar.ch" start="20260217050000 +0100" stop="20260217065200 +0100">
+    <title lang="fr">Top Clip</title>
+    <desc lang="fr">Dance, pop-rock, R'n'b, hip-hop, rap : «Top clip» offre une programmation éclectique des meilleurs clips du moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
   <programme channel="CStar.ch" start="20260217065200 +0100" stop="20260217070000 +0100">
     <title lang="fr">L'éphéméride</title>
     <desc lang="fr">Une courte présentation de l'histoire du saint du jour qui se conclut par un dicton.</desc>
@@ -6177,7 +6198,7 @@
   </programme>
   <programme channel="CanalPlus.fr" start="20260217232600 +0100" stop="20260218000700 +0100">
     <title lang="fr">Super plan</title>
-    <desc lang="fr">Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.</desc>
+    <desc lang="fr">SUPER PLAN, c'est la nouvelle émission cinéma de CANAL+. Chaque semaine, Antoine de Caunes vous accueille non plus seul, mais entouré d'une bande de journalistes et d'humoristes : Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra. Ensemble, ils recevront celles et ceux qui font l'actualité du septième art, et aborderont le Cinéma avec expertise, passion et enthousiasme, alliés à l'humeur et la bienveillance qui sont la signature de CANAL+ depuis toujours.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260217011600 +0100" stop="20260217023900 +0100">
@@ -6422,7 +6443,7 @@
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260217184000 +0100" stop="20260217204600 +0100">
     <title lang="fr">Football : Ligue des champions</title>
-    <desc lang="fr">Aux commentaires des rencontres, les voix fortes de la rédaction foot de CANAL+, à l'image de Paul Tchoukriel ou François Marchal. Les meilleurs consultants analysent les matchs avec brio : Laure Boulleau, Samir Nasri, David Ginola, Olivier Dacourt, Sidney Govou, Christophe Jallet, Clément Grenier et beaucoup d'autres. Steve Mandanda, l'ancien gardien iconique de l'OM et de l'Équipe de France, vient enrichir le panel "des consultants CANAL+. De quoi éclairer les prestations olympiennes, ou encore celles de Lucas Chevallier et des autres gardiens de la compétition.</desc>
+    <desc lang="fr">A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260217204600 +0100" stop="20260217210000 +0100">
@@ -6797,12 +6818,12 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217103300 +0100" stop="20260217104400 +0100">
     <title lang="fr">Shane le chef - S01E33</title>
-    <desc lang="fr">A Muchington, où le chef Shane tient un restaurant, le cuisinier n'hésite pas à se lancer dans des aventures culinaires accompagné par sa fill Izzy.</desc>
+    <desc lang="fr">L'énergique et talentueux chef Shane et sa fille Izzy tiennent un restaurant dans la charmante ville de Munchington. A chaque épisode, ces deux passionnés se lancent dans une nouvelle aventure culinaire : battre un record du monde, partir à la recherche d'herbes sauvages en forêt ou encore inventer une recette surprenante.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217104400 +0100" stop="20260217105500 +0100">
     <title lang="fr">Shane le chef - S01E34</title>
-    <desc lang="fr">A Muchington, où le chef Shane tient un restaurant, le cuisinier n'hésite pas à se lancer dans des aventures culinaires accompagné par sa fill Izzy.</desc>
+    <desc lang="fr">L'énergique et talentueux chef Shane et sa fille Izzy tiennent un restaurant dans la charmante ville de Munchington. A chaque épisode, ces deux passionnés se lancent dans une nouvelle aventure culinaire : battre un record du monde, partir à la recherche d'herbes sauvages en forêt ou encore inventer une recette surprenante.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217105500 +0100" stop="20260217110600 +0100">
@@ -7077,32 +7098,32 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217213000 +0100" stop="20260217214000 +0100">
     <title lang="fr">Sam le pompier - S10E05</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217214000 +0100" stop="20260217214900 +0100">
     <title lang="fr">Sam le pompier - S10E07</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217214900 +0100" stop="20260217215900 +0100">
     <title lang="fr">Sam le pompier - S10E08</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217215900 +0100" stop="20260217222200 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E05</title>
-    <desc lang="fr">"Tao et Esteban échappent aux crocs de l'alligator de Pang Zi, grâce à un drôle de petit homme qui, désinvolte, fait diversion au milieu des pirates médusés.Zia pose le Condor sur la berge et nos héros s'y précipitent mais, Pang-Zi décoche une flèche qui provoque la chute du petit homme et d'Esteban...</desc>
+    <title lang="fr">Les mystérieuses cités d'or - S02E05</title>
+    <desc lang="fr">Tao et Esteban parviennent de justesse à échapper aux crocs de l'alligator de Pang Zi grâce à un inconnu qui fait diversion au milieu des pirates.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217222200 +0100" stop="20260217224500 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E06</title>
+    <title lang="fr">Les mystérieuses cités d'or - S02E06</title>
     <desc lang="fr">Les pirates attaquent le navire d'Ambrosius qui se transforme en une incroyable nef volante. En apprenant le contenu du message du Tambour sacré, Ambrosius pense qu'il s'agit très probablement du Dragon Jaune figurant sur un foulard impérial qu'il a en sa possession...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217224500 +0100" stop="20260217230800 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E07</title>
-    <desc lang="fr">Nos héros décident de faire une halte dans la campagne chinoise à la nuit tombée. Là, ils tombent accidentellement sur des brigands (les Foulards Rouges) et doivent leur salut à l'intervention spectaculaire d'un moine combattant Shaolin du nom de Tian Li. Ce dernier les invite au monastère de Shaolin où ils pourront passer la nuit et soigner Mendoza blessé pendant la bagarre.</desc>
+    <title lang="fr">Les mystérieuses cités d'or - S02E07</title>
+    <desc lang="fr">Esteban, Zia et Tao reprennent leur quête des cités d'or à bord du Grand Condor, un oiseau mécanique qui leur permet de voler en utilisant l'énergie solaire. Leurs pérégrinations les entraînent notamment en Chine et au Tibet. Au cours de leur expédition, les enfants rencontrent Ambrosius, un alchimiste français, et se retrouvent poursuivis par le mystérieux Zarès. </desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260217230800 +0100" stop="20260217230900 +0100">
@@ -7222,7 +7243,7 @@
   </programme>
   <programme channel="CanalPlusSport.ch" start="20260217210000 +0100" stop="20260217230100 +0100">
     <title lang="fr">Football : Ligue des champions</title>
-    <desc lang="fr">Aux commentaires des rencontres, les voix fortes de la rédaction foot de CANAL+, à l'image de Paul Tchoukriel ou François Marchal. Les meilleurs consultants analysent les matchs avec brio : Laure Boulleau, Samir Nasri, David Ginola, Olivier Dacourt, Sidney Govou, Christophe Jallet, Clément Grenier et beaucoup d'autres. Steve Mandanda, l'ancien gardien iconique de l'OM et de l'Équipe de France, vient enrichir le panel "des consultants CANAL+. De quoi éclairer les prestations olympiennes, ou encore celles de Lucas Chevallier et des autres gardiens de la compétition.</desc>
+    <desc lang="fr">A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalPlusSport.ch" start="20260217230100 +0100" stop="20260218004200 +0100">
@@ -7357,7 +7378,7 @@
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260217230200 +0100" stop="20260218004500 +0100">
     <title lang="fr">Football : Ligue des champions</title>
-    <desc lang="fr">Aux commentaires des rencontres, les voix fortes de la rédaction foot de CANAL+, à l'image de Paul Tchoukriel ou François Marchal. Les meilleurs consultants analysent les matchs avec brio : Laure Boulleau, Samir Nasri, David Ginola, Olivier Dacourt, Sidney Govou, Christophe Jallet, Clément Grenier et beaucoup d'autres. Steve Mandanda, l'ancien gardien iconique de l'OM et de l'Équipe de France, vient enrichir le panel "des consultants CANAL+. De quoi éclairer les prestations olympiennes, ou encore celles de Lucas Chevallier et des autres gardiens de la compétition.</desc>
+    <desc lang="fr">A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalQ.pt" start="20260217003000 +0100" stop="20260217011000 +0100">
@@ -7622,12 +7643,12 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217010500 +0100" stop="20260217011500 +0100">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E16</title>
-    <desc lang="fr">Après avoir senti l'incroyable gratin de macaronis au fromage et à la truffe de Masami à la cantine, Gumball décide de faire tout ce qu'il peut pour lui aussi goûter à ce plat divin.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217011500 +0100" stop="20260217012500 +0100">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E17</title>
-    <desc lang="fr">En pleine canicule, Richard se démène pour que Gumball et Darwin puissent piquer une tête dans la toute nouvelle piscine de Monsieur Robinson.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217012500 +0100" stop="20260217013500 +0100">
@@ -7714,6 +7735,26 @@
     <title lang="fr">Totally Spies - S07E02</title>
     <desc lang="fr">Le double malfaisant de La Crado, qui est emprisonnée, commet des vols. Les Spies vont s'allier momentanément avec la criminelle pour retrouver son double.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CartoonNetwork.fr" start="20260217051500 +0100" stop="20260217052500 +0100">
+    <title lang="fr">Le monde incroyable de Gumball - S06E25</title>
+    <desc lang="fr">Peter, un nouvel élève, fait sa rentrée au collège d'Elmore. Jusque là, il avait été scolarisé à domicile, et Gumball et Darwin ont quelques difficultés à le comprendre...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CartoonNetwork.fr" start="20260217052500 +0100" stop="20260217053500 +0100">
+    <title lang="fr">Le monde incroyable de Gumball - S06E26</title>
+    <desc lang="fr">Les Ours et leurs homologues Griff, Tom et Isaac, décident de participer à leur émission télévisée favorite. Ils doivent tous cohabiter et éventuellement, tisser des liens.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CartoonNetwork.fr" start="20260217053500 +0100" stop="20260217054500 +0100">
+    <title lang="fr">Le monde incroyable de Gumball - S06E16</title>
+    <desc lang="fr">Gumball et Darwin questionnent le rapport de monsieur Small à l'écologie et à la planète...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CartoonNetwork.fr" start="20260217054500 +0100" stop="20260217060000 +0100">
+    <title lang="fr">Le monde incroyable de Gumball - S06E17</title>
+    <desc lang="fr">Lorsque Gumball dit devant Leslie que les plantes ne servent à rien, ce dernier se vexe et cherche à se venger...</desc>
+    <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217060000 +0100" stop="20260217061000 +0100">
     <title lang="fr">Le monde incroyable de Gumball - S06E04</title>
@@ -7822,7 +7863,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217103000 +0100" stop="20260217104000 +0100">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E15</title>
-    <desc lang="fr">Anaïs commence à vieillir prématurément en raison du stress et de la pression qu'elle ressent à force de devoir s'occuper de son incorrigible famille.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217104000 +0100" stop="20260217105500 +0100">
@@ -7997,7 +8038,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217172500 +0100" stop="20260217173500 +0100">
     <title lang="fr">Teen Titans Go ! - S06E46</title>
-    <desc lang="fr">Les Teen Titans veulent tout tout de suite. Ils ne savent pas ce qu'est la patience. Ils ne peuvent se résoudre à écouter le monologue de leur ennemi Brother Blood décrivant sa nouvelle arme secrète. Tout ce qui les intéresse, c'est de le détruire sans at</desc>
+    <desc lang="fr">Les Teen Titans ne sont pas des ados comme les autres. Grâce à leur super pouvoirs, ils interviennent lorsque le monde court de graves dangers. Avec humour et décontraction, ils sauvent l'univers de tous les périls. A leur tête, Robin, qui a grandi dans un cirque avec ses parents. Il a été adopté par Batman, qui l'a bien entraîné. Il vole aujourd'hui de ses propres ailes, après avoir quitté Gotham City pour Jump City. A ses côtés, figure Starfire, une princesse extraterrestre née sur la planète Tamaran, mais aussi Raven, fille d'une Terrienne et d'un lointain conquérant. Une série d'animation rythmée, pleine d'aventures et qui ne manque pas d'humour.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217173500 +0100" stop="20260217174500 +0100">
@@ -8017,7 +8058,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217181000 +0100" stop="20260217182000 +0100">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E18</title>
-    <desc lang="fr">Nicole fait appel à un photographe pour avoir une nouvelle photo de famille où tout le monde est dans le cadre et souriant.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217182000 +0100" stop="20260217183500 +0100">
@@ -8107,7 +8148,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217215500 +0100" stop="20260217220500 +0100">
     <title lang="fr">Regular Show - S01E07</title>
-    <desc lang="fr">Mordecai et Rigby viennent d'acheter un nouveau jeu vidéo. Mordecai propose de déterminer qui sera le «joueur 1» au jeu de la «castagne». Rigby perd mais décide d'apprendre un nouvel art martial, le «mortal kwon-do»...</desc>
+    <desc lang="fr">Mordecai et Rigby viennent d'acheter un nouveau jeu vidéo. Mordecai propose de déterminer qui sera le "joueur 1" au jeu de la "castagne". Rigby perd mais décide d'apprendre un nouvel art martial, le "mortal kwon-do"...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260217220500 +0100" stop="20260217222500 +0100">
@@ -9017,11 +9058,6 @@
     <title lang="fr">Le Cid</title>
     <desc lang="fr">L'Espagne est presque entièrement aux mains des Maures du sultan Ben Youssouf. Seuls les petits royaumes d'Aragon et de Léon résistent encore. Don Rodrigue, jeune chevalier castillan, multiplie les exploits, au point que ses ennemis eux-mêmes l'appellent le Cid, le seigneur. Pour avoir fait grâce à des princes arabes vaincus, Rodrigue est accusé de trahison par le père de sa bien-aimée, Don Gormaz. Au cours du duel les opposant, Rodrigue blesse à mort Don Gormaz, qui fait jurer à sa fille Chimène qu'elle le vengera. Partagée entre son amour pour Rodrigue et sa promesse, Chimène choisit de tenir parole...</desc>
     <category lang="fr">Film / Film d'aventures</category>
-  </programme>
-  <programme channel="CinePlusClassic.fr" start="20260217040200 +0100" stop="20260217065500 +0100">
-    <title lang="fr">Le meilleur (version longue)</title>
-    <desc lang="fr">En 1918, dans le Middle West, à 14 ans, Roy Hobbs nourrit pour le baseball une passion sans limite encouragée par son père. Lorsque celui-ci décède, Roy lui rend hommage, en taillant dans le bois d'un arbre foudroyé une batte qui sera son fétiche. Six ans plus tard, Sam Simpson, un recruteur de Chicago, offre à Roy un engagement. Quittant Iris, la jeune fille de ses pensées, pour aller au-devant du succès, il rencontre un célèbre joueur, auquel il se mesure sous les yeux du journaliste Max Mercy. Sa victoire écrasante est remarquée dans les milieux sportifs, mais aussi par Harriet Bird, une meurtrière portée sur les champions de baseball...</desc>
-    <category lang="fr">Film / Drame</category>
   </programme>
   <programme channel="CinePlusClassic.fr" start="20260217065500 +0100" stop="20260217083000 +0100">
     <title lang="fr">On n'enterre pas le dimanche</title>
@@ -26109,7 +26145,7 @@
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="NationalGeographic.fr" start="20260217215500 +0100" stop="20260217225000 +0100">
-    <title lang="fr">Ultimate Airport USA</title>
+    <title lang="fr">Ultimate Airport USA - S01E02</title>
     <desc lang="fr">Les douanes américaines sont en permanence sur le qui-vive. Entre intercepter une famille avec de l'héroïne dans ses bagages ou bien déterminer ce qui déclenche les alarmes de radiation, les officiers sont prêts à relever tous les défis.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
@@ -27821,7 +27857,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260217080000 +0100" stop="20260217081400 +0100">
     <title lang="fr">Sam le pompier - S10E25</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260217081400 +0100" stop="20260217083000 +0100">
@@ -28091,7 +28127,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260217173100 +0100" stop="20260217174100 +0100">
     <title lang="fr">Sam le pompier - S10E09</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260217174100 +0100" stop="20260217175100 +0100">
@@ -28101,7 +28137,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260217175100 +0100" stop="20260217180100 +0100">
     <title lang="fr">Sam le pompier - S10E11</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260217180100 +0100" stop="20260217181300 +0100">
@@ -28395,16 +28431,6 @@
     <category lang="fr">Magazine / Magazine de l'automobile</category>
   </programme>
   <programme channel="PlaneteAction.fr" start="20260217042600 +0100" stop="20260217050900 +0100">
-    <title lang="fr">Direct Auto Express</title>
-    <desc lang="fr">Ce rendez-vous des passionnés du sport motorisé et d'émotions fortes propose une sélection de reportages consacrés à la passion automobile.</desc>
-    <category lang="fr">Magazine / Magazine de l'automobile</category>
-  </programme>
-  <programme channel="PlaneteAction.fr" start="20260217050900 +0100" stop="20260217052300 +0100">
-    <title lang="fr">Direct Auto Express</title>
-    <desc lang="fr">Ce rendez-vous des passionnés du sport motorisé et d'émotions fortes propose une sélection de reportages consacrés à la passion automobile.</desc>
-    <category lang="fr">Magazine / Magazine de l'automobile</category>
-  </programme>
-  <programme channel="PlaneteAction.fr" start="20260217052300 +0100" stop="20260217062700 +0100">
     <title lang="fr">Direct Auto Express</title>
     <desc lang="fr">Ce rendez-vous des passionnés du sport motorisé et d'émotions fortes propose une sélection de reportages consacrés à la passion automobile.</desc>
     <category lang="fr">Magazine / Magazine de l'automobile</category>
@@ -29080,7 +29106,7 @@
   </programme>
   <programme channel="RMCDecouverte.fr" start="20260217000500 +0100" stop="20260217011500 +0100">
     <title lang="fr">Mécaniques agricoles - S02E01</title>
-    <desc lang="fr">Les équipes de Vincent doivent intervenir pour dépanner une moissonneuse bloquée en plein champs. Théo et Benjamin, deux jeunes mécanos, ont cinq jours pour démonter le moteur, l'extraire, récupérer tous les équipements en état de marche et procéder à un échange standard. Cinq jours pendant lesquels les jeunes techniciens vont faire face à des problèmes qu'ils n'avaient jamais eu à affronter. En parallèle, Philippe, l'un des techniciens les plus chevronnés, aidé d'Arnaud doivent poser pour la première fois de leur carrière un nouveau broyeur sur une moissonneuse batteuse. </desc>
+    <desc lang="fr">Les équipes de Vincent doivent intervenir pour dépanner une moissonneuse bloquée en plein champs. Théo et Benjamin, deux jeunes mécanos, ont cinq jours pour démonter le moteur, l'extraire, récupérer tous les équipements en état de marche et procéder à un échange standard. Cinq jours pendant lesquels les jeunes techniciens vont faire face à des problèmes qu'ils n'avaient jamais eu à affronter. En parallèle, Philippe, l'un des techniciens les plus chevronnés, aidé d'Arnaud doivent poser pour la première fois de leur carrière un nouveau broyeur sur une moissonneuse batteuse.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
   <programme channel="RMCDecouverte.fr" start="20260217011500 +0100" stop="20260217064000 +0100">
@@ -30177,7 +30203,7 @@
     <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="RTL9.fr" start="20260217090000 +0100" stop="20260217104500 +0100">
-    <title lang="fr">Femmes de loi - S01E01</title>
+    <title lang="fr">Femmes de loi</title>
     <desc lang="fr">Les médecins et les patients de la clinique de l'Etoile sont abasourdis : on vient de découvrir le corps sans vie d'une gynécologue de l'établissement. Elisabeth Brochène, substitut du procureur, prend l'affaire en main avec son équipe, composée de Josselin Evrard et de Marie Balaguère. Marie rencontre Marc Vandermans, le directeur de l'établissement, qui, pour la fougueuse enquêtrice, fait figure de suspect idéal. Pas très diplomate, elle s'échine à prouver sa culpabilité, d'autant plus que Vandermans était l'amant de la victime. Elisabeth Brochène voit les choses sous un autre angle. Elle porte son attention sur Séverine Millerant, une ancienne patiente de la défunte qui avait assisté à la mort de son bébé...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
@@ -31533,7 +31559,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260217150500 +0100" stop="20260217151000 +0100">
     <title lang="fr">Tom et Jerry Show - S02E16</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom et Jerry doivent reprendre l'école de détectives pour renouveler leur licence.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260217151000 +0100" stop="20260217151500 +0100">
@@ -33351,6 +33377,22 @@
     <desc lang="fr">Christian est forcé d'adapter ses cours de littérature aux sensibilités de la nouvelle génération tandis que Martin doit s'habituer à sa nouvelle relation avec Sophie.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="TV5MondeAsie.fr" start="20260217000000 +0100" stop="20260217003000 +0100">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
+  <programme channel="TV5MondeInfo.fr" start="20260217000000 +0100" stop="20260217003000 +0100">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
+  <programme channel="TV5MondePacifique.fr" start="20260217000000 +0100" stop="20260217010600 +0100">
+    <title lang="fr">C dans l'air</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+    <icon src="https://bo-apac.tv5monde.com/sites/default/files/styles/slide_small/public/2020-07/C_DANS_LAIR_1.jpg.jpeg?itok=QHCgAoIl"/>
+  </programme>
   <programme channel="TVPitchoun.fr" start="20260217000000 +0100" stop="20260217000300 +0100">
     <title lang="fr">Danse de Pitchoun</title>
     <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
@@ -34635,13 +34677,13 @@
     <category lang="fr">Divers / Emission musicale</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260217001200 +0100" stop="20260217003400 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E13</title>
-    <desc lang="fr">Mendoza et ses deux acolytes partent à la recherche de Zhu et de Zia qui l'a rejoint. En regagnant la Nef, Ambrosius et Tao surprennent un homme qui tentait de voler la Pyramide de Mu ! L'homme s'enfuit. Pour Tao c'est sûr, il s'agit de Zarès !</desc>
+    <title lang="fr">Les mystérieuses cités d'or - S02E13</title>
+    <desc lang="fr">Mendoza et ses acolytes partent à la recherche de Zhu et de Zia, qui l'a rejoint. Ambrosius et Tao surprennent un homme qui tentait de voler la Pyramide de Mu.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260217003400 +0100" stop="20260217005700 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E14</title>
-    <desc lang="fr">Après avoir découvert une des sept mystérieuses Cités d'Or, Esteban, Zia et Tao tentent de libérer leurs amis, faits prisonniers par le cruel Zarès...</desc>
+    <title lang="fr">Les mystérieuses cités d'or - S02E14</title>
+    <desc lang="fr">Esteban, Zia et Tao reprennent leur quête des cités d'or à bord du Grand Condor, un oiseau mécanique qui leur permet de voler en utilisant l'énergie solaire. Leurs pérégrinations les entraînent notamment en Chine et au Tibet. Au cours de leur expédition, les enfants rencontrent Ambrosius, un alchimiste français, et se retrouvent poursuivis par le mystérieux Zarès. </desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260217005700 +0100" stop="20260217010400 +0100">
@@ -35019,13 +35061,13 @@
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260217232700 +0100" stop="20260217234900 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E15</title>
+    <title lang="fr">Les mystérieuses cités d'or - S02E15</title>
     <desc lang="fr">Un grand rocher rond, surnommé le ventre de Bouddha, intéresse beaucoup les jeunes aventuriers, car il est adossé à la muraille, gardée par des soldats. En s'en approchant, ils sont surpris par une tempête de sable dans laquelle se camouflent des cavaliers mongols...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="TeleTOONplus1.fr" start="20260217234900 +0100" stop="20260218001200 +0100">
-    <title lang="fr">Les mystérieuses cités d'or *2012 - S02E16</title>
-    <desc lang="fr">Aidée par Gurban, Zia parvient à entrer en contact avec Li Shuang, qui fait libérer Tao et Esteban. Puis, Li Shuang les entraine dans un passage secret sous le Ventre de Bouddha. Là, nos trois jeunes héros découvrent un incroyable souterrain que Li Shuang a jadis exploré avec Atanaos, le père d'Esteban.</desc>
+    <title lang="fr">Les mystérieuses cités d'or - S02E16</title>
+    <desc lang="fr">Li Shuang entraîne Esteban et Zia dans un passage secret sous le Ventre de Bouddha. Ils se retrouvent pris au piège dans un étrange labyrinthe.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260217000100 +0100" stop="20260217000500 +0100">
@@ -36343,6 +36385,14 @@
     <desc lang="fr">Tess Harper rencontre son ami Lyle Clark qui lui demande un service : il veut faire sa demande en mariage à sa petite amie Abby, sous forme de mots croisés. Tess accepte le défi mais, quelques jours plus tard, elle apprend que Lyle a été assassiné. C'est l'occasion pour elle de retrouver le lieutenant Logan O'Connor…</desc>
     <category lang="fr">Téléfilm / Téléfilm de suspense</category>
   </programme>
+  <programme channel="Tivi5.fr" start="20260217000000 +0100" stop="20260218000000 +0100">
+    <title lang="fr">Ta vie sans ça</title>
+    <desc lang="fr">&lt;p&gt;What would life be like without our most everyday objects? Each episode puts a different one in the spotlight. Whether a tap, an umbrella or a toothbrush, they all have a story to tell about their invention and subsequent evolution.&lt;/p&gt;
+</desc>
+    <category lang="fr">Kids</category>
+    <episode-num>0.9.</episode-num>
+    <icon src="https://bo-apac.tv5monde.com/sites/default/files/styles/slide_small/public/2025-05/Ta_vie_sans_ca_5.jpg.jpeg?itok=TZBo8DTn"/>
+  </programme>
   <programme channel="Toonami.fr" start="20260217000500 +0100" stop="20260217003000 +0100">
     <title lang="fr">Dragon Ball Super - S01E82</title>
     <desc lang="fr">Avant le grand Tournoi du pouvoir, Toppo, un combattant de l'Univers 11, et Son Goku s'affrontent dans un combat spécial. Toppo, qui se revendique "Guerrier de la liberté" ou encore "Soldat de la justice", tient responsable Son Goku d'avoir mis l'Univers tout entier en danger, à cause de son arrogance. Tous les Univers ont donc maintenant quarante heures pour rassembler tous leurs guerriers dans les temps...</desc>
@@ -37430,6 +37480,11 @@
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="TvBreizh.fr" start="20260217053500 +0100" stop="20260217063500 +0100">
+    <title lang="fr">Une famille formidable - S14E01</title>
+    <desc lang="fr">Suite au décès de Reine, la famille tente de retrouver une certaine forme d'apaisement. Catherine et Jacques ont accompli leur promesse en faisant un long voyage en Thaïlande pour assurer l'avenir de la fondation "Reine-Grenier" et soutenir Sammaï, qui dirige désormais l'établissement sans Christine, sa mère, installée à Lyon. Fred donne naissance à une petite fille et la vie reprend son fil. Un inspecteur des assurances vient se renseigner sur le mystérieux incendie qui a anéanti le foodtruck de Jack. Celui-ci développe une paranoïa aiguë...</desc>
+    <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="TvBreizh.fr" start="20260217063500 +0100" stop="20260217074000 +0100">
     <title lang="fr">Profilage - S03E08</title>
@@ -39105,11 +39160,6 @@
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
   <programme channel="beINSPORTSMAX5.fr" start="20260217010000 +0100" stop="20260217050000 +0100">
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-    <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
-    <category lang="fr">Magazine sportif / Multisports</category>
-  </programme>
-  <programme channel="beINSPORTSMAX5.fr" start="20260217050000 +0100" stop="20260217090000 +0100">
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
@@ -47712,7 +47762,7 @@
   </programme>
   <programme channel="oqee.1216" start="20260217150500 +0100" stop="20260217163600 +0100">
     <title lang="fr">Awaken</title>
-    <desc lang="fr">Un groupe de personnes choisies au hasard se réveille sur une île inconnue, sans aucun souvenir de la façon dont elles y sont arrivées. Rapidement, elles comprennent qu'elles ne sont pas seules. Traquées une à une par une présence implacable, l'île devient un piège mortel où chaque bruit peut être le dernier. Pour survivre, elles devront affronter leurs peurs les plus profondes… avant que l'île ne les engloutisse toutes.</desc>
+    <desc lang="fr">Un groupe de personnes se réveille sur une île où elles sont pourchassées.</desc>
     <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="oqee.1216" start="20260217163600 +0100" stop="20260217180400 +0100">
@@ -57460,7 +57510,7 @@
   </programme>
   <programme channel="oqee.350" start="20260217070500 +0100" stop="20260217070700 +0100">
     <title lang="fr">Chouette, pas chouette - S01E02</title>
-    <desc lang="fr">Un programme court qui mène la lutte contre les stéréotypes sexistes dés le plus jeune âge, avec des histoires vécues par des animaux, tous amis et tous différents.</desc>
+    <desc lang="fr">Ce sont d'abord des programmes courts diffusés dans les programmes jeunesse et en ligne pour sensibiliser les jeunes enfants aux stéréotypes sexistes, au sexisme et au respect de la différence. nCâ'est aussi un univers peuplé de personnages attachants qui pourra être décliné en kits pédagogiques ou en affiches pour aider les enseignants et les encadrants A s'emparer du sujet.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.350" start="20260217070700 +0100" stop="20260217071800 +0100">
@@ -68855,10 +68905,12 @@
   </programme>
   <programme channel="oqee.754" start="20260217010000 +0100" stop="20260217013000 +0100">
     <title lang="fr">Premium Collection A</title>
+    <desc lang="fr">A curated premium program slot featuring carefully selected high-quality content.Showcasing standout productions across genres, Premium Collection A brings audiences refined storytelling and exclusive viewing experiences.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.754" start="20260217013000 +0100" stop="20260217020000 +0100">
     <title lang="fr">TRIP IN KOREA</title>
+    <desc lang="fr">Trip in Korea is an engaging travel series that introduces viewers to South Korea's modern cities and deep-rooted traditions. Through local experiences, historic sites, cultural moments, and street food, the program reveals the unique rhythm of Korean life.</desc>
     <category lang="fr">Magazine / Magazine du tourisme</category>
   </programme>
   <programme channel="oqee.754" start="20260217020000 +0100" stop="20260217025000 +0100">
@@ -68885,6 +68937,7 @@
   </programme>
   <programme channel="oqee.754" start="20260217043000 +0100" stop="20260217050000 +0100">
     <title lang="fr">Diplomat's Archive: Hidden Stories</title>
+    <desc lang="fr">A compelling documentary series uncovering untold moments from diplomatic history.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.754" start="20260217050000 +0100" stop="20260217060000 +0100">
@@ -68911,6 +68964,7 @@
   </programme>
   <programme channel="oqee.754" start="20260217080000 +0100" stop="20260217083000 +0100">
     <title lang="fr">Diplomat's Archive: Hidden Stories</title>
+    <desc lang="fr">A compelling documentary series uncovering untold moments from diplomatic history.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.754" start="20260217083000 +0100" stop="20260217084000 +0100">
@@ -68948,10 +69002,12 @@
   </programme>
   <programme channel="oqee.754" start="20260217120000 +0100" stop="20260217130000 +0100">
     <title lang="fr">RPG</title>
+    <desc lang="fr">A vibrant travel series exploring Korea's culture, cities, and everyday life. From historic landmarks to street food, it offers an authentic Korean experience.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="oqee.754" start="20260217130000 +0100" stop="20260217133000 +0100">
     <title lang="fr">TRIP IN KOREA</title>
+    <desc lang="fr">Trip in Korea is an engaging travel series that introduces viewers to South Korea's modern cities and deep-rooted traditions. Through local experiences, historic sites, cultural moments, and street food, the program reveals the unique rhythm of Korean life.</desc>
     <category lang="fr">Magazine / Magazine du tourisme</category>
   </programme>
   <programme channel="oqee.754" start="20260217133000 +0100" stop="20260217135000 +0100">
@@ -68978,6 +69034,7 @@
   </programme>
   <programme channel="oqee.754" start="20260217153000 +0100" stop="20260217160000 +0100">
     <title lang="fr">Diplomat's Archive: Hidden Stories</title>
+    <desc lang="fr">A compelling documentary series uncovering untold moments from diplomatic history.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.754" start="20260217160000 +0100" stop="20260217170000 +0100">
@@ -69024,6 +69081,7 @@
   </programme>
   <programme channel="oqee.754" start="20260217210000 +0100" stop="20260217213000 +0100">
     <title lang="fr">Diplomat's Archive: Hidden Stories</title>
+    <desc lang="fr">A compelling documentary series uncovering untold moments from diplomatic history.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.754" start="20260217213000 +0100" stop="20260217220000 +0100">
@@ -69638,12 +69696,12 @@
   </programme>
   <programme channel="oqee.773" start="20260217130000 +0100" stop="20260217154500 +0100">
     <title lang="fr">Gün İçinden</title>
-    <desc lang="fr">Gün İçinden programında Türkiye'nin ve dünyanın gün içindeki nabzı tutuluyor. Sabahın erken saatlerinden öğleden sonraya uzanan yayınlarda siyasi açıklamalar, ekonomi verileri, dış politika gelişmeleri, güvenlik haberleri, doğal afet anbean takip ediliyor. Canlı bağlantılar, muhabir raporları, uzman değerlendirmeleri, harita destekli görsellerle haberler netleştiriliyor. Günün öne çıkan olayları, kamuoyunun tepkileri, millî menfaatlere dair yorumlar samimi ve tarafsız bir üslupla paylaşılıyor. Bu program hem hızlı bilgi akışı sağlasın hem de yurtsever bir perspektiften günün anlamını çıkarsın. Gün ortasında güncel kalmak, doğru kaynaklardan haberdar olmak isteyenler için vazgeçilmez olsun, kalbinize ve aklınıza hitap etsin.</desc>
+    <desc lang="fr">Gün İçinden programında Türkiye'nin ve dünyanın gün içindeki nabzı tutuluyor. Sabahın erken saatlerinden öğleden sonraya uzanan yayınlarda siyasi açıklamalar, ekonomi verileri, dış politika gelişmeleri, güvenlik haberleri, doğal afet anbean takip ediliyor. Canlı bağlantılar, muhabir raporları, uzman değerlendirmeleri, harita destekli görsellerle haberler netleştiriliyor. Günün öne çıkan olayları, kamuoyunun tepkileri, millî menfaatlere dair yorumlar samimi ve tarafsız bir üslupla paylaşılıyor.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.773" start="20260217154500 +0100" stop="20260217170000 +0100">
     <title lang="fr">Zihnin Eşiğinde</title>
-    <desc lang="fr">Zihnin Eşiğinde programında insan zihninin en derin katmanları gözler önüne seriliyor. Bilinç ve bilinçaltı arasındaki sınır, rüyaların dili, sezginin gücü, korku ve kaygıların kökeni, meditasyonla ulaşılan huzur, zihinsel travmaların iyileşme yolları anlatılıyor. Konuk psikologlar, filozoflar, manevi rehberler ve deneyim sahipleriyle yapılan açık yürekli sohbetlerde zihnin nasıl çalıştığı, düşüncenin gerçekliği nasıl şekillendirdiği, iç sesin rehberliği detaylıca işleniyor. Her bölümde bir eşik aşılıyor, izleyici kendi zihnine dönmeye davet ediliyor. Bu seri hem bilimsel hem manevi bir bakışla zihnin sınırlarını genişletsin, kalbinize ve aklınıza aynı anda dokunsun, iç huzura giden yolu aydınlatsın.</desc>
+    <desc lang="fr">Zihnin Eşiğinde programında insan zihninin en derin katmanları gözler önüne seriliyor. Bilinç ve bilinçaltı arasındaki sınır, rüyaların dili, sezginin gücü, korku ve kaygıların kökeni, meditasyonla ulaşılan huzur, zihinsel travmaların iyileşme yolları anlatılıyor. Konuk psikologlar, filozoflar, manevi rehberler ve deneyim sahipleriyle yapılan açık yürekli sohbetlerde zihnin nasıl çalıştığı, düşüncenin gerçekliği nasıl şekillendirdiği, iç sesin rehberliği detaylıca işleniyor. Her bölümde bir eşik aşılıyor, izleyici kendi zihnine dönmeye davet ediliyor.</desc>
     <category lang="fr">Divers / Talk-show</category>
   </programme>
   <programme channel="oqee.773" start="20260217170000 +0100" stop="20260217183000 +0100">
