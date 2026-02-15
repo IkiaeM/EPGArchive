@@ -548,6 +548,10 @@
     <display-name>Paris Première</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~ecf598fd002ccb9a.png/480x480/quality/100/paris-premiere.png"/>
   </channel>
+  <channel id="PenthouseBlack.fr">
+    <display-name>Penthouse Black</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3Q6HPCMdoQvtMB0bl17lfw2-uybgBaS9R9NMSmh5hwcAuJR_PkZ_IkUWfg&amp;amp;s"/>
+  </channel>
   <channel id="PinkTV.fr">
     <display-name>PinkTV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~db1124e839974f97.png/480x480/quality/100/pink-tv.png"/>
@@ -1228,6 +1232,10 @@
     <display-name>TVE Internacional</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1578/w256"/>
   </channel>
+  <channel id="oqee.366">
+    <display-name>Canal 24 Horas</display-name>
+    <icon src="https://img1.dc2.oqee.net/channel_pictures/1580/w256"/>
+  </channel>
   <channel id="oqee.368">
     <display-name>Rai Uno</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/1589/w256"/>
@@ -1272,6 +1280,10 @@
     <display-name>TL Novelas</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1572/w256"/>
   </channel>
+  <channel id="oqee.439">
+    <display-name>Las Estrellas</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/1575/w256"/>
+  </channel>
   <channel id="oqee.445">
     <display-name>Zee TV</display-name>
     <icon src="https://img2.dc2.oqee.net/channel_pictures/1547/w256"/>
@@ -1287,6 +1299,10 @@
   <channel id="oqee.485">
     <display-name>Star TV</display-name>
     <icon src="https://img1.dc2.oqee.net/channel_pictures/1640/w256"/>
+  </channel>
+  <channel id="oqee.486">
+    <display-name>TRGT EU</display-name>
+    <icon src="https://img2.dc2.oqee.net/channel_pictures/1659/w256"/>
   </channel>
   <channel id="oqee.488">
     <display-name>ATV Avrupa</display-name>
@@ -3163,7 +3179,7 @@
     <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
   <programme channel="Animaux.fr" start="20260225180000 +0100" stop="20260225185000 +0100">
-    <title lang="fr">Attention ! Passage d'animaux : Quand la faune croise nos routes - S01E01</title>
+    <title lang="fr">Attention ! Passage d'animaux : Quand la faune croise nos routes</title>
     <desc lang="fr">Des chercheurs étudient la mobilité des animaux afin d'imaginer des solutions pour leur permettre de traverser les routes en toute sécurité. </desc>
     <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
@@ -3231,6 +3247,16 @@
     <title lang="fr">Pause</title>
     <category lang="fr">Divers / Autre</category>
   </programme>
+  <programme channel="Arte.de" start="20260225050000 +0100" stop="20260225054500 +0100">
+    <title lang="fr">Un écrin de nature - S01E02</title>
+    <desc lang="fr">Dans le Pacifique Sud, l'île de Moorea regorge d'espèces endémiques qui peuplent son volcan éteint, sa forêt tropicale et le récif corallien qui la ceinture.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="Arte.de" start="20260225054500 +0100" stop="20260225064000 +0100">
+    <title lang="fr">Les secrets de la haute couture</title>
+    <desc lang="fr">Si le savoir-faire des meilleurs artisans d'art constitue un bien culturel inscrit dans l'ADN français, leurs noms et ceux de leurs clients sont souvent des secrets bien gardés. Chacune de leurs créations est unique.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
   <programme channel="Arte.de" start="20260225064000 +0100" stop="20260225071500 +0100">
     <title lang="fr">Voyage en cuisine</title>
     <desc lang="fr">Le dessert conventuel de l'Alentejo : la sericaia Au Portugal, on se régale d'une pâtisserie sucrée, acidulée et saupoudrée de cannelle : la sericaia.</desc>
@@ -3263,6 +3289,7 @@
   </programme>
   <programme channel="Arte.de" start="20260225112500 +0100" stop="20260225115500 +0100">
     <title lang="fr">Mon frère, mort en Ukraine</title>
+    <desc lang="fr">Obsédé par la mort de son frère, l'Allemand Kai P. part à Kharkiv : pourquoi Michael avait-il rejoint les rangs de l'armée ukrainienne ? Notre reportage montre l'impact d'une telle décision sur les proches d'un engagé volontaire.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Arte.de" start="20260225115500 +0100" stop="20260225122500 +0100">
@@ -3363,6 +3390,11 @@
   <programme channel="Arte.fr" start="20260225043300 +0100" stop="20260225051000 +0100">
     <title lang="fr">Pause</title>
     <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="Arte.fr" start="20260225051000 +0100" stop="20260225060000 +0100">
+    <title lang="fr">Les îles italiennes - S02E02</title>
+    <desc lang="fr">L'archipel toscan, qui regroupe notamment les îles d'Elbe, de Montecristo et de Capraia, se trouve dans la plus grande réserve marine d'Europe. </desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
   </programme>
   <programme channel="Arte.fr" start="20260225060000 +0100" stop="20260225065500 +0100">
     <title lang="fr">Les îles italiennes - S02E01</title>
@@ -3979,8 +4011,8 @@
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260225123000 +0100" stop="20260225130000 +0100">
-    <title lang="fr">Avec vous, BFM Business vous répond</title>
-    <desc lang="fr">Chaque jour, "Avec vous" vient en aide aux professionnels. Sandra Gandoin répond en direct aux questions des téléspectateurs, auditeurs et internautes sur les problématiques qu'ils rencontrent dans leurs entreprises. Une libre antenne dédiée à l'entreprise. Une émission à suivre en TV, radio et digital.</desc>
+    <title lang="fr">BFM Entreprise</title>
+    <desc lang="fr">Présenté par Sandra Gandoin, ce rendez-vous donne la parole aux dirigeants pour tout comprendre du quotidien des entreprises et analyser leurs meilleurs leviers de performance. Un plongeon est fait dans le quotidien des entreprises, de leurs dirigeants et de leurs équipes. Comment créer de la valeur, accélérer sa croissance, transmettre, gérer les crises, fidéliser les talents, incarner un leadership efficace ? Dans chaque épisode, des dirigeants et des experts partagent leurs méthodes, leurs outils, leurs réussites, et parfois leurs échecs. Au programme : lundi - "Leadership, la méthode", mardi - "Les outils RH", mercredi - "Croissance, la stratégie", et jeudi - "Transmission, les règles".</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260225130000 +0100" stop="20260225150000 +0100">
@@ -4052,6 +4084,11 @@
   <programme channel="BFMGrandLittoral.fr" start="20260225190000 +0100" stop="20260225230000 +0100">
     <title lang="fr">Bonsoir le Nord</title>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMGrandLittoral.fr" start="20260225230000 +0100" stop="20260226063000 +0100">
+    <title lang="fr">Programmes de la nuit BFM Littoral</title>
+    <desc lang="fr">Restez avec BFM Littoral en suivant notre programme de la nuit.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="BFMTV.fr" start="20260225000000 +0100" stop="20260225043000 +0100">
     <title lang="fr">Le direct BFMTV</title>
@@ -4284,7 +4321,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260225043500 +0100" stop="20260225045000 +0100">
     <title lang="fr">Batwheels - S01E16</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Moe regrette de ne jamais aller en mission comme les héros. Bam lui propose de l'accompagner dans sa patrouille mais des légumes vicieux compliquent leur ronde du soir.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260225045000 +0100" stop="20260225050000 +0100">
@@ -4819,7 +4856,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260225010500 +0100" stop="20260225011500 +0100">
     <title lang="fr">Tom et Jerry Show - S05E05</title>
-    <desc lang="fr">Ginger rapporte une lampe trouvée chez un antiquaire et un génie en sort. Il propose à Jerry et Tuffy de faire leurs trois vœux traditionnels. Tom s'en mêle et contredit leurs projets mais les trois souris n'ont pas dit leur dernier mot !</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225011500 +0100" stop="20260225012000 +0100">
@@ -4879,17 +4916,17 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260225032000 +0100" stop="20260225032500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E16</title>
-    <desc lang="fr">De jolis papillons virevoltent dans le jardin du château et Jerry et Tuffy se font de fausses ailes pour voler avec eux. Le duc confond Tuffy avec un vrai spécimen et veut l'épingler dans un cadre pour sa collection de lépidoptères aussi rares que colorés.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225032500 +0100" stop="20260225033500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E17</title>
-    <desc lang="fr">Ginger finit d'emballer un paquet cadeau qu'elle doit envoyer le lendemain à sa nièce pour son anniversaire ? Elle intime l'ordre à Tom de ne pas y toucher. Tiraillé par sa curiosité maladive il parvient tant bien que mal à résister mais c'est finalement</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225033500 +0100" stop="20260225034500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E17</title>
-    <desc lang="fr">Un Farfadet se fait voler son chaudron et redoute la colère du roi des Farfadets. Mais il découvre que Tom a entre ses main un trésor d'une valeur inestimable : une Rose d'émeraude ! Aidé de Jerry il fait tout pour la récupérer et l'offrir au roi pour atténuer sa colère.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225035500 +0100" stop="20260225040500 +0100">
@@ -4904,27 +4941,27 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260225041500 +0100" stop="20260225042000 +0100">
     <title lang="fr">Tom et Jerry Show - S04E16</title>
-    <desc lang="fr">La redoutable tique Svengali arrive dans la maison de Rick et Ginger et prend le contrôle de Tom juste après l'avoir mordu. Seul moyen de s'en débarrasser : l'eau et le savon ! Tom tente alors de prendre des bains par tous les moyens.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225042000 +0100" stop="20260225042500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E16</title>
-    <desc lang="fr">De jolis papillons virevoltent dans le jardin du château et Jerry et Tuffy se font de fausses ailes pour voler avec eux. Le duc confond Tuffy avec un vrai spécimen et veut l'épingler dans un cadre pour sa collection de lépidoptères aussi rares que colorés.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225042500 +0100" stop="20260225043500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E17</title>
-    <desc lang="fr">Ginger finit d'emballer un paquet cadeau qu'elle doit envoyer le lendemain à sa nièce pour son anniversaire ? Elle intime l'ordre à Tom de ne pas y toucher. Tiraillé par sa curiosité maladive il parvient tant bien que mal à résister mais c'est finalement</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225043500 +0100" stop="20260225044500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E17</title>
-    <desc lang="fr">Un Farfadet se fait voler son chaudron et redoute la colère du roi des Farfadets. Mais il découvre que Tom a entre ses main un trésor d'une valeur inestimable : une Rose d'émeraude ! Aidé de Jerry il fait tout pour la récupérer et l'offrir au roi pour atténuer sa colère.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225044500 +0100" stop="20260225045500 +0100">
     <title lang="fr">Tom et Jerry Show - S04E18</title>
-    <desc lang="fr">Tuffy est fan des films de La Souris Masquée et rêverait de rencontrer son super héros. Pour lui faire plaisir Jerry qui connaît l'acteur qui l'interprète l'appelle et lui demande de venir voir son neveu. Tuffy est ravi mais son idole n'est pas tout à fait à la hauteur de ses espérances.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225045500 +0100" stop="20260225050500 +0100">
@@ -4999,7 +5036,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260225073500 +0100" stop="20260225074500 +0100">
     <title lang="fr">Tom et Jerry Show - S05E03</title>
-    <desc lang="fr">Cates qui s'apprêtait à participer et à remporter le championnat annuel de boxe des majordomes se retrouve la jambe dans le plâtre à cause de Tom et désigne celui-ci comme nouveau champion. Il prend immédiatement son entraînement en main.</desc>
+    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260225074500 +0100" stop="20260225075000 +0100">
@@ -6439,7 +6476,7 @@
   </programme>
   <programme channel="CanalPlus.fr" start="20260225061900 +0100" stop="20260225070500 +0100">
     <title lang="fr">Le cercle</title>
-    <desc lang="fr">"Le Cercle" est un magazine de débats et de critiques cinéphiles animé par un journaliste en compagnie de chroniqueurs et en présence d'un public d'étudiants en cinéma.</desc>
+    <desc lang="fr">Lily Bloom entourée de son équipe de fous de cinéma débattent des films à l'affiche.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlus.fr" start="20260225070500 +0100" stop="20260225073800 +0100">
@@ -6534,7 +6571,7 @@
   </programme>
   <programme channel="CanalPlus.fr" start="20260225210000 +0100" stop="20260225225600 +0100">
     <title lang="fr">Football : Ligue des champions</title>
-    <desc lang="fr">En fonction du match aller du 17 février dernier, Parisiens et Monégasques en décousent dans ce choc de Champions League, loin de la tonalité habituelle de la Ligue 1.</desc>
+    <desc lang="fr">Ce n'est pas un choc de Ligue 1 mais bien un barrage retour de Ligue des champions entre les Parisiens et les Monégasques. Les champions en titre de Luis Enrique, emmenés par Warren Zaïre-Emery ou leur maître à jouer Vitinha, vont vouloir aller chercher la victoire devant leur public du Parc des Princes. Quant à l'ASM, les protégés de Sébastien Pocognoli apparaissent comme les outsiders. Mais nul doute qu'ils exploiteront les failles parisiennes, si celles-ci apparaissent, car le PSG est résilient et sait attendre le moment opportun pour frapper juste.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalPlus.fr" start="20260225225600 +0100" stop="20260225234500 +0100">
@@ -6604,7 +6641,7 @@
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260225201800 +0100" stop="20260225210000 +0100">
     <title lang="fr">Super plan</title>
-    <desc lang="fr">SUPER PLAN, c'est la nouvelle émission cinéma de CANAL+. Chaque semaine, Antoine de Caunes vous accueille non plus seul, mais entouré d'une bande de journalistes et d'humoristes : Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra. Ensemble, ils recevront celles et ceux qui font l'actualité du septième art, et aborderont le Cinéma avec expertise, passion et enthousiasme, alliés à l'humeur et la bienveillance qui sont la signature de CANAL+ depuis toujours.</desc>
+    <desc lang="fr">Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260225210000 +0100" stop="20260225222900 +0100">
@@ -6722,27 +6759,27 @@
     <desc lang="fr">En atteignant le sommet du Mont-Blanc, trois détenus avaient fait un pas vers la liberté. Aujourd'hui, alors que l'un d'eux est encore incarcéré, les autres sont confrontés à l'épreuve de la réinsertion. Leur ancien surveillant leur propose alors un nouveau défi : la traversée des cirques de l'île de la Réunion. Au milieu de cette nouvelle aventure humaine, leurs témoignages poussent à la réflexion sur la place de la prison dans notre société.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225012800 +0100" stop="20260225031000 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225013000 +0100" stop="20260225031100 +0100">
     <title lang="fr">Football : Ligue des champions</title>
     <desc lang="fr">Après un début de phase de ligue compliqué, l'Olympiakos s'est parfaitement relancé dans la Ligue des champions en enchaînant trois succès lors des dernières journées pour terminer à la 18e place. Les Grecs ne comptent pas s'arrêter là et, sur la pelouse du Bayer Leverkusen, 16e, espèrent décrocher leur billet pour les huitièmes de finale de la compétition européenne.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225031000 +0100" stop="20260225075300 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225031100 +0100" stop="20260225075200 +0100">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
     <category lang="fr">Divers / Fin</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225075300 +0100" stop="20260225093600 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225075200 +0100" stop="20260225093600 +0100">
     <title lang="fr">Football : Ligue des champions</title>
     <desc lang="fr">Les Italiens de l'Inter Milan vont-ils se qualifier pour les 8es de finale de la Ligue des champions ? Ce barrage contre les Norvégiens de Bodo/Glimt ressemble à un véritable piège. Les Nerazzurri, emmenés par Marcus Thuram, doivent être sur leurs gardes. Le Bodo/Glimt n'a absolument rien à perdre, cette saison en Champions League et ils se sont même payé le luxe de gagner contre Manchester City lors de la phase de Ligue.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225093600 +0100" stop="20260225101100 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225093600 +0100" stop="20260225101000 +0100">
     <title lang="fr">Canal Champions Club le debrief</title>
     <desc lang="fr">Retour sur les rencontres du jour de l'UEFA Champions League sur le plateau du Canal Champions Club. Outre les plus beaux buts et les plus belles actions, les envoyés spéciaux proposent des interviews des joueurs et des entraîneurs. Toutes les meilleures séquences des matches sont passées en revue, avec des statistiques et des analyses. Les chroniqueurs et invités débattent ensuite dans le traditionnel débrief d'après-match, pour ne rien oublier de la rencontre.</desc>
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225101100 +0100" stop="20260225115400 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225101000 +0100" stop="20260225115400 +0100">
     <title lang="fr">Football : Ligue des champions</title>
     <desc lang="fr">Longtemps, l'Atlético Madrid pensait échapper aux barrages et accrocher une place dans le top 8. Mais la bande à Antoine Griezmann, 14e du classement, après un étonnant revers face aux Norvégiens du FK Bodo/Glimt lors de la dernière journée, devra franchir un dernier obstacle en écartant le Club Bruges pour se qualifier pour les huitièmes de finale.</desc>
     <category lang="fr">Emission sportive / Football</category>
@@ -6792,14 +6829,14 @@
     <desc lang="fr">Les dernières informations en direct des couloirs qui mènent à la pelouse et l'ambiance à quelques minutes du coup d'envoi des rencontres de coupes d'Europe UEFA.</desc>
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225210000 +0100" stop="20260225230500 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225210000 +0100" stop="20260225230600 +0100">
     <title lang="fr">Football : Ligue des champions</title>
     <desc lang="fr">Kylian Mbappé et les Madrilènes vont-ils rejoindre les 8es de finale de la Ligue des champions et faire oublier leur sévère défaite (4-2), concédée lors de la dernière journée de phase de Ligue contre le Benfica ? En cas de qualification, les hommes d'Arbeloa affronteraient le vainqueur du match entre le Sporting Club de Portgual et Manchester City.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260225230500 +0100" stop="20260226004900 +0100">
+  <programme channel="CanalPlusFoot.fr" start="20260225230600 +0100" stop="20260226004900 +0100">
     <title lang="fr">Football : Ligue des champions</title>
-    <desc lang="fr">En fonction du match aller du 17 février dernier, Parisiens et Monégasques en décousent dans ce choc de Champions League, loin de la tonalité habituelle de la Ligue 1.</desc>
+    <desc lang="fr">Ce n'est pas un choc de Ligue 1 mais bien un barrage retour de Ligue des champions entre les Parisiens et les Monégasques. Les champions en titre de Luis Enrique, emmenés par Warren Zaïre-Emery ou leur maître à jouer Vitinha, vont vouloir aller chercher la victoire devant leur public du Parc des Princes. Quant à l'ASM, les protégés de Sébastien Pocognoli apparaissent comme les outsiders. Mais nul doute qu'ils exploiteront les failles parisiennes, si celles-ci apparaissent, car le PSG est résilient et sait attendre le moment opportun pour frapper juste.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260225002400 +0100" stop="20260225014800 +0100">
@@ -7213,7 +7250,7 @@
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260225112200 +0100" stop="20260225113300 +0100">
-    <title lang="fr">Les aventures de Paddington - S03E19</title>
+    <title lang="fr">Les aventures de Paddington - S03E37</title>
     <desc lang="fr">C'est la fête d'Halloween, mais la pièce de théâtre créée par les habitants pourra-t-elle avoir lieu ?</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
@@ -7454,7 +7491,7 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260225213500 +0100" stop="20260225214000 +0100">
     <title lang="fr">Sam le pompier - S10E04</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260225214000 +0100" stop="20260225215900 +0100">
@@ -7819,12 +7856,12 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260225021000 +0100" stop="20260225022000 +0100">
     <title lang="fr">La quête héroïque du valeureux Prince Ivandoe - S02E07</title>
-    <desc lang="fr">Dans un monde merveilleux empli de héros, de rois et de créatures de contes de fées, le prince Ivandoe, accompagné de son fidèle écuyer Bert, part en quête de la Plume d'or sur la montagne de l'Aigle, à travers les cinq royaumes. Un voyage loin de chez lui, semé de dangers et de quelques rencontres.</desc>
+    <desc lang="fr">Le prince Ivandoe est prisonnier dans le donjon du château de la mère de Jezabel, Grizabella, la reine des voleuses imprévisible et légèrement terrifiante. Grizabella encourage sa fille à profiter de son copain de jeux, le petit prince. Ivandoe est tout à fait désireux de faire la même chose. Mais Grizabella exige que le prince Ivandoe soit son bouffon royal. Ivandoe et Bert se rendent compte qu'ils doivent s'échapper au plus vite.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260225022000 +0100" stop="20260225023000 +0100">
     <title lang="fr">La quête héroïque du valeureux Prince Ivandoe - S02E08</title>
-    <desc lang="fr">Dans un monde merveilleux empli de héros, de rois et de créatures de contes de fées, le prince Ivandoe, accompagné de son fidèle écuyer Bert, part en quête de la Plume d'or sur la montagne de l'Aigle, à travers les cinq royaumes. Un voyage loin de chez lui, semé de dangers et de quelques rencontres.</desc>
+    <desc lang="fr">Le prince Ivandoe est prisonnier dans le donjon du château de la mère de Jezabel, Grizabella, la reine des voleuses imprévisible et légèrement terrifiante. Grizabella encourage sa fille à profiter de son copain de jeux, le petit prince. Ivandoe est tout à fait désireux de faire la même chose. Mais Grizabella exige que le prince Ivandoe soit son bouffon royal. Ivandoe et Bert se rendent compte qu'ils doivent s'échapper au plus vite.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260225023000 +0100" stop="20260225024500 +0100">
@@ -9331,17 +9368,17 @@
     <desc lang="fr">Un jour, sans crier gare, le coeur de Jean-Louis s'arrête de battre. Jean-Louis devrait être mort mais il parle, marche, vit sa vie comme si de rien n'était. Affolé, il demande son avis à Michel, son ami vétérinaire qui bien sûr ne parvient pas à expliquer ce phénomène étrange. Valérie, son épouse qui n'a aucune connaissance médicale, n'est d'aucune aide. Désespéré, le couple tente de trouver des réponses auprès de Margaux, la coach de vie de Valérie, un peu guérisseuse et en lien avec les forces occultes...</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260225004400 +0100" stop="20260225024600 +0100">
+  <programme channel="CinePlusEmotion.fr" start="20260225004300 +0100" stop="20260225024500 +0100">
     <title lang="fr">Philadelphia</title>
     <desc lang="fr">Andrew Beckett, un jeune et brillant avocat qui travaille au sein d'un grand cabinet, se voit confier une affaire de toute première importance. Son licenciement brutal suit de peu cette consécration. Andrew ne se fait pas d'illusions. Charles Wheeler, son patron, ne l'a pas congédié pour faute professionnelle mais par haine viscérale des homosexuels et parce qu'il a appris qu'il était séropositif. S'appuyant sur la loi contre les discriminations, Andrew intente un procès et confie ses intérêts à un jeune avocat noir, Joe Miller, dont il ébranle peu à peu les préjugés et le conformisme. Son état de santé, cependant, se dégrade inéluctablement...</desc>
     <category lang="fr">Film / Drame</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260225024600 +0100" stop="20260225044200 +0100">
+  <programme channel="CinePlusEmotion.fr" start="20260225024500 +0100" stop="20260225044100 +0100">
     <title lang="fr">Pas si simple</title>
     <desc lang="fr">Cela fait dix ans que Jane Adler a divorcé de Jake. Installée dans une belle maison de Santa Barbara, cette quinquagénaire a fondé une chaîne de salons de thé et voit ses grands enfants prendre leur envol : sa fille aînée, Lauren, est fiancée, Gabby, la cadette, part s'installer à Los Angeles, et son petit dernier, Luke, va être bientôt diplômé à New York. A cette occasion, elle retrouve Jake, venu sans sa nouvelle épouse, la jeune Agness, et finit par passer la nuit avec lui. Jane est prise de remords alors que Jake semble ravi. Rentrée chez elle, Jane entreprend de rénover sa maison et, pour cela, fait appel à Adam, un architecte tout à fait charmant...</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
-  <programme channel="CinePlusEmotion.fr" start="20260225044200 +0100" stop="20260225060000 +0100">
+  <programme channel="CinePlusEmotion.fr" start="20260225044100 +0100" stop="20260225060000 +0100">
     <title lang="fr">Le secret des banquises</title>
     <desc lang="fr">Avec ses équipes, le professeur Quignard travaille depuis longtemps sur une protéine émise par des pingouins stressés, aux vertus immunisantes. Alors que les scientifiques français travaillent sur des souris, une équipe concurrente, américaine, affirme avoir passé le stade des cobayes humains. Cette nouvelle pourrait mettre en péril la poursuite des recherches de Quignard, qui rêve déjà du prix Nobel. C'est alors que Christophine, timide laborantine, secrètement amoureuse de Quignard, décide de s'injecter le produit expérimental. Elle parvient ainsi à se rapprocher du professeur, amené à travailler quotidiennement avec elle...</desc>
     <category lang="fr">Film / Comédie</category>
@@ -9869,77 +9906,107 @@
     <desc lang="fr">A Halloween, les Guignols sortent le jus de tomate pour des sketches gores qui n'ont rien à envier aux plus terrifiants films d'horreur. Se reposant sur des pastiches de blockbusters hollywoodiens, ils mettent en scène Chirac et toutes les marionnettes bien connues dans des histoires surnaturelles à faire pâlir PPD.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225055800 +0100" stop="20260225062200 +0100">
+  <programme channel="ComediePlus.fr" start="20260225055800 +0100" stop="20260225065400 +0100">
     <title lang="fr">Génération Guignols - S03E10</title>
     <desc lang="fr">Le "fric", nerf de la guerre selon la formule proverbiale, est aussi le nerf des fausses factures, des magouilles et de la corruption, comme l'ont bien compris les Guignols tout au long de leur existence. Dans l'émission, le personnage de monsieur Sylvestre fut l'un des plus enthousiastes laudateurs de l'argent.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225062200 +0100" stop="20260225070200 +0100">
-    <title lang="fr">Génération Guignols - S03E11</title>
-    <desc lang="fr">Quand les Guignols parlent politique, ils ne se contentent pas de la scène hexagonale. C'est le monde qu'ils contemplent. Chez eux, l'élection présidentielle ne signifie pas uniquement Chirac, Hollande ou Macron, mais aussi Clinton, Obama ou Trump, dernier président américain élu du vivant de l'émission. Sans compter la marionnette de Monsieur Sylvestre, le représentant générique de la World Company qui tire les ficelles en douce.</desc>
-    <category lang="fr">Divers / Divertissement-humour</category>
-  </programme>
-  <programme channel="ComediePlus.fr" start="20260225070200 +0100" stop="20260225072800 +0100">
+  <programme channel="ComediePlus.fr" start="20260225065400 +0100" stop="20260225065800 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225072800 +0100" stop="20260225080000 +0100">
+  <programme channel="ComediePlus.fr" start="20260225070200 +0100" stop="20260225070700 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225080000 +0100" stop="20260225083300 +0100">
+  <programme channel="ComediePlus.fr" start="20260225071200 +0100" stop="20260225071800 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en...</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225071800 +0100" stop="20260225072900 +0100">
     <title lang="fr">Interview de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225083300 +0100" stop="20260225100600 +0100">
+  <programme channel="ComediePlus.fr" start="20260225072900 +0100" stop="20260225073400 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225074000 +0100" stop="20260225074500 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225074900 +0100" stop="20260225080200 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en...</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225080200 +0100" stop="20260225080700 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225081300 +0100" stop="20260225081800 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. A travers ces séquences, de nombreuses personnalités se sont révélées. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225082300 +0100" stop="20260225083400 +0100">
+    <title lang="fr">Interview de Raphaël Mezrahi</title>
+    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a retenu, entre autres grands moments, la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans ce florilège, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile des images jamais vues.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="ComediePlus.fr" start="20260225083400 +0100" stop="20260225100700 +0100">
     <title lang="fr">Drôles d'imitateurs</title>
     <desc lang="fr">Ce documentaire se propose de décliner tous les genres de l'imitation en compagnie des plus grands spécialistes du genre, parmi lesquels Gérald Dahan, Patrick Sebastien, Yves Lecoq, Liane Foly, Marc-Antoine Le Bret, Michael Gregorio, Laurent Gerra, Véronic DiCaire et Nicolas Canteloup. Leurs sources d'inspiration sont inépuisables. Il suffit d'observer les politiques, les stars du cinéma et de la chanson, les animateurs TV, les Miss France ou les candidats de téléréalité. Outre cette capacité d'observation, l'imitation requiert aussi des capacités vocales peu communes.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225100600 +0100" stop="20260225113500 +0100">
+  <programme channel="ComediePlus.fr" start="20260225100700 +0100" stop="20260225113500 +0100">
     <title lang="fr">Drôles de Québécois</title>
     <desc lang="fr">En 1987, Marcel Béliveau apparaît sur les écrans dans "Surprise sur prise" et ouvre les portes de l'Hexagone à ses compatriotes humoristes québécois. Anthony Kavanagh, Michel Courtemanche, Stéphane Rousseau, Véronique Dicaire, Rachid Badouri ou encore Sugar Sammy, tous ont tenté l'aventure française avec succès ; et la relève est assurée avec Mariana Maza, Reda Saoui ou encore Virginie Fortin.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225113500 +0100" stop="20260225120400 +0100">
+  <programme channel="ComediePlus.fr" start="20260225113500 +0100" stop="20260225120500 +0100">
     <title lang="fr">H - S03E08</title>
     <desc lang="fr">Constatant que Jamel n'a pas le moral, Aymé lui offre les services d'une prostituée de luxe pour une nuit. Ignorant qu'il s'agit d'une professionnelle, Jamel s'éprend de la jeune femme, au grand désespoir d'Aymé. Contraint de payer, ce dernier se retrouve bientôt sur la paille. De leur côté, Clara et Sabri posent pour Strauss, qui s'est mis à la peinture et se prend déjà pour un artiste talentueux...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225120400 +0100" stop="20260225123400 +0100">
+  <programme channel="ComediePlus.fr" start="20260225120500 +0100" stop="20260225123500 +0100">
     <title lang="fr">H - S03E11</title>
     <desc lang="fr">Un représentant parvient à convaincre Sabri d'acheter deux encyclopédies juridiques dont il n'a, bien sûr, nullement besoin. Comprenant que son ami a été escroqué, Jamel se met en tête de récupérer l'argent auprès du patron du vendeur. Finalement, celui-ci les embauche tous les deux comme VRP. Jamel, qui excelle manifestement dans la vente des systèmes d'alarme, entreprend de former Sabri, en pure perte. Celui-ci a l'idée "géniale" de réaliser des tags publicitaires pour les alarmes en question. Le professeur Strauss, quant à lui, place un malade en hibernation pendant trente jours, moyennant une coquette somme...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225123400 +0100" stop="20260225130600 +0100">
+  <programme channel="ComediePlus.fr" start="20260225123500 +0100" stop="20260225130600 +0100">
     <title lang="fr">H - S03E20</title>
     <desc lang="fr">Toujours inspiré, Aymé a noué une liaison à hauts risques avec Adeline, la fille d'un mafieux plutôt inquiétant, qui ne supporte pas la contradiction et, pire encore, voue une adoration sans limites à sa progéniture. En fait, l'infortuné amant ne demande qu'à rompre, mais comment s'y prendre alors que le mariage est déjà envisagé ? Jamel, qui n'a pas froid aux yeux, lui vient en aide, pour le meilleur et pour le pire. De son côté, entré au service de l'homme de main du caïd, Sabri tente de s'initier au racket puis au proxénétisme...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225130600 +0100" stop="20260225133000 +0100">
+  <programme channel="ComediePlus.fr" start="20260225130600 +0100" stop="20260225133100 +0100">
     <title lang="fr">H - S03E12</title>
     <desc lang="fr">Sabri, qui vient de perdre son chien, accepte d'héberger Jamel, qui fuit sa mère tyrannique. Celui-ci se transforme rapidement en animal de très bonne compagnie. Aymé, quant à lui, découvre dans un magazine féminin un test sur la sexualité qui, pense-t-il, a été rempli par Charlotte. Ayant épluché les résultats du test, il décide de se faire tatouer illico pour séduire la jeune femme. En réalité, c'est le professeur Strauss qui a répondu au questionnaire. D'ailleurs, le tatouage d'Aymé lui plaît énormément...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225133000 +0100" stop="20260225140000 +0100">
+  <programme channel="ComediePlus.fr" start="20260225133100 +0100" stop="20260225140100 +0100">
     <title lang="fr">H - S03E19</title>
     <desc lang="fr">Un homme politique tombe dans le coma entre les deux tours des élections présidentielles. Sabri, son sosie tout craché, le remplace au pied levé et, contre toute attente, remporte haut la main le scrutin. Devenu président de la République, il reçoit les journalistes puis déclenche par mégarde une catastrophe nucléaire. Pendant ce temps, Aymé vaque à ses occupations. Il drogue une patiente plutôt consentante mais doit affronter un dernier problème avant de voir ses désirs se réaliser...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225140000 +0100" stop="20260225160200 +0100">
+  <programme channel="ComediePlus.fr" start="20260225140100 +0100" stop="20260225160300 +0100">
     <title lang="fr">C'est Montreux bébé ! (De Pagnol à Jul)</title>
     <desc lang="fr">Le public du festival de Montreux est prévenu : Massilia débarque en force, avec en tête, Redouane Bougheraba affuté comme jamais ! Et c'est toute la ville de Marseille et sa culture qui remontent en survêt' vers la Suisse : du plus kitch au plus hype, de la douceur méridionale à la chaleur des quartiers nord, de la fantaisie provençale à la folie méditerranéenne, de Marcel Pagnol à Jul. Entouré par de nombreux artistes de sa bande, Redouane Bougheraba réserve une soirée digne d'une finale de Ligue des Champions, placée sous le signe de l'humour non-stop et du stand-up à ses meilleures heures. </desc>
     <category lang="fr">Spectacle / Humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225160200 +0100" stop="20260225175700 +0100">
+  <programme channel="ComediePlus.fr" start="20260225160300 +0100" stop="20260225175800 +0100">
     <title lang="fr">Montreux Comedy Festival</title>
     <desc lang="fr">Pour le gala de clôture du Montreux Comedy 2023, c'est Thaïs qui prend les commandes et invite le public dans son bar favori. Le temps d'écouter un ultime "Lac du Connemara" ou une chanson de Juliette Armanet, selon les goûts de chacun, et avant que le barman ne fasse sonner la cloche, Thaïs reçoit les humoristes qu'elle affectionne pour une dernière tournée avant la clôture, et surtout avant la prochaine.</desc>
     <category lang="fr">Spectacle / Humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225175700 +0100" stop="20260225193600 +0100">
+  <programme channel="ComediePlus.fr" start="20260225175800 +0100" stop="20260225193600 +0100">
     <title lang="fr">David Castello-Lopes : Authentique</title>
     <desc lang="fr">Humoriste et vidéaste connu pour ses chroniques mêlant journalisme et dérision. David Castello-Lopes présente ici son premier spectacle en solo. Réflexion caustique sur ce qui est considéré comme vrai dans la société, "Authentique" mêle stand-up classique, créations audiovisuelles et humour introspectif.</desc>
     <category lang="fr">Spectacle / One man show</category>
@@ -9949,12 +10016,12 @@
     <desc lang="fr">Le pauvre Aymé a le malheur de séduire la femme du directeur. Apprenant - un peu trop tard - l'identité de la belle, il panique et décide de faire marche arrière. Seulement voilà, sa maîtresse a la phobie des ruptures et ne supporte pas qu'on puisse seulement envisager de l'abandonner. D'ailleurs, tous ses anciens soupirants ont connu une fin tragique. Comme si cela ne suffisait pas, le mari trompé a chargé Sabri d'identifier l'amant de sa femme. De son côté, Jamel séduit une ravissante Suédoise, qui attend impatiemment qu'il ait enfin fini de monter son lit en kit pour se donner à lui. L'entreprise s'annonce délicate : Jamel n'est pas très bricoleur...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225200500 +0100" stop="20260225203400 +0100">
+  <programme channel="ComediePlus.fr" start="20260225200500 +0100" stop="20260225203500 +0100">
     <title lang="fr">H - S04E05</title>
     <desc lang="fr">Débordé de travail, Jamel est contraint de confier la garde de son neveu à Sabri. S'improvisant conteur, celui-ci imagine une version complètement inédite, et bien entendu très personnelle, de "Blanche-Neige", avec Clara dans le rôle de la reine jalouse et cruelle, Aymé dans celui du chasseur, Jamel dans celui des sept nains et lui-même dans la peau du preux chevalier sans peur et sans reproche. De son côté, ignorant ces fantaisies, Clara charge Aymé d'annoncer à Mélanie, la jolie infirmière qu'il convoite, que son contrat à durée déterminée ne sera pas renouvelé...</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225203400 +0100" stop="20260225211100 +0100">
+  <programme channel="ComediePlus.fr" start="20260225203500 +0100" stop="20260225211100 +0100">
     <title lang="fr">H - S04E08</title>
     <desc lang="fr">Aymé doit rencontrer dans quelques heures le père très strict de sa nouvelle fiancée. Sa nervosité bien légitime s'accroît lorsque Strauss, jamais à court d'idées géniales, lui impose de se faire passer pour le fils mentalement arriéré dont il est censé avoir la charge. Le professeur attend en effet la visite d'un inspecteur du fisc apparemment fort désireux de vérifier certains détails de sa déclaration. De son côté, Jamel s'est juré de faire du bar de Sabri un haut lieu de la gastronomie française, récompensé par une étoile au guide Michelin. Le moins que l'on puisse dire est qu'il a du pain sur la planche...</desc>
     <category lang="fr">Série / Série humoristique</category>
@@ -9964,7 +10031,7 @@
     <desc lang="fr">Roland Magdane revient, encore plus fou et déjanté. Dans son nouveau spectacle, l'humoriste transforme les situations du quotidiens en sketches hilarants qui mettent en scène ses personnages habituels, comme Pépé et Mémé, plus déchaînés que jamais. Roland Magdane se débat également avec sa famille et sa femme et porte un regard amusé sur la situation sanitaire et ses conséquences parfois ubuesques sur la vie de tous les jours.</desc>
     <category lang="fr">Spectacle / Humour</category>
   </programme>
-  <programme channel="ComediePlus.fr" start="20260225225600 +0100" stop="20260226005500 +0100">
+  <programme channel="ComediePlus.fr" start="20260225225600 +0100" stop="20260226005600 +0100">
     <title lang="fr">Roland Magdane : Ma femme et moi</title>
     <desc lang="fr">Le portrait de famille déjanté de la famille Magdane continue ! Avec sa femme, obsédée par le bio et le réchauffement climatique, sans oublier pépé et mémé, qui n'hésitent pas à exprimer, parfois crûment, le fond de leur pensée, Roland Magdane sortira-t-il indemne de sa folie familiale ? Il évoque notamment sa rencontre avec son épouse et leur nuit de noces, sans oublier un week-end romantique qui tourne au cauchemar.</desc>
     <category lang="fr">Spectacle / Humour</category>
@@ -17393,9 +17460,14 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3HauteNormandie.fr" start="20260225121500 +0100" stop="20260225125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3HauteNormandie.fr" start="20260225121500 +0100" stop="20260225122500 +0100">
+    <title lang="fr">Météo - Normandie</title>
+    <desc lang="fr">Un bulletin météo complet et régulier, qui fait le point sur les températures, les vents et la qualité de l'air en Normandie.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260225122500 +0100" stop="20260225125500 +0100">
+    <title lang="fr">ICI 12/13 - Normandie Rouen</title>
+    <desc lang="fr">Le journal télévisé régional de la mi-journée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3HauteNormandie.fr" start="20260225125500 +0100" stop="20260225135500 +0100">
@@ -17443,9 +17515,29 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="France3HauteNormandie.fr" start="20260225190000 +0100" stop="20260225200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3HauteNormandie.fr" start="20260225190000 +0100" stop="20260225190400 +0100">
+    <title lang="fr">Météo - Normandie</title>
+    <desc lang="fr">Un bulletin météo complet et régulier, qui fait le point sur les températures, les vents et la qualité de l'air en Normandie.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260225190400 +0100" stop="20260225190600 +0100">
+    <title lang="fr">Qualité de l'air - Normandie</title>
+    <desc lang="fr">Ce programme sensibilise le public aux sources de pollution, aux moyens de la mesurer, et aux actions locales mises en place pour améliorer la qualité de l'air.</desc>
+    <category lang="fr">Magazine / Magazine de l'environnement</category>
+  </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260225190600 +0100" stop="20260225190700 +0100">
+    <title lang="fr">ICI 19/20 Normandie Rouen les titres</title>
+    <desc lang="fr">Avant le journal, découverte des titres principaux qui seront développés dans l'édition du soir.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260225190700 +0100" stop="20260225191400 +0100">
+    <title lang="fr">ICI 19/20 - Baie de Seine</title>
+    <desc lang="fr">Le journal télévisé régional en soirée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3HauteNormandie.fr" start="20260225191400 +0100" stop="20260225200000 +0100">
+    <title lang="fr">ICI 19/20 - Normandie Rouen</title>
+    <desc lang="fr">Le rendez-vous vespéral des rédactions régionales de France Télévisions, avec les journaux locaux, la météo et les reportages propres à chaque région.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3HauteNormandie.fr" start="20260225200000 +0100" stop="20260225201000 +0100">
@@ -17459,8 +17551,8 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3HauteNormandie.fr" start="20260225201500 +0100" stop="20260225202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Normandie</title>
+    <desc lang="fr">Un bulletin météo complet et régulier, qui fait le point sur les températures, les vents et la qualité de l'air en Normandie.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3HauteNormandie.fr" start="20260225202500 +0100" stop="20260225204500 +0100">
@@ -18765,9 +18857,14 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3ParisIdF.fr" start="20260225121500 +0100" stop="20260225125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3ParisIdF.fr" start="20260225121500 +0100" stop="20260225122500 +0100">
+    <title lang="fr">Météo - Paris Ile de France</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3ParisIdF.fr" start="20260225122500 +0100" stop="20260225125500 +0100">
+    <title lang="fr">ICI 12/13 - Paris Ile de France</title>
+    <desc lang="fr">Le journal télévisé régional de la mi-journée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3ParisIdF.fr" start="20260225125500 +0100" stop="20260225135500 +0100">
@@ -18815,9 +18912,19 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="France3ParisIdF.fr" start="20260225190000 +0100" stop="20260225200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3ParisIdF.fr" start="20260225190000 +0100" stop="20260225190500 +0100">
+    <title lang="fr">Qualité de l'air - France 3 Paris Ile de France</title>
+    <desc lang="fr">En 1897, malgré tous les conseils défavorables, le Suédois Salomon August Andrée partit conquérir le pôle nord en ballon, ce qui ne s'était jamais fait.</desc>
+    <category lang="fr">Magazine / Magazine de l'environnement</category>
+  </programme>
+  <programme channel="France3ParisIdF.fr" start="20260225190500 +0100" stop="20260225191000 +0100">
+    <title lang="fr">Météo - Paris Ile de France</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3ParisIdF.fr" start="20260225191000 +0100" stop="20260225200000 +0100">
+    <title lang="fr">ICI 19/20 - Paris Ile de France</title>
+    <desc lang="fr">Le rendez-vous vespéral des rédactions régionales de France Télévisions, avec les journaux locaux, la météo et les reportages propres à chaque région.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3ParisIdF.fr" start="20260225200000 +0100" stop="20260225201000 +0100">
@@ -18831,8 +18938,8 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3ParisIdF.fr" start="20260225201500 +0100" stop="20260225202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Paris Ile de France</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3ParisIdF.fr" start="20260225202500 +0100" stop="20260225204500 +0100">
@@ -19528,115 +19635,40 @@
     <desc lang="fr">"Le Pyja-Robot". Les Pyjamasques découvrent la nouvelle invention de Roméo : un mini-robot très mignon et câlin qu'ils prennent vite en affection. Mais il s'agit d'un piège : Roméo attend que les Pyjamasques emmènent le robot pour le téléguider et lui faire détruire le Q.G. - "Les Pyjamasques et le Super Cristal". Alors que nos trois héros peuvent compter sur Pyja-robot, qui a toutes les qualités pour devenir le quatrième Pyjamasque, ils doivent affronter Ninjaka.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225063200 +0100" stop="20260225064400 +0100">
-    <title lang="fr">Les Pyjamasques - S05E24</title>
-    <desc lang="fr">Après avoir quitté Zoomzania, les Pyjamasques doivent déjà faire face à une ville totalement saccagée.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225063200 +0100" stop="20260225091200 +0100">
+    <title lang="fr">ICI Matin - Poitou</title>
+    <desc lang="fr">Une matinale d'actualités, de services et de bonne humeur pour bien commencer la journée avec des points météo réguliers et des infos trafic et mobilité en temps réel.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225064400 +0100" stop="20260225070000 +0100">
-    <title lang="fr">Les Pyjamasques - S05E24</title>
-    <desc lang="fr">"Le Pyja-Robot". Les Pyjamasques découvrent la nouvelle invention de Roméo : un mini-robot très mignon et câlin qu'ils prennent vite en affection. Mais il s'agit d'un piège : Roméo attend que les Pyjamasques emmènent le robot pour le téléguider et lui faire détruire le Q.G. - "Les Pyjamasques et le Super Cristal". Alors que nos trois héros peuvent compter sur Pyja-robot, qui a toutes les qualités pour devenir le quatrième Pyjamasque, ils doivent affronter Ninjaka.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225091200 +0100" stop="20260225091900 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225070000 +0100" stop="20260225070600 +0100">
-    <title lang="fr">Compostman et moi - S01E35</title>
-    <desc lang="fr">Lorsque Léon marche accidentellement sur Berlingot l'escargot et casse en partie sa coquille, Charlie s'emporte sans que Compostman ne puisse apaiser la situation.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225091900 +0100" stop="20260225094900 +0100">
+    <title lang="fr">Vous êtes formidables - Nouvelle-Aquitaine</title>
+    <desc lang="fr">Pour bien commercer la matinée, France 3 Nouvelle-Aquitaine propose un magazine 100% positif, inspirant et proche des préoccupations de chaque jour pour chacune et chacun. Dans la bonne humeur, Vanessa Finot et toute son équipe vont à la découverte de talents, de parcours, de savoir-faire et d'initiatives formidables aux quatre coins de la région.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225070600 +0100" stop="20260225071700 +0100">
-    <title lang="fr">Compostman et moi - S01E44</title>
-    <desc lang="fr">Quand le voisin décide de suivre la tendance des réseaux sociaux, il se met à acheter et utiliser un tas de gadgets et d'engrais pour rendre le jardin photogénique.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225094900 +0100" stop="20260225103900 +0100">
+    <title lang="fr">Alors on bouge en région</title>
+    <desc lang="fr">Ğ Tabata ğintense et efficace, 20 secondes d'effort et 10 secondes de recupération.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225071700 +0100" stop="20260225072800 +0100">
-    <title lang="fr">Compostman et moi - S01E36</title>
-    <desc lang="fr">Charlie et Compostman découvrent avec horreur des plantes déterrées et abandonnées sur le trottoir près de chez eux. Qui a pu commettre un tel crime ?</desc>
-    <category lang="fr">Série / Série d'animation</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225103900 +0100" stop="20260225105400 +0100">
+    <title lang="fr">Se réinventer en Nouvelle-Aquitaine</title>
+    <desc lang="fr">Comment nos plantations s'adaptent ou non au réchauffement climatiqueâ'Ż? Entre préservation d'espèces locales ou introduction d'essences plus exotiques, quels sont les bons choix pour l'équilibre de nos jardins parfois dépassés par cette nouvelle réalitéâ'Ż?</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225072800 +0100" stop="20260225073900 +0100">
-    <title lang="fr">Compostman et moi - S01E45</title>
-    <desc lang="fr">Quand un orage s'annonce, Charlie, Compostman, Zach et Léon rentrent à la maison en passant devant le parc. Ils aident le jardinier à protéger ses jeunes plants printaniers.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225105400 +0100" stop="20260225110900 +0100">
+    <title lang="fr">NoA sur terre</title>
+    <desc lang="fr">Chaque année, en France, 23 000 km de haies disparaissent. Seulement 3 000 km sont plantés. Elles façonnent pourtant le paysage, ralentissent l'érosion des sols, protègent les cultures... L'équipe de NoA sur Terre s'est rendue en Charente, où un couple d'artisans boulangers a fait le choix des haies pour préserver la biodiversité sur son exploitation de céréales.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225073900 +0100" stop="20260225075000 +0100">
-    <title lang="fr">Compostman et moi - S01E37</title>
-    <desc lang="fr">Il n'y a plus d'eau dans l'immeuble. Charlie s'impose comme organisatrice des opérations de récupération des stocks d'eau et de répartition équitable des ressources.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225075000 +0100" stop="20260225081300 +0100">
-    <title lang="fr">Les mystérieuses cités d'or - S04E20</title>
-    <desc lang="fr">Le plan de nos héros pour retrouver leurs adversaires et leur reprendre les artefacts muens a mal tourné. Mendoza, Pedro et Sancho ont été faits prisonniers. Conduits au village masaï, ils y retrouvent Laguerra et Gaspard qui leur apprennent la disparition d'Ambrosius. De leur côté, Esteban, Zia et Tao qui devaient veiller sur eux depuis le ciel ont été attaqués par l'essaim de criquets et les ont perdus de vue. Quand enfin, ils localisent le village masaï, c'est pour apprendre que leurs amis ont été conduits au Lac des Pétrifiés pour y être sacrifiés. Heureusement, nos jeunes héros arrivent à temps pour les sauver. Tout le monde rembarque alors à bord du Grand condor.</desc>
-    <category lang="fr">Dessin animé / Dessin animé</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225081300 +0100" stop="20260225083500 +0100">
-    <title lang="fr">Les mystérieuses cités d'or - S04E21</title>
-    <desc lang="fr">De retour dans la grotte où Laguerra avait caché le coffre contenant les artefacts indispensables pour construire la 7ème cité, nos jeunes héros ont réalisé avec dépit qu'il manquait la pierre d'Ophir, restée dans la base olmèque. Mais, en découvrant les peintures de la grotte et en se remémorant l'histoire du Sorcier Jonasi enlevé par ceux qu'il appelait les "démons", nos héros en ont déduit que, peut-être, une des galeries pourrait conduire à un des accès de la base olmèque. Mendoza, Laguerra et Gaspard se sont portés volontaires pour cette mission tandis que les enfants sont retournés à Chambord. Là, Nostradamus leur a montré un levier découvert près de la plaque d'orichalque de la caverne. Tao l'a actionné et le château s'est mis à trembler de toutes parts... ¶</desc>
-    <category lang="fr">Dessin animé / Dessin animé</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225083500 +0100" stop="20260225084300 +0100">
-    <title lang="fr">Il était une fois... ces drôles d'objets - S01E34</title>
-    <desc lang="fr">En essayant de méditer au parc, Maestro est dérangé par le vacarme de petit Minus et petit Teigneux. Il les conduit en Mésopotamie découvrir le "tambûr", ancêtre de la guitare.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225084300 +0100" stop="20260225085000 +0100">
-    <title lang="fr">Il était une fois... ces drôles d'objets - S01E35</title>
-    <desc lang="fr">Maestro démontre que bien ou mal voir pouvait, à la préhistoire, être question de vie ou de mort. Il se lance ensuite sur les traces du premier traité d'optique.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225085000 +0100" stop="20260225085700 +0100">
-    <title lang="fr">Il était une fois... ces drôles d'objets - S01E57</title>
-    <desc lang="fr">A la recherche de la pièce manquante de son puzzle, Maestro s'égare dans l'Antiquité où son vieil ami Archimède vient d'inventer le Loculus, le premier puzzle connu.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225085700 +0100" stop="20260225090000 +0100">
-    <title lang="fr">Il était une fois... ces drôles d'objets - S01E70</title>
-    <desc lang="fr">Psi et Pierrot ont perdu leurs alliances. Maestro emmène Pierrot dans un voyage à travers l'histoire des bagues, de la préhistoire à la Renaissance.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225090000 +0100" stop="20260225091100 +0100">
-    <title lang="fr">Les Dalton - S02E25</title>
-    <desc lang="fr">Un couturier est chargé par le gouvernement de relooker l'uniforme des détenus. Averell s'enthousiasme tandis que Joe n'en a rien à cirer. Mais il change très vite d'avis quand il apprend que quatre mannequins seront sélectionnés parmi les prisonniers pour partir présenter la collection à travers tout le pays : belle occasion de se faire la belle ! Le problème c'est qu'il y de la concurrence et pour être choisi, il faut savoir se mouvoir avec grâce et déhanché. Averell, le plus sensible, coache alors ses frangins pour leur apprendre comment défiler dignement...</desc>
-    <category lang="fr">Dessin animé / Dessin animé</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225091100 +0100" stop="20260225091900 +0100">
-    <title lang="fr">Les Dalton - S02E24</title>
-    <desc lang="fr">Sacrilège !!! Un vieux sage chinois occupe l'endroit où les Dalton vont s'asseoir d'habitude dans la cour. Joe fait son petit caïd de cour de récré, mais le monsieur ne veut pas bouger. Les Dalton lui sautent dessus mais, en une demi-seconde, les voilà complètement ravagés. Super efficace cette technique chinoise de la Baffe Céleste ! Joe se dit que si le chinois, qui s'appelle Pupuce Li, pouvait leur transmettre son savoir, aucun garde ne pourrait les empêcher de s'évader…</desc>
-    <category lang="fr">Dessin animé / Dessin animé</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225091900 +0100" stop="20260225092700 +0100">
-    <title lang="fr">Les Dalton - S02E23</title>
-    <desc lang="fr">Le Prince du Désert, qui parcourt le vaste monde monté sur son fier dromadaire, arrive au pénitencier et demande l'hospitalité. Miss Betty craque pour ses yeux magnifiques (on ne voit que ça). Peabody est un poil jaloux. Le Prince ouvre, la bosse de son dromadaire, comme un coffre de voiture, pour en sortir sa tente. Joe a un plan : il va se déguiser en Prince, mettre ses frères dans le coffre et hop, on sort. Sitôt dit, sitôt fait. Mais la bête refuse d'avancer : le noble animal n'obéit qu'à son noble maître...</desc>
-    <category lang="fr">Dessin animé / Dessin animé</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225092700 +0100" stop="20260225093000 +0100">
-    <title lang="fr">Les Dalton - S02E20</title>
-    <desc lang="fr">Dans le cadre de son programme pédagogique, Miss Betty convie les Bras Cassés au pénitencier pour parler de leurs coutumes devant les détenus. Trois indiens font leur entrée : Loup Cinglé, Vrai Faucon et Danse Avec les Gnous qui marche à reculons. Miss Betty s'en étonne mais Loup Cinglé lui explique que c'est un \" Indien Contraire \". Par ordre du Grand Esprit, il fait tout à l'envers, dit l'opposé de ce qu'il veut dire, etc. Averell, trouvant l'idée brillante, décide de devenir un Bagnard Contraire, ce qui ulcère Joe. Et puis cela ne pourra jamais leur servir pour s'évader. Quoique...</desc>
-    <category lang="fr">Dessin animé / Dessin animé</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225093000 +0100" stop="20260225095600 +0100">
-    <title lang="fr">Légendes des Tortues Ninja - S02E03</title>
-    <desc lang="fr">Avec sa famille et ses amis sous l'emprise de Kitsune, Raph ne veut plus se battre dans l'arène des Mutants. Mais il y sera contraint s'il veut tous les sauver.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225095600 +0100" stop="20260225102500 +0100">
-    <title lang="fr">Légendes des Tortues Ninja - S02E04</title>
-    <desc lang="fr">Les Mutanimaux pensent que les Tortues ont agressé Ray Fillet. Mais la coupable est une tortue-alligator mutante appelée Tokka. Donnie la prend en filature.</desc>
-    <category lang="fr">Série / Série d'animation</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225102500 +0100" stop="20260225104500 +0100">
-    <title lang="fr">Premier trio - S01E13</title>
-    <desc lang="fr">Xavier est élu capitaine. Chloé lui demande de l'aider à venir à bout des mauvaises blagues de Raphaël. Emile est pris au dépourvu quand Laurent se présente en personne.</desc>
-    <category lang="fr">Série / Série dramatique</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225104500 +0100" stop="20260225105000 +0100">
-    <title lang="fr">Consomag</title>
-    <desc lang="fr">Le magazine de l'Institut national de la consommation donne à chacun des conseils pratiques pour mieux consommer, toutes les thématiques peuvent être abordées autour de nos achats.</desc>
-    <category lang="fr">Magazine / Magazine du consommateur</category>
-  </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225105000 +0100" stop="20260225112000 +0100">
-    <title lang="fr">La cuisine des mousquetaires</title>
-    <desc lang="fr">Le chef Fabrice Mignot et l'humoriste Caroline Estremo font revivre l'émission culte des années 80 en proposant des recettes accessibles à tous, des astuces, des découvertes de produits du terroir et de la bonne humeur.</desc>
-    <category lang="fr">Magazine / Magazine culinaire</category>
+  <programme channel="France3PoitouCharentes.fr" start="20260225110900 +0100" stop="20260225112000 +0100">
+    <title lang="fr">Escrivans d'aqui</title>
+    <desc lang="fr">Refusant de devenir prêtre malgré les études qui l'y destinent, Michel Camélat, mieux connu sous son nom gascon Miquèu de Camelat, rentre dans son village natal d'Arrens où il se fait épicier tout en se dédiant pleinement à la culture et la littérature gasconnes. Il entreprend alors dès la fin du XIXème siècle l'écriture de drames et épopées versifiés, pièces de théâtre, poèmes et nouvelles.</desc>
+    <category lang="fr">Magazine / Magazine littéraire</category>
   </programme>
   <programme channel="France3PoitouCharentes.fr" start="20260225112000 +0100" stop="20260225120000 +0100">
     <title lang="fr">Flavie en France</title>
@@ -19652,9 +19684,14 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225121500 +0100" stop="20260225125500 +0100">
-    <title lang="fr">ICI 12/13</title>
-    <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3PoitouCharentes.fr" start="20260225121500 +0100" stop="20260225122500 +0100">
+    <title lang="fr">Météo - Nouvelle Aquitaine</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3PoitouCharentes.fr" start="20260225122500 +0100" stop="20260225125500 +0100">
+    <title lang="fr">ICI 12/13 - Poitou Charentes</title>
+    <desc lang="fr">Le journal télévisé régional de la mi-journée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3PoitouCharentes.fr" start="20260225125500 +0100" stop="20260225135500 +0100">
@@ -19702,10 +19739,35 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
-  <programme channel="France3PoitouCharentes.fr" start="20260225190000 +0100" stop="20260225200000 +0100">
-    <title lang="fr">ICI 19/20 édition toutes régions</title>
-    <desc lang="fr">Le rendez-vous vespéral des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+  <programme channel="France3PoitouCharentes.fr" start="20260225190000 +0100" stop="20260225190200 +0100">
+    <title lang="fr">Météo - Nouvelle Aquitaine</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3PoitouCharentes.fr" start="20260225190200 +0100" stop="20260225190400 +0100">
+    <title lang="fr">Qualité de l'air - Nouvelle Aquitaine</title>
+    <desc lang="fr">Ce programme sensibilise le public aux sources de pollution, aux moyens de la mesurer, et aux actions locales mises en place pour améliorer la qualité de l'air.</desc>
+    <category lang="fr">Magazine / Magazine de l'environnement</category>
+  </programme>
+  <programme channel="France3PoitouCharentes.fr" start="20260225190400 +0100" stop="20260225190600 +0100">
+    <title lang="fr">ICI 19/20 Poitou Charentes les titres</title>
+    <desc lang="fr">Avant le journal, découverte des titres principaux qui seront développés dans l'édition du soir.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3PoitouCharentes.fr" start="20260225190600 +0100" stop="20260225191400 +0100">
+    <title lang="fr">ICI 19/20 - Atlantique</title>
+    <desc lang="fr">Le rendez-vous vespéral des rédactions régionales de France Télévisions, avec les journaux locaux, la météo et les reportages propres à chaque région.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3PoitouCharentes.fr" start="20260225191400 +0100" stop="20260225195300 +0100">
+    <title lang="fr">ICI 19/20 - Poitou Charentes</title>
+    <desc lang="fr">Le rendez-vous vespéral des rédactions régionales de France Télévisions, avec les journaux locaux, la météo et les reportages propres à chaque région.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3PoitouCharentes.fr" start="20260225195300 +0100" stop="20260225200000 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="France3PoitouCharentes.fr" start="20260225200000 +0100" stop="20260225201000 +0100">
     <title lang="fr">Stade 2 la quotidienne</title>
@@ -19718,8 +19780,8 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3PoitouCharentes.fr" start="20260225201500 +0100" stop="20260225202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Nouvelle Aquitaine</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3PoitouCharentes.fr" start="20260225202500 +0100" stop="20260225204500 +0100">
@@ -20297,12 +20359,12 @@
   </programme>
   <programme channel="France4.fr" start="20260225050500 +0100" stop="20260225050600 +0100">
     <title lang="fr">Angelo la débrouille - S05E45</title>
-    <desc lang="fr">Angelo la débrouille, un petit garçon plutôt futé d'à peine 10 ans, aime autant s'interroger sur le sens de la vie que jouer à des jeux avec ses meilleurs amis, Lola et Victor.</desc>
+    <desc lang="fr">Quand on a onze ans, la vie n'est pas tous les jours facile, surtout pour le pauvre Angelo, avec son petit frère qui lui empoisonne l'existence, sa grande sœur qui le traite comme un gamin, ses parents au temps libre agité. Mais Angelo a des dons d'anthropologue et a fait de l'étude des comportements son arme fatale pour se faire une place dans ce monde sans pitié...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260225050600 +0100" stop="20260225052600 +0100">
     <title lang="fr">Angelo la débrouille - S05E44</title>
-    <desc lang="fr">Dans cet épisode flash-back très spécial, Angelo raconte la première mission de son équipe, lorsqu'ils n'étaient encore qu'à la garderie.</desc>
+    <desc lang="fr">Quand on a onze ans, la vie n'est pas tous les jours facile, surtout pour le pauvre Angelo, avec son petit frère qui lui empoisonne l'existence, sa grande sœur qui le traite comme un gamin, ses parents au temps libre agité. Mais Angelo a des dons d'anthropologue et a fait de l'étude des comportements son arme fatale pour se faire une place dans ce monde sans pitié...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260225052600 +0100" stop="20260225054700 +0100">
@@ -20926,8 +20988,8 @@
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260225080200 +0100" stop="20260225080800 +0100">
-    <title lang="fr">Simon Superlapin - S01E03</title>
-    <desc lang="fr">Simon et sa petite bande de copains deviennent des super héros et se transforment en Superlapin, Super Lou, Super Ferdi et Capitaine Lapin.</desc>
+    <title lang="fr">Simon Superlapin - S04E03</title>
+    <desc lang="fr">À la plage, Gaspard ramasse des coquillages pour sa collection. Lorsqu'un petit garçon de son âge en fait tomber un super beau devant lui, il en profite pour le récupérer sans rien lui dire. Trouvé c'est trouvé ! De son côté, Simon découvre un poisson coincé dans un trou d'eau...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260225080800 +0100" stop="20260225081000 +0100">
@@ -20962,7 +21024,7 @@
   </programme>
   <programme channel="France5.fr" start="20260225084900 +0100" stop="20260225085000 +0100">
     <title lang="fr">Peppa Pig - S05E11</title>
-    <desc lang="fr">Maman Pig va pouvoir montrer le livre qu'elle vient d'écrire à Peppa et à toute sa classe.</desc>
+    <desc lang="fr">Peppa est une fillette cochon un brin impertinente et quelquefois autoritaire. Elle vit avec ses parents et son petit frère George. Comme tous ses congénères, son passe-temps préféré est de sauter un peu partout dans les flaques de boue, de grogner et de rire. George et Peppa découvrent le monde avec de grands yeux émerveillés et apprennent en même temps tous les mots pour bien se faire comprendre. Ainsi, le bureau de papa Pig, ou la peinture, les fruits ou les poissons n'ont plus de secrets pour eux. Cette série a été recompensée lors des BAFTA Awards en 2005, comme meilleure animation pré-scolaire.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260225085000 +0100" stop="20260225090500 +0100">
@@ -20972,7 +21034,7 @@
   </programme>
   <programme channel="France5.fr" start="20260225090500 +0100" stop="20260225091200 +0100">
     <title lang="fr">Bing - S04E89</title>
-    <desc lang="fr">Sula, Pando et Bing trouvent un nid de zoiseau dans leur cabane, mais apprennent qu'ils ne peuvent pas y jouer tant que l'oiseau y vit. Bing décide donc de la donner au zoiseau... pour l'instant.</desc>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260225091200 +0100" stop="20260225091500 +0100">
@@ -21001,7 +21063,7 @@
     <category lang="fr">Magazine / Magazine littéraire</category>
   </programme>
   <programme channel="France5.fr" start="20260225110000 +0100" stop="20260225115500 +0100">
-    <title lang="fr">Serengeti, la grande cavalcade des animaux</title>
+    <title lang="fr">Serengeti, la grande cavalcade des animaux - S02E03</title>
     <desc lang="fr">A mesure que la faune et la flore se remettent des inondations, la nourriture se fait plus rare. Les plus jeunes doivent apprendre au plus vite à chasser et à se débrouiller. Nalla, la matriarche éléphant, pleure la perte de sa soeur alors que Shavu et Shaba tentent de s'approcher de la dépouille : un repas assuré pour les deux hyènes. Les fourmis légionnaires partent à la recherche d'un nouveau foyer.</desc>
     <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
@@ -21298,7 +21360,7 @@
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="GongMax.fr" start="20260225153500 +0100" stop="20260225170500 +0100">
-    <title lang="fr">Goblin - S01E02</title>
+    <title lang="fr">Goblin</title>
     <desc lang="fr">Eun-Tak constate avec bonheur que sa vie s'améliore de jour en jour. Malheureusement, elle se rend également compte que Kim Shin lui a souvent menti.</desc>
     <category lang="fr">Série / Série fantastique</category>
   </programme>
@@ -21892,20 +21954,6 @@
     <title lang="fr">Les mystères de l'amour - S28E07</title>
     <desc lang="fr">La bande fête la Saint-Valentin avec plus ou moins de bonheur. Christian décide de quitter le concert pour rentrer à Paris, ne supportant plus de voir Fanny et Anthony aussi proches. Bénédicte apprend que Léa joue les enquêtrices, ce qui l'inquiète un peu…</desc>
     <category lang="fr">Série / Série sentimentale</category>
-  </programme>
-  <programme channel="IDF1.fr" start="20260225051500 +0100" stop="20260225053000 +0100">
-    <title lang="fr">Qu'est ce que tu food ?</title>
-    <desc lang="fr">Vous avez l'impression de cuisiner comme une quiche ? " Qu'est-ce que tu food ? " c'est 13 minutes pour vous aider à progresser avec des conseils de chefs réputés. En octobre, c'est la toute fin de saison pour les tomates, l'ultime moment d'en profiter. Et ça tombe bien car elles sont souvent bien grosses, bien rondes, bien mûres, comme celles qu'utilise Alan Geaam, le seul Libanais étoilé Michelin, pour son incroyable taboulé d'herbes.</desc>
-    <category lang="fr">Magazine / Magazine culinaire</category>
-  </programme>
-  <programme channel="IDF1.fr" start="20260225053000 +0100" stop="20260225054500 +0100">
-    <title lang="fr">Planète C</title>
-    <desc lang="fr">Des spécialistes mettent en lumière des méthodes qui permettent de produire des aliments et d'autres ressources en préservant l'environnement.</desc>
-    <category lang="fr">Magazine / Magazine de la nature</category>
-  </programme>
-  <programme channel="IDF1.fr" start="20260225054500 +0100" stop="20260225060000 +0100">
-    <title lang="fr">Tu peux pas test</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="IDF1.fr" start="20260225060000 +0100" stop="20260225063000 +0100">
     <title lang="fr">Story</title>
@@ -25609,10 +25657,12 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225014000 +0100" stop="20260225024000 +0100">
     <title lang="fr">BTRDA Rallycross Championship</title>
+    <desc lang="fr">BTRDA is an UK-based rallycross championship where drivers compete against each other in sprint races</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225024000 +0100" stop="20260225033500 +0100">
     <title lang="fr">Rallye de Grande-Bretagne</title>
+    <desc lang="fr">The British Rally Championship brings edge-of-the-seat rally action across the UK, tackling gravel and asphalt stages with plenty of professional drivers vying for glory. Adrenaline-fueled competition at its core.</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225033500 +0100" stop="20260225040000 +0100">
@@ -25644,7 +25694,7 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225065500 +0100" stop="20260225074500 +0100">
     <title lang="fr">Ferrari Challenge Europe</title>
-    <desc lang="fr">Suivez le Ferrari Challenge Europe, un championnat automobile.</desc>
+    <desc lang="fr">Ferrari Challenge Europe</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225074500 +0100" stop="20260225081000 +0100">
@@ -25697,6 +25747,7 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225133500 +0100" stop="20260225143000 +0100">
     <title lang="fr">FIM World Sidecar Cross Championship</title>
+    <desc lang="fr">passenger" often referred to as the "passenger" or "monkey</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225143000 +0100" stop="20260225145500 +0100">
@@ -25737,7 +25788,7 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225184000 +0100" stop="20260225193000 +0100">
     <title lang="fr">Ferrari Challenge Europe</title>
-    <desc lang="fr">Suivez le Ferrari Challenge Europe, un championnat automobile.</desc>
+    <desc lang="fr">Ferrari Challenge Europe</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225193000 +0100" stop="20260225201500 +0100">
@@ -25746,6 +25797,7 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225201500 +0100" stop="20260225204500 +0100">
     <title lang="fr">UIM Aquabike World Championship</title>
+    <desc lang="fr">Caution, danger of splashing! Since 1992, the Aquabike World Championship has been the most important racing series in the sport of jet skiing and one of the fastest competitions in water sports. On specially designed race courses or on the high seas, the participants engage in thrilling races in the ski and runabout categories and fascinate with all kinds of stunts on their more than 300 hp jet skis.</desc>
     <category lang="fr">Emission sportive / Sports nautiques</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225204500 +0100" stop="20260225211000 +0100">
@@ -25759,11 +25811,12 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225215500 +0100" stop="20260225222000 +0100">
     <title lang="fr">UIM Class 1 Powerboat Championship</title>
-    <desc lang="fr">L'UIM Class 1 World Powerboat Championship est une compétition internationale de course de bateaux à moteur organisée par l'Union Internationale Motonautique (UIM).</desc>
+    <desc lang="fr">The P1 Class 1 Offshore Championship typically features high-performance powerboats competing in offshore races, often in challenging conditions. The championship attracts professional teams and drivers from around the world, and it's known for its thrilling and competitive races.</desc>
     <category lang="fr">Emission sportive / Sports nautiques</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225222000 +0100" stop="20260225230000 +0100">
     <title lang="fr">P1 Offshore Championship</title>
+    <desc lang="fr">The P1 Offshore Powerboat Championship promises tightly fought offshore racing with powerboats reaching top speeds of up to 100 miles per hour. Five events are schedules for this season and Motorvision.TV brings you all the thrilling action from each event!</desc>
     <category lang="fr">Emission sportive / Sports nautiques</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225230000 +0100" stop="20260225235500 +0100">
@@ -25773,7 +25826,7 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260225235500 +0100" stop="20260226004500 +0100">
     <title lang="fr">Ferrari Challenge Europe</title>
-    <desc lang="fr">Suivez le Ferrari Challenge Europe, un championnat automobile.</desc>
+    <desc lang="fr">Ferrari Challenge Europe</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="Museum.fr" start="20260225002900 +0100" stop="20260225005000 +0100">
@@ -26920,7 +26973,7 @@
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="NationalGeographic.fr" start="20260225115000 +0100" stop="20260225124500 +0100">
-    <title lang="fr">Fish My City</title>
+    <title lang="fr">Fish My City - S01E02</title>
     <desc lang="fr">Mike part à Taïwan à la recherche de 3 espèces de poissons urbains, symboles de cette ville fascinante. L'un d'eux est un monstre qui habite les canalisations après s'être échappé de fermes piscicoles, le second est un mystérieux visiteur des océans qui vient de temps à autre en ville via une autoroute aquatique et le dernier est un véritable colosse réputé pour trancher sa proie en deux et pour afficher un sourire aussi carnassier que celui d'un requin.</desc>
     <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
@@ -27599,7 +27652,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225024000 +0100" stop="20260225024600 +0100">
     <title lang="fr">Anna et ses amis - S01E19</title>
-    <desc lang="fr">Lors d'une partie de lancer de bâton, René montre sa collection de bâtons à Anna et Froga. Froga est intriguée : c'est quoi une collection ? C'est quand on rassemble des objets qui ont un lien et qu'on aime bien ! Anna aimerait avoir une belle collection comme René, mais elle se demande bien quoi collectionner. Froga a ses bulles ; Christophe ses sons ; Bubu ses outils… Anna a enfin une belle idée. Si on doit collectionner ce qu'on aime, alors elle a la plus belle des collections : une collection de souvenirs avec ses amis !</desc>
+    <desc lang="fr">Anna, 6 ans, et ses amis Froga la grenouille, Bubu le chien, René le chat et Christophe le ver de terre forment une bande inséparable et espiègle. Comme des enfants qui jouent à imaginer ce que font les grands, chaque jour, les cinq héros s'embarquent dans un nouveau projet. Si rien ne se passe jamais comme prévu, chaque expérience est aussi l'occasion d'apprendre et de grandir.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225024600 +0100" stop="20260225025300 +0100">
@@ -27689,7 +27742,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225043900 +0100" stop="20260225044600 +0100">
     <title lang="fr">Anna et ses amis - S01E19</title>
-    <desc lang="fr">Lors d'une partie de lancer de bâton, René montre sa collection de bâtons à Anna et Froga. Froga est intriguée : c'est quoi une collection ? C'est quand on rassemble des objets qui ont un lien et qu'on aime bien ! Anna aimerait avoir une belle collection comme René, mais elle se demande bien quoi collectionner. Froga a ses bulles ; Christophe ses sons ; Bubu ses outils… Anna a enfin une belle idée. Si on doit collectionner ce qu'on aime, alors elle a la plus belle des collections : une collection de souvenirs avec ses amis !</desc>
+    <desc lang="fr">Anna, 6 ans, et ses amis Froga la grenouille, Bubu le chien, René le chat et Christophe le ver de terre forment une bande inséparable et espiègle. Comme des enfants qui jouent à imaginer ce que font les grands, chaque jour, les cinq héros s'embarquent dans un nouveau projet. Si rien ne se passe jamais comme prévu, chaque expérience est aussi l'occasion d'apprendre et de grandir.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225044600 +0100" stop="20260225045300 +0100">
@@ -27869,7 +27922,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225094700 +0100" stop="20260225100900 +0100">
     <title lang="fr">Barbapapa - S02E08</title>
-    <desc lang="fr">Barbalala et la vie de famille ! / Barbibul et Barbouille ont conçu un énorme jouet en bois propulsé par un moteur utilisant de l'huile bio.</desc>
+    <desc lang="fr">La suite des aventures de Barbapapa, Barbamama et de leurs sept enfants : Barbalala la chanteuse, Barbibul l'inventeur, Barbabelle la coquette, Barbidou l'ami des animaux, Barbotine l'intellectuelle, Barbouille l'artiste peintre et Barbidur le costaud. Leur capacité à prendre toutes les formes leur permet de résoudre tous les problèmes qui s'opposent à eux.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225100900 +0100" stop="20260225102100 +0100">
@@ -27924,7 +27977,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225130900 +0100" stop="20260225133100 +0100">
     <title lang="fr">Dora - S02E06</title>
-    <desc lang="fr">2 (203/13) La Reine des Reptiles rend visite à Vera, mais le jardin est en désordre! Dora l'aide à tout arranger. / Dora rencontre Sammy le Paresseux, qui veut montrer une surprise à ses amis du centre aéré.</desc>
+    <desc lang="fr">Dora, la plus jeune des exploratrices, repart à l'aventure. Accompagnée de son fidèle Babouche, elle doit relever des défis plus incroyables que jamais. Aidée par Sac-à-dos et La Carte, mais également par les jeunes téléspectateurs, elle devra non seulement surmonter des obstacles pour aider ses amis mais aussi affronter Chipeur, le renard le plus sournois de la forêt tropicale. Ses explorations et ses rencontres sont l'occasion pour les enfants enfants de découvrir son héritage multiculturel et d'apprendre l'anglais.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225133100 +0100" stop="20260225135400 +0100">
@@ -27934,12 +27987,12 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225135400 +0100" stop="20260225141600 +0100">
     <title lang="fr">Barbapapa - S02E12</title>
-    <desc lang="fr">Barbalala a reçu un colis et découvre dedans des petits animaux roses qu'elle nomme les Quicouics. / Barbidur, Barbalala et Barbouille en ont marre que leurs frères et sœurs rient à leur dépens.</desc>
+    <desc lang="fr">La suite des aventures de Barbapapa, Barbamama et de leurs sept enfants : Barbalala la chanteuse, Barbibul l'inventeur, Barbabelle la coquette, Barbidou l'ami des animaux, Barbotine l'intellectuelle, Barbouille l'artiste peintre et Barbidur le costaud. Leur capacité à prendre toutes les formes leur permet de résoudre tous les problèmes qui s'opposent à eux.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225141600 +0100" stop="20260225143900 +0100">
     <title lang="fr">Barbapapa - S02E13</title>
-    <desc lang="fr">Les jumeaux visitent la chambre de Barbibul / Si j'étais milliardaire, qu'est-ce que je ferais pour réaliser mes rèves ?</desc>
+    <desc lang="fr">La suite des aventures de Barbapapa, Barbamama et de leurs sept enfants : Barbalala la chanteuse, Barbibul l'inventeur, Barbabelle la coquette, Barbidou l'ami des animaux, Barbotine l'intellectuelle, Barbouille l'artiste peintre et Barbidur le costaud. Leur capacité à prendre toutes les formes leur permet de résoudre tous les problèmes qui s'opposent à eux.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225143900 +0100" stop="20260225150200 +0100">
@@ -27999,7 +28052,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225163400 +0100" stop="20260225164000 +0100">
     <title lang="fr">Peppa Pig - S06E48</title>
-    <desc lang="fr">Peppa et ses amis effectuent une sortie scolaire au musée des sciences. Ils passent un bon moment en découvrant l'eau qui fait des bulles, les ballons à électricité statique et la fusée miniature de Papy Rabbit.</desc>
+    <desc lang="fr">A l'école, à la maison ou au terrain de jeu, Peppa Pig et ses amis font de nouvelles découvertes. Chaque aventure est prétexte à s'amuser et à apprendre.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260225164000 +0100" stop="20260225170100 +0100">
@@ -28696,7 +28749,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260225081400 +0100" stop="20260225083000 +0100">
     <title lang="fr">Sam le pompier - S10E16</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260225083000 +0100" stop="20260225090000 +0100">
@@ -28961,17 +29014,17 @@
   </programme>
   <programme channel="PIWI.fr" start="20260225173100 +0100" stop="20260225174100 +0100">
     <title lang="fr">Sam le pompier - S10E07</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260225174100 +0100" stop="20260225175100 +0100">
     <title lang="fr">Sam le pompier - S10E08</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260225175100 +0100" stop="20260225180100 +0100">
     <title lang="fr">Sam le pompier - S10E09</title>
-    <desc lang="fr">A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <desc lang="fr">Le valeureux Sam, le sergent de police Rose Ravani et toute l'équipe de sauvetage de Pontypandy se lancent dans des missions périlleuses et palpitantes, avec l'aide du chien policier Shadow, du cheval policier Kilo, et de la biologiste marine Jodie, spécialisée dans les sauvetages en mer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260225180100 +0100" stop="20260225181300 +0100">
@@ -29203,6 +29256,34 @@
     <title lang="fr">Les invisibles - S01E06</title>
     <desc lang="fr">Pour marquer l'inauguration de ses nouveaux locaux dont la construction vient de s'achever, un directeur de camp de vacances choisit d'organiser une fête où le point d'orgue sera la démolition des murs des anciens bâtiments. Une fois à l'oeuvre, les amis ne tardent pas à découvrir un corps parmi les débris...</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225000000 +0100" stop="20260225015000 +0100">
+    <title lang="fr">She Loves That Dark Dick</title>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225015000 +0100" stop="20260225015500 +0100">
+    <title lang="fr">Booty And Brains</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225015500 +0100" stop="20260225020000 +0100">
+    <title lang="fr">Booty Duty</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225020000 +0100" stop="20260225040000 +0100">
+    <title lang="fr">Diesel Dongs V46</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225040000 +0100" stop="20260225043200 +0100">
+    <title lang="fr">Dat Pussy Is Tight!</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225043200 +0100" stop="20260225045900 +0100">
+    <title lang="fr">Erotic Ebonys V12</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260225045900 +0100" stop="20260226000100 +0100">
+    <title lang="fr">Pause</title>
+    <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="PinkTV.fr" start="20260225050000 +0100" stop="20260225100000 +0100">
     <title lang="fr">Rendez-vous à 0h</title>
@@ -31991,12 +32072,12 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260225101000 +0100" stop="20260225102000 +0100">
     <title lang="fr">Batwheels - S01E23</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">C'est le jour du Grand Prix de Gotham. La légion du Vroum a saboté tous les concurrents pour prendre leur place et remporter le trophée. Mais c'est sans compter sur les Batwheels bien décidés à leur damer le pion, et à la loyale !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260225102000 +0100" stop="20260225103500 +0100">
     <title lang="fr">Batwheels - S01E24</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Batwing se sent seule : elle aimerait que ses amis puissent voltiger comme elle, mais ce sont des voitures, pas des avions. Heureusement, elle va bientôt se faire une nouvelle amie qui vole aussi bien qu'elle, Goldie, l'avion de Green Arrow.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260225103500 +0100" stop="20260225104500 +0100">
@@ -32429,7 +32510,7 @@
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="T18.fr" start="20260225105000 +0100" stop="20260225115500 +0100">
-    <title lang="fr">Indices - S03E21</title>
+    <title lang="fr">Indices - S01E21</title>
     <desc lang="fr">Le 16 septembre 2005, le corps sans vie d'Audrey Jouannet, 24 ans, est retrouvé caché sous son lit, dans son petit appartement de Soisy-sur-Seine. Très vite, il apparaît que la jeune femme a été longuement torturée avant d'être étranglée. Mais étonnamment, bien que le meurtrier, très méticuleux, ait pris soin de ne laisser aucune trace de son passage, l'autopsie révèle des traces de sperme sur la victime. Pour éclaircir le mystère de ce crime odieux, il faudra toute l'intuition des enquêteurs.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -32439,7 +32520,7 @@
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="T18.fr" start="20260225130000 +0100" stop="20260225141000 +0100">
-    <title lang="fr">Indices - S03E23</title>
+    <title lang="fr">Indices - S01E23</title>
     <desc lang="fr">Le 9 octobre 2001, après un banal dîner, Pierre et Gabrielle Labrell sont pris de violents maux de ventre. Transporté à l'hôpital, le couple de paisibles retraités décède à quelques jours d'intervalle, après d'atroces souffrances. La thèse de l'intoxication alimentaire est rapidement écartée et les expertises révèlent que les époux Labrell ont été empoisonnés à l'arsenic. Les enquêteurs vont finir par découvrir que le meurtrier a cherché à les piéger. Mais sa stratégie a échoué grâce au flair des gendarmes et aux expertises pointues.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -32582,11 +32663,6 @@
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
-  </programme>
-  <programme channel="TF1.fr" start="20260225055000 +0100" stop="20260225065500 +0100">
-    <title lang="fr">TFou</title>
-    <desc lang="fr">Une émission jeunesse qui propose les meilleures séries de dessins animés du moment.</desc>
-    <category lang="fr">Magazine / Magazine jeunesse</category>
   </programme>
   <programme channel="TF1.fr" start="20260225065500 +0100" stop="20260225100000 +0100">
     <title lang="fr">Bonjour ! La Matinale TF1</title>
@@ -37683,7 +37759,7 @@
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260225010400 +0100" stop="20260225020000 +0100">
-    <title lang="fr">La grande histoire du ski</title>
+    <title lang="fr">La grande histoire du ski - S01E01</title>
     <desc lang="fr">Aujourd'hui encore, les nomades mongols perpétuent les coutumes de leurs ancêtres, qui furent parmi les premiers à chausser des skis, il y a plus de 10 000 ans. Le ski n'est donc pas une invention récente - l'homme ayant toujours eu besoin de se déplacer sur la neige pour chasser -, mais son essor date de la première traversée du Groenland par le Norvégien Nansen, en 1888. Histoire du ski.</desc>
     <category lang="fr">Documentaire sportif / Ski</category>
   </programme>
@@ -39041,7 +39117,7 @@
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260225143000 +0100" stop="20260225150000 +0100">
-    <title lang="fr">Une vie de château - S01E17</title>
+    <title lang="fr">Une vie de château</title>
     <desc lang="fr">800 ans d'histoire, plus de 1500 pièces et 130 hectares de parc et de jardins : c'est le château de Fontainebleau, avec ses œuvres d'art du XVIe au XIXe siècle.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
@@ -39061,8 +39137,8 @@
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260225170000 +0100" stop="20260225180000 +0100">
-    <title lang="fr">Métronome - S01E02</title>
-    <desc lang="fr">Lorànt Deutsch invite le téléspectateur à revisiter deux mille ans d'histoire de Paris. Au détour d'une rue, en se promenant dans les jardins ou en admirant les différents monuments de la capitale, il révèle les secrets et les multiples visages de la ville, raconte son évolution et son prestigieux passé. En 629, Dagobert monte sur le trône des Mérovingiens. Sous son règne, l'abbaye de Saint-Denis se développe. Au début du IXe siècle, la civilisation carolingienne délaisse Paris. Le pain est rare en raison des mauvaises récoltes, le fleuve est en crue... La ville n'est plus que l'ombre d'elle-même quand les Vikings l'assiègent. Mais ses habitants se défendent avec vigueur ; l'ennemi venu du Nord abandonne le combat...</desc>
+    <title lang="fr">Métronome</title>
+    <desc lang="fr">Le comédien Lorànt Deutsch propose de revisiter près de deux millénaires de l'histoire de Paris. Au détour d'une rue, dans les jardins de la ville ou devant ses principaux monuments, il fait le récit de la construction de la cité, révélant ses secrets, son évolution et son passé. Il s'attache à décrire les vestiges des époques mérovingiennes et carolingiennes. En 629, Dagobert monte sur le trône. Sous son règne, l'abbaye de Saint-Denis se développe. Au début du IXe siècle, la dynastie carolingienne délaisse Paris. La ville n'est plus que l'ombre d'elle-même quand les Vikings l'assiègent. Mais ses habitants se défendent avec vigueur.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260225180000 +0100" stop="20260225183000 +0100">
@@ -39071,8 +39147,8 @@
     <category lang="fr">Magazine / Magazine scientifique</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260225183000 +0100" stop="20260225190000 +0100">
-    <title lang="fr">Le Buzz TV - S02E118</title>
-    <desc lang="fr">Chaque jour, Damien Canivez, Nicolas Vollaire et Sarah Lecoeuvre proposent un tour d'horizon complet de l'actualité télévisuelle aux côtés d'une personnalité.</desc>
+    <title lang="fr">Le Buzz TV</title>
+    <desc lang="fr">Chaque jour, Damien Canivez, Nicolas Vollaire et Sarah Lecoeuvre vous guident dans un tour d'horizon de l'actualité télévisuelle aux côtés d'une personnalité. Ensemble, ils explorent les coulisses des programmes, décryptent les tendances et partagent des anecdotes inédites, rendant l'univers de la télé plus accessible et vivant que jamais !</desc>
     <category lang="fr">Magazine / Magazine des médias</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260225190000 +0100" stop="20260225195800 +0100">
@@ -39091,7 +39167,7 @@
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260225210000 +0100" stop="20260225220000 +0100">
-    <title lang="fr">Métronome - S01E03</title>
+    <title lang="fr">Métronome</title>
     <desc lang="fr">En 1190, Philippe Auguste érige des murailles pour protéger Paris avant de partir en croisade. La ville devient également un centre universitaire.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -39402,7 +39478,7 @@
   </programme>
   <programme channel="Vox.de" start="20260225201500 +0100" stop="20260225221500 +0100">
     <title lang="fr">Gänsehaut &amp; Glücksgefühle - Europas größte Freizeitparks - S01E01</title>
-    <desc lang="fr">Jeder zweite bis dritte Deutsche gönnt sich mindestens einmal im Jahr einen Besuch in einem der über 100 Freizeitparks in Deutschland oder im benachbarten Europa. Was zieht die Menschen an, warum leisten sie sich dieses oft kostspielige Vergnügen? Wir zeigen Vielfalt und Spannbreite ganz besonderer Freizeitparks und begleiten Macher und Mitarbeitende, Besucher und Fans im Europa-Park Rust, Phantasialand in Brühl, Tripsdrill in Cleebronn, Karls Erlebnisdörfern, dem Disneyland Paris und im holländischen Efteling.</desc>
+    <desc lang="fr">Jeder zweite bis dritte Deutsche gönnt sich mindestens einmal im Jahr einen Besuch in einem der über 100 Freizeitparks in Deutschland oder im benachbarten Europa. Was zieht die Menschen an, warum leisten sie sich dieses oft kostspielige Vergnügen? Wir zeigen Vielfalt und Spannbreite ganz besonderer Freizeitparks und begleiten Macher und Mitarbeiter, Besucher und Fans im Europa-Park Rust, Phantasialand in Brühl, Tripsdrill in Cleebronn, Karls Erlebnisdörfern, dem Disneyland Paris und im holländischen Efteling.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Vox.de" start="20260225221500 +0100" stop="20260226002000 +0100">
@@ -39921,13 +39997,13 @@
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="WarnerTV.fr" start="20260225144000 +0100" stop="20260225150500 +0100">
-    <title lang="fr">Mom - S06E19</title>
-    <desc lang="fr">Bonnie a une réaction inattendue lorsqu'elle apprend que le bar d'Adam fonctionne à merveille. De leur côté, Christy et Tammy ont un double rendez-vous...</desc>
+    <title lang="fr">Mom - S07E07</title>
+    <desc lang="fr">Bonnie et Adam ont un double rendez-vous avec Jill et Andy. De plus, Tammy recrute Christy pour arbitrer une situation délicate avec Marjorie.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="WarnerTV.fr" start="20260225150500 +0100" stop="20260225153000 +0100">
-    <title lang="fr">Mom - S06E20</title>
-    <desc lang="fr">Bonnie et Tammy sont assaillies par leurs souvenirs d'enfance lors d'un voyage dans leur ancien foyer d'accueil. Christy et Jill regrettent d'avoir accepté un rendez-vous avec deux gars de leur réunion des alcooliques anonymes...</desc>
+    <title lang="fr">Mom - S07E08</title>
+    <desc lang="fr">Christy regrette d'avoir pris la fuite avoir heurté une voiture en stationnement. Le thérapeute de Bonnie, Trevor, l'aide à mieux communiquer avec Adam.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="WarnerTV.fr" start="20260225153000 +0100" stop="20260225155500 +0100">
@@ -42488,6 +42564,7 @@
   </programme>
   <programme channel="oqee.1071" start="20260225162600 +0100" stop="20260225165500 +0100">
     <title lang="fr">Destination</title>
+    <desc lang="fr">Rendez-vous : Médiation culturelle à l'Ecole des Beaux-Arts de Châteauroux Métropole.Portrait : Tania MOURAUD - Rencontre avec l'artiste à l'occasion de son exposition à Paris.Exposition : Les baobabs de Pascal MAITRE à La Maison du Parc à Rosnay.Lieu culturel : Préparation de la prochaine expo sur les Guerriers du Japon au Musée BERTRAND à Châteauroux.</desc>
     <category lang="fr">Magazine / Magazine de reportages</category>
   </programme>
   <programme channel="oqee.1071" start="20260225165500 +0100" stop="20260225175000 +0100">
@@ -42497,10 +42574,12 @@
   </programme>
   <programme channel="oqee.1071" start="20260225175000 +0100" stop="20260225175500 +0100">
     <title lang="fr">Croq' Histoires</title>
+    <desc lang="fr">Alyzé vous présente une série d'album pour comprendre les forêts et leurs écosystèmes. - Dans la forêt, Cherche et trouve 100 animaux, de Philippe Jalbert, ©Éditions Gautier - Lauguereau, 2021, À partir de 3 ans. - Ces arbres qui font les forêts, Les écosystèmes forestiers, de Emmanuelle Grundmann et Capucine Mazille, ©Editions Du Ricochet, 2020 À partir de 6 ans - Forêt des frères, de Yukiko Noritake ©Éditions Actes Sud Jeunesse, 2020, À partir de 6 ans - Le Changement climatique Questions - Réponses de Mathieu Hirtzig David Wilgenbus Mathilde Tricoire et Marta Orzel ©Éditions Nathan, 2022, À partir de 6 ans</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.1071" start="20260225175500 +0100" stop="20260225181500 +0100">
     <title lang="fr">Les Fondamentaux</title>
+    <desc lang="fr">(Accord déterminant et nom féminin) - Découvrez ''Les fondamentaux'' pour apprendre, de façon ludique, les notions fondamentales de l'école élémentaire en français, mathématiques, sciences, technologie, enseignement moral et civique.</desc>
     <category lang="fr">Magazine / Magazine éducatif</category>
   </programme>
   <programme channel="oqee.1071" start="20260225181500 +0100" stop="20260225183000 +0100">
@@ -49038,7 +49117,7 @@
   </programme>
   <programme channel="oqee.1211" start="20260225131000 +0100" stop="20260225144100 +0100">
     <title lang="fr">Awaken</title>
-    <desc lang="fr">Un groupe de personnes se réveille sur une île où elles sont pourchassées.</desc>
+    <desc lang="fr">Un groupe de personnes choisies au hasard se réveille sur une île inconnue, sans aucun souvenir de la façon dont elles y sont arrivées. Rapidement, elles comprennent qu'elles ne sont pas seules. Traquées une à une par une présence implacable, l'île devient un piège mortel où chaque bruit peut être le dernier. Pour survivre, elles devront affronter leurs peurs les plus profondes… avant que l'île ne les engloutisse toutes.</desc>
     <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="oqee.1211" start="20260225144100 +0100" stop="20260225161900 +0100">
@@ -49301,7 +49380,7 @@
   </programme>
   <programme channel="oqee.1216" start="20260225150200 +0100" stop="20260225163300 +0100">
     <title lang="fr">Awaken</title>
-    <desc lang="fr">Un groupe de personnes se réveille sur une île où elles sont pourchassées.</desc>
+    <desc lang="fr">Un groupe de personnes choisies au hasard se réveille sur une île inconnue, sans aucun souvenir de la façon dont elles y sont arrivées. Rapidement, elles comprennent qu'elles ne sont pas seules. Traquées une à une par une présence implacable, l'île devient un piège mortel où chaque bruit peut être le dernier. Pour survivre, elles devront affronter leurs peurs les plus profondes… avant que l'île ne les engloutisse toutes.</desc>
     <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="oqee.1216" start="20260225163300 +0100" stop="20260225180500 +0100">
@@ -55239,7 +55318,7 @@
   </programme>
   <programme channel="oqee.165" start="20260225005400 +0100" stop="20260225011500 +0100">
     <title lang="fr">Best &amp; Bester</title>
-    <desc lang="fr">Rocky est candidate contre son amie Rocky à la présidence du club de lecture de la ville. // Nos amis proposent fortuitement leur logement à la location et doivent sortir le grand jeu pour leur hôte.</desc>
+    <desc lang="fr">Rocky est candidate contre son amie Rocky à la présidence du club de lecture de la ville. Nos amis proposent fortuitement leur logement à la location et doivent sortir le grand jeu pour leur hôte.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.165" start="20260225011500 +0100" stop="20260225013600 +0100">
@@ -55329,7 +55408,7 @@
   </programme>
   <programme channel="oqee.165" start="20260225070300 +0100" stop="20260225071500 +0100">
     <title lang="fr">Kamp Koral : Bob la petite éponge - S01E10</title>
-    <desc lang="fr">C'est soirée blagues à Kamp Koral ! Mais le rire des enfants va tourner au hurlement. Pendant une balade en forêt, on confond Patrick et un jeune gigantopithèque des mers.</desc>
+    <desc lang="fr">En tournant les actualités de Kamp Koral, Perche et Harvey découvrent un complot.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.165" start="20260225071500 +0100" stop="20260225073700 +0100">
@@ -57790,6 +57869,11 @@
     <title lang="fr">Pause</title>
     <category lang="fr">Divers / Autre</category>
   </programme>
+  <programme channel="oqee.315" start="20260225052500 +0100" stop="20260225062000 +0100">
+    <title lang="fr">L'air du temps - S01E04</title>
+    <desc lang="fr">L'Argentine, avec une superficie de 2 800 000 km², est un géant d'Amérique Latine. Le pays fait plus de quatre fois la taille de la France pour seulement 43 millions d'habitants. L'Argentine est le troisième producteur mondial de viande bovine, sa culture agricole est donc un enjeu écologique majeur. Rencontre avec des argentins qui développent des méthodes alternatives pour aller vers une agriculture plus responsable et un mode de vie en connexion avec la nature.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
   <programme channel="oqee.315" start="20260225062000 +0100" stop="20260225071500 +0100">
     <title lang="fr">L'air du temps - S01E05</title>
     <desc lang="fr">La France dépend massivement du nucléaire pour son électricité, elle hésite encore entre une économie traditionnelle et le grand virage écologique.</desc>
@@ -58958,6 +59042,151 @@
     <title lang="fr">The Floor</title>
     <desc lang="fr">En el segundo programa de la segunda temporada, ochenta y ocho concursantes se mantienen en pie. Las estrategias empiezan a dejarse ver para ganar el Duelo Final y conseguir los 5000 euros. La valentía femenina y la juventud reinan en esta emisión llena de grandes duelos que dejan fuera a trece más.</desc>
     <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225003000 +0100" stop="20260225010000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225010000 +0100" stop="20260225013000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225013000 +0100" stop="20260225020000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225020000 +0100" stop="20260225023000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225023000 +0100" stop="20260225030000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225030000 +0100" stop="20260225033000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225033000 +0100" stop="20260225040000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225040000 +0100" stop="20260225043000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225043000 +0100" stop="20260225050000 +0100">
+    <title lang="fr">Objetivo Igualdad</title>
+    <desc lang="fr">OBJETIVO IGUALDAD pretende impulsar la igualdad real entre mujeres y hombres. Para ello, a través de reportajes y entrevistas se expondrán los problemas que generan la desigualdad y los estereotipos sexistas y sus posibles soluciones, se difundirán proyectos inspiradores.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225050000 +0100" stop="20260225053000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225053000 +0100" stop="20260225060000 +0100">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario de emisión internacional en el que se emiten noticias de ámbito nacional e internacional dentro del canal 24h.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225060000 +0100" stop="20260225075000 +0100">
+    <title lang="fr">Telediario Matinal</title>
+    <desc lang="fr">Espacio de información diaria con noticias nacionales e internacionales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225075000 +0100" stop="20260225103500 +0100">
+    <title lang="fr">La hora de la 1</title>
+    <desc lang="fr">El programa cuenta con reportajes y entrevistas, dedicados a analizar en profundidad el mundo de la política y la actualidad.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225103500 +0100" stop="20260225110000 +0100">
+    <title lang="fr">Diario 24</title>
+    <desc lang="fr">Espacio de información nacional e internacional diaria.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225110000 +0100" stop="20260225140000 +0100">
+    <title lang="fr">Diario 24</title>
+    <desc lang="fr">Espacio de información nacional e internacional diaria.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225140000 +0100" stop="20260225145700 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225145700 +0100" stop="20260225153400 +0100">
+    <title lang="fr">Telediario 1</title>
+    <desc lang="fr">Espacio de información nacional e internacional diaria, en directo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225153400 +0100" stop="20260225154000 +0100">
+    <title lang="fr">Deportes 1</title>
+    <desc lang="fr">Actualidad deportiva diaria nacional e internacional. SUBT. LSE.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225154000 +0100" stop="20260225154300 +0100">
+    <title lang="fr">El tiempo</title>
+    <desc lang="fr">Espacio grabado de información meteorológica nacional e internacional.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225154300 +0100" stop="20260225160000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225160000 +0100" stop="20260225163000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225163000 +0100" stop="20260225170000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225170000 +0100" stop="20260225200000 +0100">
+    <title lang="fr">La tarde en 24H</title>
+    <desc lang="fr">Informativo en directo de noticias entrevistas y reportajes con dedicación especial a la economía, internacional, cultura y deporte.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225200000 +0100" stop="20260225203000 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225203000 +0100" stop="20260225205900 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225205900 +0100" stop="20260225213700 +0100">
+    <title lang="fr">Telediario 2</title>
+    <desc lang="fr">Programa de noticias diarias nacionales e internacionales en directo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225213700 +0100" stop="20260225214400 +0100">
+    <title lang="fr">Deportes 2</title>
+    <desc lang="fr">Actualidad deportiva diaria nacional e internacional. SUBT. LSE.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225214400 +0100" stop="20260225220400 +0100">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas 366 dias al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260225220400 +0100" stop="20260226003000 +0100">
+    <title lang="fr">La noche en 24H</title>
+    <desc lang="fr">Informativo diario en el que se repasa y analiza la actualidad del día.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.368" start="20260225000000 +0100" stop="20260225012000 +0100">
     <title lang="fr">Festival de Sanremo</title>
@@ -60218,7 +60447,7 @@
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="oqee.401" start="20260225143000 +0100" stop="20260225150000 +0100">
-    <title lang="fr">Une vie de château - S01E17</title>
+    <title lang="fr">Une vie de château</title>
     <desc lang="fr">800 ans d'histoire, plus de 1500 pièces et 130 hectares de parc et de jardins : c'est le château de Fontainebleau, avec ses œuvres d'art du XVIe au XIXe siècle.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
@@ -60238,8 +60467,8 @@
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="oqee.401" start="20260225170000 +0100" stop="20260225180000 +0100">
-    <title lang="fr">Métronome - S01E02</title>
-    <desc lang="fr">Lorànt Deutsch invite le téléspectateur à revisiter deux mille ans d'histoire de Paris. Au détour d'une rue, en se promenant dans les jardins ou en admirant les différents monuments de la capitale, il révèle les secrets et les multiples visages de la ville, raconte son évolution et son prestigieux passé. En 629, Dagobert monte sur le trône des Mérovingiens. Sous son règne, l'abbaye de Saint-Denis se développe. Au début du IXe siècle, la civilisation carolingienne délaisse Paris. Le pain est rare en raison des mauvaises récoltes, le fleuve est en crue... La ville n'est plus que l'ombre d'elle-même quand les Vikings l'assiègent. Mais ses habitants se défendent avec vigueur ; l'ennemi venu du Nord abandonne le combat...</desc>
+    <title lang="fr">Métronome</title>
+    <desc lang="fr">Le comédien Lorànt Deutsch propose de revisiter près de deux millénaires de l'histoire de Paris. Au détour d'une rue, dans les jardins de la ville ou devant ses principaux monuments, il fait le récit de la construction de la cité, révélant ses secrets, son évolution et son passé. Il s'attache à décrire les vestiges des époques mérovingiennes et carolingiennes. En 629, Dagobert monte sur le trône. Sous son règne, l'abbaye de Saint-Denis se développe. Au début du IXe siècle, la dynastie carolingienne délaisse Paris. La ville n'est plus que l'ombre d'elle-même quand les Vikings l'assiègent. Mais ses habitants se défendent avec vigueur.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="oqee.401" start="20260225180000 +0100" stop="20260225183000 +0100">
@@ -60248,8 +60477,8 @@
     <category lang="fr">Magazine / Magazine scientifique</category>
   </programme>
   <programme channel="oqee.401" start="20260225183000 +0100" stop="20260225190000 +0100">
-    <title lang="fr">Le Buzz TV - S02E118</title>
-    <desc lang="fr">Chaque jour, Damien Canivez, Nicolas Vollaire et Sarah Lecoeuvre proposent un tour d'horizon complet de l'actualité télévisuelle aux côtés d'une personnalité.</desc>
+    <title lang="fr">Le Buzz TV</title>
+    <desc lang="fr">Chaque jour, Damien Canivez, Nicolas Vollaire et Sarah Lecoeuvre vous guident dans un tour d'horizon de l'actualité télévisuelle aux côtés d'une personnalité. Ensemble, ils explorent les coulisses des programmes, décryptent les tendances et partagent des anecdotes inédites, rendant l'univers de la télé plus accessible et vivant que jamais !</desc>
     <category lang="fr">Magazine / Magazine des médias</category>
   </programme>
   <programme channel="oqee.401" start="20260225190000 +0100" stop="20260225195800 +0100">
@@ -60268,7 +60497,7 @@
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.401" start="20260225210000 +0100" stop="20260225220000 +0100">
-    <title lang="fr">Métronome - S01E03</title>
+    <title lang="fr">Métronome</title>
     <desc lang="fr">En 1190, Philippe Auguste érige des murailles pour protéger Paris avant de partir en croisade. La ville devient également un centre universitaire.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -60656,6 +60885,136 @@
     <title lang="fr">En carne propia</title>
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
+  <programme channel="oqee.439" start="20260225000500 +0100" stop="20260225010500 +0100">
+    <title lang="fr">De noche ya se armó</title>
+    <desc lang="fr">Programa presentado por Yordi Rosado que se adentra en temas tabú que pocos se atreven a cuestionar.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225010500 +0100" stop="20260225015500 +0100">
+    <title lang="fr">Mi verdad oculta</title>
+    <desc lang="fr">Una mujer asume una nueva identidad para vengarse de los cuatro hermanos adinerados que la agredieron en su juventud. Debe mantener en secreto sus verdaderas motivaciones mientras se vuelve a enamorar de un antiguo novio de su vida pasada.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225015500 +0100" stop="20260225024500 +0100">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. &lt;BR/&gt;&lt;BR/&gt;Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225024500 +0100" stop="20260225033500 +0100">
+    <title lang="fr">Como dice el dicho</title>
+    <desc lang="fr">Los clientes de la cafetería El Dicho viven cada día curiosas historias personales.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225033500 +0100" stop="20260225042500 +0100">
+    <title lang="fr">Los hilos del pasado</title>
+    <desc lang="fr">Una exitosa diseñadora de moda busca vengarse de una joven modelo por enamorarse de su hijastro, sin saber que ella es la hija que abandonó hace dos décadas.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225042500 +0100" stop="20260225045500 +0100">
+    <title lang="fr">La cocina en los pueblos mágicos</title>
+    <desc lang="fr">Espacio en el que el chef Jesús Gibaja recorre las calles de diferentes estados de México, para recolectar los ingredientes de sus recetas. El programa trata de mostrar los paisajes y la cultura más pintoresca del país, acompañada de los mejores sabores de su cocina.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225045500 +0100" stop="20260225062000 +0100">
+    <title lang="fr">Una familia con suerte</title>
+    <desc lang="fr">Fernanda descubre los valores no materiales de la vida con la humilde familia de Pancho.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225062000 +0100" stop="20260225065000 +0100">
+    <title lang="fr">En punto</title>
+    <desc lang="fr">Telenoticias nocturno de Televisa conducido por la periodista Denise Maerker, con una propuesta orientada a dar mayor profundidad a la noticia e incorporando los reportajes de investigación.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225065000 +0100" stop="20260225072000 +0100">
+    <title lang="fr">Más vale sola</title>
+    <desc lang="fr">Julieta Romeo y Pilar Maldonado, descubren que son hermanastras después de que la sobredosis de viagra de su padre lo lleve al hospital, obligándolas a vivir juntas a pesar de sus distintas personalidades.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225072000 +0100" stop="20260225075000 +0100">
+    <title lang="fr">La cocina en los pueblos mágicos</title>
+    <desc lang="fr">Espacio en el que el chef Jesús Gibaja recorre las calles de diferentes estados de México, para recolectar los ingredientes de sus recetas. El programa trata de mostrar los paisajes y la cultura más pintoresca del país, acompañada de los mejores sabores de su cocina.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225075000 +0100" stop="20260225085000 +0100">
+    <title lang="fr">Como dice el dicho</title>
+    <desc lang="fr">Los clientes de la cafetería El Dicho viven cada día curiosas historias personales.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225085000 +0100" stop="20260225094000 +0100">
+    <title lang="fr">Papás por siempre</title>
+    <desc lang="fr">Cinco años después, Tino y Aidé enfrentan nuevos retos con una familia más numerosa. El amor los mantiene unidos, pero las responsabilidades aumentan.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225094000 +0100" stop="20260225102000 +0100">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. &lt;BR/&gt;&lt;BR/&gt;Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225102000 +0100" stop="20260225112000 +0100">
+    <title lang="fr">Los hilos del pasado</title>
+    <desc lang="fr">Una exitosa diseñadora de moda busca vengarse de una joven modelo por enamorarse de su hijastro, sin saber que ella es la hija que abandonó hace dos décadas.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225112000 +0100" stop="20260225121000 +0100">
+    <title lang="fr">Mi verdad oculta</title>
+    <desc lang="fr">Una mujer asume una nueva identidad para vengarse de los cuatro hermanos adinerados que la agredieron en su juventud. Debe mantener en secreto sus verdaderas motivaciones mientras se vuelve a enamorar de un antiguo novio de su vida pasada.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225121000 +0100" stop="20260225125000 +0100">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. &lt;BR/&gt;&lt;BR/&gt;Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225125000 +0100" stop="20260225135000 +0100">
+    <title lang="fr">Las noticias, con Danielle Dithurbide</title>
+    <desc lang="fr">Danielle Dithurbide cuenta la información noticiosa y deportiva más importante del día de forma simple, ágil y concreta. una vuelta rápida por México y el mundo con todo lo que los espectadores necesitan saber antes de salir de casa.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225135000 +0100" stop="20260225160000 +0100">
+    <title lang="fr">Despierta con Loret</title>
+    <desc lang="fr">Programa informativo que ofrece debates con expertos y entrevistas con los protagonistas de las noticias, además de investigaciones y análisis sobre las noticias más importantes del panorama nacional e internacional.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225160000 +0100" stop="20260225175000 +0100">
+    <title lang="fr">El Chavo del Ocho</title>
+    <desc lang="fr">El Chavo es un niño pobre de ocho años, que no tiene padres y que vive en un barril en la vecindad. Sus amigos son Quico y la Chilindrina; juntos juegan y cometen divertidas travesuras por el barrio, recibiendo las regañinas de los mayores.&lt;BR/&gt;&lt;BR/&gt;"El Chavo del Ocho" es una creación de Roberto Gómez Bolaños, quien da vida él mismo a su personaje. A partir de una pieza humorística de su programa "Chespirito", titulado "El Chavo del Ocho", decide crear en 1973 una serie con el mismo nombre. Este nuevo programa tiene gran éxito, ya que por primera vez se ve en México un espacio humorístico dirigido al público adulto pero interpretando a niños. La serie llega a límites de audiencia insospechados, viéndose en varios países de Latinoamérica, y el elenco hace giras por el interior de México y luego por algunos países de Centro y Sudamérica.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225175000 +0100" stop="20260225193000 +0100">
+    <title lang="fr">Una familia con suerte</title>
+    <desc lang="fr">Fernanda descubre los valores no materiales de la vida con la humilde familia de Pancho.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225193000 +0100" stop="20260225202000 +0100">
+    <title lang="fr">Como dice el dicho</title>
+    <desc lang="fr">Los clientes de la cafetería El Dicho viven cada día curiosas historias personales.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225202000 +0100" stop="20260225211000 +0100">
+    <title lang="fr">Mi verdad oculta</title>
+    <desc lang="fr">Una mujer asume una nueva identidad para vengarse de los cuatro hermanos adinerados que la agredieron en su juventud. Debe mantener en secreto sus verdaderas motivaciones mientras se vuelve a enamorar de un antiguo novio de su vida pasada.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225211000 +0100" stop="20260225220000 +0100">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. &lt;BR/&gt;&lt;BR/&gt;Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225220000 +0100" stop="20260225225000 +0100">
+    <title lang="fr">Papás por siempre</title>
+    <desc lang="fr">Cinco años después, Tino y Aidé enfrentan nuevos retos con una familia más numerosa. El amor los mantiene unidos, pero las responsabilidades aumentan.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225225000 +0100" stop="20260225234000 +0100">
+    <title lang="fr">Los hilos del pasado</title>
+    <desc lang="fr">Una exitosa diseñadora de moda busca vengarse de una joven modelo por enamorarse de su hijastro, sin saber que ella es la hija que abandonó hace dos décadas.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260225234000 +0100" stop="20260226000500 +0100">
+    <title lang="fr">El príncipe del barrio</title>
+    <desc lang="fr">Albertano se independiza de su familia y decide mudarse a Lomas de Chacaltepec, donde todos buscan amor y fortuna. Nueva adaptación de la comedia mexicana "Lagunilla, mi barrio".</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="oqee.445" start="20260225000000 +0100" stop="20260225003000 +0100">
     <title lang="fr">Lakshmi Nivas</title>
     <desc lang="fr">Lakshmi, a strong-willed woman, bravely faces pressures in a traditional joint family and stays by her husband Shriniwas, who works hard to build his dream house.</desc>
@@ -61039,6 +61398,105 @@
     <desc lang="fr">Sinema sürükleyici hikayesi ve güçlü karakterleriyle izleyiciyi ekrana bağlıyor. Sırlar, aşk ve beklenmedik gelişmeler karakterlerin hayatlarını derinden etkilerken her sahnede gerilim ve duygusal yoğunluk artıyor. Karakterler zor seçimlerle yüzleşirken hikaye dramatik anlar, sürpriz gelişmeler ve duygusal çatışmalarla ilerliyor. İzleyici her sahnede merak ve heyecanla hikayeyi takip ediyor, olayların gelişimini sabırsızlıkla izliyor.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.486" start="20260225001500 +0100" stop="20260225023000 +0100">
+    <title lang="fr">Haberin İçinden</title>
+    <desc lang="fr">Gündemin nabzını tutan gelişmeler, yalnızca başlıklarıyla değil, perde arkasındaki nedenleri ve etkileriyle bu programda ele alınır. Türkiye ve dünyadan sıcak haberler; analizler, uzman görüşleri ve sahadan aktarılan bilgilerle derinlik kazanır. Olayların nasıl başladığı, nasıl geliştiği ve topluma nasıl yansıdığı anlaşılır bir dille izleyiciye aktarılır. Program, haberin görünen yüzünün ötesine geçerek izleyiciye geniş bir perspektif sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225023000 +0100" stop="20260225040000 +0100">
+    <title lang="fr">Şef Abdullah Usta İle Anadolu Mutfağı</title>
+    <desc lang="fr">Şef Abdullah Usta ile Anadolu Mutfağı TGRT EUhafta içi her gün canlı yayınla sizlerleyim sizlerin sevdiğiniz yemekler ve birbirinden kıymetli konuklarım ve hediyerler vermeye devam ediyoruz!</desc>
+    <category lang="fr">Magazine / Magazine de la gastronomie</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225040000 +0100" stop="20260225043000 +0100">
+    <title lang="fr">Doktorlar Konuşuyor</title>
+    <desc lang="fr">Bugün sizlere hepimizi yakından ilgilendiren ciddi sağlık sorunlarından ve hastalıkların tedavisinde bitkilerin etkisini konuşacağız. Sadece TRGT EU'de. </desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225043000 +0100" stop="20260225050000 +0100">
+    <title lang="fr">Huzura Doğru</title>
+    <desc lang="fr">Gündelik hayatın karmaşasından uzaklaşıp içsel dinginliğe yönelmek isteyenler için hazırlanan bu program, manevi sohbetler, anlamlı paylaşımlar ve ilham veren anlatımlarla izleyiciye huzurlu bir alan açar. Hayata dair sorulara sakin bir bakış sunan içerik, ruhu dinlendiren anlatımıyla izleyiciyi içsel bir yolculuğa davet eder. Program, düşünmeye, nefes almaya ve kendinle yeniden bağ kurmaya imkân tanır.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225050000 +0100" stop="20260225080000 +0100">
+    <title lang="fr">Cem Küçük ile Günaydın Türkiye</title>
+    <desc lang="fr">Gece siz uyurken olup bitenler, yeni günün getirdikleri, sabah sokağa çıkmadan önce merak ettiğiniz haberler ve bilmeniz gereken son dakika notları TGRT Haber'de. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225080000 +0100" stop="20260225090000 +0100">
+    <title lang="fr">Bilmedikleriniz</title>
+    <desc lang="fr">Yasemin Bozkurt ve Yaprak Hırka Yıldız ile Bilmedikleriniz pazartesiden cumaya hafta içi her gün TGRT Haber'de.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225090000 +0100" stop="20260225100000 +0100">
+    <title lang="fr">Burada Her Şey Var</title>
+    <desc lang="fr">Burada herşey olacak kadın, güzellik, estetik,sağlık, sosyal konular ve daha fazlası... Burada Her Şey!</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225100000 +0100" stop="20260225103500 +0100">
+    <title lang="fr">Ünlülerle Hayata Dair</title>
+    <desc lang="fr">TGRT EU kanalında yayınlanan ilginç röportajlar 'Ünlülerle Hayata' Dair takip edebilirsiniz. </desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225103500 +0100" stop="20260225104500 +0100">
+    <title lang="fr">Haberin İçinden</title>
+    <desc lang="fr">Gündemin nabzını tutan gelişmeler, yalnızca başlıklarıyla değil, perde arkasındaki nedenleri ve etkileriyle bu programda ele alınır. Türkiye ve dünyadan sıcak haberler; analizler, uzman görüşleri ve sahadan aktarılan bilgilerle derinlik kazanır. Olayların nasıl başladığı, nasıl geliştiği ve topluma nasıl yansıdığı anlaşılır bir dille izleyiciye aktarılır. Program, haberin görünen yüzünün ötesine geçerek izleyiciye geniş bir perspektif sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225104500 +0100" stop="20260225133000 +0100">
+    <title lang="fr">Haberin İçinden</title>
+    <desc lang="fr">Gündemin nabzını tutan gelişmeler, yalnızca başlıklarıyla değil, perde arkasındaki nedenleri ve etkileriyle bu programda ele alınır. Türkiye ve dünyadan sıcak haberler; analizler, uzman görüşleri ve sahadan aktarılan bilgilerle derinlik kazanır. Olayların nasıl başladığı, nasıl geliştiği ve topluma nasıl yansıdığı anlaşılır bir dille izleyiciye aktarılır. Program, haberin görünen yüzünün ötesine geçerek izleyiciye geniş bir perspektif sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225133000 +0100" stop="20260225150000 +0100">
+    <title lang="fr">Şef Abdullah Usta İle Anadolu Mutfağı</title>
+    <desc lang="fr">Şef Abdullah Usta ile Anadolu Mutfağı TGRT EUhafta içi her gün canlı yayınla sizlerleyim sizlerin sevdiğiniz yemekler ve birbirinden kıymetli konuklarım ve hediyerler vermeye devam ediyoruz!</desc>
+    <category lang="fr">Magazine / Magazine de la gastronomie</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225150000 +0100" stop="20260225153000 +0100">
+    <title lang="fr">Doktorlar Konuşuyor</title>
+    <desc lang="fr">Bugün sizlere hepimizi yakından ilgilendiren ciddi sağlık sorunlarından ve hastalıkların tedavisinde bitkilerin etkisini konuşacağız. Sadece TRGT EU'de. </desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225153000 +0100" stop="20260225161500 +0100">
+    <title lang="fr">Türk Filmi</title>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225161500 +0100" stop="20260225171500 +0100">
+    <title lang="fr">Seyyah-ı Fakir</title>
+    <desc lang="fr">Yurtiçi ve dışı manevi değerlerimizi, tarihimizi, kültürümüzü, adetlerimizi, yemeklerimizi anlatırken ilginç insan hikayelerini sizlerle TGRT Belgesel'de.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225171500 +0100" stop="20260225174500 +0100">
+    <title lang="fr">Tacihan Yongacı ile Dekotrend</title>
+    <desc lang="fr">Evinizde kullanmadığınız eşyaları geri dönüştürerek, hem çevreye katkıda bulunuyoruz hem de bütçemize kar sağlayıp birbirinden güzel şık tasarımlar üretebilirsiniz. Tacihan Yongacı ile Dekotrend TGRT Haber'de hem anlatıyor, hem dönüştürüyor.</desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225174500 +0100" stop="20260225190000 +0100">
+    <title lang="fr">Ana Haber Bülteni</title>
+    <desc lang="fr">Günün en önemli gelişmeleri, son dakika haberleri ve sıcak başlıklar bu bültende izleyiciyle buluşur. Tarafsız, net ve güvenilir anlatımıyla gündemin özeti sunulur.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225190000 +0100" stop="20260225193000 +0100">
+    <title lang="fr">Çözen Kazanır</title>
+    <desc lang="fr">Ekranların sevilen yarışma programı "Çözen Kazanır" başlıyor! Alper Altun'un enerjik ve eğlenceli sunumuyla hafta içi her gün TGRT EU ekranlarında izleyicilerle buluşacak bu heyecan dolu program, hem bilgiye dayalı soruları hem de sürpriz ödülleriyle evlerinize neşe katacak. Bilgi birikiminize güveniyorsanız ve eğlence dolu anlar yaşamak istiyorsanız, "Çözen Kazanır" tam size göre! Hafta içi her gün TGRT EU ekranlarında buluşmak üzere!</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225193000 +0100" stop="20260225220000 +0100">
+    <title lang="fr">Medya Kritik</title>
+    <desc lang="fr">Medya dünyasında yaşanan önemli gelişmeler, gündem yaratan yayınlar ve tartışmalar bu programda detaylı şekilde ele alınır. Televizyon, dijital platformlar ve basın alanındaki değişimler; analizler, yorumlar ve değerlendirmelerle derinlik kazanır. İçeriklerin arka planı, kamuoyuna etkileri ve medyanın yönü izleyiciye anlaşılır bir dille aktarılır. Program, izleyiciye medyayı daha bilinçli ve eleştirel bir gözle takip etme imkânı sunar.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225220000 +0100" stop="20260225233000 +0100">
+    <title lang="fr">Yakup Sağlam ile Bugünden Yarına</title>
+    <desc lang="fr">Güncel olaylar ve gündemin öne çıkan başlıkları, yalnızca bugünün değil, yarının perspektifiyle bu programda ele alınır. Siyaset, ekonomi, toplum ve dünya gündeminden seçilen konular; analizler, yorumlar ve değerlendirmelerle derinlik kazanır. Olayların nedenleri, olası sonuçları ve uzun vadeli etkileri izleyiciye anlaşılır bir dille aktarılır. Program, izleyiciye bugünü doğru okumayı ve yarını daha bilinçli öngörmeyi amaçlayan güçlü bir bakış açısı sunar.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.486" start="20260225233000 +0100" stop="20260226001500 +0100">
+    <title lang="fr">Burada Her Şey Var</title>
+    <desc lang="fr">Burada herşey olacak kadın, güzellik, estetik,sağlık, sosyal konular ve daha fazlası... Burada Her Şey!</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
   <programme channel="oqee.488" start="20260225020000 +0100" stop="20260225021000 +0100">
     <title lang="fr">Avrupa Haber</title>
     <desc lang="fr">Gündemin nabzı, öne çıkan gelişmeler ve Türk kökenli göçmenleri yakından ilgilendiren haberlerin; kısa ve öz bir dille aktarıldığı Avrupa Haber, her gün Atv Avrupa'da...</desc>
@@ -61148,6 +61606,11 @@
     <title lang="fr">Zootopie</title>
     <desc lang="fr">A Zootopie, une métropole où cohabitent harmonieusement toutes les espèces animales, Judy Hopps, une adorable jeune lapine, fait son entrée dans la police de la ville et tente de s'imposer au milieu des gros durs de la profession. Pour prouver l'étendue de ses capacités, Judy se charge d'enquêter sur une difficile affaire de disparition. Mais elle se voit alors obligée de collaborer avec Nick Wilde, un renard malin, loquace et arnaqueur émérite. Accompagnée de ce compère à la langue bien pendue, Judy se retrouve bientôt confrontée à un événement mystérieux lorsque des animaux reviennent soudainement à l'état sauvage...</desc>
     <category lang="fr">Film / Film d'animation</category>
+  </programme>
+  <programme channel="oqee.49" start="20260225055000 +0100" stop="20260225060000 +0100">
+    <title lang="fr">Here and There</title>
+    <desc lang="fr">In the episode, we're in London, at Piccadilly Circus, a favorite meeting place among locals and tourists.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
   </programme>
   <programme channel="oqee.49" start="20260225060000 +0100" stop="20260225060500 +0100">
     <title lang="fr">Art Land</title>
@@ -62570,7 +63033,7 @@
     <desc lang="fr">People &amp;amp; Power is a current affairs programme on Al Jazeera English which broadcasts once a week, on Wednesdays, and repeated throughout the week.Each half-hour programme features one investigative documentaries on an issue related to power from around the world. The programme occasionally has one hour specials.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
-  <programme channel="oqee.56" start="20260225000000 +0100" stop="20260225005500 +0100">
+  <programme channel="oqee.56" start="20260225000500 +0100" stop="20260225005500 +0100">
     <title lang="fr">Dossiers ovnis - S01E04</title>
     <desc lang="fr">La plus incroyable observation d'ovni sur le sol britannique a eu lieu le 26 décembre 1980, dans la forêt de Rendlesham. A 3 heures du matin, des militaires américains ont aperçu une lumière dans le ciel qui descendait vers la forêt. Partis voir de quoi il s'agissait, ils ont découvert un objet mystérieux.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
@@ -64571,7 +65034,7 @@
   </programme>
   <programme channel="oqee.613" start="20260225074800 +0100" stop="20260225083400 +0100">
     <title lang="fr">Le cercle</title>
-    <desc lang="fr">"Le Cercle" est un magazine de débats et de critiques cinéphiles animé par un journaliste en compagnie de chroniqueurs et en présence d'un public d'étudiants en cinéma.</desc>
+    <desc lang="fr">Lily Bloom entourée de son équipe de fous de cinéma débattent des films à l'affiche.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="oqee.613" start="20260225083400 +0100" stop="20260225085700 +0100">
@@ -65390,7 +65853,7 @@
   </programme>
   <programme channel="oqee.663" start="20260225220000 +0100" stop="20260225230000 +0100">
     <title lang="fr">Szkło kontaktowe</title>
-    <desc lang="fr">Gospodarze programu wraz z zaproszonymi do studia satyrykami lub dziennikarzami w luźnej konwencji komentują bieżące wydarzenia polityczne. W trakcie trwania programu widzowie mogą dzwonić lub pisać SMS-y, by podzielić się własnymi opiniami.</desc>
+    <desc lang="fr">Prowadzący i goście, znani polscy satyrycy, w luźnej konwencji komentują bieżące wydarzenia polityczne. W programie uczestniczą też widzowie, dzwoniąc albo wysyłając SMS-y.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.663" start="20260225230000 +0100" stop="20260226002500 +0100">
@@ -65699,7 +66162,7 @@
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.667" start="20260225102000 +0100" stop="20260225104500 +0100">
-    <title lang="fr">Heidi *2015</title>
+    <title lang="fr">Heidi</title>
     <desc lang="fr">A la mort de ses parents, Heidi, petite fille de 7 ans, est confiée à son grand-père, un vieil homme sévère et taciturne qui habite au coeur des Alpes suisses. En même temps qu'elle apprend à connaître son aïeul, la fillette découvre les joies de vivre en montagne et se lie d'amitié avec Peter, un jeune chevrier débrouillard, et Clara, une enfant de son âge, clouée dans un fauteuil roulant. Cette version en 3D permet de donner une autre dimension aux paysages de montagne, aux grands espaces, à la faune et la flore.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
@@ -65784,7 +66247,7 @@
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.667" start="20260225163000 +0100" stop="20260225165500 +0100">
-    <title lang="fr">Heidi *2015</title>
+    <title lang="fr">Heidi</title>
     <desc lang="fr">A la mort de ses parents, Heidi, petite fille de 7 ans, est confiée à son grand-père, un vieil homme sévère et taciturne qui habite au coeur des Alpes suisses. En même temps qu'elle apprend à connaître son aïeul, la fillette découvre les joies de vivre en montagne et se lie d'amitié avec Peter, un jeune chevrier débrouillard, et Clara, une enfant de son âge, clouée dans un fauteuil roulant. Cette version en 3D permet de donner une autre dimension aux paysages de montagne, aux grands espaces, à la faune et la flore.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
@@ -65829,7 +66292,7 @@
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.667" start="20260225194500 +0100" stop="20260225201000 +0100">
-    <title lang="fr">Heidi *2015</title>
+    <title lang="fr">Heidi</title>
     <desc lang="fr">A la mort de ses parents, Heidi, petite fille de 7 ans, est confiée à son grand-père, un vieil homme sévère et taciturne qui habite au coeur des Alpes suisses. En même temps qu'elle apprend à connaître son aïeul, la fillette découvre les joies de vivre en montagne et se lie d'amitié avec Peter, un jeune chevrier débrouillard, et Clara, une enfant de son âge, clouée dans un fauteuil roulant. Cette version en 3D permet de donner une autre dimension aux paysages de montagne, aux grands espaces, à la faune et la flore.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
@@ -66674,6 +67137,11 @@
     <title lang="fr">Jolly LLB 2</title>
     <desc lang="fr">Hindi</desc>
     <category lang="fr">Film / Film policier</category>
+  </programme>
+  <programme channel="oqee.693" start="20260225044500 +0100" stop="20260225070000 +0100">
+    <title lang="fr">Shiva</title>
+    <desc lang="fr">Hindi</desc>
+    <category lang="fr">Film / Film d'action</category>
   </programme>
   <programme channel="oqee.693" start="20260225070000 +0100" stop="20260225100500 +0100">
     <title lang="fr">Aaina</title>
@@ -68500,16 +68968,6 @@
     <desc lang="fr">Comedia que narra las aventuras de una familia y de los clientes que pasan por su bar.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
-  <programme channel="oqee.71" start="20260225050000 +0100" stop="20260225055500 +0100">
-    <title lang="fr">Pratos combinados</title>
-    <desc lang="fr">Comedia que narra las aventuras de una familia y de los clientes que pasan por su bar.</desc>
-    <category lang="fr">Série / Série humoristique</category>
-  </programme>
-  <programme channel="oqee.71" start="20260225055500 +0100" stop="20260225065500 +0100">
-    <title lang="fr">Pratos combinados</title>
-    <desc lang="fr">Comedia que narra las aventuras de una familia y de los clientes que pasan por su bar.</desc>
-    <category lang="fr">Série / Série humoristique</category>
-  </programme>
   <programme channel="oqee.71" start="20260225065500 +0100" stop="20260225070000 +0100">
     <title lang="fr">Información estado do mar mañá</title>
     <desc lang="fr">Microespacio que ofrece la información meteorológica marítima. "Estado do mar" está dedicado fundamentalmente a la gente de mar y a los aficionados de los deportes náuticos.</desc>
@@ -69421,7 +69879,7 @@
   </programme>
   <programme channel="oqee.772" start="20260225173000 +0100" stop="20260225210000 +0100">
     <title lang="fr">Ben Bilirim</title>
-    <desc lang="fr">Ben Bilirim, 360 ekranlarında izleyiciyle buluşan dinamik ve eğlenceli bir bilgi yarışmasıdır. Sunucu Alper Ateş eşliğinde farklı kategorilerden sorulara yanıt arayan yarışmacılar doğru cevaplar için mücadele eder. Program ailece izlenebilecek neşeli bir rekabet ve bilgi odaklı eğlence deneyimi sunar.</desc>
+    <desc lang="fr">İzleyiciyle buluşan dinamik ve eğlenceli bir bilgi yarışmasıdır.Programda farklı kategorilerden sorulara yanıt arayan yarışmacılar doğru cevaplar için mücadele eder. Ailece izlenebilecek neşeli bir rekabet ve bilgi odaklı eğlence deneyimi sunar.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.772" start="20260225210000 +0100" stop="20260226003000 +0100">
@@ -70217,7 +70675,7 @@
   </programme>
   <programme channel="oqee.812" start="20260225140000 +0100" stop="20260225150000 +0100">
     <title lang="fr">România, te iubesc!</title>
-    <desc lang="fr">România, te iubesc!, o emisiune jurnalistică marca Ştirile ProTV, îşi propune cu fiecare ediţie să facă dezvăluiri remarcabile pentru români şi să le arate realitatea care nu se vede cu ochiul liber.</desc>
+    <desc lang="fr">Gazda emisiunii este Cristian Leonte care, alături de jurnaliștii din echipa "România, te iubesc!", Paula Herlo, Alex Dima, Rareş Năstase, Cosmin Savu și Paul Angelescu aduc în fața publicului larg anchete, reportaje și investigații amănunțite despre situațiile cu care se confruntă România în prezent. Emisiunea a reușit să contribuie la schimbarea legilor în România, la schimbarea sistemelor corupte, la schimbarea mentalității colective.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.812" start="20260225150000 +0100" stop="20260225160000 +0100">
@@ -72286,7 +72744,7 @@
   </programme>
   <programme channel="oqee.945" start="20260225120000 +0100" stop="20260225134500 +0100">
     <title lang="fr">Haber Hattı</title>
-    <desc lang="fr">Türkiye ve dünyadan en sıcak gelişmeleri canlı bağlantılar, özel röportajlar ve yerinde izlenimlerle ekrana taşıyor. Tarafsız habercilik anlayışıyla hazırlanan programda siyaset, ekonomi, sağlık, çevre ve toplumsal olaylara dair son dakika bilgileri anında izleyiciye ulaştırılıyor. Deneyimli muhabir kadrosu ve güçlü yayın ekibiyle Haber Hattı, günün temposuna ayak uydurmak isteyen izleyiciler için güvenilir bir haber kaynağı sunuyor.</desc>
+    <desc lang="fr">Haber Hattı, günün kritik gelişmelerini ve öne çıkan olayları izleyiciye aktarmaya devam ediyor. Türkiye ve dünya gündeminden haberler, alanında uzman yorumcuların analizleriyle zenginleşiyor. Siyasetten ekonomiye, güncel olaylardan toplumsal gelişmelere kadar geniş bir perspektif sunan program, hızlı ve güvenilir haber akışıyla izleyicinin gündemden kopmamasını sağlıyor. Sıcak gelişmeler ve önemli açıklamalar, ekran başındakiler için güvenilir bir rehber niteliğinde.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.945" start="20260225134500 +0100" stop="20260225140000 +0100">
