@@ -155,10 +155,20 @@ class EPGOrchestrator:
         
         console.print()
         with console.status(f"[cyan]Exporting {len(by_date)} days to archive...[/cyan]"):
+            merged_with_archive: List[Programme] = []
+            export_channels: Dict[str, Channel] = {ch.id: ch for ch in channels_list}
+
             for date_key, progs in by_date.items():
-                self.exporter.merge_with_existing(date_key, progs)
+                merged_day_programmes = self.exporter.merge_with_existing(date_key, progs)
+                merged_with_archive.extend(merged_day_programmes)
+
+                existing_channels = self.exporter.load_existing_channels(date_key)
+                for channel_id, channel in existing_channels.items():
+                    if channel_id not in export_channels:
+                        export_channels[channel_id] = channel
             
-            self.exporter.export_by_day(merged_programmes, channels_list)
+            self.exporter.export_by_day(merged_with_archive, list(export_channels.values()))
+            programmes_after = len(merged_with_archive)
         
         stats = self.exporter.get_archive_stats()
         

@@ -99,6 +99,40 @@ class XMLTVExporter:
     
     def _format_datetime(self, dt: datetime) -> str:
         return format_xmltv_datetime(dt)
+
+    def load_existing_channels(self, date_key: str) -> Dict[str, Channel]:
+        year_dir = self._get_year_dir(date_key)
+        file_path = year_dir / f"{date_key}.xml"
+
+        if not file_path.exists():
+            return {}
+
+        try:
+            tree = etree.parse(str(file_path))
+            root = tree.getroot()
+
+            channels: Dict[str, Channel] = {}
+            for channel_elem in root.findall('channel'):
+                channel_id = channel_elem.get('id')
+                if not channel_id:
+                    continue
+
+                display_name_elem = channel_elem.find('display-name')
+                display_name = display_name_elem.text if display_name_elem is not None else channel_id
+
+                icon_elem = channel_elem.find('icon')
+                icon = icon_elem.get('src') if icon_elem is not None else None
+
+                channels[channel_id] = Channel(
+                    id=channel_id,
+                    display_name=display_name,
+                    icon=icon,
+                )
+
+            return channels
+
+        except Exception:
+            return {}
     
     def load_existing_programmes(self, date_key: str) -> Dict[tuple, Programme]:
         year_dir = self._get_year_dir(date_key)
