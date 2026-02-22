@@ -1136,6 +1136,10 @@
     <display-name>SIC Internacional</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1694/w256"/>
   </channel>
+  <channel id="oqee.511">
+    <display-name>TRT 1</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3767/w256"/>
+  </channel>
   <channel id="oqee.514">
     <display-name>Val de Loire TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3565/w256"/>
@@ -1151,6 +1155,10 @@
   <channel id="oqee.56">
     <display-name>Welt</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2100/w256"/>
+  </channel>
+  <channel id="oqee.581">
+    <display-name>B4U Movies</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1666/w256"/>
   </channel>
   <channel id="oqee.606">
     <display-name>Telesur</display-name>
@@ -2806,7 +2814,7 @@
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="Animaux.fr" start="20260304005000 +0100" stop="20260304014500 +0100">
-    <title lang="fr">Heureux comme un chat - S01E01</title>
+    <title lang="fr">Heureux comme un chat</title>
     <desc lang="fr">L'écrivain Bernard Werber s'est pris de passion pour les chats et part pour un tour du monde à la découverte de ce petit félin. De Paris à Tokyo en passant par Séoul ou Denver, il rencontre les plus grands experts. Depuis les momies égyptiennes jusqu'aux chats superstars des réseaux sociaux, sa quête explore, à travers les âges, la relation si privilégiée qu'entretient l'homme avec cet animal et essaie de percer le secret de son bonheur communicatif.</desc>
     <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
@@ -3274,7 +3282,7 @@
   </programme>
   <programme channel="Arte.fr" start="20260304193000 +0100" stop="20260304194500 +0100">
     <title lang="fr">Le dessous des images</title>
-    <desc lang="fr">Sonia Devillers raconte l'histoire d'une photo ou d'une image. De leur construction à leur impact, comment expliquer la viralité de certaines images ?</desc>
+    <desc lang="fr">À Pékin, une image saisissante montre deux robots s'affrontant sur un ring lors des premiers Jeux mondiaux dédiés aux humanoïdes. Avec cette compétition inédite, la Chine affiche ses ambitions : susciter le désir, tout en affirmant sa domination sur le marché mondial de la robotique.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Arte.fr" start="20260304194500 +0100" stop="20260304200500 +0100">
@@ -6813,7 +6821,7 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260304062200 +0100" stop="20260304062700 +0100">
     <title lang="fr">Molang - S04E51</title>
-    <desc lang="fr">Molang, un lapin fantaisiste et rêveur, et son ami Piu Piu, petit poussin timide et émotif, partagent une grande histoire d'amitié en dépit de leurs différences. Qu'ils atterrissent sur la Lune ou arrosent leur jardin potager, les deux amis vivent les événements de manière très différente, créant naturellement des situations imprévues. Leur solidarité et la créativité dont ils font preuve font de ces moments parfois difficiles des instants de bonheur partagés.</desc>
+    <desc lang="fr">Molang et Piu Piu nettoient avec ardeur la salle où est exposé le collier du roi. Ils nettoient tant et si bien que lorsque le conseiller du roi vient chercher le collier, il glisse sur le sol, percute le socle où est exposé le collier. Le collier file dans les airs…</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260304062700 +0100" stop="20260304063300 +0100">
@@ -7396,7 +7404,22 @@
     <desc lang="fr">Dans le magazine de golf "Le 5e tour", retour sur le plus beau tournoi américain ou européen du dernier week-end avec un résumé des trois premiers tours, un large résumé du dernier tour, accompagnés d'interviews et d'images. Ainsi toutes les actualités du PGA Tour et du DP World Tour sont abordées dans ce rendez-vous des amateurs de la petite balle blanche et des circuits mondiaux de golf.</desc>
     <category lang="fr">Magazine sportif / Golf</category>
   </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304001800 +0100" stop="20260304005000 +0100">
+    <title lang="fr">Lundi Grand Prix</title>
+    <desc lang="fr">Retour en détail, les lendemains de course, sur le week-end sport mécaniques.</desc>
+    <category lang="fr">Magazine sportif / Sports mécaniques</category>
+  </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304003000 +0100" stop="20260304011500 +0100">
+    <title lang="fr">Le JT</title>
+    <desc lang="fr">Tour du monde en bref et en images des dernières actualités importantes tous sports confondus dans le JT d'Infosport+. </desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304005000 +0100" stop="20260304010000 +0100">
+    <title lang="fr">Fractionné F1</title>
+    <desc lang="fr">La F1 se réinvente en 2026 avec des changements majeurs : aérodynamique active, moteurs hybrides plus puissants et carburant durable pour des courses plus intenses.</desc>
+    <category lang="fr">Magazine sportif / Formule 1</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304010000 +0100" stop="20260304013000 +0100">
     <title lang="fr">Le JT</title>
     <desc lang="fr">Tour du monde en bref et en images des dernières actualités importantes tous sports confondus dans le JT d'Infosport+. </desc>
     <category lang="fr">Divers / JT sport</category>
@@ -7411,6 +7434,11 @@
     <desc lang="fr">Retour sur les plus grands moments du dernier tournoi du circuit Premier Padel, qui voit s'affronter les meilleurs joueurs et joueuses du monde. Le magazine passe en revue les résultats, tant dans les épreuves masculines que féminines, et présente les derniers classements en date. Soir de padel fait aussi le oint sur les joueurs et les joueuses qui marquent le circuit de leur empreinte.</desc>
     <category lang="fr">Magazine sportif / Padel</category>
   </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304013000 +0100" stop="20260304023000 +0100">
+    <title lang="fr">Soir de padel</title>
+    <desc lang="fr">Retour sur les plus grands moments du dernier tournoi du circuit Premier Padel, qui voit s'affronter les meilleurs joueurs et joueuses du monde. Le magazine passe en revue les résultats, tant dans les épreuves masculines que féminines, et présente les derniers classements en date. Soir de padel fait aussi le oint sur les joueurs et les joueuses qui marquent le circuit de leur empreinte.</desc>
+    <category lang="fr">Magazine sportif / Padel</category>
+  </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304021500 +0100" stop="20260304040000 +0100">
     <title lang="fr">Golf : TGL</title>
     <desc lang="fr">Après une première édition remportée par Atlanta Drive, la...</desc>
@@ -7421,12 +7449,22 @@
     <desc lang="fr">Après une première édition remportée par Atlanta Drive, la...</desc>
     <category lang="fr">Emission sportive / Golf</category>
   </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304023000 +0100" stop="20260304041500 +0100">
+    <title lang="fr">Golf : TGL</title>
+    <desc lang="fr">Après une première édition remportée par Atlanta Drive, la...</desc>
+    <category lang="fr">Emission sportive / Golf</category>
+  </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304040000 +0100" stop="20260304060000 +0100">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
     <category lang="fr">Divers / Fin</category>
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304040100 +0100" stop="20260304060000 +0100">
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
+    <category lang="fr">Divers / Fin</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304041500 +0100" stop="20260304060000 +0100">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
     <category lang="fr">Divers / Fin</category>
@@ -7491,22 +7529,62 @@
     <desc lang="fr">Lundi Grand Prix revient en détails sur le GP de F1 disputé le weekend précédent et livre toute ses analyses, en se projetant aussi sur la prochaine manche à venir. Toutes les informations en provenance des différentes écuries, autant sur les machines que sur les pilotes, sont abordées dans Lundi Grand Prix, le rendez-vous de débrief des GP de Formule 1.</desc>
     <category lang="fr">Magazine sportif / Sports mécaniques</category>
   </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304123000 +0100" stop="20260304130000 +0100">
+    <title lang="fr">Le JT</title>
+    <desc lang="fr">Tour du monde en bref et en images des dernières actualités importantes tous sports confondus dans le JT d'Infosport+. </desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304123000 +0100" stop="20260304131500 +0100">
     <title lang="fr">Le JT</title>
     <desc lang="fr">Tour du monde en bref et en images des dernières actualités importantes tous sports confondus dans le JT d'Infosport+. </desc>
     <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304130000 +0100" stop="20260304130600 +0100">
+    <title lang="fr">Zapsport 360</title>
+    <desc lang="fr">Le Zapsport 360 permet de retrouver toutes les images marquantes du sport des derniers jours, dans un format dynamique : résultats, compétitions du moment et séquences spectaculaires sont au rendez-vous.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304130600 +0100" stop="20260304131100 +0100">
+    <title lang="fr">360 Doc, plateaux</title>
+    <desc lang="fr">Une courte immersion dans un sport ou une activité sportive, avec ceux qui le pratiquent, le tout dans un reportage dynamique.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304131100 +0100" stop="20260304140000 +0100">
+    <title lang="fr">Bouger</title>
+    <desc lang="fr">Ce récit met en lumière le rôle essentiel de l'activité physique adaptée dans le parcours de vie des personnes en situation de handicap. À travers des témoignages et des initiatives, le documentaire explore les enjeux du sport-santé et de l'inclusion. Un regard humain et engagé sur celles et ceux pour qui le mouvement devient un levier de reconstruction et d'émancipation.</desc>
+    <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304131500 +0100" stop="20260304140600 +0100">
     <title lang="fr">Bouger</title>
     <desc lang="fr">Ce récit met en lumière le rôle essentiel de l'activité physique adaptée dans le parcours de vie des personnes en situation de handicap. À travers des témoignages et des initiatives, le documentaire explore les enjeux du sport-santé et de l'inclusion. Un regard humain et engagé sur celles et ceux pour qui le mouvement devient un levier de reconstruction et d'émancipation.</desc>
     <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304140000 +0100" stop="20260304141600 +0100">
+    <title lang="fr">360 Doc, plateaux</title>
+    <desc lang="fr">Une courte immersion dans un sport ou une activité sportive, avec ceux qui le pratiquent, le tout dans un reportage dynamique.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304140600 +0100" stop="20260304154500 +0100">
     <title lang="fr">La clinique des sports</title>
     <desc lang="fr">Rendez-vous mensuel, La clinique des sports réunit les...</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304141600 +0100" stop="20260304155300 +0100">
+    <title lang="fr">La clinique des sports</title>
+    <desc lang="fr">Rendez-vous mensuel, La clinique des sports réunit les...</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
   <programme channel="CanalPlusSport360.fr" start="20260304154500 +0100" stop="20260304163000 +0100">
+    <title lang="fr">Le JT</title>
+    <desc lang="fr">Tour du monde en bref et en images des dernières actualités importantes tous sports confondus dans le JT d'Infosport+. </desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304155300 +0100" stop="20260304160000 +0100">
+    <title lang="fr">Zapsport 360</title>
+    <desc lang="fr">Le Zapsport 360 permet de retrouver toutes les images marquantes du sport des derniers jours, dans un format dynamique : résultats, compétitions du moment et séquences spectaculaires sont au rendez-vous.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="CanalPlusSport360.fr" start="20260304160000 +0100" stop="20260304163000 +0100">
     <title lang="fr">Le JT</title>
     <desc lang="fr">Tour du monde en bref et en images des dernières actualités importantes tous sports confondus dans le JT d'Infosport+. </desc>
     <category lang="fr">Divers / JT sport</category>
@@ -7768,7 +7846,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260304085000 +0100" stop="20260304090500 +0100">
     <title lang="fr">Looney Tunes Cartoons - S04E08</title>
-    <desc lang="fr">Oscar, Alfred et Roger continuent leur périple et découvre un plateau de tournage sur leur route.</desc>
+    <desc lang="fr">Looney Tunes Cartoons est une série de dessins animés s'inspirant des premiers courts métrages des Looney Tunes dont elle reprend les codes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260304090500 +0100" stop="20260304091500 +0100">
@@ -8013,7 +8091,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260304194500 +0100" stop="20260304195500 +0100">
     <title lang="fr">Teen Titans Go ! - S07E22</title>
-    <desc lang="fr">Nos amis trouve un ticket gagnant au fond d'un sachet de chips.Ils sont fous de joies et ils imaginent déjà comment ils vont dépenser tout cet argent. Mais trois agents du Fisc viennent sonner à la porte de la tour. Nos amis refusant de donner la moitié de leur fortune, Raven ne trouve qu'une seule solution. Faire disparaître ces agents et vivre dans un monde sans impôts !</desc>
+    <desc lang="fr">Les Teen Titans ne sont pas des ados comme les autres. Grâce à leur super pouvoirs, ils interviennent lorsque le monde court de graves dangers. Avec humour et décontraction, ils sauvent l'univers de tous les périls. A leur tête, Robin, qui a grandi dans un cirque avec ses parents. Il a été adopté par Batman, qui l'a bien entraîné. Il vole aujourd'hui de ses propres ailes, après avoir quitté Gotham City pour Jump City. A ses côtés, figure Starfire, une princesse extraterrestre née sur la planète Tamaran, mais aussi Raven, fille d'une Terrienne et d'un lointain conquérant. Une série d'animation rythmée, pleine d'aventures et qui ne manque pas d'humour.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260304195500 +0100" stop="20260304200500 +0100">
@@ -8028,7 +8106,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260304201500 +0100" stop="20260304202500 +0100">
     <title lang="fr">Teen Titans Go ! - S07E26</title>
-    <desc lang="fr">Les Jeunes Titans en ont assez des dîners que leur prépare Robin. Ce soir-là, son saumon en croûte est la goutte d'eau qui fait déborder le vase. Les Jeunes Titans décident de se faire plaisir et de remplacer le repas du soir par un menu de petit déjeuner. C'est tellement bon…</desc>
+    <desc lang="fr">Les Teen Titans ne sont pas des ados comme les autres. Grâce à leur super pouvoirs, ils interviennent lorsque le monde court de graves dangers. Avec humour et décontraction, ils sauvent l'univers de tous les périls. A leur tête, Robin, qui a grandi dans un cirque avec ses parents. Il a été adopté par Batman, qui l'a bien entraîné. Il vole aujourd'hui de ses propres ailes, après avoir quitté Gotham City pour Jump City. A ses côtés, figure Starfire, une princesse extraterrestre née sur la planète Tamaran, mais aussi Raven, fille d'une Terrienne et d'un lointain conquérant. Une série d'animation rythmée, pleine d'aventures et qui ne manque pas d'humour.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260304202500 +0100" stop="20260304204000 +0100">
@@ -9154,24 +9232,49 @@
     <desc lang="fr">Un tueur en série endeuille les épiceries arabes du quartier de Barbès. Sa dernière victime en date, l'épouse d'un diplomate algérien, émeut les autorités d'Alger. Décision est prise d'envoyer en France les deux plus fins limiers d'Afrique du Nord, les inspecteurs Nerh-Nerh et Le Kabyle. Et peu importe si Nerh-Nerh traîne derrière lui et dans la poussière des bleds une carrière ratée, et si Le Kabyle a perdu son accent depuis que des extraterrestres le lui ont volé. Dès leur arrivée à Paris, les deux enquêteurs passent par une innombrable série d'arrestations. Lorsqu'ils peuvent entamer leur enquête, c'est pour déclencher des catastrophes...</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304002000 +0100" stop="20260304014200 +0100">
+    <title lang="fr">Sex and Furious</title>
+    <desc lang="fr">La plastique d'Annina fait des ravages parmi les pilotes du circuit. Ses formes généreuses détournent en effet leur attention des courses automobiles.</desc>
+    <category lang="fr">Film / Film érotique</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304002000 +0100" stop="20260304014300 +0100">
     <title lang="fr">Sex and Furious</title>
     <desc lang="fr">La plastique d'Annina fait des ravages parmi les pilotes du circuit. Ses formes généreuses détournent en effet leur attention des courses automobiles.</desc>
     <category lang="fr">Film / Film érotique</category>
+  </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304014200 +0100" stop="20260304032600 +0100">
+    <title lang="fr">De battre mon coeur s'est arrêté</title>
+    <desc lang="fr">Tom est un adolescent attardé dont le destin semble tracé. Comme son père, auquel il semble très attaché, il est marchand de biens. Les affaires prospèrent, à la condition d'aider un peu le destin. Aussi Tom n'hésite-t-il pas à utiliser des méthodes musclées. Avec deux comparses, il lâche des rats dans les escaliers d'immeubles afin de récupérer les logements le plus rapidement possible. Cependant, sa vie va changer brusquement. Un soir, il rencontre par hasard monsieur Fox, qui fut jadis l'agent de sa mère, une concertiste célèbre qui s'est suicidée. Monsieur Fox lui rappelle que lui aussi, enfant, était doué pour le piano, et lui propose de passer une audition...</desc>
+    <category lang="fr">Film / Drame</category>
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304014300 +0100" stop="20260304032600 +0100">
     <title lang="fr">De battre mon coeur s'est arrêté</title>
     <desc lang="fr">Tom est un adolescent attardé dont le destin semble tracé. Comme son père, auquel il semble très attaché, il est marchand de biens. Les affaires prospèrent, à la condition d'aider un peu le destin. Aussi Tom n'hésite-t-il pas à utiliser des méthodes musclées. Avec deux comparses, il lâche des rats dans les escaliers d'immeubles afin de récupérer les logements le plus rapidement possible. Cependant, sa vie va changer brusquement. Un soir, il rencontre par hasard monsieur Fox, qui fut jadis l'agent de sa mère, une concertiste célèbre qui s'est suicidée. Monsieur Fox lui rappelle que lui aussi, enfant, était doué pour le piano, et lui propose de passer une audition...</desc>
     <category lang="fr">Film / Drame</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304032600 +0100" stop="20260304045500 +0100">
+    <title lang="fr">Zénithal</title>
+    <desc lang="fr">Ensemble depuis une dizaine d'années, Francis, teinturier, et Sonia, coach de self-defense pour les femmes, sont arrivés à un point de non-retour et ne se comprennent plus. Alors qu'ils tentent de sauver leur couple, Francis, stupéfait, se retrouve soudain accusé du meurtre de son ancien rival, un ex-acteur porno connu sous le doux nom de Ti-Kong. Contraint de prendre la fuite, il tombe entre les griffes d'un savant fou et machiavélique, prêt à tout pour défendre la domination masculine. Sonia passe alors à l'action pour secourir Francis, son couple, et rétablir la paix entre les sexes. Après l'ère du génital, l'heure du "zénithal" a sonné...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304032600 +0100" stop="20260304045600 +0100">
     <title lang="fr">Zénithal</title>
     <desc lang="fr">Ensemble depuis une dizaine d'années, Francis, teinturier, et Sonia, coach de self-defense pour les femmes, sont arrivés à un point de non-retour et ne se comprennent plus. Alors qu'ils tentent de sauver leur couple, Francis, stupéfait, se retrouve soudain accusé du meurtre de son ancien rival, un ex-acteur porno connu sous le doux nom de Ti-Kong. Contraint de prendre la fuite, il tombe entre les griffes d'un savant fou et machiavélique, prêt à tout pour défendre la domination masculine. Sonia passe alors à l'action pour secourir Francis, son couple, et rétablir la paix entre les sexes. Après l'ère du génital, l'heure du "zénithal" a sonné...</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304045500 +0100" stop="20260304062700 +0100">
+    <title lang="fr">Buried</title>
+    <desc lang="fr">Paul Conroy, un entrepreneur américain sous contrat en Irak, se réveille dans l'obscurité. Il allume son briquet et s'aperçoit qu'il est enfermé dans un cercueil. Il a été pris en embuscade près de Bakubah et enterré vivant avec une torche et un téléphone portable à moitié chargé. Il tente d'appeler sa femme, le FBI, en vain. Il reçoit alors un appel de son ravisseur : il a 90 minutes pour réunir cinq millions de dollars s'il veut espérer sortir de là. Paul parvient finalement à avoir l'agent Dan Brenner au téléphone, qui a déjà aidé un certain Mark White à s'échapper d'une situation semblable. Mais plus le temps passe, plus l'inéluctable se rapproche...</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304045600 +0100" stop="20260304062900 +0100">
     <title lang="fr">Buried</title>
     <desc lang="fr">Paul Conroy, un entrepreneur américain sous contrat en Irak, se réveille dans l'obscurité. Il allume son briquet et s'aperçoit qu'il est enfermé dans un cercueil. Il a été pris en embuscade près de Bakubah et enterré vivant avec une torche et un téléphone portable à moitié chargé. Il tente d'appeler sa femme, le FBI, en vain. Il reçoit alors un appel de son ravisseur : il a 90 minutes pour réunir cinq millions de dollars s'il veut espérer sortir de là. Paul parvient finalement à avoir l'agent Dan Brenner au téléphone, qui a déjà aidé un certain Mark White à s'échapper d'une situation semblable. Mais plus le temps passe, plus l'inéluctable se rapproche...</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304062700 +0100" stop="20260304083000 +0100">
+    <title lang="fr">Qui a tué Bambi ?</title>
+    <desc lang="fr">Isabelle, une jeune élève-infirmière dynamique et gaie, effectue un stage dans le service de chirurgie où travaille son amie Véronique, qui lui a trouvé ce poste. En assurant une garde de nuit, elle croise dans les couloirs du grand hôpital le docteur Philipp : prise d'un soudain vertige, elle s'évanouit devant lui. Les jours passent et les malaises se répètent. Isabelle se fait examiner par le docteur Philipp, qui ne parvient pas à trouver la cause de ses syncopes. De son côté, Isabelle est de plus en plus intriguée par ce chirurgien qui semble hanter l'hôpital, de jour comme de nuit. Elle est persuadée qu'il cache quelque chose. C'est alors qu'elle apprend qu'une de ses patientes a mystérieusement disparu...</desc>
     <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304062900 +0100" stop="20260304083000 +0100">
@@ -9184,6 +9287,11 @@
     <desc lang="fr">A Los Angeles, en virtuose de l'attaque à main armée, Neil McCauley réussit une fois de plus un hold-up remarquable, organisé avec une précision extrême, que l'inconséquence d'un complice d'occasion, Waingro, qui abat deux vigiles, transforme en catastrophe. La bêtise de Waingro permet en effet au lieutenant Vincent Hanna, un enquêteur de grand renom, de remonter rapidement la piste jusqu'à McCauley. Alors qu'il est sur le point de mettre toute la bande en état d'arrestation, Hanna est contraint de la laisser s'enfuir. McCauley sait que le policier ne lui laissera désormais plus de répit. Aussi décide-t-il d'organiser une dernière attaque, avant de disparaître...</desc>
     <category lang="fr">Film / Film policier</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304111500 +0100" stop="20260304131000 +0100">
+    <title lang="fr">Kong : Skull Island</title>
+    <desc lang="fr">L'armée américaine s'intéresse de près à une étrange île. Pour cartographier le territoire, elle lance des explosifs, ce qui provoque la colère du maître des lieux, Kong, un énorme singe. Le capitaine James Conrad, la journaliste Mason, le lieutenant-colonel Packard et Bill Randa ne vont pas tarder à l'affronter. Sur place, ils rencontrent Marlow, un aventurier qui les met en garde. Kong n'est peut-être pas leur plus grande menace. Ils doivent davantage se méfier des créatures gigantesques et belliqueuses qui se cachent dans les tréfonds de l'île. Tous les membres de l'expédition, composée de personnages très différents, vont tenter de sauver leur peau...</desc>
+    <category lang="fr">Film / Film d'aventures</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304111500 +0100" stop="20260304130900 +0100">
     <title lang="fr">Kong : Skull Island</title>
     <desc lang="fr">L'armée américaine s'intéresse de près à une étrange île. Pour cartographier le territoire, elle lance des explosifs, ce qui provoque la colère du maître des lieux, Kong, un énorme singe. Le capitaine James Conrad, la journaliste Mason, le lieutenant-colonel Packard et Bill Randa ne vont pas tarder à l'affronter. Sur place, ils rencontrent Marlow, un aventurier qui les met en garde. Kong n'est peut-être pas leur plus grande menace. Ils doivent davantage se méfier des créatures gigantesques et belliqueuses qui se cachent dans les tréfonds de l'île. Tous les membres de l'expédition, composée de personnages très différents, vont tenter de sauver leur peau...</desc>
@@ -9194,9 +9302,24 @@
     <desc lang="fr">Partis au large pour plusieurs jours de pêche, les membres de l'équipage du Perman-Elk, un petit chalutier battant pavillon français, constatent que les cales restent désespérément vides malgré tous leurs efforts. Alors qu'ils doivent bientôt rentrer au port, ils font face à un dilemme cornélien : revenir bredouilles, ou s'aventurer dans une zone interdite pour braconner. L'idée divise les hommes sur le bateau. Parmi eux, certains refusent catégoriquement de s'adonner à des pratiques illégales. D'autres réfléchissent, influencés par Jorick, de son côté fermement décidé à convaincre ses collègues...</desc>
     <category lang="fr">Film / Court métrage dramatique</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304131000 +0100" stop="20260304133100 +0100">
+    <title lang="fr">Les silencieux</title>
+    <desc lang="fr">Partis au large pour plusieurs jours de pêche, les membres de l'équipage du Perman-Elk, un petit chalutier battant pavillon français, constatent que les cales restent désespérément vides malgré tous leurs efforts. Alors qu'ils doivent bientôt rentrer au port, ils font face à un dilemme cornélien : revenir bredouilles, ou s'aventurer dans une zone interdite pour braconner. L'idée divise les hommes sur le bateau. Parmi eux, certains refusent catégoriquement de s'adonner à des pratiques illégales. D'autres réfléchissent, influencés par Jorick, de son côté fermement décidé à convaincre ses collègues...</desc>
+    <category lang="fr">Film / Court métrage dramatique</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304133000 +0100" stop="20260304151200 +0100">
     <title lang="fr">Le transporteur 3</title>
     <desc lang="fr">Un redoutable homme d'affaires, qui se fait appeler Johnson, tente de faire pression sur Frank Martin. Or ce grand spécialiste des livraisons dangereuses s'est juré de jeter l'éponge. Sachant qu'il est le meilleur, Johnson trouve le moyen de le forcer à reprendre le volant. Le transporteur se retrouve avec un bracelet explosif fixé au poignet. Il est obligé de convoyer deux gros sacs dont il ignore le contenu. Avec lui, Valentina, une jeune Ukrainienne qui doit être amenée de Marseille jusqu'à Odessa, au bord de la mer Noire. Bien décidé à rester en vie, Frank demande de l'aide à son fidèle ami, l'inspecteur Tarconi...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304133100 +0100" stop="20260304151100 +0100">
+    <title lang="fr">Le transporteur 3</title>
+    <desc lang="fr">Un redoutable homme d'affaires, qui se fait appeler Johnson, tente de faire pression sur Frank Martin. Or ce grand spécialiste des livraisons dangereuses s'est juré de jeter l'éponge. Sachant qu'il est le meilleur, Johnson trouve le moyen de le forcer à reprendre le volant. Le transporteur se retrouve avec un bracelet explosif fixé au poignet. Il est obligé de convoyer deux gros sacs dont il ignore le contenu. Avec lui, Valentina, une jeune Ukrainienne qui doit être amenée de Marseille jusqu'à Odessa, au bord de la mer Noire. Bien décidé à rester en vie, Frank demande de l'aide à son fidèle ami, l'inspecteur Tarconi...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304151100 +0100" stop="20260304164600 +0100">
+    <title lang="fr">Le transporteur : héritage</title>
+    <desc lang="fr">Frank Martin, un ancien des forces spéciales, s'est retiré dans le sud de la France, où ses qualités d'as du volant l'ont poussé à se spécialiser dans le transport de colis douteux pour le compte de commanditaires non moins louches. Alors que son père vient lui rendre visite, Frank accepte une nouvelle mission, à la demande d'une certaine Anna. Il ignore encore qu'Anna et trois autres créatures l'ont entraîné dans leur vendetta personnelle contre Leo Imasov, un redoutable mafieux. Grâce à Frank, les quatre filles parviennent à vider les comptes en banque du truand. Pour récupérer son argent, celui-ci décide alors d'enlever le père de Frank...</desc>
     <category lang="fr">Film / Film d'action</category>
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304151200 +0100" stop="20260304164600 +0100">
@@ -9204,15 +9327,30 @@
     <desc lang="fr">Frank Martin, un ancien des forces spéciales, s'est retiré dans le sud de la France, où ses qualités d'as du volant l'ont poussé à se spécialiser dans le transport de colis douteux pour le compte de commanditaires non moins louches. Alors que son père vient lui rendre visite, Frank accepte une nouvelle mission, à la demande d'une certaine Anna. Il ignore encore qu'Anna et trois autres créatures l'ont entraîné dans leur vendetta personnelle contre Leo Imasov, un redoutable mafieux. Grâce à Frank, les quatre filles parviennent à vider les comptes en banque du truand. Pour récupérer son argent, celui-ci décide alors d'enlever le père de Frank...</desc>
     <category lang="fr">Film / Film d'action</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304164600 +0100" stop="20260304184900 +0100">
+    <title lang="fr">Spy Game, jeux d'espions</title>
+    <desc lang="fr">Nathan Muir, un agent de la CIA, est sur le point de prendre une retraite bien méritée lorsqu'il apprend que Tom Bishop, son ancien partenaire, a été arrêté lors d'une mission où, sans l'aval de ses supérieurs, il comptait exfiltrer de Chine un détenu étranger. Accusé d'espionnage par les autorités, il est condamné à la peine de mort et doit être exécuté dans les 24 heures. Nathan se souvient que, quelques années auparavant, Tom et lui formaient un tandem efficace et soudé, travaillant aux quatre coins du monde et accomplissant des missions aussi périlleuses que passionnantes. Pourtant, la rencontre, à Beyrouth, de la séduisante Elizabeth Hadley semblait avoir détruit à tout jamais la complicité qui les unissait...</desc>
+    <category lang="fr">Film / Film d'espionnage</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304164600 +0100" stop="20260304185100 +0100">
     <title lang="fr">Spy Game, jeux d'espions</title>
     <desc lang="fr">Nathan Muir, un agent de la CIA, est sur le point de prendre une retraite bien méritée lorsqu'il apprend que Tom Bishop, son ancien partenaire, a été arrêté lors d'une mission où, sans l'aval de ses supérieurs, il comptait exfiltrer de Chine un détenu étranger. Accusé d'espionnage par les autorités, il est condamné à la peine de mort et doit être exécuté dans les 24 heures. Nathan se souvient que, quelques années auparavant, Tom et lui formaient un tandem efficace et soudé, travaillant aux quatre coins du monde et accomplissant des missions aussi périlleuses que passionnantes. Pourtant, la rencontre, à Beyrouth, de la séduisante Elizabeth Hadley semblait avoir détruit à tout jamais la complicité qui les unissait...</desc>
     <category lang="fr">Film / Film d'espionnage</category>
   </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304184900 +0100" stop="20260304190400 +0100">
+    <title lang="fr">L.A. Confidentiel</title>
+    <desc lang="fr">Tapis rouges des avant-premières, interviews de stars, secrets de tournages, visites secrètes dans les arcanes des grands studios sont au programme de cette émission qui donne des nouvelles du cinéma nord-américain.</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304185100 +0100" stop="20260304190600 +0100">
     <title lang="fr">L.A. Confidentiel</title>
     <desc lang="fr">Tapis rouges des avant-premières, interviews de stars, secrets de tournages, visites secrètes dans les arcanes des grands studios sont au programme de cette émission qui donne des nouvelles du cinéma nord-américain.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="CinePlusFrisson.ch" start="20260304190400 +0100" stop="20260304205000 +0100">
+    <title lang="fr">Les fantômes</title>
+    <desc lang="fr">2014. Emprisonné et torturé par des soldats syriens, Hamid est conduit avec d'autres détenus dans le désert, où ils sont abandonnés à leur triste sort par des militaires convaincus qu'ils vont mourir sur place. Mais contre toute attente, Hamid parvient à s'en sortir. Deux ans plus tard, le jeune homme, qui vit désormais à Strasbourg dans l'attente de l'approbation de sa demande d'asile en Allemagne, fait partie d'un réseau clandestin de Syriens qui traquent les criminels de guerre en fuite, et notamment les hommes de main du régime de Bachar al-Assad. Grâce à un renseignement, il parvient à localiser un de ses bourreaux...</desc>
+    <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20260304190600 +0100" stop="20260304205000 +0100">
     <title lang="fr">Les fantômes</title>
@@ -18023,7 +18161,7 @@
   </programme>
   <programme channel="France3NordPasDeCalais.fr" start="20260304181500 +0100" stop="20260304191500 +0100">
     <title lang="fr">Débats élections municipales 2026 - Hauts de France</title>
-    <desc lang="fr">Les rédactions régionales se mobilisent en masse pour couvrir les élections municipales qui se tiendront les 15 et 22 mars. Enjeux, débats et invités sont prévus sur les plateaux.</desc>
+    <desc lang="fr">Lille au coeur des débats. Débat en public animé par Virna Sacchi et Hélène Tonneillier, avec Matthieu Delcroix de La Voix du Nord et Stéphane Barbereau de ICI Nord. nous recevrons : Lahouaria Addouche, LFI - Stéphane Baly, Les Écologistes et alliés - Louis Delemer, LR - Arnaud Deslandes, PS et alliés - Violette Spillebout, Renaissance et Matthieu Valet, RN.</desc>
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="France3NordPasDeCalais.fr" start="20260304191500 +0100" stop="20260304192200 +0100">
@@ -19649,6 +19787,11 @@
     <desc lang="fr">Quand sonne minuit, les Pyjamasques enfilent leur tenue de super-héros pour vivre des aventures extraordinaires. Ils sont alors dotés de pouvoirs particuliers : Yoyo rebondit comme une balle en caoutchouc, Gluglu court sur les murs sans jamais se casser la figure et Bibou peut s'envoler dans le ciel !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304063100 +0100" stop="20260304091900 +0100">
+    <title lang="fr">ICI Matin - Drôme Ardèche</title>
+    <desc lang="fr">Une matinale d'actualités, de services et de bonne humeur pour bien commencer la journée avec des points météo réguliers et des infos trafic et mobilité en temps réel.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304063100 +0100" stop="20260304064300 +0100">
     <title lang="fr">Les Pyjamasques - S02E30</title>
     <desc lang="fr">Ninjaka a transformé la montagne mystérieuse en volcan d'étoiles collantes. Gluglu pense que ses pouvoirs ne suffiront pas pour l'arrêter, mais ses amis vont lui redonner confiance...</desc>
@@ -19729,6 +19872,10 @@
     <desc lang="fr">Les Dalton ont décidé de se fabriquer des costumes de cactus. Lors d'une sortie, ils n'auront plus qu'à les enfiler et à se fondre parmi les cactus qui pullulent dehors. Ils rapportent plein de cactus dans leur cellule pour fabriquer leurs costumes. Ça pique. Et ça pique encore plus quand il faut les planquer sous les couvertures et s'asseoir dessus quand passent les gardes…L'avantage, c'est qu'on ne peut pas les attraper : ça pique ! D'ailleurs, une fois évadés, ce serait bien que ça s'arrête - mais pas de bol, ils sont coincés dans leurs costumes…</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304091900 +0100" stop="20260304094900 +0100">
+    <title lang="fr">Intérieurs</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304092500 +0100" stop="20260304093000 +0100">
     <title lang="fr">Les Dalton - S04E16</title>
     <desc lang="fr">Un Australien sympathique visite le pénitencier avec son kangourou femelle, afin que les prisonniers se dégourdissent un peu en boxant contre elle. Tandis qu'elle étale ses adversaires sur le ring, Joe a une idée : il va se glisser dans sa poche et, ainsi dissimulé, il va subtiliser les clés et ouvrir les portes de la prison à ses frères… Mais c'est sans compter sur l'instinct maternel de l'animal, et sur le fait que la poche… est déjà occupée !</desc>
@@ -19738,6 +19885,11 @@
     <title lang="fr">Légendes des Tortues Ninja - S02E09</title>
     <desc lang="fr">Léo le Ninja de la nuit fait sa dernière sortie pour affronter le méchant matou Scratch et ses puces vampires. La bataille finale s'engage.</desc>
     <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304094900 +0100" stop="20260304104500 +0100">
+    <title lang="fr">Festival des Francofolies</title>
+    <desc lang="fr">Ladaniva était de retour à la Rochelle sur la scène Jean-Louis Foulquier avec leur musique, riche, voyageuse et généreuse. Leur énergie solaire et métissée a conquis le cœur du public rochelais. </desc>
+    <category lang="fr">Concert / Pop &amp; Rock</category>
   </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304095400 +0100" stop="20260304102500 +0100">
     <title lang="fr">Légendes des Tortues Ninja - S02E10</title>
@@ -19773,9 +19925,19 @@
     <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304121500 +0100" stop="20260304122500 +0100">
+    <title lang="fr">Météo - Auvergne Rhône Alpes</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304121500 +0100" stop="20260304125500 +0100">
     <title lang="fr">ICI 12/13</title>
     <desc lang="fr">Le rendez-vous de la mi-journée des 24 rédactions régionales de France Télévisions, avec les journaux locaux, les reportages propres à chaque région, la météo, mais aussi un regard de proximité sur l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304122500 +0100" stop="20260304125500 +0100">
+    <title lang="fr">ICI 12/13 - Rhône Alpes</title>
+    <desc lang="fr">Le journal télévisé régional de la mi-journée, qui propose une couverture complète de l'actualité dans la région, mais aussi nationale et internationale,</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304125500 +0100" stop="20260304135500 +0100">
@@ -19818,9 +19980,44 @@
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304181500 +0100" stop="20260304184100 +0100">
+    <title lang="fr">Débats élections municipales 2026 - Rhône</title>
+    <desc lang="fr">A suivre, des débats entre les différents candidats de la région Rhône. Lors des élections municipales de mars 2026, les électeurs français et européens pourront voter pour les conseillers municipaux et communautaires. Pour voter, il faut être inscrit sur la liste électorale de sa commune. Les candidats peuvent se présenter seuls ou en groupe sur une liste électorale. Le scrutin se déroule en deux tours.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304181500 +0100" stop="20260304200000 +0100">
     <title lang="fr">ICI 19/20 édition toutes régions</title>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304184100 +0100" stop="20260304190800 +0100">
+    <title lang="fr">Débats élections municipales 2026 - Rhône</title>
+    <desc lang="fr">A suivre, des débats entre les différents candidats de la région Rhône. Lors des élections municipales de mars 2026, les électeurs français et européens pourront voter pour les conseillers municipaux et communautaires. Pour voter, il faut être inscrit sur la liste électorale de sa commune. Les candidats peuvent se présenter seuls ou en groupe sur une liste électorale. Le scrutin se déroule en deux tours.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304190800 +0100" stop="20260304191500 +0100">
+    <title lang="fr">ICI 19/20 - Grand Lyon</title>
+    <desc lang="fr">Regarder la vidéo Émission du lundi 25 novembre 2024 sur france.tv</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304191500 +0100" stop="20260304191700 +0100">
+    <title lang="fr">L'agenda</title>
+    <desc lang="fr">Dans ce format court, une mise en avant des sorties, des nombreux événements culturels à venir et des idées de loisirs dans chaque territoire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304191700 +0100" stop="20260304191800 +0100">
+    <title lang="fr">Météo - Auvergne Rhône Alpes</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304191800 +0100" stop="20260304195300 +0100">
+    <title lang="fr">ICI 19/20 - Rhône Alpes</title>
+    <desc lang="fr">Regarder la vidéo Émission du lundi 25 novembre 2024 sur france.tv</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="France3RhoneAlpes.fr" start="20260304195300 +0100" stop="20260304200000 +0100">
+    <title lang="fr">On vous emmène ici</title>
+    <desc lang="fr">Chaque jour, l'émission prend le temps de raconter un territoire, et de s'arrêter dans un site remarquable ou un lieu emblématique à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304200000 +0100" stop="20260304201000 +0100">
     <title lang="fr">Stade 2 la quotidienne</title>
@@ -19833,8 +20030,8 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304201500 +0100" stop="20260304202500 +0100">
-    <title lang="fr">Météo régionale</title>
-    <desc lang="fr">Un bulletin météorologique propre à chaque région. </desc>
+    <title lang="fr">Météo - Auvergne Rhône Alpes</title>
+    <desc lang="fr">Un bulletin météorologique complet qui fait le point sur les températures, la force des vents et la qualité de l'air dans la région.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304202500 +0100" stop="20260304204500 +0100">
@@ -19858,8 +20055,8 @@
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France3RhoneAlpes.fr" start="20260304231500 +0100" stop="20260305000700 +0100">
-    <title lang="fr">Enquêtes de Région</title>
-    <desc lang="fr">Un mercredi par mois, en deuxième partie de soirée, la chaîne propose un décrochage régional. L'émission propose ainsi quatorze magazines d'information, diffusés simultanément sur l'antenne. C'est l'occasion de diffuser des reportages et des enquêtes, mais aussi d'évoquer des événements passés ou à venir, qui font la une dans les régions.</desc>
+    <title lang="fr">Enquêtes de Région - Auvergne-Rhône-Alpes</title>
+    <desc lang="fr">Enquêtes de région s'intéresse au narcotrafic dans la région Auvergne-Rhône-Alpes Clermont-Ferrand serait-elle devenue, comme Marseille, une ville gangrénée par la drogue ? La capitale de l'Auvergne a défrayé la chronique l'année dernière avec pas moins de cinq règlements de compte mortels en moins d'un an. Cinq drames en lien direct avec le trafic de stupéfiants...</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="France4.fr" start="20260304000500 +0100" stop="20260304014000 +0100">
@@ -20373,7 +20570,7 @@
   </programme>
   <programme channel="France5.fr" start="20260304052700 +0100" stop="20260304053800 +0100">
     <title lang="fr">Hé, Oua-Oua - S04E12</title>
-    <desc lang="fr">Le gros chien Oua-Oua anime le Club des Ecureuils, un centre d'activités extrascolaires. Quand un problème se pose, il accourt avec ses amis, Tag le rhino, Betty la pieuvre, Rouly l'hippopotame, Youpi le crocodile et Nini la souris futée, pour le régler dans la bonne humeur.</desc>
+    <desc lang="fr">Les P'tits loups s'amusent follement avec leur nouveaux talkies-walkies. Oua-Oua appelle les P'tits loups pour prendre du jus de myrtilles, mais en courant, Tag trébuche sur une voiture et tombe dans une trappe secrète dans le mur !! Avec son talkie-walkie Tag explique qu'il ne sait pas où il est.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260304053800 +0100" stop="20260304054400 +0100">
@@ -20388,7 +20585,7 @@
   </programme>
   <programme channel="France5.fr" start="20260304054600 +0100" stop="20260304054700 +0100">
     <title lang="fr">Hé, Oua-Oua - S04E13</title>
-    <desc lang="fr">Le gros chien Oua-Oua anime le Club des Ecureuils, un centre d'activités extrascolaires. Quand un problème se pose, il accourt avec ses amis, Tag le rhino, Betty la pieuvre, Rouly l'hippopotame, Youpi le crocodile et Nini la souris futée, pour le régler dans la bonne humeur.</desc>
+    <desc lang="fr">Les P'tits loups doivent sauver Minette lorsqu'ils la voient en haut du Mont Pain d'Epices</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260304054700 +0100" stop="20260304055900 +0100">
@@ -28585,6 +28782,11 @@
     <desc lang="fr">Surveillances, filatures, interpellations et perquisitions : c'est le quotidien des enquêteurs. Dans ce magazine d'investigation, une cellule spécialisée de la gendarmerie parvient à démanteler une affaire de pédophilie et une brigade de recherche réussit à faire tomber un important trafic de drogue.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="RMCAlerteSecours.fr" start="20260304053900 +0100" stop="20260304064000 +0100">
+    <title lang="fr">Patrouille</title>
+    <desc lang="fr">Les medias relaient les grandes enquêtes policières et commentent les crimes commis dans le monde. Mais sur le terrain, en quoi consiste exactement le travail des officiers de police ? </desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
   <programme channel="RMCAlerteSecours.fr" start="20260304064000 +0100" stop="20260304074100 +0100">
     <title lang="fr">Patrouille</title>
     <desc lang="fr">Le Pérou fait partie des plus gros producteurs de cocaïne. Une économie occulte qui rapporterait plus de deux milliards de dollars par an aux barons de la drogue.</desc>
@@ -36024,12 +36226,12 @@
     <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260304050200 +0100" stop="20260304060100 +0100">
-    <title lang="fr">Dans l'oeil de l'occupant - S01E01</title>
+    <title lang="fr">Dans l'oeil de l'occupant</title>
     <desc lang="fr">Quel regard les Allemands, simples soldats ou officiers de la Wehrmacht, sympathisants nazis ou non, portaient-ils sur la France occupée ? Des films amateurs et des milliers de lettres envoyées à leur famille montrent des hommes en uniforme vert-de-gris soit en maîtres d'un pays vaincu, soit en admirateurs de la culture française, soit à contrario haïssant ce peuple soumis à leurs lois. Le parcours de six Allemands est ainsi reconstitué, de leur arrivée en France jusqu'à la Libération en 1944.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260304060100 +0100" stop="20260304065600 +0100">
-    <title lang="fr">Akhenaton, les secrets du pharaon oublié</title>
+    <title lang="fr">Akhenaton, les secrets du pharaon oublié - S01E01</title>
     <desc lang="fr">En 2020, une cité royale vieille de trois mille quatre cents ans est mise au jour à Louxor, en Egypte, révélant d'incroyables vestiges et la trace d'un personnage énigmatique : Akhenaton, le pharaon hérétique. En quelques années seulement, ce personnage mythique a bouleversé un ordre religieux millénaire, transformé l'architecture ancestrale de son royaume et métamorphosé l'art égyptien. Son but : installer sa révolution spirituelle et imposer une place toujours plus grande du pharaon dans la société. Cette audace condamnera le pharaon à l'oubli. Ses successeurs vont volontairement et méthodiquement l'effacer de l'Histoire. Aujourd'hui, les plus grands spécialistes sont décidés à faire la lumière sur le règne sombre d'Akhenaton, le pharaon oublié.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -36084,7 +36286,7 @@
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260304160600 +0100" stop="20260304170100 +0100">
-    <title lang="fr">Les appelés de la guerre d'Algérie, un si long silence - S01E01</title>
+    <title lang="fr">Les appelés de la guerre d'Algérie, un si long silence</title>
     <desc lang="fr">Entre 1954 et 1962, plus d'un million d'appelés ont sacrifié leur jeunesse pendant la guerre d'Algérie. Une expérience dont beaucoup n'ont jamais parlé.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -36104,7 +36306,7 @@
     <category lang="fr">Documentaire / Documentaire civilisations</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260304194400 +0100" stop="20260304204000 +0100">
-    <title lang="fr">Orsay : Les grandes métamorphoses - S01E01</title>
+    <title lang="fr">Orsay : Les grandes métamorphoses</title>
     <desc lang="fr">Avec chaque année près de 4 millions de visiteurs, le musée d'Orsay est l'un des plus visités au monde. Grâce à son hall immense de 175 mètres de long et ses 12 000 tonnes de structures métalliques, c'est un monument unique en son genre qui n'a cessé de se métamorphoser. Il abritera d'abord un palais avant de devenir une gare, un camp de réfugiés, un théâtre et enfin un musée. La gare, construite à l'occasion de l'exposition universelle de 1900, était un véritable défi architectural à l'époque. Ce documentaire révèle les secrets des rénovations et des transformations du musée. </desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -36894,7 +37096,7 @@
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Trek.fr" start="20260304154700 +0100" stop="20260304162600 +0100">
-    <title lang="fr">Le diamant des Alpes</title>
+    <title lang="fr">Le diamant des Alpes - S01E01</title>
     <desc lang="fr">Deux aventuriers skient les sommets suisses de 4000m en combinant vélo et ski au solstice d'été : un voyage improbable rempli de surprises et d'émotions.</desc>
     <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
@@ -36934,7 +37136,7 @@
     <category lang="fr">Série / Série d'aventures</category>
   </programme>
   <programme channel="Trek.fr" start="20260304204000 +0100" stop="20260304214000 +0100">
-    <title lang="fr">Polheim - S01E01</title>
+    <title lang="fr">Polheim</title>
     <desc lang="fr">Dans des conditions climatiques extrêmes et livrés à eux-mêmes durant 50 jours, trois jeunes explorateurs ont entrepris une traversée de l'Antarctique à ski.</desc>
     <category lang="fr">Documentaire / Documentaire aventures</category>
   </programme>
@@ -40545,7 +40747,7 @@
   </programme>
   <programme channel="oqee.1081" start="20260304202200 +0100" stop="20260304204800 +0100">
     <title lang="fr">Votre maison, le mag : Best Of - S01E19</title>
-    <desc lang="fr">Le best-of astuces et conseils de Votre Maison le mag présenté par Cécile de Ménibus</desc>
+    <desc lang="fr">Un retour sur les meilleurs moments du magazine, pour tout savoir sur les sujets concernant votre logement ou encore votre jardin. Trucs et astuces y sont partagés.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.1081" start="20260304204800 +0100" stop="20260304205000 +0100">
@@ -48443,7 +48645,7 @@
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="oqee.139" start="20260304173300 +0100" stop="20260304181300 +0100">
-    <title lang="fr">Face au juge</title>
+    <title lang="fr">Face au juge - S10E02</title>
     <desc lang="fr">Cette dixième saison comporte huit émissions. Du tribunal de police à Verviers, en passant par la justice de paix à Mons, au parquet de Charleroi et au tribunal correctionnel de Bruxelles, plongée au coeur de la justice belge. Denis Goeman est de retour, mais cette fois-ci comme juge. Aux côtés des autres magistrats, il tentera de faire respecter la loi.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
@@ -50100,6 +50302,186 @@
     <desc lang="fr">CJ McBride and Abiding Love Fellowship Church of Foley, Alabama, have the vision to Win the Lost to Christ, Connect Believers to the Church and Equip the Saints with God's Word.</desc>
     <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
+  <programme channel="oqee.1404" start="20260304060000 +0100" stop="20260304063000 +0100">
+    <title lang="fr">Courts of Heaven - Robert Henderson</title>
+    <desc lang="fr">Apostle Robert Henderson seeks to disciple the nations and bring people into their Kingdom Destiny through his show, Courts of Heaven.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304063000 +0100" stop="20260304070000 +0100">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304070000 +0100" stop="20260304073000 +0100">
+    <title lang="fr">Turning Point - S26E48</title>
+    <desc lang="fr">Dr David Jeremiah of Turning Point Broadcast Ministries and Shadow Mountain Church has a passion for people and a clear mission: Delivering the unchanging Word of God to an ever-changing world.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304073000 +0100" stop="20260304080000 +0100">
+    <title lang="fr">Creflo Dollar - S26E48</title>
+    <desc lang="fr">Creflo Dollar is an American televangelist, rap artist and the founder of the non-denominational World Changers Church International based in Georgia. In his TV church service he offers faith as solution to all problems people encounter every day. Creflo encourages people to pursue a personal relationship with God, to find truth and empowerment no matter what they are going through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304080000 +0100" stop="20260304083000 +0100">
+    <title lang="fr">Believer's Walk of Faith - S26E48</title>
+    <desc lang="fr">Pastor Bill Winston delivers the Word of God to strengthen Christian faith around the world. From the Living Word Christian Center in Forest Park, Illinois, and through his expressive services, Bill demonstrates the hope and encouragement we can find in God. As believer's in His Word, we must face our circumstances head on, knowing that our empowerment will carry us through our adversities.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304083000 +0100" stop="20260304090000 +0100">
+    <title lang="fr">Gospel Truth - Andrew Wommack - S26E48</title>
+    <desc lang="fr">Andrew teaches that God provides for you in the place He calls you to and not where you currently are. He typically blesses us one step at a time.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304090000 +0100" stop="20260304093000 +0100">
+    <title lang="fr">Joyce Meyer Ministries - S26E48</title>
+    <desc lang="fr">Feeling overwhelmed by stress? God has a better way! Learn how trusting Him and making simple changes can bring balance and peace to your life.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304093000 +0100" stop="20260304100000 +0100">
+    <title lang="fr">Joseph Prince - S26E48</title>
+    <desc lang="fr">The pastor of New Creation Church Singapore, Joseph Prince, talks about God's plan for and place in people's lives in a message called Live In The Now.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304100000 +0100" stop="20260304103000 +0100">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304103000 +0100" stop="20260304110000 +0100">
+    <title lang="fr">Lift Up Jesus - Dudley Rutherford - S26E10</title>
+    <desc lang="fr">Lift Up Jesus is the television and radio ministry of Shepherd Church, featuring Pastor Dudley Rutherford, with the purpose of lifting up the name of Jesus through uncompromising Biblical teaching.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304110000 +0100" stop="20260304113000 +0100">
+    <title lang="fr">Parent Compass - S25E03</title>
+    <desc lang="fr">Real families and parents committed to following Christ, that laugh at the silliness of kids, shake heads in wonder at teenagers, learn with adult kids and share their struggles and joy with viewers.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304113000 +0100" stop="20260304120000 +0100">
+    <title lang="fr">Power of Faith - David Hathaway - S26E10</title>
+    <desc lang="fr">David Hathaway has been preaching the Gospel throughout Russia, Europe and Israel for over 70 years! He has seen the Power of God from the beginning of his ministry, and wants to keep the Fire going.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304120000 +0100" stop="20260304123000 +0100">
+    <title lang="fr">Rick Renner - S26E48</title>
+    <desc lang="fr">Rick Renner uses in-depth, engaging Bible teaching with his unique ability to draw vividly descriptive word pictures from Greek text, to help listeners gain new insight from God's Word.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304123000 +0100" stop="20260304130000 +0100">
+    <title lang="fr">What's the Word with Bryan Wright - S26E09</title>
+    <desc lang="fr">Bryan Wright of Boomerang Church, NC, approaches the Word with hunger and humility. This series carries on from his What's The Word Podcast.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304130000 +0100" stop="20260304133000 +0100">
+    <title lang="fr">Experience HIM with Tracy Harris - S26E48</title>
+    <desc lang="fr">Pastor Harris's messages carry an emphasis on the integrity of the Word of God, ministered with a prophetic edge, demonstration of the Spirit, and abundant proof of Jesus' Presence.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304133000 +0100" stop="20260304140000 +0100">
+    <title lang="fr">Know the Cause - Doug Kaufmann - S26E48</title>
+    <desc lang="fr">Doug Kaufmann looks at symptoms behind illness and allergies and suggests healthy, healing approaches. With scientific input from top health professionals who discuss diet, exercise and supplements.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304140000 +0100" stop="20260304143000 +0100">
+    <title lang="fr">Voices of Revival - Ps Featherstone - S26E09</title>
+    <desc lang="fr">Jon Featherstone of Elim Church brings this new weekly message of faith, joy and praise.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304143000 +0100" stop="20260304150000 +0100">
+    <title lang="fr">CfAN TV - S26E48</title>
+    <desc lang="fr">The CEO of Christ for all Nations (CfaN) Daniel Kolenda shares a challenging word, drawing from his experiences on the mission field, where CfaN has received over 75 million decision cards for Christ</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304150000 +0100" stop="20260304153000 +0100">
+    <title lang="fr">Jewish Voice - Rabbi Bernis - S26E10</title>
+    <desc lang="fr">Rabbi Jonathan Bernis of Jewish Voice Ministries provides valuable insights into the Jewish roots of Christianity.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304153000 +0100" stop="20260304160000 +0100">
+    <title lang="fr">700 Club Interactive - S26E48</title>
+    <desc lang="fr">700 Club Interactive is dedicated to prayer, positive Christian news, and community. Hosted by Andrew Knox and Ashley Key, and featuring uplifting stories and encouragement every Monday-Thursday.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304160000 +0100" stop="20260304163000 +0100">
+    <title lang="fr">Parent Compass - S25E03</title>
+    <desc lang="fr">Real families and parents committed to following Christ, that laugh at the silliness of kids, shake heads in wonder at teenagers, learn with adult kids and share their struggles and joy with viewers.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304163000 +0100" stop="20260304170000 +0100">
+    <title lang="fr">Allen Jackson Ministries - S26E48</title>
+    <desc lang="fr">Pastor Allen Jackson brings a biblical perspective to the ever-changing world, encouraging believers to lead with their faith in every arena—no matter what shaking the season may bring.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304170000 +0100" stop="20260304173000 +0100">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304173000 +0100" stop="20260304180000 +0100">
+    <title lang="fr">Dr. Mark Chironna - S26E09</title>
+    <desc lang="fr">Dr Mark Chironna of Church on the Living Edge presents this new half hour programme diving into the Word of God, bringing wisdom accrued from decades of Ministry to viewers.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304180000 +0100" stop="20260304183000 +0100">
+    <title lang="fr">Portions Podcast</title>
+    <desc lang="fr">Join Jonathan Bernis and a host of Guests on the Portions Podcast - Journeying through Scripture from a Jewish perspective and meeting God along the way.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304183000 +0100" stop="20260304190000 +0100">
+    <title lang="fr">GOD TV Today</title>
+    <desc lang="fr">GOD TV Today is our weekly show, filled with hope, testimonies, and stories of the goodness of God from around the world.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304190000 +0100" stop="20260304193000 +0100">
+    <title lang="fr">Door of Faith with James Corbett - S26E10</title>
+    <desc lang="fr">Door of Faith Ministries and Pastor James Corbett base their works and teachings from Acts 14:27 - Highlighting the importance of Community and sharing the Work and Word of God.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304193000 +0100" stop="20260304200000 +0100">
+    <title lang="fr">Creflo Dollar - S26E48</title>
+    <desc lang="fr">Creflo Dollar is an American televangelist, rap artist and the founder of the non-denominational World Changers Church International based in Georgia. In his TV church service he offers faith as solution to all problems people encounter every day. Creflo encourages people to pursue a personal relationship with God, to find truth and empowerment no matter what they are going through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304200000 +0100" stop="20260304203000 +0100">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304203000 +0100" stop="20260304210000 +0100">
+    <title lang="fr">Gospel Truth - Andrew Wommack - S26E48</title>
+    <desc lang="fr">Andrew teaches that God provides for you in the place He calls you to and not where you currently are. He typically blesses us one step at a time.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304210000 +0100" stop="20260304213000 +0100">
+    <title lang="fr">Joyce Meyer Ministries - S26E48</title>
+    <desc lang="fr">Feeling overwhelmed by stress? God has a better way! Learn how trusting Him and making simple changes can bring balance and peace to your life.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304213000 +0100" stop="20260304220000 +0100">
+    <title lang="fr">The Cry with Betty King</title>
+    <desc lang="fr">Rev Betty King hosts this weekly series, born from Isaiah 58:1. She talks to Worship Leaders, Faith Restorers and people from all walks of the Faith Life.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304220000 +0100" stop="20260304223000 +0100">
+    <title lang="fr">Revival Ready - Steve Uppal</title>
+    <desc lang="fr">The world and the church are changing. Many resist change, clinging to the familiar and denying reality. Revival Ready explores the effects these changes have on individuals, families and Churches.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304223000 +0100" stop="20260304230000 +0100">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304230000 +0100" stop="20260304233000 +0100">
+    <title lang="fr">GOD TV Today</title>
+    <desc lang="fr">GOD TV Today is our weekly show, filled with hope, testimonies, and stories of the goodness of God from around the world.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260304233000 +0100" stop="20260305000000 +0100">
+    <title lang="fr">The Pursuit Conference - S16E07</title>
+    <desc lang="fr">Christelle Baldovinos of Global Prayer House talks on Dreaming With God, sharing several personal stories of childbirth as an analogy of conceiving and birthing God's dreams.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
   <programme channel="oqee.1415" start="20260304002000 +0100" stop="20260304002500 +0100">
     <title lang="fr">Journal Météo Climat</title>
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
@@ -50938,15 +51320,20 @@
     <desc lang="fr">A la fin du XIXe siècle, à Baltimore. Jason Cravette contraint un prêtre à le marier avec la jeune femme qu'il vient d'étrangler. La cérémonie terminée, l'ecclésiastique prend la fuite et se confie aussitôt à la police. Deux criminologues, Draco et Blount, qui gèrent un musée de cire où sont reconstitués les crimes les plus abominables, s'intéressent à l'affaire Cravette...</desc>
     <category lang="fr">Film / Film d'épouvante</category>
   </programme>
+  <programme channel="oqee.244" start="20260304040900 +0100" stop="20260304052100 +0100">
+    <title lang="fr">Regénération</title>
+    <desc lang="fr">Orphelin à 10 ans, Owen est recueilli par des voisins miséreux et violents du Bowery, dans le sud de Manhattan. Exploité par le couple, le gamin préfère vivre dans la rue et sur les docks. A 25 ans, il est devenu un puissant chef de gang. Jusqu'à ce qu'il rencontre Marie "Mamie Rose" Deering, une jeune femme de la haute société qui s'est prise de passion pour les malfrats et les laissés-pour-compte, qu'elle tente d'éduquer. Une tendre romance se noue entre eux. Mais Skinny, l'ennemi juré d'Owen, veut sa revanche…</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
   <programme channel="oqee.244" start="20260304040900 +0100" stop="20260304063900 +0100">
     <title lang="fr">Regénération</title>
     <desc lang="fr">Orphelin à 10 ans, Owen est recueilli par des voisins miséreux et violents du Bowery, dans le sud de Manhattan. Exploité par le couple, le gamin préfère vivre dans la rue et sur les docks. A 25 ans, il est devenu un puissant chef de gang. Jusqu'à ce qu'il rencontre Marie "Mamie Rose" Deering, une jeune femme de la haute société qui s'est prise de passion pour les malfrats et les laissés-pour-compte, qu'elle tente d'éduquer. Une tendre romance se noue entre eux. Mais Skinny, l'ennemi juré d'Owen, veut sa revanche…</desc>
     <category lang="fr">Film / Drame</category>
   </programme>
-  <programme channel="oqee.244" start="20260304040900 +0100" stop="20260304052100 +0100">
-    <title lang="fr">Regénération</title>
-    <desc lang="fr">Orphelin à 10 ans, Owen est recueilli par des voisins miséreux et violents du Bowery, dans le sud de Manhattan. Exploité par le couple, le gamin préfère vivre dans la rue et sur les docks. A 25 ans, il est devenu un puissant chef de gang. Jusqu'à ce qu'il rencontre Marie "Mamie Rose" Deering, une jeune femme de la haute société qui s'est prise de passion pour les malfrats et les laissés-pour-compte, qu'elle tente d'éduquer. Une tendre romance se noue entre eux. Mais Skinny, l'ennemi juré d'Owen, veut sa revanche…</desc>
-    <category lang="fr">Film / Drame</category>
+  <programme channel="oqee.244" start="20260304052100 +0100" stop="20260304063900 +0100">
+    <title lang="fr">Plaisirs interdits</title>
+    <desc lang="fr">La carrière d'une danseuse de revue est ruinée et son frère poussé au suicide lorsqu'elle commence à fumer de la marijuana.</desc>
+    <category lang="fr">Film / Film policier</category>
   </programme>
   <programme channel="oqee.244" start="20260304063900 +0100" stop="20260304080100 +0100">
     <title lang="fr">La fille du péché</title>
@@ -56712,9 +57099,9 @@
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.422" start="20260304063000 +0100" stop="20260304070000 +0100">
-    <title lang="fr">Primeira Pessoa</title>
-    <desc lang="fr">Entrevistas que buscam na essência da personagem a razão existir. Abordagens distintas e plurais de diferentes figuras da sociedade, enriquecidas por enquadramentos cenográficos, significativos e únicos.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <title lang="fr">Linha da frente</title>
+    <desc lang="fr">A grande reportagem que retrata todas as realidades!</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.422" start="20260304070000 +0100" stop="20260304110000 +0100">
     <title lang="fr">Bom dia Portugal</title>
@@ -56731,6 +57118,11 @@
     <desc lang="fr">Assim que a tarde começa, já temos para si as notícias do dia</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.422" start="20260304153000 +0100" stop="20260304163000 +0100">
+    <title lang="fr">Vila Faia</title>
+    <desc lang="fr">Atual, controversa, e inquietante, vai voltar a apaixonar-se por Vila Faia</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="oqee.422" start="20260304153000 +0100" stop="20260304160000 +0100">
     <title lang="fr">Vila Faia</title>
     <desc lang="fr">Atual, controversa, e inquietante, vai voltar a apaixonar-se por Vila Faia</desc>
@@ -56746,6 +57138,11 @@
     <desc lang="fr">Les histoires de vie de personnes qui sont parvenues à surmonter l'adversité et qui luttent quotidiennement pour changer ce que la vie leur a imposé.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.422" start="20260304183000 +0100" stop="20260304200600 +0100">
+    <title lang="fr">Portugal em Rede</title>
+    <desc lang="fr">Programa de informação centrado no país e nas regiões, com Sandra Fernandes Pereira</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.422" start="20260304183000 +0100" stop="20260304200000 +0100">
     <title lang="fr">Portugal em Rede</title>
     <desc lang="fr">Programa de informação centrado no país e nas regiões, com Sandra Fernandes Pereira</desc>
@@ -56754,6 +57151,11 @@
   <programme channel="oqee.422" start="20260304200000 +0100" stop="20260304201500 +0100">
     <title lang="fr">Campanha Eleitoral - Eleições Presidenciais 2026</title>
     <category lang="fr">Divers / Emission politique</category>
+  </programme>
+  <programme channel="oqee.422" start="20260304200600 +0100" stop="20260304205800 +0100">
+    <title lang="fr">O preço certo</title>
+    <desc lang="fr">No "Preço Certo", as emoções são garantidas!</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.422" start="20260304201500 +0100" stop="20260304205800 +0100">
     <title lang="fr">O preço certo</title>
@@ -56766,9 +57168,9 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.422" start="20260304220100 +0100" stop="20260304223000 +0100">
-    <title lang="fr">Outras histórias</title>
-    <desc lang="fr">Histórias de vidas surpreendentes que nos tocam e nos inspiram</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <title lang="fr">Linha da frente</title>
+    <desc lang="fr">A grande reportagem que retrata todas as realidades!</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.422" start="20260304223000 +0100" stop="20260304233000 +0100">
     <title lang="fr">Joker (Portugal)</title>
@@ -56799,6 +57201,67 @@
     <title lang="fr">Rubi</title>
     <desc lang="fr">La joven periodista Carla Rangel tiene la tarea de entrevistar a una mujer rica y misteriosa llamada Rubí sobre su pasado histórico que involucra pasión, seducción, traición y codicia. Remake de la telenovela de 2004 de mismo título, "Rubí", protagonizada por Bárbara Mori. Esta vez es una nueva actriz quien encarna el carismático y controvertido personaje de Rubí Perez Ochoa, la actriz Camila Sodi ("Niñas mal", "Distrito salvaje"). La protagonista de esta secuela es Ela Velden, una de las protagonistas de "Gossip Girl: Acapulco", versión mexicana del gran éxito sobre la élite adolescente de Nueva York, "Gossip Girl". Velden también trabaja en otras telenovelas como "40 y 20" o "Renta congelada", ambas de producción de Televisa como "Rubí", o "El juego de las llaves" y "Diablero".</desc>
     <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304052000 +0100" stop="20260304061000 +0100">
+    <title lang="fr">Amor real</title>
+    <desc lang="fr">En el México del siglo XIX, el doctor Manuel Fuentes hereda una fortuna del padre que nunca quiso reconocerlo. Ahora, convertido en un caballero millonario, el médico busca una esposa apropiada. Su elección recae en Matilde, hija de una familia aristocrática, pero venida a menos. Manuel y la familia de Matilde ignoran que ella está comprometida en secreto con un oficial pobre llamado Adolfo Solís. La madre de Matilde consigue que a Adolfo lo encarcelen y obliga a su hija a casarse con Manuel. Adolfo huye de la cárcel, pero no a tiempo para impedir la boda. "Amor real" es una telenovela mexicana con los ingredientes apropiados para atraer a los amantes de los culebrones: amores imposibles, relaciones familiares rotas, celos, envidias, luchas de poder y sufrimientos.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304061000 +0100" stop="20260304070000 +0100">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Cada capítulo narra una situación en la que la fe y la devocación a la Virgen de Guadalupe por parte de los fieles les da la fuerza para solucionarla.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304070000 +0100" stop="20260304083500 +0100">
+    <title lang="fr">Por ella soy Eva</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304083500 +0100" stop="20260304101500 +0100">
+    <title lang="fr">Mi corazón es tuyo</title>
+    <desc lang="fr">Fernando Lascurain, un rico hombre de negocios y reciente viudo, intenta criar a sus siete hijos revoltosos. Busca la ayuda de una nueva niñera. Contrata y se enamora de Ana Leal, una bailarina exótica que intenta ocultar su doble vida. Aunque Ana carece de experiencia y educación, rápidamente se vincula con los niños de Lascurain. Ana sueña con ser madre, pero cuando su casa queda destruida en un accidente, debe pedir prestado dinero a su despiadado jefe en "Chicago", el club nocturno donde trabaja en secreto. Cuando Fernando se enamora simultáneamente de Ana e Isabela, una economista y mujer sofisticada que es entrenada por su madre para casarse con un millonario, debe elegir entre dos mujeres.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304101500 +0100" stop="20260304115500 +0100">
+    <title lang="fr">Duelo de pasiones</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304115500 +0100" stop="20260304133000 +0100">
+    <title lang="fr">Esmeralda</title>
+    <desc lang="fr">Esmeralda es una chica nada afortunada. Nació ciega, en un estado de salud muy precario, y por si fuera poco fue apartada de su familia. Sus padres, miembros del linaje de los Peñarreal, deseaban un varón que pudiera ocupar el puesto de heredero, y cambiaron a la recién nacida por José Armando, dado a luz en el seno de una familia pobre. Pasan los años, y Esmeralda consigue salir adelante, engañada sobre sus verdaderos orígenes, cuando conoce a José Armando. Los dos jóvenes se enamoran, y protagonizan una historia de amor prohibido, víctimas de los intereses familiares de los Peñarreal. Telenovela mexicana producida por Televisa, la mayor productora de contenidos televisivos de habla hispana del mundo, responsable de telenovelas de éxito como "Rebelde" o "Destilando amor".</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304133000 +0100" stop="20260304150500 +0100">
+    <title lang="fr">Rubi</title>
+    <desc lang="fr">La joven periodista Carla Rangel tiene la tarea de entrevistar a una mujer rica y misteriosa llamada Rubí sobre su pasado histórico que involucra pasión, seducción, traición y codicia. Remake de la telenovela de 2004 de mismo título, "Rubí", protagonizada por Bárbara Mori. Esta vez es una nueva actriz quien encarna el carismático y controvertido personaje de Rubí Perez Ochoa, la actriz Camila Sodi ("Niñas mal", "Distrito salvaje"). La protagonista de esta secuela es Ela Velden, una de las protagonistas de "Gossip Girl: Acapulco", versión mexicana del gran éxito sobre la élite adolescente de Nueva York, "Gossip Girl". Velden también trabaja en otras telenovelas como "40 y 20" o "Renta congelada", ambas de producción de Televisa como "Rubí", o "El juego de las llaves" y "Diablero".</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304150500 +0100" stop="20260304164500 +0100">
+    <title lang="fr">Mi corazón es tuyo</title>
+    <desc lang="fr">Fernando Lascurain, un rico hombre de negocios y reciente viudo, intenta criar a sus siete hijos revoltosos. Busca la ayuda de una nueva niñera. Contrata y se enamora de Ana Leal, una bailarina exótica que intenta ocultar su doble vida. Aunque Ana carece de experiencia y educación, rápidamente se vincula con los niños de Lascurain. Ana sueña con ser madre, pero cuando su casa queda destruida en un accidente, debe pedir prestado dinero a su despiadado jefe en "Chicago", el club nocturno donde trabaja en secreto. Cuando Fernando se enamora simultáneamente de Ana e Isabela, una economista y mujer sofisticada que es entrenada por su madre para casarse con un millonario, debe elegir entre dos mujeres.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304164500 +0100" stop="20260304182000 +0100">
+    <title lang="fr">Por ella soy Eva</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304182000 +0100" stop="20260304200000 +0100">
+    <title lang="fr">Duelo de pasiones</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304200000 +0100" stop="20260304213500 +0100">
+    <title lang="fr">Esmeralda</title>
+    <desc lang="fr">Esmeralda es una chica nada afortunada. Nació ciega, en un estado de salud muy precario, y por si fuera poco fue apartada de su familia. Sus padres, miembros del linaje de los Peñarreal, deseaban un varón que pudiera ocupar el puesto de heredero, y cambiaron a la recién nacida por José Armando, dado a luz en el seno de una familia pobre. Pasan los años, y Esmeralda consigue salir adelante, engañada sobre sus verdaderos orígenes, cuando conoce a José Armando. Los dos jóvenes se enamoran, y protagonizan una historia de amor prohibido, víctimas de los intereses familiares de los Peñarreal. Telenovela mexicana producida por Televisa, la mayor productora de contenidos televisivos de habla hispana del mundo, responsable de telenovelas de éxito como "Rebelde" o "Destilando amor".</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304213500 +0100" stop="20260304231000 +0100">
+    <title lang="fr">Rubi</title>
+    <desc lang="fr">La joven periodista Carla Rangel tiene la tarea de entrevistar a una mujer rica y misteriosa llamada Rubí sobre su pasado histórico que involucra pasión, seducción, traición y codicia. Remake de la telenovela de 2004 de mismo título, "Rubí", protagonizada por Bárbara Mori. Esta vez es una nueva actriz quien encarna el carismático y controvertido personaje de Rubí Perez Ochoa, la actriz Camila Sodi ("Niñas mal", "Distrito salvaje"). La protagonista de esta secuela es Ela Velden, una de las protagonistas de "Gossip Girl: Acapulco", versión mexicana del gran éxito sobre la élite adolescente de Nueva York, "Gossip Girl". Velden también trabaja en otras telenovelas como "40 y 20" o "Renta congelada", ambas de producción de Televisa como "Rubí", o "El juego de las llaves" y "Diablero".</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.438" start="20260304231000 +0100" stop="20260305000000 +0100">
+    <title lang="fr">Amor real</title>
+    <desc lang="fr">En el México del siglo XIX, el doctor Manuel Fuentes hereda una fortuna del padre que nunca quiso reconocerlo. Ahora, convertido en un caballero millonario, el médico busca una esposa apropiada. Su elección recae en Matilde, hija de una familia aristocrática, pero venida a menos. Manuel y la familia de Matilde ignoran que ella está comprometida en secreto con un oficial pobre llamado Adolfo Solís. La madre de Matilde consigue que a Adolfo lo encarcelen y obliga a su hija a casarse con Manuel. Adolfo huye de la cárcel, pero no a tiempo para impedir la boda. "Amor real" es una telenovela mexicana con los ingredientes apropiados para atraer a los amantes de los culebrones: amores imposibles, relaciones familiares rotas, celos, envidias, luchas de poder y sufrimientos.</desc>
+    <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.439" start="20260304000500 +0100" stop="20260304010500 +0100">
     <title lang="fr">De noche ya se armó</title>
@@ -57779,6 +58242,169 @@
     <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="oqee.501" start="20260304050000 +0100" stop="20260304060000 +0100">
+    <title lang="fr">Panoramas</title>
+    <desc lang="fr">Panorama sur la géographie humaine de la Chine contemporaine: la Chine vue sous tous les angles, d'est en ouest, de nord à sud, sa richesse culturelle, sa diversité et les forces vives qui la font évoluer chaque jour.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304060000 +0100" stop="20260304063000 +0100">
+    <title lang="fr">Le Journal</title>
+    <desc lang="fr">Programme d'information clé de la chaîne CGTN-Français, \" Le journal \" se consacre aux événements politiques et d'actualité nationale et internationale. Ce programme utilise une perspective unique pour suivre et analyser les événements nationaux et mondiaux, ainsi que pour commenter les sujets d'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304063000 +0100" stop="20260304071500 +0100">
+    <title lang="fr">Documentaire</title>
+    <desc lang="fr">Ce programme vous emmène vers une destination lointaine et ouvre une fenêtre sur les civilisations chinoises, leurs coutumes et leurs traditions populaires. L'objectif est simple : découvrir et comprendre une culture tout en explorant des régions aux paysages enchanteurs.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304071500 +0100" stop="20260304073000 +0100">
+    <title lang="fr">Cartoons</title>
+    <desc lang="fr">Un magazine de films d'animation pour découvrir les cartoons à la chinoise.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304073000 +0100" stop="20260304080000 +0100">
+    <title lang="fr">Ma Chine à moi</title>
+    <desc lang="fr">\" Ma Chine à moi \" vous fait partager le vécu de ces étrangers qui ont choisi de vivre en Chine. Ces portraits sont aussi les témoins du processus d'ouverture de la Chine ainsi que des évolutions en matière de politique étrangère et des développements économiques du pays.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304080000 +0100" stop="20260304083000 +0100">
+    <title lang="fr">Le Journal</title>
+    <desc lang="fr">Programme d'information clé de la chaîne CGTN-Français, \" Le journal \" se consacre aux événements politiques et d'actualité nationale et internationale. Ce programme utilise une perspective unique pour suivre et analyser les événements nationaux et mondiaux, ainsi que pour commenter les sujets d'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304083000 +0100" stop="20260304090000 +0100">
+    <title lang="fr">Dok Dok</title>
+    <desc lang="fr">《Dok Dok》, l'émission quotidienne de documentaires convergents. Avec des images léchées, ce programme offre une vision globale des charmes de la Chine contemporaine. S'appuyant sur des expressions familières aux francophones du monde entier, 《Dok Dok》 vous guide à la rencontre du peuple chinois, pour toucher sa culture et explorer les plus belles histoires de Chine. Avec ce programme, vous pourrez également apprécier les avancées de l'humanité dans ses échanges et l'apprentissage mutuel entre les différentes cultures.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304090000 +0100" stop="20260304093000 +0100">
+    <title lang="fr">Monde de l'économie</title>
+    <desc lang="fr">\" Monde de l'Economie \" fournit une interprétation approfondie, complète et tridimensionnelle de l'économie chinoise d'un point de vue professionnel. Il vous permet d'explorer tous les aspects du développement économique de la Chine, de mieux comprendre les changements dans le domaine financier au niveau national et international, mais aussi de clarifier le thème de la finance tout en apportant des informations financières pratiques essentielles.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304093000 +0100" stop="20260304100000 +0100">
+    <title lang="fr">Échos d'ailleurs</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304100000 +0100" stop="20260304103000 +0100">
+    <title lang="fr">Rencontres</title>
+    <desc lang="fr">\" Rencontres \" est une émission d'interviews et de débats créée en 2005 par la chaîne CGTN-Français. Le programme fait partager aux téléspectateurs francophones les points de vue de spécialistes chinois et étrangers de haut niveau sur les grands sujets d'actualité chinoise et internationale.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304103000 +0100" stop="20260304111500 +0100">
+    <title lang="fr">Feuilletons</title>
+    <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304111500 +0100" stop="20260304120000 +0100">
+    <title lang="fr">Feuilletons</title>
+    <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304120000 +0100" stop="20260304123000 +0100">
+    <title lang="fr">Le Journal</title>
+    <desc lang="fr">Programme d'information clé de la chaîne CGTN-Français, \" Le journal \" se consacre aux événements politiques et d'actualité nationale et internationale. Ce programme utilise une perspective unique pour suivre et analyser les événements nationaux et mondiaux, ainsi que pour commenter les sujets d'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304123000 +0100" stop="20260304130000 +0100">
+    <title lang="fr">Dok Dok</title>
+    <desc lang="fr">《Dok Dok》, l'émission quotidienne de documentaires convergents. Avec des images léchées, ce programme offre une vision globale des charmes de la Chine contemporaine. S'appuyant sur des expressions familières aux francophones du monde entier, 《Dok Dok》 vous guide à la rencontre du peuple chinois, pour toucher sa culture et explorer les plus belles histoires de Chine. Avec ce programme, vous pourrez également apprécier les avancées de l'humanité dans ses échanges et l'apprentissage mutuel entre les différentes cultures.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304130000 +0100" stop="20260304133000 +0100">
+    <title lang="fr">Afrique infos</title>
+    <desc lang="fr">Magazine sur les derniers développements du continent africain, notamment les échanges entre la Chine et les pays africains.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304133000 +0100" stop="20260304141500 +0100">
+    <title lang="fr">Documentaire</title>
+    <desc lang="fr">Ce programme vous emmène vers une destination lointaine et ouvre une fenêtre sur les civilisations chinoises, leurs coutumes et leurs traditions populaires. L'objectif est simple : découvrir et comprendre une culture tout en explorant des régions aux paysages enchanteurs.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304141500 +0100" stop="20260304143000 +0100">
+    <title lang="fr">Cartoons</title>
+    <desc lang="fr">Un magazine de films d'animation pour découvrir les cartoons à la chinoise.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304143000 +0100" stop="20260304150000 +0100">
+    <title lang="fr">Ma Chine à moi</title>
+    <desc lang="fr">\" Ma Chine à moi \" vous fait partager le vécu de ces étrangers qui ont choisi de vivre en Chine. Ces portraits sont aussi les témoins du processus d'ouverture de la Chine ainsi que des évolutions en matière de politique étrangère et des développements économiques du pays.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304150000 +0100" stop="20260304153000 +0100">
+    <title lang="fr">Le Journal</title>
+    <desc lang="fr">Programme d'information clé de la chaîne CGTN-Français, \" Le journal \" se consacre aux événements politiques et d'actualité nationale et internationale. Ce programme utilise une perspective unique pour suivre et analyser les événements nationaux et mondiaux, ainsi que pour commenter les sujets d'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304153000 +0100" stop="20260304160000 +0100">
+    <title lang="fr">Rencontres</title>
+    <desc lang="fr">\" Rencontres \" est une émission d'interviews et de débats créée en 2005 par la chaîne CGTN-Français. Le programme fait partager aux téléspectateurs francophones les points de vue de spécialistes chinois et étrangers de haut niveau sur les grands sujets d'actualité chinoise et internationale.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304160000 +0100" stop="20260304163000 +0100">
+    <title lang="fr">Échos d'ailleurs</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304163000 +0100" stop="20260304171500 +0100">
+    <title lang="fr">Documentaire</title>
+    <desc lang="fr">Ce programme vous emmène vers une destination lointaine et ouvre une fenêtre sur les civilisations chinoises, leurs coutumes et leurs traditions populaires. L'objectif est simple : découvrir et comprendre une culture tout en explorant des régions aux paysages enchanteurs.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304171500 +0100" stop="20260304180000 +0100">
+    <title lang="fr">Feuilletons</title>
+    <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304180000 +0100" stop="20260304184500 +0100">
+    <title lang="fr">Feuilletons</title>
+    <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304184500 +0100" stop="20260304190000 +0100">
+    <title lang="fr">Cartoons</title>
+    <desc lang="fr">Un magazine de films d'animation pour découvrir les cartoons à la chinoise.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304190000 +0100" stop="20260304193000 +0100">
+    <title lang="fr">Ma Chine à moi</title>
+    <desc lang="fr">\" Ma Chine à moi \" vous fait partager le vécu de ces étrangers qui ont choisi de vivre en Chine. Ces portraits sont aussi les témoins du processus d'ouverture de la Chine ainsi que des évolutions en matière de politique étrangère et des développements économiques du pays.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304193000 +0100" stop="20260304200000 +0100">
+    <title lang="fr">Dok Dok</title>
+    <desc lang="fr">《Dok Dok》, l'émission quotidienne de documentaires convergents. Avec des images léchées, ce programme offre une vision globale des charmes de la Chine contemporaine. S'appuyant sur des expressions familières aux francophones du monde entier, 《Dok Dok》 vous guide à la rencontre du peuple chinois, pour toucher sa culture et explorer les plus belles histoires de Chine. Avec ce programme, vous pourrez également apprécier les avancées de l'humanité dans ses échanges et l'apprentissage mutuel entre les différentes cultures.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304200000 +0100" stop="20260304210000 +0100">
+    <title lang="fr">Panoramas</title>
+    <desc lang="fr">Panorama sur la géographie humaine de la Chine contemporaine: la Chine vue sous tous les angles, d'est en ouest, de nord à sud, sa richesse culturelle, sa diversité et les forces vives qui la font évoluer chaque jour.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304210000 +0100" stop="20260304213000 +0100">
+    <title lang="fr">La Chine et moi</title>
+    <desc lang="fr">Guidée par notre présentatrice, cette série documentaire invite à explorer divers aspects de la culture chinoise avec spontanéité, curiosité et dynamisme. En s'adressant à une audience francophone, chaque épisode raconte une histoire à travers une expérience concrète dans la Chine d'aujourd'hui.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304213000 +0100" stop="20260304221500 +0100">
+    <title lang="fr">Feuilletons</title>
+    <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304221500 +0100" stop="20260304230000 +0100">
+    <title lang="fr">Feuilletons</title>
+    <desc lang="fr">"Feuilletons" vous permettra de découvrir des séries cultes ayant pour cadre la Chine ancienne comme la Chine d'aujourd'hui. Toutes ces histoire originales vous feront partager la vie affective et sociale des Chinois.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304230000 +0100" stop="20260304234500 +0100">
+    <title lang="fr">Documentaire</title>
+    <desc lang="fr">Ce programme vous emmène vers une destination lointaine et ouvre une fenêtre sur les civilisations chinoises, leurs coutumes et leurs traditions populaires. L'objectif est simple : découvrir et comprendre une culture tout en explorant des régions aux paysages enchanteurs.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.501" start="20260304234500 +0100" stop="20260305001500 +0100">
+    <title lang="fr">L'Essentiel</title>
+    <desc lang="fr">《l'Essentiel》：Actualité du monde, vue de la Chine. 30 minutes de direct tous les mardis et jeudis, l'Essentiel choisit les thèmes les plus chauds pour débattre avec les chroniqueurs, reporters et spécialistes, afin d'apporter aux téléspectateurs un regard unique de l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
   <programme channel="oqee.505" start="20260304003000 +0100" stop="20260304010000 +0100">
     <title lang="fr">Contas poupança</title>
     <desc lang="fr">Começam amanhã as candidaturas à segunda fase do programa "E-Lar", que permite a troca praticamente grátis dos eletrodomésticos a gás por equipamentos elétricos. O Contas poupança explica-lhe o que deve ter em atenção para aproveitar este apoio e faz um ponto da situação dos outros programas que têm os pagamentos em atraso.</desc>
@@ -57884,6 +58510,61 @@
   <programme channel="oqee.505" start="20260304233000 +0100" stop="20260305003000 +0100">
     <title lang="fr">A Herança</title>
     <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304002500 +0100" stop="20260304031800 +0100">
+    <title lang="fr">Yerli Dizi</title>
+    <desc lang="fr">Sürükleyici ve dramatik hikayesiyle izleyiciyi ekrana bağlıyor. Aşk, sırlar ve beklenmedik gelişmeler karakterlerin hayatlarını derinden etkilerken gerilim ve duygusal yoğunluk her bölümde giderek artıyor. Hikaye her sahnede sürprizler, dramatik çatışmalar ve karakter etkileşimleriyle ilerliyor. İzleyici karakterlerin zor seçimlerini, duygusal çatışmalarını ve sürpriz gelişmeleri merak ve heyecanla takip ediyor. Her bölümde dramatik yoğunluk ve duygusal derinlik izleyiciye unutulmaz bir deneyim sunuyor.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304031800 +0100" stop="20260304032000 +0100">
+    <title lang="fr">İstiklal Marşı</title>
+    <desc lang="fr">Türkiye Cumhuriyeti'nin milli marşı olan İstiklal Marşı, izleyiciyle buluşuyor. Sözleri Mehmet Akif Ersoy tarafından kaleme alınan, bestesi Osman Zeki Üngör'e ait marş; bağımsızlık, vatan sevgisi ve milli birlik duygularını simgeler. Resmi ve özel yayın anlarında, taşıdığı tarihsel ve manevi değer doğrultusunda saygı çerçevesinde ekrana getirilmektedir.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304032000 +0100" stop="20260304041000 +0100">
+    <title lang="fr">Turgay Başyayla İle Lezzetli Tavsiye</title>
+    <desc lang="fr">Anadolu'nun bereketli topraklarından sofralara uzanan lezzetli bir yolculuğa hazır mısınız? Turgay Başyayla ile Lezzetli Tavsiye, Türkiye'nin dört bir yanını gezerken sadece yöresel tatları değil, bu tatların ardındaki kültürü, emeği ve hikâyeleri de izleyiciyle buluşturuyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304041000 +0100" stop="20260304071500 +0100">
+    <title lang="fr">Kalk Gidelim</title>
+    <desc lang="fr">İflas ettikten sonra baba ocağına dönen Mustafa Ali, eşi Nurcan'ın baskısıyla yeniden İstanbul'un yolunu tutar. Tüm mal varlığını kaybeden çift için şehir hayatı bu kez bambaşka sürprizlerle doludur. Köyden gelen misafirler İstanbul'a ayak uydurabilecek mi, Dal Ailesi bir arada kalmayı başarabilecek mi? Köye gelen yabancı dengeleri nasıl değiştirecek, gençlerin evlilik hayalleri gerçek olacak mı? Kahkaha dolu yeni bölümlerde tüm cevaplar yeni sezonda Kalk Gidelim'de!</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304071500 +0100" stop="20260304083000 +0100">
+    <title lang="fr">Adını Sen Koy</title>
+    <desc lang="fr">Adını Sen Koy dizisinde, farklı dünyalardan gelen Ömer ve Zehra'nın zorunlu bir evlilikle başlayan hikâyesi anlatılır. Başlangıçta çıkarlar üzerine kurulan bu evlilik, zamanla gerçek bir aşka dönüşür. Aile baskıları, geçmişten gelen sırlar ve toplumsal farklılıklar çiftin hayatını zorlaştırır. Aşk, fedakârlık ve sadakat temaları etrafında gelişen olaylar, karakterlerin iç dünyalarıyla birlikte ele alınır. Günlük hayatın içinden dramatik ve romantik gelişmelerle ilerleyen dizi, izleyiciyi duygusal bir yolculuğa çıkarır.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304083000 +0100" stop="20260304111500 +0100">
+    <title lang="fr">Alişan İle Hayata Gülümse</title>
+    <desc lang="fr">Alişan ile Hayata Gülümse programında alanında uzman isimler, Yeşilçam'ın sevilen sanatçıları ve Türkiye'nin dört bir yanından konuklar ağırlanıyor. Sağlık konuları uzmanlar eşliğinde ele alınırken, ünlü konuklarla samimi sohbetler yapılıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304111500 +0100" stop="20260304122500 +0100">
+    <title lang="fr">Seksenler</title>
+    <desc lang="fr">Unutulmaz dönem dizisi "Seksenler", izleyiciyi zaman yolculuğuna çıkararak 1980'lerin samimi mahalle yaşamını ekrana taşıyor. Aile sıcaklığını, komşuluk ilişkilerini, o dönemin müziklerini, modasını ve gündelik yaşamını nostaljik bir atmosferde yeniden yaşatıyor. Her karakter, Türkiye'nin yakın geçmişinden bir kesit sunarken; dostluk, sevgi, dayanışma ve mahalle kültürü gibi değerleri hatırlatıyor. Eğlenceli hikâyeleri, duygusal sahneleri ve dönem detaylarıyla "Seksenler", her yaştan izleyiciye hem tebessüm ettiriyor hem de geçmişe özlem dolu bir yolculuk yaşatıyor. Unutulmaz karakterleriyle Türk televizyon tarihine kazınan "Seksenler", nostaljinin en içten hali!</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304122500 +0100" stop="20260304154500 +0100">
+    <title lang="fr">Kara Ağaç Destanı</title>
+    <desc lang="fr">Kara Ağaç Destanı sürükleyici ve dramatik hikayesiyle izleyiciyi ekrana bağlıyor. Aşk, sırlar ve zorlu mücadeleler karakterlerin hayatlarını derinden etkilerken gerilim ve duygusal yoğunluk her bölümde giderek artıyor. Hikaye her sahnede sürprizler, dramatik çatışmalar ve güçlü karakter etkileşimleriyle ilerliyor. İzleyici karakterlerin zorlu seçimlerini, ilişkilerini ve beklenmedik gelişmeleri merak ve heyecanla takip ediyor. Her bölümde gerilim ve duygusal yoğunluk izleyiciye unutulmaz bir deneyim sunuyor.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304154500 +0100" stop="20260304170000 +0100">
+    <title lang="fr">Lingo</title>
+    <desc lang="fr">Lingo Türkiye'de yarışmacılar dört ve beş harfli kelimeleri bularak ödül kazanmaya çalışır. Üç çiftin yarıştığı etapta en az ödülü kazanan elenir. Kasasında en çok parayı biriktiren çift final etabına kalır.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304170000 +0100" stop="20260304175500 +0100">
+    <title lang="fr">Ana Haber</title>
+    <desc lang="fr">Günün sıcak gelişmeleri Türkiye ve dünyadan başlıklarla Ana Haber'de aktarılır. Siyaset, ekonomi, toplum ve kültür gündemi; canlı bağlantılar ve sahadan haberlerle ele alınır. Gelişmeler bağlamı ve arka planıyla değerlendirilir. Amaç, izleyiciye doğru ve güvenilir bilgiyi zamanında ulaştırmaktır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.511" start="20260304175500 +0100" stop="20260305001500 +0100">
+    <title lang="fr">İddiaların Aksine</title>
+    <desc lang="fr">İddiaların Aksine, gündemdeki iddiaları mercek altına alan, söylentilerden arındırılmış ve mevcut bilgiler ışığında değerlendiren bir programdır. Konular uzman görüşleri ve güncel verilerle incelenir, izleyiciye tarafsız ve anlaşılır bir şekilde aktarılır.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.514" start="20260304000500 +0100" stop="20260304001400 +0100">
     <title lang="fr">Trois...Quatre !</title>
@@ -58692,6 +59373,11 @@
     <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304073000 +0100" stop="20260304074500 +0100">
+    <title lang="fr">Die Welt am Morgen</title>
+    <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304073000 +0100" stop="20260304074000 +0100">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
@@ -58702,7 +59388,17 @@
     <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304074500 +0100" stop="20260304075000 +0100">
+    <title lang="fr">Die Welt am Morgen</title>
+    <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304074500 +0100" stop="20260304080000 +0100">
+    <title lang="fr">Meine WELT - Meine Meinung</title>
+    <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304075000 +0100" stop="20260304080000 +0100">
     <title lang="fr">Meine WELT - Meine Meinung</title>
     <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
@@ -58717,6 +59413,11 @@
     <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304083000 +0100" stop="20260304084500 +0100">
+    <title lang="fr">Die Welt am Morgen</title>
+    <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304083000 +0100" stop="20260304084000 +0100">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
@@ -58727,7 +59428,17 @@
     <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304084500 +0100" stop="20260304085000 +0100">
+    <title lang="fr">Die Welt am Morgen</title>
+    <desc lang="fr">Aus Europas modernstem Newsstudio melden sich die Moderatoren und starten gemeinsam mit den Zuschauern mit einem Überblick über die Themen, die das Geschehen bestimmen, und Orientierung für das, was ansteht, in den Tag.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304084500 +0100" stop="20260304090000 +0100">
+    <title lang="fr">Meine WELT - Meine Meinung</title>
+    <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304085000 +0100" stop="20260304090000 +0100">
     <title lang="fr">Meine WELT - Meine Meinung</title>
     <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
@@ -58738,6 +59449,11 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260304091500 +0100" stop="20260304093000 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304093000 +0100" stop="20260304094500 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -58753,11 +59469,21 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260304094500 +0100" stop="20260304095000 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304095000 +0100" stop="20260304095500 +0100">
     <title lang="fr">Meine WELT - Meine Meinung</title>
     <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.56" start="20260304095000 +0100" stop="20260304100000 +0100">
+    <title lang="fr">Börsenflash</title>
+    <desc lang="fr">Was tut sich an den internationalen Börsen? Für Aktienbesitzer und finanzinteressierte Zuschauerinnen und Zuschauer bietet dieses Wirtschaftsmagazin einen kompakten Überblick über die Ereignisse an den Börsen.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304095500 +0100" stop="20260304100000 +0100">
     <title lang="fr">Börsenflash</title>
     <desc lang="fr">Was tut sich an den internationalen Börsen? Für Aktienbesitzer und finanzinteressierte Zuschauerinnen und Zuschauer bietet dieses Wirtschaftsmagazin einen kompakten Überblick über die Ereignisse an den Börsen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
@@ -58772,12 +59498,22 @@
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304103000 +0100" stop="20260304104500 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304103000 +0100" stop="20260304104000 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260304104000 +0100" stop="20260304105000 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304104500 +0100" stop="20260304105000 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -58797,12 +59533,22 @@
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304113000 +0100" stop="20260304114500 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304113000 +0100" stop="20260304114000 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260304114000 +0100" stop="20260304115000 +0100">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304114500 +0100" stop="20260304115000 +0100">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -58872,12 +59618,22 @@
     <desc lang="fr">Diese Sendung fasst zusammen, was auf der Welt geschehen ist und welche wichtigen Entwicklungen stattfanden. Experten analysieren die Ereignisse und Studigäste erklären die Vorkommnisse.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304151500 +0100" stop="20260304153000 +0100">
+    <title lang="fr">Business Insider</title>
+    <desc lang="fr">Investieren? Klingt kompliziert - ist es aber nicht. Moritz Seyffarth, Chefredakteur von Business Insider Deutschland und Host des erfolgreichen Podcasts "Alles auf Aktien", bringt jede Woche klare, verständliche Investmentideen auf den Punkt. Mit Know-how und Haltung liefert er Impulse für alle, die selbstbestimmt investieren wollen.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
   <programme channel="oqee.56" start="20260304151500 +0100" stop="20260304152500 +0100">
     <title lang="fr">Business Insider</title>
     <desc lang="fr">Investieren? Klingt kompliziert - ist es aber nicht. Moritz Seyffarth, Chefredakteur von Business Insider Deutschland und Host des erfolgreichen Podcasts "Alles auf Aktien", bringt jede Woche klare, verständliche Investmentideen auf den Punkt. Mit Know-how und Haltung liefert er Impulse für alle, die selbstbestimmt investieren wollen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.56" start="20260304152500 +0100" stop="20260304155500 +0100">
+    <title lang="fr">WELT-Spezial</title>
+    <desc lang="fr">In dem Magazin werden aktuelle Themen, die die Welt gerade bewegen, aufgegriffen und anhand von Reportagen ausführlich vorgestellt.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304153000 +0100" stop="20260304155500 +0100">
     <title lang="fr">WELT-Spezial</title>
     <desc lang="fr">In dem Magazin werden aktuelle Themen, die die Welt gerade bewegen, aufgegriffen und anhand von Reportagen ausführlich vorgestellt.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -58917,12 +59673,22 @@
     <desc lang="fr">Wo steht der Dax, und wie sieht der Dow Jones nach Börsenschluss in New York aus? Das Wirtschaftsmagazin berichtet von der Frankfurter Börse und analysiert Trends auf dem internationalen Aktienmarkt. Wichtige Analysten kommen zu Wort und schätzen die Lage an den Börsen ein, geben einen Überblick über die Situation auf den internationalen Finanzmärkten und auf die wirtschaftliche Lage.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20260304180000 +0100" stop="20260304181000 +0100">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">Diese Sendung blickt zurück, was an diesem Tag auf der ganzen Welt geschah, interpretiert und analysiert die Ereignisse und wagt Prognosen, welche Themen am nächsten Tag von Bedeutung sein werden.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304180000 +0100" stop="20260304180500 +0100">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">Diese Sendung blickt zurück, was an diesem Tag auf der ganzen Welt geschah, interpretiert und analysiert die Ereignisse und wagt Prognosen, welche Themen am nächsten Tag von Bedeutung sein werden.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260304180500 +0100" stop="20260304181500 +0100">
+    <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
+    <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304181000 +0100" stop="20260304181500 +0100">
     <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
     <desc lang="fr">Täglich um 20:10 Uhr bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
@@ -58937,7 +59703,17 @@
     <desc lang="fr">Diese Sendung blickt zurück, was an diesem Tag auf der ganzen Welt geschah, interpretiert und analysiert die Ereignisse und wagt Prognosen, welche Themen am nächsten Tag von Bedeutung sein werden.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260304185500 +0100" stop="20260304191000 +0100">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">Diese Sendung blickt zurück, was an diesem Tag auf der ganzen Welt geschah, interpretiert und analysiert die Ereignisse und wagt Prognosen, welche Themen am nächsten Tag von Bedeutung sein werden.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260304185500 +0100" stop="20260304191500 +0100">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">Diese Sendung blickt zurück, was an diesem Tag auf der ganzen Welt geschah, interpretiert und analysiert die Ereignisse und wagt Prognosen, welche Themen am nächsten Tag von Bedeutung sein werden.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260304191000 +0100" stop="20260304193000 +0100">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">Diese Sendung blickt zurück, was an diesem Tag auf der ganzen Welt geschah, interpretiert und analysiert die Ereignisse und wagt Prognosen, welche Themen am nächsten Tag von Bedeutung sein werden.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -58972,6 +59748,11 @@
     <desc lang="fr">Deutschland ist der größte Fleischproduzenten Europas. Acht Millionen Tonnen Fleisch werden alljährlich verarbeitet. 31 Kilo Fleisch pro Jahr verzehrt jeder Bundesbürger Im Durchschnitt. Vorrangig wird Schweinefleisch produziert, aus dem häufig Wurst hergestellt wird. Dabei macht allein die Brühwurst ein Drittel des Fleischkonsums aus. Am beliebtesten ist jedoch ein Rohwurst: die Salami.</desc>
     <category lang="fr">Documentaire / Documentaire gastronomie</category>
   </programme>
+  <programme channel="oqee.56" start="20260304220500 +0100" stop="20260304230500 +0100">
+    <title lang="fr">Schinken - Eine deutsche Tradition</title>
+    <desc lang="fr">Geräuchert, gepökelt oder luftgetrocknet: In ganz Deutschland sind variationsreiche Schinkenspezialitäten zu finden. Einige Sorten, wie der Schwarzwälder Schinken, erfreuen sich weltweiter Beliebtheit, während andere nur unter wahren Kennern verbreitet sind. In dieser Reportage wird die Kunst der Schinkenproduktion begleitet, vom traditionellen westfälischen Knochenschinken, der gerne zum frischen Spargel gereicht wird, bis hin zum Regnitztaler Schinken, der als echte Rarität gilt.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
   <programme channel="oqee.56" start="20260304220500 +0100" stop="20260304225500 +0100">
     <title lang="fr">Schinken - Eine deutsche Tradition</title>
     <desc lang="fr">Geräuchert, gepökelt oder luftgetrocknet: In ganz Deutschland sind variationsreiche Schinkenspezialitäten zu finden. Einige Sorten, wie der Schwarzwälder Schinken, erfreuen sich weltweiter Beliebtheit, während andere nur unter wahren Kennern verbreitet sind. In dieser Reportage wird die Kunst der Schinkenproduktion begleitet, vom traditionellen westfälischen Knochenschinken, der gerne zum frischen Spargel gereicht wird, bis hin zum Regnitztaler Schinken, der als echte Rarität gilt.</desc>
@@ -58982,10 +59763,50 @@
     <desc lang="fr">Wer eine Küche plant, hat im Auge, dass sie einen aktuellen Stil hat und ansehnlich ist. Dabei stellt man fest, dass sich die Modelle, die man im regulären Verkauf erhalten kann, in ihrer Funktionalität durchaus ähneln. Sie bestehen aus unterschiedlichen Schränken und elektronischen Geräten, die auf verschiedene Weise zusammengestellt werden können. In der Dokumentation wird die Konzeption mehrerer Küchen beobachtet.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="oqee.56" start="20260304230500 +0100" stop="20260305000500 +0100">
+    <title lang="fr">Die Küchenmacher - Von Maßarbeit bis Massenware</title>
+    <desc lang="fr">Wer eine Küche plant, hat im Auge, dass sie einen aktuellen Stil hat und ansehnlich ist. Dabei stellt man fest, dass sich die Modelle, die man im regulären Verkauf erhalten kann, in ihrer Funktionalität durchaus ähneln. Sie bestehen aus unterschiedlichen Schränken und elektronischen Geräten, die auf verschiedene Weise zusammengestellt werden können. In der Dokumentation wird die Konzeption mehrerer Küchen beobachtet.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
   <programme channel="oqee.56" start="20260304235000 +0100" stop="20260305004500 +0100">
     <title lang="fr">Der XXL-Mähdrescher - Erntefabrik auf Rädern</title>
     <desc lang="fr">In Zweibrücken in Rheinland-Pfalz befindet sich eines der größten Mähdrescher-Werke Europas. Weltweit werden die Nutzfahrzeuge ausgeliefert und eingesetzt. Der dort produzierte T670 ist eine komplette Erntefabrik auf Rädern: In einer Stunde kann der XXL-Mähdrescher bis zu 50 Tonnen Getreide ernten. Mit 4 Metern Höhe und 21 Tonnen Gewicht ist es zudem eines der größten landwirtschaftlichen Fahrzeuge der Welt. Die Reportage zeigt die Herstellung der Erntemaschine und begleitet sie im Einsatz.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304021300 +0100" stop="20260304070000 +0100">
+    <title lang="fr">Papi Gudia</title>
+    <desc lang="fr">A criminal uses a possessed doll to lure children and kill them. His latest target is Raju, the young brother of a dancer, who soon becomes the main suspect in a series of murders.</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304070000 +0100" stop="20260304092000 +0100">
+    <title lang="fr">The Real Hunter</title>
+    <desc lang="fr">To fuel his political ambitions, Vijay's father fixes his marriage with an affluent girl. However, after Vijay falls for an ordinary villager and plans on marrying her, his father plans to stop him.</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304092000 +0100" stop="20260304122400 +0100">
+    <title lang="fr">Kab ? Kyoon ? Aur Kahan ?</title>
+    <desc lang="fr">Asha, a rich man's daughter, is arrested for her uncle's murder. Inspector Anand, who loves her, tries his best to solve the case and save her.</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304122400 +0100" stop="20260304151200 +0100">
+    <title lang="fr">Nakshatra</title>
+    <desc lang="fr">Ajay works on a new script, which is based on a robbery of an expensive necklace, for some producers. However, things take a turn when the scene is enacted in real-life and the blame falls on Ajay.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304151200 +0100" stop="20260304184800 +0100">
+    <title lang="fr">Daraar</title>
+    <desc lang="fr">Raj Malhotra, a wealthy man, falls in love with Priya Bhatia, a real estate agent, as soon as he meets her. When he proposes to her for marriage, he discovers that she is already married.</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304184800 +0100" stop="20260304215700 +0100">
+    <title lang="fr">Krantiveer</title>
+    <desc lang="fr">After being disowned by his family, Pratap, a juvenile gambler, ends up in Mumbai where he gets adopted by Laxminath, a landlord. However, when Laxminath is murdered, Pratap vows to avenge him.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20260304215700 +0100" stop="20260305011300 +0100">
+    <title lang="fr">Zakhmi Aurat</title>
+    <desc lang="fr">Zakhmi Aurat 1988</desc>
+    <category lang="fr">Film / Film d'horreur</category>
   </programme>
   <programme channel="oqee.606" start="20260304000000 +0100" stop="20260304003000 +0100">
     <title lang="fr">Impacto económico</title>
@@ -62672,8 +63493,8 @@
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.835" start="20260304150000 +0100" stop="20260304155500 +0100">
-    <title lang="fr">Barbara Salesch - Das Strafgericht - S06E18</title>
-    <desc lang="fr">Sven Lücke (42) soll den Stromkasten auf der Baustelle seines Hauses so manipuliert haben, dass sein Elektriker und Kumpel Daniel Arndt (40) durch die bloße Berührung einen lebensgefährlichen Stromschlag erlitt. Schürzenjäger Daniel hatte zuvor offensiv versucht, Svens Frau Caroline (39) zum Fremdgehen zu überreden. Wollte Sven sich dafür rächen? Und: Wusste Daniels Frau Viktoria (40) wirklich nichts von diesen Machenschaften ihres Mannes?</desc>
+    <title lang="fr">Barbara Salesch - Das Strafgericht - S06E358</title>
+    <desc lang="fr">Als Artist Marcel Tänzer (32) beim großen Finale ausnahmsweise eine Zuschauerin in die Manege holt, fällt anstelle des Abschlussglitzers ein Sandsack herunter und verletzt die Zuschauerin schwer. Galt der Anschlag dem Artisten? Ist Zirkusdirektorin Vivienne Schweikard (48), die den Mechanismus betätigt hat, die Täterin? Wollte sie sich an Marcel rächen, weil er ihre Affäre beendete? Doch auch andere Mitglieder der Zirkusfamilie hätten ein Motiv.</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="oqee.835" start="20260304155500 +0100" stop="20260304170000 +0100">
@@ -63119,7 +63940,7 @@
   </programme>
   <programme channel="oqee.844" start="20260304210700 +0100" stop="20260304230700 +0100">
     <title lang="fr">Armor</title>
-    <desc lang="fr">Un padre y su hijo, guardias de seguridad, se enfrentan a unos asaltantes en un puente.Atrapados, deberán ingeniárselas para sobrevivir y escapar.</desc>
+    <desc lang="fr">Un père et son fils travaillent comme agents de sécurité pour une société de camions blindés. Alors qu'ils sont en mission, ils tombent sur une équipe de voleurs lourdement armés qui les prennent au piège sur un pont. C'est le début d'un long siège, dont ils ne savent pas s'ils sortiront vivants.</desc>
     <category lang="fr">Film / Film d'action</category>
   </programme>
   <programme channel="oqee.844" start="20260304230700 +0100" stop="20260305005200 +0100">
