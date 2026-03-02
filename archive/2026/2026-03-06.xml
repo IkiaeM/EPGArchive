@@ -20,6 +20,9 @@
     <display-name>3SAT</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~2b50b1d715d30fc1.png/480x480/quality/100/3sat.png"/>
   </channel>
+  <channel id="459194">
+    <display-name>BBC2</display-name>
+  </channel>
   <channel id="6ter.fr">
     <display-name>6ter</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~ceee54072118570a.png/480x480/quality/100/6ter.png"/>
@@ -3827,6 +3830,33 @@
     <desc lang="fr">Au cœur du Montana sauvage, le colonel Ludlow élève seul ses trois fils. Alfred, l'aîné, est le plus raisonnable. Tristan, le deuxième, très proche de la culture indienne, est un aventurier. Samuel, le benjamin, est le plus fragile. Un jour, ce dernier fait venir Susannah, sa fiancée, au ranch. Alfred et Tristan en tombent rapidement amoureux. Mais la Première Guerre mondiale éclate et les trois frères sont enrôlés.</desc>
     <category lang="fr">Cinéma</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~d35164ca538dcd1c.jpg/640x360/quality/80/legendes-d-automne.jpg"/>
+  </programme>
+  <programme channel="459194" start="20260306001500 +0000" stop="20260306011500 +0000">
+    <title lang="fr">Oceans</title>
+  </programme>
+  <programme channel="459194" start="20260306011500 +0000" stop="20260306020000 +0000">
+    <title lang="fr">Flog It!</title>
+    <desc lang="fr">The finds in the seaside town of Bexhill-on-Sea include a charming art deco clock.</desc>
+  </programme>
+  <programme channel="459194" start="20260306020000 +0000" stop="20260306023000 +0000">
+    <title lang="fr">Richard Osman's House of Games</title>
+  </programme>
+  <programme channel="459194" start="20260306023000 +0000" stop="20260306030000 +0000">
+    <title lang="fr">Do You Know Your Place?</title>
+  </programme>
+  <programme channel="459194" start="20260306030000 +0000" stop="20260306040000 +0000">
+    <title lang="fr">Great British Menu</title>
+    <desc lang="fr">Chefs from Scotland compete over mains and desserts - and one must go home.</desc>
+  </programme>
+  <programme channel="459194" start="20260306040000 +0000" stop="20260306050000 +0000">
+    <title lang="fr">Britain's Biggest Warship</title>
+  </programme>
+  <programme channel="459194" start="20260306050000 +0000" stop="20260306060000 +0000">
+    <title lang="fr">Hostage</title>
+  </programme>
+  <programme channel="459194" start="20260306060000 +0000" stop="20260307000000 +0000">
+    <title lang="fr">We Might Regret This</title>
+    <desc lang="fr">Freya, tétraplégique canadienne, emménage dans la capitale anglaise pour vivre avec Abe.</desc>
   </programme>
   <programme channel="6ter.fr" start="20260306001000 +0100" stop="20260306010000 +0100">
     <title lang="fr">Les Capone se marient</title>
@@ -9425,7 +9455,7 @@ Acteurs : Laura De León (Juana Levy), Carlos Báez (Jorge García), Carolina Ga
   </programme>
   <programme channel="Arte.de" start="20260306031500 +0100" stop="20260306033000 +0100">
     <title lang="fr">Le dessous des images</title>
-    <desc lang="fr">Sur TikTok, des jeunes femmes créées par intelligence artificielle promeuvent la sortie de la Pologne de l'Union européenne. Leurs vidéos cumulent des milliers de vues et inquiètent jusqu'au sommet de l'État polonais. Retour sur une opération de désinformation d'un nouveau genre.</desc>
+    <desc lang="fr">Sonia Devillers raconte l'histoire d'une photo ou d'une image. De leur construction à leur impact, comment expliquer la viralité de certaines images ?</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Arte.de" start="20260306032000 +0100" stop="20260306032500 +0100">
@@ -18619,7 +18649,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="Boing.fr" start="20260306012000 +0100" stop="20260306013000 +0100">
     <title lang="fr">Interstellaire Ella - S02E03</title>
-    <desc lang="fr">Ella Ryder, 8 ans, vit dans une station spatiale entre Mars et Jupiter, en l'an 3021. Avec ses amis Slippy et Madhu, elle part à la découverte de l'espace.</desc>
+    <desc lang="fr">Madhu est triste car une étoile va s'éteindre. Ella et Slippy essaient de lui remonter le moral, en vain. Ella offre compréhension et soutien.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Boing.fr" start="20260306013000 +0100" stop="20260306013500 +0100">
@@ -18869,7 +18899,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="Boing.fr" start="20260306093000 +0100" stop="20260306094000 +0100">
     <title lang="fr">Bugs Bunny Constructeurs - S02E35</title>
-    <desc lang="fr">Le jour de la Saint Martin approche, et les Bricoleurs sont appelés en Alle-magne dans le petit village de Kurt le coucou, qui souhaite faire de cette fête une journée inoubliable cette année.</desc>
+    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments pour les gens qui les sollicitent malgré leur manque de compétences.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260306094000 +0100" stop="20260306095500 +0100">
@@ -32378,94 +32408,84 @@ Présentateur(s) : Camille Combal
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~867d68fa94bfa0dd.jpeg/640x360/quality/80/programme-non-communique.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306060000 +0100" stop="20260306090000 +0100">
-    <title lang="fr">Radio 2: Goeiemorgen morgen</title>
-    <desc lang="fr">Goeiemorgen Morgen! is het ochtendprogramma van Radio 2 (VRT) dat elke weekdag van 6:00 tot 9:00 de luisteraars begeleidt met een mix van essentieel nieuws, entertainment en positieve muziek. Het wordt gepresenteerd door Peter Van de Veire en Margaux Bogaert.</desc>
-    <category lang="fr">Other</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_ACDF39D7F8877CDA53898C213A9F5446.jpg"/>
+    <title lang="fr">Radio 2</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e5033e8c0a9f233e.jpeg/640x360/quality/80/radio2-op-vrt-canvas-goeiemorgen-morgen.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306090000 +0100" stop="20260306120000 +0100">
-    <title lang="fr">Winterbeelden</title>
-    <desc lang="fr">Selectie van panoramische filmbeelden uit 100 wintersportplaatsen in de Alpen.</desc>
-    <category lang="fr">Other</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_483DD367F5410B1456C51BE6BFE13F06.jpg"/>
+    <title lang="fr">Feratel</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ea51a96e835a1e1.jpeg/640x360/quality/80/winterbeelden.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306120000 +0100" stop="20260306130000 +0100">
     <title lang="fr">Radio 1: Nieuwe Feiten</title>
-    <desc lang="fr">Live vanuit de Radio 1-studio.</desc>
-    <category lang="fr">Other</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_25A3F71AC19CB2960D4DD391C750F83F.jpg"/>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3c26f0c2a0624b01.jpeg/640x360/quality/80/radio-1-nieuwe-feiten.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306130000 +0100" stop="20260306160000 +0100">
-    <title lang="fr">Winterbeelden</title>
-    <desc lang="fr">Selectie van panoramische filmbeelden uit 100 wintersportplaatsen in de Alpen.</desc>
-    <category lang="fr">Other</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_483DD367F5410B1456C51BE6BFE13F06.jpg"/>
+    <title lang="fr">Feratel</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ea51a96e835a1e1.jpeg/640x360/quality/80/winterbeelden.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306160000 +0100" stop="20260306175000 +0100">
-    <title lang="fr">Radio 1: De wereld vandaag</title>
-    <desc lang="fr">Beluister alle afleveringen van De Wereld Vandaag met VRT.</desc>
-    <category lang="fr">News</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_9BE3603B5FD4D9E22A6B25E0C350C4D5.jpg"/>
+    <title lang="fr">Radio 1: De Wereld Vandaag</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fb721204b4880672.jpeg/640x360/quality/80/radio-1-de-wereld-vandaag.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306175000 +0100" stop="20260306181000 +0100">
-    <title lang="fr">The Office US</title>
-    <desc lang="fr">Onenigheid bij het feestcomité leidt tot twee concurrerende kerstfeestjes. Michael verstuurt een ongepaste gefotoshopte kerstkaart en net tijdens de kerstdagen wordt zijn hart gebroken door zijn vriendin Carol. Andy neemt Michael mee op café, samen met Dwight en Jim.</desc>
-    <category lang="fr">Serie</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_7804009051D2AF6977C25B86A345FAF7.jpg"/>
+    <title lang="fr">The Office 2005 - 2013</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a32853a22b7d47d3.jpg/640x360/quality/80/the-office.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306181000 +0100" stop="20260306183000 +0100">
-    <title lang="fr">The Office US</title>
-    <desc lang="fr">Onenigheid bij het feestcomité leidt tot twee concurrerende kerstfeestjes. Michael verstuurt een ongepaste gefotoshopte kerstkaart en net tijdens de kerstdagen wordt zijn hart gebroken door zijn vriendin Carol. Andy neemt Michael mee op café, samen met Dwight en Jim.</desc>
-    <category lang="fr">Serie</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_3029D61A4409D377A34BA15C7286D22E.jpg"/>
+    <title lang="fr">The Office 2005 - 2013</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a32853a22b7d47d3.jpg/640x360/quality/80/the-office-2005.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306183000 +0100" stop="20260306192000 +0100">
-    <title lang="fr">Code blue: murder: the killing of June Fox-Roberts</title>
-    <desc lang="fr">De politie heeft de 25-jarige kunststudent Luke Deeley gearresteerd, die eerder als vermist werd opgegeven en nu weigert te praten. Agenten moeten nog steeds het bewijs vinden dat hij de moordenaar is van de 65-jarige grootmoeder June. Deze tweedelige documentaire neemt ons mee achter de schermen van een van de meest schokkende moordzaken in Wales, van het ijzingwekkende eerste telefoontje tot de uiteindelijke rechtszitting.</desc>
-    <category lang="fr">Documentary</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_70BC80806DA5129ED9629F072C35A28D.jpg"/>
+    <title lang="fr">Code blue: murder</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~36f861cecb980a97.jpeg/640x360/quality/80/code-blue-murder.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306192000 +0100" stop="20260306200000 +0100">
     <title lang="fr">De ideale wereld</title>
-    <desc lang="fr">Satirisch actualiteitenmagazine met Ella Leyers. Elodie Gabias is te gast.</desc>
-    <category lang="fr">Show</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_DC1BB091C78C98FF3E2853856B33D7E2.jpg"/>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fb191ae0c4bd3c82.jpeg/640x360/quality/80/de-ideale-wereld.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306200000 +0100" stop="20260306203000 +0100">
     <title lang="fr">Terzake</title>
-    <desc lang="fr">Achtergrond en duiding bij het nieuws van de dag.</desc>
-    <category lang="fr">News</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_784121134A11094DB0828AC0B491E9B9.jpg"/>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~13ea46a622c16a58.jpeg/640x360/quality/80/terzake.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306203000 +0100" stop="20260306203500 +0100">
     <title lang="fr">Het weer</title>
-    <desc lang="fr">Doorlopende herhaling tot de start van de ochtenduitzendingen.</desc>
-    <category lang="fr">News</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_9B732DE8EAE0F9DAAB53124F6D82DDE6.jpg"/>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ed8d53e599ceac0.jpeg/640x360/quality/80/het-weer-20-23h.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306203500 +0100" stop="20260306213000 +0100">
-    <title lang="fr">De afspraak op Vrijdag</title>
-    <desc lang="fr">Ivan De Vadder nodigt wekelijks één politicus en twee andere gasten uit. Samen overlopen zij de politieke actualiteit van de afgelopen week.</desc>
-    <category lang="fr">News</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_42CC69C8A48991025D35C0B9E8257FA9.jpg"/>
+    <title lang="fr">De Afspraak op vrijdag</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~4863815bc3aa75eb.jpeg/640x360/quality/80/de-afspraak-op-vrijdag.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306213000 +0100" stop="20260306221500 +0100">
     <title lang="fr">Lynley</title>
-    <desc lang="fr">Een veelbelovende makelaar verdwijnt spoorloos, en haar mysterieuze verdwijning schudt de gemeenschap wakker. Voor Lynley wordt het persoonlijk wanneer blijkt dat ze banden had met Helen Clyde, zijn oude studiegenote van Oxford. Terwijl hij oude herinneringen en begraven spanningen herleeft, volgt Havers verse sporen tussen het personeel en cliënten. Hun werkstijlen blijven botsen, maar elke nieuwe aanwijzing wijst naar iets veel donkerders dan ze hadden gevreesd.</desc>
-    <category lang="fr">Serie</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_3ED9A371805D4B56D60A22BF899D765C.jpg"/>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~cdcbcfee9d671a19.jpeg/640x360/quality/80/lynley.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306221500 +0100" stop="20260306230000 +0100">
     <title lang="fr">Lynley</title>
-    <desc lang="fr">Het onderzoek escaleert wanneer Lynley en Havers een web van persoonlijke relaties, verraad en ambities ontrafelen rond Helen Clyde's sociale kring. De verdenking valt op iemand dicht bij Lynley, waardoor zijn verleden onder de loep komt. Havers realiseert zich dat de verdwijning geen vrijwillige keuze was - moord ligt op tafel. In een race tegen de klok moeten ze de waarheid achterhalen, terwijl loyaliteiten op de proef worden gesteld. Maar kan Lynley objectief blijven?</desc>
-    <category lang="fr">Serie</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_B612E126495B11695E571135323E0A0A.jpg"/>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~cdcbcfee9d671a19.jpeg/640x360/quality/80/lynley.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306230000 +0100" stop="20260306234500 +0100">
-    <title lang="fr">Sthlm Requiem</title>
-    <desc lang="fr">Fredrika Bergman onderzoekt een vliegtuigkaping waarin copiloot Erik de zoon blijkt te zijn van haar ex-baas Alex Recht. SÄPO-agent Eden Lundell leidt de operatie. Fredrika en Alex werken samen door een onverwachte gebeurtenis. Ondertussen ontstaat er spanning tussen Erik en piloot Karim, die niet wil meewerken aan het onderzoek.</desc>
-    <category lang="fr">Serie</category>
-    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_2FB0D28233888D5AE00134F8D55D6078.jpg"/>
+    <title lang="fr">Sthlm requiem</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2e837ff2ef12e490.jpeg/640x360/quality/80/sthlm-rekviem.jpg"/>
+  </programme>
+  <programme channel="Canvas.fr" start="20260306234500 +0100" stop="20260307003000 +0100">
+    <title lang="fr">Sthlm requiem</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~01b79cfd5b7088c9.jpeg/640x360/quality/80/sthlm-rekviem.jpg"/>
   </programme>
   <programme channel="Canvas.fr" start="20260306234500 +0100" stop="20260307002800 +0100">
     <title lang="fr">Sthlm Requiem</title>
@@ -34908,9 +34928,8 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20260306051600 +0100" stop="20260306065600 +0100">
     <title lang="fr">Le convoi</title>
-    <desc lang="fr">A Malaga, au sud de l'Espagne, Alex, chauffeur taciturne, fait partie d'un convoi en go fast de grosses cylindrées, chargées de faire passer de la drogue. Dans une autre voiture, Majid, très nerveux, se sent lésé et n'aime pas les conditions dans lesquelles se déroule le convoi. Alors que les autres chauffeurs semblent plus détendus, la situation bascule quand tous ont à faire avec un barrage de police. Une fusillade éclate.</desc>
-    <category lang="fr">Cinéma</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~2b0f9e935c5bb7dc.jpg/640x360/quality/80/le-convoi.jpg"/>
+    <desc lang="fr">Répartie dans quatre grosses cylindrées et organisée en go fast, une équipe de sept hommes, composée du taciturne Alex, de l'expérimenté Imad, du jeune Elyes, de l'intuitif Yacine, mais aussi de Majid, Rémi et Reda, a pour mission d'acheminer plus d'une tonne de résine de cannabis entre Málaga, au sud de l'Espagne, et Creil, en banlieue parisienne. Mais lorsque l'une des voitures des trafiquants se retrouve face à un barrage de police, l'opération prend une tournure dramatique. Nadia, une touriste française, se retrouve entraînée malgré elle dans la fuite de cette bande de malfaiteurs, qui sont prêts à tout pour mener à bien leur mission...</desc>
+    <category lang="fr">Film / Thriller</category>
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20260306065600 +0100" stop="20260306083000 +0100">
     <title lang="fr">Belladone</title>
@@ -37569,7 +37588,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="DiscoveryChannel.fr" start="20260306200500 +0100" stop="20260306210000 +0100">
     <title lang="fr">Josh Gates et les trésors perdus - S11E07</title>
-    <desc lang="fr">Dans des jungles reculées, Josh s'intéresse à l'un des plus gros casses du XXe siècle : le pillage de statues cambodgiennes. Il pénètre dans une pyramide en ruines.</desc>
+    <desc lang="fr">L'explorateur Josh Gates parcourt le globe pour découvrir la vérité derrière les légendes célèbres et les mythes séculaires de notre histoire.</desc>
     <category lang="fr">Documentaire / Documentaire aventures</category>
   </programme>
   <programme channel="DiscoveryChannel.fr" start="20260306210000 +0100" stop="20260306230000 +0100">
@@ -38550,7 +38569,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="DisneyChannel.fr" start="20260306153500 +0100" stop="20260306160000 +0100">
     <title lang="fr">Waverly Place : les nouveaux sorciers - S02E06</title>
-    <desc lang="fr">Billie et Milo échangent leurs baguettes pour la journée.</desc>
+    <desc lang="fr">En retenue, Billie décide d'échanger sa baguette avec Milo pour qu'il l'aide à augmenter ses points. Le sort de Milo tourne mal et Billie doit rentrer en douce pour sauver la mise.</desc>
     <category lang="fr">Série / Série jeunesse</category>
   </programme>
   <programme channel="DisneyChannel.fr" start="20260306160000 +0100" stop="20260306162500 +0100">
@@ -54683,7 +54702,7 @@ Acteurs : Laura De León (Juana Levy), Carlos Báez (Jorge García), Carolina Ga
   </programme>
   <programme channel="Gulli.fr" start="20260306134000 +0100" stop="20260306135500 +0100">
     <title lang="fr">Alvinnn !!! et les Chipmunks - S05E23</title>
-    <desc lang="fr">Quand les délicieuses cerises de Mme Croner disparaissent, elle soupçonne les corbeaux… mais ce pourrait-il qu'il s'agisse des Chipmunks ?</desc>
+    <desc lang="fr">Compositeur, Dave Seville s'occupe également d'Alvin, Simon et Théodore, trois chipmunks qu'il a adoptés. Son quotidien est constamment chamboulé par cette progéniture un brin turbulente. Sûr de lui et impulsif, Alvin n'a pas son pareil pour les catastrophes, tandis que Simon, très brillant, prédit d'avance les conséquences des actes de son frère. Quant au cadet, plutôt sensible et timide, il fait régulièrement les frais des blagues de son frère. Après un passage réussi sur grand écran, les petits écureuils reviennent à la télévision dans ce dessin animé en 3D où gags et musique se conjuguent.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Gulli.fr" start="20260306135500 +0100" stop="20260306141000 +0100">
@@ -70993,7 +71012,7 @@ Année : 2025
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="NT1.fr" start="20260306123000 +0100" stop="20260306123500 +0100">
-    <title lang="fr">Top Info</title>
+    <title lang="fr">Top Info - S03E65</title>
     <desc lang="fr">Top Info est un JT quotidien pensé pour les jeunes adultes. Chaque édition s'ouvrira sur trois temps forts de l'actualité, avant de se poursuivre avec un sujet de fond, incarné par de jeunes journalistes, pour approfondir une thématique. Une fois par semaine, cette séquence mettra l'accent sur la lutte contre la désinformation et l'éducation aux médias.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
@@ -71023,8 +71042,8 @@ Année : 2025
     <category lang="fr">Magazine / Magazine de la gastronomie</category>
   </programme>
   <programme channel="NT1.fr" start="20260306161500 +0100" stop="20260306171000 +0100">
-    <title lang="fr">Quatre mariages pour une lune de miel - S15E62</title>
-    <desc lang="fr">Quatre couples mettent en compétition leur mariage. Ils s'invitent mutuellement et se notent sur plusieurs critères. Le dernier jour, ils découvrent leur score ainsi que les commentaires des autres mariés. Et l'un d'eux remporte la lune de miel mise en jeu.</desc>
+    <title lang="fr">Quatre mariages pour une lune de miel</title>
+    <desc lang="fr">Quatre mariées s'affrontent pour gagner une lune de miel exceptionnelle en évaluant mutuellement leurs cérémonies. L'experte Elodie Villemus attribue des notes cruciales sur la robe, la décoration, le repas et l'ambiance. Les participantes doivent exceller dans tous les aspects pour impressionner et obtenir les meilleures notes, créant des moments intenses et émotionnels.</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="NT1.fr" start="20260306171000 +0100" stop="20260306180500 +0100">
@@ -71044,7 +71063,7 @@ Année : 2025
   </programme>
   <programme channel="NT1.fr" start="20260306190500 +0100" stop="20260306200000 +0100">
     <title lang="fr">Quatre mariages pour une lune de miel</title>
-    <desc lang="fr">Quatre couples mettent en compétition leur mariage. Ils s'invitent mutuellement et se notent sur plusieurs critères. Le dernier jour, ils découvrent leur score ainsi que les commentaires des autres mariés. Et l'un d'eux remporte la lune de miel mise en jeu.</desc>
+    <desc lang="fr">Dans cette compétition nuptiale, quatre mariées s'affrontent pour une lune de miel exceptionnelle. Elles évaluent mutuellement leurs cérémonies, créant des moments intenses. L'experte Elodie Villemus juge la robe, la décoration, le repas et l'ambiance. Les participantes doivent impressionner pour obtenir les meilleures notes et décrocher le voyage de leurs rêves.</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="NT1.fr" start="20260306200000 +0100" stop="20260306210500 +0100">
@@ -73017,7 +73036,7 @@ Année : 2025
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260306031900 +0100" stop="20260306032600 +0100">
     <title lang="fr">Anna et ses amis - S01E19</title>
-    <desc lang="fr">Anna, 6 ans, et ses amis Froga la grenouille, Bubu le chien, René le chat et Christophe le ver de terre forment une bande inséparable et espiègle. Comme des enfants qui jouent à imaginer ce que font les grands, chaque jour, les cinq héros s'embarquent dans un nouveau projet. Si rien ne se passe jamais comme prévu, chaque expérience est aussi l'occasion d'apprendre et de grandir.</desc>
+    <desc lang="fr">Lors d'une partie de lancer de bâton, René montre sa collection de bâtons à Anna et Froga. Froga est intriguée : c'est quoi une collection ? C'est quand on rassemble des objets qui ont un lien et qu'on aime bien ! Anna aimerait avoir une belle collection comme René, mais elle se demande bien quoi collectionner. Froga a ses bulles ; Christophe ses sons ; Bubu ses outils… Anna a enfin une belle idée. Si on doit collectionner ce qu'on aime, alors elle a la plus belle des collections : une collection de souvenirs avec ses amis !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260306032600 +0100" stop="20260306033300 +0100">
@@ -75275,12 +75294,12 @@ Année : 2025
   </programme>
   <programme channel="PIWI.fr" start="20260306183000 +0100" stop="20260306183700 +0100">
     <title lang="fr">Météo Heroes - S01E04</title>
-    <desc lang="fr">Ils sont six et forment une belle équipe de super-héros. Fulmen est capable de faire tomber les éclairs du ciel, Nix laisse tomber la neige, Nubess contrôle les nuages, Pluvia sait faire tomber la pluie, Thermo a le pouvoir de changer la météo et Ventum parvient à déclencher le vent. Chacun d'entre eux utilise ses super-pouvoirs pour contrôler les phénomènes météorologiques...</desc>
+    <desc lang="fr">Pluvia et Fulmen sont envoyés en Algérie pour aider les habitants en manque d'eau.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260306183700 +0100" stop="20260306184500 +0100">
     <title lang="fr">Météo Heroes - S01E05</title>
-    <desc lang="fr">Ils sont six et forment une belle équipe de super-héros. Fulmen est capable de faire tomber les éclairs du ciel, Nix laisse tomber la neige, Nubess contrôle les nuages, Pluvia sait faire tomber la pluie, Thermo a le pouvoir de changer la météo et Ventum parvient à déclencher le vent. Chacun d'entre eux utilise ses super-pouvoirs pour contrôler les phénomènes météorologiques...</desc>
+    <desc lang="fr">Thermo et ses amis sont envoyés à Rome pour sauver le Colisée de pluies acides causées par la fumée polluante d'une usine non loin de là.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260306184500 +0100" stop="20260306185800 +0100">
@@ -81156,12 +81175,12 @@ Année : 2012
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
   <programme channel="RMCWOW.fr" start="20260306193800 +0100" stop="20260306203500 +0100">
-    <title lang="fr">Métronome - S01E03</title>
+    <title lang="fr">Métronome</title>
     <desc lang="fr">En 1190, Philippe Auguste érige des murailles pour protéger Paris avant de partir en croisade. La ville devient également un centre universitaire.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="RMCWOW.fr" start="20260306203500 +0100" stop="20260306213200 +0100">
-    <title lang="fr">Métronome - S01E04</title>
+    <title lang="fr">Métronome</title>
     <desc lang="fr">Au XVIe siècle, François 1er rapporte d'Italie "La Joconde " et les lumières de la Renaissance. Il entreprend aussi les travaux de transformation du palais du Louvre.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -83212,7 +83231,7 @@ Présentateur(s) : Urbain Ortmans
   </programme>
   <programme channel="RTLNitroTV.de" start="20260306051000 +0100" stop="20260306053000 +0100">
     <title lang="fr">Schneller als die Polizei erlaubt - S10E27</title>
-    <desc lang="fr">Immer auf der linken Spur, mit "Bleifuß" auf dem Gaspedal und den Blinker nonstop im Einsatz - Autobahnraser sind auf Deutschlands Straßen zum alltäglichen Bild geworden - und zur Bedrohung für verantwortungsbewusste Verkehrsteilnehmer. Die Doku-Soap "Schneller als die Polizei erlaubt" befasst sich mit diesem Problem. Zusammen mit den ProViDa-Teams der Polizei geht die Sendung auf die Jagd nach den Verkehrsrowdys.</desc>
+    <desc lang="fr">Die Verkehrs-Polizei wird im Einsatz auf deutschen Straßen begleitet. Auf den Autobahnen stoppen die Beamten Leute, die viel zu schnell fahren. Buß-Geld und Punkte sind die Strafe. Jede Form von falschem Verhalten im Straßenverkehr wird dokumentiert. Ein spezielles System hilft, wenn es darum geht, die Einhaltung der Geschwindigkeits-Begrenzung zu überwachen. Die Polizisten erklären die Fehler der Fahrer und machen auf die Gefahren aufmerksam, die sich daraus ergeben. Zudem klären erfahrene Polizei-Beamte und Experten für Verkehr darüber auf, welche Folgen das falsche Verhalten haben kann.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="RTLNitroTV.de" start="20260306053000 +0100" stop="20260306055500 +0100">
@@ -88136,10 +88155,9 @@ La météo locale, régionale et nationale avec Météo France.
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260306081000 +0100" stop="20260306081500 +0100">
-    <title lang="fr">Peppa Pig - S11E18</title>
+    <title lang="fr">Peppa Pig - S09E18</title>
     <desc lang="fr">Peppa est une fillette cochon un brin impertinente et quelquefois autoritaire. Elle vit avec ses parents et son petit frère George. Comme tous ses congénères, son passe-temps préféré est de sauter un peu partout dans les flaques de boue, de grogner et de rire. George et Peppa découvrent le monde avec de grands yeux émerveillés et apprennent en même temps tous les mots pour bien se faire comprendre. Ainsi, le bureau de papa Pig, ou la peinture, les fruits ou les poissons n'ont plus de secrets pour eux.</desc>
     <category lang="fr">Série / Série d'animation</category>
-    <icon src="https://img1.oqee.net/pictures/166874/wide_generic/h1080"/>
   </programme>
   <programme channel="SuperRTL.de" start="20260306081500 +0100" stop="20260306082000 +0100">
     <title lang="fr">Peppa Pig - S06E12</title>
@@ -88228,12 +88246,12 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="SuperRTL.de" start="20260306115000 +0100" stop="20260306120000 +0100">
     <title lang="fr">Monster High - S01E19</title>
-    <desc lang="fr">Les examens semestriels ont lieu à Monster High et Clawdeen se voit confier une mission impossible avec la meute des garous.</desc>
+    <desc lang="fr">Clawdeen est une jeune fille avide d'aventures extraordinaires. Alors qu'elle tombe sur un lycée peu ordinaire, elle ne se doute pas de ce qu'elle va vivre. Les filles de Dracula et de Frankenstein deviennent ses amies et Clawdeen apprend avec étonnement qu'elle a un frère, prénommé Clawd. Alors que Draculaura fait de la magie, Clawdeen et Frankie Stein l'aident. Frankie réveille alors une vieille malédiction. Un long métrage musical, " Monster High : le film ", est également sorti en 2022. Clawdeen, Frankie et Draculaura doivent y sauver l'école de la destruction. </desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260306120000 +0100" stop="20260306121500 +0100">
     <title lang="fr">Monster High - S01E19</title>
-    <desc lang="fr">Les examens semestriels ont lieu à Monster High et Clawdeen se voit confier une mission impossible avec la meute des garous.</desc>
+    <desc lang="fr">Clawdeen est une jeune fille avide d'aventures extraordinaires. Alors qu'elle tombe sur un lycée peu ordinaire, elle ne se doute pas de ce qu'elle va vivre. Les filles de Dracula et de Frankenstein deviennent ses amies et Clawdeen apprend avec étonnement qu'elle a un frère, prénommé Clawd. Alors que Draculaura fait de la magie, Clawdeen et Frankie Stein l'aident. Frankie réveille alors une vieille malédiction. Un long métrage musical, " Monster High : le film ", est également sorti en 2022. Clawdeen, Frankie et Draculaura doivent y sauver l'école de la destruction. </desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260306121500 +0100" stop="20260306122500 +0100">
@@ -88632,7 +88650,7 @@ La météo locale, régionale et nationale avec Météo France.
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="T18.fr" start="20260306162000 +0100" stop="20260306172500 +0100">
-    <title lang="fr">Les carnets de Julie - S02E05</title>
+    <title lang="fr">Les carnets de Julie</title>
     <desc lang="fr">En visite à Metz, Julie découvre une ville riche de surprises, labellisée ville d'art et d'histoire depuis novembre 2011 et candidate au patrimoine de l'Unesco. Elle arpente ses rues et goûte à ses recettes typiques. Au sommaire : "La tourte lorraine". - "Le fromage de tête". - "Les nèfles meringuées".</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
@@ -89108,7 +89126,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260306105500 +0100" stop="20260306114500 +0100">
     <title lang="fr">Les Feux de l'amour</title>
-    <desc lang="fr">La famille Abbott, installée à Genoa City, dans le Wisconsin, possède une immense fortune et une gigantesque entreprise. Les luttes de pouvoir, trahisons au sein même du clan sont monnaie courante. Leur ennemi de toujours, l'industriel Victor Newman, ne fait rien pour leur faciliter la tâche, bien au contraire. D'alliances en ruptures, les illusions de chacun se heurtent à l'hostilité, à la jalousie et à la haine des autres. Entre amour et pouvoir, le choix est souvent celui de la puissance. Un Soap Opera mondialement célèbre, produit et diffusé depuis plus de quarante ans aux Etats-Unis ! A ce jour, une trentaine de pays différents diffusent le feuilleton chaque jour, et c'est en France que le feuilleton réalise ses meilleures audiences, juste derrière les Etats-Unis.</desc>
+    <desc lang="fr">Episode du 6 mars 2026 - Les familles Newman, Abbott, Baldwin et Winters sont au cœur des intrigues à Genoa City. Leurs rivalités, amours, espoirs et craintes s'entremêlent dans ce feuilleton quotidien. Les habitants de cette ville vivent des...</desc>
     <category lang="fr">Feuilleton / Feuilleton sentimental</category>
   </programme>
   <programme channel="TF1.fr" start="20260306114500 +0100" stop="20260306115000 +0100">
@@ -89118,7 +89136,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260306115000 +0100" stop="20260306125500 +0100">
     <title lang="fr">Les douze coups de midi</title>
-    <desc lang="fr">Chaque jour, des candidats tentent de répondre à des questions ludiques et culturelles afin de gagner jusqu'à 30 000 euros. Mais ils devront avoir décroché la mystérieuse étoile aux cadeaux avant que ne retentissent Les 12 coups de midi.</desc>
+    <desc lang="fr">Emission du 6 mars 2026 - Chaque jour, quatre candidats s'affrontent pour empocher les 30 000 euros de la cagnotte et décrocher l'étoile mystérieuse et ses cadeaux. Seule condition, bien répondre aux questions de culture générale posées par Jean-Luc...</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="TF1.fr" start="20260306125500 +0100" stop="20260306130000 +0100">
@@ -89128,7 +89146,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260306130000 +0100" stop="20260306135000 +0100">
     <title lang="fr">JT 13h</title>
-    <desc lang="fr">Tous les jours, à 13h, la rédaction propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective.</desc>
+    <desc lang="fr">" JT 13h Semaine " du vendredi 6 mars 2026. Du lundi au vendredi, la rédaction de TF1 propose "LE 13H" un rendez-vous d'information sur l'actualité régionale, nationale et internationale présenté par Marie-Sophie Lacarrau ou Isabelle Ithurburu, son joker. "LE 13H" met en valeur les régions de France depuis près de 50 ans à travers de nombreux reportages, documentaires et duplex.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20260306135000 +0100" stop="20260306135500 +0100">
@@ -89162,7 +89180,6 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260306180000 +0100" stop="20260306183000 +0100">
     <title lang="fr">Familles nombreuses : la vie en XXL</title>
-    <desc lang="fr">Vingt parents se partagent 66 enfants, de 3 mois à 25 ans : comment se débrouillent ces familles nombreuses, confrontées à l'épreuve du quotidien ? Comment organisent-elles leurs journées, quand les tâches les plus ordinaires sont compliquées par le nombre ? Quelles sont les réalités auxquelles sont confrontés ces parents et ces enfants singuliers ? "Familles nombreuses : la vie en XXL" suit ces vies de famille pas comme les autres.</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="TF1.fr" start="20260306183000 +0100" stop="20260306191000 +0100">
@@ -89182,7 +89199,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260306200000 +0100" stop="20260306204500 +0100">
     <title lang="fr">JT 20h</title>
-    <desc lang="fr">Le journal télévisé présente les faits marquants et les événements essentiels de l'actualité nationale et internationale, tout en mettant en valeur l'actualité régionale.</desc>
+    <desc lang="fr">" JT 20h WE " du vendredi 6 mars 2026. Du vendredi au dimanche, la rédaction de TF1 propose "LE 20H" un rendez-vous d'information exposant avec clarté l'actualité française et internationale présentée par Anne-Claire Coudray ou Audrey Crespo-Mara, sa joker.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20260306204500 +0100" stop="20260306205000 +0100">
@@ -89196,8 +89213,8 @@ La météo locale, régionale et nationale avec Météo France.
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="TF1.fr" start="20260306210000 +0100" stop="20260306211000 +0100">
-    <title lang="fr">C'est Canteloup</title>
-    <desc lang="fr">Détournements d'images d'actualité, parodies, interviews décalées, Nicolas Canteloup propose une satire des faits marquants de la journée avec, pour signature, ses imitations des personnages qui font l'événement dans le monde de la politique, du spectacle et des médias.</desc>
+    <title lang="fr">C'est Canteloup - S13E2069</title>
+    <desc lang="fr">Emission du 6 mars 2026 - Nicolas Canteloup fait son grand retour aux côtés de la journaliste Hélène Mannarino. Ensemble, ils proposent un décryptage humoristique et parodique de l'actualité politique. Avec son style insolent et décalé, l'émission s'impose comme un rendez-vous incontournable pour rire de l'information du moment.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
   <programme channel="TF1.fr" start="20260306211000 +0100" stop="20260306223000 +0100">
@@ -90410,17 +90427,17 @@ La météo locale, régionale et nationale avec Météo France.
   <programme channel="TL7SaintEtienne.fr" start="20260306051600 +0100" stop="20260306053100 +0100">
     <title lang="fr">Evénements en Rhône-Alpes</title>
     <desc lang="fr">Pour être au courant avec tous les événements dans la région de Rhône-Alpes.</desc>
-    <category lang="fr">Magazine / Magazine de découvertes</category>
+    <category lang="fr">Magazine</category>
   </programme>
   <programme channel="TL7SaintEtienne.fr" start="20260306053100 +0100" stop="20260306054600 +0100">
     <title lang="fr">JT TL7</title>
     <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="TL7SaintEtienne.fr" start="20260306054600 +0100" stop="20260306060300 +0100">
     <title lang="fr">Côté scène</title>
     <desc lang="fr">Chantale Joassard ouvre la parenthèse sur l'univers d'un artiste.</desc>
-    <category lang="fr">Magazine / Magazine musical</category>
+    <category lang="fr">Magazine</category>
   </programme>
   <programme channel="TL7SaintEtienne.fr" start="20260306060300 +0100" stop="20260306061800 +0100">
     <title lang="fr">JT des autres</title>
@@ -90674,9 +90691,8 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TMC.fr" start="20260306014400 +0100" stop="20260306074000 +0100">
     <title lang="fr">Programmes de la nuit</title>
-    <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3251df198d4879d1.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="TMC.fr" start="20260306074000 +0100" stop="20260306095000 +0100">
     <title lang="fr">Nos chers voisins</title>
@@ -103516,7 +103532,7 @@ Bulletin complet des événements de la journée, ainsi qu&amp;#039;un bloc de n
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260306014500 +0100" stop="20260306024000 +0100">
-    <title lang="fr">Akhenaton, les secrets du pharaon oublié - S01E01</title>
+    <title lang="fr">Akhenaton, les secrets du pharaon oublié</title>
     <desc lang="fr">En 2020, une cité royale vieille de trois mille quatre cents ans est mise au jour à Louxor, en Egypte, révélant d'incroyables vestiges et la trace d'un personnage énigmatique : Akhenaton, le pharaon hérétique. En quelques années seulement, ce personnage mythique a bouleversé un ordre religieux millénaire, transformé l'architecture ancestrale de son royaume et métamorphosé l'art égyptien. Son but : installer sa révolution spirituelle et imposer une place toujours plus grande du pharaon dans la société. Cette audace condamnera le pharaon à l'oubli. Ses successeurs vont volontairement et méthodiquement l'effacer de l'Histoire. Aujourd'hui, les plus grands spécialistes sont décidés à faire la lumière sur le règne sombre d'Akhenaton, le pharaon oublié.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -104504,7 +104520,7 @@ Bulletin complet des événements de la journée, ainsi qu&amp;#039;un bloc de n
     <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
   <programme channel="Trek.fr" start="20260306050000 +0100" stop="20260306062400 +0100">
-    <title lang="fr">Andrea - S01E01</title>
+    <title lang="fr">Andrea</title>
     <desc lang="fr">Nina Caprez, icône de l'escalade, embarque pour l'aventure la plus intense de sa carrière. Avec son compagnon et leur fille, elle repousse les limites en pleine nature.</desc>
     <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
@@ -106845,7 +106861,7 @@ Annette Badland (Dr. Fleur Perkins)
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260306143000 +0100" stop="20260306150000 +0100">
     <title lang="fr">Conversations chez Lapérouse - S02E28</title>
-    <desc lang="fr">Chaque semaine, Frédéric Beigbeder reçoit dans les salons lambrissés de Lapérouse les meilleurs écrivains pour un entretien à la fois intimiste et passionné.</desc>
+    <desc lang="fr">Que représente l'année 1966 dans nos mémoires et dans notre histoire ? Puisqu'elle est un des sommets des Trente Glorieuse et qu'elle est représente toute une époque, elle le sujet du nouveau livre d'Antoine Compagnon "1966, année mirifique". Puisqu'elle est aussi l'année de naissance de Frédéric Beigbeder, l'académicien est venu en discuter avec lui dans Conversations chez Lapérouse.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260306150000 +0100" stop="20260306153000 +0100">
@@ -109080,7 +109096,6 @@ L’été, les aires d’autoroute réalisent en deux mois le tiers de leur chif
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260306020000 +0100" stop="20260306040000 +0100">
     <title lang="fr">Football : Ligue 2 BKT</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260306040000 +0100" stop="20260306060000 +0100">
@@ -109204,7 +109219,6 @@ L’été, les aires d’autoroute réalisent en deux mois le tiers de leur chif
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260306020000 +0100" stop="20260306040000 +0100">
     <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260306040000 +0100" stop="20260306050000 +0100">
@@ -109263,7 +109277,6 @@ L’été, les aires d’autoroute réalisent en deux mois le tiers de leur chif
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260306160000 +0100" stop="20260306180000 +0100">
     <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260306180000 +0100" stop="20260306191500 +0100">
@@ -121838,8 +121851,8 @@ L’été, les aires d’autoroute réalisent en deux mois le tiers de leur chif
     <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
   <programme channel="oqee.1163" start="20260306090500 +0100" stop="20260306091000 +0100">
-    <title lang="fr">Mini Program</title>
-    <category lang="fr">Magazine / Magazine jeunesse</category>
+    <title lang="fr">Koh Kentetsu's Happy Food Travelogue</title>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
   </programme>
   <programme channel="oqee.1163" start="20260306091000 +0100" stop="20260306092000 +0100">
     <title lang="fr">Blue &amp; Yellow</title>
@@ -141088,7 +141101,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.401" start="20260306143000 +0100" stop="20260306150000 +0100">
     <title lang="fr">Conversations chez Lapérouse - S02E28</title>
-    <desc lang="fr">Chaque semaine, Frédéric Beigbeder reçoit dans les salons lambrissés de Lapérouse les meilleurs écrivains pour un entretien à la fois intimiste et passionné.</desc>
+    <desc lang="fr">Que représente l'année 1966 dans nos mémoires et dans notre histoire ? Puisqu'elle est un des sommets des Trente Glorieuse et qu'elle est représente toute une époque, elle le sujet du nouveau livre d'Antoine Compagnon "1966, année mirifique". Puisqu'elle est aussi l'année de naissance de Frédéric Beigbeder, l'académicien est venu en discuter avec lui dans Conversations chez Lapérouse.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.401" start="20260306150000 +0100" stop="20260306153000 +0100">
