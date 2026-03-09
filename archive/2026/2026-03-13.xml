@@ -3149,6 +3149,10 @@
     <display-name>Fashion TV Secrets</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3680/w256"/>
   </channel>
+  <channel id="oqee.1373">
+    <display-name>Films d'Action - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3788/w256"/>
+  </channel>
   <channel id="oqee.1374">
     <display-name>Popcorn</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3779/w256"/>
@@ -3160,6 +3164,22 @@
   <channel id="oqee.1381">
     <display-name>Newsmax</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3727/w256"/>
+  </channel>
+  <channel id="oqee.1385">
+    <display-name>Top Films - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3790/w256"/>
+  </channel>
+  <channel id="oqee.1386">
+    <display-name>Comédies - Rakuten TV</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3791/w256"/>
+  </channel>
+  <channel id="oqee.1387">
+    <display-name>Films Romantiques - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3796/w256"/>
+  </channel>
+  <channel id="oqee.1388">
+    <display-name>Crime - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3794/w256"/>
   </channel>
   <channel id="oqee.1389">
     <display-name>LingoToons</display-name>
@@ -11677,12 +11697,21 @@ Acteurs : Antoine Hamel (Jérémie Muller), Isabelle Renauld (Anaïs), Barbara P
     <desc lang="fr">28 minutes samedi apporte un éclairage tout particulier à l'actualité sociétale et internationale de la semaine écoulée. Renaud Dély invite chaque semaine une personnalité connue et reconnue dans son domaine. À ses côtés tout au long de l'émission, elle réagira aux débats et autres séquences de ce rendez-vous hebdomadaire.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="Arte.de" start="20260313035500 +0100" stop="20260313044000 +0100">
+    <title lang="fr">28 minutes</title>
+    <desc lang="fr">28 minutes samedi apporte un éclairage tout particulier à l'actualité sociétale et internationale de la semaine écoulée. Renaud Dély invite chaque semaine une personnalité connue et reconnue dans son domaine. À ses côtés tout au long de l'émission, elle réagira aux débats et autres séquences de ce rendez-vous hebdomadaire.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Arte.de" start="20260313035500 +0100" stop="20260313045300 +0100">
     <title lang="fr">28 minutes</title>
     <desc lang="fr">28 minutes samedi apporte un éclairage tout particulier à l'actualité sociétale et internationale de la semaine écoulée. Renaud Dély invite chaque semaine une personnalité connue et reconnue dans son domaine. À ses côtés tout au long de l'émission, elle réagira aux débats et autres séquences de ce rendez-vous hebdomadaire.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="Arte.de" start="20260313035800 +0100" stop="20260313050000 +0100">
+    <title lang="fr">Pause</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="Arte.de" start="20260313044000 +0100" stop="20260313050000 +0100">
     <title lang="fr">Pause</title>
     <category lang="fr">Divers / Autre</category>
   </programme>
@@ -20226,7 +20255,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="Boing.fr" start="20260313215000 +0100" stop="20260313220000 +0100">
     <title lang="fr">Batwheels - S01E36</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Bibi passe une très mauvaise journée. Mais grâce à ses amis, elle apprend à prendre les choses plus calmement.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260313220000 +0100" stop="20260313221000 +0100">
@@ -30170,7 +30199,8 @@ Année : 2025
   <programme channel="CanalJ.fr" start="20260313220000 +0100" stop="20260314060500 +0100">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Divers / Programme indéterminé</category>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3251df198d4879d1.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
   </programme>
   <programme channel="CanalPlus.ch" start="20260313005100 +0100" stop="20260313011200 +0100">
     <title lang="fr">Un petit Clique en +</title>
@@ -34880,6 +34910,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="CanalPlusSport.ch" start="20260313041500 +0100" stop="20260313054000 +0100">
     <title lang="fr">Formule 1 : Grand Prix de Chine</title>
+    <desc lang="fr">Depuis 2004 et sa création, le Grand Prix de Formule 1 de Chine est devenu une étape importante du championnat du monde et se dispute sur le circuit international de Shanghai.</desc>
     <category lang="fr">Emission sportive / Formule 1</category>
   </programme>
   <programme channel="CanalPlusSport.ch" start="20260313054000 +0100" stop="20260313072200 +0100">
@@ -42347,14 +42378,14 @@ Présentateur(s) : Camille Combal
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="ComedyCentral.fr" start="20260313051500 +0100" stop="20260313054000 +0100">
-    <title lang="fr">See Dad Run - S01E20</title>
-    <desc lang="fr">David prépare une belle fête des mères pour Amy, mais ses plans sont bousculés lorsque sa mère les rejoint et vole égoïstement la vedette à Amy. Guest star : Michele Lee</desc>
-    <category lang="fr">Série / Série humoristique</category>
+    <title lang="fr">See Dad Run</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~67616aa8e565229f.jpeg/640x360/quality/80/see-dad-run.jpg"/>
   </programme>
   <programme channel="ComedyCentral.fr" start="20260313054000 +0100" stop="20260313060000 +0100">
-    <title lang="fr">See Dad Run - S02E02</title>
-    <desc lang="fr">David décide d'emmener sa famille en voyage de dernière minute, comme ils rejoignent Amy à l'aéroport, il n'a que six heures pour tout préparer. Qu'est-ce qui pourrait mal tourner ?</desc>
-    <category lang="fr">Série / Série humoristique</category>
+    <title lang="fr">See Dad Run</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~67616aa8e565229f.jpeg/640x360/quality/80/see-dad-run.jpg"/>
   </programme>
   <programme channel="ComedyCentral.fr" start="20260313060000 +0100" stop="20260313062000 +0100">
     <title lang="fr">Un gars du Queens - S09E06</title>
@@ -52758,17 +52789,19 @@ Son histoire a profondément marqué les Français. Jamais auparavant une dispar
   <programme channel="France2.fr" start="20260313052500 +0100" stop="20260313054000 +0100">
     <title lang="fr">La civilisation des arbres</title>
     <desc lang="fr">Coup de projecteur fascinant sur la manière dont les arbres semblent faire civilisation entre eux et avec le reste de la végétation qui les entoure.</desc>
-    <category lang="fr">Documentaire / Documentaire nature</category>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b2deffb1a03516b1.jpeg/640x360/quality/80/la-civilisation-des-arbres.jpg"/>
   </programme>
   <programme channel="France2.fr" start="20260313054000 +0100" stop="20260313055000 +0100">
-    <title lang="fr">Pays et marchés du monde - S04E07</title>
+    <title lang="fr">Pays et marchés du monde</title>
     <desc lang="fr">Le Sri Lanka, île réputée pour ses plages, a aussi ses marchés traditionnels et ses spécialités locales : que trouve-t-on dans l'assiette des habitants de Colombo ?</desc>
-    <category lang="fr">Documentaire / Documentaire découvertes</category>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~47f96b8d6fdb2a44.jpeg/640x360/quality/80/pays-et-marches-du-monde.jpg"/>
   </programme>
   <programme channel="France2.fr" start="20260313055000 +0100" stop="20260313060000 +0100">
     <title lang="fr">Mot de passe : le duel</title>
-    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
-    <category lang="fr">Divers / Jeu</category>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0414bc57c1e4256c.jpeg/640x360/quality/80/mot-de-passe-le-duel.jpg"/>
   </programme>
   <programme channel="France2.fr" start="20260313060000 +0100" stop="20260313063000 +0100">
     <title lang="fr">Le 6h info</title>
@@ -65524,100 +65557,100 @@ Présentateur(s) : Marie Drucker
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3478d4374df47684.jpeg/640x360/quality/80/programma-onderbreking.jpg"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313060000 +0100" stop="20260313090000 +0100">
-    <title lang="fr">Radio2 op VRT Canvas: Goeiemorgen Morgen!</title>
-    <desc lang="fr">Live vanuit de studio van Radio 2.</desc>
+    <title lang="fr">Radio 2</title>
+    <desc lang="fr">De ochtendshow van Radio2. Peter Van de Veire maakt je elke weekdag wakker, met veel humor, nieuws dat je niet mag missen en boeiende verhalen uit jouw buurt.</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="https://images.voomotion.be/Events/2026/01/04/00/2620735_A.jpg"/>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/f/c/8/img-1001466063.jpg?tayxby"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313090000 +0100" stop="20260313120000 +0100">
-    <title lang="fr">Winterbeelden S2</title>
+    <title lang="fr">Feratel</title>
     <desc lang="fr">Sfeerbeelden van diverse winterse vakantiebestemmingen,het lokale weer en toeristische informatie.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://images.voomotion.be/Events/2025/12/31/12/2645158_A.jpg"/>
+    <category lang="fr">Emission spéciale</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/2/5/1/img-1001251154.jpg?t8ksj7"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313120000 +0100" stop="20260313130000 +0100">
     <title lang="fr">Radio 1: Nieuwe Feiten</title>
     <desc lang="fr">Live vanuit de studio van Radio 1.</desc>
-    <category lang="fr">Infos</category>
-    <icon src="https://images.voomotion.be/Events/2025/11/24/39/2620768_A.jpg"/>
+    <category lang="fr">Journal</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/2/d/8/img-1001466066.jpg?taywwi"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313130000 +0100" stop="20260313160000 +0100">
-    <title lang="fr">Winterbeelden S2</title>
+    <title lang="fr">Feratel</title>
     <desc lang="fr">Sfeerbeelden van diverse winterse vakantiebestemmingen,het lokale weer en toeristische informatie.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://images.voomotion.be/Events/2025/12/31/12/2645158_A.jpg"/>
+    <category lang="fr">Emission spéciale</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/2/5/1/img-1001251154.jpg?t8ksj7"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313160000 +0100" stop="20260313174000 +0100">
-    <title lang="fr">Radio 1: De wereld vandaag</title>
+    <title lang="fr">Radio 1: De Wereld Vandaag</title>
     <desc lang="fr">Live vanuit de studio van Radio 1.</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/12/42/2620770_A.jpg"/>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/0/d/8/img-1001466064.jpg?taywja"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313174000 +0100" stop="20260313180000 +0100">
-    <title lang="fr">The Office *2005 (La sécurité) S3 (20/25)</title>
-    <desc lang="fr">«La sécurité»Andy keert terug naar kantoor na een aantal weken training in woedebeheersing. Hij is vastbesloten om een nieuwe start te maken met alle Dunder Mifflin-collega's. Het is veiligheidsopleiding op kantoor. Michael en Dwight hebben een missie: de echte gevaren van de werkplek belichten.</desc>
-    <category lang="fr">Série Comédie</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/26/18/2673967_A.jpg"/>
+    <title lang="fr">The Office 2005 - 2013 S3 E19</title>
+    <desc lang="fr">Roy s'en prend violemment à Jim, au point que Dwight doit s'interposer. L'affaire est si grave que Roy doit être licencié. Angela ne se remet pas du courage dont Dwight a fait preuve dans cette affaire. Peu après, Darryl vient demander une augmentation à Michael. C'est à cette occasion que celui-ci découvre qu'il est lui-même mal payé. Il se rend au quartier général pour protester...</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/e/b/f/img-80048062.jpg?tayvxw"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313180000 +0100" stop="20260313182000 +0100">
-    <title lang="fr">The Office *2005 (Les excuses) S3 (21/25)</title>
-    <desc lang="fr">«Les excuses»Het kantoor is in crisismodus nadat per ongeluk een grote lading Dunder Mifflin-papier met een obsceen watermerk de deur is uitgegaan. Michael probeert het uit te leggen aan de media tijdens een geïmproviseerde persconferentie. Ondertussen trachten Jim en Andy de schooldirecteur te kalmeren die uitnodigingen voor het schoolbal heeft verstuurd op het bewuste papier.</desc>
-    <category lang="fr">Série Comédie</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/26/28/2299393_A.jpg"/>
+    <title lang="fr">The Office 2005 - 2013 S3 E20</title>
+    <desc lang="fr">Une livraison de Dunder Mifflin a été trafiquée, laissant apparaître, en filigrane des ramettes de papier, des propos et des dessins obscènes. C'est la panique dans le service de Michael, qui gère la crise comme il peut. Il décide d'organiser une conférence de presse pour présenter ses excuses...</desc>
+    <category lang="fr">Série humoristique</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/f/b/f/img-80048063.jpg?tayvqn"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313182000 +0100" stop="20260313192000 +0100">
-    <title lang="fr">Forensics: The Real CSI (To Catch a Rapist) S3 (1/4)</title>
-    <desc lang="fr">«To Catch a Rapist»Een jonge vrouw wordt verkracht door een vreemdeling in een verlaten huis. Met behulp van de camerabeelden begint de politie de jacht op de dader.</desc>
-    <category lang="fr">Documentaire</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/13/30/2670080_A.jpg"/>
+    <title lang="fr">Forensics: The real CSI</title>
+    <desc lang="fr">Een jonge vrouw wordt verkracht door een vreemdeling in een verlaten huis. Met behulp van de camerabeelden begint de politie de jacht op de dader.</desc>
+    <category lang="fr">Documentaire justice</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/1/a/a/img-100674209.jpg?taxzli"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313192000 +0100" stop="20260313200000 +0100">
     <title lang="fr">De ideale wereld</title>
-    <desc lang="fr">Satirisch actualiteitenmagazine met Ella Leyers.</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/25/10/2673591_A.jpg"/>
+    <desc lang="fr">Satirisch actualiteitenmagazine. Compilatie van de afgelopen week.</desc>
+    <category lang="fr">Magazine d'actualité</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/f/4/f/img-1001463631.jpg?tb1oe3"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313200000 +0100" stop="20260313203000 +0100">
     <title lang="fr">Terzake</title>
-    <desc lang="fr">Achtergrond en duiding bij het nieuws van de dag.</desc>
-    <category lang="fr">Magazine</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/25/10/2673589_A.jpg"/>
+    <desc lang="fr">De avonturen van de universele loser Boerke. Gebaseerd op de cartoons van Pieter De Poortere.</desc>
+    <category lang="fr">Magazine d'information</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/c/f/d/img-1001483772.jpg?tb866l"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313203000 +0100" stop="20260313203500 +0100">
-    <title lang="fr">Het Weer (20 &amp; 23h)</title>
+    <title lang="fr">Het weer</title>
     <desc lang="fr">Weervoorspelling voor de komende dagen.</desc>
     <category lang="fr">Météo</category>
-    <icon src="https://images.voomotion.be/Events/2025/11/24/20/2620744_A.jpg"/>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/d/c/8/img-1001466061.jpg?tayw79"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313203500 +0100" stop="20260313213000 +0100">
-    <title lang="fr">De afspraak op vrijdag</title>
-    <desc lang="fr">Ivan De Vadder nodigt wekelijks één politicus en twee andere gasten uit. Samen overlopen zij de politieke actualiteit van de afgelopen week.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://images.voomotion.be/Events/2025/11/24/58/2620804_A.jpg"/>
+    <title lang="fr">De Afspraak op vrijdag</title>
+    <desc lang="fr">Ivan De Vadder nodigt elke week een politicus en twee andere gasten uit. Samen bespreken zij de politieke actualiteit van het afgelopen week.</desc>
+    <category lang="fr">Talk-show</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/c/c/8/img-1001466060.jpg?taywek"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313213000 +0100" stop="20260313221500 +0100">
-    <title lang="fr">Lynley (Careless in Red: Part 1) S1 (3/4)</title>
-    <desc lang="fr">«Careless in Red: Part 1»Een geliefde jongeman wordt dood aangetroffen, drijvend in de idyllische Norfolk Broads. De hechte gemeenschap langs de rivier lijkt vredig, maar verbergt gevaarlijke geheimen. Lynley en Havers duiken in deze waterrijke wereld waar locals vriendelijk maar gesloten zijn. Terwijl Lynley de connecties van het slachtoffer in kaart brengt, gebruikt Havers haar straatwijsheid om mensen aan het praten te krijgen. Samen voelen ze dat dit geen willekeurige tragedie is.</desc>
-    <category lang="fr">Série Policière</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/26/31/2673969_A.jpg"/>
+    <title lang="fr">Lynley S1 E3</title>
+    <desc lang="fr">Een geliefde jongeman wordt dood aangetroffen, drijvend in de idyllische Norfolk Broads. De hechte gemeenschap langs de rivier lijkt vredig, maar verbergt gevaarlijke geheimen. Lynley en Havers duiken in deze waterrijke wereld waar locals vriendelijk maar gesloten zijn. Terwijl Lynley de connecties van het slachtoffer in kaart brengt, gebruikt Havers haar straatwijsheid om mensen aan het praten te krijgen. Samen voelen ze dat dit geen willekeurige tragedie is.</desc>
+    <category lang="fr">Série policière</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/5/8/4/img-1001464965.jpg?tayway"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313221500 +0100" stop="20260313230000 +0100">
-    <title lang="fr">Lynley (Careless in Red: Part 2) S1 (3/4)</title>
-    <desc lang="fr">«Careless in Red: Part 2»Dieper gravend in het verleden van het slachtoffer, navigeren Lynley en Havers door plotselinge verraad, verborgen affaires en oude wrok tussen de bewoners. Het meer dat zo vredig leek, houdt aanwijzingen verborgen in zijn schaduwen. Terwijl ze de moordenaar naderen, moeten de detectives confronteren hoe ver iemand zou gaan om hun reputatie te beschermen. Maar kan er werkelijk recht geschieden in zo'n gesloten gemeenschap?</desc>
-    <category lang="fr">Série Policière</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/12/35/2669765_A.jpg"/>
+    <title lang="fr">Lynley S1 E3</title>
+    <desc lang="fr">Dieper gravend in het verleden van het slachtoffer, navigeren Lynley en Havers door plotselinge verraad, verborgen affaires en oude wrok tussen de bewoners. Het meer dat zo vredig leek, houdt aanwijzingen verborgen in zijn schaduwen. Terwijl ze de moordenaar naderen, moeten de detectives confronteren hoe ver iemand zou gaan om hun reputatie te beschermen. Maar kan er werkelijk recht geschieden in zo'n gesloten gemeenschap?</desc>
+    <category lang="fr">Série policière</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/1/8/4/img-1001464961.jpg?tayx13"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313230000 +0100" stop="20260313234500 +0100">
-    <title lang="fr">Sthlm Rekviem S1 (3/6)</title>
+    <title lang="fr">Sthlm requiem S1 E3</title>
     <desc lang="fr">Erik werkt samen met passagier Osman om in het vrachtruim van het vliegtuig een mogelijke bom te onderzoeken, die ongevaarlijk blijkt. Fredrika twijfelt steeds meer aan Said Khelifi's schuld, terwijl een flashback onthult dat Eden in 2014 een deal sloot met de CIA. Het gevaar is echter niet voorbij, want piloot Karim blijft de cockpitdeur gesloten houden.</desc>
-    <category lang="fr">Série Dramatique</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/26/40/2498027_A.jpg"/>
+    <category lang="fr">Série dramatique</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/5/0/7/img-1000257285.jpg?tazvb2"/>
   </programme>
   <programme channel="KetnetCanvas.be" start="20260313234500 +0100" stop="20260314002900 +0100">
-    <title lang="fr">Sthlm Rekviem S1 (4/6)</title>
+    <title lang="fr">Sthlm requiem S1 E4</title>
     <desc lang="fr">Erik en Osman proberen zonder succes de cockpit binnen te komen, terwijl kapitein Karim de hoofdverdachte wordt. Fredrika ontdekt dat Eden mogelijk iets verbergt omwille van een geheime ontmoeting met een militaire functionaris. De spanning loopt verder op wanneer Amerikaanse gevechtsvliegtuigen het vliegtuig onderscheppen.</desc>
-    <category lang="fr">Série Dramatique</category>
-    <icon src="https://images.voomotion.be/Events/2026/02/26/51/2499287_A.jpg"/>
+    <category lang="fr">Série dramatique</category>
+    <icon src="https://ipx-programmestv.sudinfo.be/_ipx/f_webp,sharpen_100,w_1280,h_720/ctr-img/sites/default/files/image/landscape/6/0/7/img-1000257286.jpg?tazvls"/>
   </programme>
   <programme channel="LCI.fr" start="20260313000000 +0100" stop="20260313033000 +0100">
     <title lang="fr">Le 22H</title>
@@ -79675,7 +79708,7 @@ Année : 2025
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="NT1.fr" start="20260313093500 +0100" stop="20260313094000 +0100">
-    <title lang="fr">Top Info</title>
+    <title lang="fr">Top Info - S03E72</title>
     <desc lang="fr">Top Info est un JT quotidien pensé pour les jeunes adultes. Chaque édition s'ouvrira sur trois temps forts de l'actualité, avant de se poursuivre avec un sujet de fond, incarné par de jeunes journalistes, pour approfondir une thématique. Une fois par semaine, cette séquence mettra l'accent sur la lutte contre la désinformation et l'éducation aux médias.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
@@ -79756,7 +79789,6 @@ Année : 2025
   </programme>
   <programme channel="NT1.fr" start="20260313200000 +0100" stop="20260313210500 +0100">
     <title lang="fr">Tricheurs - S01E35</title>
-    <desc lang="fr">Quatorze célébrités doivent répondre à des questions pour espérer remporter 10 000 euros pour l'un de leurs followers, mais deux Tricheurs se trouvent parmi eux.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="NT1.fr" start="20260313210500 +0100" stop="20260313211000 +0100">
@@ -101317,9 +101349,10 @@ La météo locale, régionale et nationale avec Météo France.
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260313081000 +0100" stop="20260313081500 +0100">
-    <title lang="fr">Peppa Pig - S09E23</title>
+    <title lang="fr">Peppa Pig - S11E23</title>
     <desc lang="fr">Peppa est une fillette cochon un brin impertinente et quelquefois autoritaire. Elle vit avec ses parents et son petit frère George. Comme tous ses congénères, son passe-temps préféré est de sauter un peu partout dans les flaques de boue, de grogner et de rire. George et Peppa découvrent le monde avec de grands yeux émerveillés et apprennent en même temps tous les mots pour bien se faire comprendre. Ainsi, le bureau de papa Pig, ou la peinture, les fruits ou les poissons n'ont plus de secrets pour eux.</desc>
     <category lang="fr">Série / Série d'animation</category>
+    <icon src="https://img1.oqee.net/pictures/166874/wide_generic/h1080"/>
   </programme>
   <programme channel="SuperRTL.de" start="20260313081500 +0100" stop="20260313082000 +0100">
     <title lang="fr">Peppa Pig - S06E38</title>
@@ -101488,7 +101521,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="SuperRTL.de" start="20260313151000 +0100" stop="20260313151500 +0100">
     <title lang="fr">Tom et Jerry Show - S05E04</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Les Lemmings découvrent dans une grotte amérindienne une étrange mare qui a le pouvoir de rajeunir ceux qui s'y trempent. Ils pulvérisent un peu de ce liquide de jouvence sur Grizzy. Il se transforme aussitôt en inoffensif ourson dont ils peuvent se débarrasser facilement. Mais l'effet du produit n'est que temporaire.</desc>
     <category lang="fr">Série / Série d'animation</category>
     <icon src="https://img2.oqee.net/pictures/166081/wide_generic/h1080"/>
   </programme>
@@ -102332,7 +102365,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260313105500 +0100" stop="20260313114500 +0100">
     <title lang="fr">Les Feux de l'amour</title>
-    <desc lang="fr">Episode du 13 mars 2026 - Les familles Newman, Abbott, Baldwin et Winters sont au cœur des intrigues à Genoa City. Leurs rivalités, amours, espoirs et craintes s'entremêlent dans ce feuilleton quotidien. Les habitants de cette ville vivent des moments intenses, entre conflits et passions, offrant au...</desc>
+    <desc lang="fr">Episode du 13 mars 2026 - Les familles Newman, Abbott, Baldwin et Winters sont au cœur des intrigues à Genoa City. Leurs rivalités, amours, espoirs et craintes s'entremêlent dans ce feuilleton quotidien. Les habitants de cette ville vivent des...</desc>
     <category lang="fr">Feuilleton / Feuilleton sentimental</category>
   </programme>
   <programme channel="TF1.fr" start="20260313114500 +0100" stop="20260313115000 +0100">
@@ -102342,7 +102375,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260313115000 +0100" stop="20260313125500 +0100">
     <title lang="fr">Les douze coups de midi</title>
-    <desc lang="fr">Chaque jour, des candidats tentent de répondre à des questions ludiques et culturelles afin de gagner jusqu'à 30 000 euros. Mais ils devront avoir décroché la mystérieuse étoile aux cadeaux avant que ne retentissent Les 12 coups de midi.</desc>
+    <desc lang="fr">Emission du 13 mars 2026 - Chaque jour, quatre candidats s'affrontent pour empocher les 30 000 euros de la cagnotte et décrocher l'étoile mystérieuse et ses cadeaux. Seule condition, bien répondre aux questions de culture générale posées par...</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="TF1.fr" start="20260313125500 +0100" stop="20260313130000 +0100">
@@ -102405,7 +102438,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TF1.fr" start="20260313200000 +0100" stop="20260313204500 +0100">
     <title lang="fr">JT 20h</title>
-    <desc lang="fr">Le journal télévisé présente les faits marquants et les événements essentiels de l'actualité nationale et internationale, tout en mettant en valeur l'actualité régionale.</desc>
+    <desc lang="fr">" JT 20h WE " du vendredi 13 mars 2026. Du vendredi au dimanche, la rédaction de TF1 propose "LE 20H" un rendez-vous d'information exposant avec clarté l'actualité française et internationale présentée par Anne-Claire Coudray ou Audrey Crespo-Mara, sa joker.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20260313204500 +0100" stop="20260313205000 +0100">
@@ -102419,8 +102452,8 @@ La météo locale, régionale et nationale avec Météo France.
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="TF1.fr" start="20260313210000 +0100" stop="20260313211000 +0100">
-    <title lang="fr">C'est Canteloup</title>
-    <desc lang="fr">Détournements d'images d'actualité, parodies, interviews décalées, Nicolas Canteloup propose une satire des faits marquants de la journée avec, pour signature, ses imitations des personnages qui font l'événement dans le monde de la politique, du spectacle et des médias.</desc>
+    <title lang="fr">C'est Canteloup - S13E2074</title>
+    <desc lang="fr">Emission du 13 mars 2026 - Nicolas Canteloup fait son grand retour aux côtés de la journaliste Hélène Mannarino. Ensemble, ils proposent un décryptage humoristique et parodique de l'actualité politique. Avec ses imitations et son regard décalé, l'humoriste offre un moment de divertissement incontournable, mêlant dérision et insolence pour analyser les événements marquants du jour.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
   <programme channel="TF1.fr" start="20260313211000 +0100" stop="20260313222500 +0100">
@@ -103280,7 +103313,7 @@ La météo locale, régionale et nationale avec Météo France.
   </programme>
   <programme channel="TIJI.fr" start="20260313061000 +0100" stop="20260313062000 +0100">
     <title lang="fr">Didou - S02E28</title>
-    <desc lang="fr">Didou le petit lapin et son amie Yoko la coccinelle apprennent à dessiner aux enfants. Dès que le dessin est colorié, il devient réel comme par magie et les deux amis peuvent entrer dans la maison, ou monter dans une fusée.</desc>
+    <desc lang="fr">Didou et Yoko jouent à escalader une montagne de l'Himalaya. Ils sont pris dans une tempête. Qui peut les aider ? Didou dessine un yéti mais ce dernier a bien du mal à comprendre les règles du jeu !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TIJI.fr" start="20260313062000 +0100" stop="20260313062500 +0100">
@@ -104015,7 +104048,7 @@ La météo locale, régionale et nationale avec Météo France.
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="TMC.fr" start="20260313191000 +0100" stop="20260313191500 +0100">
-    <title lang="fr">5 minutes de mode by Loïc Prigent</title>
+    <title lang="fr">5 minutes de mode by Loïc Prigent - S12E15</title>
     <desc lang="fr">" 5 Minutes de Mode by Loïc Prigent " fait son grand retour pour une édition qui s'annonce déjà légendaire. Au menu : un condensé piquant et drôle de 99 défilés, des stars internationales au rendez-vous et le meilleur du style décrypté avec humour. Chanel, Saint Laurent, Dior, Hermès : Loïc Prigent et ses équipes vous emmènent dans les maisons les plus prestigieuses. Et vous font découvrir les créateurs et créatrices de demain !</desc>
     <category lang="fr">Magazine / Magazine de la mode</category>
   </programme>
@@ -122659,7 +122692,7 @@ Jonny Harris (Constable Crabtree)
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260313143000 +0100" stop="20260313150000 +0100">
     <title lang="fr">Conversations chez Lapérouse - S02E29</title>
-    <desc lang="fr">Chaque semaine, Frédéric Beigbeder reçoit dans les salons lambrissés de Lapérouse les meilleurs écrivains pour un entretien à la fois intimiste et passionné.</desc>
+    <desc lang="fr">Alors qu'elle se fait quitter par son copain, Anouck prend contact avec la mère de ce dernier et l'accompagne finalement jusqu'à la tombe. Cette histoire surprenante et en partie inspirée de la vie de Clarisse Gorokhoff sert de trame de fond à son dernier livre "Femmes tout au bord" pour aborder le sujet de la mort ainsi que son vertige. Elle vient en discuter avec Frédéric Beigbeder dans Conversations chez Lapérouse.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260313150000 +0100" stop="20260313153000 +0100">
@@ -124027,10 +124060,9 @@ Jonny Harris (Constable Crabtree)
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="WarnerTV.fr" start="20260313051000 +0100" stop="20260313060000 +0100">
-    <title lang="fr">Leverage: Redemption</title>
-    <desc lang="fr">Dans un monde où la justice semble parfois inaccessibile, un groupe d'escrocs professionnels se donne pour mission de renverser les rôles et de s'attaquer aux véritables criminels. Mené par l'astucieuse Sophie Devereaux (Gina Bellman), le groupe s'illustre par son expertise dans l'art de l'escroquerie, utilisant des stratagèmes élaborés pour déjouer les plans des riches et puissants, souvent corrompus. Accompagnée de l'intrépide Eliot Spencer (Christian Kane), d'un expert en technologie Parker (Beth Riesgraf) et du charismatique Nate Ford (Noah Wyle), cette équipe hétéroclite s'attaque à des magnats sans scrupules et à des organisations criminelles. Chaque épisode les confronte à des défis uniques, les forçant à puiser dans leurs compétences variées pour élaborer des plans astucieux. En parallèle, de nouvelles recrues, comme la jeune et talentueuse Aleyse Shannon, apportent une perspective fraîche à l'équipe. Ensemble, ils naviguent dans un monde de tromperies, de manipulations et de justice sociale, cherchant à réparer les torts causés par les puissants.</desc>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6581246d9dcf8039.jpeg/640x360/quality/80/leverage-redemption.jpg"/>
+    <title lang="fr">Leverage: Redemption - S02E01</title>
+    <desc lang="fr">L'équipe fait appel à Harry pour aider un journaliste dans son enquête sur un président corrompu. Mais le journaliste est fait prisonnier et l'équipe doit intevenir.</desc>
+    <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="WarnerTV.fr" start="20260313060000 +0100" stop="20260313063000 +0100">
     <title lang="fr">I'm Sorry - S02E02</title>
@@ -125664,14 +125696,14 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
     <category lang="fr">Documentaire sportif / Football</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260313051500 +0100" stop="20260313054500 +0100">
-    <title lang="fr">Liga Extra</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6faa7c75c10c96e0.jpeg/640x360/quality/80/liga-extra.jpg"/>
+    <title lang="fr">Le film du Super Bowl LX</title>
+    <desc lang="fr">Retour sur les temps forts du Super Bowl LX qui a opposé les New England Patriots aux Seattle Seahawks en finale de la saison 2025/2026 de la NFL.</desc>
+    <category lang="fr">Documentaire sportif / Football américain</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260313054500 +0100" stop="20260313060000 +0100">
     <title lang="fr">Ça se passe sur beIN SPORTS</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d2a486a175ad03b3.jpeg/640x360/quality/80/ca-se-passe-sur-bein-sports.jpg"/>
+    <desc lang="fr">Ça se passe sur beIN SPORTS est un condensé de l'actualité sportive, des résultats et des meilleures images des derniers jours : football, tennis, basket, rugby, handball ou encore les sports US (NBA, MLB, NFL), toutes les compétitions sont passées en revue.</desc>
+    <category lang="fr">Magazine sportif / Multisports</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260313060000 +0100" stop="20260313080000 +0100">
     <title lang="fr">Football : Coupe d'Angleterre</title>
@@ -125680,7 +125712,6 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260313080000 +0100" stop="20260313100000 +0100">
     <title lang="fr">Football : Ligue 2 BKT</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20260313100000 +0100" stop="20260313103000 +0100">
@@ -125780,7 +125811,6 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260313023000 +0100" stop="20260313043000 +0100">
     <title lang="fr">Football : Ligue 2 BKT</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260313040000 +0100" stop="20260313060000 +0100">
@@ -125805,7 +125835,6 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260313080000 +0100" stop="20260313100000 +0100">
     <title lang="fr">Football : Liga</title>
-    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260313100000 +0100" stop="20260313120000 +0100">
@@ -125824,7 +125853,6 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260313160000 +0100" stop="20260313180000 +0100">
     <title lang="fr">Football : Ligue 2 BKT</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20260313180000 +0100" stop="20260313200000 +0100">
@@ -127741,7 +127769,7 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
   </programme>
   <programme channel="oqee.1061" start="20260313050100 +0100" stop="20260313051300 +0100">
     <title lang="fr">Super Wings, paré au décollage ! - S02E14</title>
-    <desc lang="fr">Jett s'envole au Canada apporter un colis pour Justin dont le papa travaille au musée d'histoires naturelles, Justin reçoit un kit de paléontologue pour faire des fouilles. Ils vont alors alors découvrir un squelette de dinoasaures immense et il va falloir faire appel aux Super Wings pour le déterrer.</desc>
+    <desc lang="fr">Jett, le petit avion rouge pas comme les autres, et les Super Wings sont chargés de remettre des colis à des enfants vivant aux quatre coins de la terre. Chaque livraison offre l'occasion à ses amis de découvrir les us et coutumes des régions qu'ils visitent. Quand un enfant est confronté à un problème, les Super Wings se transforment en super-héros pour lui venir en aide. Ils trouvent toujours une solution.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.1061" start="20260313051300 +0100" stop="20260313052500 +0100">
@@ -128246,7 +128274,7 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
   </programme>
   <programme channel="oqee.1061" start="20260313205900 +0100" stop="20260313211100 +0100">
     <title lang="fr">Super Wings, paré au décollage ! - S02E14</title>
-    <desc lang="fr">Jett s'envole au Canada apporter un colis pour Justin dont le papa travaille au musée d'histoires naturelles, Justin reçoit un kit de paléontologue pour faire des fouilles. Ils vont alors alors découvrir un squelette de dinoasaures immense et il va falloir faire appel aux Super Wings pour le déterrer.</desc>
+    <desc lang="fr">Jett, le petit avion rouge pas comme les autres, et les Super Wings sont chargés de remettre des colis à des enfants vivant aux quatre coins de la terre. Chaque livraison offre l'occasion à ses amis de découvrir les us et coutumes des régions qu'ils visitent. Quand un enfant est confronté à un problème, les Super Wings se transforment en super-héros pour lui venir en aide. Ils trouvent toujours une solution.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.1061" start="20260313211100 +0100" stop="20260313212300 +0100">
@@ -131809,8 +131837,8 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
     <category lang="fr">Magazine / Magazine des beaux-arts</category>
   </programme>
   <programme channel="oqee.1081" start="20260313144600 +0100" stop="20260313145100 +0100">
-    <title lang="fr">Créateur d'extérieur - S02E03</title>
-    <desc lang="fr">Au menu chaque semaine : des conseils, des astuces mais aussi de l'inspiration et des décryptages pour aider à aménager, décorer et végétaliser le jardin</desc>
+    <title lang="fr">La minute jardin - S01E09</title>
+    <desc lang="fr">Pierre-Alexandre Risser vous accueille dans l'émission "La minute jardin" et vous donne des conseils utiles pour votre jardin et le rendre encore plus beau !</desc>
     <category lang="fr">Magazine / Magazine du jardinage</category>
   </programme>
   <programme channel="oqee.1081" start="20260313144600 +0100" stop="20260313145600 +0100">
@@ -132882,6 +132910,11 @@ L’homme idéal se faisait attendre ! Alors Séverine a décidé de faire un b�
     <title lang="fr">Le Déclic</title>
     <desc lang="fr">Ce magazine propose des rencontres et des interviews confession de personnalités politiques et médiatiques sur des sujets notamment environnementaux.</desc>
     <category lang="fr">Magazine / Magazine de l'environnement</category>
+  </programme>
+  <programme channel="oqee.1081" start="20260313200500 +0100" stop="20260313200600 +0100">
+    <title lang="fr">Boite à Question - S01E04</title>
+    <desc lang="fr">Chaque semaine, toute l'équipe de la chaîne se réunit dans "La Boîte à question" : les sujets sont variés et présentés de façon la plus simple possible.</desc>
+    <category lang="fr">Magazine / Magazine de la décoration</category>
   </programme>
   <programme channel="oqee.1081" start="20260313200500 +0100" stop="20260313200800 +0100">
     <title lang="fr">Campagne sensibilisation jeunesse</title>
@@ -147275,6 +147308,22 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
     <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.1373" start="20260313004311 +0100" stop="20260313022622 +0100">
+    <title lang="fr">Fight Girls</title>
+    <desc lang="fr">Un groupe de chanteuses punks est kidnappé dans un quartier sordide. A leur réveil, elles réalisent que certains de leurs membres ont été remplacés par des armes mortelles. Leur unique chance de survie est de s’affronter dans une arène pour divertir les membres d’une secte, assoiffés de sang.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260313022623 +0100" stop="20260313041337 +0100">
+    <title lang="fr">Redirected</title>
+    <desc lang="fr">Il serait très long de vous expliquer comment John, Ben, Tim et Michael se sont retrouvés allongés ivres mort dans la chambre d’un hôtel miteux en Lituanie ...</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260313041338 +0100" stop="20260313060114 +0100">
+    <title lang="fr">Portés disparus 2 - Pourquoi ? (Missing in Action 2: The Beginning)</title>
+    <desc lang="fr">Alors que la guerre fait rage au Vietnam, Braddock et ses hommes sont capturés lors d’une opération de sauvetage en plein vol et emprisonnés par le cruel colonel Yin, qui ne reculera devant rien pour briser leur esprit !</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260313060115 +0100" stop="20260313074532 +0100">
+    <title lang="fr">Skin Trade</title>
+    <desc lang="fr">Nick part en Asie à la poursuite du gangster serbe qui s'en est pris à sa famille. Sur place, il demande l'aide d'un policier thaïlandais.</desc>
+  </programme>
   <programme channel="oqee.1374" start="20260313020105 +0100" stop="20260313045452 +0100">
     <title lang="fr">Popcorn - S04E08</title>
     <desc lang="fr">Retrouvez Domingo et ses chroniqueurs pour deux heures d'actus, de discussion et de rigolade sur le monde d'internet et la pop culture.</desc>
@@ -147469,6 +147518,90 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
     <title lang="fr">Carl Higbie Frontline</title>
     <desc lang="fr">Carl Higbie gives common-sense news analysis, exposes big government and media bias, as he fights for American values.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1385" start="20260313010922 +0100" stop="20260313030220 +0100">
+    <title lang="fr">Lizzie</title>
+    <desc lang="fr">Le 4 août 1892, à Fall River dans le Massachusetts, les époux Andrew et Abby Borden sont sauvagement assassinés à coups de hache à leur domicile. Seules Lizzie Borden, la fille cadette , et Bridget, la bonne, étaient à la maison au moment des faits ...</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260313030221 +0100" stop="20260313044802 +0100">
+    <title lang="fr">Becky</title>
+    <desc lang="fr">Becky, 13 ans, est pour le moins contrariée de devoir passer le week-end dans une cabine isolée avec son père et sa nouvelle belle-mère. Cette situation est pourtant le moindre de ses ennuis : un groupe de dangereux criminels tout juste évadés de prison prennent sa famille en otage.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260313044803 +0100" stop="20260313062654 +0100">
+    <title lang="fr">Impitoyable</title>
+    <desc lang="fr">Un entraîneur de lycée, dont la fille adolescente a été assassinée, prend les choses en main en poursuivant les hommes qui ont kidnappé son élève pour en faire un trafic d'êtres humains.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260313062655 +0100" stop="20260313080740 +0100">
+    <title lang="fr">Mack &amp; Rita</title>
+    <desc lang="fr">Lors de l'enterrement de vie de jeune fille de sa meilleure amie à Palm Springs, Mackenzie Martin, 30 ans, ressort, par magie, sous la forme d'une femme de 70 ans, qu'elle appelle tante Rita.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260313012424 +0100" stop="20260313031754 +0100">
+    <title lang="fr">Témoin à Louer</title>
+    <desc lang="fr">Doug Harris a un vrai problème: le jeune homme, qui n'a pas une vie sociale très riche, est sur le point de se marier, mais n'a pas de témoin.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260313031755 +0100" stop="20260313052231 +0100">
+    <title lang="fr">Made in America</title>
+    <desc lang="fr">La famille que l’on cherche n’est pas toujours celle que l’on imaginait.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260313052232 +0100" stop="20260313070234 +0100">
+    <title lang="fr">Une affaire de coeur</title>
+    <desc lang="fr">Audrey Woods et Daniel Rafferty, deux avocats réputés en droit du divorce ont vu au fil des procès l’amour tourner au vinaigre. Pourrait-il en être autrement pour eux ? Au sommet de leur carrière, tout les oppose.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260313002925 +0100" stop="20260313022438 +0100">
+    <title lang="fr">Une nouvelle chance (2016)</title>
+    <desc lang="fr">Un avenir de jeune chef tendait les bras à Charlie. Pourtant sa vie semble s’être suspendue, habitant avec sa mère et son beau-père et travaillant dans le cinéma de son quartier, Charlie n’a plus de motivation pour rien...</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260313022439 +0100" stop="20260313041707 +0100">
+    <title lang="fr">Infamous</title>
+    <desc lang="fr">Arielle, jeune serveuse, s'ennuie dans son travail dans sa petite ville de Floride. Un jour elle tombe amoureuse d'un criminel récemment sorti de prison mais encore en conditionnelle.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260313041708 +0100" stop="20260313055511 +0100">
+    <title lang="fr">Le merveilleux jardin secret de Bella Brown</title>
+    <desc lang="fr">Bella, jeune femme fantasque, risque l’expulsion si elle ne remet pas son jardin en état. Elle fait alors la rencontre d’Alfie, son voisin bougon et passionné de jardinage, qui va bouleverser sa vie.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260313055512 +0100" stop="20260313074302 +0100">
+    <title lang="fr">For Love or Money</title>
+    <desc lang="fr">Mark a une vie de rêve : il est sur le point de devenir multimillionnaire et d’épouser son amour de jeunesse, Connie. Mais les choses ne sont parfaites qu’en surface : Mark découvre par hasard que Connie ne l’aime pas et compte juste voler sa fortune une fois le mariage prononcé.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313000553 +0100" stop="20260313005340 +0100">
+    <title lang="fr">Mensonges</title>
+    <desc lang="fr">La directrice de la Villa Bellevie, une maison de retraite, a été assassinée. Julie interroge une infirmière qui a récemment été renvoyée de l'institution.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313005341 +0100" stop="20260313014128 +0100">
+    <title lang="fr">Mensonges</title>
+    <desc lang="fr">La directrice de la Villa Bellevie, une maison de retraite, a été assassinée. Julie interroge une infirmière qui a récemment été renvoyée de l'institution.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313014129 +0100" stop="20260313023132 +0100">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le 15 janvier 1989, Paul Solomon rentre chez lui et trouve sa femme gisant sur le sol dans une mare de sang. Paniqué, il appelle le 911. Les enquêteurs passent la scène de crime au peigne fin et restent perplexes.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313023133 +0100" stop="20260313032119 +0100">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le 15 janvier 1989, Paul Solomon rentre chez lui et trouve sa femme gisant sur le sol dans une mare de sang. Paniqué, il appelle le 911. Les enquêteurs passent la scène de crime au peigne fin et restent perplexes.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313032120 +0100" stop="20260313041524 +0100">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le 15 janvier 1989, Paul Solomon rentre chez lui et trouve sa femme gisant sur le sol dans une mare de sang. Paniqué, il appelle le 911. Les enquêteurs passent la scène de crime au peigne fin et restent perplexes.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313041525 +0100" stop="20260313044410 +0100">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Une femme assassinée dans le Nebraska est liée à trois hommes aux intentions cachées : son meilleur ami, son voisin et son ex-petit ami. Une enquête high-tech révèle que le tueur a laissé derrière lui un petit pain fumant.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313044411 +0100" stop="20260313051234 +0100">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Une femme assassinée dans le Nebraska est liée à trois hommes aux intentions cachées : son meilleur ami, son voisin et son ex-petit ami. Une enquête high-tech révèle que le tueur a laissé derrière lui un petit pain fumant.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313051235 +0100" stop="20260313060205 +0100">
+    <title lang="fr">The Dresden Files</title>
+    <desc lang="fr">Dresden se heurte au Conseil lorsqu'ils le soupçonnent d'être impliqué dans les morts d'un étudiant et d'un gangster du coin, qui ont succombé à de la magie noire.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313060206 +0100" stop="20260313065147 +0100">
+    <title lang="fr">The Dresden Files</title>
+    <desc lang="fr">Dresden se heurte au Conseil lorsqu'ils le soupçonnent d'être impliqué dans les morts d'un étudiant et d'un gangster du coin, qui ont succombé à de la magie noire.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260313065148 +0100" stop="20260313065959 +0100">
+    <title lang="fr">Votre programme reprendra rapidement</title>
+    <desc lang="fr">Nous nous refaisons une beauté ! Restez à l'écoute pour d'autres divertissements inestimables sélectionnés par Rakuten TV.</desc>
   </programme>
   <programme channel="oqee.1389" start="20260313000600 +0100" stop="20260313001000 +0100">
     <title lang="fr">Sing&amp;Spell</title>
@@ -156328,7 +156461,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.401" start="20260313143000 +0100" stop="20260313150000 +0100">
     <title lang="fr">Conversations chez Lapérouse - S02E29</title>
-    <desc lang="fr">Chaque semaine, Frédéric Beigbeder reçoit dans les salons lambrissés de Lapérouse les meilleurs écrivains pour un entretien à la fois intimiste et passionné.</desc>
+    <desc lang="fr">Alors qu'elle se fait quitter par son copain, Anouck prend contact avec la mère de ce dernier et l'accompagne finalement jusqu'à la tombe. Cette histoire surprenante et en partie inspirée de la vie de Clarisse Gorokhoff sert de trame de fond à son dernier livre "Femmes tout au bord" pour aborder le sujet de la mort ainsi que son vertige. Elle vient en discuter avec Frédéric Beigbeder dans Conversations chez Lapérouse.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.401" start="20260313150000 +0100" stop="20260313153000 +0100">
@@ -162386,7 +162519,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.643" start="20260313030000 +0100" stop="20260313040000 +0100">
     <title lang="fr">Alaska : le triangle maudit - S02E02</title>
-    <desc lang="fr">Des spécialistes et des témoins cherchent à résoudre le mystère du Triangle de l'Alaska, une zone géographique lointaine tristement connue pour ses abris pour aliens, ses allusions au Bigfoot, ses phénomènes paranormaux et ses disparitions d'avions. La série aborde la question des avions disparus et des personnes qui ont péri dans cette région, comme dans le Triangle des Bermudes. Cette région compte plus de personnes disparues que n'importe où ailleurs aux États-Unis.</desc>
+    <desc lang="fr">Une colonie de Bigfoot terrorise-t-elle les résidents d'une île ? Apercevant des OVNI depuis des décennies, les extraterrestres collaboreraient-ils avec l'armée américaine ?</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
   <programme channel="oqee.643" start="20260313040000 +0100" stop="20260313050000 +0100">
@@ -170554,7 +170687,7 @@ Il s’agit donc d’un meurtre, mais le mystère demeure : qui a pu vouloir la 
   </programme>
   <programme channel="oqee.947" start="20260313064500 +0100" stop="20260313083000 +0100">
     <title lang="fr">Şükran Kaymak'la Ramazan Sofrası</title>
-    <desc lang="fr">Şükran Kaymak'la Ramazan Sofrası Ramazan ayı boyunca izleyicilerle buluşan bu programda şef Şükran Kaymak, iftar ve sahur sofralarına özel nefis tarifler, pratik mutfak ipuçları ve geleneksel lezzetleri paylaşıyor. Alanında uzman konuklarla yapılan keyifli sohbetler Ramazan'ın paylaşma ve birlik tadını ekranlara taşıyor.</desc>
+    <desc lang="fr">Şükran Kaymak'la Ramazan Sofrası Ramazan ayı boyunca izleyicilerle buluşan bu programda şef Şükran Kaymak, iftar ve sahur sofralarına özel nefis tarifler, pratik mutfak ipuçları ve geleneksel lezzetleri paylaşıyor.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.947" start="20260313083000 +0100" stop="20260313110000 +0100">
