@@ -620,6 +620,10 @@
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
   </channel>
+  <channel id="TVVendee.fr">
+    <display-name>TV Vendée</display-name>
+    <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/TV_Vendee_color.png"/>
+  </channel>
   <channel id="TahitiNuiTV.fr">
     <display-name>Tahiti Nui TV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~4f89934309c38843.png/480x480/quality/100/tntv-france.png"/>
@@ -660,9 +664,17 @@
     <display-name>Toute l'Histoire</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~37b4a846e6d5f66d.png/480x480/quality/100/toute-l-histoire.png"/>
   </channel>
+  <channel id="TraceAfrica.fr">
+    <display-name>Trace Africa</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~cfa414c0987f9df9.png/480x480/quality/100/trace-africa.png"/>
+  </channel>
   <channel id="TraceCaribbean.fr">
     <display-name>TRACE CARIBBEAN</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/TRACE_CARIBBEAN_color.png"/>
+  </channel>
+  <channel id="TraceGospel.af">
+    <display-name>Trace Gospel</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180620/canal-ouah/CHN43FB/TRACEGOSPEL_myCANAL_640x480?=.png"/>
   </channel>
   <channel id="TraceKitoko.af">
     <display-name>Trace Kitoko</display-name>
@@ -1028,6 +1040,10 @@
     <display-name>Zee Cinema</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/1549/w256"/>
   </channel>
+  <channel id="oqee.471">
+    <display-name>TV5 Turkey</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2094/w256"/>
+  </channel>
   <channel id="oqee.484">
     <display-name>Euro D</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3201/w256"/>
@@ -1067,6 +1083,10 @@
   <channel id="oqee.515">
     <display-name>Al Jazeera International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1332/w256"/>
+  </channel>
+  <channel id="oqee.55">
+    <display-name>TVT</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3068/w256"/>
   </channel>
   <channel id="oqee.56">
     <display-name>Welt</display-name>
@@ -1111,6 +1131,10 @@
   <channel id="oqee.690">
     <display-name>Utsav Bharat</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3009/w256"/>
+  </channel>
+  <channel id="oqee.698">
+    <display-name>Penthouse Gold</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1370/w256"/>
   </channel>
   <channel id="oqee.699">
     <display-name>Penthouse Reality TV</display-name>
@@ -2478,7 +2502,6 @@
   </programme>
   <programme channel="Arte.de" start="20260402112500 +0200" stop="20260402115500 +0200">
     <title lang="fr">Domaines skiables : la grande braderie</title>
-    <desc lang="fr">À qui appartiennent les montagnes ? En Suisse, alors que les petits domaines de moyenne montagne luttent pour survivre, un géant américain du tourisme rachète des stations d'altitude à l'enneigement garanti. Les habitants se mobilisent pour garder la maîtrise de leur territoire et préparer un avenir sans sports de glisse.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Arte.de" start="20260402115500 +0200" stop="20260402122500 +0200">
@@ -4697,7 +4720,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260402030000 +0200" stop="20260402031000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E37</title>
-    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
+    <desc lang="fr">Pénélope Pussycat engage Looney Construction pour qu'ils lui construisent un podium pour son grand défilé de mode</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260402031000 +0200" stop="20260402032000 +0200">
@@ -4707,7 +4730,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260402032000 +0200" stop="20260402033000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E39</title>
-    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
+    <desc lang="fr">Looney construction part au Japon construire une machine à griffe pour la salle d'arcade de Chibi Ecureuil.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260402033000 +0200" stop="20260402034000 +0200">
@@ -5317,7 +5340,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260402014000 +0200" stop="20260402014500 +0200">
     <title lang="fr">Tom et Jerry Show - S05E03</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Cates qui s'apprêtait à participer et à remporter le championnat annuel de boxe des majordomes se retrouve la jambe dans le plâtre à cause de Tom et désigne celui-ci comme nouveau champion. Il prend immédiatement son entraînement en main.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260402015500 +0200" stop="20260402020500 +0200">
@@ -5352,7 +5375,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260402031500 +0200" stop="20260402032000 +0200">
     <title lang="fr">Tom et Jerry Show - S05E01</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Ginger et Rick ont oublié l'anniversaire de Tom. Déçu, ce dernier part de chez lui et se retrouve au zoo. Là, il devient le protégé de Câline le gorille.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260402032000 +0200" stop="20260402032500 +0200">
@@ -5367,7 +5390,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260402033500 +0200" stop="20260402034500 +0200">
     <title lang="fr">Tom et Jerry Show - S05E29</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom et Jerry vivent une version très personnelle de l'histoire du nain Tracassin.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260402034500 +0200" stop="20260402035500 +0200">
@@ -5387,7 +5410,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260402041500 +0200" stop="20260402042000 +0200">
     <title lang="fr">Tom et Jerry Show - S05E09</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom se retrouve à la cour du Roi Arthur, à Camelot, et doit y combattre le redoutable magicien Morgan, le maléfique !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260402042000 +0200" stop="20260402042500 +0200">
@@ -5402,7 +5425,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260402043500 +0200" stop="20260402044500 +0200">
     <title lang="fr">Tom et Jerry Show - S05E29</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom et Jerry vivent une version très personnelle de l'histoire du nain Tracassin.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260402044500 +0200" stop="20260402045500 +0200">
@@ -8021,7 +8044,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260402010500 +0200" stop="20260402011500 +0200">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E17</title>
-    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
+    <desc lang="fr">En pleine canicule, Richard se démène pour que Gumball et Darwin puissent piquer une tête dans la toute nouvelle piscine de Monsieur Robinson.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260402011500 +0200" stop="20260402012500 +0200">
@@ -8191,7 +8214,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260402080500 +0200" stop="20260402081500 +0200">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E06</title>
-    <desc lang="fr">Les Watterson doivent absolument emmener Anaïs à Daisyland avant que le parc ne ferme pour de bon.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260402081500 +0200" stop="20260402083000 +0200">
@@ -8306,7 +8329,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260402124000 +0200" stop="20260402125500 +0200">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E06</title>
-    <desc lang="fr">Les Watterson doivent absolument emmener Anaïs à Daisyland avant que le parc ne ferme pour de bon.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260402125500 +0200" stop="20260402130500 +0200">
@@ -9449,7 +9472,7 @@
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="ComedyCentral.fr" start="20260402123000 +0200" stop="20260402130000 +0200">
-    <title lang="fr">Beavis &amp; Butthead *2022 - S01E04</title>
+    <title lang="fr">Beavis &amp; Butthead - S01E04</title>
     <desc lang="fr">Des ratons-laveurs volent les nachos de Beavis et Butt-Head, qui décident de les prendre en chasse. / Beavis confond un étranger avec Butt-Head. Celui-ci s'avère particulièrement collant.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
@@ -18883,12 +18906,12 @@
   </programme>
   <programme channel="Gulli.fr" start="20260402141000 +0200" stop="20260402142000 +0200">
     <title lang="fr">Alvinnn !!! et les Chipmunks - S05E22</title>
-    <desc lang="fr">Alvin fait les meilleurs rêves de sa vie, jusqu'à ce que Théodore n'envahisse son subconscient.</desc>
+    <desc lang="fr">Compositeur, Dave Seville s'occupe également d'Alvin, Simon et Théodore, trois chipmunks qu'il a adoptés. Son quotidien est constamment chamboulé par cette progéniture un brin turbulente. Sûr de lui et impulsif, Alvin n'a pas son pareil pour les catastrophes, tandis que Simon, très brillant, prédit d'avance les conséquences des actes de son frère. Quant au cadet, plutôt sensible et timide, il fait régulièrement les frais des blagues de son frère. Après un passage réussi sur grand écran, les petits écureuils reviennent à la télévision dans ce dessin animé en 3D où gags et musique se conjuguent.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Gulli.fr" start="20260402142000 +0200" stop="20260402143500 +0200">
     <title lang="fr">Alvinnn !!! et les Chipmunks - S05E23</title>
-    <desc lang="fr">Alvin et Eleanor s'entrainent pour devenir sauveteurs en mer. Ils ignorent Théodore qui va pourtant leur sauver la mise.</desc>
+    <desc lang="fr">Compositeur, Dave Seville s'occupe également d'Alvin, Simon et Théodore, trois chipmunks qu'il a adoptés. Son quotidien est constamment chamboulé par cette progéniture un brin turbulente. Sûr de lui et impulsif, Alvin n'a pas son pareil pour les catastrophes, tandis que Simon, très brillant, prédit d'avance les conséquences des actes de son frère. Quant au cadet, plutôt sensible et timide, il fait régulièrement les frais des blagues de son frère. Après un passage réussi sur grand écran, les petits écureuils reviennent à la télévision dans ce dessin animé en 3D où gags et musique se conjuguent.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Gulli.fr" start="20260402143500 +0200" stop="20260402144500 +0200">
@@ -22308,14 +22331,19 @@
     <desc lang="fr">Claire de Marmiton vous guide pour cuisiner une Ile flottante</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
+  <programme channel="MarmitonTV.fr" start="20260402235400 +0200" stop="20260402235700 +0200">
+    <title lang="fr">Vintage Marmiton - S01E86</title>
+    <desc lang="fr">Claire de Marmiton vous guide pour cuisiner une Tarte au potiron</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
   <programme channel="MarmitonTV.fr" start="20260402235400 +0200" stop="20260403000100 +0200">
     <title lang="fr">Vintage Marmiton - S01E86</title>
     <desc lang="fr">Claire de Marmiton vous guide pour cuisiner une Tarte au potiron</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
-  <programme channel="MarmitonTV.fr" start="20260402235400 +0200" stop="20260402235700 +0200">
-    <title lang="fr">Vintage Marmiton - S01E86</title>
-    <desc lang="fr">Claire de Marmiton vous guide pour cuisiner une Tarte au potiron</desc>
+  <programme channel="MarmitonTV.fr" start="20260402235700 +0200" stop="20260403000100 +0200">
+    <title lang="fr">Vintage Marmiton - S01E106</title>
+    <desc lang="fr">Claire de Marmiton vous guide pour cuisiner du Poulet au champagne et à l'estragon</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="Melody.fr" start="20260402001000 +0200" stop="20260402012000 +0200">
@@ -24012,7 +24040,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260402032600 +0200" stop="20260402033300 +0200">
     <title lang="fr">Anna et ses amis - S01E02</title>
-    <desc lang="fr">Anna et Froga ont retrouvé la planche de leur vieille balançoire en rangeant la serre. Seulement, il manque les cordes pour la suspendre au pommier de la colline. Les deux amies se lancent en quête d'une corde. Et trouver une corde s'avère un jeu très compliqué !</desc>
+    <desc lang="fr">Anna, 6 ans, et ses amis Froga la grenouille, Bubu le chien, René le chat et Christophe le ver de terre forment une bande inséparable et espiègle. Comme des enfants qui jouent à imaginer ce que font les grands, chaque jour, les cinq héros s'embarquent dans un nouveau projet. Si rien ne se passe jamais comme prévu, chaque expérience est aussi l'occasion d'apprendre et de grandir.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260402033300 +0200" stop="20260402033900 +0200">
@@ -24452,7 +24480,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260402204700 +0200" stop="20260402210900 +0200">
     <title lang="fr">Barbapapa en famille - S02E07</title>
-    <desc lang="fr">Barbapapa trouve refuge dans la maison que les parents de François ont construite pour lui. / la maison de Barbapapa est bien trop petite maintenant que Barbamama et les Barbabébé sont arrivés dans sa vie.</desc>
+    <desc lang="fr">La suite des aventures de Barbapapa, Barbamama et de leurs sept enfants : Barbalala la chanteuse, Barbibul l'inventeur, Barbabelle la coquette, Barbidou l'ami des animaux, Barbotine l'intellectuelle, Barbouille l'artiste peintre et Barbidur le costaud. Leur capacité à prendre toutes les formes leur permet de résoudre tous les problèmes qui s'opposent à eux.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260402210900 +0200" stop="20260402213100 +0200">
@@ -27280,7 +27308,7 @@
   </programme>
   <programme channel="Sat1.de" start="20260402022500 +0200" stop="20260402031000 +0200">
     <title lang="fr">TopTen! Der Geschmacks-Countdown - S12E04</title>
-    <desc lang="fr">Heute gibt es im Geschmackscountdown eine deftige Überraschung. Diese Kreationen kennt noch niemand: Von Zimtschnecken-Cheeseburger über Croissant-Pizza oder eine Zitronen-Tarte mit Sojasoße, Krapfen mit Dönerfleisch und Torten aus der Metzgerei - hier ist für jeden etwas dabei.</desc>
+    <desc lang="fr">Welche Speisen sind bei den Deutschen besonders beliebt? Was essen Millionäre am liebsten? Was sind die leckersten Backtrends? Welche Lebensmittel enthalten am meisten Kalorien? Wie nascht die Welt? Wer grillt am vielseitigsten? Aus welchem Land kommt die längste Nudel? Diese und andere kulinarische Fragen werden in dieser Ranking-Show, in der sich alles ums Essen dreht, ausführlich geklärt.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="Sat1.de" start="20260402031000 +0200" stop="20260402035500 +0200">
@@ -27345,37 +27373,33 @@
   </programme>
   <programme channel="Sat1.de" start="20260402160000 +0200" stop="20260402163000 +0200">
     <title lang="fr">Lenßen hilft</title>
-    <desc lang="fr">Petra Kröger wendet sich fassungslos an Ingo Lenßen: Nach dem Tod ihres Mannes Werner erfährt sie von dessen Geliebten Doris Franzen. Die fremde Frau behauptet, seine Verlobte gewesen zu sein und legt ein handschriftliches Testament vor. Und damit nicht genug - testamentarisch belegt fordert die Geliebte nun Wohnrecht im familiären Haus der Mandantin. Team Lenßen ermittelt: Hat die Frau den Zustand des verstorbenen Ehemannes ausgenutzt, um sich Vorteile zu sichern?</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Sat1.de" start="20260402163000 +0200" stop="20260402170000 +0200">
     <title lang="fr">Lenßen hilft</title>
-    <desc lang="fr">Team Lenßen wird von der zweifachen Mutter Nadine Hof um Hilfe gebeten: Wegen eines Missverständnisses auf der Arbeit droht ihr eine Anzeige wegen fahrlässiger Körperverletzung und der Verlust ihres Jobs. Ihr Kollege Niklas Klang hat versehentlich ihre Muttermilch getrunken und sich übergeben. Doch Ingo Lenßen vermutet eine Intrige von Chefin Carmen Boer. Steht Nadine kurz davor, aus dem Job gedrängt zu werden? Ihre Existenz hängt am seidenen Faden.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Sat1.de" start="20260402170000 +0200" stop="20260402173000 +0200">
     <title lang="fr">Notruf</title>
-    <desc lang="fr">In den Bundesländern Bayern, Bremen, Hamburg, Hessen, Niedersachsen, Nordrhein-Westfalen, Schleswig-Holstein sowie in Rheinland-Pfalz sehen Sie Mo-Fr von 17:30-18:00 Uhr die SAT.1 Regional-Magazine. In allen anderen Verbreitungsgebieten zeigt SAT.1 "NOTRUF". // Zu wild gefeiert: Eine ausgelassene Party endet in einem Drama: Die Rettungskräfte werden zu einem Patienten gerufen, der sich schwer verletzt hat - aber zu betrunken ist, um es zu bemerken.</desc>
+    <desc lang="fr">Zeit für echte Helden: 84.000 Notrufe gehen täglich in den deutschen Rettungsleitstellen ein. Dann beginnt für die Einsatzkräfte der Kampf gegen die Zeit. </desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Sat1.de" start="20260402173000 +0200" stop="20260402180000 +0200">
     <title lang="fr">Notruf</title>
-    <desc lang="fr">In den Bundesländern Bayern, Bremen, Hamburg, Hessen, Niedersachsen, Nordrhein-Westfalen, Schleswig-Holstein sowie in Rheinland-Pfalz sehen Sie Mo-Fr von 17:30-18:00 Uhr die SAT.1 Regional-Magazine. In allen anderen Verbreitungsgebieten zeigt SAT.1 "NOTRUF". // Beim Retten verhaftet: Notfallsanitäter Stuart Schneider leistet nach Feierabend Erste Hilfe bei einem Autounfall und wird dabei fälschlicherweise von der Polizei für einen Dieb gehalten.</desc>
+    <desc lang="fr">Zeit für echte Helden: 84.000 Notrufe gehen täglich in den deutschen Rettungsleitstellen ein. Dann beginnt für die Einsatzkräfte der Kampf gegen die Zeit. </desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Sat1.de" start="20260402180000 +0200" stop="20260402183000 +0200">
     <title lang="fr">Ein Hof zum Verlieben - S01E47</title>
-    <desc lang="fr">Anna ist erleichtert, dass dem Mann, den sie angefahren hat, nichts Schlimmes passiert ist. Doch er behauptet, große Schmerzen zu haben und droht mit einer Klage. Maja will sich auf das Jura-Studium vorbereiten, aber sie lässt sich zum Badespaß mit Ludwig hinreißen. Der hat eine Überraschung für sie. Henni und Georg stürzen sich in ihr gemeinsames Herzensprojekt und erwarten vorfreudig ihre Marmeladen-Lieferung, während Regina ihr Vorhaben durchkreuzen will.</desc>
     <category lang="fr">Série / Série jeunesse</category>
   </programme>
   <programme channel="Sat1.de" start="20260402183000 +0200" stop="20260402190000 +0200">
     <title lang="fr">Ein Hof zum Verlieben - S01E48</title>
-    <desc lang="fr">Anna hat große Angst vor einer weiteren Belastung für ihre Familie und richtet sich aufgebracht gegen Laura. Maja quält ein schlechtes Gewissen, nachdem sie Ludwig so schroff angefahren hat. Sie kommen gegenseitig aufeinander zu und entschuldigen sich. Henni und Georg erfahren, dass Regina ihnen den Auftrag weggeschnappt hat. Während Georg etwas frustriert auf den Rückschlag reagiert, schmiedet Henni neue Pläne.</desc>
     <category lang="fr">Série / Série jeunesse</category>
   </programme>
   <programme channel="Sat1.de" start="20260402190000 +0200" stop="20260402194500 +0200">
     <title lang="fr">Die Landarztpraxis - S04E64</title>
-    <desc lang="fr">In Wiesenkirchen warten berufliche Chancen und private Hürden auf die Ärztin Vicki Raichinger.</desc>
+    <desc lang="fr">Vicki versteht geschockt die Welt nicht mehr: Gerade war sie noch überglücklich mit Simon, doch nun ist dieser mit Sack und Pack verschwunden. Verzweifelt klammert sich Vicki an die Hoffnung, dass Simon sich alsbald mit einer guten Erklärung melden wird. Doch ein Anruf Simons macht Vickis letzte Hoffnung zunichte. In ihrem tiefen Schmerz wird sie ausgerechnet von Fabian aufgefangen.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="Sat1.de" start="20260402194500 +0200" stop="20260402200000 +0200">
@@ -28061,7 +28085,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260402102000 +0200" stop="20260402103000 +0200">
     <title lang="fr">Bob l'éponge - S13E10</title>
-    <desc lang="fr">Bob et Patrick prennent l'avion avec Carlo pour rejoindre une station balnéaire.</desc>
+    <desc lang="fr">Bob, une joyeuse éponge de mer, vit dans la jolie cité de Bikini Bottom, dans les profondeurs de l'océan Pacifique. Il est cuisinier dans le snack aquatique du capitaine Krabs. Sandy Ecureuil, championne de surf sous l'eau, et Patrick Etoile de mer sont ses meilleurs amis. Il n'a pour ennemis que Carlo Tentacule, un calamar désagréable, et Sheldon Plankton, un restaurateur rival, qui n'a de cesse qu'il n'ait volé la fabuleuse recette du hamburger au crabe que cuisine Bob.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260402103000 +0200" stop="20260402104500 +0200">
@@ -28081,7 +28105,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260402111500 +0200" stop="20260402112500 +0200">
     <title lang="fr">Bienvenue chez les Loud - S05E24</title>
-    <desc lang="fr">Lincoln Loud, 11 ans, est l'unique garçon d'une famille de dix filles vivant à Royal Woods, dans le Michigan. Avec cinq sœurs plus âgées – Lori, Leni, Luna, Luan et Lynn – et cinq plus jeunes – Lucy, les jumelles Lana et Lola, Lisa et le bébé Lily – il n'a pas un moment pour s'ennuyer. Chaque jour est une aventure et sa vie ainsi que les nombreuses péripéties qui en font partie intégrante illustrent parfaitement le fait que l'optimisme et la confiance en soi sont des atouts importants au quotidien.</desc>
+    <desc lang="fr">L'os de dinosaure que Lisa a trouvé n'est pas peut-être pas ce qu'elle croit.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260402112500 +0200" stop="20260402114500 +0200">
@@ -28121,7 +28145,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260402131000 +0200" stop="20260402132000 +0200">
     <title lang="fr">Angelo la débrouille - S03E05</title>
-    <desc lang="fr">Angelo élabore plusieurs stratégies pour essayer de débarrasser Gladys de son obsession pour la triche : elle triche tout le temps, partout, pour tout et n'importe quoi.</desc>
+    <desc lang="fr">Quand on a onze ans, la vie n'est pas tous les jours facile, surtout pour le pauvre Angelo, avec son petit frère qui lui empoisonne l'existence, sa grande sœur qui le traite comme un gamin, ses parents au temps libre agité. Mais Angelo a des dons d'anthropologue et a fait de l'étude des comportements son arme fatale pour se faire une place dans ce monde sans pitié...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260402132000 +0200" stop="20260402134000 +0200">
@@ -28666,8 +28690,8 @@
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260402122000 +0200" stop="20260402125000 +0200">
-    <title lang="fr">Au nom de la vérité - S04E49</title>
-    <desc lang="fr">Chacun d'entre nous s'est déjà retrouvé au moins une fois, au coeur de la tourmente. Au nom de la vérité est une nouvelle fiction quotidienne de vingt-six minutes, qui s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans laquelle chacun peut s'identifier ou projeter sa propre famille. Ces moments qui dérapent, ces accidents de la vie, ces histoires secrètes qui encombrent notre quotidien. C'est tout l'univers de votre nouvelle série.</desc>
+    <title lang="fr">Au nom de la vérité - S03E49</title>
+    <desc lang="fr">Rivalité entre mères - Chacun d'entre nous s'est déjà retrouvé au moins une fois, au cœur de la tourmente... "Au nom de la vérité" s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans...</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260402125000 +0200" stop="20260402132000 +0200">
@@ -30223,6 +30247,351 @@
     <title lang="fr">Mon robot et moi</title>
     <desc lang="fr">Eugène est un génie de la robotique qui a construit son propre robot appelé C.H.I.P. Accompagnés de ses meilleurs amis, Maia et Joseph, ils vivent ensemble des aventures rocambolesques dans leur école de robotique.</desc>
     <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402000000 +0200" stop="20260402070000 +0200">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402070000 +0200" stop="20260402090000 +0200">
+    <title lang="fr">La matinale</title>
+    <desc lang="fr">Toute l'actualité et les informations à retenir du département de Vendée pour bien débuter la journée. </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402090000 +0200" stop="20260402091500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402091500 +0200" stop="20260402092000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402092000 +0200" stop="20260402093000 +0200">
+    <title lang="fr">Météo de l'emploi</title>
+    <desc lang="fr">Retrouvez les prévisions météreologiques locales pour le département de Vendée et le Pays de la Loire, ainsi que pour toute la France. </desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402093000 +0200" stop="20260402094500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402094500 +0200" stop="20260402095500 +0200">
+    <title lang="fr">Préface</title>
+    <desc lang="fr">Magazine culturel qui fait valoir la culture, la tradition, l'art et le patrimoine du département de Vendée.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402095500 +0200" stop="20260402100500 +0200">
+    <title lang="fr">Visages du sport</title>
+    <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402100500 +0200" stop="20260402103000 +0200">
+    <title lang="fr">Sans détour</title>
+    <desc lang="fr">Hervé Le Roch invite des Vendéens à monter dans sa voiture et à se révéler en sillonnant le département.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402103000 +0200" stop="20260402104500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402104500 +0200" stop="20260402105500 +0200">
+    <title lang="fr">Préface</title>
+    <desc lang="fr">Magazine culturel qui fait valoir la culture, la tradition, l'art et le patrimoine du département de Vendée.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402105500 +0200" stop="20260402110500 +0200">
+    <title lang="fr">Visage du sport</title>
+    <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402110500 +0200" stop="20260402113000 +0200">
+    <title lang="fr">Sans détour</title>
+    <desc lang="fr">Hervé Le Roch invite des Vendéens à monter dans sa voiture et à se révéler en sillonnant le département.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402113000 +0200" stop="20260402114500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402114500 +0200" stop="20260402120000 +0200">
+    <title lang="fr">L'atelier du bien-être</title>
+    <desc lang="fr">Magazine de l'art de vivre, qui vous fait découvrir le style de vie haut de gamme, y compris les sujets de l'art et de la culture, de l'architecture, de l'élégance et de la beauté. </desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402120000 +0200" stop="20260402121500 +0200">
+    <title lang="fr">Mag éco</title>
+    <desc lang="fr">Découvrez une entreprise, son fonctionnement et son développement. Une véritable immersion dans l'économie vendéenne en compagnie de Katel Lejeune.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402121500 +0200" stop="20260402123000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402123000 +0200" stop="20260402124500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402124500 +0200" stop="20260402125000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402125000 +0200" stop="20260402130000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402130000 +0200" stop="20260402131500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402131500 +0200" stop="20260402132000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402132000 +0200" stop="20260402133000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402133000 +0200" stop="20260402134500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402134500 +0200" stop="20260402135000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402135000 +0200" stop="20260402140000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402140000 +0200" stop="20260402141500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402141500 +0200" stop="20260402143000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402143000 +0200" stop="20260402144000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402144000 +0200" stop="20260402145500 +0200">
+    <title lang="fr">Mag éco</title>
+    <desc lang="fr">Découvrez une entreprise, son fonctionnement et son développement. Une véritable immersion dans l'économie vendéenne en compagnie de Katel Lejeune.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402145500 +0200" stop="20260402150000 +0200">
+    <title lang="fr">La bobine du jour</title>
+    <desc lang="fr">Quelques minutes d'images d'archives et les explications de Daniel Frimaudeau, de la Cinémathèque de Vendée, et de son invité pour un plongeon dans l'Histoire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402150000 +0200" stop="20260402151500 +0200">
+    <title lang="fr">Visage du sport</title>
+    <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402151500 +0200" stop="20260402153000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402153000 +0200" stop="20260402154000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402154000 +0200" stop="20260402155500 +0200">
+    <title lang="fr">Mag éco</title>
+    <desc lang="fr">Découvrez une entreprise, son fonctionnement et son développement. Une véritable immersion dans l'économie vendéenne en compagnie de Katel Lejeune.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402155500 +0200" stop="20260402160000 +0200">
+    <title lang="fr">La bobine du jour</title>
+    <desc lang="fr">Quelques minutes d'images d'archives et les explications de Daniel Frimaudeau, de la Cinémathèque de Vendée, et de son invité pour un plongeon dans l'Histoire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402160000 +0200" stop="20260402161500 +0200">
+    <title lang="fr">Visage du sport</title>
+    <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402161500 +0200" stop="20260402162000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402162000 +0200" stop="20260402163000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402163000 +0200" stop="20260402164000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402164000 +0200" stop="20260402165500 +0200">
+    <title lang="fr">Mag éco</title>
+    <desc lang="fr">Découvrez une entreprise, son fonctionnement et son développement. Une véritable immersion dans l'économie vendéenne en compagnie de Katel Lejeune.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402165500 +0200" stop="20260402170000 +0200">
+    <title lang="fr">La bobine du jour</title>
+    <desc lang="fr">Quelques minutes d'images d'archives et les explications de Daniel Frimaudeau, de la Cinémathèque de Vendée, et de son invité pour un plongeon dans l'Histoire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402170000 +0200" stop="20260402171500 +0200">
+    <title lang="fr">Visage du sport</title>
+    <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402171500 +0200" stop="20260402173000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402173000 +0200" stop="20260402174000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402174000 +0200" stop="20260402180000 +0200">
+    <title lang="fr">Mag éco</title>
+    <desc lang="fr">Découvrez une entreprise, son fonctionnement et son développement. Une véritable immersion dans l'économie vendéenne en compagnie de Katel Lejeune.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402180000 +0200" stop="20260402181500 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402181500 +0200" stop="20260402183000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402183000 +0200" stop="20260402185000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402185000 +0200" stop="20260402191500 +0200">
+    <title lang="fr">85 Chrono : Agenda</title>
+    <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402191500 +0200" stop="20260402192000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402192000 +0200" stop="20260402193000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402193000 +0200" stop="20260402195000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402195000 +0200" stop="20260402201500 +0200">
+    <title lang="fr">85 Chrono : Agenda</title>
+    <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402201500 +0200" stop="20260402202000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402202000 +0200" stop="20260402203000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402203000 +0200" stop="20260402205000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402205000 +0200" stop="20260402211500 +0200">
+    <title lang="fr">85 Chrono : Agenda</title>
+    <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402211500 +0200" stop="20260402212500 +0200">
+    <title lang="fr">Mag éco</title>
+    <desc lang="fr">Découvrez une entreprise, son fonctionnement et son développement. Une véritable immersion dans l'économie vendéenne en compagnie de Katel Lejeune.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402212500 +0200" stop="20260402213500 +0200">
+    <title lang="fr">La bobine du jour</title>
+    <desc lang="fr">Quelques minutes d'images d'archives et les explications de Daniel Frimaudeau, de la Cinémathèque de Vendée, et de son invité pour un plongeon dans l'Histoire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402213500 +0200" stop="20260402215000 +0200">
+    <title lang="fr">Visage du sport</title>
+    <desc lang="fr">Découverte, chaque semaine, d'un club, d'un athlète ou d'une initiative sportive.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402215000 +0200" stop="20260402221500 +0200">
+    <title lang="fr">85 Chrono : Agenda</title>
+    <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402221500 +0200" stop="20260402223000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402223000 +0200" stop="20260402225000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402225000 +0200" stop="20260402231500 +0200">
+    <title lang="fr">85 Chrono : Agenda</title>
+    <desc lang="fr">Toute l'actualité sportive de la Vendée avec Aurélien Huard, journaliste sportif, ses chroniqueurs et des invités. 3 rendez-vous : 85 Chrono le terrain et 85 Chrono le vestiaire le lundi et 85 Chrono l'agenda le jeudi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402231500 +0200" stop="20260402232000 +0200">
+    <title lang="fr">La Vendée en direct</title>
+    <desc lang="fr">La Vendée en direct : échange avec des invités en plateau ou partout en Vendée. Découvrez la multiplicité des initiatives locales et l'actualité au plus près.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402232000 +0200" stop="20260402233000 +0200">
+    <title lang="fr">Laissez-vous guider</title>
+    <desc lang="fr">Passionés d'histoire tous les deux, Stéphane Bern et Loránt Deutsch rivalisent d'anecdotes, révélations et histoires peu connues, lors de visites exceptionnelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402233000 +0200" stop="20260402235000 +0200">
+    <title lang="fr">Le journal / Météo</title>
+    <desc lang="fr">Bouclez deux émissions et vérifiez des actualités avec "Le journal" et consultez la météo.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260402235000 +0200" stop="20260403000000 +0200">
+    <title lang="fr">La bobine du jour</title>
+    <desc lang="fr">Quelques minutes d'images d'archives et les explications de Daniel Frimaudeau, de la Cinémathèque de Vendée, et de son invité pour un plongeon dans l'Histoire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="TahitiNuiTV.fr" start="20260402000800 +0200" stop="20260402003500 +0200">
     <title lang="fr">Manava</title>
@@ -33245,7 +33614,7 @@
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260402174500 +0200" stop="20260402185000 +0200">
-    <title lang="fr">Navires de guerre : 400 ans d'innovation - S01E01</title>
+    <title lang="fr">Navires de guerre : 400 ans d'innovation</title>
     <desc lang="fr">La Marine française est l'une des plus puissantes au monde grâce à ses 150 navires et à la modernisation de ses frégates, de ses patrouilleurs, de ses corvettes, de ses destroyers et de ses cuirassés. Respectée sur toutes les mers du globe, la France doit sa puissance à une histoire riche et passionnante au cours de laquelle elle n'a cessée de se moderniser. Son histoire est faite de batailles navales épiques et de révolutions technologiques. Ce documentaire revient des siècles en arrière, à l'époque où les premiers canons étaient imaginés et sur le pont des frégates contemporaines où de nouvelles menaces font leur apparition.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -33278,6 +33647,110 @@
     <title lang="fr">La Seconde Guerre mondiale en couleurs - S02E08</title>
     <desc lang="fr">Pour affirmer son pouvoir dans le monde de l'après-guerre, Staline manipule les Alliés et ses propres généraux afin de remporter la course pour Berlin en avril 1945.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402010000 +0200" stop="20260402020000 +0200">
+    <title lang="fr">Sounds of 237</title>
+    <desc lang="fr">Le Cameroun dans toute sa splendeur musicale, c'est sur Trace Africa ! Le "237" en puissance pendant une heure de playlist avec des compilations de tubes endiablés.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402020000 +0200" stop="20260402050000 +0200">
+    <title lang="fr">La nuit c'est la nuit !</title>
+    <desc lang="fr">"La nuit c'est la nuit, c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402050000 +0200" stop="20260402064500 +0200">
+    <title lang="fr">Hit 30</title>
+    <desc lang="fr">Hit 30, une émission référence qui permet de rester dans la tendance en suivant un classement quotidien des trente tubes les plus écoutés du moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402064500 +0200" stop="20260402070000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Hits non stop, c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402070000 +0200" stop="20260402090000 +0200">
+    <title lang="fr">Good morning</title>
+    <desc lang="fr">Good morning, tous les matins, la playlist idéale pour se réveiller de bonne humeur et pour avoir de news inédites sur tous ses artistes préférés.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402090000 +0200" stop="20260402094500 +0200">
+    <title lang="fr">Hit 10</title>
+    <desc lang="fr">Hit 10, une émission référence qui permet de rester dans la tendance en suivant un classement quotidien des dix tubes les plus écoutés du moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402094500 +0200" stop="20260402100000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Hits non stop, c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402100000 +0200" stop="20260402110000 +0200">
+    <title lang="fr">Retro</title>
+    <desc lang="fr">Années 1980, 1990 ou 2000 : à découvrir, des compilations des meilleurs hits rétro afin de raviver les souvenirs et s'offrir un voyage passionnant à travers le temps.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402110000 +0200" stop="20260402120000 +0200">
+    <title lang="fr">Trace mag</title>
+    <desc lang="fr">Les actualités de l'univers de la musique ainsi que les dernières informations sur les artistes en vogue sur le continent africain à découvrir dans "Trace mag".</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402120000 +0200" stop="20260402130000 +0200">
+    <title lang="fr">Sounds of 226</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402130000 +0200" stop="20260402150000 +0200">
+    <title lang="fr">Ton good mood !</title>
+    <desc lang="fr">"Ton good mood !", l'émission qui permet de rester dans la tendance et de passer ses journées de bonne humeur grâce à des compilations de tubes emballants.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402150000 +0200" stop="20260402160000 +0200">
+    <title lang="fr">Trace Live</title>
+    <desc lang="fr">A découvrir, des compilations des plus grands tubes interprétés sur scène, et en direct, par les artistes incontournables du continent africain.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402160000 +0200" stop="20260402170000 +0200">
+    <title lang="fr">Ton good mood !</title>
+    <desc lang="fr">"Ton good mood !", l'émission qui permet de rester dans la tendance et de passer ses journées de bonne humeur grâce à des compilations de tubes emballants.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402170000 +0200" stop="20260402174500 +0200">
+    <title lang="fr">Hit 10</title>
+    <desc lang="fr">Hit 10, une émission référence qui permet de rester dans la tendance en suivant un classement quotidien des dix tubes les plus écoutés du moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402174500 +0200" stop="20260402180000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Hits non stop, c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402180000 +0200" stop="20260402190000 +0200">
+    <title lang="fr">Hits and Lyrics</title>
+    <desc lang="fr">Pour passer un bon moment, il suffit de se brancher sur la chaîne, et apprendre des chansons pendant une heure avec le meilleur des clips sous-titrés.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402190000 +0200" stop="20260402200000 +0200">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">"Focus", c'est l'émission qui dédie une heure à un artiste en particulier ou à un genre musical précis. Le moyen idéal d'apprendre à mieux connaître ses idoles !</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402200000 +0200" stop="20260402210000 +0200">
+    <title lang="fr">Afro vibes</title>
+    <desc lang="fr">"Afro vibes", c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes afrobeat pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402210000 +0200" stop="20260402220000 +0200">
+    <title lang="fr">Sounds of 228</title>
+    <desc lang="fr">Le Togo dans toute sa splendeur musicale, c'est sur Trace Africa ! Le "228" en puissance pendant une heure de playlist avec des compilations de tubes endiablés.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402220000 +0200" stop="20260402230000 +0200">
+    <title lang="fr">Afro vibes</title>
+    <desc lang="fr">"Afro vibes", c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes afrobeat pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceAfrica.fr" start="20260402230000 +0200" stop="20260403010000 +0200">
+    <title lang="fr">Sounds of Africa</title>
+    <desc lang="fr">A découvrir, des compilations des meilleurs clips camerounais, gabonais, ivoiriens, congolais, et bien d'autres pays du continent africain.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceCaribbean.fr" start="20260402000000 +0200" stop="20260402020000 +0200">
     <title lang="fr">Trace classic</title>
@@ -33323,6 +33796,81 @@
     <title lang="fr">Focus</title>
     <desc lang="fr">TRACE Ayiti consacre 60 minutes aux plus grands succès de cet artiste, ses meilleurs titres et ses plus grand succès rien que pour toi c'est dans Focus est l'émission à ne pas manquer!</desc>
     <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402020000 +0200" stop="20260402030000 +0200">
+    <title lang="fr">MBOA gospel</title>
+    <desc lang="fr">Le Gospel made in Cameroun est à l'honneur sur ta chaîne préférée.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402030000 +0200" stop="20260402040000 +0200">
+    <title lang="fr">New Trace TV</title>
+    <desc lang="fr">60 minutes à la découverte des nouvelles sorties à travers le monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402040000 +0200" stop="20260402070000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402070000 +0200" stop="20260402100000 +0200">
+    <title lang="fr">Wake up</title>
+    <desc lang="fr">Pendant 3 heures la parole de Dieu résonne comme des mot doux à votre réveil.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402100000 +0200" stop="20260402110000 +0200">
+    <title lang="fr">Morning Live</title>
+    <desc lang="fr">Démarrez vos journées remplis d'énergie avec votre rendez vous 100% Live.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402110000 +0200" stop="20260402140000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402140000 +0200" stop="20260402144500 +0200">
+    <title lang="fr">Hit 10</title>
+    <desc lang="fr">Le classement des 10 meilleurs hits africains qui cartonnent en ce moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402144500 +0200" stop="20260402160000 +0200">
+    <title lang="fr">New Trace TV</title>
+    <desc lang="fr">60 minutes à la découverte des nouvelles sorties à travers le monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402160000 +0200" stop="20260402164500 +0200">
+    <title lang="fr">US Hit</title>
+    <desc lang="fr">Le classement des 10 hits américains les plus joués aux Etats Unis!</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402164500 +0200" stop="20260402180000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402180000 +0200" stop="20260402190000 +0200">
+    <title lang="fr">MBOA gospel</title>
+    <desc lang="fr">Le Gospel made in Cameroun est à l'honneur sur ta chaîne préférée.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402190000 +0200" stop="20260402194500 +0200">
+    <title lang="fr">Hit 10</title>
+    <desc lang="fr">Le classement des hits Gospel de la semaine...</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402194500 +0200" stop="20260402220000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402220000 +0200" stop="20260402230000 +0200">
+    <title lang="fr">Urban pop vibes</title>
+    <desc lang="fr">Le meilleur de la pop urbaine rassemblé dans une playlist specialement dédiée à cette nouvelle forme d'expression du Gospel.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260402230000 +0200" stop="20260403020000 +0200">
+    <title lang="fr">Gospel by night</title>
+    <desc lang="fr">Une selection spéciale de musiques cultes et de gospel contemporain.</desc>
+    <category lang="fr">Divers / Variétés</category>
   </programme>
   <programme channel="TraceKitoko.af" start="20260402000000 +0200" stop="20260402010000 +0200">
     <title lang="fr">Bilengia Congo</title>
@@ -34402,7 +34950,7 @@
   </programme>
   <programme channel="Vox.de" start="20260402150000 +0200" stop="20260402160000 +0200">
     <title lang="fr">Shopping Queen - S17E64</title>
-    <desc lang="fr">Der Mode-Designer Guido Maria Kretschmer gibt das Motto vor, und mehrere Kandidaten müssen ihr Gespür für Stil und Mode unter Beweis stellen. Mit einem festen Budget und innerhalb einer bestimmten Zeit müssen die Teilnehmer Kleidung, Schmuck und Accessoires kaufen und sich Haare und Make-up machen lassen. Die anderen Kandidaten bewerten das Ergebnis. Am Schluss gibt auch Guido Maria Kretschmer seine Punkte-Wertung ab und kürt die "Shopping Queen". Diese kann viel Geld gewinnen. </desc>
+    <desc lang="fr">Motto: Kastiger Kult! Kreiere ein modernes Outfit mit Schulterpolstern!</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Vox.de" start="20260402160000 +0200" stop="20260402170000 +0200">
@@ -43299,12 +43847,12 @@
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1133" start="20260402031500 +0200" stop="20260402035000 +0200">
-    <title lang="fr">UK Wrestling Showdown</title>
+    <title lang="fr">UK Wrestling Showdown - S01E19</title>
     <desc lang="fr">UK Wrestling promotes live wrestling featuring some of the top names in the UK plus rising talent. This unique brand of Sports &amp; Entertainment is the ultimate family entertainment experience. Join us every week for all the action from inside the squared circle from the UKW Arena.</desc>
     <category lang="fr">Magazine sportif / Lutte</category>
   </programme>
   <programme channel="oqee.1133" start="20260402035000 +0200" stop="20260402042500 +0200">
-    <title lang="fr">UK Wrestling Showdown</title>
+    <title lang="fr">UK Wrestling Showdown - S01E20</title>
     <desc lang="fr">UK Wrestling promotes live wrestling featuring some of the top names in the UK plus rising talent. This unique brand of Sports &amp; Entertainment is the ultimate family entertainment experience. Join us every week for all the action from inside the squared circle from the UKW Arena.</desc>
     <category lang="fr">Magazine sportif / Lutte</category>
   </programme>
@@ -43339,17 +43887,17 @@
     <category lang="fr">Emission sportive / Arts martiaux</category>
   </programme>
   <programme channel="oqee.1133" start="20260402123500 +0200" stop="20260402130500 +0200">
-    <title lang="fr">UK Wrestling Showdown</title>
+    <title lang="fr">UK Wrestling Showdown - S01E03</title>
     <desc lang="fr">UK Wrestling promotes live wrestling featuring some of the top names in the UK plus rising talent. This unique brand of Sports &amp; Entertainment is the ultimate family entertainment experience. Join us every week for all the action from inside the squared circle from the UKW Arena.</desc>
     <category lang="fr">Magazine sportif / Lutte</category>
   </programme>
   <programme channel="oqee.1133" start="20260402130500 +0200" stop="20260402134000 +0200">
-    <title lang="fr">UK Wrestling Showdown</title>
+    <title lang="fr">UK Wrestling Showdown - S01E04</title>
     <desc lang="fr">UK Wrestling promotes live wrestling featuring some of the top names in the UK plus rising talent. This unique brand of Sports &amp; Entertainment is the ultimate family entertainment experience. Join us every week for all the action from inside the squared circle from the UKW Arena.</desc>
     <category lang="fr">Magazine sportif / Lutte</category>
   </programme>
   <programme channel="oqee.1133" start="20260402134000 +0200" stop="20260402141500 +0200">
-    <title lang="fr">UK Wrestling Showdown</title>
+    <title lang="fr">UK Wrestling Showdown - S01E05</title>
     <desc lang="fr">UK Wrestling promotes live wrestling featuring some of the top names in the UK plus rising talent. This unique brand of Sports &amp; Entertainment is the ultimate family entertainment experience. Join us every week for all the action from inside the squared circle from the UKW Arena.</desc>
     <category lang="fr">Magazine sportif / Lutte</category>
   </programme>
@@ -54015,6 +54563,441 @@
     <desc lang="fr">2013 release. NRI Ram falls in love with a village girl Sona. However, Sona's elder brother gives Ram a challenge; only then he will be allowed to marry Sona.</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
+  <programme channel="oqee.471" start="20260402040000 +0200" stop="20260402040500 +0200">
+    <title lang="fr">Sabah Ezanı</title>
+    <desc lang="fr">Sabah Ezanı, günün ilk ışıklarıyla birlikte izleyicileri manevi bir atmosfere davet eder. Ezanın huzur veren sedasıyla kalpleri sakinleştirir, güne bilinçli ve dingin bir başlangıç sunar.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402040500 +0200" stop="20260402045000 +0200">
+    <title lang="fr">Kur'an-ı Kerim</title>
+    <desc lang="fr">Kur'an-ı Kerim, ayetlerin hikmetini ve ruhani derinliğini en güzel tilavetlerle ekrana taşır. Program, izleyicilere sükûnet, dinginlik ve içsel huzur kazandırmayı amaçlar.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402045000 +0200" stop="20260402052200 +0200">
+    <title lang="fr">Evrad-ı Şerif</title>
+    <desc lang="fr">Evrad-ı Şerif, İslam kültüründe önemli bir yere sahip olan dua ve zikirleri izleyiciyle buluşturan özel bir yayındır. Sabah ve akşam vakitlerinde huzur arayanlar için hazırlanan program, kalplere ferahlık ve sükûnet sunar.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402052200 +0200" stop="20260402052600 +0200">
+    <title lang="fr">Esma-ül Hüsna</title>
+    <desc lang="fr">Esma-ül Hüsna, Allah'ın 99 güzel ismini anlamları, tecellileri ve insan hayatına yansımalarıyla birlikte ele alır. Her bölümde isimlerin Kur'an'daki bağlamı ve manevi hikmeti anlatılarak izleyicilere huzur veren bir atmosfer sunulur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402052600 +0200" stop="20260402052700 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402052700 +0200" stop="20260402053000 +0200">
+    <title lang="fr">Dil-âgâh</title>
+    <desc lang="fr">Dil-âgâh, izleyicilere Türk ve İslam müzik geleneğinin derinliklerine doğru büyüleyici bir yolculuk sunan özel bir programdır. Program boyunca klasik ve tasavvuf müziği örnekleri ile izleyiciler, makamların ve melodilerin zengin dünyasını keşfeder. Her bölümde müziğin tarihsel kökenleri, kültürel önemi ve sanatçılar tarafından icra edilişi detaylı bir şekilde ele alınır. Dil-âgâh, hem müzik tutkunlarını hem de kültürel mirasa ilgi duyan izleyicileri etkileyici bir deneyime davet eder. Sadece notaların değil, aynı zamanda bu müziğin ruhani ve estetik değerlerinin de paylaşıldığı program, izleyiciye hem bilgi hem de duygusal bir tatmin sunar. Her bölümde farklı temalar işlenir; bazen tarihî bir makamın incelikleri, bazen bir saz eserinin analizleri, bazen de müzikle iç içe geçmiş kültürel hikâyeler ön plana çıkar.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402053000 +0200" stop="20260402054000 +0200">
+    <title lang="fr">İslam Düşünürleri</title>
+    <desc lang="fr">İslam Düşünürleri programı, tarih boyunca İslam düşüncesine yön vermiş alimleri, filozofları ve mütefekkirleri detaylı bir şekilde ele alıyor. Her bölümde bir düşünürün hayatı, eserleri, felsefi ve teolojik katkıları izleyiciye aktarılıyor. Program, sadece tarihsel bilgi sunmakla kalmayıp, bu fikirlerin günümüz dünyasındaki yansımalarını da tartışıyor. Farklı bakış açılarıyla İslam düşüncesinin zenginliğini ve çeşitliliğini ortaya koyan program, izleyiciyi entelektüel bir yolculuğa çıkarıyor. Konular arasında teoloji, felsefe, tasavvuf, ahlak ve toplumsal düşünceler yer alıyor. Programın amacı, izleyiciye hem bilgi kazandırmak hem de düşünmeye teşvik etmek. Akademik bir dil kullanılsa da, programın sunumu her seviyeden izleyici için anlaşılır ve ilgi çekici şekilde hazırlanmıştır.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402054000 +0200" stop="20260402054500 +0200">
+    <title lang="fr">Tarihten Yansıyanlar</title>
+    <desc lang="fr">Tarihten Yansıyanlar, uygarlıkların bıraktığı mirası, büyük dönüşümlerin ardındaki hikâyeleri ve geçmişin bugüne yansımalarını ele alan etkileyici bir belgeseldir. Her bölüm, tarihin bugünümüzü nasıl şekillendirdiğini anlamaya davet eder.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402054500 +0200" stop="20260402065000 +0200">
+    <title lang="fr">Nureddin Yıldız Sohbeti</title>
+    <desc lang="fr">Nurettin Yıldız Sohbeti, inanç, ahlak ve toplum hayatıyla ilgili önemli meseleleri gündeme taşıyan düşünsel bir sohbet programıdır. Eski çağlardan günümüze uzanan dini öğretiler ve modern yaşamın çelişkileri izleyiciyle samimi bir dille tartışılırken, izleyicinin kendi perspektifini geliştirmesine katkı sağlar.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402065000 +0200" stop="20260402065500 +0200">
+    <title lang="fr">Animasyon Kuşağı</title>
+    <desc lang="fr">Animasyon, yalnızca çizgilerden, renklerden ya da dijital efektlerden ibaret bir sanat değildir; insan hayal gücünün somut hâle gelmiş en büyüleyici ifadelerinden biridir. Her kare, bir düşüncenin hareket kazanmış hâli; her sahne, yaratıcı bir dünyanın kapısıdır. Animasyon; çocuklardan yetişkinlere kadar her yaş grubuna hitap eden, duygu ve düşünceleri evrensel bir dille aktaran güçlü bir anlatım biçimidir. Bu büyülü dünya, izleyiciyi sıradanlığın dışına çıkarır, gerçekliğin sınırlarını zorlar ve imkânsız gibi görünen her şeyi mümkün kılar. Bir karakterin göz kırpışından bir dünyanın var oluşuna kadar her detay, titizlikle tasarlanır; çizimden modellemeye, hikâyeden müziğe, ışıklandırmadan seslendirmeye kadar her unsur büyük bir uyum içinde çalışır. Animasyon, bu yönüyle hem sanatın hem de teknolojinin kusursuz bir buluşma noktasıdır.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402065500 +0200" stop="20260402065900 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402065900 +0200" stop="20260402070000 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402070000 +0200" stop="20260402071700 +0200">
+    <title lang="fr">Haber Turu</title>
+    <desc lang="fr">Haber Turu, gün boyunca yaşanan gelişmeleri hızlı, sade ve güvenilir bir anlatımla izleyiciye aktaran kapsamlı bir haber özetidir. Türkiye ve dünyadan öne çıkan başlıklar, son dakika notları ve dikkat çeken detaylar tek bir çerçevede toplanır. Kısa analizler ve net aktarımlarla olayların özüne inilirken, izleyicinin gündemi kaçırmadan takip etmesi hedeflenir. Program, yoğun haber akışı içinde pratik, anlaşılır ve derli toplu bir izleme deneyimi sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402071700 +0200" stop="20260402072300 +0200">
+    <title lang="fr">Hava-Yol-Para Durumu</title>
+    <desc lang="fr">"Hava-Yol-Para Durumu", günün hava koşullarını, yol ve trafik bilgisini, ekonomi ve piyasalardaki son durumu tek çatı altında sunan pratik bir bilgilendirme programıdır. Günlük yaşamın akışını etkileyen tüm veriler hızlı ve anlaşılır bir şekilde izleyiciye aktarılır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402072300 +0200" stop="20260402072500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402072500 +0200" stop="20260402073000 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402073000 +0200" stop="20260402073500 +0200">
+    <title lang="fr">Tarihten Yansıyanlar</title>
+    <desc lang="fr">Tarihten Yansıyanlar, uygarlıkların bıraktığı mirası, büyük dönüşümlerin ardındaki hikâyeleri ve geçmişin bugüne yansımalarını ele alan etkileyici bir belgeseldir. Her bölüm, tarihin bugünümüzü nasıl şekillendirdiğini anlamaya davet eder.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402073500 +0200" stop="20260402075200 +0200">
+    <title lang="fr">Haber Turu</title>
+    <desc lang="fr">Haber Turu, gün boyunca yaşanan gelişmeleri hızlı, sade ve güvenilir bir anlatımla izleyiciye aktaran kapsamlı bir haber özetidir. Türkiye ve dünyadan öne çıkan başlıklar, son dakika notları ve dikkat çeken detaylar tek bir çerçevede toplanır. Kısa analizler ve net aktarımlarla olayların özüne inilirken, izleyicinin gündemi kaçırmadan takip etmesi hedeflenir. Program, yoğun haber akışı içinde pratik, anlaşılır ve derli toplu bir izleme deneyimi sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402075200 +0200" stop="20260402075500 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402075500 +0200" stop="20260402075900 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402075900 +0200" stop="20260402080000 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402080000 +0200" stop="20260402085000 +0200">
+    <title lang="fr">4. Güç</title>
+    <desc lang="fr">4. Güç, TV5 ekranlarında yayınlanan ve Türkiye ile dünyadaki güncel gelişmeleri mercek altına alan bir haber ve analiz programıdır. Programda siyasi gündem, ekonomik veriler ve toplumsal olaylar detaylı şekilde ele alınır. Uzman konuklar ve yorumlarla, günün öne çıkan başlıkları değerlendirilirken farklı bakış açıları izleyiciye sunulur. Dinamik yapısıyla gündemin nabzını tutan program, izleyicilere kapsamlı bir analiz imkânı sağlar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402085000 +0200" stop="20260402085400 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402085400 +0200" stop="20260402085500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402085500 +0200" stop="20260402094500 +0200">
+    <title lang="fr">4. Güç</title>
+    <desc lang="fr">4. Güç, TV5 ekranlarında yayınlanan ve Türkiye ile dünyadaki güncel gelişmeleri mercek altına alan bir haber ve analiz programıdır. Programda siyasi gündem, ekonomik veriler ve toplumsal olaylar detaylı şekilde ele alınır. Uzman konuklar ve yorumlarla, günün öne çıkan başlıkları değerlendirilirken farklı bakış açıları izleyiciye sunulur. Dinamik yapısıyla gündemin nabzını tutan program, izleyicilere kapsamlı bir analiz imkânı sağlar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402094500 +0200" stop="20260402094900 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402094900 +0200" stop="20260402095000 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402095000 +0200" stop="20260402104000 +0200">
+    <title lang="fr">4. Güç</title>
+    <desc lang="fr">4. Güç, TV5 ekranlarında yayınlanan ve Türkiye ile dünyadaki güncel gelişmeleri mercek altına alan bir haber ve analiz programıdır. Programda siyasi gündem, ekonomik veriler ve toplumsal olaylar detaylı şekilde ele alınır. Uzman konuklar ve yorumlarla, günün öne çıkan başlıkları değerlendirilirken farklı bakış açıları izleyiciye sunulur. Dinamik yapısıyla gündemin nabzını tutan program, izleyicilere kapsamlı bir analiz imkânı sağlar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402104000 +0200" stop="20260402104400 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402104400 +0200" stop="20260402104500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402104500 +0200" stop="20260402105500 +0200">
+    <title lang="fr">İslam Düşünürleri</title>
+    <desc lang="fr">İslam Düşünürleri programı, tarih boyunca İslam düşüncesine yön vermiş alimleri, filozofları ve mütefekkirleri detaylı bir şekilde ele alıyor. Her bölümde bir düşünürün hayatı, eserleri, felsefi ve teolojik katkıları izleyiciye aktarılıyor. Program, sadece tarihsel bilgi sunmakla kalmayıp, bu fikirlerin günümüz dünyasındaki yansımalarını da tartışıyor. Farklı bakış açılarıyla İslam düşüncesinin zenginliğini ve çeşitliliğini ortaya koyan program, izleyiciyi entelektüel bir yolculuğa çıkarıyor. Konular arasında teoloji, felsefe, tasavvuf, ahlak ve toplumsal düşünceler yer alıyor. Programın amacı, izleyiciye hem bilgi kazandırmak hem de düşünmeye teşvik etmek. Akademik bir dil kullanılsa da, programın sunumu her seviyeden izleyici için anlaşılır ve ilgi çekici şekilde hazırlanmıştır.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402105500 +0200" stop="20260402110000 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402110000 +0200" stop="20260402111500 +0200">
+    <title lang="fr">Haber Turu</title>
+    <desc lang="fr">Haber Turu, gün boyunca yaşanan gelişmeleri hızlı, sade ve güvenilir bir anlatımla izleyiciye aktaran kapsamlı bir haber özetidir. Türkiye ve dünyadan öne çıkan başlıklar, son dakika notları ve dikkat çeken detaylar tek bir çerçevede toplanır. Kısa analizler ve net aktarımlarla olayların özüne inilirken, izleyicinin gündemi kaçırmadan takip etmesi hedeflenir. Program, yoğun haber akışı içinde pratik, anlaşılır ve derli toplu bir izleme deneyimi sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402111500 +0200" stop="20260402112000 +0200">
+    <title lang="fr">Hava-Yol-Para Durumu</title>
+    <desc lang="fr">"Hava-Yol-Para Durumu", günün hava koşullarını, yol ve trafik bilgisini, ekonomi ve piyasalardaki son durumu tek çatı altında sunan pratik bir bilgilendirme programıdır. Günlük yaşamın akışını etkileyen tüm veriler hızlı ve anlaşılır bir şekilde izleyiciye aktarılır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402112000 +0200" stop="20260402112500 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402112500 +0200" stop="20260402112600 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402112600 +0200" stop="20260402113000 +0200">
+    <title lang="fr">Dil-âgâh</title>
+    <desc lang="fr">Dil-âgâh, izleyicilere Türk ve İslam müzik geleneğinin derinliklerine doğru büyüleyici bir yolculuk sunan özel bir programdır. Program boyunca klasik ve tasavvuf müziği örnekleri ile izleyiciler, makamların ve melodilerin zengin dünyasını keşfeder. Her bölümde müziğin tarihsel kökenleri, kültürel önemi ve sanatçılar tarafından icra edilişi detaylı bir şekilde ele alınır. Dil-âgâh, hem müzik tutkunlarını hem de kültürel mirasa ilgi duyan izleyicileri etkileyici bir deneyime davet eder. Sadece notaların değil, aynı zamanda bu müziğin ruhani ve estetik değerlerinin de paylaşıldığı program, izleyiciye hem bilgi hem de duygusal bir tatmin sunar. Her bölümde farklı temalar işlenir; bazen tarihî bir makamın incelikleri, bazen bir saz eserinin analizleri, bazen de müzikle iç içe geçmiş kültürel hikâyeler ön plana çıkar.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402113000 +0200" stop="20260402114500 +0200">
+    <title lang="fr">Haber Turu</title>
+    <desc lang="fr">Haber Turu, gün boyunca yaşanan gelişmeleri hızlı, sade ve güvenilir bir anlatımla izleyiciye aktaran kapsamlı bir haber özetidir. Türkiye ve dünyadan öne çıkan başlıklar, son dakika notları ve dikkat çeken detaylar tek bir çerçevede toplanır. Kısa analizler ve net aktarımlarla olayların özüne inilirken, izleyicinin gündemi kaçırmadan takip etmesi hedeflenir. Program, yoğun haber akışı içinde pratik, anlaşılır ve derli toplu bir izleme deneyimi sunar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402114500 +0200" stop="20260402115000 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402115000 +0200" stop="20260402115500 +0200">
+    <title lang="fr">Tarihten Yansıyanlar</title>
+    <desc lang="fr">Tarihten Yansıyanlar, uygarlıkların bıraktığı mirası, büyük dönüşümlerin ardındaki hikâyeleri ve geçmişin bugüne yansımalarını ele alan etkileyici bir belgeseldir. Her bölüm, tarihin bugünümüzü nasıl şekillendirdiğini anlamaya davet eder.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402115500 +0200" stop="20260402115900 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402115900 +0200" stop="20260402120000 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402120000 +0200" stop="20260402125000 +0200">
+    <title lang="fr">Günden Yansıyanlar</title>
+    <desc lang="fr">"Günden Yansıyanlar", Türkiye ve dünyada yaşanan önemli gelişmeleri sade, anlaşılır ve güvenilir bir dille izleyicisine ulaştıran kapsamlı bir gündem özetidir. Günün en kritik başlıkları, uzman değerlendirmeleri ve dikkat çeken detaylar tek programda bir araya gelir.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402125000 +0200" stop="20260402125400 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402125400 +0200" stop="20260402125500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402125500 +0200" stop="20260402134500 +0200">
+    <title lang="fr">Günden Yansıyanlar</title>
+    <desc lang="fr">"Günden Yansıyanlar", Türkiye ve dünyada yaşanan önemli gelişmeleri sade, anlaşılır ve güvenilir bir dille izleyicisine ulaştıran kapsamlı bir gündem özetidir. Günün en kritik başlıkları, uzman değerlendirmeleri ve dikkat çeken detaylar tek programda bir araya gelir.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402134500 +0200" stop="20260402134900 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402134900 +0200" stop="20260402135000 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402135000 +0200" stop="20260402144000 +0200">
+    <title lang="fr">Günden Yansıyanlar</title>
+    <desc lang="fr">"Günden Yansıyanlar", Türkiye ve dünyada yaşanan önemli gelişmeleri sade, anlaşılır ve güvenilir bir dille izleyicisine ulaştıran kapsamlı bir gündem özetidir. Günün en kritik başlıkları, uzman değerlendirmeleri ve dikkat çeken detaylar tek programda bir araya gelir.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402144000 +0200" stop="20260402144500 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402144500 +0200" stop="20260402144900 +0200">
+    <title lang="fr">Hava-Yol-Para Durumu</title>
+    <desc lang="fr">"Hava-Yol-Para Durumu", günün hava koşullarını, yol ve trafik bilgisini, ekonomi ve piyasalardaki son durumu tek çatı altında sunan pratik bir bilgilendirme programıdır. Günlük yaşamın akışını etkileyen tüm veriler hızlı ve anlaşılır bir şekilde izleyiciye aktarılır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402144900 +0200" stop="20260402145000 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402145000 +0200" stop="20260402145500 +0200">
+    <title lang="fr">İslam Düşünürleri</title>
+    <desc lang="fr">İslam Düşünürleri programı, tarih boyunca İslam düşüncesine yön vermiş alimleri, filozofları ve mütefekkirleri detaylı bir şekilde ele alıyor. Her bölümde bir düşünürün hayatı, eserleri, felsefi ve teolojik katkıları izleyiciye aktarılıyor. Program, sadece tarihsel bilgi sunmakla kalmayıp, bu fikirlerin günümüz dünyasındaki yansımalarını da tartışıyor. Farklı bakış açılarıyla İslam düşüncesinin zenginliğini ve çeşitliliğini ortaya koyan program, izleyiciyi entelektüel bir yolculuğa çıkarıyor. Konular arasında teoloji, felsefe, tasavvuf, ahlak ve toplumsal düşünceler yer alıyor. Programın amacı, izleyiciye hem bilgi kazandırmak hem de düşünmeye teşvik etmek. Akademik bir dil kullanılsa da, programın sunumu her seviyeden izleyici için anlaşılır ve ilgi çekici şekilde hazırlanmıştır.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402145500 +0200" stop="20260402150000 +0200">
+    <title lang="fr">Tarihten Yansıyanlar</title>
+    <desc lang="fr">Tarihten Yansıyanlar, uygarlıkların bıraktığı mirası, büyük dönüşümlerin ardındaki hikâyeleri ve geçmişin bugüne yansımalarını ele alan etkileyici bir belgeseldir. Her bölüm, tarihin bugünümüzü nasıl şekillendirdiğini anlamaya davet eder.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402150000 +0200" stop="20260402155000 +0200">
+    <title lang="fr">Ankara Bürosu</title>
+    <desc lang="fr">"Ankara Bürosu", başkent gündemini yerinden takip eden, politika, ekonomi ve devlet kurumlarındaki en sıcak gelişmeleri izleyiciye hızlı ve güvenilir şekilde aktaran haber programıdır.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402155000 +0200" stop="20260402155400 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402155400 +0200" stop="20260402155500 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402155500 +0200" stop="20260402164500 +0200">
+    <title lang="fr">Ankara Bürosu</title>
+    <desc lang="fr">"Ankara Bürosu", başkent gündemini yerinden takip eden, politika, ekonomi ve devlet kurumlarındaki en sıcak gelişmeleri izleyiciye hızlı ve güvenilir şekilde aktaran haber programıdır.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402164500 +0200" stop="20260402164900 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402164900 +0200" stop="20260402165000 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402165000 +0200" stop="20260402174000 +0200">
+    <title lang="fr">Ankara Bürosu</title>
+    <desc lang="fr">"Ankara Bürosu", başkent gündemini yerinden takip eden, politika, ekonomi ve devlet kurumlarındaki en sıcak gelişmeleri izleyiciye hızlı ve güvenilir şekilde aktaran haber programıdır.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402174000 +0200" stop="20260402174500 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402174500 +0200" stop="20260402174900 +0200">
+    <title lang="fr">İslam Düşünürleri</title>
+    <desc lang="fr">İslam Düşünürleri programı, tarih boyunca İslam düşüncesine yön vermiş alimleri, filozofları ve mütefekkirleri detaylı bir şekilde ele alıyor. Her bölümde bir düşünürün hayatı, eserleri, felsefi ve teolojik katkıları izleyiciye aktarılıyor. Program, sadece tarihsel bilgi sunmakla kalmayıp, bu fikirlerin günümüz dünyasındaki yansımalarını da tartışıyor. Farklı bakış açılarıyla İslam düşüncesinin zenginliğini ve çeşitliliğini ortaya koyan program, izleyiciyi entelektüel bir yolculuğa çıkarıyor. Konular arasında teoloji, felsefe, tasavvuf, ahlak ve toplumsal düşünceler yer alıyor. Programın amacı, izleyiciye hem bilgi kazandırmak hem de düşünmeye teşvik etmek. Akademik bir dil kullanılsa da, programın sunumu her seviyeden izleyici için anlaşılır ve ilgi çekici şekilde hazırlanmıştır.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402174900 +0200" stop="20260402175000 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402175000 +0200" stop="20260402175500 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402175500 +0200" stop="20260402180000 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402180000 +0200" stop="20260402184000 +0200">
+    <title lang="fr">Ana Haber</title>
+    <desc lang="fr">"Ana Haber", günün en önemli gelişmelerini tarafsız, güvenilir ve hızlı bir şekilde izleyicilere aktaran kapsamlı bir haber bültenidir. Türkiye ve dünyadan sıcak gelişmeler, uzman yorumları ve canlı bağlantılarla ekrana gelir.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402184000 +0200" stop="20260402184400 +0200">
+    <title lang="fr">Reklam</title>
+    <desc lang="fr">Reklam Bloğu, izleyicilere program akışı arasında kısa ama keyifli bir mola sunan özel bir kuşaktır. Güncel kampanyalar, yaratıcı tanıtımlar ve dikkat çekici reklam filmleriyle hem bilgilendirici hem de dinlendirici bir içerik sunar. Bu kısa ara, izleyicilerin ekran başında soluklanmasını sağlarken, markalarla izleyiciler arasında etkili bir bağ kurulmasına da olanak tanır. Reklam Bloğu, yayın akışına tempolu ve renkli bir soluk getirir.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402184400 +0200" stop="20260402184500 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402184500 +0200" stop="20260402191500 +0200">
+    <title lang="fr">Ana Haber</title>
+    <desc lang="fr">"Ana Haber", günün en önemli gelişmelerini tarafsız, güvenilir ve hızlı bir şekilde izleyicilere aktaran kapsamlı bir haber bültenidir. Türkiye ve dünyadan sıcak gelişmeler, uzman yorumları ve canlı bağlantılarla ekrana gelir.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402191500 +0200" stop="20260402192000 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402192000 +0200" stop="20260402192300 +0200">
+    <title lang="fr">Hava-Yol-Para Durumu</title>
+    <desc lang="fr">"Hava-Yol-Para Durumu", günün hava koşullarını, yol ve trafik bilgisini, ekonomi ve piyasalardaki son durumu tek çatı altında sunan pratik bir bilgilendirme programıdır. Günlük yaşamın akışını etkileyen tüm veriler hızlı ve anlaşılır bir şekilde izleyiciye aktarılır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402192300 +0200" stop="20260402192500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402192500 +0200" stop="20260402193000 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402193000 +0200" stop="20260402202500 +0200">
+    <title lang="fr">Haberin Var Mı?</title>
+    <desc lang="fr">Gündemde öne çıkan gelişmelerin ele alındığı programda siyaset, ekonomi ve toplumsal konular detaylı biçimde masaya yatırılır. Günün dikkat çeken başlıkları farklı bakış açılarıyla analiz edilirken, yaşanan gelişmelerin arka planı ve etkileri kapsamlı şekilde ele alınır. Tartışmalar, yorumlar ve değerlendirmelerle izleyiciye daha geniş bir perspektif sunulur.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402202500 +0200" stop="20260402203100 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402203100 +0200" stop="20260402203200 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402203200 +0200" stop="20260402212700 +0200">
+    <title lang="fr">Haberin Var Mı?</title>
+    <desc lang="fr">Gündemde öne çıkan gelişmelerin ele alındığı programda siyaset, ekonomi ve toplumsal konular detaylı biçimde masaya yatırılır. Günün dikkat çeken başlıkları farklı bakış açılarıyla analiz edilirken, yaşanan gelişmelerin arka planı ve etkileri kapsamlı şekilde ele alınır. Tartışmalar, yorumlar ve değerlendirmelerle izleyiciye daha geniş bir perspektif sunulur.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402212700 +0200" stop="20260402213400 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402213400 +0200" stop="20260402213500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402213500 +0200" stop="20260402223000 +0200">
+    <title lang="fr">Haberin Var Mı?</title>
+    <desc lang="fr">Gündemde öne çıkan gelişmelerin ele alındığı programda siyaset, ekonomi ve toplumsal konular detaylı biçimde masaya yatırılır. Günün dikkat çeken başlıkları farklı bakış açılarıyla analiz edilirken, yaşanan gelişmelerin arka planı ve etkileri kapsamlı şekilde ele alınır. Tartışmalar, yorumlar ve değerlendirmelerle izleyiciye daha geniş bir perspektif sunulur.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402223000 +0200" stop="20260402223500 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402223500 +0200" stop="20260402224500 +0200">
+    <title lang="fr">İslam Düşünürleri</title>
+    <desc lang="fr">İslam Düşünürleri programı, tarih boyunca İslam düşüncesine yön vermiş alimleri, filozofları ve mütefekkirleri detaylı bir şekilde ele alıyor. Her bölümde bir düşünürün hayatı, eserleri, felsefi ve teolojik katkıları izleyiciye aktarılıyor. Program, sadece tarihsel bilgi sunmakla kalmayıp, bu fikirlerin günümüz dünyasındaki yansımalarını da tartışıyor. Farklı bakış açılarıyla İslam düşüncesinin zenginliğini ve çeşitliliğini ortaya koyan program, izleyiciyi entelektüel bir yolculuğa çıkarıyor. Konular arasında teoloji, felsefe, tasavvuf, ahlak ve toplumsal düşünceler yer alıyor. Programın amacı, izleyiciye hem bilgi kazandırmak hem de düşünmeye teşvik etmek. Akademik bir dil kullanılsa da, programın sunumu her seviyeden izleyici için anlaşılır ve ilgi çekici şekilde hazırlanmıştır.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402224500 +0200" stop="20260402225000 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402225000 +0200" stop="20260402225400 +0200">
+    <title lang="fr">Reklam+Sponsor</title>
+    <desc lang="fr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402225400 +0200" stop="20260402225500 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, günün beş vakit namaz saatlerini net ve sade bir şekilde hatırlatarak izleyiciyi ibadetin huzurlu atmosferine davet eder. Yoğun günlük tempo içinde vakit bilincini korumak isteyenler için hazırlanan bu kısa ama etkili yayın, ruhsal dengeyi destekler ve ibadet disiplininin sürdürülmesine yardımcı olur.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.471" start="20260402225500 +0200" stop="20260403040000 +0200">
+    <title lang="fr">Hava-Yol-Para Durumu</title>
+    <desc lang="fr">"Hava-Yol-Para Durumu", günün hava koşullarını, yol ve trafik bilgisini, ekonomi ve piyasalardaki son durumu tek çatı altında sunan pratik bir bilgilendirme programıdır. Günlük yaşamın akışını etkileyen tüm veriler hızlı ve anlaşılır bir şekilde izleyiciye aktarılır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.484" start="20260402001000 +0200" stop="20260402023500 +0200">
     <title lang="fr">Yerli Dizi</title>
     <desc lang="fr">Yerli Dizi sürükleyici hikayesi ve güçlü karakterleriyle izleyiciyi ekran başına kilitliyor. Sırlar, aşk ve entrikalar karakterlerin hayatlarını derinden etkilerken her bölümde gerilim ve duygusal yoğunluk artıyor. Karakterler zor seçimlerle karşılaşırken izleyici olayların gelişimini heyecanla takip ediyor. Hikaye sürpriz gelişmeler, beklenmedik karşılaşmalar ve dramatik anlarla dolu olarak ilerliyor ve her bölüm izleyicide merak duygusunu artırıyor.</desc>
@@ -55742,6 +56725,136 @@
   <programme channel="oqee.515" start="20260402230000 +0200" stop="20260403000000 +0200">
     <title lang="fr">Newshour</title>
     <desc lang="fr">Latest news and in-depth analysis from around the world.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402000000 +0200" stop="20260402000500 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402000500 +0200" stop="20260402003500 +0200">
+    <title lang="fr">Gym impact</title>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402003500 +0200" stop="20260402013000 +0200">
+    <title lang="fr">Débat Éducation</title>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402013000 +0200" stop="20260402031000 +0200">
+    <title lang="fr">The King Maker</title>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402031000 +0200" stop="20260402040000 +0200">
+    <title lang="fr">Les rythmes de la savane</title>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402040000 +0200" stop="20260402043000 +0200">
+    <title lang="fr">Journal, édition complète du soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402043000 +0200" stop="20260402054500 +0200">
+    <title lang="fr">La santé d'abord</title>
+    <desc lang="fr">L'émission traite du thème de la santé, de l'actualité du monde médical et des analyses d'experts. Tous les sujets sur la santé et le bien-être et comment prendre soin de son corps.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402054500 +0200" stop="20260402060000 +0200">
+    <title lang="fr">Journal des régions</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402060000 +0200" stop="20260402070000 +0200">
+    <title lang="fr">Gym impact</title>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402070000 +0200" stop="20260402073000 +0200">
+    <title lang="fr">Mbere kaki</title>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402073000 +0200" stop="20260402093500 +0200">
+    <title lang="fr">Nek'tar</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402093500 +0200" stop="20260402103700 +0200">
+    <title lang="fr">Le joyau du palais</title>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402103700 +0200" stop="20260402114000 +0200">
+    <title lang="fr">Emission idées</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402114000 +0200" stop="20260402123000 +0200">
+    <title lang="fr">Luther</title>
+    <desc lang="fr">Chef de groupe à la Brigade criminelle de Paris, réputé pour son flair incomparable et redouté pour ses méthodes parfois brutales, Théo Luther réintègre son équipe après une longue pause. La longue traque d'un tueur d'enfants l'ayant poussé à franchir les limites, il a en effet dû prendre du repos. Taraudé par ses démons intérieurs, affecté par l'échec de son mariage, il tente de retrouver sa place au sein de la brigade. Sa première enquête l'amène à rencontrer une jeune femme à l'intelligence supérieure, qu'il suspecte d'avoir tué ses parents. Celle-ci s'amuse à le guider vers de fausses pistes et à intervenir dans ses enquêtes. Christopher Bayemi relève le défi de se glisser dans le costume d'Idriss Elba pour cette adaptation française de la série à succès de la BBC.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402123000 +0200" stop="20260402140000 +0200">
+    <title lang="fr">La POZ</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402140000 +0200" stop="20260402144500 +0200">
+    <title lang="fr">Journal édition de la mi-journée</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402144500 +0200" stop="20260402145000 +0200">
+    <title lang="fr">Citoyen de la route</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402145000 +0200" stop="20260402151500 +0200">
+    <title lang="fr">Trahison</title>
+    <desc lang="fr">L'histoire de Zé Maria, seul survivant d'un massacre familial au Portugal. Exilé au Brésil et amnésique, il bâtit un empire avant de revenir pour venger sa famille.</desc>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402151500 +0200" stop="20260402163000 +0200">
+    <title lang="fr">La santé d'abord</title>
+    <desc lang="fr">L'émission traite du thème de la santé, de l'actualité du monde médical et des analyses d'experts. Tous les sujets sur la santé et le bien-être et comment prendre soin de son corps.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402163000 +0200" stop="20260402170000 +0200">
+    <title lang="fr">Le prix de la rivalité</title>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402170000 +0200" stop="20260402180000 +0200">
+    <title lang="fr">On fait de la télé avec les stars</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402180000 +0200" stop="20260402183000 +0200">
+    <title lang="fr">Sketch Samtou / Magazine Kabye</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402183000 +0200" stop="20260402185000 +0200">
+    <title lang="fr">Débat en kabye</title>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402185000 +0200" stop="20260402195500 +0200">
+    <title lang="fr">Télé service</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402195500 +0200" stop="20260402201500 +0200">
+    <title lang="fr">Otsoukpa</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402201500 +0200" stop="20260402210000 +0200">
+    <title lang="fr">Trahison</title>
+    <desc lang="fr">L'histoire de Zé Maria, seul survivant d'un massacre familial au Portugal. Exilé au Brésil et amnésique, il bâtit un empire avant de revenir pour venger sa famille.</desc>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402210000 +0200" stop="20260402213000 +0200">
+    <title lang="fr">Journal, édition complète du soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402213000 +0200" stop="20260402214500 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402214500 +0200" stop="20260402220000 +0200">
+    <title lang="fr">Vivre ensemble</title>
+    <desc lang="fr">Une émission qui porte sur le traitement de sujets relatifs a la vie de couple et de famille, au développement personnel, a la psychologie masculine et féminine, etc</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402220000 +0200" stop="20260402233000 +0200">
+    <title lang="fr">Je Dis Femme</title>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="oqee.55" start="20260402233000 +0200" stop="20260403000000 +0200">
+    <title lang="fr">Journal de nuit</title>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260402000500 +0200" stop="20260402004500 +0200">
@@ -57930,6 +59043,122 @@
     <title lang="fr">Saraswatichandra</title>
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
+  <programme channel="oqee.698" start="20260402000000 +0200" stop="20260402015500 +0200">
+    <title lang="fr">Busty Homebody MILFs</title>
+    <desc lang="fr">Never underestimate the libido of a bored and busty homebody MILF. Josephine, Kira Queen, Jennifer Mendez, Carla Boom, and Ania Kinski are every guy's fantasy of what beautiful, bored housewives are doing behind closed doors!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402015500 +0200" stop="20260402020000 +0200">
+    <title lang="fr">BTS 1st Time Lesbian Massage</title>
+    <desc lang="fr">Redheaded vixen, Lacy Lennon loves licking pussy! Jane Wilde doesn't wear bras or underwear! Today they play two girls who have never had lesbian sex, which is funny because they've had sex with each other plenty of times!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402020000 +0200" stop="20260402034100 +0200">
+    <title lang="fr">Young Sporty Sluts</title>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402034100 +0200" stop="20260402040000 +0200">
+    <title lang="fr">MILF Yoga Instructors Love Pussy</title>
+    <desc lang="fr">Braylin (Bailey) is a breath of fresh air to Jessica (Ryan). She finally has someone to exercise with who can keep up, plus she's attracted to her... but she is so young! Hmmm, will this pair find a more pleasant way to burn calories?!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402040000 +0200" stop="20260402053900 +0200">
+    <title lang="fr">Fresh Tight Pussy</title>
+    <desc lang="fr">Bianca Bangs, Demi Hawks, Scarlet Skies, and Katie Kush are really into sports. Their boyfriends are amused, but don't really think much of their "sports" ... until the girls challenge them! And discover that sporty girls have fresh tight pussy!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402053900 +0200" stop="20260402060000 +0200">
+    <title lang="fr">My Teacher Seduced Me</title>
+    <desc lang="fr">Ms. (Kayla) Paige has been hired by Robby's (Echo) father to help his son with communication skills. It does not get off to a good start, but then he discovers she used to be a stripper! Might be a fun lesson after all!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402060000 +0200" stop="20260402073100 +0200">
+    <title lang="fr">Penthouse Letters: Taboo Tales</title>
+    <desc lang="fr">Penthouse gets some very steamy letters from its readers. Gianna Dior, Penthouse Pet of the Year 2019, reads you some of those letters while you watch it come to life... and the last letter is from Gianna!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402073100 +0200" stop="20260402080000 +0200">
+    <title lang="fr">Cheating Girlfriends Like it Huge</title>
+    <desc lang="fr">Mary (Popiense) is horny and home alone, even her boyfriend isn't there! But when she's really horny it's her other friend, Josh, she wants... him and his big cock!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402080000 +0200" stop="20260402100000 +0200">
+    <title lang="fr">Young and Juicy</title>
+    <desc lang="fr">Incredibly sexy, young, juicy Euro girls know just how to pleasure themselves, but it's more fun with a man or even two, the pleasure is stronger and sweeter!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402100000 +0200" stop="20260402115300 +0200">
+    <title lang="fr">Cum in My Dreams</title>
+    <desc lang="fr">You can't always get what you want, but you can dream anything you desire! Watch as naughty girls Little Puck, Tera Winters, Izi Blu, and Victoria Voxxx get what they want... dreamy hot satisfaction!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402115300 +0200" stop="20260402115700 +0200">
+    <title lang="fr">Pet of the Month</title>
+    <category lang="fr">Série / Série érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402115700 +0200" stop="20260402120000 +0200">
+    <title lang="fr">BTS My Stepdaughter Swallows</title>
+    <desc lang="fr">Alessia Luna's in her first Penthouse shoot and she's getting fucked by Jmac! She's a cute blonde with plenty of tats and piercings! Alessia will tell you where you can find her yourself!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402120000 +0200" stop="20260402135500 +0200">
+    <title lang="fr">Busty Homebody MILFs</title>
+    <desc lang="fr">Never underestimate the libido of a bored and busty homebody MILF. Josephine, Kira Queen, Jennifer Mendez, Carla Boom, and Ania Kinski are every guy's fantasy of what beautiful, bored housewives are doing behind closed doors!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402135500 +0200" stop="20260402140000 +0200">
+    <title lang="fr">BTS 1st Time Lesbian Massage</title>
+    <desc lang="fr">Redheaded vixen, Lacy Lennon loves licking pussy! Jane Wilde doesn't wear bras or underwear! Today they play two girls who have never had lesbian sex, which is funny because they've had sex with each other plenty of times!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402140000 +0200" stop="20260402154100 +0200">
+    <title lang="fr">Young Sporty Sluts</title>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402154100 +0200" stop="20260402160000 +0200">
+    <title lang="fr">MILF Yoga Instructors Love Pussy</title>
+    <desc lang="fr">Braylin (Bailey) is a breath of fresh air to Jessica (Ryan). She finally has someone to exercise with who can keep up, plus she's attracted to her... but she is so young! Hmmm, will this pair find a more pleasant way to burn calories?!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402160000 +0200" stop="20260402173900 +0200">
+    <title lang="fr">Fresh Tight Pussy</title>
+    <desc lang="fr">Bianca Bangs, Demi Hawks, Scarlet Skies, and Katie Kush are really into sports. Their boyfriends are amused, but don't really think much of their "sports" ... until the girls challenge them! And discover that sporty girls have fresh tight pussy!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402173900 +0200" stop="20260402180000 +0200">
+    <title lang="fr">My Teacher Seduced Me</title>
+    <desc lang="fr">Ms. (Kayla) Paige has been hired by Robby's (Echo) father to help his son with communication skills. It does not get off to a good start, but then he discovers she used to be a stripper! Might be a fun lesson after all!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402180000 +0200" stop="20260402193100 +0200">
+    <title lang="fr">Penthouse Letters: Taboo Tales</title>
+    <desc lang="fr">Penthouse gets some very steamy letters from its readers. Gianna Dior, Penthouse Pet of the Year 2019, reads you some of those letters while you watch it come to life... and the last letter is from Gianna!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402193100 +0200" stop="20260402200000 +0200">
+    <title lang="fr">Cheating Girlfriends Like it Huge</title>
+    <desc lang="fr">Mary (Popiense) is horny and home alone, even her boyfriend isn't there! But when she's really horny it's her other friend, Josh, she wants... him and his big cock!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402200000 +0200" stop="20260402220000 +0200">
+    <title lang="fr">Young and Juicy</title>
+    <desc lang="fr">Incredibly sexy, young, juicy Euro girls know just how to pleasure themselves, but it's more fun with a man or even two, the pleasure is stronger and sweeter!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402220000 +0200" stop="20260402235300 +0200">
+    <title lang="fr">Cum in My Dreams</title>
+    <desc lang="fr">You can't always get what you want, but you can dream anything you desire! Watch as naughty girls Little Puck, Tera Winters, Izi Blu, and Victoria Voxxx get what they want... dreamy hot satisfaction!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402235300 +0200" stop="20260402235700 +0200">
+    <title lang="fr">Pet of the Month</title>
+    <category lang="fr">Série / Série érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260402235700 +0200" stop="20260403000000 +0200">
+    <title lang="fr">BTS My Stepdaughter Swallows</title>
+    <desc lang="fr">Alessia Luna's in her first Penthouse shoot and she's getting fucked by Jmac! She's a cute blonde with plenty of tats and piercings! Alessia will tell you where you can find her yourself!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
   <programme channel="oqee.699" start="20260402000000 +0200" stop="20260402020000 +0200">
     <title lang="fr">BangBros Bus V6</title>
     <desc lang="fr">The BangBros Bus is out and cruising the streets of Miami. After the boys find some cute young innocent girls the bus is given over to porn stars Abella Danger and Kelsi Monroe. There is nothing innocent about these girls, but they do know how to make a lot of unsuspecting guys in Miami happy!</desc>
@@ -59034,7 +60263,7 @@
   </programme>
   <programme channel="oqee.835" start="20260402190400 +0200" stop="20260402190500 +0200">
     <title lang="fr">Klima Update - S06E26</title>
-    <desc lang="fr">Welche Auswirkungen hat der Klimawandel? Wie viel Zeit bleibt uns noch? Was können wir tun, um der Krise entgegenzuwirken? Das sind bedeutende Fragen unserer Zeit. Clara Pfeffer und Maik Meuser klären im "Klima Update Spezial" nicht nur über den Klimawandel auf, sondern bieten auch konkrete, nachhaltige Lösungsansätze.</desc>
+    <desc lang="fr">Der Klimawandel ist weiter auf dem Vormarsch. In dieser Sendung erklären Christian Häckl und Bernd Fuchs verschiedene Klimaphänomene und ordnen tagesaktuelle Informationen für die Zuschauer ein.</desc>
     <category lang="fr">Magazine / Magazine de l'environnement</category>
   </programme>
   <programme channel="oqee.835" start="20260402190500 +0200" stop="20260402194000 +0200">
@@ -59763,7 +60992,7 @@
   </programme>
   <programme channel="oqee.932" start="20260402032000 +0200" stop="20260402032900 +0200">
     <title lang="fr">Petit poilu - S02E28</title>
-    <desc lang="fr">Petit Poilu fait la connaissance de Marilyn, une bergère louve, et de ses deux petits moutons, Douglas et Lily. Petit Poilu s'amuse avec ses nouveaux copains, mais Marilyn ne les laisse rien faire tout seul : saute-mouton, cueillir des fleurs, grimper sur un muret... Elle trouve tout ça beaucoup trop dangereux !</desc>
+    <desc lang="fr">Petit Poilu quitte chaque matin sa maman et sa maison pour se rendre à l'école. De surprise en surprise, de rencontre en rencontre, il rejoint son monde imaginaire à la découverte de l'espace, des Incas ou encore des fonds marins. Le soir, Petit Poilu revient toujours émerveillé et heureux de ses aventures.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.932" start="20260402032900 +0200" stop="20260402033100 +0200">
