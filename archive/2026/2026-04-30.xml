@@ -452,6 +452,10 @@
     <display-name>MTV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~12551345857d7548.png/480x480/quality/100/mtv.png"/>
   </channel>
+  <channel id="ManX.fr">
+    <display-name>ManX</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/41071287?=.png"/>
+  </channel>
   <channel id="Mangas.fr">
     <display-name>Mangas</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~a624ee4f7be827c4.png/480x480/quality/100/mangas.png"/>
@@ -648,6 +652,10 @@
     <display-name>TIJI</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~bca7f0d3d25813cd.png/480x480/quality/100/tiji.png"/>
   </channel>
+  <channel id="TL7SaintEtienne.fr">
+    <display-name>TL7</display-name>
+    <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/TL7_Saint_etienne_color.png"/>
+  </channel>
   <channel id="TMC.fr">
     <display-name>TMC</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~b2c9618d914140d0.png/480x480/quality/100/tmc.png"/>
@@ -723,6 +731,10 @@
   <channel id="TraceUrban.fr">
     <display-name>Trace Urban</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~b672a3a7ae0004dc.png/480x480/quality/100/trace-urban.png"/>
+  </channel>
+  <channel id="TraceVanilla.frdrom">
+    <display-name>TRACE VANILLA</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/160800/canal-ouah/CHN43FB/TRACEVANILLA_myCANAL_640x480?=.png"/>
   </channel>
   <channel id="Trek.fr">
     <display-name>TREK</display-name>
@@ -932,6 +944,10 @@
     <display-name>Emotion'L+</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3220/w256"/>
   </channel>
+  <channel id="oqee.1210">
+    <display-name>EVTV</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3237/w256"/>
+  </channel>
   <channel id="oqee.1211">
     <display-name>Scream'IN+</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3239/w256"/>
@@ -1132,6 +1148,10 @@
     <display-name>CNN International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1324/w256"/>
   </channel>
+  <channel id="oqee.386">
+    <display-name>ART Aflam 1</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1040/w256"/>
+  </channel>
   <channel id="oqee.396">
     <display-name>Sky News International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1320/w256"/>
@@ -1163,6 +1183,10 @@
   <channel id="oqee.448">
     <display-name>TG+</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3856/w256"/>
+  </channel>
+  <channel id="oqee.485">
+    <display-name>Star TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1640/w256"/>
   </channel>
   <channel id="oqee.488">
     <display-name>ATV Avrupa</display-name>
@@ -2252,7 +2276,7 @@
   </programme>
   <programme channel="AB1.fr" start="20260430191000 +0200" stop="20260430200000 +0200">
     <title lang="fr">Stargate SG-1 - S04E05</title>
-    <desc lang="fr">Le haut conseil de la Tok'ra effectue son premier voyage sur la Terre pour signer le traité officiel définissant l'Alliance des nations contre le peuple Goa'uld. En pleine réunion, le major Graham sort une arme. Il fait feu sur les membres de la Tok'ra, avant de se suicider. Il s'avère que Graham était en réalité un «Zartac», autrement dit la victime d'un procédé de contrôle de l'esprit humain mis au point par des chercheurs goa'ulds. Anise et Martouf sont convaincus que le but des Goa'ulds est de faire échouer le projet de l'Alliance. Le lieutenant Astor accepte de se prêter à une expérience de détection. Les résultats du test révèlent que la jeune femme est elle aussi contaminée et dotée d'une mémoire reprogrammée...</desc>
+    <desc lang="fr">Le haut conseil de la Tok'ra effectue son premier voyage sur la Terre pour signer le traité officiel définissant l'Alliance des nations contre le peuple Goa'uld. En pleine réunion, le major Graham sort une arme. Il fait feu sur les membres de la Tok'ra, avant de se suicider. Il s'avère que Graham était en réalité un "Zartac", autrement dit la victime d'un procédé de contrôle de l'esprit humain mis au point par des chercheurs goa'ulds. Anise et Martouf sont convaincus que le but des Goa'ulds est de faire échouer le projet de l'Alliance. Le lieutenant Astor accepte de se prêter à une expérience de détection. Les résultats du test révèlent que la jeune femme est elle aussi contaminée et dotée d'une mémoire reprogrammée...</desc>
     <category lang="fr">Série / Série de science-fiction</category>
   </programme>
   <programme channel="AB1.fr" start="20260430200000 +0200" stop="20260430205500 +0200">
@@ -4532,12 +4556,12 @@
   </programme>
   <programme channel="Boing.fr" start="20260430153000 +0200" stop="20260430154000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E08</title>
-    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
+    <desc lang="fr">Les bricoleurs profitent de leur jour de congé et décident de construire un terrain de jeu. Chacun travaille à son propre espace de jeu, mais Daffy se laisse emporter par son enthousiasme et finit par empiéter sur les projets des autres.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260430154000 +0200" stop="20260430155000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E07</title>
-    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
+    <desc lang="fr">Alors que les Bricoleurs discutent des bienfaits de la récupération et du recyclage, Taz leur apprend qu'il a démoli sa maison. Les Bricoleurs vont décider de lui en construire une nouvelle, mais sera-t 'elle assez solide pour résister à Taz ?</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260430155000 +0200" stop="20260430160000 +0200">
@@ -4587,12 +4611,12 @@
   </programme>
   <programme channel="Boing.fr" start="20260430173500 +0200" stop="20260430174500 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E06</title>
-    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
+    <desc lang="fr">Le manège de Looneyburg étant tombé en ruine, Les Bricoleurs avec Titi à leur tête prennent la décision d'en construire un nouveau pour tous les enfants de la ville. Cela va s'avérer plus compliqué que prévu.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260430174500 +0200" stop="20260430175500 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E05</title>
-    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
+    <desc lang="fr">Pauleen Pingouin a contacté Looney construction pour lui construire une maison. Alors qu'ils entament la construction, les bricoleurs se rendent compte qu'ils n'ont pas demandé à Pauleen son avis concernant les plans...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260430175500 +0200" stop="20260430181000 +0200">
@@ -6197,7 +6221,7 @@
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260430004200 +0200" stop="20260430005500 +0200">
     <title lang="fr">L'hebd'Hollywood</title>
-    <desc lang="fr">Le magazine trace la chronique de la vie à Hollywood, des grands studios aux indépendants, des stars aux étoiles montantes. Entre événements, indiscrétions et exclusivités, le journaliste Didier Allouch propose depuis Los Angeles un décryptage très personnel de l'actualité du cinéma américain. News sur les tournages, tendances, films en salles, stars : la cité des Anges livre tous ses secrets.</desc>
+    <desc lang="fr">Cette semaine dans l'Hebd'Hollywood : focus sur "Michael", le biopic événement consacré à Michael Jackson, avec les coulisses de sa musique composée par Lior Rosner. Également au menu : "The Invite", la nouvelle comédie d'Olivia Wilde présentée à Sundance avec Seth Rogen et Edward Norton, le documentaire "Lorne" sur Lorne Michaels, créateur du Saturday Night Live, et "Mother Mary" de David Lowery avec Anne Hathaway.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260430005500 +0200" stop="20260430022600 +0200">
@@ -10587,7 +10611,7 @@
   </programme>
   <programme channel="DiscoveryInvestigation.fr" start="20260430103000 +0200" stop="20260430111500 +0200">
     <title lang="fr">Crimes à la une - S04E11</title>
-    <desc lang="fr">Quand Cheryl Coker, une maman poule, disparaît à Riverside dans l'Ohio, les recherches s'avèrent vaines. La police découvre des informations perturbantes et un tas de secrets.</desc>
+    <desc lang="fr">Des journalistes en affaires criminelles révèlent les rebondissements et résolutions inattendus des affaires les plus incroyables de leur carrière.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="DiscoveryInvestigation.fr" start="20260430111500 +0200" stop="20260430120000 +0200">
@@ -23457,6 +23481,16 @@
     <desc lang="fr">Les hôtes font passer les accidents de scooters au niveau supérieur dans "dangers publics" et affrontent la journée des ordures avec "problèmes d'ordures".</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="ManX.fr" start="20260430053500 +0200" stop="20260430060000 +0200">
+    <title lang="fr">Pound me with Love, scène 1</title>
+    <desc lang="fr">Le Néerlandais Liam Holland et le Français Gabriel Parker flip-flopent amoureusement sous le soleil !</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="ManX.fr" start="20260430060000 +0200" stop="20260501000100 +0200">
+    <title lang="fr">Man-X</title>
+    <desc lang="fr">La chaîne Man-X diffuse ses programmes à partir de minuit.</desc>
+    <category lang="fr">Magazine / Magazine pornographique</category>
+  </programme>
   <programme channel="Mangas.fr" start="20260430000500 +0200" stop="20260430003000 +0200">
     <title lang="fr">Les enfants du Mondial - S01E29</title>
     <desc lang="fr">Chili 1962 : la première partie du championnat du Monde se dispute dans un climat de violence sur le terrain et d'arbitrage peu équitable. L'Italie est le bouc émissaire et est battu par le Chili lors d'un match très désordonné où Casati subi les railleries des supporters Chiliens.</desc>
@@ -26206,7 +26240,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260430171400 +0200" stop="20260430172500 +0200">
     <title lang="fr">Ruben &amp; Cie - S01E03</title>
-    <desc lang="fr">Ruben et Charger aident Mme Greatway qui n'arrive pas à se concentrer à cause d'un couinement.</desc>
+    <desc lang="fr">Ruben et sa famille de bricoleurs emménagent à Bricoville et aident les habitants à construire tout ce dont ils ont besoin, en leur offrant un supplément de joie et de bonne humeur. Ruben l'adorable bulldog anglais de la "Pat' Patrouille", doué d'une force exceptionnelle et pour tout ce qui touche à la construction, est au centre de ce spin-of qui devrait réjouir les plus jeunes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260430172500 +0200" stop="20260430174700 +0200">
@@ -26266,7 +26300,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260430202000 +0200" stop="20260430202600 +0200">
     <title lang="fr">Peppa Pig - S07E23</title>
-    <desc lang="fr">Au centre d'escalade, Pappy Rabbit apprend aux enfants à grimper. Pour le mur le plus haut, Papy Rabbit les assure avec une corde. Georges montre tous ses talents mais une fois arrivé en haut, il est pris de peur et se met à pleurer. Maman Pig vole à son secours.</desc>
+    <desc lang="fr">Peppa est une fillette cochon un brin impertinente et quelquefois autoritaire. Elle vit avec ses parents et son petit frère George. Comme tous ses congénères, son passe-temps préféré est de sauter un peu partout dans les flaques de boue, de grogner et de rire. George et Peppa découvrent le monde avec de grands yeux émerveillés et apprennent en même temps tous les mots pour bien se faire comprendre. Ainsi, le bureau de papa Pig, ou la peinture, les fruits ou les poissons n'ont plus de secrets pour eux.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260430202600 +0200" stop="20260430204700 +0200">
@@ -28286,11 +28320,11 @@
   </programme>
   <programme channel="RMCMystere.fr" start="20260430090400 +0200" stop="20260430095200 +0200">
     <title lang="fr">Phénomènes vus de l'espace - S05E05</title>
+    <desc lang="fr">Découvrez le plan de la Chine pour coloniser l'espace, ainsi que les étranges trous de l'Arctique, que la NASA n'a jamais su expliquer...</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
   <programme channel="RMCMystere.fr" start="20260430095200 +0200" stop="20260430104000 +0200">
     <title lang="fr">Phénomènes vus de l'espace - S05E06</title>
-    <desc lang="fr">Chassez Jack l'Eventreur depuis l'espace ! De nouveaux indices relancent l'enquête pour découvrir son identité.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
   <programme channel="RMCMystere.fr" start="20260430104000 +0200" stop="20260430112700 +0200">
@@ -30103,7 +30137,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260430172500 +0200" stop="20260430174500 +0200">
     <title lang="fr">Oscar &amp; Malika, toujours en retard - S03E02</title>
-    <desc lang="fr">Oscar et Malika ont été kidnappés par des extra-terrestres fascinés par leurs aventures matinales. Tellement fascinés que Quotax, le</desc>
+    <desc lang="fr">Oscar et Malika sont voisins et sont scolarisés dans la même classe. Aussi, ils font ensemble chaque matin le chemin vers l'école et, chaque matin, il leur arrive une aventure extraordinaire qui fait que, systématiquement, ils arrivent en retard à l'école. Une création française bourrée d'aventure et d'humour, qui parvient à surprendre à chaque épisode.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260430174500 +0200" stop="20260430175500 +0200">
@@ -30133,7 +30167,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260430185000 +0200" stop="20260430190000 +0200">
     <title lang="fr">Angelo la débrouille - S03E04</title>
-    <desc lang="fr">Quand Alvina décide d'arrêter les cours de danse et se met à squatter le salon, Angelo perd son heure de détente tout seul à la maison. Il faut qu'il trouve un nouveau moyen de faire sortir sa soeur pour retrouver sa tranquillité.</desc>
+    <desc lang="fr">Quand on a onze ans, la vie n'est pas tous les jours facile, surtout pour le pauvre Angelo, avec son petit frère qui lui empoisonne l'existence, sa grande sœur qui le traite comme un gamin, ses parents au temps libre agité. Mais Angelo a des dons d'anthropologue et a fait de l'étude des comportements son arme fatale pour se faire une place dans ce monde sans pitié...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260430190000 +0200" stop="20260430192000 +0200">
@@ -30573,7 +30607,7 @@
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260430122000 +0200" stop="20260430125000 +0200">
     <title lang="fr">Au nom de la vérité - S04E27</title>
-    <desc lang="fr">Au cœur de situations difficiles, des héros ordinaires font face à des décisions cruciales. Chaque épisode présente une tranche de vie à laquelle le spectateur peut s'identifier, mettant en scène des dilemmes familiaux et personnels. Ces récits captivants explorent les choix complexes auxquels nous sommes tous confrontés, offrant un miroir de nos propres expériences et défis quotidiens.</desc>
+    <desc lang="fr">Chacun d'entre nous s'est déjà retrouvé au moins une fois, au coeur de la tourmente. Au nom de la vérité est une nouvelle fiction quotidienne de vingt-six minutes, qui s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans laquelle chacun peut s'identifier ou projeter sa propre famille. Ces moments qui dérapent, ces accidents de la vie, ces histoires secrètes qui encombrent notre quotidien. C'est tout l'univers de votre nouvelle série.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260430125000 +0200" stop="20260430132000 +0200">
@@ -31000,6 +31034,360 @@
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430000100 +0200" stop="20260430001600 +0200">
+    <title lang="fr">Pass' Moi l'Assoc</title>
+    <desc lang="fr">Encore plus d'actualités régionales avec le magazine Pass' Moi l'Assoc.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430001600 +0200" stop="20260430003000 +0200">
+    <title lang="fr">Parcours de vie</title>
+    <desc lang="fr">Parcours de vie est une série documentaire qui vous informe sur différents domaines de la vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430003000 +0200" stop="20260430005100 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430005100 +0200" stop="20260430010200 +0200">
+    <title lang="fr">Bienvenue chez vous</title>
+    <desc lang="fr">Découvrir ou redécouvrir les villes, villages et quartier de notre département.</desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430010200 +0200" stop="20260430012500 +0200">
+    <title lang="fr">Côté scène</title>
+    <desc lang="fr">Chantale Joassard ouvre la parenthèse sur l'univers d'un artiste.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430012500 +0200" stop="20260430015800 +0200">
+    <title lang="fr">Culture TL7</title>
+    <desc lang="fr">Trouvez tout ce qui vous intéresse sur les actualités culturelles de la région.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430015800 +0200" stop="20260430021700 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430021700 +0200" stop="20260430022700 +0200">
+    <title lang="fr">Parcours de vie</title>
+    <desc lang="fr">Parcours de vie est une série documentaire qui vous informe sur différents domaines de la vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430022700 +0200" stop="20260430024400 +0200">
+    <title lang="fr">Vu d'ici</title>
+    <desc lang="fr">Vu d'ici vous informe sur l'actualité de la région de la Loire.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430024400 +0200" stop="20260430030200 +0200">
+    <title lang="fr">Au féminin</title>
+    <desc lang="fr">Un magazine créé pour plaire au public féminin.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430030200 +0200" stop="20260430030800 +0200">
+    <title lang="fr">Bienvenue chez vous</title>
+    <desc lang="fr">Découvrir ou redécouvrir les villes, villages et quartier de notre département.</desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430030800 +0200" stop="20260430032600 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430032600 +0200" stop="20260430042400 +0200">
+    <title lang="fr">Documentaire</title>
+    <desc lang="fr">Un documentaire qui sera annoncé par la chaîne.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430042400 +0200" stop="20260430043800 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430043800 +0200" stop="20260430051400 +0200">
+    <title lang="fr">C'est par ici la sortie</title>
+    <desc lang="fr">Rejoignez-nous pour une rencontre informative et intéressante.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430051400 +0200" stop="20260430052900 +0200">
+    <title lang="fr">Côté scène rétro</title>
+    <desc lang="fr">Magazine qui vous offre le portrait intimiste d'un artiste ou d'un événement culturel.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430052900 +0200" stop="20260430054400 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430054400 +0200" stop="20260430060100 +0200">
+    <title lang="fr">Grand tourisme</title>
+    <desc lang="fr">Reportage touristique, sur les meilleurs destinations à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine du tourisme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430060100 +0200" stop="20260430061600 +0200">
+    <title lang="fr">Pass' Moi l'Assoc</title>
+    <desc lang="fr">Encore plus d'actualités régionales avec le magazine Pass' Moi l'Assoc.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430061600 +0200" stop="20260430062800 +0200">
+    <title lang="fr">Parcours de vie</title>
+    <desc lang="fr">Parcours de vie est une série documentaire qui vous informe sur différents domaines de la vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430062800 +0200" stop="20260430064800 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430064800 +0200" stop="20260430072300 +0200">
+    <title lang="fr">Culture TL7</title>
+    <desc lang="fr">Trouvez tout ce qui vous intéresse sur les actualités culturelles de la région.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430072300 +0200" stop="20260430074000 +0200">
+    <title lang="fr">Côté scène</title>
+    <desc lang="fr">Chantale Joassard ouvre la parenthèse sur l'univers d'un artiste.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430074000 +0200" stop="20260430080200 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430080200 +0200" stop="20260430081800 +0200">
+    <title lang="fr">Evénements en Rhône-Alpes</title>
+    <desc lang="fr">Pour être au courant avec tous les événements dans la région de Rhône-Alpes.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430081800 +0200" stop="20260430083400 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430083400 +0200" stop="20260430085100 +0200">
+    <title lang="fr">Vu d'ici</title>
+    <desc lang="fr">Vu d'ici vous informe sur l'actualité de la région de la Loire.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430085100 +0200" stop="20260430090900 +0200">
+    <title lang="fr">Au féminin</title>
+    <desc lang="fr">Un magazine créé pour plaire au public féminin.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430090900 +0200" stop="20260430093400 +0200">
+    <title lang="fr">Bienvenue hebdo</title>
+    <desc lang="fr">Nous partageons avec vous les actualités de la Loire.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430093400 +0200" stop="20260430100100 +0200">
+    <title lang="fr">Hebdo Parcours de vie</title>
+    <desc lang="fr">Venez découvrir les nouveaux points de vue avec Parcours de vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430100100 +0200" stop="20260430102900 +0200">
+    <title lang="fr">Grand tourisme</title>
+    <desc lang="fr">Reportage touristique, sur les meilleurs destinations à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine du tourisme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430102900 +0200" stop="20260430104900 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430104900 +0200" stop="20260430122000 +0200">
+    <title lang="fr">Anciens programmes</title>
+    <desc lang="fr">Émission qui vous offre les meilleurs programmes de TL7 à revoir.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430122000 +0200" stop="20260430125200 +0200">
+    <title lang="fr">Sport 7</title>
+    <desc lang="fr">L'actualité sportive de la Loire, zoom sur le basket, le foot et le rallye automobile. </desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430125200 +0200" stop="20260430130600 +0200">
+    <title lang="fr">Bienvenue chez vous</title>
+    <desc lang="fr">Découvrir ou redécouvrir les villes, villages et quartier de notre département.</desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430130600 +0200" stop="20260430132200 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430132200 +0200" stop="20260430133700 +0200">
+    <title lang="fr">Côté scène</title>
+    <desc lang="fr">Chantale Joassard ouvre la parenthèse sur l'univers d'un artiste.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430133700 +0200" stop="20260430134500 +0200">
+    <title lang="fr">Parcours de vie</title>
+    <desc lang="fr">Parcours de vie est une série documentaire qui vous informe sur différents domaines de la vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430134500 +0200" stop="20260430140400 +0200">
+    <title lang="fr">JT des autres</title>
+    <desc lang="fr">Journal télévisé d'informations nationales et internationales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430140400 +0200" stop="20260430143300 +0200">
+    <title lang="fr">Evénements en Rhône-Alpes</title>
+    <desc lang="fr">Pour être au courant avec tous les événements dans la région de Rhône-Alpes.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430143300 +0200" stop="20260430143900 +0200">
+    <title lang="fr">Parcours de vie</title>
+    <desc lang="fr">Parcours de vie est une série documentaire qui vous informe sur différents domaines de la vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430143900 +0200" stop="20260430150100 +0200">
+    <title lang="fr">Côté scène</title>
+    <desc lang="fr">Chantale Joassard ouvre la parenthèse sur l'univers d'un artiste.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430150100 +0200" stop="20260430153400 +0200">
+    <title lang="fr">Culture TL7</title>
+    <desc lang="fr">Trouvez tout ce qui vous intéresse sur les actualités culturelles de la région.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430153400 +0200" stop="20260430170400 +0200">
+    <title lang="fr">Anciens programmes</title>
+    <desc lang="fr">Émission qui vous offre les meilleurs programmes de TL7 à revoir.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430170400 +0200" stop="20260430171300 +0200">
+    <title lang="fr">Parcours de vie</title>
+    <desc lang="fr">Parcours de vie est une série documentaire qui vous informe sur différents domaines de la vie.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430171300 +0200" stop="20260430171900 +0200">
+    <title lang="fr">Bienvenue chez vous</title>
+    <desc lang="fr">Découvrir ou redécouvrir les villes, villages et quartier de notre département.</desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430171900 +0200" stop="20260430173500 +0200">
+    <title lang="fr">Grand tourisme</title>
+    <desc lang="fr">Reportage touristique, sur les meilleurs destinations à découvrir.</desc>
+    <category lang="fr">Magazine / Magazine du tourisme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430173500 +0200" stop="20260430174100 +0200">
+    <title lang="fr">Music Live</title>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430174100 +0200" stop="20260430175800 +0200">
+    <title lang="fr">Vu d'ici</title>
+    <desc lang="fr">Vu d'ici vous informe sur l'actualité de la région de la Loire.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430175800 +0200" stop="20260430183000 +0200">
+    <title lang="fr">Au féminin</title>
+    <desc lang="fr">Un magazine créé pour plaire au public féminin.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430183000 +0200" stop="20260430185000 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430185000 +0200" stop="20260430185200 +0200">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Pour être toujours au courant avec les actualités météorologiques de la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430185200 +0200" stop="20260430185400 +0200">
+    <title lang="fr">Agenda des sorties</title>
+    <desc lang="fr">Toutes les sorties culturelles de la région de la Loire.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430185400 +0200" stop="20260430190000 +0200">
+    <title lang="fr">Bienvenue chez vous</title>
+    <desc lang="fr">Découvrir ou redécouvrir les villes, villages et quartier de notre département.</desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430190000 +0200" stop="20260430190400 +0200">
+    <title lang="fr">Agenda région</title>
+    <desc lang="fr">Magazine culturel qui vous fait découvrir les loisirs proposés dans la région.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430190400 +0200" stop="20260430190800 +0200">
+    <title lang="fr">Tourisme en Loire</title>
+    <desc lang="fr">Découvrez tout ce qu'il faut savoir des actualités touristiques dans la région.</desc>
+    <category lang="fr">Magazine / Magazine du tourisme</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430190800 +0200" stop="20260430191000 +0200">
+    <title lang="fr">Place à la santé</title>
+    <desc lang="fr">Place à la santé est un programme d'éducation à la santé par l'information, il aborde, chaque semaine, un thème different. Des personnalités reconnues du monde médical participent au serieux de l'émission.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430191000 +0200" stop="20260430193000 +0200">
+    <title lang="fr">Autour des Verts</title>
+    <desc lang="fr">Suivez Autours des Verts pour tout savoir de l'actualité de l'AS Saint-Étienne.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430193000 +0200" stop="20260430200400 +0200">
+    <title lang="fr">Autour des Verts</title>
+    <desc lang="fr">Suivez Autours des Verts pour tout savoir de l'actualité de l'AS Saint-Étienne.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430200400 +0200" stop="20260430201000 +0200">
+    <title lang="fr">Agenda ciné</title>
+    <desc lang="fr">Agenda de tous les cinémas de région de la Loire.</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430201000 +0200" stop="20260430202900 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430202900 +0200" stop="20260430203000 +0200">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Pour être toujours au courant avec les actualités météorologiques de la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430203000 +0200" stop="20260430203100 +0200">
+    <title lang="fr">Place à vous</title>
+    <desc lang="fr">Place à vous est un magazine informatif court.</desc>
+    <category lang="fr">Magazine / Magazine de services</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430203100 +0200" stop="20260430204000 +0200">
+    <title lang="fr">Carbone 42</title>
+    <desc lang="fr">Carbone 42 est un magazine qui aborde les sujets scientifiques.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430204000 +0200" stop="20260430204500 +0200">
+    <title lang="fr">Ambassadeur en Rhône-Alpes</title>
+    <desc lang="fr">L'ambassadeur vous parle des actualités économiques et sociales de la région.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430204500 +0200" stop="20260430222600 +0200">
+    <title lang="fr">Documentaire</title>
+    <desc lang="fr">Un documentaire qui sera annoncé par la chaîne.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430222600 +0200" stop="20260430224000 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430224000 +0200" stop="20260430231600 +0200">
+    <title lang="fr">Autour des Verts</title>
+    <desc lang="fr">Suivez Autours des Verts pour tout savoir de l'actualité de l'AS Saint-Étienne.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430231600 +0200" stop="20260430233100 +0200">
+    <title lang="fr">Evénements en Rhône-Alpes</title>
+    <desc lang="fr">Pour être au courant avec tous les événements dans la région de Rhône-Alpes.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430233100 +0200" stop="20260430234600 +0200">
+    <title lang="fr">JT TL7</title>
+    <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="TL7SaintEtienne.fr" start="20260430234600 +0200" stop="20260501000300 +0200">
+    <title lang="fr">Côté scène</title>
+    <desc lang="fr">Chantale Joassard ouvre la parenthèse sur l'univers d'un artiste.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
   </programme>
   <programme channel="TMC.fr" start="20260430014100 +0200" stop="20260430074000 +0200">
     <title lang="fr">Programmes de la nuit</title>
@@ -31515,7 +31903,7 @@
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="TV5Monde.fr" start="20260430173100 +0200" stop="20260430180000 +0200">
-    <title lang="fr">Tendance XXI - S12E04</title>
+    <title lang="fr">Tendance XXI</title>
     <desc lang="fr">Balade rue Sainte-Marthe, à la découverte d'artisans passionnés. Classé monument historique, l'Orient-Express n'a pas fini de révéler ses secrets. Le restaurant bouillon, un lieu modeste devenu tendance. À Roubaix, une ancienne piscine Art déco transformée en musée attire les touristes du monde entier. Le vestiaire de l'explorateur envahit les défilés. Commentaires : Viviane Blassel</desc>
     <category lang="fr">Magazine / Magazine de la mode</category>
   </programme>
@@ -34390,7 +34778,7 @@
     <category lang="fr">Magazine / Magazine judiciaire</category>
   </programme>
   <programme channel="Teva.fr" start="20260430215500 +0200" stop="20260430230000 +0200">
-    <title lang="fr">Au coeur du crime</title>
+    <title lang="fr">Au coeur du crime - S03E14</title>
     <desc lang="fr">Une nuit de février 2018, Estelle Veneut, 34 ans, disparaît mystérieusement. Ses proches soupçonnent son compagnon, qui serait tyrannique et d'une jalousie maladive. Les gendarmes recueillent un témoignage providentiel : celui de la fille du couple, qui aurait vu ce qu'il se serait passé ce soir-là.</desc>
     <category lang="fr">Magazine / Magazine judiciaire</category>
   </programme>
@@ -35306,6 +35694,66 @@
     <title lang="fr">Rap Contenders</title>
     <desc lang="fr">Un évènement majeur de Battle Rap qui célèbre les talents du genre : les participants s'affrontent avec un temps limité pour discréditer l'adversaire.</desc>
     <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430010000 +0200" stop="20260430020000 +0200">
+    <title lang="fr">Nouvotes</title>
+    <desc lang="fr">Trace te propose une selection des meilleures nouveautées des Iles vanille.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430020000 +0200" stop="20260430040000 +0200">
+    <title lang="fr">Sweet zone</title>
+    <desc lang="fr">Sweet Zone apporte les vidéos les plus fraîches pour une sensation de bien-être ultime.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430040000 +0200" stop="20260430070000 +0200">
+    <title lang="fr">Vanilla night</title>
+    <desc lang="fr">La douceur de l'océan indien.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430070000 +0200" stop="20260430090000 +0200">
+    <title lang="fr">Muzik des îles</title>
+    <desc lang="fr">La musique ne s'arrête jamais sur TRACE Vanilla! La Musique des Iles est là pour vous faire profiter des meilleurs hits de l'océan indien.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430090000 +0200" stop="20260430120000 +0200">
+    <title lang="fr">Wake Up</title>
+    <desc lang="fr">Réveille toi en douceur avec les morceaux des îles Vanille sur Trace Vanilla.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430120000 +0200" stop="20260430150000 +0200">
+    <title lang="fr">Bonzour</title>
+    <desc lang="fr">De la musique pour bien commencer la matinée et se réchauffer pour le reste de la journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430150000 +0200" stop="20260430160000 +0200">
+    <title lang="fr">Hit 10</title>
+    <desc lang="fr">Le classement quotidien des 10 meilleurs morceaux des îles du moment, uniquement sur TRACE Vanilla.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430160000 +0200" stop="20260430190000 +0200">
+    <title lang="fr">Muzik des îles</title>
+    <desc lang="fr">La musique ne s'arrête jamais sur TRACE Vanilla! La Musique des Iles est là pour vous faire profiter des meilleurs hits de l'océan indien.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430190000 +0200" stop="20260430210000 +0200">
+    <title lang="fr">Vanilla vibes</title>
+    <desc lang="fr">Toutes les musiques de l'océan indien dans Vanilla vibes.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430210000 +0200" stop="20260430221500 +0200">
+    <title lang="fr">Afterschool vibes</title>
+    <desc lang="fr">1 heure de Hits pour s'ambiancer après l'école sur les morceaux des îles Vanille.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430221500 +0200" stop="20260430230000 +0200">
+    <title lang="fr">Hit 10</title>
+    <desc lang="fr">Le classement quotidien des 10 meilleurs morceaux des îles du moment, uniquement sur TRACE Vanilla.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceVanilla.frdrom" start="20260430230000 +0200" stop="20260501010000 +0200">
+    <title lang="fr">Hits Non Stop</title>
+    <desc lang="fr">Hits non stop, c'est la playlist à ne pas manquer pour suivre les tendances. A découvrir, des compilations des meilleurs tubes pour rester dans le rythme.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="Trek.fr" start="20260430004100 +0200" stop="20260430022000 +0200">
     <title lang="fr">The Longest Wave - S01E01</title>
@@ -38104,7 +38552,7 @@
   </programme>
   <programme channel="oqee.1061" start="20260430082700 +0200" stop="20260430083500 +0200">
     <title lang="fr">T'choupi à l'école - S02E40</title>
-    <desc lang="fr">T'choupi revient en 3D et à l'école. Accompagné de ses meilleurs amis Pilou, Lalou et de Doudou, il fera face à de petits tracas mais il trouvera toujours une solution. T'choupi et ses meilleurs amis, Lalou et Pilou, s'amusent toujours autant à la maternelle. Grâce à leur maîtresse Sybille, depuis peu, l'après-midi est dédiée à des activités périscolaires avec pour objectif de développer l'éveil artistique et corporel des enfants ainsi que découvrir le monde qui les entoure.</desc>
+    <desc lang="fr">Ce soir, Anna les emmène faire une balade en poney ! Particulièrement enthousiaste, T'choupi passe la journée à raconter aux copains qu'il est un super chevalier ! Mais quand vient le moment de monter en selle, il fait un mouvement brusque, effrayant son cheval qui se met alors à hennir très fort... Apeuré, T'choupi invente des excuses pour ne pas faire la balade sur son poney. Parviendra-t-il à surmonter sa peur ?</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.1061" start="20260430083500 +0200" stop="20260430084200 +0200">
@@ -44144,6 +44592,34 @@
     <desc lang="fr">Shania Dhalival, une journaliste américaine, se rend en Inde afin de réaliser un reportage destiné à un magazine sur un sujet original. En effet, la jeune femme a été chargée par sa direction de mener une enquête sur les mariages, un sujet qui passionne les lecteurs aux Etats-Unis. Sur place, Shania découvre des coutumes surprenantes, et rencontre des "hijras", personnes issues d'un troisième genre dont elle n'avait jamais entendu parler, et chargées de danser pendant les cérémonies. Pourtant, très vite, elle attire l'attention d'un policier convaincu qu'elle est une espionne en mission et qui se met à épier ses moindres faits et gestes...</desc>
     <category lang="fr">Film / Comédie dramatique</category>
   </programme>
+  <programme channel="oqee.1210" start="20260430000000 +0200" stop="20260430060000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260430060000 +0200" stop="20260430090000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260430090000 +0200" stop="20260430120000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260430120000 +0200" stop="20260430150000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260430150000 +0200" stop="20260430180000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260430180000 +0200" stop="20260430210000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260430210000 +0200" stop="20260501000000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
   <programme channel="oqee.1211" start="20260430000300 +0200" stop="20260430012400 +0200">
     <title lang="fr">La saison des requins</title>
     <desc lang="fr">Pour une séance photo, Sarah, une mannequin, Jason, son ex-petit ami photographe, et Meghan, une maquilleuse, rejoignent en kayak une petite île qui a récemment émergé au large de la Floride à la suite d'un ouragan. Les trois jeunes gens ignorent que cette zone est le territoire de chasse d'un très grand requin blanc. A leur arrivée sur l'ilot, Sarah et Jason plongent pour faire des photos sous-marines. Cette sortie se termine tragiquement pour Jason, mortellement blessé par le requin. Désormais livrées à elles-mêmes, Sarah et Meghan réalisent que l'île va être bientôt totalement inondée par la marée montante. Leur seule chance de survie est de tenter de regagner le continent...</desc>
@@ -48046,6 +48522,186 @@
     <desc lang="fr">GOD TV Today is our weekly show, filled with hope, testimonies, and stories of the goodness of God from around the world.</desc>
     <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
+  <programme channel="oqee.1404" start="20260430060000 +0200" stop="20260430063000 +0200">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430063000 +0200" stop="20260430070000 +0200">
+    <title lang="fr">Victory Today - Sam Luke - S26E17</title>
+    <desc lang="fr">Victory Tabernacle is dedicated to proclaiming the gospel of Jesus Christ, empowered by the Spirit of Pentecost, with vision rooted in comprehension of God's divine purpose for His church.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430070000 +0200" stop="20260430073000 +0200">
+    <title lang="fr">Turning Point - S26E89</title>
+    <desc lang="fr">Dr David Jeremiah of Turning Point Broadcast Ministries and Shadow Mountain Church has a passion for people and a clear mission: Delivering the unchanging Word of God to an ever-changing world.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430073000 +0200" stop="20260430080000 +0200">
+    <title lang="fr">Creflo Dollar - S26E89</title>
+    <desc lang="fr">Creflo Dollar is an American televangelist, rap artist and the founder of the non-denominational World Changers Church International based in Georgia. In his TV church service he offers faith as solution to all problems people encounter every day. Creflo encourages people to pursue a personal relationship with God, to find truth and empowerment no matter what they are going through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430080000 +0200" stop="20260430083000 +0200">
+    <title lang="fr">Believer's Walk of Faith - S26E89</title>
+    <desc lang="fr">Speak the Word only. No matter how difficult it seems, you've got to sow the Word of God!</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430083000 +0200" stop="20260430090000 +0200">
+    <title lang="fr">Gospel Truth - Andrew Wommack - S26E89</title>
+    <desc lang="fr">Andrew shares various truths about healing from God's Word while highlighting amazing healing testimonies.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430090000 +0200" stop="20260430093000 +0200">
+    <title lang="fr">Joyce Meyer Ministries - S26E89</title>
+    <desc lang="fr">You're capable of far more than you give yourself credit for. Today, Joyce teaches how understanding your identity in Christ helps you walk in joy, authority, and confidence.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430093000 +0200" stop="20260430100000 +0200">
+    <title lang="fr">Joseph Prince - S26E89</title>
+    <desc lang="fr">The pastor of New Creation Church Singapore, Joseph Prince, talks about God's plan for and place in people's lives in a message called Live In The Now.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430100000 +0200" stop="20260430103000 +0200">
+    <title lang="fr">Frontliner Faith with Aaron Garcia - S26E18</title>
+    <desc lang="fr">Aaron Garcia of Revival City Church, Utah, presents Frontliner Faith - Empowering and equipping believers to put their faith into action - on the Front Line.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430103000 +0200" stop="20260430110000 +0200">
+    <title lang="fr">Voices of Revival - Ps Featherstone - S26E17</title>
+    <desc lang="fr">Jon Featherstone of Elim Church brings this new weekly message of faith, joy and praise.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430110000 +0200" stop="20260430113000 +0200">
+    <title lang="fr">Derek Prince - S26E18</title>
+    <desc lang="fr">Known as a modern day apostle, the late Derek Prince's legacy lives on through Derek Prince Ministries and a vast archive of teaching materials that explain God's Word in ways everyone can understand.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430113000 +0200" stop="20260430120000 +0200">
+    <title lang="fr">Capps Chapel with Annette Capps - S26E18</title>
+    <desc lang="fr">Be refreshed, ignited, and experience a breakthrough with God! Powerful, practical Spirit-led teaching with prophetic insight!</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430120000 +0200" stop="20260430123000 +0200">
+    <title lang="fr">Rick Renner - S26E89</title>
+    <desc lang="fr">Rick Renner uses in-depth, engaging Bible teaching with his unique ability to draw vividly descriptive word pictures from Greek text, to help listeners gain new insight from God's Word.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430123000 +0200" stop="20260430130000 +0200">
+    <title lang="fr">What's the Word with Bryan Wright - S26E17</title>
+    <desc lang="fr">Bryan Wright of Boomerang Church, NC, approaches the Word with hunger and humility. This series carries on from his What's The Word Podcast.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430130000 +0200" stop="20260430133000 +0200">
+    <title lang="fr">Experience HIM with Tracy Harris - S26E89</title>
+    <desc lang="fr">Pastor Harris's messages carry an emphasis on the integrity of the Word of God, ministered with a prophetic edge, demonstration of the Spirit, and abundant proof of Jesus' Presence.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430133000 +0200" stop="20260430140000 +0200">
+    <title lang="fr">Know the Cause - Doug Kaufmann - S26E89</title>
+    <desc lang="fr">Doug Kaufmann looks at symptoms behind illness and allergies and suggests healthy, healing approaches. With scientific input from top health professionals who discuss diet, exercise and supplements.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430140000 +0200" stop="20260430143000 +0200">
+    <title lang="fr">Revival Ready - Steve Uppal</title>
+    <desc lang="fr">The world and the church are changing. Many resist change, clinging to the familiar and denying reality. Revival Ready explores the effects these changes have on individuals, families and Churches.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430143000 +0200" stop="20260430150000 +0200">
+    <title lang="fr">CfAN TV - S26E89</title>
+    <desc lang="fr">The CEO of Christ for all Nations (CfaN) Daniel Kolenda shares a challenging word, drawing from his experiences on the mission field, where CfaN has received over 75 million decision cards for Christ</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430150000 +0200" stop="20260430153000 +0200">
+    <title lang="fr">Love of God with Pastor Randy Brodhagen - S26E18</title>
+    <desc lang="fr">Glory to God Ministries was established to further the proclamation of God's Word and equip God's people for ministry, and to encourage and assist all believers in carrying out the Great Commission.</desc>
+    <category lang="fr">Divers / Emission religieuse</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430153000 +0200" stop="20260430160000 +0200">
+    <title lang="fr">700 Club Interactive - S26E89</title>
+    <desc lang="fr">700 Club Interactive is dedicated to prayer, positive Christian news, and community. Hosted by Andrew Knox and Ashley Key, and featuring uplifting stories and encouragement every Monday-Thursday.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430160000 +0200" stop="20260430163000 +0200">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430163000 +0200" stop="20260430170000 +0200">
+    <title lang="fr">Allen Jackson Ministries - S26E89</title>
+    <desc lang="fr">Pastor Allen Jackson brings a biblical perspective to the ever-changing world, encouraging believers to lead with their faith in every arena—no matter what shaking the season may bring.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430170000 +0200" stop="20260430173000 +0200">
+    <title lang="fr">GOD TV Today</title>
+    <desc lang="fr">GOD TV Today is our weekly show, filled with hope, testimonies, and stories of the goodness of God from around the world.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430173000 +0200" stop="20260430180000 +0200">
+    <title lang="fr">Rev it Up with Dr. Sam Kojoglanian - S26E18</title>
+    <desc lang="fr">Beacon of Heart's mission is to proclaim Christ's salvation to all nations and peoples, starting locally and going globally.Our calling is to Revive souls, Restore the weary, and Return hearts to God</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430180000 +0200" stop="20260430183000 +0200">
+    <title lang="fr">Jewish Voice - Rabbi Bernis - S26E18</title>
+    <desc lang="fr">Rabbi Jonathan Bernis of Jewish Voice Ministries provides valuable insights into the Jewish roots of Christianity.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430183000 +0200" stop="20260430190000 +0200">
+    <title lang="fr">Wonders Without Numbers - S26E18</title>
+    <desc lang="fr">Dive into Timothy Mahoney's films he has produced and the wonderful things he and his team have uncovered.</desc>
+    <category lang="fr">Documentaire / Documentaire civilisations</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430190000 +0200" stop="20260430193000 +0200">
+    <title lang="fr">CBN Christian World News - S26E17</title>
+    <desc lang="fr">A biblical perspective to today's news and headlines.</desc>
+    <category lang="fr">Divers / Emission religieuse</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430193000 +0200" stop="20260430200000 +0200">
+    <title lang="fr">Creflo Dollar - S26E89</title>
+    <desc lang="fr">Creflo Dollar is an American televangelist, rap artist and the founder of the non-denominational World Changers Church International based in Georgia. In his TV church service he offers faith as solution to all problems people encounter every day. Creflo encourages people to pursue a personal relationship with God, to find truth and empowerment no matter what they are going through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430200000 +0200" stop="20260430203000 +0200">
+    <title lang="fr">Revival Ready - Steve Uppal</title>
+    <desc lang="fr">The world and the church are changing. Many resist change, clinging to the familiar and denying reality. Revival Ready explores the effects these changes have on individuals, families and Churches.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430203000 +0200" stop="20260430210000 +0200">
+    <title lang="fr">Gospel Truth - Andrew Wommack - S26E89</title>
+    <desc lang="fr">Andrew shares various truths about healing from God's Word while highlighting amazing healing testimonies.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430210000 +0200" stop="20260430213000 +0200">
+    <title lang="fr">Joyce Meyer Ministries - S26E89</title>
+    <desc lang="fr">You're capable of far more than you give yourself credit for. Today, Joyce teaches how understanding your identity in Christ helps you walk in joy, authority, and confidence.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430213000 +0200" stop="20260430220000 +0200">
+    <title lang="fr">Courts of Heaven - Robert Henderson</title>
+    <desc lang="fr">Apostle Robert Henderson seeks to disciple the nations and bring people into their Kingdom Destiny through his show, Courts of Heaven.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430220000 +0200" stop="20260430223000 +0200">
+    <title lang="fr">Through the Bible - Andrew Wommack - S26E86</title>
+    <desc lang="fr">In this verse-by-verse journey from Genesis to Revelation, Andrew goes deep, unpacking Scripture line by line and helping you build a solid foundation in the Word for everyday life and discipleship.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430223000 +0200" stop="20260430230000 +0200">
+    <title lang="fr">GOD TV Today</title>
+    <desc lang="fr">GOD TV Today is our weekly show, filled with hope, testimonies, and stories of the goodness of God from around the world.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430230000 +0200" stop="20260430233000 +0200">
+    <title lang="fr">GOD TV Programming</title>
+    <desc lang="fr">A GOD TV update on all the lastest developments in the ministry, across the globe with viewer's input, testimonies and encouragement, highlighting what it means to be a media missionary.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1404" start="20260430233000 +0200" stop="20260501000000 +0200">
+    <title lang="fr">The Marriage Podcast</title>
+    <desc lang="fr">Today on The Marriage Podcast we talk about handling conflict and fighting fair in marriage. Marriage isn't about our own agenda, but how we can be like Jesus and serve our spouse.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
   <programme channel="oqee.1415" start="20260430004000 +0200" stop="20260430004500 +0200">
     <title lang="fr">Journal Météo Climat</title>
     <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
@@ -49718,6 +50374,7 @@
   </programme>
   <programme channel="oqee.264" start="20260430183400 +0200" stop="20260430190000 +0200">
     <title lang="fr">Cosy, le mag déco</title>
+    <desc lang="fr">Cette semaine, Caroline Boeglin nous emmène à la Manufacture de Mulhouse, un ancien quartier industriel, où Phil Haumesser s'est aménagé un loft à la fois artistique et authentique, où il marie ingénieusement récup et design. Chaque recoin regorge de créativité : tabourets en caisses de transport, salle de bain en container maritime, suspensions...</desc>
     <category lang="fr">Magazine / Magazine de la décoration</category>
   </programme>
   <programme channel="oqee.264" start="20260430190000 +0200" stop="20260430190400 +0200">
@@ -53632,6 +54289,16 @@
     <desc lang="fr">One of the CNN's longest running programmes that allows viewers to find out all the global sports news, see all the important events and most interesting parts, and enjoy the interviews with sports pundits and various sports stars.</desc>
     <category lang="fr">Divers / JT sport</category>
   </programme>
+  <programme channel="oqee.386" start="20260430013000 +0200" stop="20260430040000 +0200">
+    <title lang="fr">Risala Iilaa Alwali</title>
+    <desc lang="fr">Harfouche est choisi pour se rendre auprès du gouverneur Muhammad Ali afin de lui présenter un problème, mais il rencontre en chemin quelqu'un qui l'emmène au XXe siècle.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.386" start="20260430040000 +0200" stop="20260430060000 +0200">
+    <title lang="fr">Halim El Raad</title>
+    <desc lang="fr">Halim est autiste et vit avec sa mère veuve en ville, où il a l'habitude de passer de longues heures collé à l'écran de télévision à regarder des dessins animés, inconscient de ce qui se passe autour de lui et immergé dans son propre monde, mais il est sensible et s'efforce toujours d'être comme son modèle, le personnage de dessin animé "Hazem le Tonnerre", pour protéger tous les faibles.</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
   <programme channel="oqee.396" start="20260430000000 +0200" stop="20260430003000 +0200">
     <title lang="fr">The Wrap</title>
     <desc lang="fr">De 22 heures à minuit, cette émission de débat est consacrée à l'analyse et à l'interprétation de l'actualité du jour.</desc>
@@ -54934,6 +55601,56 @@
     <title lang="fr">LE +</title>
     <desc lang="fr">Chaque jour, Yann et Marie-Caroline vous en donnent + : un rendez-vous quotidien où l'actualité se vit en direct. Toutes les 30 minutes, retrouvez l'Actu du + et la météo des Isérois.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430013000 +0200" stop="20260430040000 +0200">
+    <title lang="fr">Sefirin Kizi</title>
+    <desc lang="fr">Bir yarıcının oğlu olan Sancar ile bir büyükelçinin kızı Nare çocukluk yıllarında tanışır ve aralarındaki bağ zamanla büyük bir aşka dönüşür. İki farklı dünyanın insanı olan bu gençler tüm engellere rağmen birbirlerinden vazgeçmez ve yıllarca mücadele eder. Sonunda birlikte kaçmaya karar verirler ancak tam kavuşacaklarını sandıkları gece Nare gizemli biçimde ortadan kaybolur. Onun denize düştüğü ya da uzak diyarlara gittiği konuşulur ve bu hüzünlü hikaye zamanla bir efsaneye dönüşür. Aradan dokuz yıl geçtikten sonra Nare beklenmedik bir anda Sancar'ın düğün gecesinde ortaya çıkar ve yanında küçük kızını getirir.</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430040000 +0200" stop="20260430060000 +0200">
+    <title lang="fr">Aramızda Kalsın</title>
+    <desc lang="fr">Kocası tarafından ihanete uğradığını öğrenen Yadigar, yıkılan hayatından kaçmak için iki çocuğunu alarak Antep'teki evini terk eder. Yaşadığı acı ve şaşkınlığın ardından, annesinin ölmeden önce yazdığı mektupta bahsettiği gizemli bir emanetin izini sürmeye başlar. Bu emanet, onun için geçmişle yüzleşmenin ve geleceğe dair yeni bir umut bulmanın anahtarıdır. Yolculuğu Yadigar'ı İstanbul'daki teyzesinin yanına götürürken, karşısına bambaşka hayatlar ve yeni başlangıçlar çıkar. Aile bağları, kayıplar ve sürprizlerle dolu bu hikâye, izleyiciyi duygusal ve sürükleyici bir yolculuğa davet eder.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430060000 +0200" stop="20260430083000 +0200">
+    <title lang="fr">Sefirin Kizi</title>
+    <desc lang="fr">Bir yarıcının oğlu olan Sancar ile bir büyükelçinin kızı Nare çocukluk yıllarında tanışır ve aralarındaki bağ zamanla büyük bir aşka dönüşür. İki farklı dünyanın insanı olan bu gençler tüm engellere rağmen birbirlerinden vazgeçmez ve yıllarca mücadele eder. Sonunda birlikte kaçmaya karar verirler ancak tam kavuşacaklarını sandıkları gece Nare gizemli biçimde ortadan kaybolur. Onun denize düştüğü ya da uzak diyarlara gittiği konuşulur ve bu hüzünlü hikaye zamanla bir efsaneye dönüşür. Aradan dokuz yıl geçtikten sonra Nare beklenmedik bir anda Sancar'ın düğün gecesinde ortaya çıkar ve yanında küçük kızını getirir.</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430083000 +0200" stop="20260430123000 +0200">
+    <title lang="fr">Sana Değer</title>
+    <desc lang="fr">Psikolojiden sağlıklı yaşama uzanan içerikleriyle Sana Değer, uzman konukların katkılarıyla izleyiciye rehberlik ediyor. Programda gerçek hayat hikâyeleri, merak edilen sorular ve pratik öneriler sade bir anlatımla ele alınıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430123000 +0200" stop="20260430150000 +0200">
+    <title lang="fr">Nur Viral İle Sen İstersen</title>
+    <desc lang="fr">Bu yapımda hayatın içinden gerçek hikâyeler, kişisel gelişim gibi başlıklar ele alınıyor. Nur Viral'in samimi sunumu, uzman konukların görüşleriyle birleşerek izleyiciye farkındalık kazandırıyor. Program, günlük yaşamda uygulanabilecek önerilerle ekrana ilham veren bir rehber olarak geliyor.</desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430150000 +0200" stop="20260430161500 +0200">
+    <title lang="fr">Nur Viral İle Sen İstersen</title>
+    <desc lang="fr">Bu yapımda hayatın içinden gerçek hikâyeler, kişisel gelişim gibi başlıklar ele alınıyor. Nur Viral'in samimi sunumu, uzman konukların görüşleriyle birleşerek izleyiciye farkındalık kazandırıyor. Program, günlük yaşamda uygulanabilecek önerilerle ekrana ilham veren bir rehber olarak geliyor.</desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430161500 +0200" stop="20260430180000 +0200">
+    <title lang="fr">Une vie rêvée</title>
+    <desc lang="fr">Le célèbre photographe Can Divit retourne à Istanbul pour sauver de la ruine l'agence de publicité de sa famille. La seule personne en qui il a confiance est Sanem, une jeune écrivaine en herbe. Elle n'est pas convaincue de son honnêteté, mais tombe rapidement sous son charme.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430180000 +0200" stop="20260430190000 +0200">
+    <title lang="fr">Star Haber</title>
+    <desc lang="fr">Star Haber gün boyunca yaşanan önemli gelişmeleri siyaset, ekonomi, sağlık ve dünya gündemi başlıklarıyla ekrana taşır. Tarafsız ve akıcı anlatımıyla izleyiciye günün özetini verir, olayların arka planını canlı bağlantılar ve uzman yorumlarıyla anlaşılır biçimde aktarır ve değerlendirir.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430190000 +0200" stop="20260430233000 +0200">
+    <title lang="fr">Sevdiğim Sensin</title>
+    <desc lang="fr">Askerliğini tamamlamak üzere olan Erkan, yardıma gittiği köyde Dicle ile karşılaşır ve bu tanışma ikisinin de hayatını geri dönülmez biçimde etkiler. Hayatını kurtarmak için yapılan bu evlilik, Dicle yi köyünden koparıp İstanbul daki görkemli bir konağa taşır. Aldur ailesinin gelecek planları, bu ani gelişmeyle altüst olur. Büyük şehrin karmaşası içinde masumiyetini korumaya çalışan Dicle ile Erkan arasında büyüyen bağ, izleyiciyi derin, sarsıcı ve tutkulu bir aşk hikâyesine davet eder.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.485" start="20260430233000 +0200" stop="20260501013000 +0200">
+    <title lang="fr">Yerli Dizi / Sinema</title>
+    <desc lang="fr">Sinema sürükleyici hikayesi ve güçlü karakterleriyle izleyiciyi ekrana bağlıyor. Sırlar, aşk ve beklenmedik gelişmeler karakterlerin hayatlarını derinden etkilerken her sahnede gerilim ve duygusal yoğunluk artıyor. Karakterler zor seçimlerle yüzleşirken hikaye dramatik anlar, sürpriz gelişmeler ve duygusal çatışmalarla ilerliyor. İzleyici her sahnede merak ve heyecanla hikayeyi takip ediyor, olayların gelişimini sabırsızlıkla izliyor.</desc>
+    <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.488" start="20260430040000 +0200" stop="20260430060000 +0200">
     <title lang="fr">Kardeslerim</title>
@@ -59924,6 +60641,31 @@
     <desc lang="fr">Enjoy a moment of escape watching this amazing landscape, captured at Hiva oa in Polynesia.</desc>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
+  <programme channel="oqee.698" start="20260430000000 +0200" stop="20260430020000 +0200">
+    <title lang="fr">Professors Fucking Students</title>
+    <desc lang="fr">There is a school out there that is crazy! All the professors are fucking the students, and the poor principal has to find a way to keep everything under control! After all, school is meant for learning, it's not meant for group sex... but the sex education program is top notch!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260430020000 +0200" stop="20260430034300 +0200">
+    <title lang="fr">College Cum Sluts</title>
+    <desc lang="fr">These college girls are loving their new independence and discovering the benefits of having that freedom, at least sexually! Now they use it on a hot high school teacher, a boyfriend, a landlord, and a very naïve co-ed! All extremely lucky guys!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260430034300 +0200" stop="20260430040000 +0200">
+    <title lang="fr">The Deceiver</title>
+    <desc lang="fr">The deceiver visits Mr. Zane (Totti) to give him "a box" containing a toy soldier that was taken from him when he was young. When the deceiver leaves, Mr. Zane must have his lovely cleaning lady (Anita Bellini)! And have her he does!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260430040000 +0200" stop="20260430054000 +0200">
+    <title lang="fr">I Fucked My Teacher</title>
+    <desc lang="fr">Having a teacher crush can be so frustrating, unless they are teachers cast by Penthouse! Not only are they beautiful, they're also annoyed with the men in their lives and take their sexual frustration out on young male students... in the best way possible!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260430054000 +0200" stop="20260430060000 +0200">
+    <title lang="fr">Dark Confessions</title>
+    <desc lang="fr">Dark Confessions follows short scenarios of beautiful babes confessing their fantasy to the men they want to feel inside their tight vaginas and their luscious lips. It's a interracial masterpiece of pleasure!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
   <programme channel="oqee.698" start="20260430060000 +0200" stop="20260430073900 +0200">
     <title lang="fr">My Dick Saved the Day</title>
     <desc lang="fr">A caring dad will give their daughters a backup number to call when they need something and dad's not around. A smart dad won't give her daughter the number of a good looking friend! Enjoy the saga of four horny frightened girls with not very smart dads!</desc>
@@ -62087,7 +62829,6 @@
   </programme>
   <programme channel="oqee.930" start="20260430070000 +0200" stop="20260430090000 +0200">
     <title lang="fr">L'amour d'un père</title>
-    <desc lang="fr">Les filles d'Onyebuchi sont tout pour lui, mais pas sans discrimination, jusqu'à ce qu'elles prouvent qu'elles méritent autant d'éloges qu'un fils.</desc>
     <category lang="fr">Téléfilm / Téléfilm dramatique</category>
   </programme>
   <programme channel="oqee.930" start="20260430090000 +0200" stop="20260430110000 +0200">
