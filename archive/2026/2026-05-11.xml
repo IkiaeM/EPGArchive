@@ -120,6 +120,10 @@
     <display-name>Cartoon Network</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~98316e754a46584c.png/480x480/quality/100/cartoon-network.png"/>
   </channel>
+  <channel id="Cdirect.af">
+    <display-name>CDIRECT</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180765/canal-ouah/CHN43FB/CDIRECT_myCANAL_640x480?=.png"/>
+  </channel>
   <channel id="Cherie25.fr">
     <display-name>RMC Life</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~91bf2b7762746d0c.png/480x480/quality/100/rmc-life.png"/>
@@ -520,6 +524,10 @@
     <display-name>Paris Première</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~ecf598fd002ccb9a.png/480x480/quality/100/paris-premiere.png"/>
   </channel>
+  <channel id="PenthouseBlack.fr">
+    <display-name>Penthouse Black</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3Q6HPCMdoQvtMB0bl17lfw2-uybgBaS9R9NMSmh5hwcAuJR_PkZ_IkUWfg&amp;amp;s"/>
+  </channel>
   <channel id="PinkTV.fr">
     <display-name>PinkTV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~db1124e839974f97.png/480x480/quality/100/pink-tv.png"/>
@@ -591,6 +599,10 @@
   <channel id="StingrayiConcerts.fr">
     <display-name>StingrayiConcerts</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~3356bba10e8643f4.png/480x480/quality/100/stingray-i-concerts.png"/>
+  </channel>
+  <channel id="SunuYeuf.af">
+    <display-name>SUNU YEUF</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180710/canal-ouah/CHN43FB/SUNUYEUF640x480?=.png"/>
   </channel>
   <channel id="SuperRTL.de">
     <display-name>Super RTL</display-name>
@@ -940,9 +952,17 @@
     <display-name>France 24 Español</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3324/w256"/>
   </channel>
+  <channel id="oqee.1249">
+    <display-name>A Haber</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3328/w256"/>
+  </channel>
   <channel id="oqee.1250">
     <display-name>Freedom</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3346/w256"/>
+  </channel>
+  <channel id="oqee.1255">
+    <display-name>EMCI TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3352/w256"/>
   </channel>
   <channel id="oqee.1275">
     <display-name>Novegasy</display-name>
@@ -1055,6 +1075,10 @@
   <channel id="oqee.315">
     <display-name>Science &amp; Vie TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2727/w256"/>
+  </channel>
+  <channel id="oqee.335">
+    <display-name>Al Aoula International</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1610/w256"/>
   </channel>
   <channel id="oqee.340">
     <display-name>TV Polonia</display-name>
@@ -1248,6 +1272,10 @@
     <display-name>MyZen Nature</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2215/w256"/>
   </channel>
+  <channel id="oqee.698">
+    <display-name>Penthouse Gold</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1370/w256"/>
+  </channel>
   <channel id="oqee.699">
     <display-name>Penthouse Reality TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3333/w256"/>
@@ -1335,6 +1363,10 @@
   <channel id="oqee.951">
     <display-name>Bloomberg HT</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3755/w256"/>
+  </channel>
+  <channel id="oqee.953">
+    <display-name>TRT Belgesel</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/2345/w256"/>
   </channel>
   <channel id="oqee.968">
     <display-name>Tele 1</display-name>
@@ -3129,7 +3161,7 @@
   </programme>
   <programme channel="Arte.fr" start="20260511192800 +0200" stop="20260511194500 +0200">
     <title lang="fr">Le dessous des images</title>
-    <desc lang="fr">Sonia Devillers raconte l'histoire d'une photo ou d'une image. De leur construction à leur impact, comment expliquer la viralité de certaines images ?</desc>
+    <desc lang="fr">Le dessous des images - Dans les coulisses du cinéma nord.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Arte.fr" start="20260511194500 +0200" stop="20260511200500 +0200">
@@ -3163,9 +3195,9 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511003000 +0200" stop="20260511010000 +0200">
-    <title lang="fr">La cuisine cosmopolite de Rachel Khoo</title>
-    <desc lang="fr">Rachel voyage dans certains des plus beaux pays gastronomiques du monde, dans des lieux cosmopolites, urbains ou ruraux, afin de trouver l'inspiration pour des dîners avec ses amis à la maison.</desc>
-    <category lang="fr">Divers / Divertissement</category>
+    <title lang="fr">Clive Myrie's Caribbean Adventure - S01E12</title>
+    <desc lang="fr">Clive heads for the east coast of Barbados to check out the world's oldest rum distillery. He explores the sugar cane fields and the factory floor before he gets the chance to have a sip of the golden produce. He puts a shift in with the hens on an organic family farm that stretches out for over 100 acres, tests out his flexibility alongside British expats with some cliff-top yoga and finally meets a young Bajan spoken word poet at the Builders of Barbados wall.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511010000 +0200" stop="20260511013000 +0200">
     <title lang="fr">BBC News</title>
@@ -3173,9 +3205,9 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511013000 +0200" stop="20260511020000 +0200">
-    <title lang="fr">Global Eye</title>
-    <desc lang="fr">Un zoom sur des affaires qui font la une de l'actualité et suivies par des journalistes d'investigation qui mènent l'enquête aux quatre coins de la planète.</desc>
-    <category lang="fr">Documentaire / Documentaire société</category>
+    <title lang="fr">The Climate Question</title>
+    <desc lang="fr">Why our oceans are crucial for life on earth and help protect us from climate change.</desc>
+    <category lang="fr">Magazine / Magazine de l'environnement</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511020000 +0200" stop="20260511023000 +0200">
     <title lang="fr">BBC News</title>
@@ -3183,8 +3215,8 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511023000 +0200" stop="20260511030000 +0200">
-    <title lang="fr">What Happened at...?</title>
-    <desc lang="fr">A journey back in time to understand our modern world. BBC Reporter Jordan Dunbar returns to the sites of some of humanity's most defining events. By speaking to people who were there and exploring the causes that led to these seminal moments, Jordan uncovers stories of loss, resilience, and lessons that shape our future.</desc>
+    <title lang="fr">What Happened at Chernobyl</title>
+    <desc lang="fr">Jordan Dunbar se rend à Tchernobyl pour enquêter sur les événements qui ont provoqué la pire catastrophe nucléaire de l'histoire et comprendre les enseignements.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511030000 +0200" stop="20260511033000 +0200">
@@ -3329,22 +3361,18 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511130000 +0200" stop="20260511133000 +0200">
     <title lang="fr">BBC News Now</title>
-    <desc lang="fr">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511133000 +0200" stop="20260511140000 +0200">
     <title lang="fr">BBC News Now</title>
-    <desc lang="fr">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511140000 +0200" stop="20260511143000 +0200">
     <title lang="fr">BBC News Now</title>
-    <desc lang="fr">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511143000 +0200" stop="20260511145500 +0200">
     <title lang="fr">BBC News Now</title>
-    <desc lang="fr">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511145500 +0200" stop="20260511150000 +0200">
@@ -3354,7 +3382,6 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511150000 +0200" stop="20260511153000 +0200">
     <title lang="fr">BBC News Now</title>
-    <desc lang="fr">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511153000 +0200" stop="20260511154500 +0200">
@@ -3364,22 +3391,18 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511154500 +0200" stop="20260511160000 +0200">
     <title lang="fr">BBC News Now</title>
-    <desc lang="fr">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511160000 +0200" stop="20260511163000 +0200">
     <title lang="fr">Verified Live</title>
-    <desc lang="fr">Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511163000 +0200" stop="20260511170000 +0200">
     <title lang="fr">Verified Live</title>
-    <desc lang="fr">Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511170000 +0200" stop="20260511173000 +0200">
     <title lang="fr">Verified Live</title>
-    <desc lang="fr">Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511173000 +0200" stop="20260511174500 +0200">
@@ -3389,7 +3412,6 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511174500 +0200" stop="20260511175500 +0200">
     <title lang="fr">Verified Live</title>
-    <desc lang="fr">Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511175500 +0200" stop="20260511180000 +0200">
@@ -3399,7 +3421,6 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511180000 +0200" stop="20260511183000 +0200">
     <title lang="fr">Verified Live</title>
-    <desc lang="fr">Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511183000 +0200" stop="20260511190000 +0200">
@@ -3409,22 +3430,28 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511190000 +0200" stop="20260511193000 +0200">
     <title lang="fr">The World Today with Maryam Moshiri</title>
-    <desc lang="fr">Watch the best of the BBC's journalism from around the world.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="BBCWorldNews.uk" start="20260511193000 +0200" stop="20260511194500 +0200">
+    <title lang="fr">The Iran War</title>
+    <desc lang="fr">A daily briefing from BBC News on the latest developments on the Israel-US war in Iran.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511193000 +0200" stop="20260511200000 +0200">
     <title lang="fr">The World Today with Maryam Moshiri</title>
     <desc lang="fr">Watch the best of the BBC's journalism from around the world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="BBCWorldNews.uk" start="20260511194500 +0200" stop="20260511200000 +0200">
+    <title lang="fr">The World Today with Maryam Moshiri</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="BBCWorldNews.uk" start="20260511200000 +0200" stop="20260511203000 +0200">
     <title lang="fr">The World Today with Maryam Moshiri</title>
-    <desc lang="fr">Watch the best of the BBC's journalism from around the world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511203000 +0200" stop="20260511205500 +0200">
     <title lang="fr">The World Today with Maryam Moshiri</title>
-    <desc lang="fr">Watch the best of the BBC's journalism from around the world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511205500 +0200" stop="20260511210000 +0200">
@@ -3434,12 +3461,10 @@
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511210000 +0200" stop="20260511213000 +0200">
     <title lang="fr">The Context USA</title>
-    <desc lang="fr">Special coverage from Washington DC and London, focusing on President Trump's second term.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511213000 +0200" stop="20260511220000 +0200">
     <title lang="fr">The Context USA</title>
-    <desc lang="fr">Special coverage from Washington DC and London, focusing on President Trump's second term.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="BBCWorldNews.uk" start="20260511220000 +0200" stop="20260511223000 +0200">
@@ -3767,12 +3792,12 @@
   </programme>
   <programme channel="Boing.fr" start="20260511031000 +0200" stop="20260511032000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E27</title>
-    <desc lang="fr">Maureen fait appel à Bugs et les bricoleurs pour construire une course d'obstacles à ses élèves.</desc>
+    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511032000 +0200" stop="20260511033000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E06</title>
-    <desc lang="fr">Le manège de Looneyburg étant tombé en ruine, Les Bricoleurs avec Titi à leur tête prennent la décision d'en construire un nouveau pour tous les enfants de la ville. Cela va s'avérer plus compliqué que prévu.</desc>
+    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511033000 +0200" stop="20260511034000 +0200">
@@ -3802,7 +3827,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260511042000 +0200" stop="20260511043000 +0200">
     <title lang="fr">Batwheels - S01E23</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">C'est le jour du Grand Prix de Gotham. La légion du Vroum a saboté tous les concurrents pour prendre leur place et remporter le trophée. Mais c'est sans compter sur les Batwheels bien décidés à leur damer le pion, et à la loyale !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511043000 +0200" stop="20260511044000 +0200">
@@ -3872,7 +3897,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260511065000 +0200" stop="20260511070000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E40</title>
-    <desc lang="fr">Speedy prend contact avec Looney Construction afin qu'ils lui construisent un stade de foot pour son match.</desc>
+    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511070000 +0200" stop="20260511071000 +0200">
@@ -4012,7 +4037,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260511113000 +0200" stop="20260511114000 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E07</title>
-    <desc lang="fr">Alors que les Bricoleurs discutent des bienfaits de la récupération et du recyclage, Taz leur apprend qu'il a démoli sa maison. Les Bricoleurs vont décider de lui en construire une nouvelle, mais sera-t 'elle assez solide pour résister à Taz ?</desc>
+    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511114000 +0200" stop="20260511115000 +0200">
@@ -4052,7 +4077,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260511130000 +0200" stop="20260511131500 +0200">
     <title lang="fr">Batwheels - S01E27</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Après avoir aidé Batman de façon spectaculaire à mettre l'Homme-Mystère en déroute, Buff hérite d'un nouveau surnom : il sera à présent pour ses amis et pour le justicier masqué \" Buff-le-dur \". Mais étrangement, Buff n'est pas très heureux de cela : il pense qu'on ne le considère que comme un gros costaud et il voudrait qu'on l'aime pour ce qu'il est vraiment. Les Batwheels sauront-ils rassurer leur ami .</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511131500 +0200" stop="20260511133000 +0200">
@@ -4212,7 +4237,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260511185500 +0200" stop="20260511190500 +0200">
     <title lang="fr">Batwheels - S01E31</title>
-    <desc lang="fr">Poison Ivy est plus remontée que jamais et cherche à se construire un vrai bolide pour échapper à Batman. Alors quand Buff se retrouve sans phares et sans roues, il va devoir apprendre à improviser et se débrouiller avec ce qu'il a sous la main...</desc>
+    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511190500 +0200" stop="20260511192000 +0200">
@@ -4317,7 +4342,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260511223500 +0200" stop="20260511224500 +0200">
     <title lang="fr">Bugs Bunny Constructeurs - S01E08</title>
-    <desc lang="fr">Les bricoleurs profitent de leur jour de congé et décident de construire un terrain de jeu. Chacun travaille à son propre espace de jeu, mais Daffy se laisse emporter par son enthousiasme et finit par empiéter sur les projets des autres.</desc>
+    <desc lang="fr">Bugs et Lola dirigent une équipe de bricoleurs Looney, qui construisent des bâtiments étonnants malgré leur manque de compétences.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260511224500 +0200" stop="20260511225500 +0200">
@@ -4382,7 +4407,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260511012000 +0200" stop="20260511012500 +0200">
     <title lang="fr">Tom et Jerry Show - S05E02</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Ginger décide de mettre la famille au régime. Rick tient tant bien que mal mais un nouveau fast food ouvre au coin de la rue. Poussé par la faim, Rick s'y rend en dormant.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511012500 +0200" stop="20260511013000 +0200">
@@ -4482,7 +4507,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260511043500 +0200" stop="20260511044500 +0200">
     <title lang="fr">Tom et Jerry Show - S05E03</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Cates qui s'apprêtait à participer et à remporter le championnat annuel de boxe des majordomes se retrouve la jambe dans le plâtre à cause de Tom et désigne celui-ci comme nouveau champion. Il prend immédiatement son entraînement en main.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511044500 +0200" stop="20260511045500 +0200">
@@ -4507,7 +4532,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260511052500 +0200" stop="20260511053000 +0200">
     <title lang="fr">Tom et Jerry Show - S05E01</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Ginger et Rick ont oublié l'anniversaire de Tom. Déçu, ce dernier part de chez lui et se retrouve au zoo. Là, il devient le protégé de Câline le gorille.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511054000 +0200" stop="20260511055000 +0200">
@@ -4687,17 +4712,17 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260511113000 +0200" stop="20260511114000 +0200">
     <title lang="fr">Tom et Jerry Show - S05E28</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom a pour ordre de capturer Jerry, mais celui-ci s'empare d'un avion construit par un ancêtre du Duc. Tom doit donc redoubler d'ingéniosité pour ne pas casser l'antiquité volante. Il fait preuve d'un talent imprévu d'inventeur.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511114000 +0200" stop="20260511115100 +0200">
     <title lang="fr">Tom et Jerry Show - S05E09</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">En cherchant à éviter le hors-bord des Lemmings, Grizzy perce son matelas pneumatique, qui l'éjecte dans une grotte cachée. Il y trouve une conque décorée de symboles maoris qui a le pouvoir de contrôler une baleine. Grizzy revient chevauchant fièrement son cétacé et chasse les Lemmings de son coin tranquille. Mais l'imagination des Lemmings va de pair avec la taille de ce potentiel nouveau compagnon de jeu !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511115100 +0200" stop="20260511120000 +0200">
     <title lang="fr">Tom et Jerry Show - S05E09</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom se retrouve à la cour du Roi Arthur, à Camelot, et doit y combattre le redoutable magicien Morgan, le maléfique !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511120000 +0200" stop="20260511121500 +0200">
@@ -4807,7 +4832,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260511163500 +0200" stop="20260511164500 +0200">
     <title lang="fr">Tom et Jerry Show - S05E20</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Tom meurt de soif à cause de la chaleur. Il tombe sur Frankie qui lui propose d'échanger son bâton de sourcier. Tom accepte, mais se rend vite compte qu'il s'est fait avoir…</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511164500 +0200" stop="20260511165000 +0200">
@@ -5017,7 +5042,7 @@
   </programme>
   <programme channel="Boomerang.fr" start="20260511225000 +0200" stop="20260511230000 +0200">
     <title lang="fr">Tom et Jerry Show - S05E02</title>
-    <desc lang="fr">Tom et Jerry se plaisent à être embarqués dans des aventures pleines de carambolages, de fracas et de boucans: celles d'un chat et d'une souris, Tom et Jerry, qui mettent la maison sans dessus-dessous! Sans oublier leurs amis et compères qui ne manquent pas une occasion de se mêler de leur chamailleries...</desc>
+    <desc lang="fr">Ginger décide de mettre la famille au régime. Rick tient tant bien que mal mais un nouveau fast food ouvre au coin de la rue. Poussé par la faim, Rick s'y rend en dormant.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boomerang.fr" start="20260511230000 +0200" stop="20260511230500 +0200">
@@ -6382,7 +6407,7 @@
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260511060200 +0200" stop="20260511060700 +0200">
     <title lang="fr">Molang - S04E45</title>
-    <desc lang="fr">Molang et Piu Piu arrivent dans un village mexicain. Des mariachis recherchent deux musiciens pour compléter leur groupe. Enthousiaste, Molang supplie Piu Piu de se joindre à eux. Mais, dès qu'il voit des spectateurs le regarder, Piu Piu tremble, panique et joue affreusement faux…</desc>
+    <desc lang="fr">Molang, un lapin fantaisiste et rêveur, et son ami Piu Piu, petit poussin timide et émotif, partagent une grande histoire d'amitié en dépit de leurs différences. Qu'ils atterrissent sur la Lune ou arrosent leur jardin potager, les deux amis vivent les événements de manière très différente, créant naturellement des situations imprévues. Leur solidarité et la créativité dont ils font preuve font de ces moments parfois difficiles des instants de bonheur partagés.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalPlusKIDS.fr" start="20260511060700 +0200" stop="20260511061200 +0200">
@@ -7427,7 +7452,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511015000 +0200" stop="20260511021000 +0200">
     <title lang="fr">L'armure de Jade - S01E15</title>
-    <desc lang="fr">Lan Jun est à la recherche d'un flacon du parfum préféré de sa mère. C'est un objet vintage et rare, qui s'avère contenir un Eclat. En effet, celui qui se parfume devient le plus grand fan de la première personne qu'il voit.</desc>
+    <desc lang="fr">Jade est une super-héroïne de légende. C'est maintenant à Lan Jun, une adolescente ordinaire, de porter son armure. Celle-ci va utiliser ses talents en kung-fu pour combattre le mal. Avec l'aide de ses amis, Théo et Alisha, ainsi que le soutien des Beasticons, les quatre légendaires serviteurs de l'Armure, Lan Jun va lutter contre des super-vilains tout en gérant tant bien que mal sa vie d'adolescente.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511021000 +0200" stop="20260511022500 +0200">
@@ -7602,12 +7627,12 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511090500 +0200" stop="20260511091500 +0200">
     <title lang="fr">Looney Tunes Cartoons</title>
-    <desc lang="fr">Looney Tunes Cartoons est une série de dessins animés s'inspirant des premiers courts métrages des Looney Tunes dont elle reprend les codes.</desc>
+    <desc lang="fr">Bugs en prime: Sam le chasseur de prime tombe sur l'avis de recherche d'un lapin dont la tête est mise à prix pour 5000 dollars. Ce sera une belle somme facilement gagnée, pense-t-il. Pas sûr…Un distributeur buté: Porky passe devant un distributeur automatique dans lequel il ne reste qu'un article : ses bonbons préférés. Il les lui faut à tout prix, mais la machine est récalcitrante…</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511091500 +0200" stop="20260511092500 +0200">
     <title lang="fr">Looney Tunes Cartoons - S01E27</title>
-    <desc lang="fr">Mémé remonte sur le ring: Dans sa jeunesse, Mémé était championne de boxe. Aujourd'hui encore, lorsqu'une cloche sonne, elle ne peut s'empêcher de boxer. C'est une mauvaise nouvelle pour Sylvestre…Pneu mieux faire !</desc>
+    <desc lang="fr">Looney Tunes Cartoons est une série de dessins animés s'inspirant des premiers courts métrages des Looney Tunes dont elle reprend les codes.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511092500 +0200" stop="20260511095000 +0200">
@@ -7627,7 +7652,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511101500 +0200" stop="20260511103000 +0200">
     <title lang="fr">Le monde merveilleusement bizarre de Gumball - S01E19</title>
-    <desc lang="fr">Gumball doit affronter ses démons et surmonter le traumatisme qu'il a subi lors d'un précédent incident quelque peu embarrassant, s'il veut réussir à gravir l'infernal mur d'escalade du gymnase.</desc>
+    <desc lang="fr">Dans le monde d'Elmore, la réalité et la vie prennent d'étranges tournures. Gumball le chaton bleu entraîne Darwin, Anais et toute la ville dans de nouvelles aventures qui les conduisent à lutter contre des fast-foods maléfiques ou à raisonner une intelligence artificielle amoureuse de sa mère.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260511103000 +0200" stop="20260511104000 +0200">
@@ -7964,6 +7989,77 @@
     <title lang="fr">Le laboratoire de Dexter - S01E06</title>
     <desc lang="fr">Dexter découvre que son couteau à sandwiches est manquant. Il en déduit qu'il doit se trouver dans le lieu le plus effrayant qu'il connaisse: La chambre de Dee Dee.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511070000 +0200" stop="20260511100000 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511100000 +0200" stop="20260511110000 +0200">
+    <title lang="fr">Déclic</title>
+    <desc lang="fr">Magazine dédié à l'emploi, offrant conseils, opportunités et témoignages pour guider et inspirer les professionnels et chercheurs.</desc>
+    <category lang="fr">Magazine / Magazine de l'emploi</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511110000 +0200" stop="20260511113000 +0200">
+    <title lang="fr">A la découverte de</title>
+    <desc lang="fr">Entretien avec une femme inspirante, explorant son parcours et ses réussites.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511113000 +0200" stop="20260511123000 +0200">
+    <title lang="fr">Kéba na camera</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511123000 +0200" stop="20260511130000 +0200">
+    <title lang="fr">Business Africa</title>
+    <desc lang="fr">L'actualité économique africaine: marchés, investissements, innovations et défis. Analyses et interviews permettent de comprendre les dynamiques qui façonnent le continent.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511130000 +0200" stop="20260511131500 +0200">
+    <title lang="fr">19.45 le JT</title>
+    <desc lang="fr">Toutes les infos clés d'Afrique pour rester connecté au continent.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511131500 +0200" stop="20260511143000 +0200">
+    <title lang="fr">Rencontre littéraire</title>
+    <desc lang="fr">Magazine dédié aux livres et aux écrivains, proposant des entretiens, des découvertes, d'ouvrages et des échanges autour de la création littéraire.</desc>
+    <category lang="fr">Magazine / Magazine littéraire</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511143000 +0200" stop="20260511160000 +0200">
+    <title lang="fr">Cinéma africain</title>
+    <desc lang="fr">Actualités, tendances à l'écran, culture, stars et coulisses du continent.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511160000 +0200" stop="20260511183000 +0200">
+    <title lang="fr">Non-stop</title>
+    <desc lang="fr">Le meilleur de la musique urbaine.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511183000 +0200" stop="20260511193000 +0200">
+    <title lang="fr">Kéba na camera</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511193000 +0200" stop="20260511204500 +0200">
+    <title lang="fr">Brillare</title>
+    <desc lang="fr">Talk-show qui met en lumière des parcours inspirants et atypiques. Présentée par Chrystelle, l'émission accueille des invités prestigieux d'horizons variés pour des échanges profonds et authentiques.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511204500 +0200" stop="20260511210000 +0200">
+    <title lang="fr">19.45 le JT</title>
+    <desc lang="fr">Toutes les infos clés d'Afrique pour rester connecté au continent.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511210000 +0200" stop="20260511220000 +0200">
+    <title lang="fr">Faits de société</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511220000 +0200" stop="20260511230000 +0200">
+    <title lang="fr">Diasp'Afrik</title>
+    <desc lang="fr">Un rendez-vous pour faire le lien entre l'Afrique et sa diaspora. Chaque épisode met en lumière artistes, et initiatives culturelles et économiques des diasporas africaines.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260511230000 +0200" stop="20260512000000 +0200">
+    <title lang="fr">Kelbul Mag</title>
+    <desc lang="fr">Chaque jour, un JT en lingala pour un décryptage décalé de l'actualité congolaise.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="Cherie25.fr" start="20260511004500 +0200" stop="20260511064500 +0200">
     <title lang="fr">Programmes de la nuit</title>
@@ -18177,7 +18273,7 @@
   </programme>
   <programme channel="France4.fr" start="20260511085000 +0200" stop="20260511090100 +0200">
     <title lang="fr">Oscar &amp; Malika, toujours en retard - S03E35</title>
-    <desc lang="fr">Oscar est super impatient : ce matin, c'est la kermesse du Moyen Âge à l'école ! Mais lorsqu'ils arrivent : il n'y a rien, pas de décoration, pas de jeu, même pas Prudence ! A la place, ils trouvent Triboulet, le génie de la récré, qui harangue la foule. Aujourd'hui, c'est lui qui organise la kermesse ! Il propose aux enfants de participer à un tout nouveau jeu...</desc>
+    <desc lang="fr">Oscar et Malika sont voisins et sont scolarisés dans la même classe. Aussi, ils font ensemble chaque matin le chemin vers l'école et, chaque matin, il leur arrive une aventure extraordinaire qui fait que, systématiquement, ils arrivent en retard à l'école. Une création française bourrée d'aventure et d'humour, qui parvient à surprendre à chaque épisode.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260511090100 +0200" stop="20260511090700 +0200">
@@ -19024,7 +19120,7 @@
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="Gulli.fr" start="20260511200000 +0200" stop="20260511210500 +0200">
-    <title lang="fr">Un dîner presque parfait</title>
+    <title lang="fr">Un dîner presque parfait - S10E52</title>
     <desc lang="fr">Un dîner presque parfait s'installe à Reims, ville des Rois de France, pour une spéciale Combat des régions ! Toute la semaine, la Parisienne Maud, le Marseillais Serguei, l'Alsacienne Valérie, la Guadeloupéenne Vanessa et le Breton Valentin s'affronteront à coups de spécialités locales et de traditions régionales !</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
@@ -23011,7 +23107,7 @@
   </programme>
   <programme channel="NCI.af" start="20260511002300 +0200" stop="20260511003600 +0200">
     <title lang="fr">Focus faits divers - S04E67</title>
-    <desc lang="fr">Retour sur ces histoires fortes qui ont marqué l'actualité et les mémoires de la société ivoirienne : faits insolites, témoignages, drames et histoires heureuses.</desc>
+    <desc lang="fr">Tous les mardis et mercredis à 21h15, NCI revient sur ces histoires fortes qui ont marqué l&amp;apos;actualité et les mémoires de la société ivoirienne. Faits insolites, témoigjages palpitants, drames, issues heureuses... FOCUS FAITS DIVERS, l&amp;apos;actualité des faits divers présentée par Evelyne DÉBA, tous les mardis et mercredis à 21h15 sur NCI.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="NCI.af" start="20260511003600 +0200" stop="20260511004000 +0200">
@@ -24215,7 +24311,7 @@
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260511174700 +0200" stop="20260511181000 +0200">
     <title lang="fr">Barbapapa en famille - S01E23</title>
-    <desc lang="fr">Barbapapa est né un jour dans le jardin de Claudine et François, qui l'ont tout de suite adopté. Les deux enfants s'amusent beaucoup avec leur compagnon, qui peut se transformer à volonté. Mais après quelques mois parmi les hommes, Barbapapa s'ennuie, jusqu'au jour où Barbamama fait son apparition. Ensemble, ils ont bientôt sept Barbabébés, trois filles et trois garçons : Barbouille, Barbidur, Barbotine, Barbidou, Barbalala, Barbibul et Barbabelle. Adaptée des livres d'Annette Tison et Talus Taylor, cette série d'animation réalisée dans les années 70 a toujours la faveur des plus petits.</desc>
+    <desc lang="fr">Les barbabébés sont affalés devant la télé. Puisqu'ils aiment tant le petit écran, leurs parents les incitent à réaliser leur propres émissions. Bienvenue sur Barba TV ! / Les Barbapapa visitent le musée de l'évolution. Au programme : création de la Terre, sous-marin du précambrien et... dinosaures !</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260511181000 +0200" stop="20260511183200 +0200">
@@ -24229,7 +24325,7 @@
     <category lang="fr">Série / Série Dessin animé</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20260511185400 +0200" stop="20260511191700 +0200">
-    <title lang="fr">Tim Rex dans l'espace ! - S02E04</title>
+    <title lang="fr">Tim Rex dans l'espace ! - S02E06</title>
     <desc lang="fr">Les Rex traversent la galaxie pour se rendre à Cosmo'Parc. / Tim et Kai rivalisent pour obtenir un billet pour Planèt'Parc. / Tim, Tia et Tommy organisent un concours de talents.</desc>
     <category lang="fr">Série / Série Dessin animé</category>
   </programme>
@@ -25265,6 +25361,27 @@
     <title lang="fr">Les Grosses Têtes</title>
     <desc lang="fr">Fidèle au concept de ce jeu qui connaît un succès sans faille depuis 1977, Laurent Ruquier et les sociétaires des "Grosses Têtes" font rire la France entière aussi bien sur les ondes qu'à la télévision. Vraies questions de culture générale et colles humoristiques en tout genre sont le prétexte à une avalanche de bons mots, d'allusions grivoises, de bonne humeur et de rires de garnements. Chaque émission est en outre l'occasion de découvrir l'identité d'un invité mystère.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260511000000 +0200" stop="20260511020000 +0200">
+    <title lang="fr">Monsters of Anal V5</title>
+    <desc lang="fr">When the monsters of anal meet girls like Luna Star, Valentina Nappi, Jasmine Jae, and Emily Belle you just know that the sex is going to be crazy! Welcome to insanity as the monsters explore every dark hole they can find!</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260511020000 +0200" stop="20260511040000 +0200">
+    <title lang="fr">Brown Bunnies in Heat V2</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260511040000 +0200" stop="20260511042600 +0200">
+    <title lang="fr">Big Ass Black Beauties V11</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260511042600 +0200" stop="20260511045900 +0200">
+    <title lang="fr">Interracial Asses V3</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="PenthouseBlack.fr" start="20260511045900 +0200" stop="20260512000100 +0200">
+    <title lang="fr">Pause</title>
+    <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="PinkTV.fr" start="20260511000000 +0200" stop="20260511012500 +0200">
     <title lang="fr">All In</title>
@@ -26359,6 +26476,100 @@
     <desc lang="fr">Dylan, un contrôleur aérien, est pris de la frayeur de sa vie, quand il parvient à éviter de justesse que deux énormes avions remplis de passagers ne rentrent en collision. Cet accident a failli se produire, quand, à 14h22, Dylan a été brièvement aveuglé par un flash lumineux. D'autres inquiétants phénomènes se produisent chaque jour à la même heure, donnant à Dylan l'impression que se dessine un schéma. Parallèlement, il fait la connaissance de Sarah, qui faisait partie d'un des deux vols commerciaux, et dont il tombe bien vite amoureux...</desc>
     <category lang="fr">Film / Film fantastique</category>
   </programme>
+  <programme channel="RTL2.de" start="20260511051000 +0200" stop="20260511060000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S11E40</title>
+    <desc lang="fr">Als Norberts Vater vor vier Jahren stirbt, hinterlässt er ihnen nicht nur marode Gebäude, sondern auch Lagerhallen voller Müll, Trödel, Werkzeug, Maschinen und Schrott. Norberts Frau Nicole ruft den Trödeltrupp zu Hilfe.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511060000 +0200" stop="20260511070000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S05E19</title>
+    <desc lang="fr">Romina möchte demnächst ihr Jurastudium beginnen. Es gibt aber noch ein großes Problem: Es fehlt das Geld für die Studiengebühr. Seit vor sechs Jahren der geliebte Vater starb, ist die Familie finanziell in einer schwierigen Lage. Also hat Sie sich dazu entschlossen, zusammen mit ihrer Mutter und ihrer Schwester all die über die Jahre angesammelten Sachen zu verkaufen. Mauro Corradino macht sich auf, um den Verzweifelten zu helfen.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511070000 +0200" stop="20260511080000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S05E20</title>
+    <desc lang="fr">Für Simone ist eine Welt zusammengebrochen. Die 43-Jährige hat nicht nur ihren geliebten Lebensgefährten Uwe verloren, nach 18 Jahren steht sie alleine mit einem großen Schuldenberg da. Um die finanzielle Lage wenigstens ein bisschen zu entschärfen, hat sie sich schweren Herzens dazu entschlossen, einige von Uwes Sammlerstücken zu verkaufen.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511080000 +0200" stop="20260511090000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S09E14</title>
+    <desc lang="fr">Die Frauen des Hauses hoffen, dass Thomas nicht nur Müll, sondern auch ein paar Sachen gesammelt hat, die sich verkaufen lassen. Denn die Familie steckt in finanziellen Schwierigkeiten - viele Rechnungen sind offen und müssen dringend bezahlt werden. Als Trödelprofi Sükrü Pehlivan den Keller von Thomas sieht, ist er fassungslos. Überall liegt nur Müll herum! Er stellt Thomas und seine Familie zur Rede.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511090000 +0200" stop="20260511100000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S11E41</title>
+    <desc lang="fr">Bettina (46) und Mohammed (44) leben für ihre Familie. Sie müssen sich um ihren krebskranken Sohn Shabril sowie um die acht anderen Kinder kümmern. Da bleibt die Ordnung im Haus auf der Strecke. Das heillose Durcheinander sorgt immer wieder für Stress zwischen Bettina und ihrem Mann Mohammed. Doch keiner der beiden kann sich von altem unbrauchbarem Kram trennen. Tochter Mona (22) reicht es - sie ruft den Trödeltrupp.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511100000 +0200" stop="20260511110000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S12E01</title>
+    <desc lang="fr">Es ist seine bisher schwerste Aufgabe: Daniel (35) muss das geliebte Hotel seiner Großeltern auflösen. Er selbst will den Betrieb nicht weiterführen. Doch wohin mit dem ganzen Hotel-Inventar? RTLZWEI-Trödelexperte Mauro Corradino will Daniel unter die Arme greifen. Es erwarten ihn drei Etagen voll mit alten Möbeln, Teppichen und Bildern. Auf den ersten Blick entdeckt der Trödelprofi keinen Schatz, aber wie immer gibt Mauro nicht auf!</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511110000 +0200" stop="20260511125500 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S20E57</title>
+    <desc lang="fr">Kleidung, Bilder, Porzellan, Antiquitäten - die Sammlung von Anna (56) nimmt kein Ende mehr. Mit ihrer Villa auf dem Land hat sich die Frührentnerin ein wahres Schmuckkästchen gekauft - von außen zumindest. Innen ist das Haus völlig heruntergekommen und stark renovierungsbedürftig. Zwischendrin stehen Unmengen an Trödel. Nach einem Hilferuf aus der Familie nehmen sich Mauro Corradino, Otto Schulte und Sükrü Pehlivan der Sache an.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511125500 +0200" stop="20260511135500 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S12E67</title>
+    <desc lang="fr">Schweren Herzens müssen Bettina und Jens das von ihrer verstorbenen Mutter geerbte Gasthaus aufgeben. Der Grund: Eine Gasnachzahlung in Höhe von 20.000 Euro. Sie rufen RTL II-Trödelprofi Andreas Bierschock zu Hilfe. Er soll sie dabei unterstützen, so viel Inventar wie möglich zu verkaufen. Aber der Betrieb ist riesig und es gibt Unmengen an Tischen, Stühlen, Geschirr, Silberbesteck und Möbeln.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511135500 +0200" stop="20260511160000 +0200">
+    <title lang="fr">Hartz und herzlich - Tag für Tag Benz-Baracken - S04E72</title>
+    <desc lang="fr">Elvis ist verärgert, weil die Müllabfuhr wegen der Bauarbeiten nicht mehr bis zu dem gelben Reihenhaus vordringt. Der Abfallberg vor der Haustür wächst. Entspannung findet der Großfamilienvater bei einem Besuch auf dem Maimarkt, der als größte Regionalmesse Deutschlands gilt. Ella lässt sich unterdessen von ihrem Sohn Jerrick tätowieren. Der 20-Jährige würde sein Hobby gerne zum Beruf machen, bräuchte dafür aber dringend eine bessere Ausrüstung.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511160000 +0200" stop="20260511160400 +0200">
+    <title lang="fr">RTLZWEI News - S08E1820</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511160400 +0200" stop="20260511160500 +0200">
+    <title lang="fr">RTLZWEI Wetter - S08E2632</title>
+    <desc lang="fr">Mit dem Wetterdienst erhalten die Zuschauer einen schnellen Überblick über das Wettergeschehen in Deutschland. Zudem verspricht die Wetterprognose eine zuverlässige Vorhersage für die kommenden drei Tage.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511160500 +0200" stop="20260511170500 +0200">
+    <title lang="fr">Hartz und herzlich - Tag für Tag Rostock - S13E45</title>
+    <desc lang="fr">Lukas will mit seinem Partner Damian hoch hinaus und plant einen Besuch auf dem Düsseldorfer Fernsehturm, um ihm die Aussicht zu zeigen. Doch Damians Höhenangst stellt das Vorhaben auf die Probe. Sandra wiederum hat mit ihrer Familie ein neues Hobby entdeckt: den 3D-Druck. Die selbst gedruckten Figuren begeistern, doch ein Geschäft daraus zu machen, ist schwierig. Deshalb sucht sie händeringend nach einer Lösung, um damit Geld zu verdienen.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511170500 +0200" stop="20260511180500 +0200">
+    <title lang="fr">Hartz Rot Gold - S04E29</title>
+    <desc lang="fr">Im Gelsenkirchener Schalke-Haus laufen die Vorbereitungen für den Sommer. In Wilhelmshaven freut sich Morlin derweil, dass Tochter Zoe nach sechs Monaten Therapie zurückkommt. Das Ex-Paar Dieter und Sandy plant eine WG zu gründen und in Bremen kämpft Steffi mit ihren Geldsorgen. In ihrer Verzweiflung bietet sie sogar ihre Hündin online an. Die finanzielle Not schlägt sich auch auf ihre Beziehung mit Heiko nieder.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511180500 +0200" stop="20260511190500 +0200">
+    <title lang="fr">Hartz und herzlich - Tag für Tag Rostock - S13E46</title>
+    <desc lang="fr">Carsten verwandelt sein altes Schlafzimmer in ein Kinderzimmer für Antjes Kids. Mit viel Einsatz wird geräumt, gebaut und tapeziert - begleitet von Antje per Videotelefonie. Doch bei der Tapetenauswahl scheiden sich die Geister: Trifft Carsten wirklich ihren Geschmack? Währenddessen meldet sich Pamela nach schwierigen Zeiten zurück. Mit neuer Energie und Unterstützung durch Freunde blickt sie nach vorn und denkt sogar über einen Neuanfang nach.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511190500 +0200" stop="20260511201500 +0200">
+    <title lang="fr">Berlin - Tag &amp; Nacht</title>
+    <desc lang="fr">Sara wird morgens von Mike überrumpelt, als er ihr mitteilt, dass er zusätzlich einen Promotion-Job am Wochenende suchen will. Sie versucht vorsichtig, ihm andere Möglichkeiten aufzuzeigen und bietet sogar an, mehr Schnitte-Schichten zu übernehmen. Doch Mike blockt ab, weil er nicht will, dass Sara schwanger arbeitet. Obwohl es sie belastet, beschließt Sara nachzugeben - aus Verständnis für Mikes Trauma. Wird ihre Beziehung darunter leiden?</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511201500 +0200" stop="20260511211500 +0200">
+    <title lang="fr">Die Geissens - Eine schrecklich glamouröse Familie! - S24E28</title>
+    <desc lang="fr">Der Jetset ruft: Mit dem Privatjet geht es für die Familie von Südfrankreich nach Erfurt. Doch schon der Flug wird zur Nervenprobe - starke Turbulenzen bringen alle an ihre Grenzen. Vor Ort folgt der Empfang im Rathaus, doch Carmen sorgt mit kuriosen Verwechslungen für peinliche Momente. Zwischen Ministerpräsident, Oberbürgermeister und Gala-Dinner wird der "Staatsbesuch" schnell zur Herausforderung - sehr zur Verzweiflung von Davina und Shania.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511211500 +0200" stop="20260511221500 +0200">
+    <title lang="fr">Davina &amp; Shania - We Love Monaco - S05E04</title>
+    <desc lang="fr">Freizeitpark statt Freizeit: Davina und Shania sind im Europa-Park im Dauereinsatz. Gemeinsam mit ihren Eltern erwartet sie ein straffes Programm - von Podcast über Hotel-Eröffnung bis zur Parade. Für Achterbahnen bleibt keine Zeit. Trotz Regen und Fanansturm müssen sie liefern. Highlight: Bei der Zorro-Pferdeshow sollen die Schwestern als Stuntdoubles auftreten. Reiten kopfüber oder Sprung vom Dach - trauen sie sich das?</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511221500 +0200" stop="20260511232000 +0200">
+    <title lang="fr">Geissens' Mega Mansions - S01E02</title>
+    <desc lang="fr">Carmen und Robert reisen luxuriös zu prächtigen Villen und Yachten weltweit und entdecken unvergessliche Orte. In der Villa Alang Alang finden sie pikante Fotos ihrer ehemaligen Nanny und Stewardess an der Wand. Wie reagieren sie und ihre Kinder Davina und Shania? Im weltberühmten Chateau in Cannes stoßen sie auf eine geheimnisvolle Tresortür, hinter der Unglaubliches verborgen ist. Was könnte sich dahinter verbergen?</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260511232000 +0200" stop="20260512001000 +0200">
+    <title lang="fr">Kampf der RealityAllstars - S07E13</title>
+    <desc lang="fr">An einem idyllischen Strand in Thailand kämpfen bekannte und beliebte Stars aus der Reality-TV-Szene in herausfordernden Action- und Geschicklichkeitsspielen um bis zu 50.000 Euro Siegprämie. Obendrein können sie auch Sendezeit gewinnen. Auch abseits der Spiele müssen sich die Promis in der Gruppe behaupten. In der "Stunde der Wahrheit" stellen sie sich zudem den Fragen von Moderatorin Arabella Kiesbauer.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260511014000 +0200" stop="20260511023500 +0200">
     <title lang="fr">La vérité à tout prix - S01E12</title>
     <desc lang="fr">Le 9 décembre 2001, Mohamed Abdelhadi, 27 ans, disparaît mystérieusement à Villefranche-sur-Saône. Mais la police ne considère pas cette disparition comme inquiétante. Ce n'est qu'en 2016 qu'on obtient les aveux d'un père et ses deux fils, et que le cadavre est retrouvé. Mais ils ne seront pas poursuivis en raison d'une erreur de la police. Pour la famille Abdelhadi, le combat n'est pas terminé.</desc>
@@ -27116,6 +27327,232 @@
     <title lang="fr">iConcerts Hits</title>
     <category lang="fr">Concert / Variétés</category>
   </programme>
+  <programme channel="SunuYeuf.af" start="20260511003000 +0200" stop="20260511010000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511010000 +0200" stop="20260511013000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511013000 +0200" stop="20260511020000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511020000 +0200" stop="20260511023000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511023000 +0200" stop="20260511030000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511030000 +0200" stop="20260511033000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511033000 +0200" stop="20260511040000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511040000 +0200" stop="20260511043000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511043000 +0200" stop="20260511050000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511050000 +0200" stop="20260511060000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511060000 +0200" stop="20260511063000 +0200">
+    <title lang="fr">Tuumaal, liés par les secrets</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511063000 +0200" stop="20260511070000 +0200">
+    <title lang="fr">Tuumaal, liés par les secrets</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511070000 +0200" stop="20260511073000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511073000 +0200" stop="20260511080000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511080000 +0200" stop="20260511083000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511083000 +0200" stop="20260511090000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511090000 +0200" stop="20260511093000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511093000 +0200" stop="20260511100000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511100000 +0200" stop="20260511102900 +0200">
+    <title lang="fr">Lady Diama</title>
+    <desc lang="fr">Pour sauver son couple, Lady Diama accepte d'épouser un autre homme temporairement, mais ce compromis va mal tourner quand son nouveau mari refuse de divorcer. Lady Diama retourne malgré tout avec son ex-mari et se retrouve ainsi dans une forme de bigamie.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511102900 +0200" stop="20260511110000 +0200">
+    <title lang="fr">Lady Diama</title>
+    <desc lang="fr">Pour sauver son couple, Lady Diama accepte d'épouser un autre homme temporairement, mais ce compromis va mal tourner quand son nouveau mari refuse de divorcer. Lady Diama retourne malgré tout avec son ex-mari et se retrouve ainsi dans une forme de bigamie.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511110000 +0200" stop="20260511113000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511113000 +0200" stop="20260511120000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511120000 +0200" stop="20260511123000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511123000 +0200" stop="20260511130000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511130000 +0200" stop="20260511133000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511133000 +0200" stop="20260511140000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511140000 +0200" stop="20260511142900 +0200">
+    <title lang="fr">Lady Diama</title>
+    <desc lang="fr">Pour sauver son couple, Lady Diama accepte d'épouser un autre homme temporairement, mais ce compromis va mal tourner quand son nouveau mari refuse de divorcer. Lady Diama retourne malgré tout avec son ex-mari et se retrouve ainsi dans une forme de bigamie.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511142900 +0200" stop="20260511150000 +0200">
+    <title lang="fr">Lady Diama</title>
+    <desc lang="fr">Pour sauver son couple, Lady Diama accepte d'épouser un autre homme temporairement, mais ce compromis va mal tourner quand son nouveau mari refuse de divorcer. Lady Diama retourne malgré tout avec son ex-mari et se retrouve ainsi dans une forme de bigamie.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511150000 +0200" stop="20260511153000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511153000 +0200" stop="20260511160000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511160000 +0200" stop="20260511163000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511163000 +0200" stop="20260511170000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511170000 +0200" stop="20260511173000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511173000 +0200" stop="20260511180000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511180000 +0200" stop="20260511182900 +0200">
+    <title lang="fr">Lady Diama</title>
+    <desc lang="fr">Pour sauver son couple, Lady Diama accepte d'épouser un autre homme temporairement, mais ce compromis va mal tourner quand son nouveau mari refuse de divorcer. Lady Diama retourne malgré tout avec son ex-mari et se retrouve ainsi dans une forme de bigamie.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511182900 +0200" stop="20260511190000 +0200">
+    <title lang="fr">Lady Diama</title>
+    <desc lang="fr">Pour sauver son couple, Lady Diama accepte d'épouser un autre homme temporairement, mais ce compromis va mal tourner quand son nouveau mari refuse de divorcer. Lady Diama retourne malgré tout avec son ex-mari et se retrouve ainsi dans une forme de bigamie.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511190000 +0200" stop="20260511193000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511193000 +0200" stop="20260511200000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511200000 +0200" stop="20260511203000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511203000 +0200" stop="20260511210000 +0200">
+    <title lang="fr">Capitaine</title>
+    <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511210000 +0200" stop="20260511213000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511213000 +0200" stop="20260511220000 +0200">
+    <title lang="fr">Amours brisés</title>
+    <desc lang="fr">Dans un quartier populaire où traditions et modernité s'affrontent, Adama, une jeune femme pleine de rêves, voit son destin brisé par un mariage forcé orchestré par son père Alhassane, avide de prestige et de richesses. Promise à Cheikh, un homme fortuné mais arrogant, elle est arrachée à son amour de jeunesse, Omar, un mécanicien passionné qui n'a que son cœur à offrir. Alors qu'Adama lutte contre son sort, d'autres drames se tissent en parallèle. Aïda, sa grande sœur, subit un mariage toxique avec Gora, un homme violent soutenu par sa mère dominatrice. De son côté, Banna, la belle-mère de Cheikh, incarne la cruauté et l'oppression, imposant à son époux handicapé un silence forcé et orchestrant l'emprisonnement d'Adama dans un mariage sans amour. Mais le destin d'Adama bascule lorsqu'elle tente une fuite désespérée.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511220000 +0200" stop="20260511223000 +0200">
+    <title lang="fr">Tuumaal, liés par les secrets</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511223000 +0200" stop="20260511230000 +0200">
+    <title lang="fr">Tuumaal, liés par les secrets</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511230000 +0200" stop="20260511233000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="SunuYeuf.af" start="20260511233000 +0200" stop="20260512000000 +0200">
+    <title lang="fr">Woudiou Peethiorgo 2.0</title>
+    <desc lang="fr">Pa Assane et Modou Ndiaye sont des cousins qui vivent sous le même toit. Leurs épouses respectives, Soda et Astou Mbaye, ne se supportent pas. Soda, l'ainée, pense avec tous les droits, tandis que Astou Mbaye est respectée et aimée pour sa bienveillance… ce qui met Soda hors d'elle. Soda n'a alors qu'un objectif : tenir l'image de Astou Mbaye dans la famille. Entre complots, manigances, secrets et mensonges, les deux Woudiou peetiorgo vont faire voir de tous les couleurs à la famille Ndiaye.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="SuperRTL.de" start="20260511005000 +0200" stop="20260511014000 +0200">
     <title lang="fr">New York Unité Spéciale - S18E07</title>
     <desc lang="fr">Une femme est agressée sexuellement par un homme masqué. En dépit du visage caché de son assaillant, elle est persuadée de l'avoir reconnu. Il s'agirait de Ray, un garçon avec qui elle était sortie à la faculté et qui l'avait ensuite harcelée. Il était allé jusqu'à tenter de l'agresser chez elle, mais il avait été arrêté par le sergent Cole, resté ami avec Quinn. Un mégot de cigarette trouvé dans la cour devant chez Quinn semble confirmer la présence de Ray sur les lieux, mais des témoignages et une vidéo prouvent qu'il était ailleurs. Ce cas s'avère extrêmement dangereux et met en péril la vie de Carisi. Pendant ce temps, Tucker envisage plus sereinement la retraite et entrevoit un avenir possible avec Olivia...</desc>
@@ -27308,7 +27745,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260511132000 +0200" stop="20260511133000 +0200">
     <title lang="fr">Angelo la débrouille - S04E13</title>
-    <desc lang="fr">Angelo se fait engager comme stagiaire à Adventureparkland. Mais ce n'est pas du tout le job de rêve qu'il s'était imaginé : il est obligé de… travailler !</desc>
+    <desc lang="fr">Quand on a onze ans, la vie n'est pas tous les jours facile, surtout pour le pauvre Angelo, avec son petit frère qui lui empoisonne l'existence, sa grande sœur qui le traite comme un gamin, ses parents au temps libre agité. Mais Angelo a des dons d'anthropologue et a fait de l'étude des comportements son arme fatale pour se faire une place dans ce monde sans pitié...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260511133000 +0200" stop="20260511135000 +0200">
@@ -27418,7 +27855,7 @@
   </programme>
   <programme channel="SuperRTL.de" start="20260511185500 +0200" stop="20260511190500 +0200">
     <title lang="fr">Angelo la débrouille - S04E15</title>
-    <desc lang="fr">Quand le prix des cupcakes augmente, Angelo et ses amis mettent au point une stratégie pour voler la recette secrète de Cathy et faire leurs cupcakes eux-mêmes.</desc>
+    <desc lang="fr">Quand on a onze ans, la vie n'est pas tous les jours facile, surtout pour le pauvre Angelo, avec son petit frère qui lui empoisonne l'existence, sa grande sœur qui le traite comme un gamin, ses parents au temps libre agité. Mais Angelo a des dons d'anthropologue et a fait de l'étude des comportements son arme fatale pour se faire une place dans ce monde sans pitié...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="SuperRTL.de" start="20260511190500 +0200" stop="20260511192000 +0200">
@@ -27872,7 +28309,7 @@
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260511114500 +0200" stop="20260511122000 +0200">
     <title lang="fr">Au nom de la vérité - S04E51</title>
-    <desc lang="fr">Une employée mystérieuse - Chacun d'entre nous s'est déjà retrouvé au moins une fois, au cœur de la tourmente... "Au nom de la vérité" s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans...</desc>
+    <desc lang="fr">Au cœur de situations difficiles, des héros ordinaires font face à des décisions cruciales. Chaque épisode présente une tranche de vie à laquelle le spectateur peut s'identifier, mettant en scène des dilemmes familiaux et personnels. Ces récits captivants explorent les choix complexes auxquels nous sommes tous confrontés, offrant un miroir de nos propres expériences et défis quotidiens.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260511122000 +0200" stop="20260511125000 +0200">
@@ -32514,7 +32951,7 @@
     <category lang="fr">Documentaire sportif / Snowboard</category>
   </programme>
   <programme channel="Trek.fr" start="20260511085200 +0200" stop="20260511094400 +0200">
-    <title lang="fr">Petit Suisse (Maxime Chabloz) - S01E01</title>
+    <title lang="fr">Petit Suisse (Maxime Chabloz)</title>
     <desc lang="fr">Avec une caméra à la main, Olivier Sautet suit Maxime Chabloz sur la première manche du Freeride World Tour, qui regroupe les meilleurs skieurs et snowboardeurs de la planète à Baqueira Beret, en Espagne, le 22 janvier 2022. Une semaine plus tard à Ordino Arcalis, en Andorre, le Suisse remportait l'épreuve. Couronné du titre mondial au FWT, Maxime Chabloz a jonglé toute la saison entre skier sur la neige et glisser sur l'eau. Au-delà d'un film, c'est une aventure humaine que les deux hommes ont partagé en nouant une complicité qui s'est installée tout naturellement.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -32910,7 +33347,7 @@
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260511160000 +0200" stop="20260511163000 +0200">
     <title lang="fr">Libre à vous - S03E33</title>
-    <desc lang="fr">A travers anecdotes et confidences, Guyonne de Montjou demande à des personnalités éclectiques d'offrir un aperçu de leur parcours et de leur vision du monde.</desc>
+    <desc lang="fr">Jamy Gourmaud, célèbre animateur de "C'est pas sorcier", est l'invité de Guyonne de Montjou et du Figaro TV dans Libre à Vous. Il présente son premier roman "Les ailes de la forêt" (Albin Michel). Il parle également de son enfance et expose son point de vue sur l'IA.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260511163000 +0200" stop="20260511170000 +0200">
@@ -32999,7 +33436,7 @@
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="Vox.de" start="20260511040500 +0200" stop="20260511045500 +0200">
-    <title lang="fr">Medical Detectives - S01E86</title>
+    <title lang="fr">Medical Detectives - S04E04</title>
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
@@ -40522,7 +40959,7 @@
   </programme>
   <programme channel="oqee.1174" start="20260511182900 +0200" stop="20260511191500 +0200">
     <title lang="fr">Below Deck Méditerranée - S05E20</title>
-    <desc lang="fr">A la barre du yacht Wellington Sandy Yawn sillonne la Méditerranée. A bord, le personnel se plie en quatre pour le bien-être des passagers et affronte occasionnellement des tempêtes qui ne sont pas toutes maritimes.</desc>
+    <desc lang="fr">Alors que le dernier voyage touche à sa fin, le capitaine Sandy évoque une saison chaotique tandis que les incidents continuent.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="oqee.1174" start="20260511191500 +0200" stop="20260511200500 +0200">
@@ -42360,9 +42797,274 @@
     <desc lang="fr">Les prévisions météorologiques sur l'ensemble du globe.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="oqee.1249" start="20260511010000 +0200" stop="20260511020000 +0200">
+    <title lang="fr">A Haber Gece</title>
+    <desc lang="fr">A Haber Gece, gece kuşağında yayınlanan haber programıdır. Türkiye ve dünyada gün içinde yaşanan kritik olaylar, son dakika haberleri ve gündemin öne çıkan başlıkları sade ve anlaşılır bir dille izleyiciyle buluşuyor. İzleyici gece boyunca haber akışını bu kuşakta derli toplu şekilde takip ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511020000 +0200" stop="20260511040000 +0200">
+    <title lang="fr">Canan Barlas İle Gündem</title>
+    <desc lang="fr">Canan Barlas'ın moderatörlüğünde A Haber ekranlarında izleyiciyle buluşan Canan Barlas ile Gündem, Türkiye ve dünyadaki siyasi ve toplumsal gelişmeleri kapsamlı biçimde ele alıyor. Programda gündemin öne çıkan başlıkları, uzman konukların yorumları ve çok yönlü analizlerle değerlendiriliyor. Güncel olayların arka planı ve etkileri detaylandırılırken, izleyiciye derinlikli ve bilgilendirici bir perspektif sunuluyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511040000 +0200" stop="20260511050000 +0200">
+    <title lang="fr">Ajans Hafta Sonu</title>
+    <desc lang="fr">Ajans Hafta Sonu, hafta sonu boyunca Türkiye ve dünyada yaşanan önemli gelişmeleri izleyiciyle buluşturuyor. Son dakika haberleri, gündemin öne çıkan başlıkları ve uzman değerlendirmeleriyle hazırlanan programda, güncel olaylar kapsamlı biçimde ele alınıyor. Cumartesi ve Pazar günleri A Haber ekranlarında yayınlanan Ajans Hafta Sonu, izleyiciye güvenilir, güncel ve detaylı bir hafta sonu haber bülteni sunuyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511050000 +0200" stop="20260511055500 +0200">
+    <title lang="fr">Sabah Ajansı</title>
+    <desc lang="fr">Sabah Ajansı, A Haber ekranlarında sabah saatlerinde izleyiciyle buluşan kapsamlı bir haber bültenidir. Türkiye ve dünya gündeminde gece boyunca yaşanan gelişmeler, son dakika haberleri, ekonomi ve siyaset gibi gündemin önemli başlıkları detaylarıyla ele alınıyor. Program izleyicide merak uyandıran haberleri sade bir dille açıklayarak ekrana taşıyor ve izleyicinin güne dair önemli gelişmeleri hızlı ve net şekilde takip etmesine fırsat veriyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511055500 +0200" stop="20260511060000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511060000 +0200" stop="20260511065500 +0200">
+    <title lang="fr">Sabah Ajansı</title>
+    <desc lang="fr">Sabah Ajansı, A Haber ekranlarında sabah saatlerinde izleyiciyle buluşan kapsamlı bir haber bültenidir. Türkiye ve dünya gündeminde gece boyunca yaşanan gelişmeler, son dakika haberleri, ekonomi ve siyaset gibi gündemin önemli başlıkları detaylarıyla ele alınıyor. Program izleyicide merak uyandıran haberleri sade bir dille açıklayarak ekrana taşıyor ve izleyicinin güne dair önemli gelişmeleri hızlı ve net şekilde takip etmesine fırsat veriyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511065500 +0200" stop="20260511070000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511070000 +0200" stop="20260511075500 +0200">
+    <title lang="fr">Sabah Ajansı</title>
+    <desc lang="fr">Sabah Ajansı, A Haber ekranlarında sabah saatlerinde izleyiciyle buluşan kapsamlı bir haber bültenidir. Türkiye ve dünya gündeminde gece boyunca yaşanan gelişmeler, son dakika haberleri, ekonomi ve siyaset gibi gündemin önemli başlıkları detaylarıyla ele alınıyor. Program izleyicide merak uyandıran haberleri sade bir dille açıklayarak ekrana taşıyor ve izleyicinin güne dair önemli gelişmeleri hızlı ve net şekilde takip etmesine fırsat veriyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511075500 +0200" stop="20260511080000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511080000 +0200" stop="20260511085500 +0200">
+    <title lang="fr">Ajans Bugün</title>
+    <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511085500 +0200" stop="20260511090000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511090000 +0200" stop="20260511100000 +0200">
+    <title lang="fr">Ajans Bugün</title>
+    <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511100000 +0200" stop="20260511105500 +0200">
+    <title lang="fr">Ajans Bugün</title>
+    <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511105500 +0200" stop="20260511110000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511110000 +0200" stop="20260511120000 +0200">
+    <title lang="fr">Ajans Bugün</title>
+    <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511120000 +0200" stop="20260511125500 +0200">
+    <title lang="fr">Ajans</title>
+    <desc lang="fr">Ajans, A Haber'in haber akışında yer alan ve gün boyunca Türkiye ile dünya gündemindeki önemli gelişmeleri izleyiciye aktaran haber programıdır. Siyaset, ekonomi ve toplumsal olaylar gibi öne çıkan başlıklar bir arada ele alınırken izleyiciye günün kritik haberleri net bir anlatımla sunulur.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511125500 +0200" stop="20260511130000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511130000 +0200" stop="20260511140000 +0200">
+    <title lang="fr">Ajans</title>
+    <desc lang="fr">Ajans, A Haber'in haber akışında yer alan ve gün boyunca Türkiye ile dünya gündemindeki önemli gelişmeleri izleyiciye aktaran haber programıdır. Siyaset, ekonomi ve toplumsal olaylar gibi öne çıkan başlıklar bir arada ele alınırken izleyiciye günün kritik haberleri net bir anlatımla sunulur.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511140000 +0200" stop="20260511145500 +0200">
+    <title lang="fr">Ajans Gün Içi</title>
+    <desc lang="fr">Türkiye ve dünyada gün içinde yaşanan önemli gelişmeler ile son dakika haberleri izleyiciye sade ve anlaşılır bir dille sunuluyor. Gündemdeki politika, ekonomi ve toplumsal olaylar derli toplu biçimde ele alınırken izleyici günün haber akışını bu programla yakından takip ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511145500 +0200" stop="20260511150000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511150000 +0200" stop="20260511160000 +0200">
+    <title lang="fr">Ajans Gün Içi</title>
+    <desc lang="fr">Türkiye ve dünyada gün içinde yaşanan önemli gelişmeler ile son dakika haberleri izleyiciye sade ve anlaşılır bir dille sunuluyor. Gündemdeki politika, ekonomi ve toplumsal olaylar derli toplu biçimde ele alınırken izleyici günün haber akışını bu programla yakından takip ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511160000 +0200" stop="20260511170000 +0200">
+    <title lang="fr">Ajans Akşama Doğru</title>
+    <desc lang="fr">Türkiye ile dünya gündeminde öne çıkan son dakika gelişmeleri, siyaset, ekonomi ve toplumla ilgili başlıklar sade bir dille izleyiciye aktarılıyor. Program gündemin önemli noktalarını toparlayarak izleyicinin haber akışını daha net şekilde takip etmesine katkı sağlıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511170000 +0200" stop="20260511180000 +0200">
+    <title lang="fr">Ajans Akşama Doğru</title>
+    <desc lang="fr">Türkiye ile dünya gündeminde öne çıkan son dakika gelişmeleri, siyaset, ekonomi ve toplumla ilgili başlıklar sade bir dille izleyiciye aktarılıyor. Program gündemin önemli noktalarını toparlayarak izleyicinin haber akışını daha net şekilde takip etmesine katkı sağlıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511180000 +0200" stop="20260511190000 +0200">
+    <title lang="fr">Akşam Ajansı</title>
+    <desc lang="fr">Akşam Ajansı, A Haber ekranlarının akşam kuşağında izleyiciyle buluşan, gün boyunca Türkiye ve dünyada yaşanan önemli olayları kapsamlı bir bakışla aktaran haber bültenidir. Siyaset, ekonomi ve toplumsal olaylardan oluşan gündem; son dakika haberleri, değerlendirmeler ve çarpıcı başlıklarla detaylı şekilde ekrana taşınıyor. Programda haberlerin arka planı ve olası etkileri sade bir dille izleyiciye sunulurken günün genel haber tablosu da net biçimde gözler önüne seriliyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511190000 +0200" stop="20260511195000 +0200">
+    <title lang="fr">Akşam Ajansı</title>
+    <desc lang="fr">Akşam Ajansı, A Haber ekranlarının akşam kuşağında izleyiciyle buluşan, gün boyunca Türkiye ve dünyada yaşanan önemli olayları kapsamlı bir bakışla aktaran haber bültenidir. Siyaset, ekonomi ve toplumsal olaylardan oluşan gündem; son dakika haberleri, değerlendirmeler ve çarpıcı başlıklarla detaylı şekilde ekrana taşınıyor. Programda haberlerin arka planı ve olası etkileri sade bir dille izleyiciye sunulurken günün genel haber tablosu da net biçimde gözler önüne seriliyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511195000 +0200" stop="20260511200000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511200000 +0200" stop="20260511230000 +0200">
+    <title lang="fr">Melih Altınok İle Sebep Sonuç</title>
+    <desc lang="fr">Melih Altınok ile Sebep Sonuç A Haber ekranlarında gündemdeki önemli siyasi ve toplumsal başlıkları uzman yorumlarıyla masaya yatıran analiz programıdır. Programda sebep ve sonuç ilişkisi çerçevesinde ele alınan konular detaylıca tartışılırken izleyici farklı bakış açılarıyla gelişmeleri takip eder. Her bölüm yeni bir meseleyi mercek altına alarak olayların nedenlerini ve muhtemel sonuçlarını gündeme taşıyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260511230000 +0200" stop="20260512010000 +0200">
+    <title lang="fr">Gece Ajansı</title>
+    <desc lang="fr">Güne son nokta, A Haber ekranlarında yayınlanan Gece Ajansı ile konuluyor. Programda iç ve dış siyaset, ekonomi ve spor alanlarında gün boyunca yaşanan önemli gelişmeler kapsamlı şekilde ele alınıyor. Son dakika haberleri, öne çıkan başlıklar ve detaylı aktarımlarla izleyiciye günün tamamını özetleyen güvenilir ve güncel bir haber akışı sunuluyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.1250" start="20260511003000 +0200" stop="20260511030000 +0200">
     <title lang="fr">FreeDOM</title>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511010000 +0200" stop="20260511014100 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511014100 +0200" stop="20260511022200 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511022200 +0200" stop="20260511040000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511040000 +0200" stop="20260511050000 +0200">
+    <title lang="fr">Kanguka</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511050000 +0200" stop="20260511063000 +0200">
+    <title lang="fr">Les actualités prophétiques</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511063000 +0200" stop="20260511070000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511070000 +0200" stop="20260511073000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511073000 +0200" stop="20260511080000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511080000 +0200" stop="20260511083000 +0200">
+    <title lang="fr">Teach!</title>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511083000 +0200" stop="20260511090000 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511090000 +0200" stop="20260511100000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511100000 +0200" stop="20260511110000 +0200">
+    <title lang="fr">PCC - Paris Centre Chrétien</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511110000 +0200" stop="20260511120000 +0200">
+    <title lang="fr">Momentum</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511120000 +0200" stop="20260511123000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511123000 +0200" stop="20260511130000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511130000 +0200" stop="20260511140000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511140000 +0200" stop="20260511151500 +0200">
+    <title lang="fr">Eglise Plénitude</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511151500 +0200" stop="20260511154500 +0200">
+    <title lang="fr">Gospel Vision Center</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511154500 +0200" stop="20260511161500 +0200">
+    <title lang="fr">TLB - Toute la Bible</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511161500 +0200" stop="20260511170100 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511170100 +0200" stop="20260511173000 +0200">
+    <title lang="fr">Amis et Héros</title>
+    <desc lang="fr">Suivez les aventures de Macky dans son pays d'Egypte, car lui et sa famille risquent la colère des romains en suivant les pas de Jésus. Comment s'en sortiront-ils ?</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511173000 +0200" stop="20260511180000 +0200">
+    <title lang="fr">MLK Kids</title>
+    <category lang="fr">Magazine / Magazine jeunesse</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511180000 +0200" stop="20260511190000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511190000 +0200" stop="20260511193000 +0200">
+    <title lang="fr">Teach!</title>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511193000 +0200" stop="20260511200000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511200000 +0200" stop="20260511210000 +0200">
+    <title lang="fr">Momentum</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511210000 +0200" stop="20260511220000 +0200">
+    <title lang="fr">PCC - Paris Centre Chrétien</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511220000 +0200" stop="20260511223000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511223000 +0200" stop="20260511230000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511230000 +0200" stop="20260511233000 +0200">
+    <title lang="fr">TLB - Toute la Bible</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260511233000 +0200" stop="20260512000000 +0200">
+    <title lang="fr">Le son du réveil</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
   <programme channel="oqee.1275" start="20260511001000 +0200" stop="20260511010000 +0200">
     <title lang="fr">Ilo Aina - S02E26</title>
@@ -47460,6 +48162,7 @@
   </programme>
   <programme channel="oqee.264" start="20260511143300 +0200" stop="20260511144700 +0200">
     <title lang="fr">Solutions d'ici</title>
+    <desc lang="fr">On trouve des solutions face aux enjeux en Limousin Aujourd'hui, face au manque d'eau en été, des jardiniers trouvent</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.264" start="20260511144700 +0200" stop="20260511150100 +0200">
@@ -48796,6 +49499,186 @@
     <desc lang="fr">La Lune est à nouveau au centre de l'attention de la conquête spatiale et plusieurs nations envisagent de s'y installer de façon permanente d'ici peu.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
+  <programme channel="oqee.335" start="20260511003000 +0200" stop="20260511005000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511005000 +0200" stop="20260511015000 +0200">
+    <title lang="fr">L'Congé</title>
+    <category lang="fr">Téléfilm / Téléfilm humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511015000 +0200" stop="20260511022000 +0200">
+    <title lang="fr">Ïlm wa Hadara</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511022000 +0200" stop="20260511025000 +0200">
+    <title lang="fr">Wâadi</title>
+    <desc lang="fr">Une série marocaine qui présente les problèmes différents de la société, dans un cadre dramatique. La série raconte l'histoire d'une fille qui était kidnappée quand elle était enfant par un couple qui exploite des enfants.</desc>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511025000 +0200" stop="20260511025500 +0200">
+    <title lang="fr">Sayeda Al Hourra</title>
+    <desc lang="fr">Un drame historique se déroulant à Chefchaouen et Tétouan où Aïcha, la fille du dirigeant de la ville Ali Ben Rashed, toujours fidèle au dirigeant de Fès, épouse un homme pour l'aider à résister à l'attaque de l'alliance dominante Sa'idin sur le sud du Maroc. </desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511025500 +0200" stop="20260511031000 +0200">
+    <title lang="fr">Salah et Fati</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511031000 +0200" stop="20260511041000 +0200">
+    <title lang="fr">Amouddou</title>
+    <desc lang="fr">Amouddou est une série d'émissions documentaires marocaine, un documentaire éblouissant sur la nature et la découverte.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511041000 +0200" stop="20260511043000 +0200">
+    <title lang="fr">Massira koraniya</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511043000 +0200" stop="20260511044000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511044000 +0200" stop="20260511050000 +0200">
+    <title lang="fr">Amdah Nabaouiya</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511050000 +0200" stop="20260511055500 +0200">
+    <title lang="fr">Anmougar</title>
+    <desc lang="fr">"Anmougar" propose un voyage singulier dans 20 moussems à travers le royaume. A chaque région ses habitudes, ses traditions, ses paysages et son environnement particuliers. Vous serez à chaque fois plongés dans le quotidien des populations locales et imprégnés de leur culture.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511055500 +0200" stop="20260511063000 +0200">
+    <title lang="fr">Wlidat Bladi</title>
+    <desc lang="fr">Un programme inédit qui offre aux enfants la possibilité de briller par leur talent devant le grand public.</desc>
+    <category lang="fr">Magazine / Magazine jeunesse</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511063000 +0200" stop="20260511070000 +0200">
+    <title lang="fr">Aâlam Zineb wa Nafnouf</title>
+    <desc lang="fr">Un nouveau programme télévisé de caractère ludique déstiné aux jeunes téléspectateurs. L'émission vise à assouvir la curiosité des enfants en leur offrant de nouvelles perspectives.</desc>
+    <category lang="fr">Magazine / Magazine jeunesse</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511070000 +0200" stop="20260511070500 +0200">
+    <title lang="fr">Hymne national+ Coran</title>
+    <desc lang="fr">Commencez votre journée avec l'hymne national du Maroc et la lecture du Saint Coran.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511070500 +0200" stop="20260511071000 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511071000 +0200" stop="20260511074000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511074000 +0200" stop="20260511081000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511081000 +0200" stop="20260511090500 +0200">
+    <title lang="fr">Maalim wa Modoun</title>
+    <desc lang="fr">Magazine d'information.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511090500 +0200" stop="20260511100000 +0200">
+    <title lang="fr">Mawaki'e wa Wakaie</title>
+    <desc lang="fr">Magazine sur les sujets différents: la vie , la santé, la musique, le tourisme...</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511100000 +0200" stop="20260511105500 +0200">
+    <title lang="fr">Aicha</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511105500 +0200" stop="20260511115000 +0200">
+    <title lang="fr">Ousrati</title>
+    <desc lang="fr">Laissez vous porter par "Ossrati" , une émission dans l'esprit de Ramadan placée sous le signe du bien-être et de la sérénité. Au programme les conseils pour la bonne santé, la beauté de votre corps, la mode, la décoration intérieure qui fait de votre maison le foyer de vos rêves...</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511115000 +0200" stop="20260511122500 +0200">
+    <title lang="fr">Oyoune Ghaîma</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511122500 +0200" stop="20260511130000 +0200">
+    <title lang="fr">Ahlam City</title>
+    <desc lang="fr">Après plusieurs années de dur labeur, Zineb parvient enfin à acquérir la maison de ses rêves. Très vite, ce rêve de vie paisible tournera court suite à un conflit avec leur voisin, "Zaitouni", propriétaire d'un terrain qu'il entend bien exploiter. En dépit de tous ces désaccords et contre toute attente naîtra une histoire d'amour entre le fils de ce dernier et la fille de la famille Hammadi. Cela parviendra-t-il à apaiser les tensions et à mettre un terme à la rivalité entre les deux clans? </desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511130000 +0200" stop="20260511132000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511132000 +0200" stop="20260511140000 +0200">
+    <title lang="fr">Sla O Slam</title>
+    <desc lang="fr">La série raconte l'histoire de Karima qui revient à sa ville natale Bejaad où elle va reprendre le travail de sa mère et commencera à organiser des fêtes de mariage. Ses amis d'enfance seront là pour lui aider. </desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511140000 +0200" stop="20260511142000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511142000 +0200" stop="20260511144000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511144000 +0200" stop="20260511150000 +0200">
+    <title lang="fr">Al Malhoune</title>
+    <category lang="fr">Spectacle / Musical</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511150000 +0200" stop="20260511180000 +0200">
+    <title lang="fr">Parlement</title>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511180000 +0200" stop="20260511182000 +0200">
+    <title lang="fr">Qahwa nes nes</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511182000 +0200" stop="20260511183000 +0200">
+    <title lang="fr">Majala Attakafia</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511183000 +0200" stop="20260511185000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511185000 +0200" stop="20260511192500 +0200">
+    <title lang="fr">Oyoune Ghaîma</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511192500 +0200" stop="20260511193000 +0200">
+    <title lang="fr">Allal w Kamelia</title>
+    <category lang="fr">Série / Série jeunesse</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511193000 +0200" stop="20260511194000 +0200">
+    <title lang="fr">Rattrapage</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511194000 +0200" stop="20260511202500 +0200">
+    <title lang="fr">Joudia</title>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511202500 +0200" stop="20260511210000 +0200">
+    <title lang="fr">Ahlam City</title>
+    <desc lang="fr">Après plusieurs années de dur labeur, Zineb parvient enfin à acquérir la maison de ses rêves. Très vite, ce rêve de vie paisible tournera court suite à un conflit avec leur voisin, "Zaitouni", propriétaire d'un terrain qu'il entend bien exploiter. En dépit de tous ces désaccords et contre toute attente naîtra une histoire d'amour entre le fils de ce dernier et la fille de la famille Hammadi. Cela parviendra-t-il à apaiser les tensions et à mettre un terme à la rivalité entre les deux clans? </desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511210000 +0200" stop="20260511214500 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511214500 +0200" stop="20260511220000 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511220000 +0200" stop="20260511230000 +0200">
+    <title lang="fr">Kayna Dorouf</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260511230000 +0200" stop="20260512000000 +0200">
+    <title lang="fr">Dahab Nokra Harir</title>
+    <category lang="fr">Documentaire / Documentaire beaux-arts</category>
+  </programme>
   <programme channel="oqee.340" start="20260511004000 +0200" stop="20260511013000 +0200">
     <title lang="fr">M jak miłość</title>
     <desc lang="fr">Na uczelni Mateusza pojawia się śliczna Bogna. Siostra Igora, któremu niedawno Mostowiak uratował życie nad rzeką, odnajduje go. Magda i Andrzej przekonują się, do czego jest zdolny gangster Igor Jabłoński. Zastraszona Paulina czuje się już bezpiecznie i przerywa milczenie.</desc>
@@ -49032,7 +49915,7 @@
   </programme>
   <programme channel="oqee.350" start="20260511053400 +0200" stop="20260511063000 +0200">
     <title lang="fr">Totem</title>
-    <desc lang="fr">Des personnalités inspirantes échangent autour d'une thématique puisée dans le champ des sciences humaines et sociales, ou pour mieux connaître une oeuvre et son auteur.</desc>
+    <desc lang="fr">Des personnalités inspirantes échangent autour d'une thématique puisée dans le champ des sciences humaines et sociales,</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.350" start="20260511063000 +0200" stop="20260511081200 +0200">
@@ -50567,7 +51450,7 @@
   </programme>
   <programme channel="oqee.382" start="20260511040000 +0200" stop="20260511043000 +0200">
     <title lang="fr">African Voices</title>
-    <desc lang="fr">African Voices offers viewers a unique viewpoint, showcasing engaging African personalities in intimate discussions from business and politics to music and sport.</desc>
+    <desc lang="fr">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.382" start="20260511043000 +0200" stop="20260511044500 +0200">
@@ -50940,10 +51823,12 @@
   </programme>
   <programme channel="oqee.396" start="20260511220000 +0200" stop="20260511223000 +0200">
     <title lang="fr">The World with Yalda Hakim</title>
+    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20260511223000 +0200" stop="20260511230000 +0200">
     <title lang="fr">The World with Yalda Hakim</title>
+    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20260511230000 +0200" stop="20260511233000 +0200">
@@ -51053,7 +51938,7 @@
   </programme>
   <programme channel="oqee.401" start="20260511160000 +0200" stop="20260511163000 +0200">
     <title lang="fr">Libre à vous - S03E33</title>
-    <desc lang="fr">A travers anecdotes et confidences, Guyonne de Montjou demande à des personnalités éclectiques d'offrir un aperçu de leur parcours et de leur vision du monde.</desc>
+    <desc lang="fr">Jamy Gourmaud, célèbre animateur de "C'est pas sorcier", est l'invité de Guyonne de Montjou et du Figaro TV dans Libre à Vous. Il présente son premier roman "Les ailes de la forêt" (Albin Michel). Il parle également de son enfance et expose son point de vue sur l'IA.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.401" start="20260511163000 +0200" stop="20260511170000 +0200">
@@ -51090,6 +51975,11 @@
     <title lang="fr">Points de vue - S02E181</title>
     <desc lang="fr">Un rendez-vous quotidien avec trois invités pour un échange sur les sujets brûlants de l'actualité politique et culturelle.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.401" start="20260511210000 +0200" stop="20260511223000 +0200">
+    <title lang="fr">Parlez-moi d'Histoire - S03E30</title>
+    <desc lang="fr">agrégé et docteur en histoire, ancien maître de conférences à l'IEP de Grenoble et Thierry Wolton, journaliste et historien.</desc>
+    <category lang="fr">Magazine / Magazine historique</category>
   </programme>
   <programme channel="oqee.401" start="20260511210000 +0200" stop="20260511220000 +0200">
     <title lang="fr">Métronome - S01E04</title>
@@ -54233,7 +55123,7 @@
   </programme>
   <programme channel="oqee.515" start="20260511043000 +0200" stop="20260511050000 +0200">
     <title lang="fr">UpFront</title>
-    <desc lang="fr">Frank, blunt and inquisitive, UpFront cuts through the headlines to get to the heart of the matter with influential guests and newsmakers.</desc>
+    <desc lang="fr">Journalist Mehdi Hasan presents this informational magazine in which he goes through the biggest newspaper headlines. He reads into the stories behind them to uncover the true meanings, often running into contradictions along the way. </desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.515" start="20260511050000 +0200" stop="20260511053000 +0200">
@@ -56819,9 +57709,29 @@
     <title lang="fr">Bénin TV</title>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="oqee.68" start="20260511004700 +0200" stop="20260511205000 +0200">
+    <title lang="fr">OPJ</title>
+    <desc lang="fr">Après avoir officié à Nouméa, Clarissa Hoarau s'installe à La Réunion, où elle retrouve quelques-uns de ses anciens collègues. Sur place, elle va devoir s'adapter à un nouvel environnement et gérer une vie privée compliquée. Mais une chose n'a pas changé : le crime. Clarissa va devoir travailler dur pour contribuer à maintenir l'ordre sur l'île. Délocalisée à La Réunion et rebaptisée "OPJ" depuis la saison 2, la série policière reste dans l'hémisphère sud et réunit la même équipe de personnages attachants.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="oqee.68" start="20260511004700 +0200" stop="20260511015000 +0200">
     <title lang="fr">OPJ</title>
     <desc lang="fr">Après avoir officié à Nouméa, Clarissa Hoarau s'installe à La Réunion, où elle retrouve quelques-uns de ses anciens collègues. Sur place, elle va devoir s'adapter à un nouvel environnement et gérer une vie privée compliquée. Mais une chose n'a pas changé : le crime. Clarissa va devoir travailler dur pour contribuer à maintenir l'ordre sur l'île. Délocalisée à La Réunion et rebaptisée "OPJ" depuis la saison 2, la série policière reste dans l'hémisphère sud et réunit la même équipe de personnages attachants.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260511205000 +0200" stop="20260511215400 +0200">
+    <title lang="fr">Astrid et Raphaëlle</title>
+    <desc lang="fr">Le commandant Raphaëlle Coste fait équipe avec Astrid Nielsen, une autiste Asperger, archiviste à la documentation criminelle de la police. Après une première enquête qui leur permet de se rencontrer, elles reprennent leur collaboration et, au fil des différentes affaires qu'elles élucident, apprennent à mieux se connaître. Ce duo d'enquêtrices permet de retrouver Lola Dewaere et Sara Mortensen, vue dans "Plus belle la vie". Une série qui, comme "Good Doctor" ou "The Bridge" (et adaptations), aborde la thématique de l'autisme.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260511215400 +0200" stop="20260511225800 +0200">
+    <title lang="fr">Astrid et Raphaëlle</title>
+    <desc lang="fr">Le commandant Raphaëlle Coste fait équipe avec Astrid Nielsen, une autiste Asperger, archiviste à la documentation criminelle de la police. Après une première enquête qui leur permet de se rencontrer, elles reprennent leur collaboration et, au fil des différentes affaires qu'elles élucident, apprennent à mieux se connaître. Ce duo d'enquêtrices permet de retrouver Lola Dewaere et Sara Mortensen, vue dans "Plus belle la vie". Une série qui, comme "Good Doctor" ou "The Bridge" (et adaptations), aborde la thématique de l'autisme.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260511225800 +0200" stop="20260512000200 +0200">
+    <title lang="fr">Astrid et Raphaëlle</title>
+    <desc lang="fr">Le commandant Raphaëlle Coste fait équipe avec Astrid Nielsen, une autiste Asperger, archiviste à la documentation criminelle de la police. Après une première enquête qui leur permet de se rencontrer, elles reprennent leur collaboration et, au fil des différentes affaires qu'elles élucident, apprennent à mieux se connaître. Ce duo d'enquêtrices permet de retrouver Lola Dewaere et Sara Mortensen, vue dans "Plus belle la vie". Une série qui, comme "Good Doctor" ou "The Bridge" (et adaptations), aborde la thématique de l'autisme.</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="oqee.681" start="20260511000000 +0200" stop="20260511001000 +0200">
@@ -56866,7 +57776,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511013000 +0200" stop="20260511015700 +0200">
     <title lang="fr">Grand Sumo Highlights</title>
-    <desc lang="fr">NHK WORLD-JAPAN presents a sumo highlights program for fans around the globe. Today the show features all top-division bouts from ( ), Day ( ) of the Grand Sumo Tournament in ( ).</desc>
+    <desc lang="fr">NHK WORLD-JAPAN presents a sumo highlights program for fans around the globe. Today the show features all top-division bouts from May 10, Day 1 of the Grand Sumo Tournament in Tokyo.</desc>
     <category lang="fr">Magazine sportif / Sumo</category>
   </programme>
   <programme channel="oqee.681" start="20260511015700 +0200" stop="20260511020000 +0200">
@@ -56896,7 +57806,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511023000 +0200" stop="20260511025500 +0200">
     <title lang="fr">The Factory Wonders</title>
-    <desc lang="fr">A selection of acclaimed programs from NHK's domestic channels dubbed into English.</desc>
+    <desc lang="fr">We explore a factory in Sagamihara where they make machines that skewer ingredients for famous Japanese foods like yakitori and oden. How do they ensure each piece is cooked to soft, juicy perfection?</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.681" start="20260511025500 +0200" stop="20260511030000 +0200">
@@ -56971,7 +57881,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511063000 +0200" stop="20260511065700 +0200">
     <title lang="fr">Grand Sumo Highlights</title>
-    <desc lang="fr">NHK WORLD-JAPAN presents a sumo highlights program for fans around the globe. Today the show features all top-division bouts from ( ), Day ( ) of the Grand Sumo Tournament in ( ).</desc>
+    <desc lang="fr">NHK WORLD-JAPAN presents a sumo highlights program for fans around the globe. Today the show features all top-division bouts from May 10, Day 1 of the Grand Sumo Tournament in Tokyo.</desc>
     <category lang="fr">Magazine sportif / Sumo</category>
   </programme>
   <programme channel="oqee.681" start="20260511065700 +0200" stop="20260511070000 +0200">
@@ -56986,7 +57896,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511073000 +0200" stop="20260511075500 +0200">
     <title lang="fr">The Factory Wonders</title>
-    <desc lang="fr">A selection of acclaimed programs from NHK's domestic channels dubbed into English.</desc>
+    <desc lang="fr">We explore a factory in Sagamihara where they make machines that skewer ingredients for famous Japanese foods like yakitori and oden. How do they ensure each piece is cooked to soft, juicy perfection?</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.681" start="20260511075500 +0200" stop="20260511080000 +0200">
@@ -57036,7 +57946,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511103000 +0200" stop="20260511105700 +0200">
     <title lang="fr">Grand Sumo Highlights</title>
-    <desc lang="fr">NHK WORLD-JAPAN presents a sumo highlights program for fans around the globe. Today the show features all top-division bouts from ( ), Day ( ) of the Grand Sumo Tournament in ( ).</desc>
+    <desc lang="fr">NHK WORLD-JAPAN presents a sumo highlights program for fans around the globe. Today the show features all top-division bouts from May 10, Day 1 of the Grand Sumo Tournament in Tokyo.</desc>
     <category lang="fr">Magazine sportif / Sumo</category>
   </programme>
   <programme channel="oqee.681" start="20260511105700 +0200" stop="20260511110000 +0200">
@@ -57061,7 +57971,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511123000 +0200" stop="20260511125500 +0200">
     <title lang="fr">The Factory Wonders</title>
-    <desc lang="fr">A selection of acclaimed programs from NHK's domestic channels dubbed into English.</desc>
+    <desc lang="fr">We explore a factory in Sagamihara where they make machines that skewer ingredients for famous Japanese foods like yakitori and oden. How do they ensure each piece is cooked to soft, juicy perfection?</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.681" start="20260511125500 +0200" stop="20260511130000 +0200">
@@ -57096,7 +58006,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511143000 +0200" stop="20260511150000 +0200">
     <title lang="fr">Dive in Tokyo</title>
-    <desc lang="fr">Tokyo: where both tradition and the latest trends coexist. Join us on a journey to historic old towns and encounter many fun surprises along the way.</desc>
+    <desc lang="fr">Jimbocho's famous secondhand book district is home to stores carrying everything from old academic texts to manga. Join us as we trace its history as a college town and spotlight new initiatives.</desc>
     <category lang="fr">Documentaire / Documentaire voyage</category>
   </programme>
   <programme channel="oqee.681" start="20260511150000 +0200" stop="20260511153000 +0200">
@@ -57126,7 +58036,7 @@
   </programme>
   <programme channel="oqee.681" start="20260511173000 +0200" stop="20260511175500 +0200">
     <title lang="fr">The Factory Wonders</title>
-    <desc lang="fr">A selection of acclaimed programs from NHK's domestic channels dubbed into English.</desc>
+    <desc lang="fr">We explore a factory in Sagamihara where they make machines that skewer ingredients for famous Japanese foods like yakitori and oden. How do they ensure each piece is cooked to soft, juicy perfection?</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.681" start="20260511175500 +0200" stop="20260511180000 +0200">
@@ -58683,6 +59593,116 @@
     <desc lang="fr">Enjoy a moment of escape watching this amazing landscape, captured at Perros Guirec Lighthouse headland in Brittany.</desc>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
+  <programme channel="oqee.698" start="20260511000000 +0200" stop="20260511014200 +0200">
+    <title lang="fr">Lesbian Stepsisters</title>
+    <desc lang="fr">Blended families can be so awkward, so annoying, especially if you're a girl with a new stepsister around the same age! On occasion there can be silver linings in these relationships, especially if both girls are horny and like eating pussy!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511014200 +0200" stop="20260511020000 +0200">
+    <title lang="fr">Cum in My Mouth</title>
+    <desc lang="fr">Veronica (Leal) and Jay (Snakes) have been stepsiblings for years now! She's only had sex with her hand and has always been curious about what it would be like to fuck him! He's game for it even though it's quite freaky!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511020000 +0200" stop="20260511034600 +0200">
+    <title lang="fr">Blake Blossom's Big Titty Stories</title>
+    <desc lang="fr">Blake Blossom, Odette Fox, Hazel Moore, and Lexi Luna tease and taunt in sexy lingerie knowing their writhing efforts will produce a nice stiff cock to fill their mouth, titties, and throbbing pussy!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511034600 +0200" stop="20260511040000 +0200">
+    <title lang="fr">My Dick Saved the Day</title>
+    <desc lang="fr">Coco's (Lovelock) sunbathing and enjoying herself in the backyard when a creepy guy comes along hoping to join her. Fearful, she runs inside and calls Michael (Stefano) for help! But this horny girl wants Michael to stay and take her fears away with his dick!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511040000 +0200" stop="20260511060000 +0200">
+    <title lang="fr">The Masseur Fucked My Ass</title>
+    <desc lang="fr">When you've got lower back pain from stress and tension there's no better place to find relief than Kinky Spa. Their goal is to "please" because they know a completely satisfied customer will leave good reviews... even the janitor knows that!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511060000 +0200" stop="20260511075000 +0200">
+    <title lang="fr">Wicked Waitresses</title>
+    <desc lang="fr">Lia Lin and Jolee Love are wicked waitresses with tips on their mind, while Nicole Murkowski and Alice XO are flirty customers with their hungry eyes on their handsome waiters! All of them are really thinking about filling an insatiable need!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511075000 +0200" stop="20260511075600 +0200">
+    <title lang="fr">BTS Big Titty MILF Maids</title>
+    <desc lang="fr">Super slut, Kiki Klout is back with Penthouse after 2 years to work with Tyler Steel... and this girl is sooooo hungry for dick!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511075600 +0200" stop="20260511080000 +0200">
+    <title lang="fr">Pet of the Month</title>
+    <desc lang="fr">Vanna Bardot's dream of becoming a Penthouse Pet of the Month came true in January 2021! She's a 32B with cute tiny nipples but also has lots of nice curves! Learn more about this petite brunette and see samples of her work in some of her hot Penthouse sex scenes!</desc>
+    <category lang="fr">Série / Série érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511080000 +0200" stop="20260511093600 +0200">
+    <title lang="fr">MILF Yoga Instructors Love Pussy</title>
+    <desc lang="fr">When exercising with a younger girl in tight fitting workout wear, both of you trying to keep your bodies in great shape, it's hard for some MILF not to wonder what that young pussy tastes like... sometimes they actually get to taste!</desc>
+    <category lang="fr">Film / Film érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511093600 +0200" stop="20260511100000 +0200">
+    <title lang="fr">Tiny Titties and a Thick Muff</title>
+    <desc lang="fr">Tiny Liz Jordan, wearing a tiny black bikini, knows her bush is hanging out and loves it! This frisky dirty girl can't wait to get Zac Wild's cock in her mouth for a taste before her wet pussy does!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511100000 +0200" stop="20260511120000 +0200">
+    <title lang="fr">Dirty Anal 3ways</title>
+    <desc lang="fr">We all know that behind closed doors the doctors and nurses are always fucking, but here are four delicious instances where the patient is included in the fun! Just remember guys there are two holes, so there'll be no waiting to get in!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511120000 +0200" stop="20260511134200 +0200">
+    <title lang="fr">Lesbian Stepsisters</title>
+    <desc lang="fr">Blended families can be so awkward, so annoying, especially if you're a girl with a new stepsister around the same age! On occasion there can be silver linings in these relationships, especially if both girls are horny and like eating pussy!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511134200 +0200" stop="20260511140000 +0200">
+    <title lang="fr">Cum in My Mouth</title>
+    <desc lang="fr">Veronica (Leal) and Jay (Snakes) have been stepsiblings for years now! She's only had sex with her hand and has always been curious about what it would be like to fuck him! He's game for it even though it's quite freaky!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511140000 +0200" stop="20260511154600 +0200">
+    <title lang="fr">Blake Blossom's Big Titty Stories</title>
+    <desc lang="fr">Blake Blossom, Odette Fox, Hazel Moore, and Lexi Luna tease and taunt in sexy lingerie knowing their writhing efforts will produce a nice stiff cock to fill their mouth, titties, and throbbing pussy!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511154600 +0200" stop="20260511160000 +0200">
+    <title lang="fr">My Dick Saved the Day</title>
+    <desc lang="fr">Coco's (Lovelock) sunbathing and enjoying herself in the backyard when a creepy guy comes along hoping to join her. Fearful, she runs inside and calls Michael (Stefano) for help! But this horny girl wants Michael to stay and take her fears away with his dick!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511160000 +0200" stop="20260511180000 +0200">
+    <title lang="fr">The Masseur Fucked My Ass</title>
+    <desc lang="fr">When you've got lower back pain from stress and tension there's no better place to find relief than Kinky Spa. Their goal is to "please" because they know a completely satisfied customer will leave good reviews... even the janitor knows that!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511180000 +0200" stop="20260511195000 +0200">
+    <title lang="fr">Wicked Waitresses</title>
+    <desc lang="fr">Lia Lin and Jolee Love are wicked waitresses with tips on their mind, while Nicole Murkowski and Alice XO are flirty customers with their hungry eyes on their handsome waiters! All of them are really thinking about filling an insatiable need!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511195000 +0200" stop="20260511195600 +0200">
+    <title lang="fr">BTS Big Titty MILF Maids</title>
+    <desc lang="fr">Super slut, Kiki Klout is back with Penthouse after 2 years to work with Tyler Steel... and this girl is sooooo hungry for dick!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511195600 +0200" stop="20260511200000 +0200">
+    <title lang="fr">Pet of the Month</title>
+    <desc lang="fr">Vanna Bardot's dream of becoming a Penthouse Pet of the Month came true in January 2021! She's a 32B with cute tiny nipples but also has lots of nice curves! Learn more about this petite brunette and see samples of her work in some of her hot Penthouse sex scenes!</desc>
+    <category lang="fr">Série / Série érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511200000 +0200" stop="20260511213600 +0200">
+    <title lang="fr">MILF Yoga Instructors Love Pussy</title>
+    <desc lang="fr">When exercising with a younger girl in tight fitting workout wear, both of you trying to keep your bodies in great shape, it's hard for some MILF not to wonder what that young pussy tastes like... sometimes they actually get to taste!</desc>
+    <category lang="fr">Film / Film érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511213600 +0200" stop="20260511220000 +0200">
+    <title lang="fr">Tiny Titties and a Thick Muff</title>
+    <desc lang="fr">Tiny Liz Jordan, wearing a tiny black bikini, knows her bush is hanging out and loves it! This frisky dirty girl can't wait to get Zac Wild's cock in her mouth for a taste before her wet pussy does!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260511220000 +0200" stop="20260512000100 +0200">
+    <title lang="fr">Dirty Anal 3ways</title>
+    <desc lang="fr">We all know that behind closed doors the doctors and nurses are always fucking, but here are four delicious instances where the patient is included in the fun! Just remember guys there are two holes, so there'll be no waiting to get in!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
   <programme channel="oqee.699" start="20260511000000 +0200" stop="20260511020000 +0200">
     <title lang="fr">BangBros Bus V91</title>
     <desc lang="fr">You're riding on the wild side when you ride with the Bang Bus! Only crazy, or horny, or money hungry girls would ever get on, thankfully Miami is full of those kinds of girls!</desc>
@@ -59020,7 +60040,17 @@
     <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.71" start="20260511010000 +0200" stop="20260511023000 +0200">
+    <title lang="fr">En xogo</title>
+    <desc lang="fr">Espazo deportivo presentado por Gustavo Varela, que aposta polo fútbol galego, con especial atención ao Celta e ao Deportivo.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
   <programme channel="oqee.71" start="20260511013500 +0200" stop="20260511044500 +0200">
+    <title lang="fr">Luar</title>
+    <desc lang="fr">Espacio musical al que acuden los intérpretes más destacados del panorama musical actual. Además, se presta especial atención a la música gallega.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.71" start="20260511023000 +0200" stop="20260511065600 +0200">
     <title lang="fr">Luar</title>
     <desc lang="fr">Espacio musical al que acuden los intérpretes más destacados del panorama musical actual. Además, se presta especial atención a la música gallega.</desc>
     <category lang="fr">Divers / Emission musicale</category>
@@ -59036,6 +60066,11 @@
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.71" start="20260511065500 +0200" stop="20260511070000 +0200">
+    <title lang="fr">Información estado do mar mañá</title>
+    <desc lang="fr">Microespacio que ofrece la información meteorológica marítima. "Estado do mar" está dedicado fundamentalmente a la gente de mar y a los aficionados de los deportes náuticos.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20260511065600 +0200" stop="20260511070000 +0200">
     <title lang="fr">Información estado do mar mañá</title>
     <desc lang="fr">Microespacio que ofrece la información meteorológica marítima. "Estado do mar" está dedicado fundamentalmente a la gente de mar y a los aficionados de los deportes náuticos.</desc>
     <category lang="fr">Divers / Météo</category>
@@ -61720,7 +62755,7 @@
   </programme>
   <programme channel="oqee.947" start="20260511010000 +0200" stop="20260511021500 +0200">
     <title lang="fr">Sahte Kabadayı</title>
-    <desc lang="fr">Kemal ünlü bir mafya babasının oğludur. Fakat babasının aksine onun sakin, mütevazı bir hayatı vardır. Günlerini garda pişmaniye satarak geçirmektedir. Fakat Kemal'in hayatı babasının ölümünün ardından bambaşka bir hal alır. Babası en yakın adamı Muhtar tarafından öldürülünce mirası bölünür. Avukatın kendisini aramasıyla gerçekleri öğrenen Kemal apar topar İstanbul'a gider. Mirası geri almayı kafasına koyan Kemal şehrin en namlı kabadayılarını ziyaret etmeye başlar. Kemal kısa sürede yeraltı dünyasında nam salar. Kemal'in kendi peşinde olduğunu öğrenen Muhtar onu tuzağa düşürmek için her yolu dener. Fakat Kemal kendisine yapılan bu tuzakların hepsinden şapşallığı sayesinde kolayca kurtulur. Kemal kendisinden kurtulmaya çalışanları ekarte edip babasının intikamını alabilecek midir?</desc>
+    <desc lang="fr">Sıradan ve kendi halinde bir adam, art arda yaşanan yanlış anlaşılmalar sonucu kendini yeraltı dünyasının içinde bulur. Çevresindekiler onu korkulan bir kabadayı sanınca, aslında hiç olmadığı bir kimliği sürdürmek zorunda kalır. Bu süreçte hem tehlikeli hem de son derece komik olayların içine sürüklenir. Komedi ve aksiyonu bir araya getiren hikâye, yanlış kimlik algısının yarattığı absürt durumları eğlenceli bir dille anlatır.</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="oqee.947" start="20260511010000 +0200" stop="20260511033000 +0200">
@@ -62007,6 +63042,21 @@
     <title lang="fr">Aslı Şafak'la İşin Aslı</title>
     <desc lang="fr">Ekonomi, iş dünyası ve gündemdeki kritik konuları ele alan bir programdır. Analizler, güncel gelişmeler ve uzman yorumları izleyiciye açık ve anlaşılır bir dille aktarılır. Program, izleyicinin olayları daha doğru değerlendirmesine ve ekonomik gelişmeler hakkında bilinçli kararlar almasına katkı sağlıyor.</desc>
     <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.953" start="20260511012500 +0200" stop="20260511021500 +0200">
+    <title lang="fr">Chemins d'école, chemins de tous les dangers</title>
+    <desc lang="fr">Au Népal, le petit Ali et ses camarades bravent tous les obstacles pour se rendre à l'école depuis leur village perdu de Kumpur, perché à 4000 mètres.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.953" start="20260511021500 +0200" stop="20260511032000 +0200">
+    <title lang="fr">Şehirden Uzakta</title>
+    <desc lang="fr">Şehirden Uzakta, TRT Belgesel kanalında, Kıvanç Kasabalı ile Anadolu'nun sıcak insanlarını ve doğal güzelliklerini keşfe çıkan bir belgesel. Kasabalı, her bölümde Anadolu'nun farklı köylerine giderek, yerel halkın yaşamını, geleneklerini ve doğayla iç içe olan huzurlu yaşamlarını anlatıyor. Bu program, modern hayatın gürültüsünden uzak, samimi ve sakin bir yaşam arayanlar için ilham verici bir keşif sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.953" start="20260511032000 +0200" stop="20260511040500 +0200">
+    <title lang="fr">Gönüllü Veteriner</title>
+    <desc lang="fr">Gönüllü Veteriner, TRT Belgesel kanalında yayınlanan ve hayvan sağlığına adanmış gönüllü veterinerlerin hayatına odaklanan bir belgesel dizisidir. Program, gönüllü veterinerlerin hayvanların sağlığı için verdikleri mücadeleleri, karşılaştıkları zorlukları ve fedakarlıklarını izleyiciye aktarır. Her bölümde, veterinerlerin çeşitli yerlerdeki hayvanlarla ilgilenirken yaşadıkları deneyimler ve bu süreçteki duygusal anlar izlenir. Hayvan hakları ve veterinerlik mesleğinin önemine dikkat çekerken, aynı zamanda toplumda hayvanlara karşı duyarlılığı artırmayı amaçlar.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
   <programme channel="oqee.968" start="20260511060000 +0200" stop="20260511070000 +0200">
     <title lang="fr">Başrol</title>
