@@ -27,6 +27,9 @@
   <channel id="4Plus.ch">
     <display-name>4Plus.ch</display-name>
   </channel>
+  <channel id="516407">
+    <display-name>Canal+ Polynésie</display-name>
+  </channel>
   <channel id="5Plus.ch">
     <display-name>5Plus.ch</display-name>
   </channel>
@@ -1548,6 +1551,10 @@
   <channel id="M6Music.fr">
     <display-name>M6 Music</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~b4eb6aa19b3ef5f1.png/480x480/quality/100/m6-music.png"/>
+  </channel>
+  <channel id="MATV.ca">
+    <display-name>MATV</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXv1CWZz_XSNQo4iGlbEogR_HcZJ_vW8trU5D5i5tbPzdT8McTG0fyK9AFKY&amp;amp;s"/>
   </channel>
   <channel id="MAX.ca">
     <display-name>MAX</display-name>
@@ -4625,6 +4632,53 @@
     <desc lang="fr">Johnny Blaze, ein Motorrad-Stuntman, verkauft seine Seele an Mephisto und wird zum Ghost Rider.</desc>
     <category lang="fr">Action</category>
     <icon src="https://media.teleboy.ch/media/raw/0e935f7789fe99cb9b641f0c1cf096b909be2baf.jpg"/>
+  </programme>
+  <programme channel="516407" start="20260508004800 +0000" stop="20260508010000 +0000">
+    <title lang="fr">Soir de Première Ligue</title>
+    <desc lang="fr">En Direct. Les dernières informations du terrain et les compositions des équipes qui se défient en Arkema Première Ligue, le championnat de France féminin de football.</desc>
+  </programme>
+  <programme channel="516407" start="20260508010000 +0000" stop="20260508010500 +0000">
+    <title lang="fr">Zapsport 360</title>
+  </programme>
+  <programme channel="516407" start="20260508010500 +0000" stop="20260508010700 +0000">
+    <title lang="fr">Canal Champions Club</title>
+    <desc lang="fr">En Direct. En prélude des rencontres du jour, Hervé Mathoux et Laure Boulleau se chargent de présenter cette émission qui dévoile les dernières indiscrétions récoltées avant le coup d'envoi des hommes en noir. Placés au bord des pelouses dans les stades hôtes des matchs, les journalistes de la chaîne font vivre l'avant-match au plus près du feu de l'action. Les consultants experts en matière de ba</desc>
+  </programme>
+  <programme channel="516407" start="20260508010700 +0000" stop="20260508014000 +0000">
+    <title lang="fr">30/05/2026 : En Route pour Budapest</title>
+    <desc lang="fr">La finale de l'UEFA Champions League 2025/2026 se tiendra le 30 mai 2026 au stade Ferenc-Puskas à Budapest en Hongrie : retour sur les étapes du parcours des clubs européens.</desc>
+  </programme>
+  <programme channel="516407" start="20260508014000 +0000" stop="20260508021600 +0000">
+    <title lang="fr">Zapsport 360</title>
+  </programme>
+  <programme channel="516407" start="20260508021600 +0000" stop="20260508024800 +0000">
+    <title lang="fr">Zapsport 360</title>
+  </programme>
+  <programme channel="516407" start="20260508024800 +0000" stop="20260508025400 +0000">
+    <title lang="fr">Zapsport 360</title>
+  </programme>
+  <programme channel="516407" start="20260508025400 +0000" stop="20260508030000 +0000">
+    <title lang="fr">Plateau avant-match UEFA Champions League</title>
+    <desc lang="fr">En Direct. Avant les rencontres d'UEFA Champions League, toutes les dernières informations sur les clubs engagés, les compositions d'équipes et l'ambiance au bord de la pelouse.</desc>
+  </programme>
+  <programme channel="516407" start="20260508030000 +0000" stop="20260508040100 +0000">
+    <title lang="fr">Bayern Munich / Paris-SG</title>
+    <desc lang="fr">En Direct.</desc>
+  </programme>
+  <programme channel="516407" start="20260508040100 +0000" stop="20260508045700 +0000">
+    <title lang="fr">Zapsport 360</title>
+  </programme>
+  <programme channel="516407" start="20260508045700 +0000" stop="20260508052800 +0000">
+    <title lang="fr">Canal Champions Club le debrief</title>
+    <desc lang="fr">En Direct. Débrief de la demi-finale retour de la Ligue des champions entre le Bayern Munich et le Paris-SG.</desc>
+  </programme>
+  <programme channel="516407" start="20260508052800 +0000" stop="20260508054600 +0000">
+    <title lang="fr">La boîte à questions</title>
+    <desc lang="fr">Sacrifiant au rituel d'une émission au format maintenant bien connu, une célébrité répond aux questions qui lui sont posées en off. C'est une interview aussi décalée que décontractée qui en découle. Les invités se révèlent souvent sous un autre angle, avec spontanéité.</desc>
+  </programme>
+  <programme channel="516407" start="20260508054600 +0000" stop="20260509000000 +0000">
+    <title lang="fr">La boîte à questions</title>
+    <desc lang="fr">Sacrifiant au rituel d'une émission au format maintenant bien connu, une célébrité répond aux questions qui lui sont posées en off. C'est une interview aussi décalée que décontractée qui en découle. Les invités se révèlent souvent sous un autre angle, avec spontanéité.</desc>
   </programme>
   <programme channel="5Plus.ch" start="20260508000000 +0200" stop="20260508010000 +0200">
     <title lang="fr">Elsbeth</title>
@@ -11559,12 +11613,14 @@ Acteurs : Serge Crozon-Cazin (Fédior Kital), Fabrice Fayal (Malik), Almamy Matt
   <programme channel="Arte.de" start="20260508050500 +0200" stop="20260508055500 +0200">
     <title lang="fr">Mars, en quête de vie</title>
     <desc lang="fr">Y a-t-il eu de la vie sur Mars ? Telle est la question à laquelle doit répondre l'astromobile Perseverance, lancé le 30 juillet 2020 par le Jet Propulsion Laboratory de la Nasa, dans le cadre de la mission Mars 2020. Après un voyage de près de 500 millions de kilomètres, l'engin s'est posé le 18 février 2021 dans le cratère rocheux Jezero, un delta de rivière asséché sur la planète rouge. Il doit maintenant forer des roches martiennes à la recherche de fossiles de micro-organismes qui, conjointement aux traces d'eau déjà découvertes par le rover Curiosity en 2012, prouveraient l'existence, par le passé, de la vie sur la planète. Un véritable défi technologique pour les scientifiques qui travaillent sur cette mission depuis le début des années 2010.</desc>
-    <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img1.oqee.net/pictures/4216458/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20260508055500 +0200" stop="20260508065000 +0200">
     <title lang="fr">Mauritanie, le train du désert</title>
     <desc lang="fr">Depuis 1963, une ligne ferroviaire traverse la Mauritanie et son océan de sable. Il est devenu un moyen de transport indispensable pour les habitants du désert.</desc>
-    <category lang="fr">Documentaire / Documentaire découvertes</category>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img2.oqee.net/pictures/199359/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20260508065000 +0200" stop="20260508072000 +0200">
     <title lang="fr">Voyage en cuisine</title>
@@ -11648,8 +11704,9 @@ Acteurs : Serge Crozon-Cazin (Fédior Kital), Fabrice Fayal (Malik), Almamy Matt
   </programme>
   <programme channel="Arte.de" start="20260508193500 +0200" stop="20260508194000 +0200">
     <title lang="fr">Le dessous des cartes : l'essentiel</title>
-    <desc lang="fr">"Le dessous des cartes" met son expertise géopolitique au service d'un décryptage en quatre minutes des grands événements qui secouent le monde contemporain.</desc>
+    <desc lang="fr">Rendez-vous du lundi au jeudi avec "Le dessous des cartes - L'essentiel" : un zoom de 3mn30 pour décrypter l'actualité géopolitique internationale.</desc>
     <category lang="fr">Magazine / Magazine de géopolitique</category>
+    <icon src="https://img2.oqee.net/pictures/4399959/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20260508194000 +0200" stop="20260508201500 +0200">
     <title lang="fr">Le style rétro, un art de vivre</title>
@@ -11693,7 +11750,6 @@ Acteurs : Serge Crozon-Cazin (Fédior Kital), Fabrice Fayal (Malik), Almamy Matt
   </programme>
   <programme channel="Arte.fr" start="20260508041500 +0200" stop="20260508044500 +0200">
     <title lang="fr">Espagne, enfants pauvres</title>
-    <desc lang="fr">À Barcelone, Séville ou Cadix, des écoliers, des étudiants et des jeunes professionnels, âgés de 9 à 21 ans, se débattent dans la pauvreté. Ils en incarnent les multiples facettes : héritage générationnel, économique, social. Face au manque de volonté politique, cette jeunesse ne peut compter que sur elle pour s'extirper de la précarité.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Arte.fr" start="20260508044500 +0200" stop="20260508050500 +0200">
@@ -11702,8 +11758,9 @@ Acteurs : Serge Crozon-Cazin (Fédior Kital), Fabrice Fayal (Malik), Almamy Matt
   </programme>
   <programme channel="Arte.fr" start="20260508050500 +0200" stop="20260508060000 +0200">
     <title lang="fr">Mars, en quête de vie</title>
-    <desc lang="fr">Y a-t-il eu de la vie sur Mars ? Telle est la question à laquelle doit répondre l'astromobile Perseverance, lancé le 30 juillet 2020 par le Jet Propulsion Laboratory de la Nasa, dans le cadre de la mission Mars 2020. Après un voyage de près de 500 millions de kilomètres, l'engin s'est posé le 18 février 2021 dans le cratère rocheux Jezero, un delta de rivière asséché sur la planète rouge. Il doit maintenant forer des roches martiennes à la recherche de fossiles de micro-organismes qui, conjointement aux traces d'eau déjà découvertes par le rover Curiosity en 2012, prouveraient l'existence, par le passé, de la vie sur la planète. Un véritable défi technologique pour les scientifiques qui travaillent sur cette mission depuis le début des années 2010.</desc>
-    <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+    <desc lang="fr">Y a-t-il eu de la vie sur Mars ? Telle est la question à laquelle doit répondre l'astromobile Perseverance, lancé le 30 juillet 2020 par le Jet Propulsion Laboratory de la Nasa, dans le cadre de la mission Mars 2020. Après un voyage de près de 500 millions de kilomètres, l'engin s'est posé le 18 février 2021. Il doit maintenant forer des roches martiennes à la recherche de fossiles de micro-organismes.</desc>
+    <category lang="fr">Decouverte</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/media.prod.hawc.canal.aws.io-cplus.net/405fd77e9ddbff5ce96d694013c1b2c5.jpg"/>
   </programme>
   <programme channel="Arte.fr" start="20260508060000 +0200" stop="20260508065500 +0200">
     <title lang="fr">A l'origine de la vie : Les impacts d'astéroïdes</title>
@@ -19857,7 +19914,7 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508000000 +0200" stop="20260508001000 +0200">
     <title lang="fr">Batwheels - S01E23</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">C'est le jour du Grand Prix de Gotham. La légion du Vroum a saboté tous les concurrents pour prendre leur place et remporter le trophée. Mais c'est sans compter sur les Batwheels bien décidés à leur damer le pion, et à la loyale !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508001000 +0200" stop="20260508002000 +0200">
@@ -20004,12 +20061,12 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508043000 +0200" stop="20260508044000 +0200">
     <title lang="fr">Batwheels - S01E22</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Bibi aime tellement faire des sauts qu'elle en oublie parfois de réfléchir avant de s'élancer. C'est comme ça qu'elle tombe dans un piège tendu par Taquine et le Calculateur. Les deux méchants enferment Bibi tandis que Taquine prend son apparence pour tenter de dérober la carte-mère de Batordinateur. Les Batwheels seront-ils dupes ?</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508044000 +0200" stop="20260508045000 +0200">
     <title lang="fr">Batwheels - S01E28</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Le nouveau gadget du Pingouin force les Batwheels à pousser la chansonnette.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508045000 +0200" stop="20260508050000 +0200">
@@ -20084,7 +20141,7 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508072000 +0200" stop="20260508073000 +0200">
     <title lang="fr">Batwheels - S01E25</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Bam propose à Kitty de faire une ronde avec lui, dans l'espoir de lui donner envie d'être une Batwheel. Mais Kitty ne l'entend pas de cette oreille, et préfère s'amuser. Jusqu'à ce que Bam comprenne comment lui donner envie d'aider...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508073000 +0200" stop="20260508074500 +0200">
@@ -20158,7 +20215,7 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508093500 +0200" stop="20260508094500 +0200">
     <title lang="fr">Batwheels - S01E26</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">A force de fréquenter Taquine, Bibi se dit qu'enfreindre les règles, ce n'est pas si dangereux que ça. Quand elle tombe en panne en pleine mission, elle va comprendre que les règles ne sont pas faites pour rien...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508094500 +0200" stop="20260508095500 +0200">
@@ -20168,17 +20225,17 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508095500 +0200" stop="20260508100000 +0200">
     <title lang="fr">Batwheels - S01E35</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Flamme peut enfin faire sa première mission en solo. Il veut se débrouiller seul, il est très confiant, peut-être trop... Mais heureusement, Bibi veille et elle est là quand il a besoin d'aide.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508100000 +0200" stop="20260508101500 +0200">
     <title lang="fr">Batwheels - S01E29</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Catwoman a décidé de chasser tous les chiens de Gotham pour en faire une ville réservée aux chats. C'est sans compter sur la ténacité d'un groupe de toutous et notamment d'un doberman très particulier...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508101500 +0200" stop="20260508102500 +0200">
     <title lang="fr">Batwheels - S01E27</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Après avoir aidé Batman de façon spectaculaire à mettre l'Homme-Mystère en déroute, Buff hérite d'un nouveau surnom : il sera à présent pour ses amis et pour le justicier masqué \" Buff-le-dur \". Mais étrangement, Buff n'est pas très heureux de cela : il pense qu'on ne le considère que comme un gros costaud et il voudrait qu'on l'aime pour ce qu'il est vraiment. Les Batwheels sauront-ils rassurer leur ami .</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508102500 +0200" stop="20260508103500 +0200">
@@ -20253,12 +20310,12 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508130000 +0200" stop="20260508131500 +0200">
     <title lang="fr">Batwheels - S01E37</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Batman est prisonnier dans le bateau Coin-Coin du Pingouin. Heureusement, Batwing a été équipée d'options qui lui permettent de nager sous l'eau. Mais est-ce qu'elle maitrise aussi bien l'eau que l'air ?</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508131500 +0200" stop="20260508133000 +0200">
     <title lang="fr">Batwheels - S01E36</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Bibi passe une très mauvaise journée. Mais grâce à ses amis, elle apprend à prendre les choses plus calmement.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508133000 +0200" stop="20260508134000 +0200">
@@ -20283,7 +20340,7 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508140000 +0200" stop="20260508141000 +0200">
     <title lang="fr">Thomas et ses amis : Tous en avant ! - S02E36</title>
-    <desc lang="fr">Il a des yeux ronds malicieux, une bouche dessinée en un sourire et des sourcils interrogatifs. Voici Thomas, la petite locomotive, ami des plus petits.</desc>
+    <desc lang="fr">Lorsque le rapide Kenji emprunte le mauvais itinéraire, Thomas doit se creuser les méninges pour le rattraper avant que les passagers ne descendent à la mauvaise gare.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508141000 +0200" stop="20260508142000 +0200">
@@ -20348,7 +20405,7 @@ Alors que la tension monte et que le danger se rapproche, Joseph et Rebecca doiv
   </programme>
   <programme channel="Boing.fr" start="20260508162500 +0200" stop="20260508163500 +0200">
     <title lang="fr">Batwheels - S01E31</title>
-    <desc lang="fr">Gotham a une nouvelle équipe de véhicules de lutte contre le crime ! Avec Bam, Redbird, Bibi, Batwing et Buff, des héros vraiment spéciaux, les rues de Gotham sont alors ainsi bien protégées...</desc>
+    <desc lang="fr">Poison Ivy est plus remontée que jamais et cherche à se construire un vrai bolide pour échapper à Batman. Alors quand Buff se retrouve sans phares et sans roues, il va devoir apprendre à improviser et se débrouiller avec ce qu'il a sous la main...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260508163500 +0200" stop="20260508165000 +0200">
@@ -30764,6 +30821,7 @@ Les aventures de Ryder, un petit garçon de 10 ans, et de sa joyeuse bande de si
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260508072600 +0200" stop="20260508080700 +0200">
     <title lang="fr">Super plan</title>
+    <desc lang="fr">Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260508080700 +0200" stop="20260508094300 +0200">
@@ -39620,8 +39678,9 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="CinePlusFamiz.fr" start="20260508055400 +0200" stop="20260508070700 +0200">
     <title lang="fr">Kirikou et les bêtes sauvages</title>
-    <desc lang="fr">L'histoire de Kirikou et de la sorcière n'est qu'une des nombreuses aventures vécues en Afrique par le petit garçon. C'est son grand-père, installé dans la grotte bleue, qui fait le récit des autres exploits de Kirikou. A travers quatre fables, il raconte comment l'inventif garçon est devenu jardinier, détective, potier, marchand, voyageur et médecin. Il raconte aussi pourquoi l'intelligence est la meilleure des armes pour vaincre les difficultés et apporte la preuve que si le gentil Kirikou est le plus petit des héros, il est aussi le plus vaillant...</desc>
-    <category lang="fr">Film / Film d'animation</category>
+    <desc lang="fr">En Afrique, Kirikou est le plus petit et le plus vaillant des héros. Son grand-père, trônant dans sa grotte bleue, raconte les nombreuses aventures qu'il a vécues. Car il n'a pas seulement affronté la sorcière. Il a aussi été jardinier, détective, potier, marchand, voyageur et médecin...</desc>
+    <category lang="fr">Cinema</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/108159758"/>
   </programme>
   <programme channel="CinePlusFamiz.fr" start="20260508070700 +0200" stop="20260508083000 +0200">
     <title lang="fr">Astérix et les Indiens</title>
@@ -43879,7 +43938,7 @@ Présentateur(s) : Camille Combal
   </programme>
   <programme channel="DisneyChannel.fr" start="20260508133000 +0200" stop="20260508135500 +0200">
     <title lang="fr">Spidey et ses amis extraordinaires - S03E01</title>
-    <desc lang="fr">Après que Zola ait commis un vol lors de la fête du centre communautaire, les membres de la communauté vont s'unir. L'équipe Spidey doit découvrir où Sandman cache des papillons en migration.</desc>
+    <desc lang="fr">Peter Parker, alias Spidey, Gwen Stacy, alias Ghost Spider et Miles Morales dit Miles forment une nouvelle équipe de héros et se lancent dans de nombreuses aventures trépidantes. Ils luttent sans cesse contre de redoutables ennemis. Leur but ? Sauver le monde, bien évidemment...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="DisneyChannel.fr" start="20260508135500 +0200" stop="20260508142000 +0200">
@@ -51795,13 +51854,17 @@ Le texte fait 198 mots. Aucune révélation de la fin ou du twist principal n'es
   </programme>
   <programme channel="France2.fr" start="20260508050000 +0200" stop="20260508055000 +0200">
     <title lang="fr">Tout le monde veut prendre sa place</title>
-    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
-    <category lang="fr">Divers / Jeu</category>
+    <desc lang="fr">Six candidats affrontent un champion autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divertissement</category>
+    <episode-num>0.6592.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115933309"/>
   </programme>
   <programme channel="France2.fr" start="20260508055000 +0200" stop="20260508060000 +0200">
     <title lang="fr">Mot de passe : le duel</title>
-    <desc lang="fr">Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots</desc>
-    <category lang="fr">Divers / Jeu</category>
+    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
+    <category lang="fr">Divertissement</category>
+    <episode-num>0.193.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122046099"/>
   </programme>
   <programme channel="France2.fr" start="20260508060000 +0200" stop="20260508063000 +0200">
     <title lang="fr">Le 6h info</title>
@@ -60140,7 +60203,7 @@ Le texte fait 198 mots. Aucune révélation de la fin ou du twist principal n'es
   </programme>
   <programme channel="France4.fr" start="20260508081800 +0200" stop="20260508082900 +0200">
     <title lang="fr">Oscar &amp; Malika, toujours en retard - S03E25</title>
-    <desc lang="fr">Oscar et Malika sont voisins et sont scolarisés dans la même classe. Aussi, ils font ensemble chaque matin le chemin vers l'école et, chaque matin, il leur arrive une aventure extraordinaire qui fait que, systématiquement, ils arrivent en retard à l'école. Une création française bourrée d'aventure et d'humour, qui parvient à surprendre à chaque épisode.</desc>
+    <desc lang="fr">D'après leurs horoscopes, Oscar et Malika sont censés se détester, n'importe quoi ! Les signes de la Balance (Malika) et du Bélier (Oscar) se matérialisent sur Terre et emmènent les enfants dans le Zodiaque. Là, ils les soumettent à des épreuves censées les séparer.. Mais l'amitié de nos héros ne vacille pas si facilement et met les Signes face à leurs propres contradictions.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France4.fr" start="20260508082900 +0200" stop="20260508084000 +0200">
@@ -70999,6 +71062,504 @@ Réalisateur(s) : Norihiko Sutô
     <desc lang="fr">Les meilleures ventes du moment, les artistes qui font l'actualité sur la scène musicale, les airs les plus fredonnés... Une pléiade de tubes sélectionnés par M6 Music à découvrir dans Hits !</desc>
     <category lang="fr">Divers / Clips</category>
   </programme>
+  <programme channel="MATV.ca" start="20260508000000 +0200" stop="20260508003000 +0200">
+    <title lang="fr">Horizons métissés</title>
+    <desc lang="fr">
+La série vous permet d&amp;#039;assister à la rencontre de deux créateurs issus de différents milieux culturels, d&amp;#039;en apprendre plus sur leurs cheminements artistiques et personnels et de comprendre comment l&amp;#039;art peut devenir un point d&amp;#039;ancrage commun.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508003000 +0200" stop="20260508010000 +0200">
+    <title lang="fr">Les RH, qu'ossa donne?</title>
+    <desc lang="fr">
+Découvrez le rôle crucial des ressources humaines dans les entreprises modernes.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508010000 +0200" stop="20260508013000 +0200">
+    <title lang="fr">À votre santé sexuelle</title>
+    <desc lang="fr">
+Série qui lève le voile sur des réalités intimes, mais universelles à travers des discussions avec divers professionnels.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508013000 +0200" stop="20260508020000 +0200">
+    <title lang="fr">Fripez-vous?</title>
+    <desc lang="fr">
+Découvrez les trésors et l&amp;#039;impact local des ressourceries des Basses-Laurentides.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508020000 +0200" stop="20260508023000 +0200">
+    <title lang="fr">En route vers l'ouest</title>
+    <desc lang="fr">
+Prestation musicale d&amp;#039;artistes country.
+
+Année : 2011
+
+
+
+
+
+</desc>
+    <category lang="fr">Variétés</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508023000 +0200" stop="20260508033000 +0200">
+    <title lang="fr">Festival Quartiers Danses</title>
+    <desc lang="fr">
+Le Festival Quartiers Danses a pour mission de démocratiser la danse contemporaine sous toutes ses formes et hybridités en la rendant accessible et en l&amp;#039;amenant là où elle n&amp;#039;est pas.
+
+
+
+
+
+</desc>
+    <category lang="fr">Variétés</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508033000 +0200" stop="20260508040000 +0200">
+    <title lang="fr">Bonheur canin</title>
+    <desc lang="fr">
+Sophie Thibault vous invite à mieux comprendre l&amp;#039;adoption responsable, le bien-être canin et les ressources offertes dans les Basses-Laurentides.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508040000 +0200" stop="20260508043000 +0200">
+    <title lang="fr">La scène</title>
+    <desc lang="fr">
+Prestation musicale en studio.
+
+
+
+
+
+</desc>
+    <category lang="fr">Variétés</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508043000 +0200" stop="20260508050000 +0200">
+    <title lang="fr">Contes autour du feu</title>
+    <desc lang="fr">
+À la douce lueur du feu, des conteurs et conteuses nous font entrer dans leur monde légendaire. Des histoires inspirantes, des récits fantastiques et tout ça au coeur du jardin du Manoir Boucher de Niverville de Trois-Rivières.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508050000 +0200" stop="20260508053000 +0200">
+    <title lang="fr">Les rendez-vous des mauvaises langues</title>
+    <desc lang="fr">
+
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508053000 +0200" stop="20260508060000 +0200">
+    <title lang="fr">609 avenue des Citoyens</title>
+    <desc lang="fr">
+Julie Paquin-Bergeron s&amp;#039;entretient avec des citoyens de la grande Rive-Sud au parcours inspirant.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508060000 +0200" stop="20260508063000 +0200">
+    <title lang="fr">La tournée des champs</title>
+    <desc lang="fr">
+Notre animateur fait la tournée des producteurs et des fermes de la région.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508063000 +0200" stop="20260508070000 +0200">
+    <title lang="fr">Goûter local</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508070000 +0200" stop="20260508073000 +0200">
+    <title lang="fr">En route vers l'ouest</title>
+    <desc lang="fr">
+Prestation musicale d&amp;#039;artistes country.
+
+Année : 2011
+
+
+
+
+
+</desc>
+    <category lang="fr">Variétés</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508073000 +0200" stop="20260508080000 +0200">
+    <title lang="fr">Fibre E</title>
+    <desc lang="fr">
+Présentation d&amp;#039;entrepreneurs d&amp;#039;ici, des diverses facettes de leurs personnalités, de leurs motivations, des défis et de la passion qu&amp;#039;ils ont pour l&amp;#039;entreprenariat.
+
+Année : 2024
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508080000 +0200" stop="20260508090000 +0200">
+    <title lang="fr">Studio 40</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508090000 +0200" stop="20260508093000 +0200">
+    <title lang="fr">Art de réussir</title>
+    <desc lang="fr">
+
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508093000 +0200" stop="20260508103000 +0200">
+    <title lang="fr">Pour votre information</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508103000 +0200" stop="20260508113000 +0200">
+    <title lang="fr">Halo Dolly</title>
+    <desc lang="fr">
+
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508113000 +0200" stop="20260508120000 +0200">
+    <title lang="fr">Jeunes espoirs</title>
+    <desc lang="fr">
+Émission qui met en lumière des jeunes talentueux ayant brillamment réussi dans divers sports, célébrant leurs exploits et leur détermination.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508120000 +0200" stop="20260508123000 +0200">
+    <title lang="fr">Faire la différence</title>
+    <desc lang="fr">
+Émission qui remet en question les idées préconçues et stéréotypes que nous avons sur les personnes, les groupes ou les situations.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508123000 +0200" stop="20260508130000 +0200">
+    <title lang="fr">Ma carrière se dessine</title>
+    <desc lang="fr">
+Découverte de programmes d&amp;#039;études professionnelles conçus pour allier théorie, savoir-faire et technologie de pointe, offerts dans 14 secteurs de l&amp;#039;économie québécoise.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508130000 +0200" stop="20260508133000 +0200">
+    <title lang="fr">Ma carrière se dessine</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508133000 +0200" stop="20260508140000 +0200">
+    <title lang="fr">Yoga Découvertes</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508140000 +0200" stop="20260508143000 +0200">
+    <title lang="fr">On découvre, on bouge - Au fil de l'eau</title>
+    <desc lang="fr">
+
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508143000 +0200" stop="20260508151500 +0200">
+    <title lang="fr">Regard sur l'Outaouais avec l'ODO</title>
+    <desc lang="fr">
+Émission qui vise à vulgariser les données et les conclusions des recherches réalisées par l&amp;#039;équipe de l&amp;#039;ODO sur les portraits des communautés de la région, sur les rattrapages nécessaires en éducation et en santé, etc.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508151500 +0200" stop="20260508153000 +0200">
+    <title lang="fr">Restez branchés</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508153000 +0200" stop="20260508163000 +0200">
+    <title lang="fr">L'environnement et nous - Des possibles maintenant!</title>
+    <desc lang="fr">
+On parle de plus en plus de transition socioécologique nécessaire à opérer en raison des changements climatiques. Des gens sur le terrain ont changé leur vision du monde et leur pratique et travaillent à des solutions concrètes.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508163000 +0200" stop="20260508170000 +0200">
+    <title lang="fr">Contes autour du feu</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508170000 +0200" stop="20260508173000 +0200">
+    <title lang="fr">Les rendez-vous des mauvaises langues</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508173000 +0200" stop="20260508180000 +0200">
+    <title lang="fr">En route vers l'ouest</title>
+    <desc lang="fr">
+Prestation musicale d&amp;#039;artistes country.
+
+Année : 2011
+
+
+
+
+
+</desc>
+    <category lang="fr">Variétés</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508180000 +0200" stop="20260508183000 +0200">
+    <title lang="fr">Forte de notre impact</title>
+    <desc lang="fr">
+
+
+Année : 2026
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508183000 +0200" stop="20260508190000 +0200">
+    <title lang="fr">Ça se passe au Salon</title>
+    <desc lang="fr">
+Le Salon du livre du Saguenay-Lac-Saint-Jean vous invite dans son salon pour une série d&amp;#039;entretiens avec des auteurs, mettant en lumière leur parcours et leur oeuvre.
+
+Année : 2025
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508190000 +0200" stop="20260508193000 +0200">
+    <title lang="fr">Art de réussir</title>
+    <desc lang="fr">
+
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508193000 +0200" stop="20260508200000 +0200">
+    <title lang="fr">Ellévation</title>
+    <desc lang="fr">
+Rencontre d&amp;#039;expertes et de femmes de notre communauté d&amp;#039;affaires qui viennent témoigner de leur parcours et d&amp;#039;enjeux spécifiques à l&amp;#039;égalité.
+
+Année : 2024
+
+
+
+
+
+</desc>
+    <category lang="fr">Information</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508200000 +0200" stop="20260508203000 +0200">
+    <title lang="fr">En toute intimité</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508203000 +0200" stop="20260508213000 +0200">
+    <title lang="fr">Festival Quartiers Danses</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508213000 +0200" stop="20260508220000 +0200">
+    <title lang="fr">À l'heure du développement durable</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508220000 +0200" stop="20260508221500 +0200">
+    <title lang="fr">Exercice global</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508221500 +0200" stop="20260508223000 +0200">
+    <title lang="fr">Deux temps trois mouvements</title>
+    <desc lang="fr">
+Notre Experte Fitness et Bien-être Isabelle Dominique Kroeh, vous propose un entraînement express.
+
+
+
+
+
+</desc>
+    <category lang="fr">Sport</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508223000 +0200" stop="20260508230000 +0200">
+    <title lang="fr">La voix des animaux</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508230000 +0200" stop="20260508233000 +0200">
+    <title lang="fr">Bonheur canin</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="MATV.ca" start="20260508233000 +0200" stop="20260509000000 +0200">
+    <title lang="fr">Vivre et vibrer avec la FADOQ Laval</title>
+    <desc lang="fr">
+</desc>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
   <programme channel="MAX.ca" start="20260508000000 +0200" stop="20260508010000 +0200">
     <title lang="fr">La loi et l'ordre: crimes sexuels</title>
     <desc lang="fr">Un collègue militaire de la femme d'Amaro constate que sa fille de 14 ans a disparu.</desc>
@@ -78765,7 +79326,7 @@ Réalisateur(s) : Norihiko Sutô
   </programme>
   <programme channel="Museum.fr" start="20260508160000 +0200" stop="20260508165500 +0200">
     <title lang="fr">Exhibition on Screen - S01E22</title>
-    <desc lang="fr">" J'envie les Japonais ", ecrivait Van Gogh a son frere, Theo. Grace a l'exposition sur laquelle est base ce film, " Van Gogh et le Japon ", au musee Van Gogh d'Amsterdam, on comprend pourquoi. Bien que Vincent van Gogh n'ait jamais visite le Japon, il reste le pays qui a eu le plus d'influence sur lui et son oeuvre. En se rendant dans les galeries d'art japonais a Paris et en creant sa propre image du Japon apres des recherches approfondies, des collections d'estampes et de longues discussions avec d'autres artistes, la decouverte des oeuvres japonaises entraina la carriere de Van Gogh dans une nouvelle direction tres excitante.</desc>
+    <desc lang="fr">De Léonard de Vinci à David Hockney, en passant par Canaletto et Picasso, Exhibition on Screen dévoile les coulisses de la vie des plus grands artistes.</desc>
     <category lang="fr">Documentaire / Documentaire beaux-arts</category>
   </programme>
   <programme channel="Museum.fr" start="20260508160500 +0200" stop="20260508161400 +0200">
@@ -79052,7 +79613,7 @@ Réalisateur(s) : Norihiko Sutô
   </programme>
   <programme channel="MyZenTV.fr" start="20260508202500 +0200" stop="20260508205000 +0200">
     <title lang="fr">Luana cuisine - S03E48</title>
-    <desc lang="fr">Amateurs de pizza ? Luana et son amie Eleonora Galasso vous proposent deux recettes qu'elles adorent ! Première étape : réaliser la pâte à pizza maison. Ensuite, elles préparent une pizza Capriciosa avec des anchois, des câpres et du jambon, puis une ...</desc>
+    <desc lang="fr">Luana Belmondo convie proches et invités, passionnés de gastronomie et amateurs de bonne chère, dans sa cuisine pour réaliser de savoureuses recettes de saison. A partir de peu d'ingrédients, la plus française des Italiennes improvise de délicieux repas sur le pouce ou mijote les restes d'un précédent repas pour en faire un vrai régal.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="MyZenTV.fr" start="20260508205000 +0200" stop="20260508213500 +0200">
@@ -88542,9 +89103,8 @@ Réalisateur(s) : Norihiko Sutô
   </programme>
   <programme channel="PlanetePlus.fr" start="20260508055800 +0200" stop="20260508070800 +0200">
     <title lang="fr">La liste de Varian Fry</title>
-    <desc lang="fr">Le 25 juin 1940 à New York, dans les salons d'un grand hôtel, plus de 200 convives ont répondu à l'appel de l'Emergency Rescue Committee, une association humanitaire américaine : il faut sauver l'intelligentsia européenne. Varian Fry, un journaliste, est désigné pour mener à bien cette mission. Il s'envole pour l'Europe avec une liste de 200 noms d'artistes et d'intellectuels, menacés par les nazis.</desc>
-    <category lang="fr">Decouverte</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/unit/10456900/canal-ouah_50034/STD169/ListedeVarian16x9-C0Ed"/>
+    <desc lang="fr">Le 25 juin 1940 à New York, dans les salons d'un grand hôtel, plus de 200 convives ont répondu à l'appel de l'Emergency Rescue Committee, une association humanitaire américaine : face à la volonté d'Adolf Hitler d'anéantir les intellectuels et les artistes qui ne correspondent pas à ses critères, il faut sauver l'intelligentsia européenne. Varian Fry, un journaliste, est désigné pour mener à bien cette mission. En août, il s'envole pour l'Europe avec une liste de 200 noms d'artistes et d'intellectuels, menacés par les nazis. Chargé de les évacuer au plus vite, pour les mettre à l'abri, Varian Fry, entouré de son équipe, parvient à sauver 1800 personnes.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="PlanetePlus.fr" start="20260508070800 +0200" stop="20260508080400 +0200">
     <title lang="fr">Les mille et un visages d'Alexandre Dumas</title>
@@ -101916,12 +102476,12 @@ Dans ce monde féerique, l'étoile qu'il recherche a pris forme humaine, incarn�
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260508125000 +0200" stop="20260508132000 +0200">
     <title lang="fr">Au nom de la vérité - S04E255</title>
-    <desc lang="fr">Un emploi très convoité - Chacun d'entre nous s'est déjà retrouvé au moins une fois, au cœur de la tourmente... "Au nom de la vérité" s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans...</desc>
+    <desc lang="fr">Chacun d'entre nous s'est déjà retrouvé au moins une fois, au coeur de la tourmente. Au nom de la vérité est une nouvelle fiction quotidienne de vingt-six minutes, qui s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans laquelle chacun peut s'identifier ou projeter sa propre famille. Ces moments qui dérapent, ces accidents de la vie, ces histoires secrètes qui encombrent notre quotidien. C'est tout l'univers de votre nouvelle série.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260508132000 +0200" stop="20260508135500 +0200">
     <title lang="fr">Au nom de la vérité - S02E16</title>
-    <desc lang="fr">Le mystérieux saisonnier - Chacun d'entre nous s'est déjà retrouvé au moins une fois, au cœur de la tourmente... "Au nom de la vérité" s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans...</desc>
+    <desc lang="fr">Chacun d'entre nous s'est déjà retrouvé au moins une fois, au coeur de la tourmente. Au nom de la vérité est une nouvelle fiction quotidienne de vingt-six minutes, qui s'attache à des héros du quotidien en prise avec une décision capitale. Chaque épisode est une tranche de vie dans laquelle chacun peut s'identifier ou projeter sa propre famille. Ces moments qui dérapent, ces accidents de la vie, ces histoires secrètes qui encombrent notre quotidien. C'est tout l'univers de votre nouvelle série.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="TF1SeriesFilms.fr" start="20260508135500 +0200" stop="20260508140000 +0200">
@@ -116674,7 +117234,7 @@ Acteurs : Serge Crozon-Cazin (Fédior Kital), Fabrice Fayal (Malik), Almamy Matt
     <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP054531270002/SHOWCARD_BACKGROUND/2048x1024"/>
   </programme>
   <programme channel="Teva.fr" start="20260508000500 +0200" stop="20260508010000 +0200">
-    <title lang="fr">Au coeur du crime - S04E11</title>
+    <title lang="fr">Au coeur du crime</title>
     <desc lang="fr">Le corps de Magalie Part, jeune mariée, est retrouvé calciné. Alors que les indices sur place et une tentative de retrait bancaire mènent la police vers un rôdeur, le père de la victime a une terrible intuition et soupçonne son propre gendre, Geoffrey, d'être le meurtrier.</desc>
     <category lang="fr">Magazine / Magazine judiciaire</category>
   </programme>
@@ -117822,12 +118382,12 @@ Acteurs : Serge Crozon-Cazin (Fédior Kital), Fabrice Fayal (Malik), Almamy Matt
     <category lang="fr">Documentaire / Documentaire politique</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260508204000 +0200" stop="20260508213500 +0200">
-    <title lang="fr">Victoire en Europe : le compte à rebours - S01E01</title>
+    <title lang="fr">Victoire en Europe : le compte à rebours</title>
     <desc lang="fr">Le 8 mai marque la victoire des alliés en 1945. Redécouvrez les derniers jours de la bataille pour la liberté à Paris, Londres et New York, les derniers moments menant à la victoire finale à travers des récits et des images d'archives en couleurs exceptionnelles et inédites</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="TouteHistoire.fr" start="20260508213500 +0200" stop="20260508223100 +0200">
-    <title lang="fr">1945 : l'année qui a changé l'histoire - S01E01</title>
+    <title lang="fr">1945 : l'année qui a changé l'histoire</title>
     <desc lang="fr">L'année 1945 représente un incroyable concentré d'événements fondateurs. Alors que le 1er janvier, Hitler mène sa dernière campagne contre-offensive dans les Ardennes, la fin de l'année est marquée par le procès de Nuremberg. Mais durant douze mois, le monde va alterner entre de terribles découvertes et des émotions extrêmes. De la libération des camps de la mort aux deux bombes atomique d'Hiroshima et Nagasaki en passant par la naissance de l'ONU, ce documentaire replonge dans l'année 1945 qui a vu le monde changer à jamais. </desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
@@ -121307,7 +121867,7 @@ Barry Jackson (Dr. George Bullard)
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260508143000 +0200" stop="20260508150000 +0200">
     <title lang="fr">Conversations chez Lapérouse - S02E37</title>
-    <desc lang="fr">Chaque semaine, Frédéric Beigbeder reçoit dans les salons lambrissés de Lapérouse les meilleurs écrivains pour un entretien à la fois intimiste et passionné.</desc>
+    <desc lang="fr">Connu pour ses frasques et ses excès sur les réseaux sociaux, Chicandier sort son premier livre "Accro" (Michel Lafon) sur sa bipolarité et son addiction à l'alcool. Il discute de ce nouvel ouvrage avec son ami Frédéric Beigbeder pour une Conversation, sans alcool, chez Lapérouse.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="ViaGrandParis.fr" start="20260508150000 +0200" stop="20260508153000 +0200">
@@ -134847,7 +135407,6 @@ Quant à Caroline et Anthony, ils sont tombés sous le charme d’une ancienne �
   </programme>
   <programme channel="oqee.1208" start="20260508031100 +0200" stop="20260508042600 +0200">
     <title lang="fr">Le mariage de mes rêves</title>
-    <desc lang="fr">Trisha est obsédée par son mariage depuis l'enfance, mais elle est maintenant coincée entre l'homme qu'elle veut, l'homme qui la veut et l'homme qu'elle a choisi.</desc>
     <category lang="fr">Film / Comédie dramatique</category>
   </programme>
   <programme channel="oqee.1208" start="20260508042600 +0200" stop="20260508060100 +0200">
@@ -145042,7 +145601,7 @@ L’incompréhension des proches de la victime qui dénoncent l’inefficacité 
   </programme>
   <programme channel="oqee.165" start="20260508071500 +0200" stop="20260508073700 +0200">
     <title lang="fr">Kamp Koral : Bob la petite éponge - S01E05</title>
-    <desc lang="fr">À Kamp Koral, Bob rêve d'attraper sa première méduse et d'obtenir son badge de pêche à la méduse, mais il manque cruellement d'habileté. Sandy et Patrick élaborent un plan pour l'aider.</desc>
+    <desc lang="fr">Bob l'éponge et ses camarades vivent d'incroyables aventures durant leurs grandes vacances : les baignades au lac, les nombreux feux de camp, les chasses aux méduses sauvages ne sont qu'une partie des aventures qu'ils vivent au sein du Kamp Koral, un lieu extraordinaire. Ce lieu est idéal pour y passer de merveilleux étés.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="oqee.165" start="20260508073700 +0200" stop="20260508080000 +0200">
@@ -151823,7 +152382,7 @@ L’incompréhension des proches de la victime qui dénoncent l’inefficacité 
   </programme>
   <programme channel="oqee.401" start="20260508143000 +0200" stop="20260508150000 +0200">
     <title lang="fr">Conversations chez Lapérouse - S02E37</title>
-    <desc lang="fr">Chaque semaine, Frédéric Beigbeder reçoit dans les salons lambrissés de Lapérouse les meilleurs écrivains pour un entretien à la fois intimiste et passionné.</desc>
+    <desc lang="fr">Connu pour ses frasques et ses excès sur les réseaux sociaux, Chicandier sort son premier livre "Accro" (Michel Lafon) sur sa bipolarité et son addiction à l'alcool. Il discute de ce nouvel ouvrage avec son ami Frédéric Beigbeder pour une Conversation, sans alcool, chez Lapérouse.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.401" start="20260508150000 +0200" stop="20260508153000 +0200">
