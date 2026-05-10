@@ -348,6 +348,10 @@
     <display-name>France 5</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~5f611b705ca3f017.png/480x480/quality/100/france-5.png"/>
   </channel>
+  <channel id="FranceInfo.fr">
+    <display-name>franceinfo:</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~367eff2d23ab1357.png/480x480/quality/100/franceinfo.png"/>
+  </channel>
   <channel id="Gulli.fr">
     <display-name>Gulli</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~059a8175b83117fd.png/480x480/quality/100/gulli.png"/>
@@ -620,6 +624,10 @@
     <display-name>Sport en France</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png"/>
   </channel>
+  <channel id="StingrayDjazz.fr">
+    <display-name>StingrayDjazz</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~8c1d40f28aa66dfd.png/480x480/quality/100/stingray-djazz.png"/>
+  </channel>
   <channel id="SunuYeuf.af">
     <display-name>SUNU YEUF</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180710/canal-ouah/CHN43FB/SUNUYEUF640x480?=.png"/>
@@ -848,6 +856,10 @@
     <display-name>Tiji Russia</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2571/w256"/>
   </channel>
+  <channel id="oqee.1065">
+    <display-name>ON TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
+  </channel>
   <channel id="oqee.1066">
     <display-name>Fix and Foxi</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2563/w256"/>
@@ -899,6 +911,10 @@
   <channel id="oqee.1131">
     <display-name>EroXXX</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2988/w256"/>
+  </channel>
+  <channel id="oqee.1132">
+    <display-name>360 TuneBox</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2992/w256"/>
   </channel>
   <channel id="oqee.1133">
     <display-name>FightBox</display-name>
@@ -1292,6 +1308,10 @@
     <display-name>Utsav Bharat</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3009/w256"/>
   </channel>
+  <channel id="oqee.693">
+    <display-name>Utsav Gold</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3011/w256"/>
+  </channel>
   <channel id="oqee.694">
     <display-name>MyZen Nature</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2215/w256"/>
@@ -1395,6 +1415,10 @@
   <channel id="oqee.947">
     <display-name>Show Turk</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2470/w256"/>
+  </channel>
+  <channel id="oqee.948">
+    <display-name>A Spor</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3175/w256"/>
   </channel>
   <channel id="oqee.950">
     <display-name>Showmax</display-name>
@@ -19156,6 +19180,101 @@
     <desc lang="fr">A l'occasion du Festival de Cannes, "C ce soir" devient "Cannes ce soir" du lundi 18 au vendredi 22 mai. Karim Rissouli, entouré de Laure Adler et Camille Diao, propose une émission quotidienne dédiée à l'actualité du festival et à un débat autour de plusieurs films, en présence d'un invité.</desc>
     <category lang="fr">Divers / Talk-show</category>
   </programme>
+  <programme channel="FranceInfo.fr" start="20260519001500 +0200" stop="20260519062900 +0200">
+    <title lang="fr">France 24</title>
+    <desc lang="fr">France 24 traite de toutes les actualités, en temps réel, en images et en vidéos, avec les analyses et les dernières informations des journalistes de la rédaction.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519062900 +0200" stop="20260519074500 +0200">
+    <title lang="fr">La matinale</title>
+    <desc lang="fr">L'actualité à travers les JT, les invités et les experts en plateau, les chroniques sur les sujets du moment, les revues de presse, et les reportages et interviews.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519074500 +0200" stop="20260519075400 +0200">
+    <title lang="fr">L'invité politique</title>
+    <desc lang="fr">Un face-à-face avec celles et ceux qui sont au coeur de l'actualité. Soit dix minutes pour rebondir sur les faits mais aussi pour aller plus loin.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519075400 +0200" stop="20260519083300 +0200">
+    <title lang="fr">La matinale</title>
+    <desc lang="fr">L'actualité à travers les JT, les invités et les experts en plateau, les chroniques sur les sujets du moment, les revues de presse, et les reportages et interviews.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519083300 +0200" stop="20260519085800 +0200">
+    <title lang="fr">8h30 franceinfo</title>
+    <desc lang="fr">Le 8h30 franceinfo est le rendez-vous quotidien d'actualité politique, diffusé sur la chaîne franceinfo en simultané radio/télévision.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519085800 +0200" stop="20260519090600 +0200">
+    <title lang="fr">Le journal</title>
+    <desc lang="fr">Politique, santé, économie, société et culture sont au centre de ce rendez-vous d'information qui offre en outre un regard sur l'actualité internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519090600 +0200" stop="20260519092900 +0200">
+    <title lang="fr">Les informés du matin</title>
+    <desc lang="fr">"Les informés du matin" est une émission d'information, diffusée sur franceinfo en simultané radio/télévision du lundi au vendredi. Trente minutes pour décrypter, éclairer et approfondir les grandes actualités de la matinée à travers les regards croisés de quatre spécialistes de franceinfo. </desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519092900 +0200" stop="20260519105900 +0200">
+    <title lang="fr">L'info s'éclaire</title>
+    <desc lang="fr">Du lundi au vendredi de 9h30 à 10h20, en direct, invités et experts décryptent l'actualité du jour dans l'émission ": l'info s'éclaire", présentée par Axel de Tarlé.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519105900 +0200" stop="20260519125900 +0200">
+    <title lang="fr">Le 11h/13h</title>
+    <desc lang="fr">Pour décrypter l'actualité nationale et internationale, ce rendez-vous d'information propose deux heures de direct, agrémentées de journaux, reportages, interviews et débats.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519125900 +0200" stop="20260519134900 +0200">
+    <title lang="fr">L'info s'éclaire</title>
+    <desc lang="fr">Du lundi au vendredi de 9h30 à 10h20, en direct, invités et experts décryptent l'actualité du jour dans l'émission ": l'info s'éclaire", présentée par Axel de Tarlé.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519134900 +0200" stop="20260519135900 +0200">
+    <title lang="fr">Outremer.l'info</title>
+    <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519135900 +0200" stop="20260519165900 +0200">
+    <title lang="fr">Le fil info</title>
+    <desc lang="fr">L'information en continu, pour ne rien rater de l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519165900 +0200" stop="20260519175900 +0200">
+    <title lang="fr">C'est toute la question</title>
+    <desc lang="fr">Un magazine d'actualité qui repose sur un principe simple : partir d'une question précise pour éclairer un sujet d'information. Tous les sujets peuvent y être abordés.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519175900 +0200" stop="20260519200300 +0200">
+    <title lang="fr">Tout est politique</title>
+    <desc lang="fr">Tout est politique? ou, plutôt, tout est théâtre, surtout la politique? À vous de vous faire un avis avec ce magazine qui revient sur l'actualité politique la plus brûlante.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519200300 +0200" stop="20260519205900 +0200">
+    <title lang="fr">Les informés du soir</title>
+    <desc lang="fr">"Les informés" est une émission d'information et de débat durant laquelle 4 invité(e)s commentent l'actualité et développent leurs points de vue.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519205900 +0200" stop="20260519225500 +0200">
+    <title lang="fr">Sur le terrain</title>
+    <desc lang="fr">L'information sous le prisme du terrain, du reportage et de l'expérience des journalistes de France Télévisions, en France et à l'étranger.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519225500 +0200" stop="20260519225900 +0200">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519225900 +0200" stop="20260519235900 +0200">
+    <title lang="fr">23h info</title>
+    <desc lang="fr">Le 23h, le grand journal du soir de Franceinfo. Des reportages, des experts et du débat pour avoir un tour complet des sujets qui font l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260519235900 +0200" stop="20260520001500 +0200">
+    <title lang="fr">Outre-mer l'actu</title>
+    <desc lang="fr">Vingt minutes d'éclairage quotidien complet sur les Outre-mer.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Gulli.fr" start="20260519005000 +0200" stop="20260519024500 +0200">
     <title lang="fr">Les parcs d'attractions préférés des Français - S02E01</title>
     <desc lang="fr">Camille Cerf plonge dans l'univers des parcs aquatiques à sensations. Les centres de loisirs nautiques se livrent à une véritable bataille pour attirer toujours plus de clients. Parmi eux, le "Beach Park" au Brésil : un domaine tropical de 17 hectares avec quatre hôtels, douze piscines et l'un des toboggans les plus hauts du monde culminant à cinquante mètres. Puis, direction l'Allemagne à 60 km au sud de Berlin pour une immersion au "Tropical Island". </desc>
@@ -23242,10 +23361,12 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260519100500 +0200" stop="20260519105500 +0200">
     <title lang="fr">Australian Superbike Championship</title>
+    <desc lang="fr">ASBK</desc>
     <category lang="fr">Emission sportive / Motocyclisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260519105500 +0200" stop="20260519120500 +0200">
     <title lang="fr">FIM World Sidecar Cross Championship</title>
+    <desc lang="fr">passenger" often referred to as the "passenger" or "monkey</desc>
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260519120500 +0200" stop="20260519125000 +0200">
@@ -28322,6 +28443,166 @@
     <desc lang="fr">Match 3 de la finale de La Boulangère Wonderligue entre Basket Landes et Bourges à Mont de Marsan.</desc>
     <category lang="fr">Emission sportive / Basket-ball</category>
   </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519000000 +0200" stop="20260519004100 +0200">
+    <title lang="fr">The Morgenland Festival : Needless to Say</title>
+    <desc lang="fr">Depuis 2005, le Morgenland Festival d'Osnabrück célèbre la culture musicale fascinante du Proche et du Moyen-Orient, des musiques traditionnelles et classiques à l'avant-garde, en passant par le jazz et le rock. La programmation du festival compte également des volets consacrés aux arts visuels, à la danse, au théâtre et aux projets interdisciplinaires. Découvrez toute la richesse musicale du All Star Band avec ces deux prestations filmées au Morgenland Festival. Les chansons " Dream " et " Mugam " font passer l'auditeur par toute la gamme des émotions, de la plénitude paisible à l'explosion d'énergie. Laissez-vous porter par le timbre enivrant de la chanteuse Dima Oshno, ancienne élève du Conservatoire de Boston.</desc>
+    <category lang="fr">Concert / Pop &amp; Rock</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519004100 +0200" stop="20260519023200 +0200">
+    <title lang="fr">PC Qwintett: 75e anniversaire Pierre Courbois</title>
+    <desc lang="fr">Depuis les années 1960, Pierre Courbois est l'un des plus éminents artistes de jazz néerlandais et européens. Lors de ce concert, enregistré à la célèbre Bimhuis d'Amsterdam, le batteur joue avec son Qwintett. Courbois est célèbre pour sa propre façon de combiner compositions et improvisations, fusionnant des constructions mélodiques et des solos virtuoses.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519023200 +0200" stop="20260519030600 +0200">
+    <title lang="fr">Dave Brubeck and Paul Desmond, live in Belgium</title>
+    <desc lang="fr">Dave Brubeck: Live in '64 affiche une concert merveilleusement filmé de l'un des quartets les plus aimés de l'histoire du jazz. Enregistrés au sommet de leur puissance et de leur popularité, Paul Desmond (saxophone alto), Joe Morello (batterie), Eugene Wright (contrebasse) et Dave Brubeck (piano) explorent la voie qu'ils ont ouverte vers les métriques inhabituelles dans "Forty Days" et dans deux versions de leur tube 'Take Five'. Ils font également des incursions dans les musiques du monde avec une interprétation uniques de 'Kote Song'. L'alchimie intime sur la scène et le sens musical impeccable de ses musiciens a fait du Dave Brubeck Quartet un super groupe primé.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519030600 +0200" stop="20260519050200 +0200">
+    <title lang="fr">Sven Hammond: 10th Year Anniversary Concert</title>
+    <desc lang="fr">Le groupe Sven Hammond précédemment connu sous le nom de Sven Hammond Soul n'a jamais autant fait parlé de lui depuis ce changement de nom. Les membres eux n'ont pas changé, avec Ivan Peroti (chant), Sven Figee (orgue/piano), Tim Eijmaal (guitare), Glenn Gaddum Jr. (basse) et Joost Kroon(batterie). Sven Hammond est une alliance de funk soul brut couplé aux harmonies pop et jazz qu'apporte l'orgue. Cette atmosphère qui donne la sensation d'assister a un show sous pression est orchestré par Sven Figee qui préfère attaquer sont orgue plutôt de jouer avec. Ce concert célèbre leurs 10 ans de tournée, autant vous prévenir que le groove est garanti !</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519050200 +0200" stop="20260519055500 +0200">
+    <title lang="fr">Sly Johnson &amp; Nicholas V. - Tribute to Marvin Gaye</title>
+    <desc lang="fr">Ce concert de 2021 célèbre le 50e anniversaire d'un véritable chef-d'œuvre de la soul. Le chanteur et beatboxer acclamé Sly Johnson (connu pour sa participation au Saïan Supa Crew) s'associe au talentueux claviériste Nicholas Vella pour un hommage spécial au légendaire chanteur de soul Marvin Gaye (1939-1984). Leur performance se concentre sur l'album emblématique de Gaye de 1971, "What's Going On", un album de l'ère de la guerre du Vietnam qui véhicule un puissant message d'amour et de conscience sociale. Délaissant ses machines de studio pour un son plus organique, Johnson réinterprète ce monument de la soul et du R&amp;B avec un groove percutant mêlant hip-hop, funk et jazz. Leur performance irrésistible, qui capture l'esprit de l'original, a été enregistrée au Chorus au Mans, en France.</desc>
+    <category lang="fr">Concert / Blues &amp; Soul</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519055500 +0200" stop="20260519070000 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519070000 +0200" stop="20260519071000 +0200">
+    <title lang="fr">DJAZZ Portrait</title>
+    <desc lang="fr">Ces portraits d'artistes, de concerts et de festivals vous donnent une bonne impression du monde du jazz. Les artistes de jazz connus et moins connus vous donneront une nouvelle vue sur leur vie. DJAZZ.tv leur a demandé pourquoi ils ont écrit telle ou telle chanson, quel fut le premier enregistrement qu'ils ont acheté et quel est leur souvenir musical le plus précieux. Les portraits des festivals sont de superbes reportages filmés lors des festivals et des concerts de jazz les plus particuliers. Ils feront revivre la mémoire du festival, de la musique et de l'expérience.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519071000 +0200" stop="20260519081700 +0200">
+    <title lang="fr">The North Sea Jazz</title>
+    <desc lang="fr">Le North Sea Jazz Festival est le plus grand festival de musique en salle au monde, reconnu mondialement comme l'événement où l'on présente le jazz d'hier, d'aujourd'hui et de demain en trois jours. En plus du jazz, genre musical phare de ce festival, on y entend aussi du blues, de la soul, du funk et du hip-hop. En 1987, le célèbre saxophoniste de smooth jazz aimé des foules Kenny G a courtisé les spectateurs au North Sea Jazz Festival à La Haye. Après ses débuts dans le Love Unlimited Orchestra, il a formé son groupe pour donner cette prestation au charme hypnotique.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519081700 +0200" stop="20260519091200 +0200">
+    <title lang="fr">Burton &amp; Ozone - Münchner Klaviersommer</title>
+    <desc lang="fr">La série de concerts jazz Münchner Klaviersommer s'est déroulée entre 1981 et 1998 à Munich, en Allemagne. Malgré son nom, qui peut être traduit par " Été du piano de Munich ", l'événement ne mettait pas uniquement en scène des pianistes, mais également un vaste éventail de musiciens jazz et classiques populaires de l'époque. Les concerts étaient généralement présentés en juillet au Gasteig, maison mère de la Philharmonie de Munich. L'édition 1995 du festival a été l'hôte d'une rencontre au sommet entre deux virtuoses du jazz reconnus pour leur technique impressionnante et leur style novateur : le vibraphoniste Gary Burton et le pianiste Makoto Ozone. Les deux musiciens ont fait le bonheur du public par cette performance mémorable mettant en vedette leurs improvisations fluides et poétiques.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519091200 +0200" stop="20260519093500 +0200">
+    <title lang="fr">Marcus Miller : Thoughts on Miles</title>
+    <desc lang="fr">Ce documentaire est un portrait de Marcus Miller enregistré au moment de la tournée "Tutu Revisited" en 2009. Dans ce film, Marcus Miller revient longuement sur sa relation avec Miles Davis, et aborde également tout le processus de composition de "Tutu".</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519093500 +0200" stop="20260519100100 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519100100 +0200" stop="20260519100800 +0200">
+    <title lang="fr">DJAZZ Portrait</title>
+    <desc lang="fr">Ces portraits d'artistes, de concerts et de festivals vous donnent une bonne impression du monde du jazz. Les artistes de jazz connus et moins connus vous donneront une nouvelle vue sur leur vie. DJAZZ.tv leur a demandé pourquoi ils ont écrit telle ou telle chanson, quel fut le premier enregistrement qu'ils ont acheté et quel est leur souvenir musical le plus précieux. Les portraits des festivals sont de superbes reportages filmés lors des festivals et des concerts de jazz les plus particuliers. Ils feront revivre la mémoire du festival, de la musique et de l'expérience.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519100800 +0200" stop="20260519111200 +0200">
+    <title lang="fr">Jazz à Vienne</title>
+    <desc lang="fr">Dans le cadre de l'édition 2012 du festival français Jazz à Vienne, le chanteur et guitariste de renommée mondiale Magic Slim a donné un concert électrisant sur la scène de l'emblématique Théâtre Antique, où il a interprété une série des grands classiques du blues de Chicago. Accompagné de ses musiciens John McDonald (guitare et chant), Andre Howard (basse) et Brian Jones (batterie), le toujours énergétique et légendaire bluesman a offert un spectacle dynamique devant un public exalté.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519111200 +0200" stop="20260519121800 +0200">
+    <title lang="fr">Jungle By Night</title>
+    <desc lang="fr">Jazz in Duketown est le plus important festival de jazz extérieur gratuit aux Pays-Bas. Ce rassemblement attire les grands amateurs de jazz ainsi que les artistes de renommée internationale. En 2019, le collectif instrumental d'Amsterdam Jungle By Night a livré une performance spectaculaire. Fort d'une grande expérience dans plusieurs festivals et d'un premier album paru en 2010, le groupe néerlandais a interprété un mélange de styles en s'inspirant notamment du funk, du jazz, du dub et du rock. En 2010 à Paris, avec d'anciens collaborateurs du fondateur de l'afrobeat Fela Kuti, ils ont offert un concert qui leur a valu le titre de " l'avenir de l'afrobeat ".</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519121800 +0200" stop="20260519134500 +0200">
+    <title lang="fr">Christian Scott - The Centennial Trilogy</title>
+    <desc lang="fr">En quelques années à peine, le jeune trompettiste Christian Scott est devenu le porte-étendard d'une nouvelle génération de musiciens jazz. Faisant fi des conventions, Scott mène le jazz vers de nouveaux horizons et rejoint un public toujours plus vaste. Sans aucun doute, le musicien de 33 ans trace déjà sa propre voie. Après chaque lancement de disque, il semble plus que jamais déterminé à défier les règles du jazz avec son propre style avant-gardiste. Dans le cadre de ce concert présenté en 2018 à la Coopérative de mai, Scott célèbre un siècle de jazz avec un programme intitulé The Centennial Trilogy. Attendez-vous à une performance unique dans un cadre intimiste, filmée en format 4K natif!</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519134500 +0200" stop="20260519135700 +0200">
+    <title lang="fr">Rumble</title>
+    <desc lang="fr">Le pianiste américain Chick Corea se produit en compagnie du guitariste Frank Gambale, du saxophoniste Eric Marienthal, du bassiste John Patitucci et du batteur Dave Weckl dans le cadre de l'édition 1987 du festival Münchner Klaviersommer.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519135700 +0200" stop="20260519140400 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519140400 +0200" stop="20260519151000 +0200">
+    <title lang="fr">Benny Goodman Septet - North Sea Jazz Part II</title>
+    <desc lang="fr">Plus important festival de musique intérieur au monde, le North Sea Jazz Festival présente en trois jours le passé, le présent et le futur du jazz dans la ville de La Haye, en plus de s'intéresser au blues, au soul, au funk et au hip-hop. En 1982, le légendaire clarinettiste jazz et chef d'orchestre Benny Goodman s'est produit au festival en compagnie de son septuor. Fidèle à lui-même, le " roi du swing " a recréé l'atmosphère endiablée des années 1930, époque où le jazz connaissait une popularité sans précédent. Le septuor de Goodman comprend Scott Hamilton (saxophone ténor), John Bunch (piano), Phil Flanigan (contrebasse), Mel Lewis (batterie), Warren Vaché (trompette) et Chris Flory (guitare). Ce concert est la deuxième de deux prestations livrées au festival en 1982.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519151000 +0200" stop="20260519162900 +0200">
+    <title lang="fr">NSJ Big Band Show: Skymasters &amp; Dizzy Gillespie</title>
+    <desc lang="fr">Le North Sea Jazz Festival est reconnu dans le monde entier pour sa couverture exceptionnelle d'une vaste gamme de styles musicaux : jazz traditionnel de La Nouvelle-Orléans, swing, bop, free jazz, jazz fusion, jazz d'avant-garde, électro blues, gospel, funk, soul, R&amp;B, hip-hop, musiques du monde, musiques latines… Le festival a été fondé par l'entrepreneur et amateur de jazz Paul Acket, qui a vendu une maison d'édition de magazines hautement profitable pour mettre sur pied la première édition de l'événement, en 1976. Cet épisode de North Sea Jazz Archive présente le trompettiste incroyable Dizzy Gillespie avec le Skymasters</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519162900 +0200" stop="20260519171900 +0200">
+    <title lang="fr">Estival Jazz Lugano</title>
+    <desc lang="fr">Estival est un festival de jazz présenté chaque été à Lugano, en Suisse, depuis 1977. Cet événement propose une programmation surprenante qui explore le vaste univers de la musique contemporaine tout en faisant la promotion de la tolérance et de la coexistence des nombreuses cultures mondiales. Découvrez le lien privilégié qui unit la pianiste Carla Bley et le bassiste Steve Swallow. Ces deux artistes se produisent au sein des mêmes groupes depuis les années 60, et sont en couple depuis plus de deux décennies. Leurs performances scéniques sont la définition même de la télépathie musicale. Avec les musiciens Wayne Krantz, Victor Lewis, Larry Willis et Don Alias, Bley et Swallow livrent un concert mémorable dans le cadre de l'Estival, en 1986</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519171900 +0200" stop="20260519181500 +0200">
+    <title lang="fr">MotorMusic Jazz Sessions: WRaP!</title>
+    <desc lang="fr">Cet épisode des MotorMusic Sessions présente le trio de jazz WRaP!, composé de la chanteuse Barbara Wiernik, le guitariste Alain Pierre et l'ancien contrebassiste de Chet Baker : Jean-Louis Rassinfosse.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519181500 +0200" stop="20260519191200 +0200">
+    <title lang="fr">Soul Makossa : Manu Dibango in Stuttgart</title>
+    <desc lang="fr">Manu Dibango est l'une des plus grandes vedettes de la musique africaine, un saxophoniste de talent et un artiste indispensable. Premier musicien africain à obtenir un succès mondial en 1972 avec la pièce " Soul Makossa ", il a pavé la voie à plusieurs autres artistes du continent. Superbe interprète doté d'un sens de l'humour communicatif, Dibango est l'un des pères fondateurs d'un style musical africain moderne aux influences jazz, R&amp;B, salsa, gospel, funk et reggae. Ce concert offre un heureux mariage de tous ces styles, et met en scène une excellente brochette de musiciens provenant des quatre coins du monde.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519191200 +0200" stop="20260519192000 +0200">
+    <title lang="fr">DJAZZ Portrait</title>
+    <desc lang="fr">Ces portraits d'artistes, de concerts et de festivals vous donnent une bonne impression du monde du jazz. Les artistes de jazz connus et moins connus vous donneront une nouvelle vue sur leur vie. DJAZZ.tv leur a demandé pourquoi ils ont écrit telle ou telle chanson, quel fut le premier enregistrement qu'ils ont acheté et quel est leur souvenir musical le plus précieux. Les portraits des festivals sont de superbes reportages filmés lors des festivals et des concerts de jazz les plus particuliers. Ils feront revivre la mémoire du festival, de la musique et de l'expérience.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519192000 +0200" stop="20260519200300 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519200300 +0200" stop="20260519205300 +0200">
+    <title lang="fr">The Morgenland Festival: I Will Not Be Sad</title>
+    <desc lang="fr">Depuis 2005, le Morgenland Festival d'Osnabrück célèbre la culture musicale fascinante du Proche et du Moyen-Orient, des musiques traditionnelles et classiques à l'avant-garde, en passant par le jazz et le rock. La programmation du festival compte également des volets consacrés aux arts visuels, à la danse, au théâtre et aux projets interdisciplinaires. Jivan Gasparyan Jr a toujours été inspiré par les mélodies folkloriques de son Arménie natale. Son grand-père, également musicien, lui a appris l'art du duduk, un instrument d'origine arménienne.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519205300 +0200" stop="20260519210000 +0200">
+    <title lang="fr">Basin Street Blues</title>
+    <desc lang="fr">Après un concert de jazz en petit groupe très réussi au Town Hall de New York le 17 mai 1947, le manager d'Armstrong Joe Glaser a dissous le big band d'Armstrong le 13 août 1947 et il a créé un petit groupe de six membres. Ce groupe appelait les All Stars, et en 1964 Louis Armstrong a enregistré son plus grand record de vente \" Hello, Dolly! \" Il a fait des apparitions télévisées assorties, en particulier dans les années 1950 et 1960 - le film enregistré était une émission de télévision en Australie quand Armstrong était à l'apogée de sa carrière. Armstrong a maintenu son calendrier chargé de tournées jusqu'à quelques années avant sa mort en 1971. Il a également visité l'Afrique, l'Europe et l'Asie sous le parrainage du Département d'État des États-Unis avec un grand succès, gagnant le surnom de \"Ambassador Satch\".</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519210000 +0200" stop="20260519215000 +0200">
+    <title lang="fr">On the Road With Duke Ellington: I</title>
+    <desc lang="fr">En mai 2014, le Conservatoire d'Amsterdam a organisé une conférence unique sur Duke Ellington, l'un des plus grands compositeurs du XXe siècle. Des musicologues et des musiciens ayant un lien spécial avec Ellington et sa musique ont donné des séminaires. Parmi les intervenants se trouvent David Schiff, l'auteur de " The Ellington Century ", et Harvey Cohen, l'auteur de " Duke Ellington's America ". En outre, le Conservatoire a programmé plusieurs concerts : le pianiste de jazz Matt Cooper, l'altiste Oene van Geel (qui a remporté la Boy Edgar Prize en 2013) et son All Ellington Project, le Calefax Reed Quintet et le Concert Big Band du Conservatoire d'Amsterdam sous la direction de David Berger font acte de présence.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519215000 +0200" stop="20260519225900 +0200">
+    <title lang="fr">Trio Chemirani : Dawâr</title>
+    <desc lang="fr">Les Chemirani père et fils, virtuoses du zarb iranien, viennent faire vibrer le Festival de Saintes. Le zarb est un instrument de percussion originaire d'Iran et pourtant ses rythmes s'adressent à tous. Les sons du Trio Chemirani sont accessibles à tous et viennent trouver un écho en chacun. Le Trio Chemirani vit en France et est formé de Djamchid Chemirani (né à Téhéran en 1942) et de ses deux fils et élèves, Keyvan et Bijan. Ils se produisent partout dans le monde et dévoilent les possibilités infinies des percussions persanes. Le trio est influencé par sa curiosité pour les musiques modales méditerranéennes et par le jazz. Ces musiciens aux allures de poètes cherchent à trouver un langage commun entre les différentes cultures.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519225900 +0200" stop="20260519230800 +0200">
+    <title lang="fr">DJAZZ Portrait</title>
+    <desc lang="fr">Ces portraits d'artistes, de concerts et de festivals vous donnent une bonne impression du monde du jazz. Les artistes de jazz connus et moins connus vous donneront une nouvelle vue sur leur vie. DJAZZ.tv leur a demandé pourquoi ils ont écrit telle ou telle chanson, quel fut le premier enregistrement qu'ils ont acheté et quel est leur souvenir musical le plus précieux. Les portraits des festivals sont de superbes reportages filmés lors des festivals et des concerts de jazz les plus particuliers. Ils feront revivre la mémoire du festival, de la musique et de l'expérience.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519230800 +0200" stop="20260519233800 +0200">
+    <title lang="fr">Face au Public: Chuck Berry</title>
+    <desc lang="fr">Cet enregistrement, réalisé en 1965, est le premier concert de Chuck Berry diffusé à la télévision belge. Dans l'intimité d'un studio, entouré d'un public restreint, le chanteur, guitariste et compositeur américain, accompagné pour l'occasion par trois musiciens belges, interprète du blues et du rock, deux registres où il excelle. Au programme de ce concert figurent notamment "Maybelline", "Roll Over Beethoven", "Memphis", "No Particular Place to Go" et "Johnny B. Goode". Chuck Berry s'en est allé le 18 mars 2017, à 90 ans.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519233800 +0200" stop="20260519234900 +0200">
+    <title lang="fr">My Funny Valentine</title>
+    <desc lang="fr">Le Royal Concertgebouw d'Amsterdam est une salle de concert de renommée mondiale, connue pour son acoustique de grande qualité. Elle a attiré de nombreux artistes célèbres au fil des années et est l'une des institutions musicales les plus respectées des Pays-Bas. Le 2 novembre 1958, le géant du jazz américain Duke Ellington et son orchestre ont donné deux concerts au Concertgebouw d'Amsterdam. Parmi les nombreux musiciens de l'orchestre figuraient le trompettiste Clark Terry, le tromboniste Quentin Jackson, le saxophoniste Johnny Hodges et le violoniste Ray Nance.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260519234900 +0200" stop="20260520000000 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
   <programme channel="SunuYeuf.af" start="20260519000000 +0200" stop="20260519003000 +0200">
     <title lang="fr">Capitaine</title>
     <desc lang="fr">Tapha, homme digne malgré l'âge et la pauvreté, se bat avec sa femme Kiné pour nourrir sa famille et transmettre ses valeurs. Wally, son fils, revient après deux ans de prison. Sophia, sa fille, se sacrifie en secret pour aider les siens… jusqu'au drame. Et Ben, surnommé " Capitaine ", le petit dernier, incarne l'espoir. Sauver les siens de la misère, nécessite de prendre des décisions… lourdes de conséquences pour Tapha.</desc>
@@ -30511,7 +30792,7 @@
     <category lang="fr">Film / Court métrage</category>
   </programme>
   <programme channel="TV5Monde.fr" start="20260519025800 +0200" stop="20260519033400 +0200">
-    <title lang="fr">Tendance XXI - S12E07</title>
+    <title lang="fr">Tendance XXI</title>
     <desc lang="fr">Une émission consacrée à la création française et à la mode. Elle dresse le portrait de créateurs passionnés et analyse des tendances actuelles ou qui ont profondément marqué l'histoire de la mode.</desc>
     <category lang="fr">Magazine / Magazine de la mode</category>
   </programme>
@@ -30656,7 +30937,7 @@
     <category lang="fr">Magazine / Magazine de reportages</category>
   </programme>
   <programme channel="TV5Monde.fr" start="20260519172800 +0200" stop="20260519180000 +0200">
-    <title lang="fr">Tendance XXI - S12E07</title>
+    <title lang="fr">Tendance XXI</title>
     <desc lang="fr">Une émission consacrée à la création française et à la mode. Elle dresse le portrait de créateurs passionnés et analyse des tendances actuelles ou qui ont profondément marqué l'histoire de la mode.</desc>
     <category lang="fr">Magazine / Magazine de la mode</category>
   </programme>
@@ -37893,6 +38174,99 @@
     <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="oqee.1065" start="20260519033000 +0200" stop="20260519040000 +0200">
+    <title lang="fr">Zai El Ketab</title>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519040000 +0200" stop="20260519050000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519050000 +0200" stop="20260519060000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519060000 +0200" stop="20260519070000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519070000 +0200" stop="20260519080000 +0200">
+    <title lang="fr">Ahla Akla</title>
+    <desc lang="fr">Chef Alaa El-Sherbiny présente des plats et des recettes de la cuisine Egyptienne d'une grande simplicité à préparer</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519080000 +0200" stop="20260519090000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519090000 +0200" stop="20260519100000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519100000 +0200" stop="20260519103000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519103000 +0200" stop="20260519120000 +0200">
+    <title lang="fr">Qoloub 'Amera</title>
+    <desc lang="fr">Préparée et présentée par Dr Nadia Amara, spécialisés dans les études islamiques, et abordant diverses questions religieuses et sociale</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519120000 +0200" stop="20260519130000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519130000 +0200" stop="20260519140000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519140000 +0200" stop="20260519163000 +0200">
+    <title lang="fr">Kelma Akhira</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519163000 +0200" stop="20260519180000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519180000 +0200" stop="20260519183000 +0200">
+    <title lang="fr">Style Talk</title>
+    <desc lang="fr">Sherine Hamdy nous présente des success stories ou des cas de réussite de personnes devenues expertes dans de différents domaines.</desc>
+    <category lang="fr">Magazine / Magazine du show-biz</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519183000 +0200" stop="20260519193000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519193000 +0200" stop="20260519210000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519210000 +0200" stop="20260519220000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519220000 +0200" stop="20260519230000 +0200">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260519230000 +0200" stop="20260520033000 +0200">
+    <title lang="fr">Qoloub 'Amera</title>
+    <desc lang="fr">Préparée et présentée par Dr Nadia Amara, spécialisés dans les études islamiques, et abordant diverses questions religieuses et sociale</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="oqee.1066" start="20260519000000 +0200" stop="20260519060000 +0200">
     <title lang="fr">Fix &amp; Foxi</title>
     <category lang="fr">Divers / Divertissement</category>
@@ -43016,6 +43390,126 @@
     <title lang="fr">Sporty Girls</title>
     <desc lang="fr">All these young beauties know that pursuing a healthy lifestyle is of utmost importance, that's why they regularly go to the gym. However, they have a very original and unique concept of how to utilise various sports equipment during their work-out. Because those fucking accessories were definitely not invented to be placed in tight pussies and assholes.</desc>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519000000 +0200" stop="20260519010000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519010000 +0200" stop="20260519020000 +0200">
+    <title lang="fr">Nite Sides</title>
+    <desc lang="fr">Mix de clipes convencionais e clipes restritos (playlist com clipes proibidos)</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519020000 +0200" stop="20260519030000 +0200">
+    <title lang="fr">Nite Sides</title>
+    <desc lang="fr">Mix de clipes convencionais e clipes restritos (playlist com clipes proibidos)</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519030000 +0200" stop="20260519040000 +0200">
+    <title lang="fr">Nite Sides</title>
+    <desc lang="fr">Mix de clipes convencionais e clipes restritos (playlist com clipes proibidos)</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519040000 +0200" stop="20260519050000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519050000 +0200" stop="20260519060000 +0200">
+    <title lang="fr">Morning Spin</title>
+    <desc lang="fr">Playlist de clipes simples, claros e de energia positiva.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519060000 +0200" stop="20260519070000 +0200">
+    <title lang="fr">Morning Spin</title>
+    <desc lang="fr">Playlist de clipes simples, claros e de energia positiva.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519070000 +0200" stop="20260519080000 +0200">
+    <title lang="fr">Morning Spin</title>
+    <desc lang="fr">Playlist de clipes simples, claros e de energia positiva.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519080000 +0200" stop="20260519090000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519090000 +0200" stop="20260519100000 +0200">
+    <title lang="fr">Artist Breakout</title>
+    <desc lang="fr">Música popular, mais hits e menos rock, indie e electro.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519100000 +0200" stop="20260519110000 +0200">
+    <title lang="fr">Fresh Out the Box</title>
+    <desc lang="fr">Mix de clipes ao vivo</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519110000 +0200" stop="20260519120000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519120000 +0200" stop="20260519130000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519130000 +0200" stop="20260519140000 +0200">
+    <title lang="fr">Bounce &amp; Fun</title>
+    <desc lang="fr">Pura diversão, somente clipes pop e dance dedicados à diversão.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519140000 +0200" stop="20260519150000 +0200">
+    <title lang="fr">Flow</title>
+    <desc lang="fr">Mix de músicas simples e lentas, baladas por exemplo.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519150000 +0200" stop="20260519160000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519160000 +0200" stop="20260519170000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519170000 +0200" stop="20260519180000 +0200">
+    <title lang="fr">Artist Breakout</title>
+    <desc lang="fr">Música popular, mais hits e menos rock, indie e electro.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519180000 +0200" stop="20260519190000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519190000 +0200" stop="20260519200000 +0200">
+    <title lang="fr">Fresh Out the Box</title>
+    <desc lang="fr">Mix de clipes ao vivo</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519200000 +0200" stop="20260519210000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519210000 +0200" stop="20260519220000 +0200">
+    <title lang="fr">Totally Indie</title>
+    <desc lang="fr">Mix de clipes independentes.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519220000 +0200" stop="20260519230000 +0200">
+    <title lang="fr">Rough Riff</title>
+    <desc lang="fr">Mix de clipes de rock em geral.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260519230000 +0200" stop="20260520000000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="oqee.1133" start="20260519003000 +0200" stop="20260519025500 +0200">
     <title lang="fr">Centurion FC (Cfc) - S47E06</title>
@@ -57905,6 +58399,36 @@
     <desc lang="fr">Savdhaan India: India Fights Back brings together all the best episodes of Savdhaan India, a show that investigates the most shocking crimes in India. Based on real life incidents, the show has an eerily authentic feel and focuses primarily on the victims, the victims' families and their long road to justice. The show is hosted by a number of the most well known figures in Indian television, including Tisca Chopra, Sushant Singh, Divya Dutta and Ashutosh Rana. Focussing on case where justice was served, there is no better place to get your fix of crime television.</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="oqee.693" start="20260519070000 +0200" stop="20260519085000 +0200">
+    <title lang="fr">Shabri</title>
+    <desc lang="fr">Shabri kills a cop who tortures her brother and tries to rape her. But when her brother is killed, she decides to avenge his death. Release Year: 2011 Director: Lalit Marathe</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="oqee.693" start="20260519085000 +0200" stop="20260519111500 +0200">
+    <title lang="fr">Sanak</title>
+    <desc lang="fr">Set in Mumbai, the story follows Vivaan Ahuja, a skilled MMA trainer, and his wife Anshika, who is recovering from a life-threatening surgery. When a terrorist group led by Saju Solanki invade the hospital Anishka is admitted to, the place becomes the epicentre of violence and chaos. Caught up in the drama, Vivaan decides to take matters into his own hands and try to dismantle the network of criminals himself. Can Vivaan outsmart the enemy, save his wife, and protect the lives of other innocent hostages from the perils of evil?</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="oqee.693" start="20260519111500 +0200" stop="20260519143500 +0200">
+    <title lang="fr">Ishq</title>
+    <desc lang="fr">Four lovers from different backgrounds fight family opposition in a blend of comedy, drama, and emotion. Their misadventures highlight love's madness and the joy of rebellion.</desc>
+    <category lang="fr">Film / Film sentimental</category>
+  </programme>
+  <programme channel="oqee.693" start="20260519143500 +0200" stop="20260519184000 +0200">
+    <title lang="fr">Veer-Zaara</title>
+    <desc lang="fr">Veer est Indien, Zaara Pakistanaise. Leurs chemins se croisent le jour où Zaara se rend en Inde accomplir les dernières volontés de sa tante. Victime d'un accident, elle est secourue par Veer, alors pilote de l'Indian Air Force. Il la ramène chez ses parents et fait la connaissance de Razaa, un homme austère à qui Zaara a été promise. Voyant Veer comme un rival, Razaa le fait arrêter. Vingt-deux ans plus tard, Saamiya, avocate, décide de défendre Veer, emprisonné pour espionnage. Enfermé dans son silence, Veer se livre peu à peu et lui raconte son histoire. Convaincue de son innocence, Saamya doit affronter un avocat redoutable...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.693" start="20260519184000 +0200" stop="20260519220000 +0200">
+    <title lang="fr">Tiger Zinda Hai</title>
+    <desc lang="fr">Tiger, un agent indien, pensait trouver un peu de repos auprès de sa famille. Mais, il doit reprendre du service quand vingt-cinq infirmières sont enlevées par une organisation terroriste. Pour l'aider dans sa tâche, il peut compter sur sa compagne Zoya, une espionne pakistanaise ultra-entraînée. Une lutte à mort s'engage entre le duo et les terroristes qui veulent mettre la région sous leur coupe...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="oqee.693" start="20260519220000 +0200" stop="20260520012000 +0200">
+    <title lang="fr">Salaam Namaste</title>
+    <desc lang="fr">Ambar ([Preity Zinta) et Nick (Saif Ali Khan) vivent seuls à Melbourne. Elle est étudiante et animatrice de la radio locale {Salaam Namaste}, il est cuisinier. Ils sont dotés chacun d'une forte personnalité pour ne pas dire un sale caractère, et tombent amoureux.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
   <programme channel="oqee.694" start="20260519000300 +0200" stop="20260519000700 +0200">
     <title lang="fr">Corsica</title>
     <desc lang="fr">Enjoy a moment of escape watching this amazing landscape, captured at the Rocapina's lion beach in Corsica.</desc>
@@ -62714,6 +63238,21 @@
     <title lang="fr">Veliaht</title>
     <desc lang="fr">Veliaht, Karslı Ailesi'nin etrafında şekillenen büyük bir güç mücadelesini ve geçmişten taşınan sırların bugünü nasıl değiştirdiğini anlatan çarpıcı bir hikâye sunuyor. Zülfikar Karslı'nın kendisine bir veliaht aramasıyla başlayan süreç, otogardaki dengeleri sarsarken, seçilen isim Timur'un hayatı da geri dönülmez biçimde değişiyor. Aile içi hesaplaşmalar, gizli anlaşmalar ve yüzleşmeler, dizinin merkezinde yer alıyor. Veliaht, güçlü oyuncu kadrosu ve derinlikli anlatımıyla yeni sezonun en çok konuşulacak yapımlarından biri olmaya hazırlanıyor.</desc>
     <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="oqee.948" start="20260519010000 +0200" stop="20260519020000 +0200">
+    <title lang="fr">Artı Futbol</title>
+    <desc lang="fr">Artı Futbol, yerli ve yabancı futbol gündemini detaylı biçimde ele alan, geniş haber içeriği ve özel röportajlarla zenginleşen kapsamlı bir spor programıdır. Programda takımların son durumu, maç analizleri, teknik direktör açıklamaları ve futbolun perde arkasındaki gelişmeler izleyiciye sunulur. Artı Futbol, futbolseverler için güncel haberlerin ve derin analizlerin takip edilebileceği güvenilir bir kaynak olmasının yanı sıra, yorum ve uzman görüşleriyle de zenginleşir.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260519020000 +0200" stop="20260519030000 +0200">
+    <title lang="fr">Ziraat Türkiye Kupası Özetler</title>
+    <desc lang="fr">Ziraat Türkiye Kupası Özetler, grup maçlarındaki öne çıkan anları, golleri, takım ve oyuncu performanslarını izleyiciye anlaşılır bir şekilde sunan bir spor programıdır. Program, izleyiciyi maçların detaylarından haberdar ederken, maç sonuçlarını ve önemli gelişmeleri de aktarır.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.948" start="20260519030000 +0200" stop="20260519040000 +0200">
+    <title lang="fr">Spor Gündemi</title>
+    <desc lang="fr">Spor Gündemi, gün içerisinde spor dünyasında yaşanan tüm önemli gelişmeleri geniş bir perspektiften ele alıyor. Liglerden son durum, takımların form grafikleri, transfer dedikoduları ve maç önü analizleri bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Spor Gündemi, izleyicilere kapsamlı ve güncel bir spor panoraması sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.950" start="20260519010000 +0200" stop="20260519031500 +0200">
     <title lang="fr">Gelsin Hayat Bildiği Gibi</title>

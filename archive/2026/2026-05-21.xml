@@ -324,6 +324,10 @@
     <display-name>France 5</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~5f611b705ca3f017.png/480x480/quality/100/france-5.png"/>
   </channel>
+  <channel id="FranceInfo.fr">
+    <display-name>franceinfo:</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~367eff2d23ab1357.png/480x480/quality/100/franceinfo.png"/>
+  </channel>
   <channel id="Gulli.fr">
     <display-name>Gulli</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~059a8175b83117fd.png/480x480/quality/100/gulli.png"/>
@@ -572,6 +576,10 @@
     <display-name>Sport en France</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png"/>
   </channel>
+  <channel id="StingrayDjazz.fr">
+    <display-name>StingrayDjazz</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~8c1d40f28aa66dfd.png/480x480/quality/100/stingray-djazz.png"/>
+  </channel>
   <channel id="SunuYeuf.af">
     <display-name>SUNU YEUF</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180710/canal-ouah/CHN43FB/SUNUYEUF640x480?=.png"/>
@@ -768,6 +776,10 @@
     <display-name>Tiji Russia</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2571/w256"/>
   </channel>
+  <channel id="oqee.1065">
+    <display-name>ON TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
+  </channel>
   <channel id="oqee.1066">
     <display-name>Fix and Foxi</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2563/w256"/>
@@ -815,6 +827,10 @@
   <channel id="oqee.1131">
     <display-name>EroXXX</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2988/w256"/>
+  </channel>
+  <channel id="oqee.1132">
+    <display-name>360 TuneBox</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2992/w256"/>
   </channel>
   <channel id="oqee.1133">
     <display-name>FightBox</display-name>
@@ -1160,6 +1176,10 @@
     <display-name>Utsav Bharat</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3009/w256"/>
   </channel>
+  <channel id="oqee.693">
+    <display-name>Utsav Gold</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3011/w256"/>
+  </channel>
   <channel id="oqee.694">
     <display-name>MyZen Nature</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2215/w256"/>
@@ -1203,6 +1223,10 @@
   <channel id="oqee.802">
     <display-name>Euronews International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1314/w256"/>
+  </channel>
+  <channel id="oqee.812">
+    <display-name>Pro TV International</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1028/w256"/>
   </channel>
   <channel id="oqee.835">
     <display-name>RTL</display-name>
@@ -16946,6 +16970,101 @@
     <desc lang="fr">Caroline Roux (du lundi au jeudi) et Aurélie Casse (le vendredi et le samedi) décryptent en direct l'actualité en compagnie de quatre experts. En fin d'émission, ceux-ci répondent aux questions des téléspectateurs.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
+  <programme channel="FranceInfo.fr" start="20260521001500 +0200" stop="20260521062900 +0200">
+    <title lang="fr">France 24</title>
+    <desc lang="fr">France 24 traite de toutes les actualités, en temps réel, en images et en vidéos, avec les analyses et les dernières informations des journalistes de la rédaction.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521062900 +0200" stop="20260521074500 +0200">
+    <title lang="fr">La matinale</title>
+    <desc lang="fr">L'actualité à travers les JT, les invités et les experts en plateau, les chroniques sur les sujets du moment, les revues de presse, et les reportages et interviews.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521074500 +0200" stop="20260521075400 +0200">
+    <title lang="fr">L'invité politique</title>
+    <desc lang="fr">Un face-à-face avec celles et ceux qui sont au coeur de l'actualité. Soit dix minutes pour rebondir sur les faits mais aussi pour aller plus loin.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521075400 +0200" stop="20260521083300 +0200">
+    <title lang="fr">La matinale</title>
+    <desc lang="fr">L'actualité à travers les JT, les invités et les experts en plateau, les chroniques sur les sujets du moment, les revues de presse, et les reportages et interviews.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521083300 +0200" stop="20260521085800 +0200">
+    <title lang="fr">8h30 franceinfo</title>
+    <desc lang="fr">Le 8h30 franceinfo est le rendez-vous quotidien d'actualité politique, diffusé sur la chaîne franceinfo en simultané radio/télévision.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521085800 +0200" stop="20260521090600 +0200">
+    <title lang="fr">Le journal</title>
+    <desc lang="fr">Politique, santé, économie, société et culture sont au centre de ce rendez-vous d'information qui offre en outre un regard sur l'actualité internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521090600 +0200" stop="20260521092900 +0200">
+    <title lang="fr">Les informés du matin</title>
+    <desc lang="fr">"Les informés du matin" est une émission d'information, diffusée sur franceinfo en simultané radio/télévision du lundi au vendredi. Trente minutes pour décrypter, éclairer et approfondir les grandes actualités de la matinée à travers les regards croisés de quatre spécialistes de franceinfo. </desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521092900 +0200" stop="20260521105900 +0200">
+    <title lang="fr">L'info s'éclaire</title>
+    <desc lang="fr">Du lundi au vendredi de 9h30 à 10h20, en direct, invités et experts décryptent l'actualité du jour dans l'émission ": l'info s'éclaire", présentée par Axel de Tarlé.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521105900 +0200" stop="20260521125900 +0200">
+    <title lang="fr">Le 11h/13h</title>
+    <desc lang="fr">Pour décrypter l'actualité nationale et internationale, ce rendez-vous d'information propose deux heures de direct, agrémentées de journaux, reportages, interviews et débats.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521125900 +0200" stop="20260521134900 +0200">
+    <title lang="fr">L'info s'éclaire</title>
+    <desc lang="fr">Du lundi au vendredi de 9h30 à 10h20, en direct, invités et experts décryptent l'actualité du jour dans l'émission ": l'info s'éclaire", présentée par Axel de Tarlé.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521134900 +0200" stop="20260521135900 +0200">
+    <title lang="fr">Outremer.l'info</title>
+    <desc lang="fr">L'information ultramarine trouve sa place dans un format de 9 minutes. "Outremer.l'info" permet une couverture plus large et un suivi accru des Ultramarins vivant dans l'Hexagone.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521135900 +0200" stop="20260521165900 +0200">
+    <title lang="fr">Le fil info</title>
+    <desc lang="fr">L'information en continu, pour ne rien rater de l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521165900 +0200" stop="20260521175900 +0200">
+    <title lang="fr">C'est toute la question</title>
+    <desc lang="fr">Un magazine d'actualité qui repose sur un principe simple : partir d'une question précise pour éclairer un sujet d'information. Tous les sujets peuvent y être abordés.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521175900 +0200" stop="20260521200300 +0200">
+    <title lang="fr">Tout est politique</title>
+    <desc lang="fr">Tout est politique? ou, plutôt, tout est théâtre, surtout la politique? À vous de vous faire un avis avec ce magazine qui revient sur l'actualité politique la plus brûlante.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521200300 +0200" stop="20260521205900 +0200">
+    <title lang="fr">Les informés du soir</title>
+    <desc lang="fr">"Les informés" est une émission d'information et de débat durant laquelle 4 invité(e)s commentent l'actualité et développent leurs points de vue.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521205900 +0200" stop="20260521225500 +0200">
+    <title lang="fr">Sur le terrain</title>
+    <desc lang="fr">L'information sous le prisme du terrain, du reportage et de l'expérience des journalistes de France Télévisions, en France et à l'étranger.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521225500 +0200" stop="20260521225900 +0200">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521225900 +0200" stop="20260521235900 +0200">
+    <title lang="fr">23h info</title>
+    <desc lang="fr">Le 23h, le grand journal du soir de Franceinfo. Des reportages, des experts et du débat pour avoir un tour complet des sujets qui font l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="FranceInfo.fr" start="20260521235900 +0200" stop="20260522001500 +0200">
+    <title lang="fr">Outre-mer l'actu</title>
+    <desc lang="fr">Vingt minutes d'éclairage quotidien complet sur les Outre-mer.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Gulli.fr" start="20260521000500 +0200" stop="20260521003000 +0200">
     <title lang="fr">The Middle - S04E22</title>
     <desc lang="fr">A l'approche de la Fête des mères, Frankie décide de préciser à ses enfants ce qu'elle souhaite exactement recevoir, afin de ne pas être déçue. Pendant ce temps, Sue, triste de ne pas pouvoir passer son permis de conduire comme ses autres camarades de classe, demande des conseils au révérend TimTom pour surmonter son chagrin et ne plus jalouser ses amies...</desc>
@@ -24749,6 +24868,101 @@
     <desc lang="fr">Le 24 octobre 79 après J.-C., à 13h précises, l'éruption du Vésuve frappe Pompéi et les cités voisines, engloutissant habitants et monuments sous un déluge de cendres brûlantes. Ironie tragique : ce cataclysme, en détruisant la ville, l'a figée à jamais. Les maisons, les fresques, les rues, et même les corps des victimes, prisonniers de leur ultime geste, se sont transformés en témoins silencieux d'un drame resté intact depuis près de 2000 ans.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
+  <programme channel="RMCMystere.fr" start="20260521052600 +0200" stop="20260521062600 +0200">
+    <title lang="fr">Celtes : les mystères d'une civilisation disparue</title>
+    <desc lang="fr">Des Celtes, on garde une vague image de villages faits de huttes, peuplés par des druides et des guerriers barbares, rustres, mais courageux, à l'image d'Astérix. Pourtant, cet a priori de peuples inférieurs aux civilisations grecques et romaines est aujourd'hui méthodiquement déconstruit par les archéologues, grâce à des sites exceptionnels qui dissipent les brumes du mystère celte.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521062600 +0200" stop="20260521072600 +0200">
+    <title lang="fr">La véritable histoire du comte de Monte Cristo</title>
+    <desc lang="fr">Le célèbre roman d'Alexandre Dumas a connu un incroyable succès au moment de sa parution, mais son auteur a été accusé de plagiat. Pour se défendre, Dumas explique avoir tiré son inspiration d'une histoire vraie, relatée par un archiviste de la préfecture de police de Paris. Mais contre toute attente, il semble que cette histoire considérée comme vraie par Alexandre Dumas ne soit finalement pas réelle mais bien une création romanesque. Le grand écrivain a-t-il vraiment fait oeuvre de plagiat sans s'en rendre compte ?</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521072600 +0200" stop="20260521082300 +0200">
+    <title lang="fr">Dans les secrets de la scientologie - La fin de l'omerta</title>
+    <desc lang="fr">C'est l'un des cultes les plus secrets et les plus controversés au monde. On le connaît grâce à l'un des plus grands acteurs d'Hollywood : Tom Cruise. Depuis sa création en 1953, la scientologie serait parvenue à convaincre des millions d'adeptes à travers le monde et jusqu'à 40 000 fidèles en France selon ses responsables. Ils croient en la réincarnation et suivent les préceptes d'un ancien auteur de science-fiction à succès : L. Ron Hubbard. Pour atteindre la liberté totale, ils se plient à des pratiques hors du commun. C'est aussi une institution à scandales qui fait régulièrement les gros titres de l'actualité.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521082300 +0200" stop="20260521092400 +0200">
+    <title lang="fr">L'énigme de Fatima : que nous cache le Vatican ?</title>
+    <desc lang="fr">Mercredi 13 mai 1981, sur la place Saint-Pierre de Rome. Tandis que Jean-Paul II salue les milliers de fidèles, un homme dissimulé dans la foule tire sur le pape. C'est la sidération, ce que personne ne pouvait imaginer, vient pourtant de se produire : on a tiré sur le pape. Cet attentat marquera les esprits à jamais. Une religieuse portugaise prénommée Lucia avait alerté le Vatican qu'un destin tragique frapperait bientôt un pape. Sa mise en garde est restée sans réponse, jusqu'à ce jour tragique.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521092400 +0200" stop="20260521104500 +0200">
+    <title lang="fr">Les secrets du Saint Graal</title>
+    <desc lang="fr">De tous temps, le Graal a toujours fasciné. Objet mythique de la légende arthurienne, on lui prête d'étonnantes vertus et des pouvoirs quasi-divins. Mais nul ne sait vraiment ce qu'il représente et encore moins s'il a véritablement existé. Assimilé à partir du XIIIe siècle au Saint Calice, le Graal a véhiculé tous les fantasmes et nourri bien des passions au-delà du raisonnable. Un peu partout à travers le monde, de nombreux chercheurs et aventuriers se sont mis en quête de cet objet fantastique, sur la foi de textes, de témoignages et d'indices. Ainsi, en France, le château de Falaise a été fouillé de fond en comble, tout comme d'autres lieux habités autrefois par des Templiers ou des Alchimistes.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521104500 +0200" stop="20260521120400 +0200">
+    <title lang="fr">Jésus a-t-il vraiment existé ?</title>
+    <desc lang="fr">Omniprésent dans la culture occidentale, Jésus est, pour plus de deux milliards de chrétiens, le fils de Dieu, sacrifié sur la croix, le messie ressuscité, sa naissance étant tellement importante qu'elle marque le point de départ du calendrier. Il faudra attendre le XVIIIe siècle et les Lumières pour que la question du Jésus historique se pose véritablement. Au-delà du discours religieux, qui était vraiment Jésus ? Un homme de chair et de sang ? Le personnage à l'origine de cette religion, a-t-il vraiment existé ?</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521120400 +0200" stop="20260521125100 +0200">
+    <title lang="fr">Phénomènes vus de l'espace - S07E01</title>
+    <desc lang="fr">Dans cet épisode, découvrez les cercles magiques au pays du roi Arthur, les secrets du désert extraterrestre de la NASA, les codes étranges de la jungle amazonienne, la grotte des horreurs au sommet d'une falaise, remplie de centaines de restes humains et les moines lévitants de Shaolin.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521125100 +0200" stop="20260521133900 +0200">
+    <title lang="fr">Phénomènes vus de l'espace - S07E02</title>
+    <desc lang="fr">Dans cet épisode, découvrez le laboratoire secret d'Hitler, le nouveau complot terroriste visant à faire tomber l'Amérique, le temple mystérieux sur l'île de l'orgie, la mort au paradis, le rayon de la mort avec la puissance de 10 000 soleils et la rivière puante de la mort.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521133900 +0200" stop="20260521142600 +0200">
+    <title lang="fr">Phénomènes vus de l'espace - S07E03</title>
+    <desc lang="fr">Dans cet épisode, découvrez la citadelle des super guerriers qui ont écrasé les légions de Rome, une armée de Pac-Man qui révèle un code caché sous les sables du Sahara, une nouvelle menace terrifiante sur les côtes américaines, le mystérieux cratère martien des Aztèques et les dissimulations de la CIA et 2 milliards de doses de LSD.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521142600 +0200" stop="20260521151400 +0200">
+    <title lang="fr">Phénomènes vus de l'espace - S07E04</title>
+    <desc lang="fr">Dans cet épisode, découvrez le code des dieux nordiques révélé d'outre-tombe, quelque chose d'énorme et d'étrange dans le ciel du Missouri, le cauchemar de la bombe à retardement toxique de l'Amérique, le mystère des vaisseaux fantômes d'Hitler, un méga-avion non identifié sur une piste d'atterrissage isolée du Mojave.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521151400 +0200" stop="20260521160100 +0200">
+    <title lang="fr">Phénomènes vus de l'espace - S07E05</title>
+    <desc lang="fr">Dans cet épisode, découvrez le château mystérieux des marais de Louisiane, 100 000 kilomètres carrés de l'Amérique, le méga-chasme mortel de la Russie, le tueur invisible qui traque les éléphants d'Afrique et les moines irlandais qui pense avoir trouvé l'Amérique.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521160100 +0200" stop="20260521170500 +0200">
+    <title lang="fr">Pharaons en guerre : les batailles légendaires de l'Egypte - S01E01</title>
+    <desc lang="fr">Dernière héritière des Ptolémée, Cléopâtre prend les rênes d'un royaume affaibli. Elle affronte d'abord ses frères et soeurs pour conserver le trône d'Egypte. Déterminée à restaurer la puissance de l'empire comme au temps d'Alexandre le Grand, elle déploie ses talents politiques et diplomatiques. Mais la montée en puissance de Rome, son ultime adversaire, précipite la chute de l'Egypte.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521170500 +0200" stop="20260521180800 +0200">
+    <title lang="fr">Pharaons en guerre : les batailles légendaires de l'Egypte - S01E02</title>
+    <desc lang="fr">Les Ptolémée, dynastie héritière d'Alexandre le Grand, hissent l'Egypte au rang de puissance dominante en Méditerranée. Ces souverains hellénistiques bâtissent un empire prospère, marqué par des cités majestueuses et des monuments imposants. Leur suprématie navale se manifeste par des navires gigantesques, tant militaires que d'apparat. L'Egypte devient le joyau de la Méditerranée antique.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521180800 +0200" stop="20260521191100 +0200">
+    <title lang="fr">Pharaons en guerre : les batailles légendaires de l'Egypte - S01E03</title>
+    <desc lang="fr">A peu près en 1274 av. J.-C., sous la forteresse de Qadesh, deux souverains s'affrontent dans une des plus grandes batailles de l'Antiquité. D'un côté le jeune pharaon égyptien Ramsès II. De l'autre le grand roi hittite Muwatalli II. Depuis des décennies Égyptiens et Hittites se disputent les terres du Levant, une région fertile idéalement placée au coeur des routes commerciales. Des affrontements ont déjà eu lieu, mais cette fois les rivaux ont mobilisé toute leur armée.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521191100 +0200" stop="20260521201400 +0200">
+    <title lang="fr">Pharaons en guerre : les batailles légendaires de l'Egypte - S01E04</title>
+    <desc lang="fr">En 1479 av. J.-C. un bébé devient pharaon d'Egypte. Son nom : Thoutmosis III. La régence revient alors à sa tante, Hatshepsout. Une femme forte qui au lieu de s'effacer lorsque le roi grandit, s'accroche au pouvoir et va jusqu'à se faire nommer pharaon elle aussi. Thoutmosis III doit attendre sa mort, quand il a 22 ans, pour enfin régner seul. Quand cela se produit, il n'a qu'une idée : prouver sa valeur.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521201400 +0200" stop="20260521211700 +0200">
+    <title lang="fr">Nostradamus : la vérité sur ses prophéties</title>
+    <desc lang="fr">Et si Nostradamus était plus historien que prophète ? C'est ce qu'affirment aujourd'hui de nombreux interprètes de ses textes. Partout dans le monde, Nostradamus fait figure de plus grand oracle de tous les temps. Dans son recueil des Prophéties, il aurait prédit les évènements les plus importants de l'Histoire, comme la révolution française, les prises de pouvoir de Napoléon et Hitler. Quel est le sens véritable de ses textes ?</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521211700 +0200" stop="20260521222700 +0200">
+    <title lang="fr">Qui a écrit la Bible ?</title>
+    <desc lang="fr">La Bible, le livre des livres, est le plus grand "best-seller" de tous les temps. L'Ancien Testament, pilier des trois religions monothéistes, a été écrit à une époque inconnue par des auteurs inconnus. Les manuscrits de la mer Morte, découverts en 1947, ainsi que les progrès de la science et les découvertes archéologiques, permettent de lever peu à peu le voile sur ce mystère. Dans cette enquête archéologique et scientifique, les spécialistes de la Bible tentent de répondre à la question de qui a écrit la Bible.</desc>
+    <category lang="fr">Documentaire / Documentaire religions</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521222700 +0200" stop="20260521232800 +0200">
+    <title lang="fr">10 plaies d'Egypte : la vérité sur les catastrophes divines</title>
+    <desc lang="fr">Quelle est la réalité des plaies d'Egypte mentionnées dans la Bible ? A travers les siècles, explorateurs, historiens ou archéologues ont tout fait pour percer ce mystère et découvrir la vérité cachée derrière le mythe. Il s'agit d'une référence biblique millénaire, une série de catastrophes qui transcendent l'Histoire. Mais ces faits se sont-ils réellement produits ? Eaux du Nil transformées en sang, attaques de grenouilles, moustiques, taons et sauterelles, peste, ulcères, grêle, ténèbres, mort des premiers-nés de l'homme et du bétail : enquête sur ces châtiments que, selon le Livre de l'Exode, Dieu a infligés à l'Egypte après que Pharaon a refusé de laisser partir les Hébreux qu'il maintenait en esclavage.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260521232800 +0200" stop="20260522002900 +0200">
+    <title lang="fr">Qui était vraiment Marie Madeleine ?</title>
+    <desc lang="fr">Pêcheresse repentie pour les uns, femme cachée de Jésus pour les autres, Marie Madeleine continue d'enflammer les passions près de 2000 ans après sa mort. A travers les siècles, son image a été constamment malmenée, souvent déformée, et sa vie et ses relations avec Jésus ont fait l'objet d'innombrables théories. Qui était Marie Madeleine ? Grâce à une enquête menée par cinq experts, à des images de synthèse et à des reconstitutions, ce documentaire fait revivre l'incroyable destin de cette femme hors du commun et découvrir les différentes théories sur son parcours et sur ce que sont devenues ses reliques après sa mort.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
   <programme channel="RMCTalkInfo.fr" start="20260521021500 +0200" stop="20260521053000 +0200">
     <title lang="fr">Les grandes gueules</title>
     <desc lang="fr">Sous la direction d'Alain Marschall et d'Olivier Truchot, Les grandes gueules invitent régulièrement des interlocuteurs qui reflètent la société française dans toute sa variété et qui traitent sans tabou toutes les thématiques de la vie quotidienne qui marquent l'actualité. Une émission qui est au centre de plusieurs polémiques.</desc>
@@ -25587,6 +25801,171 @@
     <title lang="fr">Billard Blackball : Tournoi national 8</title>
     <desc lang="fr">Finale blackball masters du Tournoi National 8 (Villeneuve-sur-Lot) de billard blackball.</desc>
     <category lang="fr">Emission sportive / Billard</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521000000 +0200" stop="20260521011700 +0200">
+    <title lang="fr">November Music : R. Frerichs/H. Alizadeh/Cello8ctet</title>
+    <desc lang="fr">Interprété par le Rembrandt Frerichs Trio et l'Ensemble Cello8ctet Amsterdam. Avec Hossein Alizâdeh (târ). Enregistré en 2016, lors du Festival November Music, 's-Hertogenbosch, aux Pays-Bas.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521011700 +0200" stop="20260521021500 +0200">
+    <title lang="fr">Maceo Parker : Jazz à Juan</title>
+    <desc lang="fr">Saxophoniste adulé 25 ans durant au sein de l'orchestre de James Brown, Maceo Parker a conquis ses galons de star et réussi la merveilleuse alchimie entre les différents courants de la musique noire américaine. A l'avant-garde du "groove", il mixe toutes les tendances d'un jazz funky remontant aux sources du gospel et du blues, avec pour seul horizon la surchauffe des salles de concert. Une furieuse invitation à s'abandonner à la folie d'une musique incroyablement énergétique.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521021500 +0200" stop="20260521024800 +0200">
+    <title lang="fr">Marion Williams : Gospel et spirituals</title>
+    <desc lang="fr">Impossible de ne pas être transporté par la voix puissante de Marion Williams tandis qu'elle interprète des pièces gospel et des spirituals comme si elle les avait vécus mille fois auparavant. Accompagnée de Tommy Brown (piano), Joe Washington (orgue), Billy Tuliver (batterie), et des chanteuses Barbara White et Ann Bolden, Williams interprète des airs connus, tels que " Peace in the Valley ", " We Shall Overcome ", et " Michael, Row the Boat Ashore ".</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521024800 +0200" stop="20260521035600 +0200">
+    <title lang="fr">Sarah Vaughan : Live in 58 &amp; 64</title>
+    <desc lang="fr">De sa voix sensuelle, Sarah Vaughan reprend des standards de jazz comme "Lover Man", "Misty" et "I Got Rhythm", ainsi que des morceaux populaires comme "Over the Rainbow" et "Maria".</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521035600 +0200" stop="20260521053600 +0200">
+    <title lang="fr">Aki Rissanen Trio au Jazzclub Unterfahrt de Munich</title>
+    <desc lang="fr">L'intérêt d'Aki Rissanen pour le jazz a pris racine lorsque le musicien a entrepris des leçons de piano classique, et sa passion pour l'improvisation musicale lui a depuis permis de se classer parmi les pianistes jazz les plus réputés de sa Finlande natale. En plus de composer et d'interpréter sa propre musique, Rissanen a également collaboré avec Verneri Pohjola et Dave Liebman. En direct du Jazzclub Unterfahrt de Munich, en Allemagne, Rissanen présente le meilleur du jazz scandinave et de son ADN, le " ton nordique ", en compagnie du bassiste Antti Lotjonen et du batteur Teppo Makynen.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521053600 +0200" stop="20260521062600 +0200">
+    <title lang="fr">Maynard Ferguson Big Band, Bruxelles, hiver 1980</title>
+    <desc lang="fr">Le Brussels Jazz Club était rempli à craquer de musiciens et de spectateurs lorsque le Maynard Ferguson Big Band s'y est produit dans le cadre de sa tournée hivernale, en 1980. Dès les premières notes de la reprise de " Birdland " du groupe Weather Report jusqu'à la finale de " Gonna Fly Now ", Ferguson donne à ses jeunes acolytes l'occasion de briller. L'admiration réciproque palpable entre Ferguson et les membres de son big band fait de cette performance un plaisir pour les spectateurs.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521062600 +0200" stop="20260521063400 +0200">
+    <title lang="fr">El Guïje</title>
+    <desc lang="fr">Le 19 juillet 2019, le légendaire pianiste cubain Chucho Valdés s'est produit aux côtés de son ensemble Jazz Batá 2 sur la scène du Malta Jazz Festival.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521063400 +0200" stop="20260521070000 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Des vidéoclips, des extraits de concert et des entrevues célébrant le jazz depuis les quatre coins du monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521070000 +0200" stop="20260521080200 +0200">
+    <title lang="fr">Georgie Fame &amp; The Blue Flames</title>
+    <desc lang="fr">Georgie Fame, connu pour les tubes \" Yeh, Yeh \" et \" The Ballad of Bonnie and Clyde \" fait un retour triomphal avec The Blue Flames. Georgie Fame and the Blue Flames était un groupe populaire au Royaume-Uni dans les années 60, célébré pour ses sonorités R&amp;B, soul, jazz, ska et pop. La formation a été grandement inspirée par le ska, un style musical très populaire dans les cafés jamaïcains de Londres à l'époque. C'est d'ailleurs la chanson \" Green Onions \" de la formation Booker T &amp; The MG qui a inspiré Georgie à intégrer l'orgue Hammond dans ses compositions. Cette performance de Georgie Fame and the Blue Flames déborde de sonorités blues et soul réjouissantes qui feront le bonheur des anciens - et des nouveaux - fans du groupe.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521080200 +0200" stop="20260521090500 +0200">
+    <title lang="fr">Chamber music: Sissoko &amp; Segal</title>
+    <desc lang="fr">Ce concert montre une interaction brillante entre les deux musiciens et présente un mélange de jazz, de musique malienne et de musique classique.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521090500 +0200" stop="20260521093600 +0200">
+    <title lang="fr">Ella Fitzgerald - Antibes Jazz Festival</title>
+    <desc lang="fr">L'édition 1964 du Festival de jazz d'Antibes à Juan-les-Pins a marqué le retour de celle que l'on surnomme " the First Lady of Song ", Ella Fitzgerald. Aux côtés de Roy Eldridge à la trompette, de Tommy Flanagan au piano, de Bill Yancey à la contrebasse et de Gus Johnson à la batterie, l'increvable chanteuse interprète des standards du répertoire jazz américain tels que " Them There Eyes ", " The Lady Is a Tramp ", " Summertime ", " I'm Putting All My Eggs in One Basket ", " St. Louis Blues " et " Perdido ", ainsi que quelques pièces inattendues, comme " Cutie Pants " de Steve Allen et Ray Brown. Il n'est pas surprenant que ce concert légendaire en direct de Juan-les-Pins ait été enregistré sur disque!</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521093600 +0200" stop="20260521100000 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521100000 +0200" stop="20260521112000 +0200">
+    <title lang="fr">Guitarlegend Wes Montgomery in the Netherlands</title>
+    <desc lang="fr">Wes Montgomery: Live in '65 célèbre le talent de l'un des guitaristes les plus uniques et influents de l'histoire de la musique. Ces concerts joliment filmés au printemps 1965 mettent en scène Montgomery dans un cadre intimiste en studio, dirigeant trois groupes de musiciens différents dans l'interprétation de ses pièces les plus connues, dont " Four on Six ", " Jingles " et " West Coast Blues ". Ces images d'archives candides, qui présentent les musiciens en répétition, leurs conversations entre les pièces et des plans serrés de leur jeu, soulignent le vocabulaire musical extraordinaire et la technique non conventionnelle de Montgomery.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521112000 +0200" stop="20260521123400 +0200">
+    <title lang="fr">Tribute to Django Reinhardt: Rosenberg meets Beets</title>
+    <desc lang="fr">Regroupant des compositions classiques de Django Reinhardt, des mélodies de jazz ainsi que des pièces incontournables composées par Stochelo Rosenberg, découvrez une cohésion impressionnante conjuguée à des rythmes époustouflants.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521123400 +0200" stop="20260521132700 +0200">
+    <title lang="fr">Jazz à Vienne</title>
+    <desc lang="fr">Jazz à Vienne est l'un des festivals de jazz les plus prestigieux au monde. Depuis 1981, il attire un mélange de légendes du jazz et de nouveaux venus passionnants, dont plusieurs reviennent régulièrement. Chaque année, le Théâtre Antique accueille des vedettes internationales exceptionnelles pour impressionner et inspirer leur public. En 2019, le guitariste français Paul Jarret se produit avec le célèbre batteur new-yorkais Jim Black à Jazz à Vienne. Ensemble, ils présentent Ghost Songs, qui mêle rock et jazz. Le saxophoniste Julien Pontvianne et le pianiste Jozef Dumoulin participent également au concert.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521132700 +0200" stop="20260521140200 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521140200 +0200" stop="20260521143700 +0200">
+    <title lang="fr">Charles Mingus And Eric Dolphy live in Liège</title>
+    <desc lang="fr">Charles Mingus affiche un concert exceptionnel donnés en avril 1965, durant lesquel Mingus est accompagné par ses sidemen les plus célèbres : Jaki Byard (piano), Dannie Richmond (batterie), Johnny Coles (trompette), Clifford Jordan (saxophone ténor) et le grand Eric Dolphy (saxophone alto, flûte traversière et clarinette basse). Enregistré en l'espace de huit jours, moins que trois mois avant la mort de Dolphy, les trois concerts mettent en valeur la direction visionnaire de Mingus et la profondeur et diversité incroyables de son groupe, avec des performances et arrangements uniques de morceaux classiques comme "So Long Eric" et le révolutionnaire 'Meditations On Integration'.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521143700 +0200" stop="20260521151500 +0200">
+    <title lang="fr">Freddie Hubbard Quintet, Bruxelles, 1980</title>
+    <desc lang="fr">Au moment de l'enregistrement de ce concert au Brussels Jazz Club, à l'été 1980, le trompettiste Freddie Hubbard jouissant déjà d'une réputation enviable. Dans les années 1960, Hubbard est devenue une figure de proue du mouvement hard bop, tout en s'intéressant à l'avant-garde aux côtés de John Coltrane, Eric Dolphy et plusieurs autres. Dans les années 70, il a élargi sa palette musicale en explorant notamment les instruments électriques et les arrangements orchestraux. Dans ce concert filmé à Bruxelles, Hubbard fait étalage de toute l'expérience qu'il a accumulée en compagnie de David Schnitter (saxophone ténor), Billy Childs (clavier), Larry Klein (basse) et Sinclair Lott (batterie). Le quintette passe habilement des instruments acoustiques aux instruments électriques, tandis qu'Hubbard divertit la foule avec ses bouffonneries.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521151500 +0200" stop="20260521160300 +0200">
+    <title lang="fr">Dee Dee Bridgewater : Motherland</title>
+    <desc lang="fr">La chanteuse Dee Dee Bridgewater retourne aux sources de la musique mandingue, au Mali, et réfléchit aux différentes connexions qui existent entre cette tradition et le jazz.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521160300 +0200" stop="20260521170600 +0200">
+    <title lang="fr">MPB Sessions</title>
+    <desc lang="fr">Thalma de Freitas est une auteure-compositrice-interprète et actrice brésilienne native de Rio de Janeiro. Fille du réputé pianiste Laércio de Freitas, elle propose une fusion captivante de MPB, de jazz et d'influences afro-brésiliennes.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521170600 +0200" stop="20260521182000 +0200">
+    <title lang="fr">STUFF. Live at BIRD Rotterdam</title>
+    <desc lang="fr">Cet épisode présente STUFF, un groupe belge rempli d'énergie inlassable. Le groupe pourrait être considéré comme un groupe de jazz avant-gardiste qui joue un mélange de funk, de hip-hop et d'électro.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521182000 +0200" stop="20260521191500 +0200">
+    <title lang="fr">Anne Chris: Just Kissed the Sun</title>
+    <desc lang="fr">Qu'arrive-t-il lorsque deux musiciens sont " emprisonnés " sur un navire de croisière pendant une semaine? Un album voit le jour. Enfin, c'est ce qui s'est produit quand Anne Chris et le pianiste Daan Herweg se sont trouvés dans le même voyage de croisière. Après avoir passé une semaine à offrir du divertissement musical aux passagers, les deux sont partis en studio ensemble. L'année suivante, Anne Chris lançait son nouvel album Just Kissed the Sun. La chanteuse néerlandaise présente son troisième disque au North Sea Jazz Club, avec l'artiste invité Bas van der Wal à la guitare. En plus du soleil, les musiques de Robert Glasper, Gretchen Parlato, John Mayer, Esperanza Spalding, Jill Scott et Michael Jackson semblent avoir servi d'inspiration à cet album joyeux.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521191500 +0200" stop="20260521192300 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Des vidéoclips, des extraits de concert et des entrevues célébrant le jazz depuis les quatre coins du monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521192300 +0200" stop="20260521195200 +0200">
+    <title lang="fr">Dragon</title>
+    <desc lang="fr">Le pianiste américain Chick Corea se produit en compagnie du guitariste Frank Gambale, du saxophoniste Eric Marienthal, du bassiste John Patitucci et du batteur Dave Weckl dans le cadre de l'édition 1987 du festival Münchner Klaviersommer.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521195200 +0200" stop="20260521200000 +0200">
+    <title lang="fr">Musical Genocide</title>
+    <desc lang="fr">Contrairement à plusieurs de ses jazzmen contemporains, le chanteur Gregory Porter transcende l'univers du jazz. Après avoir subi une blessure à l'épaule, cet ancien footballeur américain s'est tourné vers le chant jazz et a été découvert dans un club californien par le pianiste, saxophoniste et compositeur Kamau Kenyatta. Porter a prêté sa voix à plusieurs chœurs gospel et à diverses comédies musicales célébrées d'un bout à l'autre du pays avant de produire ses propres compositions. Depuis, Porter jouit d'une ascension phénoménale. Avec son baryton étincelant, il plonge dans les paroles avec une aisance remarquable, sculpte doucement la mélodie en de nouvelles formes et fait danser le rythme au-delà de la barre de mesure. Cette performance filmée à l'Olympia met en valeur toute l'étendue du talent de Porter.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521200000 +0200" stop="20260521203000 +0200">
+    <title lang="fr">Seine Sessions</title>
+    <desc lang="fr">Intitulé " Free &amp; Afro Jazz ", cet épisode des Seine Sessions animé par Eddy King présente des performances uniques, et des entretiens avec Fantazio, Eddy Lopez, Banoit Savard et plusieurs autres.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521203000 +0200" stop="20260521204200 +0200">
+    <title lang="fr">DJAZZ Portrait</title>
+    <desc lang="fr">Ces portraits d'artistes, de concerts et de festivals vous donnent une bonne impression du monde du jazz. Les artistes de jazz connus et moins connus vous donneront une nouvelle vue sur leur vie. DJAZZ.tv leur a demandé pourquoi ils ont écrit telle ou telle chanson, quel fut le premier enregistrement qu'ils ont acheté et quel est leur souvenir musical le plus précieux. Les portraits des festivals sont de superbes reportages filmés lors des festivals et des concerts de jazz les plus particuliers. Ils feront revivre la mémoire du festival, de la musique et de l'expérience.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521204200 +0200" stop="20260521204700 +0200">
+    <title lang="fr">DJAZZ Portrait</title>
+    <desc lang="fr">Ces portraits d'artistes, de concerts et de festivals vous donnent une bonne impression du monde du jazz. Les artistes de jazz connus et moins connus vous donneront une nouvelle vue sur leur vie. DJAZZ.tv leur a demandé pourquoi ils ont écrit telle ou telle chanson, quel fut le premier enregistrement qu'ils ont acheté et quel est leur souvenir musical le plus précieux. Les portraits des festivals sont de superbes reportages filmés lors des festivals et des concerts de jazz les plus particuliers. Ils feront revivre la mémoire du festival, de la musique et de l'expérience.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521204700 +0200" stop="20260521210000 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521210000 +0200" stop="20260521215200 +0200">
+    <title lang="fr">Tivoli Utrecht : Sven Hammond Soul</title>
+    <desc lang="fr">Leur musique sonne comme une bande originale d'un film américain des années 1970, mais Sven Hammond Soul est en fait un groupe néerlandais. Le leader du groupe est Sven Figee, dotée d'une attaque magnifique sur son instrument. Par l'intermédiaire d'un concours à une station de radio nationale néerlandaise, Sven Hammond Soul a choisi un nouveau membre : la chanteuse Jenny Lane. Cet enregistrement présente leur concert à Tivoli en 2012.</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521215200 +0200" stop="20260521225900 +0200">
+    <title lang="fr">Misha Enzovoort</title>
+    <desc lang="fr">Misha Mengelberg, l'oubli a commencé son œuvre. Il attend un taxi qu'il n'a pas commandé pour aller à un concert qu'il n'aura pas lieu. Dans ce film, le documentariste Cherry Duyns suit le pianiste Misha Mengelberg lors de sa dernière tournée internationale avec son ensemble ICP (Instant Composers Pool).</desc>
+    <category lang="fr">Documentaire / Documentaire musique</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521225900 +0200" stop="20260521232800 +0200">
+    <title lang="fr">Festival Vue sur la Relève: SHPIK</title>
+    <desc lang="fr">La formation jazz montréalaise SHPIK propose un son audacieux et impressionniste, inspiré du jazz, de la nature et du cinéma. Évoquant les grands espaces, la découverte de soi et le contraste entre l'immensément grand et l'infiniment petit, son premier album forme une aventure musicale complexe, où les esprits et la réflexion sont présents à chaque détour. Composé du pianiste et compositeur Arnaud Spick-Saucier, du bassiste Étienne Dextraze, du batteur Philippe Lussier-Baillargeon, et du saxophoniste et flûtiste Alex Dodier, SHPIK s'est produit dans le cadre de plusieurs événements jazz de renom, dont le Festival international de jazz de Montréal. Avec ses pédales d'effets et ses envolées poétiques, SHPIK insuffle une bouffée d'air frais à l'univers du jazz.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="StingrayDjazz.fr" start="20260521232800 +0200" stop="20260522000000 +0200">
+    <title lang="fr">DJAZZ Clips</title>
+    <desc lang="fr">Une collection spÃ©ciale de clips englobant tous les genres de jazz, enregistrÃ©s lors de concerts et festivals extraordinaires, avec les meilleurs musiciens de jazz.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="SunuYeuf.af" start="20260521000000 +0200" stop="20260521003000 +0200">
     <title lang="fr">Capitaine</title>
@@ -34450,6 +34829,30 @@
     <desc lang="fr">Zou et ses amis doivent disputer un match de basket important. Pour être qualifiée, chaque équipe doit avoir une mascotte. Mais suite à plusieurs mésaventures, la mascotte de Zou est inutilisable...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="oqee.1065" start="20260521070000 +0200" stop="20260521100000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260521100000 +0200" stop="20260521130000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260521130000 +0200" stop="20260521160000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260521160000 +0200" stop="20260521190000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260521190000 +0200" stop="20260521220000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260521220000 +0200" stop="20260522010000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
   <programme channel="oqee.1066" start="20260521000000 +0200" stop="20260521060000 +0200">
     <title lang="fr">Fix &amp; Foxi</title>
     <category lang="fr">Divers / Divertissement</category>
@@ -35241,6 +35644,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521022100 +0200" stop="20260521022400 +0200">
     <title lang="fr">Miyu et Litto</title>
+    <desc lang="fr">Nous allons vous apprendre à reconnaître les couleurs et nous allons jouer les jeux formidables.</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521022700 +0200" stop="20260521022900 +0200">
@@ -35255,6 +35659,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521023300 +0200" stop="20260521023600 +0200">
     <title lang="fr">Au musée</title>
+    <desc lang="fr">Où se cachent les animaux des tableaux connus du musée ?</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521023600 +0200" stop="20260521023900 +0200">
@@ -35309,6 +35714,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521030300 +0200" stop="20260521030500 +0200">
     <title lang="fr">Au musée</title>
+    <desc lang="fr">Où se cachent les animaux des tableaux connus du musée ?</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521030500 +0200" stop="20260521030800 +0200">
@@ -35578,6 +35984,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521053900 +0200" stop="20260521054200 +0200">
     <title lang="fr">Au musée</title>
+    <desc lang="fr">Où se cachent les animaux des tableaux connus du musée ?</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521054200 +0200" stop="20260521054500 +0200">
@@ -35587,6 +35994,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521054500 +0200" stop="20260521054800 +0200">
     <title lang="fr">Miyu et Litto</title>
+    <desc lang="fr">Nous allons vous apprendre à reconnaître les couleurs et nous allons jouer les jeux formidables.</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521054800 +0200" stop="20260521055000 +0200">
@@ -37528,6 +37936,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521234500 +0200" stop="20260521234800 +0200">
     <title lang="fr">Miyu et Litto</title>
+    <desc lang="fr">Nous allons vous apprendre à reconnaître les couleurs et nous allons jouer les jeux formidables.</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521234800 +0200" stop="20260521235000 +0200">
@@ -37545,6 +37954,7 @@
   </programme>
   <programme channel="oqee.1127" start="20260521235500 +0200" stop="20260521235900 +0200">
     <title lang="fr">Miyu et Litto</title>
+    <desc lang="fr">Nous allons vous apprendre à reconnaître les couleurs et nous allons jouer les jeux formidables.</desc>
     <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.1127" start="20260521235900 +0200" stop="20260522000200 +0200">
@@ -37688,6 +38098,126 @@
     <title lang="fr">Room Full Of Mirrors</title>
     <desc lang="fr">Just imagine: a private hotel suite for you and your lover to film yourself while having sex, without even noticing the cameras. Brandi Love has created the perfect room, and she has found the perfect incentive for couples to come over and show their best tricks. But as the project develops, she sees new opportunities...</desc>
     <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521000000 +0200" stop="20260521010000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521010000 +0200" stop="20260521020000 +0200">
+    <title lang="fr">Nite Sides</title>
+    <desc lang="fr">Mix de clipes convencionais e clipes restritos (playlist com clipes proibidos)</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521020000 +0200" stop="20260521030000 +0200">
+    <title lang="fr">Nite Sides</title>
+    <desc lang="fr">Mix de clipes convencionais e clipes restritos (playlist com clipes proibidos)</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521030000 +0200" stop="20260521040000 +0200">
+    <title lang="fr">Nite Sides</title>
+    <desc lang="fr">Mix de clipes convencionais e clipes restritos (playlist com clipes proibidos)</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521040000 +0200" stop="20260521050000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521050000 +0200" stop="20260521060000 +0200">
+    <title lang="fr">Morning Spin</title>
+    <desc lang="fr">Playlist de clipes simples, claros e de energia positiva.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521060000 +0200" stop="20260521070000 +0200">
+    <title lang="fr">Morning Spin</title>
+    <desc lang="fr">Playlist de clipes simples, claros e de energia positiva.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521070000 +0200" stop="20260521080000 +0200">
+    <title lang="fr">Morning Spin</title>
+    <desc lang="fr">Playlist de clipes simples, claros e de energia positiva.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521080000 +0200" stop="20260521090000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521090000 +0200" stop="20260521100000 +0200">
+    <title lang="fr">Artist Breakout</title>
+    <desc lang="fr">Música popular, mais hits e menos rock, indie e electro.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521100000 +0200" stop="20260521110000 +0200">
+    <title lang="fr">Fresh Out the Box</title>
+    <desc lang="fr">Mix de clipes ao vivo</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521110000 +0200" stop="20260521120000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521120000 +0200" stop="20260521130000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521130000 +0200" stop="20260521140000 +0200">
+    <title lang="fr">Electric Jam</title>
+    <desc lang="fr">Mix de clipes de música eletrônica</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521140000 +0200" stop="20260521150000 +0200">
+    <title lang="fr">Street Buzz</title>
+    <desc lang="fr">Playlist de clipes de rap e hip hop</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521150000 +0200" stop="20260521160000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521160000 +0200" stop="20260521170000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521170000 +0200" stop="20260521180000 +0200">
+    <title lang="fr">Artist Breakout</title>
+    <desc lang="fr">Música popular, mais hits e menos rock, indie e electro.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521180000 +0200" stop="20260521190000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521190000 +0200" stop="20260521200000 +0200">
+    <title lang="fr">Fresh Out the Box</title>
+    <desc lang="fr">Mix de clipes ao vivo</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521200000 +0200" stop="20260521210000 +0200">
+    <title lang="fr">DJ Mixes</title>
+    <desc lang="fr">Sets de mixes de DJs executadas ao vivo em eventos.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521210000 +0200" stop="20260521220000 +0200">
+    <title lang="fr">Bounce &amp; Fun</title>
+    <desc lang="fr">Pura diversão, somente clipes pop e dance dedicados à diversão.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521220000 +0200" stop="20260521230000 +0200">
+    <title lang="fr">Flow</title>
+    <desc lang="fr">Mix de músicas simples e lentas, baladas por exemplo.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1132" start="20260521230000 +0200" stop="20260522000000 +0200">
+    <title lang="fr">Ultra Mix</title>
+    <desc lang="fr">Apresentação dos estílos mais frescos, durante o dia.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="oqee.1133" start="20260521030000 +0200" stop="20260521045000 +0200">
     <title lang="fr">Enfusion - S32E37</title>
@@ -46235,6 +46765,101 @@
     <desc lang="fr">Doménica Montero est une femme d'affaires respectée de Puebla, connue pour son engagement auprès des plus démunis. Orpheline depuis l'âge de sept ans, elle a été élevée par sa tante Pilar aux côtés de sa cousine Kiara, une jeune femme envieuse et manipulatrice qui, sous couvert d'affection, complote en secret contre elle. Doménica tombe amoureuse de Max Languer, un séduisant entrepreneur de la restauration qui la convainc de l'épouser. Mais Max, de mèche avec Kiara — qui est en réalité sa maîtresse — n'a qu'un objectif : s'emparer de sa fortune. Le jour du mariage, Max l'abandonne à l'autel. Kiara orchestre alors une vaste campagne médiatique qui tourne Doménica en ridicule et la surnomme " La Abandonada " (" L'Abandonnée "). Humiliée et trahie, Doménica fuit Puebla.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.439" start="20260521052500 +0200" stop="20260521055500 +0200">
+    <title lang="fr">México de mil sabores</title>
+    <desc lang="fr">En este espacio, el reconocido Chef Jesús Gibaja elabora recetas originales con las que une las tradiciones culinarias de México.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521055500 +0200" stop="20260521072000 +0200">
+    <title lang="fr">Destilando amor</title>
+    <desc lang="fr">Gaviota, una sensual y noble jornalera, recorre México para trabajar las cosechas con su madre, Clarita. Como cada año, trabaja en el poblado de Tequila en la hacienda de Los Montalvo, una reconocida familia en la producción de tequila. La muerte de Amador Montalvo hace que los primos Rodrigo y Aarón regresen de Londres para asistir a su entierro. Es entonces cuando surge la pasión entre Gaviota y Rodrigo, un amor que producirá un giro en sus vidas. Rodrigo vuelve a Londres para continuar con sus estudios, pero promete a Gaviota volver en el plazo de un año. El amor que nace entre ambos, impulsa a Gaviota a viajar a Europa en busca de Rodrigo, pero la vida en este continente no será fácil para la inocente jornalera.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521072000 +0200" stop="20260521075000 +0200">
+    <title lang="fr">En punto con Enrique Acevedo</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521075000 +0200" stop="20260521082000 +0200">
+    <title lang="fr">El príncipe del barrio - S02E06</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521082000 +0200" stop="20260521085000 +0200">
+    <title lang="fr">México de mil sabores</title>
+    <desc lang="fr">En este espacio, el reconocido Chef Jesús Gibaja elabora recetas originales con las que une las tradiciones culinarias de México.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521085000 +0200" stop="20260521104000 +0200">
+    <title lang="fr">Como dice el dicho</title>
+    <desc lang="fr">La serie recrea historias y situaciones que se asemejan a refranes comunes en la cultura pop. Se dramatiza una historia interesante y conmovedora que representa un refrán específico elegido para cada episodio.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521104000 +0200" stop="20260521112000 +0200">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521112000 +0200" stop="20260521122000 +0200">
+    <title lang="fr">Doménica Montero</title>
+    <desc lang="fr">Doménica Montero est une femme d'affaires respectée de Puebla, connue pour son engagement auprès des plus démunis. Orpheline depuis l'âge de sept ans, elle a été élevée par sa tante Pilar aux côtés de sa cousine Kiara, une jeune femme envieuse et manipulatrice qui, sous couvert d'affection, complote en secret contre elle. Doménica tombe amoureuse de Max Languer, un séduisant entrepreneur de la restauration qui la convainc de l'épouser. Mais Max, de mèche avec Kiara — qui est en réalité sa maîtresse — n'a qu'un objectif : s'emparer de sa fortune. Le jour du mariage, Max l'abandonne à l'autel. Kiara orchestre alors une vaste campagne médiatique qui tourne Doménica en ridicule et la surnomme " La Abandonada " (" L'Abandonnée "). Humiliée et trahie, Doménica fuit Puebla.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521122000 +0200" stop="20260521131000 +0200">
+    <title lang="fr">Corazón de oro</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521131000 +0200" stop="20260521135000 +0200">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521135000 +0200" stop="20260521145000 +0200">
+    <title lang="fr">Las noticias, con Danielle Dithurbide</title>
+    <desc lang="fr">Informatiu comunitat valenciana.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521145000 +0200" stop="20260521170000 +0200">
+    <title lang="fr">Despierta con Loret</title>
+    <desc lang="fr">En Despierta invitamos a debatir a los que piensan distinto y entrevistamos a los protagonistas de la noticia al tiempo que ofrecemos investigaciones y análisis sobre las noticias más importantes para el acontecer nacional e internacional.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521170000 +0200" stop="20260521185000 +0200">
+    <title lang="fr">El Chavo del Ocho</title>
+    <desc lang="fr">El Chavo es un niño pobre de ocho años, que no tiene padres y que vive en un barril en la vecindad. Sus amigos son Quico y la Chilindrina; juntos juegan y cometen divertidas travesuras por el barrio, recibiendo las regañinas de los mayores. "El Chavo del Ocho" es una creación de Roberto Gómez Bolaños, quien da vida él mismo a su personaje. A partir de una pieza humorística de su programa "Chespirito", titulado "El Chavo del Ocho", decide crear en 1973 una serie con el mismo nombre. Este nuevo programa tiene gran éxito, ya que por primera vez se ve en México un espacio humorístico dirigido al público adulto pero interpretando a niños. La serie llega a límites de audiencia insospechados, viéndose en varios países de Latinoamérica, y el elenco hace giras por el interior de México y luego por algunos países de Centro y Sudamérica.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521185000 +0200" stop="20260521194000 +0200">
+    <title lang="fr">Una familia con suerte</title>
+    <desc lang="fr">Fernanda es una empresaria a la que diagnostican cáncer. Sintiéndose incapaz de hacer frente a la enfermedad, toma la determinación de suicidarse, pero el camionero Pancho se lo impide a último momento y le muestra, con su familia, los valores no materiales de la vida. Serie dramática con una trama coral cuyas historias se desarrollan alrededor de los miembros de una familia mexicana de escasos recursos. Los protagonistas son conocidos intérpretes procedentes de diversas telenovelas, entre los que destacan Arath de la Torre ("Zacatillo, un lugar en tu corazón") y Mayrín Villanueva ("Yo amo a Juan Querendón").</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521194000 +0200" stop="20260521203000 +0200">
+    <title lang="fr">Destilando amor</title>
+    <desc lang="fr">Gaviota, una sensual y noble jornalera, recorre México para trabajar las cosechas con su madre, Clarita. Como cada año, trabaja en el poblado de Tequila en la hacienda de Los Montalvo, una reconocida familia en la producción de tequila. La muerte de Amador Montalvo hace que los primos Rodrigo y Aarón regresen de Londres para asistir a su entierro. Es entonces cuando surge la pasión entre Gaviota y Rodrigo, un amor que producirá un giro en sus vidas. Rodrigo vuelve a Londres para continuar con sus estudios, pero promete a Gaviota volver en el plazo de un año. El amor que nace entre ambos, impulsa a Gaviota a viajar a Europa en busca de Rodrigo, pero la vida en este continente no será fácil para la inocente jornalera.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521203000 +0200" stop="20260521212000 +0200">
+    <title lang="fr">Como dice el dicho</title>
+    <desc lang="fr">La serie recrea historias y situaciones que se asemejan a refranes comunes en la cultura pop. Se dramatiza una historia interesante y conmovedora que representa un refrán específico elegido para cada episodio.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521212000 +0200" stop="20260521221000 +0200">
+    <title lang="fr">Corazón de oro</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521221000 +0200" stop="20260521230000 +0200">
+    <title lang="fr">La Rosa de Guadalupe</title>
+    <desc lang="fr">Serie que narra los milagros de la Virgen de Guadalupe a través de distintas historias de sesenta minutos en cada episodio. Además, transmite mensajes positivos, de esperanza y lucha ante los problemas con los que mucha gente se puede sentir identificada. En la basílica siempre hay fieles rezando pero también hay mucha gente que va a pedir un milagro y luego vuelven a agradecer la bendición, así la Virgen de Guadalupe se ha convertido en la virgen a la que los mejicanos acuden en casos difíciles. Esta telenovela surge de la necesidad de creer en los milagros, en los sueños y en las historias con finales felices. Pero no se trata de un programa religioso, sino que se trata de crear historias humanas ante la imagen de la adorada Virgen de Guadalupe.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521230000 +0200" stop="20260521235000 +0200">
+    <title lang="fr">Un Amor Compartido</title>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.439" start="20260521235000 +0200" stop="20260522004000 +0200">
+    <title lang="fr">Doménica Montero</title>
+    <desc lang="fr">Doménica Montero est une femme d'affaires respectée de Puebla, connue pour son engagement auprès des plus démunis. Orpheline depuis l'âge de sept ans, elle a été élevée par sa tante Pilar aux côtés de sa cousine Kiara, une jeune femme envieuse et manipulatrice qui, sous couvert d'affection, complote en secret contre elle. Doménica tombe amoureuse de Max Languer, un séduisant entrepreneur de la restauration qui la convainc de l'épouser. Mais Max, de mèche avec Kiara — qui est en réalité sa maîtresse — n'a qu'un objectif : s'emparer de sa fortune. Le jour du mariage, Max l'abandonne à l'autel. Kiara orchestre alors une vaste campagne médiatique qui tourne Doménica en ridicule et la surnomme " La Abandonada " (" L'Abandonnée "). Humiliée et trahie, Doménica fuit Puebla.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="oqee.445" start="20260521000000 +0200" stop="20260521013000 +0200">
     <title lang="fr">Sa Re Ga Ma Pa</title>
     <desc lang="fr">A season filled with a stellar panel, fresh voices, and powerful performances. Watch talented singers chase big dreams and create unforgettable musical moments.</desc>
@@ -47536,8 +48161,8 @@
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
   <programme channel="oqee.56" start="20260521021500 +0200" stop="20260521030000 +0200">
-    <title lang="fr">Porsche 911: Dentro un'auto da leggenda</title>
-    <desc lang="fr">Regia di H. Sedlak; DEU 2021 - La Porsche novecentoundici: l'auto sportiva di maggior successo al mondo. Il suo motore boxer nella parte posteriore e la forma classica la rendono inconfondibile. Come nessun altro veicolo, combina la sportivita' con la praticita' quotidiana. Un'auto da corsa con omologazione stradale. Da quando e' stata costruita la prima "911" nel 1963, una piccola vettura da corsa tedesca e' diventata un mito.</desc>
+    <title lang="fr">Legende auf vier Rädern - Porsche 911</title>
+    <desc lang="fr">Der 911er ist der Porsche schlechthin - und gilt als der Inbegriff eines Sportwagens. Seit fast 70 Jahren steht der "Elfer" für Sportlichkeit, Eleganz und Qualität. Die neueste Variante, der Porsche 992, ist in der Basisvariante mit knapp 400 PS ausgestattet und kostet fast eine Viertelmillion Euro. Rennsportlegende Hans-Joachim Stuck führt in der Reportage durch die Welt des vielleicht berühmtesten Sportwagens der Welt.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
   <programme channel="oqee.56" start="20260521030000 +0200" stop="20260521034500 +0200">
@@ -47553,6 +48178,11 @@
   <programme channel="oqee.56" start="20260521043500 +0200" stop="20260521051500 +0200">
     <title lang="fr">Marvellous Machines - S01E01</title>
     <desc lang="fr">Mit Hochdruck gegen Gummiabrieb: Ein gigantischer Staubsauger reinigt die Landebahnen am Flughafen vom gefährlichen Belag. Atomuhren, die alle 10 Millionen Jahre nur eine Sekunde abweichen. Eine Wunderwaffe gegen Schlaglöcher. Diese Maschinen sind die stillen Helden unserer Zeit, unverzichtbar, doch oft unbemerkt. In dieser Folge lüften wir das Geheimnis dieser unsichtbaren Wächter der Technikwelt.</desc>
+    <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+  </programme>
+  <programme channel="oqee.56" start="20260521051500 +0200" stop="20260521060000 +0200">
+    <title lang="fr">Marvellous Machines - S01E06</title>
+    <desc lang="fr">Teilchenbeschleuniger, Protonen-Kollision und Dunkle Materie. Der Große Hadronen-Speicherring im CERN, der Europäischen Organisation für Kernforschung, ist der Urkraft des Universums auf die Spur. Ein Auto, dass Wasserstoff tankt anstatt Benzin und ein zertifiziertes Elektroflugzeug, dass ohne CO2-Abdruck durch die Lüfte fliegt. Und Gezeitenturbinen, die unter Wasser die Kraft von Ebbe und Flut in Strom verwandeln. Die Grüne Revolution ist auf dem Vormarsch - auf leisen Sohlen, ganz pragmatisch.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
   <programme channel="oqee.56" start="20260521060000 +0200" stop="20260521062000 +0200">
@@ -50105,6 +50735,11 @@
     <title lang="fr">Savdhaan India - India Fights Back</title>
     <desc lang="fr">Savdhaan India: India Fights Back brings together all the best episodes of Savdhaan India, a show that investigates the most shocking crimes in India. Based on real life incidents, the show has an eerily authentic feel and focuses primarily on the victims, the victims' families and their long road to justice. The show is hosted by a number of the most well known figures in Indian television, including Tisca Chopra, Sushant Singh, Divya Dutta and Ashutosh Rana. Focussing on case where justice was served, there is no better place to get your fix of crime television.</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.693" start="20260521010500 +0200" stop="20260521041500 +0200">
+    <title lang="fr">Hungama</title>
+    <desc lang="fr">A millionaire businessman living in a village decides to move to the city with his wife. They soon get into a case of mistaken identity that result in comical situations.</desc>
+    <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="oqee.694" start="20260521000000 +0200" stop="20260521000400 +0200">
     <title lang="fr">Northern Ostrobothnia</title>
@@ -52783,6 +53418,109 @@
     <title lang="fr">The European Debrief</title>
     <desc lang="fr">Live headlines, breaking news, analysis and interviews from Europe's News Centre.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521010000 +0200" stop="20260521020000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521020000 +0200" stop="20260521024500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521024500 +0200" stop="20260521031500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521031500 +0200" stop="20260521041500 +0200">
+    <title lang="fr">Iubire ca în filme</title>
+    <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521041500 +0200" stop="20260521050000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521050000 +0200" stop="20260521093000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521093000 +0200" stop="20260521120000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521120000 +0200" stop="20260521130000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521130000 +0200" stop="20260521131500 +0200">
+    <title lang="fr">Teleshopping</title>
+    <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521131500 +0200" stop="20260521140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521140000 +0200" stop="20260521150000 +0200">
+    <title lang="fr">Apropo TV</title>
+    <desc lang="fr">"Apropo" este unul dintre cele mai folosite cuvinte din vocabularul românilor. Fie ca sunt în maşină, la serviciu, acasă, pe stradă sau pur şi simplu aleg un iaurt dintr-un supermarket, cu "apropo" îşi încep românii cele mai multe dintre discuţii. Tocmai de aceea, ProTV a născocit o emisiune care să se numească simplu Apropo TV, care să satisfacă cele mai multe dintre curiozităţile telespectatorilor şi să le dea câteva subiecte zdravene de vorbit cel puţin pentru câteva zile.</desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521150000 +0200" stop="20260521160000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521160000 +0200" stop="20260521170000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521170000 +0200" stop="20260521180000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521180000 +0200" stop="20260521193000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521193000 +0200" stop="20260521201500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521201500 +0200" stop="20260521211500 +0200">
+    <title lang="fr">Iubire ca în filme</title>
+    <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521211500 +0200" stop="20260521220000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521220000 +0200" stop="20260521223000 +0200">
+    <title lang="fr">Teleshopping</title>
+    <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521223000 +0200" stop="20260521231500 +0200">
+    <title lang="fr">România, te iubesc!</title>
+    <desc lang="fr">Paula Herlo, Alex Dima, Cosmin Savu, Paul Angelescu şi Rareş Năstase caută şi informează publicul din toată România despre adevăruri pe care mulţi le-ar dori ascunse: ce se întâmplă cu bogăţiile ţării, unde duce corupţia, starea precară a sistemului medical, efectele şi nivelul defrişărilor, modul în care sunt trataţi copiii din orfelinate şi multe altele. Reportajele lor sunt adevărate semnale de alarmă din România necosmetizată.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260521231500 +0200" stop="20260522010000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
   </programme>
   <programme channel="oqee.835" start="20260521000000 +0200" stop="20260521004300 +0200">
     <title lang="fr">RTL Nachtjournal - S18E95</title>
