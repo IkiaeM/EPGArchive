@@ -60,6 +60,10 @@
     <display-name>BBC NEWS</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/589/canal-ouah/CHN43FB/BBCNEWS_POURFB_myCANAL_640x480?=.png"/>
   </channel>
+  <channel id="BFMBusiness.fr">
+    <display-name>BFM Business</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~7eb91da112d351e5.png/480x480/quality/100/bfm-business.png"/>
+  </channel>
   <channel id="BFMGrandLittoral.fr">
     <display-name>BFM Grand Littoral</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/bfmgrandlittoral-100x100.png"/>
@@ -640,6 +644,10 @@
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
   </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
+  </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
@@ -724,6 +732,10 @@
     <display-name>Le Figaro TV</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1102/canal-ouah/CHN43FB/CHN43FB_1102_20241115-fDKx?=.png"/>
   </channel>
+  <channel id="VosgesTV.fr">
+    <display-name>Vosges tv</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~cd72a83bfe5b6ae7.png/480x480/quality/100/vosges-television.png"/>
+  </channel>
   <channel id="Vox.de">
     <display-name>VOX</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/Vox_color.png"/>
@@ -791,6 +803,10 @@
   <channel id="oqee.1036">
     <display-name>Global Africa Telesud</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3852/w256"/>
+  </channel>
+  <channel id="oqee.104">
+    <display-name>Daystar</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/811/w256"/>
   </channel>
   <channel id="oqee.1044">
     <display-name>Vixen TV</display-name>
@@ -919,6 +935,10 @@
   <channel id="oqee.1249">
     <display-name>A Haber</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3328/w256"/>
+  </channel>
+  <channel id="oqee.1255">
+    <display-name>EMCI TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3352/w256"/>
   </channel>
   <channel id="oqee.1275">
     <display-name>Novegasy</display-name>
@@ -4522,6 +4542,96 @@
     <title lang="fr">Newsnight</title>
     <desc lang="fr">Des interviews de personnalités du gouvernement et de l'opposition, de chefs d'entreprise et de syndicalistes, ainsi que des rapports analytiques qui vont au-delà des gros titres, permettent d'examiner en profondeur les principaux sujets politiques et économiques de la journée.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527000000 +0200" stop="20260527060000 +0200">
+    <title lang="fr">BFM Business</title>
+    <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527060000 +0200" stop="20260527083000 +0200">
+    <title lang="fr">Good Morning Business</title>
+    <desc lang="fr">Chaque jour, des entrepreneurs, des grands patrons, des fondateurs de start-up, des interviewés à l'antenne. Trois grandes interviews à suivre. A découvrir également, "La France qui bouge", un reportage en immersion dans une entreprise pour raconter son histoire et sa vie quotidienne.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527083000 +0200" stop="20260527093000 +0200">
+    <title lang="fr">Good Morning Market</title>
+    <desc lang="fr">Tous les jours à partir de 9h, Etienne Bracq fait vivre l'ouverture des marchés européens, les premières tendances, les premières analyses, les valeurs à surveiller. A suivre, la première heure de cotation avec des gérants, des économistes et des spécialistes des marchés.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527093000 +0200" stop="20260527103000 +0200">
+    <title lang="fr">Les experts</title>
+    <desc lang="fr">Raphaël Legendre et ses invités livrent chaque matin les clés de l'actualité économique et financière. Sans langue de bois et avec exigence, experts, économistes et chefs d'entreprise confrontent leurs points de vue pour un échange sans équivalent dans le paysage audiovisuel français.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527103000 +0200" stop="20260527110000 +0200">
+    <title lang="fr">BFM Entreprise</title>
+    <desc lang="fr">Présenté par Sandra Gandoin, ce rendez-vous donne la parole aux dirigeants pour tout comprendre du quotidien des entreprises et analyser leurs meilleurs leviers de performance. Un plongeon est fait dans le quotidien des entreprises, de leurs dirigeants et de leurs équipes.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527110000 +0200" stop="20260527120000 +0200">
+    <title lang="fr">Tout pour investir</title>
+    <desc lang="fr">Dès 11h, Tout pour investir, c'est une heure de conseils pour optimiser ses placements. Entouré d'économistes et de gestionnaires en patrimoine, Antoine Larigaudrie livre conseils et astuces pour gérer son capital et décrypter les tendances.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527120000 +0200" stop="20260527123000 +0200">
+    <title lang="fr">Les experts de l'immo</title>
+    <desc lang="fr">Tout savoir sur les grandes tendances du marché de l'immobilier en s'appuyant sur de précieux conseils délivrés par les meilleurs experts.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527123000 +0200" stop="20260527130000 +0200">
+    <title lang="fr">BFM Entreprise</title>
+    <desc lang="fr">Présenté par Sandra Gandoin, ce rendez-vous donne la parole aux dirigeants pour tout comprendre du quotidien des entreprises et analyser leurs meilleurs leviers de performance. Un plongeon est fait dans le quotidien des entreprises, de leurs dirigeants et de leurs équipes.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527130000 +0200" stop="20260527150000 +0200">
+    <title lang="fr">BFM Business</title>
+    <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527150000 +0200" stop="20260527153000 +0200">
+    <title lang="fr">BFM Crypto, le Club</title>
+    <desc lang="fr">Sandra Gandoin fait le point sur l'actualité web 3.0. Guillaume Sommerer accueille quant à lui les meilleurs experts du secteur.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527153000 +0200" stop="20260527180000 +0200">
+    <title lang="fr">BFM Bourse</title>
+    <desc lang="fr">De l'ouverture de la séance de Wall Street à la clôture de Paris, experts, gérants d'actifs, économistes, stratégistes, dirigeants d'entreprises cotées se mobilisent pour fournir une analyse précise et complète de l'actualité des marchés et pour et délivrer les meilleurs conseils en matière de placements.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527180000 +0200" stop="20260527190000 +0200">
+    <title lang="fr">La grande interview d'Hedwige Chevrillon</title>
+    <desc lang="fr">Sur le plateau d'Hedwige Chevrillon, patrons, décideurs et responsables politiques viennent décrypter les enjeux du moment.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527190000 +0200" stop="20260527193000 +0200">
+    <title lang="fr">Le 19h Eco</title>
+    <desc lang="fr">Tout ce qu'il faut retenir de la journée. Trente minutes d'actualité économique et financière, la tech, l'info en régions, mais aussi les rendez-vous à ne pas manquer et les clés pour comprendre l'actualité internationale.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527193000 +0200" stop="20260527210000 +0200">
+    <title lang="fr">Tech &amp; Co, la quotidienne</title>
+    <desc lang="fr">Innovations, les grandes levées de fonds, les prouesses technologiques, enjeux digitaux : chaque soir, tous les acteurs qui font vivre le monde de la tech se donnent rendez-vous sur le plateau de Tech &amp; Co pour décrypter et analyser les dernières actualités aux côtés de François Sorel.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527210000 +0200" stop="20260527223000 +0200">
+    <title lang="fr">BFM Business</title>
+    <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527223000 +0200" stop="20260527230000 +0200">
+    <title lang="fr">Pari ETI</title>
+    <desc lang="fr">Gros plan sur les entreprises de taille intermédiaire françaises, souvent méconnues du public, mais qui jouent un rôle essentiel dans l'emploi et la compétitivité industrielle.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527230000 +0200" stop="20260527233000 +0200">
+    <title lang="fr">La France a tout pour réussir</title>
+    <desc lang="fr">Levées de fonds, indicateurs macro-économiques, attractivité, politique RSE : Jérôme Tichit propose une sélection des réussites de l'économie française.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260527233000 +0200" stop="20260528003000 +0200">
+    <title lang="fr">C'est votre argent !</title>
+    <desc lang="fr">Acheter ou vendre ? Actions ou immobilier ? Marc Fiorentino donne toutes les clés pour investir. Spécialiste des marchés financiers, entouré chaque semaine des meilleurs experts, il détaille clairement les meilleurs placements et donne de précieux conseils. Sa marque de fabrique : éviter à tout prix la langue de bois.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMGrandLittoral.fr" start="20260527063000 +0200" stop="20260527093000 +0200">
     <title lang="fr">Bonjour le Nord</title>
@@ -15006,11 +15116,12 @@
   </programme>
   <programme channel="France3Aquitaine.fr" start="20260527101500 +0200" stop="20260527102800 +0200">
     <title lang="fr">Se réinventer en Nouvelle-Aquitaine</title>
-    <desc lang="fr">L'urgence climatique est planétaire, mais les solutions sont souvent d'abord locales. C'est la société dans son ensemble qui s'engage : citoyens, entrepreneurs, institutions.</desc>
+    <desc lang="fr">Les temps changent. L'urgence climatique est désormais présente au quotidien. Les modes d'action pour ralentir ce danger</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="France3Aquitaine.fr" start="20260527102800 +0200" stop="20260527105000 +0200">
     <title lang="fr">NoA sur terre</title>
+    <desc lang="fr">Dans cet épisode, NOA sur Terre, votre magazine de l'agriculture en Nouvelle-Aquitaine, part A la rencontre d'un jeune</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="France3Aquitaine.fr" start="20260527105000 +0200" stop="20260527112000 +0200">
@@ -17146,11 +17257,12 @@
   </programme>
   <programme channel="France3Limousin.fr" start="20260527101500 +0200" stop="20260527102800 +0200">
     <title lang="fr">Se réinventer en Nouvelle-Aquitaine</title>
-    <desc lang="fr">L'urgence climatique est planétaire, mais les solutions sont souvent d'abord locales. C'est la société dans son ensemble qui s'engage : citoyens, entrepreneurs, institutions.</desc>
+    <desc lang="fr">Les temps changent. L'urgence climatique est désormais présente au quotidien. Les modes d'action pour ralentir ce danger</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="France3Limousin.fr" start="20260527102800 +0200" stop="20260527105000 +0200">
     <title lang="fr">NoA sur terre</title>
+    <desc lang="fr">Dans cet épisode, NOA sur Terre, votre magazine de l'agriculture en Nouvelle-Aquitaine, part A la rencontre d'un jeune</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="France3Limousin.fr" start="20260527105000 +0200" stop="20260527112000 +0200">
@@ -24361,6 +24473,7 @@
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260527231500 +0200" stop="20260528000000 +0200">
     <title lang="fr">UIM Aquabike World Championship</title>
+    <desc lang="fr">Caution, danger of splashing! Since 1992, the Aquabike World Championship has been the most important racing series in the sport of jet skiing and one of the fastest competitions in water sports. On specially designed race courses or on the high seas, the participants engage in thrilling races in the ski and runabout categories and fascinate with all kinds of stunts on their more than 300 hp jet skis.</desc>
     <category lang="fr">Emission sportive / Sports nautiques</category>
   </programme>
   <programme channel="Museum.fr" start="20260527000000 +0200" stop="20260527002500 +0200">
@@ -29061,7 +29174,7 @@
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Sat1.de" start="20260527170000 +0200" stop="20260527173000 +0200">
-    <title lang="fr">Notruf</title>
+    <title lang="fr">Notruf - S02E342</title>
     <desc lang="fr">In Bayern können Sie samstags von 17:00-18:00 Uhr das SAT.1 Bayern-Magazin empfangen. In allen anderen Verbreitungsgebieten empfangen Sie "NOTRUF". // Violetter Urin, Alarmstufe Rot: Eine Patientin bricht mit merkwürdigen Symptomen zusammen und schwebt kurz darauf in Lebensgefahr. Die Retter müssen schnell herausfinden, woran sie leidet. Und das ist aufgrund ihrer selten vorkommenden Erkrankung gar nicht so einfach - bis ausgerechnet eine KI helfen kann.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -31137,6 +31250,11 @@
     <title lang="fr">Un dimanche à la campagne</title>
     <desc lang="fr">Chico, cofondateur des Gipsy Kings, la comédienne Claudia Tagbo, ainsi que l'animateur Roland Perez, dont la vie est racontée dans "Dieu, ma mère et Sylvie Vartan", se confient.</desc>
     <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="TV5MondeInfo.fr" start="20260527000000 +0200" stop="20260527003000 +0200">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
   </programme>
   <programme channel="TVPitchoun.fr" start="20260527000000 +0200" stop="20260527000300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
@@ -35351,6 +35469,132 @@
     <desc lang="fr">Le bulletin météo quotidien.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="VosgesTV.fr" start="20260527071500 +0200" stop="20260527080000 +0200">
+    <title lang="fr">Fais ton sport à la maison !</title>
+    <desc lang="fr">Les coachs Elsa Claude et Teric Teav invitent à faire une séance de sport sur différents thèmes et différentes parties du corps à chaque épisode.</desc>
+    <category lang="fr">Magazine sportif / Fitness</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527080000 +0200" stop="20260527090000 +0200">
+    <title lang="fr">Journal / Météo / Films à l'affiche</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527090000 +0200" stop="20260527120000 +0200">
+    <title lang="fr">Tennis de table : PRO Dames</title>
+    <desc lang="fr">Suivez les épreuves du Championnat de France PRO Dames de tennis de table. Le championnat féminin a fusionné la PRO A et la PRO B afin de donner le championnat PRO Dames.</desc>
+    <category lang="fr">Emission sportive / Tennis de table</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527120000 +0200" stop="20260527121000 +0200">
+    <title lang="fr">À feu doux</title>
+    <desc lang="fr">Magazine culinaire à la découverte des restaurants de la région lorraine.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527121000 +0200" stop="20260527123000 +0200">
+    <title lang="fr">Ça va chez vous ?</title>
+    <desc lang="fr">Ca va chez vous? est une émission anime par Livia Buchler. Elle part à la découverte des territoires que font les Vosges. </desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527123000 +0200" stop="20260527130000 +0200">
+    <title lang="fr">Côté sports</title>
+    <desc lang="fr">Proposé par Nicolas Galup, Côté Sports est le magazine de tous les sports. Chaque semaine, Nicolas Galup fait un focus sur une discipline en recevant un président de club ou d'une Association.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527130000 +0200" stop="20260527133000 +0200">
+    <title lang="fr">À feu doux</title>
+    <desc lang="fr">Magazine culinaire à la découverte des restaurants de la région lorraine.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527133000 +0200" stop="20260527140000 +0200">
+    <title lang="fr">Ça nous regarde</title>
+    <desc lang="fr">Ça nous regarde est une émissions de société qui s'intéresse a différents thèmes tel que la santé, la mobilité, éducation, l'artisanat, les médias, les loisirs...</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527140000 +0200" stop="20260527143000 +0200">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527143000 +0200" stop="20260527150000 +0200">
+    <title lang="fr">1, 2, 3 dansez</title>
+    <desc lang="fr">Chaque semaine, l'animateur Pierre-Yves Lombard et son chroniqueur programmateur Jérôme Richard reçoivent les meilleurs accordéonistes de France.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527150000 +0200" stop="20260527153000 +0200">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527153000 +0200" stop="20260527162000 +0200">
+    <title lang="fr">Concert</title>
+    <desc lang="fr">Chaque semaine, découvrez un concert live, enregistré lors d'un festival ou dans une salle prestigieuse française.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527162000 +0200" stop="20260527163000 +0200">
+    <title lang="fr">Films à l'affiche / Zap Culture</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527163000 +0200" stop="20260527170000 +0200">
+    <title lang="fr">Autolegend</title>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527170000 +0200" stop="20260527173000 +0200">
+    <title lang="fr">Sur ma route</title>
+    <desc lang="fr">Découvrir les pays de Lorraine à travers une personnalité issue de la région c'est le principe de la nouvelle émission " Sur Ma Route " présentée par Vianney Huguenot.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527173000 +0200" stop="20260527174500 +0200">
+    <title lang="fr">Ça va chez vous ?</title>
+    <desc lang="fr">Ca va chez vous? est une émission anime par Livia Buchler. Elle part à la découverte des territoires que font les Vosges. </desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527174500 +0200" stop="20260527180000 +0200">
+    <title lang="fr">Busin'Est / L'atelier du jardin</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527180000 +0200" stop="20260527190000 +0200">
+    <title lang="fr">Journal - Météo - Busin'Est - L'atelier du jardin</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527190000 +0200" stop="20260527193000 +0200">
+    <title lang="fr">La vie en Vosges</title>
+    <desc lang="fr">Nous sommes jeudi, c'est l'heure de votre émission La vie en Vosges.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527193000 +0200" stop="20260527200000 +0200">
+    <title lang="fr">Paroles d'élu(e)</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527200000 +0200" stop="20260527204500 +0200">
+    <title lang="fr">Journal - Météo - Busin'Est - L'atelier du jardin</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527204500 +0200" stop="20260527214500 +0200">
+    <title lang="fr">La case doc Grand Est</title>
+    <desc lang="fr">Le film est une immersion dans les ateliers des maîtres d'art français. Un voyage initiatique à travers les gestes et les dialogues incessants qui se tissent entre maîtres et élèves. En nous ouvrant la porte de leurs mondes, ils nous invitent dans les coulisses de ces métiers de passion sur lesquels le temps n'a pas de prise puisqu'ils s'adaptent en permanence.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527214500 +0200" stop="20260527220000 +0200">
+    <title lang="fr">Busin'Est / L'atelier du jardin</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527220000 +0200" stop="20260527223000 +0200">
+    <title lang="fr">La vie en Vosges</title>
+    <desc lang="fr">Nous sommes jeudi, c'est l'heure de votre émission La vie en Vosges.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527223000 +0200" stop="20260527230000 +0200">
+    <title lang="fr">Journal - Météo - Busin'Est - L'atelier du jardin</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527230000 +0200" stop="20260527233000 +0200">
+    <title lang="fr">Côté sports</title>
+    <desc lang="fr">Proposé par Nicolas Galup, Côté Sports est le magazine de tous les sports. Chaque semaine, Nicolas Galup fait un focus sur une discipline en recevant un président de club ou d'une Association.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="VosgesTV.fr" start="20260527233000 +0200" stop="20260528000000 +0200">
+    <title lang="fr">Ça nous regarde</title>
+    <desc lang="fr">Ça nous regarde est une émissions de société qui s'intéresse a différents thèmes tel que la santé, la mobilité, éducation, l'artisanat, les médias, les loisirs...</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
   <programme channel="Vox.de" start="20260527001500 +0200" stop="20260527003500 +0200">
     <title lang="fr">vox nachrichten - S42E98</title>
     <category lang="fr">Divers / Journal</category>
@@ -36887,6 +37131,226 @@
     <title lang="fr">La Bande à Carlyle - S02E164</title>
     <desc lang="fr">Du lundi au vendredi, Carlyle Gbei et son équipe de chroniqueurs décryptent l'actualité en Afrique et dans le monde.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527000000 +0200" stop="20260527003000 +0200">
+    <title lang="fr">Prophecy Live</title>
+    <desc lang="fr">Joseph Z's faith-filled journalism and Bible teaching for the Last Days will provide prophetic insights and predictions of global events.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527003000 +0200" stop="20260527010000 +0200">
+    <title lang="fr">James A. McMenis</title>
+    <desc lang="fr">From Word of God Ministries in Shreveport, LA, Pastor James A. McMenis teaches God's love through scripture to bring clarity to the Word of God.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527010000 +0200" stop="20260527013000 +0200">
+    <title lang="fr">Rick Renner</title>
+    <desc lang="fr">Today Rick explains how to have a proper heart posture when giving, including what to do when you feel pressure or guilt to give.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527013000 +0200" stop="20260527020000 +0200">
+    <title lang="fr">Believer's Walk of Faith</title>
+    <desc lang="fr">Pastor Bill Winston delivers the Word of God to strengthen Christian faith around the world. From the Living Word Christian Center in Forest Park, Illinois, and through his expressive services, Bill demonstrates the hope and encouragement we can find in God. As believer's in His Word, we must face our circumstances head on, knowing that our empowerment will carry us through our adversities.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527020000 +0200" stop="20260527023000 +0200">
+    <title lang="fr">PSB Prophetic Sound Broadcast with Shawn Baker</title>
+    <desc lang="fr">Join Pastor Shawn Baker as he challenges you to draw closer to God and equips you with tools to unlock the divine destiny God has already chosen for your life.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527023000 +0200" stop="20260527030000 +0200">
+    <title lang="fr">Turning Point</title>
+    <desc lang="fr">Discover the greatest verse in the greatest chapter in the Bible.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527030000 +0200" stop="20260527033000 +0200">
+    <title lang="fr">Healing Time with Dr. Doug Weiss</title>
+    <desc lang="fr">Dr. Doug shares how to release pain, rebuild trust, and walk in freedom through the power of forgiveness.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527033000 +0200" stop="20260527040000 +0200">
+    <title lang="fr">Paula Today</title>
+    <desc lang="fr">The renowned pastor, bestselling author, motivational speaker and spiritual advisor to President Donald Trump, Paula White-Cain, offers practical, Christian solutions to every day problems. Alongside her husband Jonathan Cain, Paula enlightens us with the love of our saviour and redeemer Jesus Christ, with her refreshing and forthright opinions.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527040000 +0200" stop="20260527043000 +0200">
+    <title lang="fr">Talk Truth</title>
+    <desc lang="fr">Candid conversations in a world of hidden agendas and manipulation that is posing a threat to our country's foundation hosted by Allan and Corri Hunsperger.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527043000 +0200" stop="20260527050000 +0200">
+    <title lang="fr">Breakthrough with Rod Parsley</title>
+    <desc lang="fr">Prominent Christian minister Rod Parsley, of the Pentecostal World Harvest Church in Columbus, Ohio, delivers powerful biblical messages.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527050000 +0200" stop="20260527053000 +0200">
+    <title lang="fr">Gospel Truth - Andrew Wommack</title>
+    <desc lang="fr">Andrew Wommack is an American conservative charismatic TV evangelist and faith healer. He emphasizes God's unconditional love and the balance between grace and faith in his program Gospel Truth. Start your day with a positive light every morning. He teaches that every Christian must receive the Baptism of the Holy Spirit and feel unconditional love and acceptance. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527053000 +0200" stop="20260527060000 +0200">
+    <title lang="fr">Joni Table Talk</title>
+    <desc lang="fr">Have you ever felt at the end of your rope? Lorenzo and Molly Sewell have, and God turned their darkest moments into a powerful ministry of hope and restoration</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527060000 +0200" stop="20260527070000 +0200">
+    <title lang="fr">Ministry Now</title>
+    <desc lang="fr">Today's world is a complicated place, but Marcus &amp; Joni Lamb do their best to ease the stresses of modern life by adopting a positive, faith-based approach. On this talk-show they welcome pastors, authors, doctors and more to discuss the power of God and the importance of his Word. With eye-opening stories and deep, personal experiences, the show is a powerful reminder of the hope and encouragement we can find through God.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527070000 +0200" stop="20260527073000 +0200">
+    <title lang="fr">The Jewish Jesus - Rabbi Schneider</title>
+    <desc lang="fr">The Jewish Jesus Rabbi Schneider is dedicated to revelation of Jesus' Jewish heritage and His fulfillment of messianic prophecy. The viewers can receive clear answers to the questions of the Old and New Testaments. International Evangelist Rabbi Kirt Schneider, a Jewish believer in Jesus and messenger of the Lord, delivers the Word of the Lord with the true passion of the Holy Spirit. He aims to strengthen people's faith and discover relationship with the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527073000 +0200" stop="20260527080000 +0200">
+    <title lang="fr">Faith Is the Victory</title>
+    <desc lang="fr">Mark and Trina Hankins bring the spirit of faith and the work of the Holy Spirit to every generation and to every nation.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527080000 +0200" stop="20260527083000 +0200">
+    <title lang="fr">Joel Osteen</title>
+    <desc lang="fr">Hear the messages of hope that best-selling author, evangelist and the senior pastor of Lakewood Church in Houston, Joel Osteen is delivering in each episode. Joel's positive and encouraging speeches will allow viewers to hear God's message of hope, love and victory and be inspired to do great things in life. Joel tries to teach Biblical principles in a simple way, always highlighting the power and importance of love and positive thinking.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527083000 +0200" stop="20260527090000 +0200">
+    <title lang="fr">Kenneth Copeland</title>
+    <desc lang="fr">Kenneth Copeland is an American televangelist and author associated with the Charismatic Movement. He runs the Tarrant County, Texas-based Kenneth Copeland Ministries, its motto is "Jesus is Lord". Over the years, Kenneth Copeland and his wife Gloria Copeland have delivered Bible-based teaching articles about faith, love, healing, prosperity, redemption to the viewers from all over the world and the news that Jesus Is Lord, no matter where you are.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527090000 +0200" stop="20260527093000 +0200">
+    <title lang="fr">Healing Time with Dr. Doug Weiss</title>
+    <desc lang="fr">Dr. Doug shares how to release pain, rebuild trust, and walk in freedom through the power of forgiveness.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527093000 +0200" stop="20260527100000 +0200">
+    <title lang="fr">Joni Table Talk</title>
+    <desc lang="fr">Have you ever felt at the end of your rope? Lorenzo and Molly Sewell have, and God turned their darkest moments into a powerful ministry of hope and restoration</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527100000 +0200" stop="20260527110000 +0200">
+    <title lang="fr">Ministry Now</title>
+    <desc lang="fr">Today's world is a complicated place, but Marcus &amp; Joni Lamb do their best to ease the stresses of modern life by adopting a positive, faith-based approach. On this talk-show they welcome pastors, authors, doctors and more to discuss the power of God and the importance of his Word. With eye-opening stories and deep, personal experiences, the show is a powerful reminder of the hope and encouragement we can find through God.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527110000 +0200" stop="20260527113000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527113000 +0200" stop="20260527120000 +0200">
+    <title lang="fr">Jesus the Healer with Nancy Dufresne</title>
+    <desc lang="fr">Host Nancy Dufresne shares messages addressing the topics of faith, healing, renewing the mind, following the Holy Spirit and a life in Christ.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527120000 +0200" stop="20260527123000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527123000 +0200" stop="20260527130000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527130000 +0200" stop="20260527133000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527133000 +0200" stop="20260527143000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527143000 +0200" stop="20260527150000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527150000 +0200" stop="20260527153000 +0200">
+    <title lang="fr">Kingdom Connection with Jentezen Franklin</title>
+    <desc lang="fr">Pastor Jentezen Franklin presents life-changing, sensible messages, including dramatic plays, musical acts and commanding storytelling with the Gospel.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527153000 +0200" stop="20260527160000 +0200">
+    <title lang="fr">Prophecy Live</title>
+    <desc lang="fr">Joseph Z's faith-filled journalism and Bible teaching for the Last Days will provide prophetic insights and predictions of global events.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527160000 +0200" stop="20260527163000 +0200">
+    <title lang="fr">Joni Table Talk</title>
+    <desc lang="fr">Kap Chatfield explains why getting God's design for provision right could make all the difference in leaving a godly legacy, from his book The Power to Prosper.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527163000 +0200" stop="20260527170000 +0200">
+    <title lang="fr">Joel Osteen</title>
+    <desc lang="fr">Hear the messages of hope that best-selling author, evangelist and the senior pastor of Lakewood Church in Houston, Joel Osteen is delivering in each episode. Joel's positive and encouraging speeches will allow viewers to hear God's message of hope, love and victory and be inspired to do great things in life. Joel tries to teach Biblical principles in a simple way, always highlighting the power and importance of love and positive thinking.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527170000 +0200" stop="20260527173000 +0200">
+    <title lang="fr">Life Today with James Robison</title>
+    <desc lang="fr">A televangelist serves as the founder and president of the Christian relief organization "Life Outreach International," as he and his wife invite viewers to join them as their guests discuss a broad range of topics that provide hope and help.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527173000 +0200" stop="20260527180000 +0200">
+    <title lang="fr">Gospel Truth - Andrew Wommack</title>
+    <desc lang="fr">Andrew Wommack is an American conservative charismatic TV evangelist and faith healer. He emphasizes God's unconditional love and the balance between grace and faith in his program Gospel Truth. Start your day with a positive light every morning. He teaches that every Christian must receive the Baptism of the Holy Spirit and feel unconditional love and acceptance. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527180000 +0200" stop="20260527183000 +0200">
+    <title lang="fr">Time With Denise Renner</title>
+    <desc lang="fr">In order to understand how Jesus' sacrifice is linked to personal restoration, it is critical to learn how much He went through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527183000 +0200" stop="20260527190000 +0200">
+    <title lang="fr">Jesus the Healer with Nancy Dufresne</title>
+    <desc lang="fr">Host Nancy Dufresne shares messages addressing the topics of faith, healing, renewing the mind, following the Holy Spirit and a life in Christ.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527190000 +0200" stop="20260527193000 +0200">
+    <title lang="fr">Kenneth Copeland</title>
+    <desc lang="fr">Kenneth Copeland is an American televangelist and author associated with the Charismatic Movement. He runs the Tarrant County, Texas-based Kenneth Copeland Ministries, its motto is "Jesus is Lord". Over the years, Kenneth Copeland and his wife Gloria Copeland have delivered Bible-based teaching articles about faith, love, healing, prosperity, redemption to the viewers from all over the world and the news that Jesus Is Lord, no matter where you are.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527193000 +0200" stop="20260527200000 +0200">
+    <title lang="fr">Creflo Dollar</title>
+    <desc lang="fr">Creflo Dollar is an American televangelist, rap artist and the founder of the non-denominational World Changers Church International based in Georgia. In his TV church service he offers faith as solution to all problems people encounter every day. Creflo encourages people to pursue a personal relationship with God, to find truth and empowerment no matter what they are going through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527200000 +0200" stop="20260527203000 +0200">
+    <title lang="fr">Jewish Voice with Jonathan Bernis</title>
+    <desc lang="fr">Messianic Rabbi Jonathon Bernis explores the Jewish origins of the Christian faith and discusses how prophecies in the bible merge with everyday life.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527203000 +0200" stop="20260527210000 +0200">
+    <title lang="fr">Rick Renner</title>
+    <desc lang="fr">When you give, do you want others to know? Watch today's program to find out what comes to people who give in order to get attention.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527210000 +0200" stop="20260527220000 +0200">
+    <title lang="fr">Ministry Now</title>
+    <desc lang="fr">Today's world is a complicated place, but Marcus &amp; Joni Lamb do their best to ease the stresses of modern life by adopting a positive, faith-based approach. On this talk-show they welcome pastors, authors, doctors and more to discuss the power of God and the importance of his Word. With eye-opening stories and deep, personal experiences, the show is a powerful reminder of the hope and encouragement we can find through God.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527220000 +0200" stop="20260527223000 +0200">
+    <title lang="fr">Gary Keesee Fixing the Money Thing</title>
+    <desc lang="fr">Gary Keesee, an entrepreneur, an author and a speaker, shares amazing strategies for balanced, successful living in the areas of faith, family and finances in the show Gary Keesee Fixing the Money Thing. With the help of humor, personal stories and principles from God's Word he brings the answers to the viewers on how to balance it all, and encourage people to take back control of both- their finances and their life. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527223000 +0200" stop="20260527230000 +0200">
+    <title lang="fr">Ted Shuttlesworth</title>
+    <desc lang="fr">Ted Shuttlesworth, President of Miracle Word Ministries, has been involved in full-time ministry since he was a toddler. His mission is to bring hope for the helpless and help for the hopeless by spreading the Word of God and pushing the Gospel forward by every means. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527230000 +0200" stop="20260527233000 +0200">
+    <title lang="fr">Travis Johnson</title>
+    <desc lang="fr">Live boldly for Jesus. Together, we're declaring truth, transforming Lives, and changing the world.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260527233000 +0200" stop="20260528000000 +0200">
+    <title lang="fr">Today with Marilyn and Sarah</title>
+    <desc lang="fr">Mother-and-daughter team, Marilyn Hickey and Sarah Bowling, present this religious chat show. They're joined on their couch by special guests and together they share lessons we can learn from the Bible as well as words of motivation, inspiration and faith. Both Marilyn and Sarah have spread their faith to audiences across the USA and internationally. They started co-hosting a show together in 1996.</desc>
+    <category lang="fr">Divers / Talk-show</category>
   </programme>
   <programme channel="oqee.1044" start="20260527060000 +0200" stop="20260527083700 +0200">
     <title lang="fr">Cake Vol.5</title>
@@ -45146,6 +45610,158 @@
     <desc lang="fr">A Haber ekranlarında yayınlanan Memleket Meselesi programı, Türkiye'nin iç ve dış politikasında öne çıkan konuları ve toplumsal meseleleri kapsamlı biçimde ele alıyor. Güncel gelişmeler, analizler ve uzman görüşleriyle gündemdeki başlıklar detaylandırılırken, olayların arka planı ve etkileri izleyiciye net bir perspektifle aktarılıyor. Program, kamuoyunda öne çıkan meseleleri derinlemesine tartışarak izleyiciye bilinçli ve kapsamlı bir değerlendirme sunuyor.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.1255" start="20260527000000 +0200" stop="20260527010000 +0200">
+    <title lang="fr">Église Compassion</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527010000 +0200" stop="20260527023000 +0200">
+    <title lang="fr">ICC culte : Impact Centre Chrétien, culte complet</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527023000 +0200" stop="20260527030000 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527030000 +0200" stop="20260527033000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527033000 +0200" stop="20260527040000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527040000 +0200" stop="20260527043000 +0200">
+    <title lang="fr">CCC : Chrétien Comme Christ</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527043000 +0200" stop="20260527050000 +0200">
+    <title lang="fr">Le Club 700</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527050000 +0200" stop="20260527053300 +0200">
+    <title lang="fr">JOYCE : vivre pleinement sa vie !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527053300 +0200" stop="20260527063000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527063000 +0200" stop="20260527070000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527070000 +0200" stop="20260527073000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527073000 +0200" stop="20260527080000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527080000 +0200" stop="20260527083000 +0200">
+    <title lang="fr">Teach!</title>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527083000 +0200" stop="20260527090000 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527090000 +0200" stop="20260527100000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527100000 +0200" stop="20260527103000 +0200">
+    <title lang="fr">Le Club 700</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527103000 +0200" stop="20260527110000 +0200">
+    <title lang="fr">John Bevere</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527110000 +0200" stop="20260527113000 +0200">
+    <title lang="fr">ELC - Église Le Centre</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527113000 +0200" stop="20260527120000 +0200">
+    <title lang="fr">DEElicious</title>
+    <category lang="fr">Magazine / Magazine Autre</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527120000 +0200" stop="20260527123000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527123000 +0200" stop="20260527130000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527130000 +0200" stop="20260527140000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527140000 +0200" stop="20260527143000 +0200">
+    <title lang="fr">Face à Face</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527143000 +0200" stop="20260527154500 +0200">
+    <title lang="fr">POC - La Porte Ouverte Chrétienne</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527154500 +0200" stop="20260527161500 +0200">
+    <title lang="fr">TLB - Toute la Bible</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527161500 +0200" stop="20260527170000 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527170000 +0200" stop="20260527180000 +0200">
+    <title lang="fr">Superbook 3D</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527180000 +0200" stop="20260527190000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527190000 +0200" stop="20260527193000 +0200">
+    <title lang="fr">Teach!</title>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527193000 +0200" stop="20260527200000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527200000 +0200" stop="20260527203000 +0200">
+    <title lang="fr">Face à Face</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527203000 +0200" stop="20260527210000 +0200">
+    <title lang="fr">DEElicious</title>
+    <category lang="fr">Magazine / Magazine Autre</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527210000 +0200" stop="20260527213000 +0200">
+    <title lang="fr">Témoignages</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527213000 +0200" stop="20260527220000 +0200">
+    <title lang="fr">John Bevere</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527220000 +0200" stop="20260527223000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527223000 +0200" stop="20260527230000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527230000 +0200" stop="20260527233000 +0200">
+    <title lang="fr">TLB - Toute la Bible</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260527233000 +0200" stop="20260528000000 +0200">
+    <title lang="fr">ELC - Église Le Centre</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
   <programme channel="oqee.1275" start="20260527001000 +0200" stop="20260527010000 +0200">
     <title lang="fr">Ilo Aina - S02E39</title>
     <desc lang="fr">Séparés à la naissance, les soeurs Ilo et Aina se retrouvent des années plus tard. Alors qu'Aina a grandi dans une famille aisée et bénéficié d'une bonne éducation, Ilo a dû lutter pour survivre dans les quartiers pauvres de Tana. Malgré leurs différences, elles découvrent qu'elles ont bien plus en commun qu'elles ne le pensaient, notamment le drame à l'origine de leur naissance. Toutes deux vont relever des défis émotionnels et sociaux pour se comprendre et s'accepter mutuellement.</desc>
@@ -50744,6 +51360,21 @@
     <desc lang="fr">Programa en el que se va a llevar a la valoración de un jurado popular temas como la vivienda, la sanidad, la alimentación, el feminismo,.</desc>
     <category lang="fr">Magazine sportif / Trial</category>
   </programme>
+  <programme channel="oqee.368" start="20260527000000 +0200" stop="20260527005500 +0200">
+    <title lang="fr">Porta a porta</title>
+    <desc lang="fr">Nel suo salotto Bruno Vespa invita politici, esperti e personaggi televisivi a discutere sulle tematiche politiche e di attualità. Gli ospiti si fanno introdurre attraverso una porta (da cui il nome del programma).</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.368" start="20260527005500 +0200" stop="20260527010000 +0200">
+    <title lang="fr">Che tempo fa</title>
+    <desc lang="fr">L'appuntamento con le previsioni del tempo gestito dall'Aeronautica militare.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.368" start="20260527010000 +0200" stop="20260527021500 +0200">
+    <title lang="fr">L'Eredità</title>
+    <desc lang="fr">Gioco a quiz in cui 6 concorrenti, più il Campione, si sfidano in 6 diversi giochi ad eliminazione fino ad arrivare alla ''Ghigliottina'' dove il finalista dovrà indovinare una parola attraverso 5 indizi in 1' di tempo. Conduce Flavio Insinna.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="oqee.368" start="20260527011500 +0200" stop="20260527012000 +0200">
     <title lang="fr">Che tempo fa</title>
     <desc lang="fr">L'appuntamento con le previsioni del tempo gestito dall'Aeronautica militare.</desc>
@@ -50759,10 +51390,20 @@
     <desc lang="fr">Nel suo salotto Bruno Vespa invita politici, esperti e personaggi televisivi a discutere sulle tematiche politiche e di attualità. Gli ospiti si fanno introdurre attraverso una porta (da cui il nome del programma).</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="oqee.368" start="20260527021500 +0200" stop="20260527041000 +0200">
+    <title lang="fr">Un passo dal cielo - S07E04</title>
+    <desc lang="fr">Garde forestier dans le pays Alpin de San Candido, Pietro vit au quotidien dans son travail sa passion pour la nature et la montagne, il est néanmoins hanté par le souvenir de sa femme, morte dans un accident d'escalade. Aidé de son collègue Roccia, il veille sur cet espace naturel en étroite collaboration avec le commissaire Nappi, nouvellement affecté à la région.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="oqee.368" start="20260527023000 +0200" stop="20260527042500 +0200">
     <title lang="fr">Un passo dal cielo - S06E08</title>
     <desc lang="fr">Garde forestier dans le pays Alpin de San Candido, Pietro vit au quotidien dans son travail sa passion pour la nature et la montagne, il est néanmoins hanté par le souvenir de sa femme, morte dans un accident d'escalade. Aidé de son collègue Roccia, il veille sur cet espace naturel en étroite collaboration avec le commissaire Nappi, nouvellement affecté à la région.</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.368" start="20260527041000 +0200" stop="20260527060000 +0200">
+    <title lang="fr">RAInews24</title>
+    <desc lang="fr">Il programma presenta le ultime notizie in tempo reale. News attualità e aggiornamenti su politica, cronaca, esteri, economia, sport e attualità.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.368" start="20260527042500 +0200" stop="20260527060000 +0200">
     <title lang="fr">RAInews24</title>
@@ -50829,6 +51470,11 @@
     <desc lang="fr">Gli ospiti Vip si raccontano con interviste, trattando anche i principali eventi dello spettacolo, attraverso aneddoti e anteprime. Non solo musica, cinema e tv, ma anche letteratura e attualità</desc>
     <category lang="fr">Divers / Talk-show</category>
   </programme>
+  <programme channel="oqee.368" start="20260527160000 +0200" stop="20260527163000 +0200">
+    <title lang="fr">La volta buona</title>
+    <desc lang="fr">Gli ospiti Vip si raccontano con interviste, trattando anche i principali eventi dello spettacolo, attraverso aneddoti e anteprime. Non solo musica, cinema e tv, ma anche letteratura e attualità</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
   <programme channel="oqee.368" start="20260527160000 +0200" stop="20260527161000 +0200">
     <title lang="fr">TG 1</title>
     <desc lang="fr">Il telegiornale di RAI 1. La testata principale della televisione di stato.</desc>
@@ -50838,6 +51484,16 @@
     <title lang="fr">Capri</title>
     <desc lang="fr">Una misteriosa lettera, un viaggio a Capri e un'inaspettata eredità. È solo l'inizio dell'avventura di Vittoria, che, tra verità nascoste e intrecci, conoscerà la vita della mitica isola e l'amore.</desc>
     <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.368" start="20260527163000 +0200" stop="20260527164500 +0200">
+    <title lang="fr">TG 1</title>
+    <desc lang="fr">Il telegiornale di RAI 1. La testata principale della televisione di stato.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.368" start="20260527164500 +0200" stop="20260527184000 +0200">
+    <title lang="fr">La vita in diretta</title>
+    <desc lang="fr">Rotocalco d'attualità, informazione e spettacolo.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="oqee.368" start="20260527165500 +0200" stop="20260527184000 +0200">
     <title lang="fr">La vita in diretta</title>
@@ -50865,9 +51521,9 @@
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.368" start="20260527213000 +0200" stop="20260527233000 +0200">
-    <title lang="fr">Programme non communiqué</title>
-    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
-    <category lang="fr">Divers / Programme indéterminé</category>
+    <title lang="fr">Commissaire Montalbano - S07E03</title>
+    <desc lang="fr">Un matin, Montalbano découvre, sur la plage, un cheval battu à mort. A peine a-t-il appelé pour faire enlever la carcasse que celle-ci a disparu, ne laissant qu'une fine trace sur le sable. Peu après apparaît l'envoûtante Rachel Esterman, qui vient signaler le vol de son pur-sang et d'un autre cheval appartenant aux écuries du signor Lo Duca, un homme respecté de l'île. Fazio pense que ces disparitions pourraient être liées à des courses clandestines organisées par la Mafia. Le commissaire se retrouve dans un univers où se croisent mafieux, parieurs et belles écuyères. Au même moment, la maison de Montalbano est l'objet d'effractions répétées et lui-même est menacé. Qui peut lui en vouloir ? Est-ce lié à un procès où il doit témoigner contre un encaisseur de la Mafia ? Est-ce lié aux courses clandestines ?</desc>
+    <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="oqee.368" start="20260527233000 +0200" stop="20260527235500 +0200">
     <title lang="fr">Porta a porta</title>
@@ -53038,7 +53694,7 @@
   </programme>
   <programme channel="oqee.484" start="20260527060000 +0200" stop="20260527080000 +0200">
     <title lang="fr">Yabancı Damat</title>
-    <desc lang="fr">Ege'nin samimi kasabalarında geçen hikâyede, Türk bir genç kız ile Yunan bir gencin sınırları aşan aşkı anlatılır. İki ailenin kültürel farklılıkları, geleneklere bağlılıkları ve zaman zaman komik çatışmaları, çiftin ilişkisini hem zorlar hem de güçlendirir. Dizide, dostluk, aile bağları, önyargılarla yüzleşme ve aşkın birleştirici gücü sıcak ve duygusal bir tonla ekrana yansır.</desc>
+    <desc lang="fr">Birbirine âşık olan iki genç, farklı kültürlerden gelen ailelerinin baskıları ve önyargılarıyla mücadele etmek zorunda kalır. Gelenekler, alışkanlıklar ve aile bağları arasında sıkışan çift, ilişkilerini korumaya çalışırken hem duygusal hem de eğlenceli olaylar yaşanır. Hikâye boyunca sevginin birleştirici gücü, anlayışın önemi ve farklı kültürlerin aslında birbirini tamamlayabileceği sıcak bir anlatımla izleyiciye sunulur.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.484" start="20260527080000 +0200" stop="20260527100000 +0200">
@@ -53203,6 +53859,36 @@
     <title lang="fr">Easy Talk</title>
     <desc lang="fr">In any event, you need to keep your sanity, even when you are overwhelmed by emotions. Our cartoon characters know this for sure, but will they be able to keep their cool?</desc>
     <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.49" start="20260527050000 +0200" stop="20260527050500 +0200">
+    <title lang="fr">Art Land</title>
+    <desc lang="fr">Making crafts with your child is a piece of cake! We will make beetles.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260527051000 +0200" stop="20260527051500 +0200">
+    <title lang="fr">Sunny Songs</title>
+    <desc lang="fr">Fun songs with simple vocabulary are a great way to learn English. Numerous repetitions and a lively rhythm will help girls and boys from 2 years old to memorize the words. But even older children will enjoy following the adventures of the characters in the animated clips of the project.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260527051500 +0200" stop="20260527052500 +0200">
+    <title lang="fr">Crafty Hands - S02E17</title>
+    <desc lang="fr">Little inventors will be able to enrich their vocabulary and make a toy for their very own collection. In this episode, we're going to make a plane.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260527052500 +0200" stop="20260527053500 +0200">
+    <title lang="fr">Okey-Dokey</title>
+    <desc lang="fr">In this episode, you will learn face parts in English. In today's episode, "My Face."</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260527053500 +0200" stop="20260527054000 +0200">
+    <title lang="fr">Once Upon A Time</title>
+    <desc lang="fr">THE ANTELOPE AND THE TREE - a story about an ungrateful antelope.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.49" start="20260527054000 +0200" stop="20260527054500 +0200">
+    <title lang="fr">La fête des mots</title>
+    <desc lang="fr">"Word Party" - a video dictionary for your kids. Today's program is "My Clothes". Your kid will love it!</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="oqee.49" start="20260527060000 +0200" stop="20260527060500 +0200">
     <title lang="fr">Life Around Kids</title>
@@ -58550,17 +59236,17 @@
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.835" start="20260527150000 +0200" stop="20260527155500 +0200">
-    <title lang="fr">Barbara Salesch - Das Strafgericht - S07E17</title>
+    <title lang="fr">Barbara Salesch - Das Strafgericht</title>
     <desc lang="fr">Zahnarzthelferin Flora (30) wird vorgeworfen, den Zahnarzt Dr. Karsten Reinhardt (39) mit einem manipulierten Bohrer unter Strom gesetzt zu haben, sodass er während der Behandlung eines Angstpatienten zusammenbrach. Ihr cholerischer Chef hatte ihr vorgeworfen, einen Rezeptblock gestohlen zu haben und ihr mit Anzeige und Kündigung gedroht. Doch der Zahnarzt hatte viele Feinde. Wer wollte dem Ekel eine Lektion erteilen?</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="oqee.835" start="20260527155500 +0200" stop="20260527170000 +0200">
-    <title lang="fr">Ulrich Wetzel - Das Strafgericht - S07E57</title>
+    <title lang="fr">Ulrich Wetzel - Das Strafgericht</title>
     <desc lang="fr">Die Ehe von Julian Hansmann und seiner Frau Miriam steht kurz vor dem Aus. Miriams Handysucht und die im Internet zur Schau gestellte angeblich perfekte Welt führten zu zahlreichen Streitereien. Als Miriam während des Kindergeburtstages von Tochter Celina alle Kinder unbeaufsichtigt ließ, um Content zu drehen, soll Julian endgültig ausgetickt sein und sie niedergeschlagen haben. Wurde der 43-Jährige durch Miriams Handysucht wirklich zum Täter?</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="oqee.835" start="20260527170000 +0200" stop="20260527173000 +0200">
-    <title lang="fr">Ulrich Wetzel - Das Jugendgericht - S02E61</title>
+    <title lang="fr">Ulrich Wetzel - Das Jugendgericht - S02E58</title>
     <desc lang="fr">Die 18-jährige Chiara Brugger soll bei ihrer Nachbarin und Ersatz-Mutter Birgit Falkner eingebrochen sein, um eine wertvolle Uhr von Birgits verstorbenem Mann zu stehlen und später zu verkaufen. Mangelnde finanzielle Rücklagen und ein nicht bezahlbarer Führerschein sollen die Angeklagte zur Tat geführt haben. Doch wollte Chiara ihrer Nachbarin wirklich die wichtigste Erinnerung an ihren Mann stehlen, um an das benötigte Geld zu kommen?</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>

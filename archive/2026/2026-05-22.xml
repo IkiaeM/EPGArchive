@@ -24,6 +24,9 @@
     <display-name>3SAT</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~2b50b1d715d30fc1.png/480x480/quality/100/3sat.png"/>
   </channel>
+  <channel id="459194">
+    <display-name>BBC2</display-name>
+  </channel>
   <channel id="4Plus.ch">
     <display-name>4Plus.ch</display-name>
   </channel>
@@ -2764,6 +2767,10 @@
     <display-name>Global Africa Telesud</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3852/w256"/>
   </channel>
+  <channel id="oqee.104">
+    <display-name>Daystar</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/811/w256"/>
+  </channel>
   <channel id="oqee.1044">
     <display-name>Vixen TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2501/w256"/>
@@ -2988,6 +2995,10 @@
     <display-name>Freedom</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3346/w256"/>
   </channel>
+  <channel id="oqee.1255">
+    <display-name>EMCI TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3352/w256"/>
+  </channel>
   <channel id="oqee.1275">
     <display-name>Novegasy</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3416/w256"/>
@@ -3015,6 +3026,10 @@
   <channel id="oqee.1332">
     <display-name>DIM</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3595/w256"/>
+  </channel>
+  <channel id="oqee.1334">
+    <display-name>Mieux TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3586/w256"/>
   </channel>
   <channel id="oqee.1335">
     <display-name>Lutte TV</display-name>
@@ -4718,6 +4733,40 @@
     <title lang="fr">Eröffnung der Wiener Festwochen 2026</title>
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d3768a7f48659a43.jpeg/640x360/quality/80/eroffnung-der-wiener-festwochen-2026.jpg"/>
+  </programme>
+  <programme channel="459194" start="20260522001500 +0000" stop="20260522010000 +0000">
+    <title lang="fr">Flog It!</title>
+    <desc lang="fr">Members of the public try to make money out of their antiques.</desc>
+  </programme>
+  <programme channel="459194" start="20260522010000 +0000" stop="20260522013000 +0000">
+    <title lang="fr">Richard Osman's House of Games</title>
+  </programme>
+  <programme channel="459194" start="20260522013000 +0000" stop="20260522020000 +0000">
+    <title lang="fr">Great Continental Railway Journeys</title>
+    <desc lang="fr">Former British parliamentarian Michael Portillo heads off to continental Europe with a copy of an early 20th century railways travel guidebook to learn more about how life has changed in modern cities, historic towns and rural communities. His definitive Bradshaw's volume paints a compelling and nostalgic picture of trade and travel around republics and monarchies that were to be swept aside by th</desc>
+  </programme>
+  <programme channel="459194" start="20260522020000 +0000" stop="20260522023000 +0000">
+    <title lang="fr">Iolo's River Valleys</title>
+    <desc lang="fr">Iolo Williams explores four of Wales's most stunning river valleys.</desc>
+  </programme>
+  <programme channel="459194" start="20260522023000 +0000" stop="20260522025500 +0000">
+    <title lang="fr">The Future with Hannah Fry</title>
+    <desc lang="fr">Dans l'avenir, vivrons-nous jusqu'à 150 ans ? Les ordinateurs seront-ils capables de décrypter nos émotions ? Disposerons-nous d'une énergie verte infinie ? La technologie facilitera-t-elle la vies des personnes en situation de handicap ? La mathématicienne britannique Hannah Fry plonge dans un futur incertain, à la croisée des avancées technologiques et humaines.</desc>
+  </programme>
+  <programme channel="459194" start="20260522025500 +0000" stop="20260522030000 +0000">
+    <title lang="fr">The Secret Genius of Modern Life</title>
+    <desc lang="fr">Hannah Fry dévoile les secrets des technologies modernes qui transforment notre quotidien. À travers des récits captivants, elle explore les histoires fascinantes et souvent méconnues qui se cachent derrière ces inventions révolutionnaires.</desc>
+  </programme>
+  <programme channel="459194" start="20260522030000 +0000" stop="20260522040000 +0000">
+    <title lang="fr">RHS Chelsea Flower Show</title>
+    <desc lang="fr">Les jardiniers visent l'or au salon floral le plus célèbre au monde.</desc>
+  </programme>
+  <programme channel="459194" start="20260522040000 +0000" stop="20260522050000 +0000">
+    <title lang="fr">Surgeons: At the Edge of Life</title>
+    <desc lang="fr">Cameras follow the surgical unit at the Queen Elizabeth Hospital Birmingham. These brave and remarkable people are working literally at the cutting edge, human life and health depend on their precision in movement. The series reveals the astonishing medical procedures that change lives every day, and focuses on astonishingly complex surgeries. These procedures are so impossibly complex that they m</desc>
+  </programme>
+  <programme channel="459194" start="20260522050000 +0000" stop="20260523000000 +0000">
+    <title lang="fr">Peelers: The PSNI for Real</title>
   </programme>
   <programme channel="4Plus.ch" start="20260522000500 +0200" stop="20260522024000 +0200">
     <title lang="fr">Lucky Number Slevin</title>
@@ -11770,8 +11819,9 @@ Acteurs : Claire Borotra (Justine Rameau), Constance Gay (Vanessa Tancelin), Cl�
   </programme>
   <programme channel="Arte.de" start="20260522193500 +0200" stop="20260522194000 +0200">
     <title lang="fr">Le dessous des cartes : l'essentiel</title>
-    <desc lang="fr">"Le dessous des cartes" met son expertise géopolitique au service d'un décryptage en quatre minutes des grands événements qui secouent le monde contemporain.</desc>
+    <desc lang="fr">Rendez-vous du lundi au jeudi avec "Le dessous des cartes - L'essentiel" : un zoom de 3mn30 pour décrypter l'actualité géopolitique internationale.</desc>
     <category lang="fr">Magazine / Magazine de géopolitique</category>
+    <icon src="https://img2.oqee.net/pictures/4399959/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20260522194000 +0200" stop="20260522201500 +0200">
     <title lang="fr">Les défis des géomètres en Roumanie</title>
@@ -11838,9 +11888,11 @@ Acteurs : Claire Borotra (Justine Rameau), Constance Gay (Vanessa Tancelin), Cl�
     <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="Arte.fr" start="20260522050500 +0200" stop="20260522060000 +0200">
-    <title lang="fr">Oman sauvage : Léopards et tortues marines - S01E01</title>
+    <title lang="fr">Oman sauvage - Saison 1</title>
     <desc lang="fr">Pays d'une diversité surprenante, le sultanat d'Oman regorge de trésors naturels insoupçonnés, entre plaines, déserts, montagnes et récifs coralliens.</desc>
-    <category lang="fr">Documentaire / Documentaire nature</category>
+    <category lang="fr">Decouverte</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/unit/21933246/canal-ouah_50008/STD169/oman-sauvage"/>
   </programme>
   <programme channel="Arte.fr" start="20260522060000 +0200" stop="20260522065500 +0200">
     <title lang="fr">Oman sauvage : Loups et baleines à bosse - S01E02</title>
@@ -16636,122 +16688,102 @@ Final Lens vs Nice.
   <programme channel="BFMBusiness.fr" start="20260522000000 +0200" stop="20260522060000 +0200">
     <title lang="fr">BFM Business</title>
     <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/117069787"/>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522060000 +0200" stop="20260522083000 +0200">
     <title lang="fr">Good Morning Business</title>
-    <desc lang="fr">Chaque jour, des entrepreneurs, des grands patrons, des fondateurs de start-up, des interviewés à l'antenne. Trois grandes interviews à suivre. A découvrir également, La France qui bouge, un reportage en immersion dans une entreprise pour raconter son histoire et sa vie quotidienne.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/117283059"/>
+    <desc lang="fr">Chaque jour, des entrepreneurs, des grands patrons, des fondateurs de start-up, des interviewés à l'antenne. Trois grandes interviews à suivre. A découvrir également, "La France qui bouge", un reportage en immersion dans une entreprise pour raconter son histoire et sa vie quotidienne.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522083000 +0200" stop="20260522093000 +0200">
     <title lang="fr">Good Morning Market</title>
     <desc lang="fr">Tous les jours à partir de 9h, Etienne Bracq fait vivre l'ouverture des marchés européens, les premières tendances, les premières analyses, les valeurs à surveiller. A suivre, la première heure de cotation avec des gérants, des économistes et des spécialistes des marchés.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120902358"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522093000 +0200" stop="20260522103000 +0200">
     <title lang="fr">Les experts</title>
     <desc lang="fr">Raphaël Legendre et ses invités livrent chaque matin les clés de l'actualité économique et financière. Sans langue de bois et avec exigence, experts, économistes et chefs d'entreprise confrontent leurs points de vue pour un échange sans équivalent dans le paysage audiovisuel français.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122920145"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522103000 +0200" stop="20260522110000 +0200">
     <title lang="fr">BFM Entreprise</title>
     <desc lang="fr">Présenté par Sandra Gandoin, ce rendez-vous donne la parole aux dirigeants pour tout comprendre du quotidien des entreprises et analyser leurs meilleurs leviers de performance. Un plongeon est fait dans le quotidien des entreprises, de leurs dirigeants et de leurs équipes.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123396858"/>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522110000 +0200" stop="20260522120000 +0200">
     <title lang="fr">Tout pour investir</title>
     <desc lang="fr">Dès 11h, Tout pour investir, c'est une heure de conseils pour optimiser ses placements. Entouré d'économistes et de gestionnaires en patrimoine, Antoine Larigaudrie livre conseils et astuces pour gérer son capital et décrypter les tendances.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120891551"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522120000 +0200" stop="20260522123000 +0200">
     <title lang="fr">Les experts de l'immo</title>
     <desc lang="fr">Tout savoir sur les grandes tendances du marché de l'immobilier en s'appuyant sur de précieux conseils délivrés par les meilleurs experts.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118196379"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522123000 +0200" stop="20260522130000 +0200">
     <title lang="fr">Air&amp;Défense</title>
-    <desc lang="fr">Tous les vendredis, cette émission sera présentée par Jean-Baptiste Huet décrypte les grands enjeux industriels, technologiques et géopolitiques de l'aéronautique, du spatial et de la défense. Dans un contexte de réarmement mondial, de souveraineté technologique et d'innovation accélérée, Air&amp;Défense donne la parole à celles et ceux qui font et analysent ces secteurs clés.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122551017"/>
+    <desc lang="fr">Tous les vendredis, cette émission sera présentée par Jean-Baptiste Huet décrypte les grands enjeux industriels, technologiques et géopolitiques de l'aéronautique, du spatial et de la défense. Dans un contexte de réarmement mondial, de souveraineté technologique et d'innovation accélérée, "Air&amp;Défense" donne la parole à celles et ceux qui font et analysent ces secteurs clés.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522130000 +0200" stop="20260522150000 +0200">
     <title lang="fr">BFM Business</title>
     <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122914152"/>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522150000 +0200" stop="20260522153000 +0200">
     <title lang="fr">BFM Crypto, le Club</title>
     <desc lang="fr">Sandra Gandoin fait le point sur l'actualité web 3.0. Guillaume Sommerer accueille quant à lui les meilleurs experts du secteur.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119541296"/>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522153000 +0200" stop="20260522180000 +0200">
     <title lang="fr">BFM Bourse</title>
     <desc lang="fr">De l'ouverture de la séance de Wall Street à la clôture de Paris, experts, gérants d'actifs, économistes, stratégistes, dirigeants d'entreprises cotées se mobilisent pour fournir une analyse précise et complète de l'actualité des marchés et pour et délivrer les meilleurs conseils en matière de placements.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/117619613"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522180000 +0200" stop="20260522190000 +0200">
     <title lang="fr">Les experts sans frontières</title>
     <desc lang="fr">Chaque vendredi, des experts étrangers installés en France analysent les grands débats de la semaine avec un oeil neuf, détaché des prismes franco-français. Finances publiques, réformes, réarmement de l'Europe, choix politiques, international : leur regard extérieur éclaire, questionne et parfois secoue. Un décryptage sans frontières pour mieux comprendre les grands enjeux du moment.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120915200"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522190000 +0200" stop="20260522193000 +0200">
     <title lang="fr">Le 19h Eco</title>
     <desc lang="fr">Tout ce qu'il faut retenir de la journée. Trente minutes d'actualité économique et financière, la tech, l'info en régions, mais aussi les rendez-vous à ne pas manquer et les clés pour comprendre l'actualité internationale.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120731324"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522193000 +0200" stop="20260522200000 +0200">
     <title lang="fr">Culture IA</title>
     <desc lang="fr">Internet, objets connectés, applications et autres gadgets hi-tech : dans ce magazine de la culture geek, Anthony Morel fait un focus sur les dernières tendances et astuces qui changeront le monde de demain et le quotidien de chacun.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119541300"/>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522200000 +0200" stop="20260522210000 +0200">
     <title lang="fr">C'est votre argent !</title>
     <desc lang="fr">Acheter ou vendre ? Actions ou immobilier ? Marc Fiorentino donne toutes les clés pour investir. Spécialiste des marchés financiers, entouré chaque semaine des meilleurs experts, il détaille clairement les meilleurs placements et donne de précieux conseils. Sa marque de fabrique : éviter à tout prix la langue de bois.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120955849"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522210000 +0200" stop="20260522213000 +0200">
     <title lang="fr">Iconic Business</title>
     <desc lang="fr">Immobilier, voyage, mode, joaillerie, cosmétique, gastronomie, transports : chaque semaine, avec ses invités, Audrey Maubert présente le seul rendez-vous consacré au luxe. Un rendez-vous iconique et décomplexé.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/108945192"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522213000 +0200" stop="20260522223000 +0200">
     <title lang="fr">De quoi je me mail</title>
-    <desc lang="fr">François Sorel examine les dernières nouvelles concernant les nouvelles technologies avec des experts et des journalistes.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/120898488"/>
+    <desc lang="fr">François Sorel examine les dernières nouvelles concernant les nouvelles technologies avec des experts et des journalistes. </desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522223000 +0200" stop="20260522230000 +0200">
     <title lang="fr">Les experts de l'immo</title>
     <desc lang="fr">Tout savoir sur les grandes tendances du marché de l'immobilier en s'appuyant sur de précieux conseils délivrés par les meilleurs experts.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/118196379"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522230000 +0200" stop="20260522233000 +0200">
     <title lang="fr">Pari ETI</title>
     <desc lang="fr">Gros plan sur les entreprises de taille intermédiaire françaises, souvent méconnues du public, mais qui jouent un rôle essentiel dans l'emploi et la compétitivité industrielle.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/112057753"/>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMBusiness.fr" start="20260522233000 +0200" stop="20260523000000 +0200">
     <title lang="fr">Air&amp;Défense</title>
-    <desc lang="fr">Tous les vendredis, cette émission sera présentée par Jean-Baptiste Huet décrypte les grands enjeux industriels, technologiques et géopolitiques de l'aéronautique, du spatial et de la défense. Dans un contexte de réarmement mondial, de souveraineté technologique et d'innovation accélérée, Air&amp;Défense donne la parole à celles et ceux qui font et analysent ces secteurs clés.</desc>
-    <category lang="fr">Actualites</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122551017"/>
+    <desc lang="fr">Tous les vendredis, cette émission sera présentée par Jean-Baptiste Huet décrypte les grands enjeux industriels, technologiques et géopolitiques de l'aéronautique, du spatial et de la défense. Dans un contexte de réarmement mondial, de souveraineté technologique et d'innovation accélérée, "Air&amp;Défense" donne la parole à celles et ceux qui font et analysent ces secteurs clés.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="BFMGrandLille.fr" start="20260522063000 +0200" stop="20260522063800 +0200">
     <title lang="fr">Nantes info</title>
@@ -32690,7 +32722,7 @@ Acteurs : Gal Ritchie, Pixie Smalls
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260522132800 +0200" stop="20260522134100 +0200">
     <title lang="fr">L'hebd'Hollywood</title>
-    <desc lang="fr">Le magazine trace la chronique de la vie à Hollywood, des grands studios aux indépendants, des stars aux étoiles montantes. Entre événements, indiscrétions et exclusivités, le journaliste Didier Allouch propose depuis Los Angeles un décryptage très personnel de l'actualité du cinéma américain. News sur les tournages, tendances, films en salles, stars : la cité des Anges livre tous ses secrets.</desc>
+    <desc lang="fr">Premier épisode d'un portrait exceptionnel de Rick Baker, légende vivante du maquillage d'effets spéciaux à Hollywood. Retour sur sa carrière extraordinaire : 7 Oscars, créateur des aliens de Star Wars, du loup-garou de Londres, de King Kong et des primates de Greystock. De son enfance de passionné à sa rencontre avec Dick Smith sur L'Exorciste, découvrez l'homme derrière les monstres qui ont marqué notre imaginaire collectif.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260522134100 +0200" stop="20260522152000 +0200">
@@ -32710,7 +32742,7 @@ Acteurs : Gal Ritchie, Pixie Smalls
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260522183300 +0200" stop="20260522184600 +0200">
     <title lang="fr">L'hebd'Hollywood</title>
-    <desc lang="fr">Le magazine trace la chronique de la vie à Hollywood, des grands studios aux indépendants, des stars aux étoiles montantes. Entre événements, indiscrétions et exclusivités, le journaliste Didier Allouch propose depuis Los Angeles un décryptage très personnel de l'actualité du cinéma américain. News sur les tournages, tendances, films en salles, stars : la cité des Anges livre tous ses secrets.</desc>
+    <desc lang="fr">Premier épisode d'un portrait exceptionnel de Rick Baker, légende vivante du maquillage d'effets spéciaux à Hollywood. Retour sur sa carrière extraordinaire : 7 Oscars, créateur des aliens de Star Wars, du loup-garou de Londres, de King Kong et des primates de Greystock. De son enfance de passionné à sa rencontre avec Dick Smith sur L'Exorciste, découvrez l'homme derrière les monstres qui ont marqué notre imaginaire collectif.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlusBoxOffice.fr" start="20260522184600 +0200" stop="20260522210000 +0200">
@@ -33944,7 +33976,8 @@ Acteurs : Gal Ritchie, Pixie Smalls
   <programme channel="CanalPlusFoot.fr" start="20260522014200 +0200" stop="20260522080000 +0200">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
-    <category lang="fr">Divers / Fin</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/122299056"/>
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260522014500 +0200" stop="20260522032600 +0200">
     <title lang="fr">Football : Ligue Europa</title>
@@ -79234,6 +79267,7 @@ Présentateur(s) : Cyril Viguier
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260522171000 +0200" stop="20260522175500 +0200">
     <title lang="fr">UIM Aquabike World Championship</title>
+    <desc lang="fr">Caution, danger of splashing! Since 1992, the Aquabike World Championship has been the most important racing series in the sport of jet skiing and one of the fastest competitions in water sports. On specially designed race courses or on the high seas, the participants engage in thrilling races in the ski and runabout categories and fascinate with all kinds of stunts on their more than 300 hp jet skis.</desc>
     <category lang="fr">Emission sportive / Sports nautiques</category>
   </programme>
   <programme channel="MotorVisionTV.fr" start="20260522175500 +0200" stop="20260522182000 +0200">
@@ -79336,7 +79370,7 @@ Présentateur(s) : Cyril Viguier
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
   <programme channel="Museum.fr" start="20260522012600 +0200" stop="20260522015300 +0200">
-    <title lang="fr">Le Havre d'Auguste Perret</title>
+    <title lang="fr">Le Havre d'Auguste Perret - S02E31</title>
     <desc lang="fr">L'architecte Auguste Perret s'est vu confier la réédification de la ville du Havre après sa destruction à la fin de la Seconde Guerre mondiale : visite.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
@@ -99683,12 +99717,14 @@ Année : 2026
   <programme channel="StingrayDjazz.fr" start="20260522050500 +0200" stop="20260522055000 +0200">
     <title lang="fr">Jazzahead!</title>
     <desc lang="fr">Festival, congrès et foire commerciale, jazzahead! est l'un des événements les plus importants de la communauté internationale de jazz. Organisé à Brême en Allemagne, l'événement réunit des musiciens, des promoteurs, des agents, des organisateurs, des experts en jazz et des amateurs de musique du monde entier. Pendant trois jours, l'édition 2022 a accordé une attention particulière à la scène jazz canadienne et présenté 40 performances d'artistes exceptionnels provenant du Canada, des États-Unis et de l'Europe. Parmi eux, voyez Sofia Rei.</desc>
-    <category lang="fr">Concert / Jazz</category>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~632c24b41a744201.jpeg/640x360/quality/80/jazzahead.jpg"/>
   </programme>
   <programme channel="StingrayDjazz.fr" start="20260522055000 +0200" stop="20260522064500 +0200">
     <title lang="fr">Jazzahead!</title>
     <desc lang="fr">À la fois salon professionnel, exposition et festival, jazzahead! est l'un des événements les plus courus de la grande communauté internationale du jazz. Présenté chaque année dans la ville allemande de Bremen, jazzahead! regroupe musiciens, imprésarios, programmateurs, spécialistes du jazz et amateurs de musique du monde entier. En 2024, jazzahead! s'est intéressé à la scène jazz des Pays-Bas, et a convié plus de quarante artistes et formations à se produire pendant les trois jours de l'événement. Parmi ceux-ci se trouve O.N.E., la première formation instrumentale entièrement féminine de Pologne. Ce quatuor géré selon des principes démocratiques compose et arrange sa musique de façon collaborative.</desc>
-    <category lang="fr">Concert / Jazz</category>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~632c24b41a744201.jpeg/640x360/quality/80/jazzahead.jpg"/>
   </programme>
   <programme channel="StingrayDjazz.fr" start="20260522064500 +0200" stop="20260522070000 +0200">
     <title lang="fr">DJAZZ Clips</title>
@@ -101155,7 +101191,7 @@ Année : 2026
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="T18.fr" start="20260522141500 +0200" stop="20260522152000 +0200">
-    <title lang="fr">Indices - S01E55</title>
+    <title lang="fr">Indices - S06E55</title>
     <desc lang="fr">Le 11 aout 1987, les gendarmes d'Orléans découvrent, derrière une glissière de sécurité de l'autoroute A10, le cadavre meurtri d'une enfant de 4 ans, enveloppé dans une couverture. Commence alors l'une des enquêtes criminelles les plus longues et éprouvantes de ces quarante dernières années. Qui est celle que tout le monde surnomme "la martyre de l'A10", qui ne sera identifiée que des années plus tard ?</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -101719,12 +101755,12 @@ Année : 2026
   </programme>
   <programme channel="TF1.fr" start="20260522173000 +0200" stop="20260522180000 +0200">
     <title lang="fr">Familles nombreuses : la vie en XXL</title>
-    <desc lang="fr">Les Ballot optent pour un espace de jeux pour fêter l'anniversaire des triplés, un budget conséquent compensé par une tranquillité d'esprit totale. Les Delannoy traversent un blues post-mariage et ce voyage de noces tombe finalement à point nommé. À Paris, les Laforce embarquent les petits dans un t...</desc>
+    <desc lang="fr">Les Ballot optent pour un espace de jeux pour fêter l'anniversaire des triplés, un budget conséquent compensé par une tranquillité d'esprit totale. Les Delannoy traversent un blues post-mariage et ce voyage de noces tombe finalement à point nommé....</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="TF1.fr" start="20260522180000 +0200" stop="20260522183000 +0200">
     <title lang="fr">Familles nombreuses : la vie en XXL</title>
-    <desc lang="fr">Olivia Charfeddine dévoile ses talents de négociatrice en brocante, technique infaillible pour habiller toute la famille sans se ruiner. Au Maroc, les Godet veillent à canaliser la soif d'aventure des enfants pour ne pas perturber le voisinage. Chez les Perside, grand moment pour le petit Mars qui p...</desc>
+    <desc lang="fr">Olivia Charfeddine dévoile ses talents de négociatrice en brocante, technique infaillible pour habiller toute la famille sans se ruiner. Au Maroc, les Godet veillent à canaliser la soif d'aventure des enfants pour ne pas perturber le voisinage....</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="TF1.fr" start="20260522183000 +0200" stop="20260522191000 +0200">
@@ -101758,7 +101794,7 @@ Année : 2026
     <category lang="fr">Magazine / Magazine de la gastronomie</category>
   </programme>
   <programme channel="TF1.fr" start="20260522210000 +0200" stop="20260522211000 +0200">
-    <title lang="fr">Météo</title>
+    <title lang="fr">Météo - S26E142</title>
     <desc lang="fr">Météo du vendredi 22 mai 2026 à 20h53 sur TF1 présentée par Tatiana Silva ou Evelyne Dheliat. Consultez sans plus attendre les prévisions météorologiques du vendredi 22 mai 2026 à 20h53 et découvrez les températures du jour, du lendemain et des prochains jours en France métropolitaine et en Corse.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
@@ -102556,19 +102592,13 @@ Année : 2026
     <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP029904750035/SHOWCARD_BACKGROUND/2048x1024"/>
   </programme>
   <programme channel="TIJI.fr" start="20260522053000 +0200" stop="20260522054000 +0200">
-    <title lang="fr">T'choupi interactif en LSF - S01E05</title>
-    <desc lang="fr">T'choupi et Pilou regardent un domptage de lions à la télévision. Les garçons, inspirés, se convainquent que ça ne doit pas être si difficile de dompter un "gros chat". Après s'être entraînés avec le pauvre Doudou, ils partent à la recherche d'un vrai gros félin à dompter dans le jardin. Ils portent leur dévolu sur un gros matou roux qui n'a aucune envie, lui, d'être dompté...</desc>
-    <category lang="fr">Série / Série d'animation</category>
+    <title lang="fr">T'choupi interactif en LSF - Saison 1</title>
   </programme>
   <programme channel="TIJI.fr" start="20260522054000 +0200" stop="20260522054500 +0200">
-    <title lang="fr">T'choupi interactif en LSF - S01E06</title>
-    <desc lang="fr">T'choupi n'a pas envie de prendre son bain, il a trop de choses à faire encore avec son cousin Eliot, exceptionnellement invité à la maison. Maman, compréhensive, propose une petite toilette. Eliot, lui, n'est pas contre un bon bain. Il a très envie d'essayer le bateau de T'choupi...</desc>
-    <category lang="fr">Série / Série d'animation</category>
+    <title lang="fr">T'choupi interactif en LSF - Saison 1</title>
   </programme>
   <programme channel="TIJI.fr" start="20260522054500 +0200" stop="20260522060000 +0200">
-    <title lang="fr">Les aventures de Paddington - S03E38</title>
-    <desc lang="fr">Taylor, le sauveteur en mer, arrive juste à temps à Windsor Gardens pour sauver la fête de la lune avec Paddington !</desc>
-    <category lang="fr">Série / Série d'animation</category>
+    <title lang="fr">Les aventures de Paddington - Saison 3</title>
   </programme>
   <programme channel="TIJI.fr" start="20260522060000 +0200" stop="20260522060500 +0200">
     <title lang="fr">Didou - S01E17</title>
@@ -103229,8 +103259,7 @@ Année : 2026
   <programme channel="TMC.fr" start="20260522004100 +0200" stop="20260522074000 +0200">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/100372850"/>
+    <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="TMC.fr" start="20260522074000 +0200" stop="20260522095000 +0200">
     <title lang="fr">Nos chers voisins</title>
@@ -126114,6 +126143,226 @@ D'autres salariés n'ont pas ce problème. C'est leur entreprise toute entière 
     <desc lang="fr">Soyez toujours informés avec nous et découvrez les dernières nouvelles et des informations sur les principaux sujets, la météo, les actualités, le divertissement, la politique et bien d'autres thèmes. </desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.104" start="20260522000000 +0200" stop="20260522003000 +0200">
+    <title lang="fr">Prophecy Live</title>
+    <desc lang="fr">Joseph Z's faith-filled journalism and Bible teaching for the Last Days will provide prophetic insights and predictions of global events.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522003000 +0200" stop="20260522010000 +0200">
+    <title lang="fr">Jentezen Franklin</title>
+    <desc lang="fr">Jentezen Franklin is a pastor of Free Chapel Worship Centre in Georgia and a New York Times best-selling author. His teachings offer hope to Christians across the globe, focusing on how we can better our lives by immersing ourselves in the Word of God. Only through strong faith can we find true solace in our existence, and Pastor Franklin's empowering worship aims to strengthen our trust in the Lord's Message.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522010000 +0200" stop="20260522013000 +0200">
+    <title lang="fr">Rick Renner</title>
+    <desc lang="fr">God heals hearts and uses difficult experiences to prepare His people for greater things. Watch today for encouragement from Dru Hammer's story!</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522013000 +0200" stop="20260522020000 +0200">
+    <title lang="fr">Believer's Walk of Faith</title>
+    <desc lang="fr">Pastor Bill Winston delivers the Word of God to strengthen Christian faith around the world. From the Living Word Christian Center in Forest Park, Illinois, and through his expressive services, Bill demonstrates the hope and encouragement we can find in God. As believer's in His Word, we must face our circumstances head on, knowing that our empowerment will carry us through our adversities.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522020000 +0200" stop="20260522023000 +0200">
+    <title lang="fr">PSB Prophetic Sound Broadcast with Shawn Baker</title>
+    <desc lang="fr">Join Pastor Shawn Baker as he challenges you to draw closer to God and equips you with tools to unlock the divine destiny God has already chosen for your life.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522023000 +0200" stop="20260522030000 +0200">
+    <title lang="fr">Turning Point</title>
+    <desc lang="fr">Dr. David Jeremiah, founder of the non-profit organization Turning Point for God, delivers the God's word and the importance of his preaching. The bestselling author, radio presenter, television personality and senior pastor of Shadow Mountain Community Church shares his views on how we can navigate today's ever-changing world as devout Christians.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522030000 +0200" stop="20260522033000 +0200">
+    <title lang="fr">Healing Time with Dr. Doug Weiss</title>
+    <desc lang="fr">Dr. Doug Weiss unpacks how hidden unforgiveness can damage your mind, body, and spirit and why true healing begins with a choice to forgive.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522033000 +0200" stop="20260522040000 +0200">
+    <title lang="fr">Allen Jackson Ministries</title>
+    <desc lang="fr">Pastor Allen Jackson brings a biblical perspective to the ever-changing world, encouraging believers to lead with their faith in every arena—no matter what shaking the season may bring.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522040000 +0200" stop="20260522043000 +0200">
+    <title lang="fr">The Jewish Jesus - Rabbi Schneider</title>
+    <desc lang="fr">The Jewish Jesus Rabbi Schneider is dedicated to revelation of Jesus' Jewish heritage and His fulfillment of messianic prophecy. The viewers can receive clear answers to the questions of the Old and New Testaments. International Evangelist Rabbi Kirt Schneider, a Jewish believer in Jesus and messenger of the Lord, delivers the Word of the Lord with the true passion of the Holy Spirit. He aims to strengthen people's faith and discover relationship with the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522043000 +0200" stop="20260522050000 +0200">
+    <title lang="fr">Breakthrough with Rod Parsley</title>
+    <desc lang="fr">Prominent Christian minister Rod Parsley, of the Pentecostal World Harvest Church in Columbus, Ohio, delivers powerful biblical messages.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522050000 +0200" stop="20260522053000 +0200">
+    <title lang="fr">Gospel Truth - Andrew Wommack</title>
+    <desc lang="fr">Andrew Wommack is an American conservative charismatic TV evangelist and faith healer. He emphasizes God's unconditional love and the balance between grace and faith in his program Gospel Truth. Start your day with a positive light every morning. He teaches that every Christian must receive the Baptism of the Holy Spirit and feel unconditional love and acceptance. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522053000 +0200" stop="20260522060000 +0200">
+    <title lang="fr">Joni Table Talk</title>
+    <desc lang="fr">Uncover the forgotten key to living a blessed, spiritually powerful life as John Bevere shares how to conquer fearfulness and build an eternal legacy.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522060000 +0200" stop="20260522070000 +0200">
+    <title lang="fr">FlashPoint</title>
+    <desc lang="fr"> Bringing you stories explored from a biblical viewpoint, live with our host Gene Bailey, joined by guests in the studio. </desc>
+    <category lang="fr">Divers / Emission religieuse</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522070000 +0200" stop="20260522073000 +0200">
+    <title lang="fr">The Winner's Way with Mac Hammond</title>
+    <desc lang="fr">Pastor Mac Hammond shares the word of God and he preaches about how God wants everyone to be winners in all areas of life, as he hopes he changes many lives.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522073000 +0200" stop="20260522080000 +0200">
+    <title lang="fr">Ted Shuttlesworth</title>
+    <desc lang="fr">Ted Shuttlesworth, President of Miracle Word Ministries, has been involved in full-time ministry since he was a toddler. His mission is to bring hope for the helpless and help for the hopeless by spreading the Word of God and pushing the Gospel forward by every means. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522080000 +0200" stop="20260522083000 +0200">
+    <title lang="fr">Rev it Up with Dr. Sam Kojoglanian</title>
+    <desc lang="fr">Biblical end times study with geopolitical views and medical analogies with cardiologist, evangelist, medical missionary and author, Samuel Kojoglanian, MD.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522083000 +0200" stop="20260522090000 +0200">
+    <title lang="fr">Kenneth Copeland</title>
+    <desc lang="fr">Kenneth Copeland is an American televangelist and author associated with the Charismatic Movement. He runs the Tarrant County, Texas-based Kenneth Copeland Ministries, its motto is "Jesus is Lord". Over the years, Kenneth Copeland and his wife Gloria Copeland have delivered Bible-based teaching articles about faith, love, healing, prosperity, redemption to the viewers from all over the world and the news that Jesus Is Lord, no matter where you are.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522090000 +0200" stop="20260522093000 +0200">
+    <title lang="fr">Healing Time with Dr. Doug Weiss</title>
+    <desc lang="fr">Dr. Doug Weiss unpacks how hidden unforgiveness can damage your mind, body, and spirit and why true healing begins with a choice to forgive.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522093000 +0200" stop="20260522100000 +0200">
+    <title lang="fr">Joni Table Talk</title>
+    <desc lang="fr">Uncover the forgotten key to living a blessed, spiritually powerful life as John Bevere shares how to conquer fearfulness and build an eternal legacy.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522100000 +0200" stop="20260522110000 +0200">
+    <title lang="fr">Ministry Now</title>
+    <desc lang="fr">Martin &amp; Millicent Sedra share Islam's history and political agenda. Geoffrey Graff shares his story, provides wisdom on waiting through God's process.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522110000 +0200" stop="20260522113000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522113000 +0200" stop="20260522120000 +0200">
+    <title lang="fr">Jesus the Healer with Nancy Dufresne</title>
+    <desc lang="fr">Host Nancy Dufresne shares messages addressing the topics of faith, healing, renewing the mind, following the Holy Spirit and a life in Christ.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522120000 +0200" stop="20260522123000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522123000 +0200" stop="20260522130000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522130000 +0200" stop="20260522133000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522133000 +0200" stop="20260522143000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522143000 +0200" stop="20260522150000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522150000 +0200" stop="20260522153000 +0200">
+    <title lang="fr">Kingdom Connection with Jentezen Franklin</title>
+    <desc lang="fr">Pastor Jentezen Franklin presents life-changing, sensible messages, including dramatic plays, musical acts and commanding storytelling with the Gospel.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522153000 +0200" stop="20260522160000 +0200">
+    <title lang="fr">Prophecy Live</title>
+    <desc lang="fr">Joseph Z's faith-filled journalism and Bible teaching for the Last Days will provide prophetic insights and predictions of global events.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522160000 +0200" stop="20260522163000 +0200">
+    <title lang="fr">Joni Table Talk</title>
+    <desc lang="fr">Danette Crawford joins us to share how you can experience God's lasting joy in the midst of pain, heartbreak, and disappointment.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522163000 +0200" stop="20260522170000 +0200">
+    <title lang="fr">Joel Osteen</title>
+    <desc lang="fr">Hear the messages of hope that best-selling author, evangelist and the senior pastor of Lakewood Church in Houston, Joel Osteen is delivering in each episode. Joel's positive and encouraging speeches will allow viewers to hear God's message of hope, love and victory and be inspired to do great things in life. Joel tries to teach Biblical principles in a simple way, always highlighting the power and importance of love and positive thinking.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522170000 +0200" stop="20260522173000 +0200">
+    <title lang="fr">Life Today with James Robison</title>
+    <desc lang="fr">A televangelist serves as the founder and president of the Christian relief organization "Life Outreach International," as he and his wife invite viewers to join them as their guests discuss a broad range of topics that provide hope and help.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522173000 +0200" stop="20260522180000 +0200">
+    <title lang="fr">Gospel Truth - Andrew Wommack</title>
+    <desc lang="fr">Andrew Wommack is an American conservative charismatic TV evangelist and faith healer. He emphasizes God's unconditional love and the balance between grace and faith in his program Gospel Truth. Start your day with a positive light every morning. He teaches that every Christian must receive the Baptism of the Holy Spirit and feel unconditional love and acceptance. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522180000 +0200" stop="20260522183000 +0200">
+    <title lang="fr">Jewish Voice with Jonathan Bernis</title>
+    <desc lang="fr">Messianic Rabbi Jonathon Bernis explores the Jewish origins of the Christian faith and discusses how prophecies in the bible merge with everyday life.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522183000 +0200" stop="20260522190000 +0200">
+    <title lang="fr">Jesus the Healer with Nancy Dufresne</title>
+    <desc lang="fr">Host Nancy Dufresne shares messages addressing the topics of faith, healing, renewing the mind, following the Holy Spirit and a life in Christ.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522190000 +0200" stop="20260522193000 +0200">
+    <title lang="fr">Kenneth Copeland</title>
+    <desc lang="fr">Kenneth Copeland is an American televangelist and author associated with the Charismatic Movement. He runs the Tarrant County, Texas-based Kenneth Copeland Ministries, its motto is "Jesus is Lord". Over the years, Kenneth Copeland and his wife Gloria Copeland have delivered Bible-based teaching articles about faith, love, healing, prosperity, redemption to the viewers from all over the world and the news that Jesus Is Lord, no matter where you are.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522193000 +0200" stop="20260522200000 +0200">
+    <title lang="fr">Creflo Dollar</title>
+    <desc lang="fr">Creflo Dollar is an American televangelist, rap artist and the founder of the non-denominational World Changers Church International based in Georgia. In his TV church service he offers faith as solution to all problems people encounter every day. Creflo encourages people to pursue a personal relationship with God, to find truth and empowerment no matter what they are going through.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522200000 +0200" stop="20260522203000 +0200">
+    <title lang="fr">Reflections</title>
+    <desc lang="fr">Feel God's presence while watching Reflections, a daily original program for every day of your life, and enjoy God's miraculous creations. Immerse yourself in the fantastic sceneries of forests, rivers and lakes, icy terrains and tropics and the Words of God. Revel in the amazing music during a time of daily prayer and meditation. Blessed be your sole, relax for a while and enjoy some peaceful time and hear the Lord. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522203000 +0200" stop="20260522210000 +0200">
+    <title lang="fr">Rick Renner</title>
+    <desc lang="fr">Through his titular ministry, Rick Renner has been answering the call to God for decades, and in 1991, took himself and his family to the former Soviet Union to further His Message. A devoted teacher, speaker and believer, Rick instills a durable confidence in Christian faith, demonstrating the power of the Almighty and his ability to change our lives for the better. With eye-opening interpretations, Rick explores the history and mystery of God.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522210000 +0200" stop="20260522220000 +0200">
+    <title lang="fr">Marcus Lamb</title>
+    <desc lang="fr">Increase your vision for the future as Marcus Lamb reveals how to take bold steps of faith today that will lead to victory tomorrow.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522220000 +0200" stop="20260522223000 +0200">
+    <title lang="fr">Gary Keesee Fixing the Money Thing</title>
+    <desc lang="fr">Gary Keesee, an entrepreneur, an author and a speaker, shares amazing strategies for balanced, successful living in the areas of faith, family and finances in the show Gary Keesee Fixing the Money Thing. With the help of humor, personal stories and principles from God's Word he brings the answers to the viewers on how to balance it all, and encourage people to take back control of both- their finances and their life. </desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522223000 +0200" stop="20260522230000 +0200">
+    <title lang="fr">Jewish Voice with Jonathan Bernis</title>
+    <desc lang="fr">Messianic Rabbi Jonathon Bernis explores the Jewish origins of the Christian faith and discusses how prophecies in the bible merge with everyday life.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522230000 +0200" stop="20260522233000 +0200">
+    <title lang="fr">It's Supernatural</title>
+    <desc lang="fr">After tumbling to rock bottom, Sid Roth, a former executive at Merril Lynch, experienced a spiritual encounter with Jesus Christ. In this series, drawing on his own experiences, Sid examines stories of a similar nature, where people share their involvements and proclaim their own miracles and encounters with God. It's Supernatural reaches out to the Jewish community imploring them to welcome Jesus Christ into their lives.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.104" start="20260522233000 +0200" stop="20260523000000 +0200">
+    <title lang="fr">Today with Marilyn and Sarah</title>
+    <desc lang="fr">Mother-and-daughter team, Marilyn Hickey and Sarah Bowling, present this religious chat show. They're joined on their couch by special guests and together they share lessons we can learn from the Bible as well as words of motivation, inspiration and faith. Both Marilyn and Sarah have spread their faith to audiences across the USA and internationally. They started co-hosting a show together in 1996.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
   <programme channel="oqee.1044" start="20260522000000 +0200" stop="20260522022800 +0200">
     <title lang="fr">Three Vol.5</title>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
@@ -138516,6 +138765,134 @@ D'autres salariés n'ont pas ce problème. C'est leur entreprise toute entière 
     <title lang="fr">Іnformatsіjnі syuzheti</title>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.1255" start="20260522000000 +0200" stop="20260522010000 +0200">
+    <title lang="fr">MLK : Eglise MLK</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522010000 +0200" stop="20260522023000 +0200">
+    <title lang="fr">Eglise Plénitude</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522023000 +0200" stop="20260522030000 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522030000 +0200" stop="20260522033000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522033000 +0200" stop="20260522040000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522040000 +0200" stop="20260522050000 +0200">
+    <title lang="fr">PCC - Paris Centre Chrétien</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522050000 +0200" stop="20260522053100 +0200">
+    <title lang="fr">JOYCE : vivre pleinement sa vie !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522053100 +0200" stop="20260522063000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522063000 +0200" stop="20260522070000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522070000 +0200" stop="20260522073000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522073000 +0200" stop="20260522080000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522080000 +0200" stop="20260522083000 +0200">
+    <title lang="fr">Teach</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522083000 +0200" stop="20260522090000 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522090000 +0200" stop="20260522100000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522100000 +0200" stop="20260522110000 +0200">
+    <title lang="fr">Le Temple de la foi</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522110000 +0200" stop="20260522120000 +0200">
+    <title lang="fr">En eau profonde</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522120000 +0200" stop="20260522123000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522123000 +0200" stop="20260522130000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522130000 +0200" stop="20260522140000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522140000 +0200" stop="20260522150000 +0200">
+    <title lang="fr">POC - La Porte Ouverte Chrétienne</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522150000 +0200" stop="20260522154500 +0200">
+    <title lang="fr">Gospel Vision Center</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522154500 +0200" stop="20260522161500 +0200">
+    <title lang="fr">TLB - Toute la Bible</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522161500 +0200" stop="20260522173300 +0200">
+    <title lang="fr">LVDE - La Vérité de l'Évangile</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522173300 +0200" stop="20260522180000 +0200">
+    <title lang="fr">NVJ - NV Junior</title>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522180000 +0200" stop="20260522190000 +0200">
+    <title lang="fr">A table avec Annabelle</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522190000 +0200" stop="20260522193000 +0200">
+    <title lang="fr">Teach</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522193000 +0200" stop="20260522200000 +0200">
+    <title lang="fr">Bonjour chez vous !</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522200000 +0200" stop="20260522210000 +0200">
+    <title lang="fr">En eau profonde</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522210000 +0200" stop="20260522220000 +0200">
+    <title lang="fr">Le Temple de la foi</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522220000 +0200" stop="20260522223000 +0200">
+    <title lang="fr">Prières inspirées</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522223000 +0200" stop="20260522230000 +0200">
+    <title lang="fr">Instrumental : atmosphère de prière</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260522230000 +0200" stop="20260523000000 +0200">
+    <title lang="fr">TLB - Toute la Bible</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
   <programme channel="oqee.1275" start="20260522050000 +0200" stop="20260522055000 +0200">
     <title lang="fr">Soanja - S01E52</title>
     <desc lang="fr">Dans un village où les jumeaux sont considérés comme une malédiction, un garçon est abandonné à la naissance par sa mère. Des années plus tard, Aden croise le chemins de sa soeur Soanja et se découvre de nombreux points communs avec elle. Mais celle-ci tombe malade.</desc>
@@ -139560,6 +139937,274 @@ D'autres salariés n'ont pas ce problème. C'est leur entreprise toute entière 
     <title lang="fr">The Historical Background</title>
     <desc lang="fr">Delve into the historical roots of major events and societal changes that have shaped human civilization. Through expert analysis, archival footage, and compelling storytelling, this documentary series uncovers the factors, decisions, and turning points behind the headlines. It offers viewers a thoughtful, detailed perspective on how past events influence the present and the world we live in today.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522000000 +0200" stop="20260522003000 +0200">
+    <title lang="fr">Tech care</title>
+    <desc lang="fr">Olivier Véran présente cette émission consacrée à la recherche, aux avancées technologiques et aux dernières innovations qui dessinent la santé de demain.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522003000 +0200" stop="20260522010000 +0200">
+    <title lang="fr">Mieux dans ma tête</title>
+    <desc lang="fr">Lâcher prise, retrouver l'estime de soi, réduire son stress, sortir d'une relation toxique, gérer son hypersensibilité : focus sur les moyens pour gérer au mieux sa santé mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522010000 +0200" stop="20260522013000 +0200">
+    <title lang="fr">Mieux avec eux</title>
+    <desc lang="fr">La vétérinaire Hélène Gateau met à l'honneur les liens entre la santé humaine et la présence animale et donne des conseils pour prendre soin des petits compagnons.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522013000 +0200" stop="20260522020000 +0200">
+    <title lang="fr">Tous engagés</title>
+    <desc lang="fr">Aidants, bénévoles dans les hôpitaux, secouristes dans des festivals : cette émission met en lumière ceux qui donnent de leur temps pour la santé des autres</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522020000 +0200" stop="20260522023000 +0200">
+    <title lang="fr">De l'autre côté du miroir</title>
+    <desc lang="fr">Combattante du cancer du sein, Alice Detollenaere part à la rencontre de tous ceux qui trouvent des solutions pour améliorer l'image de soi lorsque l'on affronte une maladie.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522023000 +0200" stop="20260522030000 +0200">
+    <title lang="fr">Singulières</title>
+    <desc lang="fr">Du baby blues à l'endométriose en passant par les risques cardio vasculaires, ce magazine d'information met l'accent sur la prévention en matière de santé des femmes.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522030000 +0200" stop="20260522033000 +0200">
+    <title lang="fr">Les combattants</title>
+    <desc lang="fr">Une émission qui donne la parole et met en lumière des jeunes ayant traversé et surmonté des épreuves touchant leur équilibre mental ou leur santé physique.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522033000 +0200" stop="20260522040000 +0200">
+    <title lang="fr">Mieux dans mon assiette</title>
+    <desc lang="fr">Féculents, plantes, sucres, gluten, additifs, allergènes : un magazine qui permet de découvrir les effets de tous ces aliments sur la santé physique et mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522040000 +0200" stop="20260522043000 +0200">
+    <title lang="fr">Planète santé</title>
+    <desc lang="fr">L'environnement se modifie et cela entraîne des répercussions sur la santé. Expliquer ces changements, leurs causes, leurs conséquences est l'objectif de ce magazine.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522043000 +0200" stop="20260522050000 +0200">
+    <title lang="fr">Seniors et alors ?</title>
+    <desc lang="fr">Gros plan sur les nouveaux besoins des seniors d'aujourd'hui, plus actifs, plus connectés, et qui ont bien l'intention de vieillir en forme sans se priver.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522050000 +0200" stop="20260522053000 +0200">
+    <title lang="fr">Handi et alors ?</title>
+    <desc lang="fr">Handicap visible ou invisible, toutes les différences sont explorées à travers des interviews et témoignages. Un magazine qui combat les idées reçues sur le handicap.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522053000 +0200" stop="20260522060000 +0200">
+    <title lang="fr">Tech care</title>
+    <desc lang="fr">Olivier Véran présente cette émission consacrée à la recherche, aux avancées technologiques et aux dernières innovations qui dessinent la santé de demain.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522060000 +0200" stop="20260522063000 +0200">
+    <title lang="fr">De l'autre côté du miroir</title>
+    <desc lang="fr">Combattante du cancer du sein, Alice Detollenaere part à la rencontre de tous ceux qui trouvent des solutions pour améliorer l'image de soi lorsque l'on affronte une maladie.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522063000 +0200" stop="20260522070000 +0200">
+    <title lang="fr">Mieux dans ma boîte</title>
+    <desc lang="fr">Le magazine qui met en avant les bonnes pratiques d'entreprise qui permettent de mieux accompagner les collaborateurs sur toutes leurs problématiques de santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522070000 +0200" stop="20260522073000 +0200">
+    <title lang="fr">Parentalité sans filtre</title>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522073000 +0200" stop="20260522080000 +0200">
+    <title lang="fr">Tech care</title>
+    <desc lang="fr">Olivier Véran présente cette émission consacrée à la recherche, aux avancées technologiques et aux dernières innovations qui dessinent la santé de demain.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522080000 +0200" stop="20260522083000 +0200">
+    <title lang="fr">Planète santé</title>
+    <desc lang="fr">L'environnement se modifie et cela entraîne des répercussions sur la santé. Expliquer ces changements, leurs causes, leurs conséquences est l'objectif de ce magazine.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522083000 +0200" stop="20260522090000 +0200">
+    <title lang="fr">Mieux dans mon assiette</title>
+    <desc lang="fr">Féculents, plantes, sucres, gluten, additifs, allergènes : un magazine qui permet de découvrir les effets de tous ces aliments sur la santé physique et mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522090000 +0200" stop="20260522093000 +0200">
+    <title lang="fr">Singulières</title>
+    <desc lang="fr">Du baby blues à l'endométriose en passant par les risques cardio vasculaires, ce magazine d'information met l'accent sur la prévention en matière de santé des femmes.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522093000 +0200" stop="20260522100000 +0200">
+    <title lang="fr">Seniors et alors ?</title>
+    <desc lang="fr">Gros plan sur les nouveaux besoins des seniors d'aujourd'hui, plus actifs, plus connectés, et qui ont bien l'intention de vieillir en forme sans se priver.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522100000 +0200" stop="20260522103000 +0200">
+    <title lang="fr">Tous engagés</title>
+    <desc lang="fr">Aidants, bénévoles dans les hôpitaux, secouristes dans des festivals : cette émission met en lumière ceux qui donnent de leur temps pour la santé des autres</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522103000 +0200" stop="20260522110000 +0200">
+    <title lang="fr">Mieux avec eux</title>
+    <desc lang="fr">La vétérinaire Hélène Gateau met à l'honneur les liens entre la santé humaine et la présence animale et donne des conseils pour prendre soin des petits compagnons.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522110000 +0200" stop="20260522113000 +0200">
+    <title lang="fr">Mieux dans ma tête</title>
+    <desc lang="fr">Lâcher prise, retrouver l'estime de soi, réduire son stress, sortir d'une relation toxique, gérer son hypersensibilité : focus sur les moyens pour gérer au mieux sa santé mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522113000 +0200" stop="20260522120000 +0200">
+    <title lang="fr">Mieux dans mon assiette</title>
+    <desc lang="fr">Féculents, plantes, sucres, gluten, additifs, allergènes : un magazine qui permet de découvrir les effets de tous ces aliments sur la santé physique et mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522120000 +0200" stop="20260522123000 +0200">
+    <title lang="fr">Mieux, ou bien ?</title>
+    <desc lang="fr">Fake news, histoire médicale, idées reçues, sport : Michel Cymes et ses chroniqueurs abordent la santé sous tous ses angles et décryptent l'actualité santé et bien-être.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522123000 +0200" stop="20260522123200 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522123200 +0200" stop="20260522130000 +0200">
+    <title lang="fr">La santé, c'est mon droit</title>
+    <desc lang="fr">Remboursements, accès aux soins, démarches administrative : l'émission décrypte les services auxquels chaque citoyen peut prétendre et les moyens pour y parvenir.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522130000 +0200" stop="20260522133000 +0200">
+    <title lang="fr">De l'autre côté du miroir</title>
+    <desc lang="fr">Combattante du cancer du sein, Alice Detollenaere part à la rencontre de tous ceux qui trouvent des solutions pour améliorer l'image de soi lorsque l'on affronte une maladie.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522133000 +0200" stop="20260522140000 +0200">
+    <title lang="fr">Mieux dans ma boîte</title>
+    <desc lang="fr">Le magazine qui met en avant les bonnes pratiques d'entreprise qui permettent de mieux accompagner les collaborateurs sur toutes leurs problématiques de santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522140000 +0200" stop="20260522142800 +0200">
+    <title lang="fr">Mieux dans ma tête</title>
+    <desc lang="fr">Lâcher prise, retrouver l'estime de soi, réduire son stress, sortir d'une relation toxique, gérer son hypersensibilité : focus sur les moyens pour gérer au mieux sa santé mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522142800 +0200" stop="20260522143000 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522143000 +0200" stop="20260522150000 +0200">
+    <title lang="fr">Mieux, ou bien ?</title>
+    <desc lang="fr">Fake news, histoire médicale, idées reçues, sport : Michel Cymes et ses chroniqueurs abordent la santé sous tous ses angles et décryptent l'actualité santé et bien-être.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522150000 +0200" stop="20260522153000 +0200">
+    <title lang="fr">Parentalité sans filtre</title>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522153000 +0200" stop="20260522160000 +0200">
+    <title lang="fr">Mieux avec eux</title>
+    <desc lang="fr">La vétérinaire Hélène Gateau met à l'honneur les liens entre la santé humaine et la présence animale et donne des conseils pour prendre soin des petits compagnons.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522160000 +0200" stop="20260522163000 +0200">
+    <title lang="fr">Tous engagés</title>
+    <desc lang="fr">Aidants, bénévoles dans les hôpitaux, secouristes dans des festivals : cette émission met en lumière ceux qui donnent de leur temps pour la santé des autres</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522163000 +0200" stop="20260522170000 +0200">
+    <title lang="fr">Mieux, ou bien ?</title>
+    <desc lang="fr">Fake news, histoire médicale, idées reçues, sport : Michel Cymes et ses chroniqueurs abordent la santé sous tous ses angles et décryptent l'actualité santé et bien-être.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522170000 +0200" stop="20260522173000 +0200">
+    <title lang="fr">Seniors et alors ?</title>
+    <desc lang="fr">Gros plan sur les nouveaux besoins des seniors d'aujourd'hui, plus actifs, plus connectés, et qui ont bien l'intention de vieillir en forme sans se priver.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522173000 +0200" stop="20260522180000 +0200">
+    <title lang="fr">Les combattants</title>
+    <desc lang="fr">Une émission qui donne la parole et met en lumière des jeunes ayant traversé et surmonté des épreuves touchant leur équilibre mental ou leur santé physique.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522180000 +0200" stop="20260522183000 +0200">
+    <title lang="fr">Singulières</title>
+    <desc lang="fr">Du baby blues à l'endométriose en passant par les risques cardio vasculaires, ce magazine d'information met l'accent sur la prévention en matière de santé des femmes.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522183000 +0200" stop="20260522190000 +0200">
+    <title lang="fr">Handi et alors ?</title>
+    <desc lang="fr">Handicap visible ou invisible, toutes les différences sont explorées à travers des interviews et témoignages. Un magazine qui combat les idées reçues sur le handicap.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522190000 +0200" stop="20260522193000 +0200">
+    <title lang="fr">Planète santé</title>
+    <desc lang="fr">L'environnement se modifie et cela entraîne des répercussions sur la santé. Expliquer ces changements, leurs causes, leurs conséquences est l'objectif de ce magazine.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522193000 +0200" stop="20260522200000 +0200">
+    <title lang="fr">Mieux, ou bien ?</title>
+    <desc lang="fr">Fake news, histoire médicale, idées reçues, sport : Michel Cymes et ses chroniqueurs abordent la santé sous tous ses angles et décryptent l'actualité santé et bien-être.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522200000 +0200" stop="20260522203000 +0200">
+    <title lang="fr">Mieux dans mon assiette</title>
+    <desc lang="fr">Féculents, plantes, sucres, gluten, additifs, allergènes : un magazine qui permet de découvrir les effets de tous ces aliments sur la santé physique et mentale.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522203000 +0200" stop="20260522203200 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522203200 +0200" stop="20260522210000 +0200">
+    <title lang="fr">La santé, c'est mon droit</title>
+    <desc lang="fr">Remboursements, accès aux soins, démarches administrative : l'émission décrypte les services auxquels chaque citoyen peut prétendre et les moyens pour y parvenir.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522210000 +0200" stop="20260522213000 +0200">
+    <title lang="fr">Tous engagés</title>
+    <desc lang="fr">Aidants, bénévoles dans les hôpitaux, secouristes dans des festivals : cette émission met en lumière ceux qui donnent de leur temps pour la santé des autres</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522213000 +0200" stop="20260522220000 +0200">
+    <title lang="fr">Mieux, ou bien ?</title>
+    <desc lang="fr">Fake news, histoire médicale, idées reçues, sport : Michel Cymes et ses chroniqueurs abordent la santé sous tous ses angles et décryptent l'actualité santé et bien-être.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522220000 +0200" stop="20260522223000 +0200">
+    <title lang="fr">De l'autre côté du miroir</title>
+    <desc lang="fr">Combattante du cancer du sein, Alice Detollenaere part à la rencontre de tous ceux qui trouvent des solutions pour améliorer l'image de soi lorsque l'on affronte une maladie.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522223000 +0200" stop="20260522223800 +0200">
+    <title lang="fr">En toute intimité</title>
+    <desc lang="fr">Michel Cymes et Adriana Karembeu démêlent les idées reçues et apportent des repères clairs pour mieux comprendre, préserver et vivre sa sexualité à chaque étape de la vie.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522223800 +0200" stop="20260522224200 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522224200 +0200" stop="20260522224900 +0200">
+    <title lang="fr">En toute intimité</title>
+    <desc lang="fr">Michel Cymes et Adriana Karembeu démêlent les idées reçues et apportent des repères clairs pour mieux comprendre, préserver et vivre sa sexualité à chaque étape de la vie.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522224900 +0200" stop="20260522225300 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522225300 +0200" stop="20260522230000 +0200">
+    <title lang="fr">En toute intimité</title>
+    <desc lang="fr">Michel Cymes et Adriana Karembeu démêlent les idées reçues et apportent des repères clairs pour mieux comprendre, préserver et vivre sa sexualité à chaque étape de la vie.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522230000 +0200" stop="20260522233000 +0200">
+    <title lang="fr">Tech care</title>
+    <desc lang="fr">Olivier Véran présente cette émission consacrée à la recherche, aux avancées technologiques et aux dernières innovations qui dessinent la santé de demain.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1334" start="20260522233000 +0200" stop="20260523000000 +0200">
+    <title lang="fr">Handi et alors ?</title>
+    <desc lang="fr">Handicap visible ou invisible, toutes les différences sont explorées à travers des interviews et témoignages. Un magazine qui combat les idées reçues sur le handicap.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
   </programme>
   <programme channel="oqee.1335" start="20260522020000 +0200" stop="20260522033000 +0200">
     <title lang="fr">Matinale d'sports</title>
@@ -142665,6 +143310,46 @@ Après des mois de négociation et pour la première fois, la police de Pékin a
     <title lang="fr">La Traque du Condor</title>
     <desc lang="fr">Une décennie après la chute de l'Allemagne nazie, un aviateur américain voyage à travers l'Amérique du Sud à la recherche de criminels de guerre.</desc>
   </programme>
+  <programme channel="oqee.1373" start="20260522072031 +0200" stop="20260522091815 +0200">
+    <title lang="fr">Sans retour</title>
+    <desc lang="fr">Lors d’un exercice en Louisiane, des soldats de la garde nationale affrontent des Cajuns après un tir à blanc mal compris. La riposte est meurtrière : les militaires sont traqués et abattus un à un, jusqu’à ce que seuls deux survivent.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522091816 +0200" stop="20260522111259 +0200">
+    <title lang="fr">The Adventurers</title>
+    <desc lang="fr">Les plus grands voleurs du monde unissent leurs forces pour réaliser le casse de leur vie. Mais lorsqu'ils sont poursuivis à travers toute l'Europe par un détective français de légende, ils vont devoir passer à la vitesse supérieure.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522111300 +0200" stop="20260522125435 +0200">
+    <title lang="fr">Drive or die</title>
+    <desc lang="fr">Michael, un jeune voleur de voitures, est recruté par la police pour infiltrer un gang de trafiquants de véhicules de luxe vers l’Afrique, mené par les cruels Charlie et Sammy.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522125436 +0200" stop="20260522151144 +0200">
+    <title lang="fr">Les Larmes du Soleil</title>
+    <desc lang="fr">Au Nigéria, la famille du Président vient d'être assassinée et une guerre civile est sur le point d'éclater. Un commando secret est envoyé aux confins de la jungle afin de faire évacuer Lena Kendriks. Mais le cours de la mission change lorsque celle-ci refuse de partir sans les villageois...</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522151145 +0200" stop="20260522164743 +0200">
+    <title lang="fr">Assaut sur l'Unité 33</title>
+    <desc lang="fr">Un hôpital pour vétérans est pris par des terroristes tandis que Jason, un vétéran décoré souffrant du SSPT, y voit un psy. Sa fille, sa femme, un général des chefs d'état-major interarmées et d'autres sont là. Jason est leur seul espoir.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522164744 +0200" stop="20260522182343 +0200">
+    <title lang="fr">Beyond The Law</title>
+    <desc lang="fr">Un ancien détective apprend le meurtre de son fils dont il s'est éloigné. Cela va le conduire à s'aventurer de nouveau dans les rues sombres qu'il connait si bien. Armé, dangereux et n'ayant rien à perdre, il doit affronter la mafia locale pour se venger.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522182344 +0200" stop="20260522201225 +0200">
+    <title lang="fr">Crazy Fist</title>
+    <desc lang="fr">Shanghai, ancien champion de MMA et héritier d'une société valant plusieurs milliards de dollars, s'est juré de ne plus jamais monter sur un ring après avoir tué son adversaire par accident lors de son dernier combat.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522201226 +0200" stop="20260522220118 +0200">
+    <title lang="fr">Espion et Demi</title>
+    <desc lang="fr">Lorsque le prototype d'un avion espion des plus sophistiqués est dérobé au gouvernement américain, l'agent Alex Scott, est appelé en urgence. Il doit faire équipe avec un civil, Kelly Robinson, champion du monde de boxe très suffisant et sûr de lui mais sans expérience de l'espionnage.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522220119 +0200" stop="20260522235043 +0200">
+    <title lang="fr">Feedback</title>
+    <desc lang="fr">Jarvis, animateur radio vedette, voit son émission virer au cauchemar quand deux hommes armés prennent le studio en otage. Leur but : révéler un scandale qui pourrait détruire sa carrière. Contraint de suivre leur script, Jarvis plonge dans une nuit sans retour.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260522235044 +0200" stop="20260523013311 +0200">
+    <title lang="fr">L'étranger</title>
+    <desc lang="fr">Lex Walker apprend que sa fille est morte. Se rendant à Los Angeles pour identifier le corps, il découvre que ce dernier n'est pas celui de sa fille ; il décide alors de mener son enquête.</desc>
+  </programme>
   <programme channel="oqee.1375" start="20260522012601 +0200" stop="20260522030949 +0200">
     <title lang="fr">Spectacles - S01E05</title>
     <desc lang="fr">Sur la scène du Splendid, Franck Dubosc revient avec un nouveau spectacle rempli d’anecdotes personnelles, de confidences hilarantes et de souvenirs (presque) vrais. Entre nostalgie, autodérision et improvisation, il raconte sa vie à sa façon : décalée, touchante et toujours irrésistiblement drôle.</desc>
@@ -142841,6 +143526,42 @@ Après des mois de négociation et pour la première fois, la police de Pékin a
     <title lang="fr">Vigilante</title>
     <desc lang="fr">Sadie, ancienne femme battue devenue experte en arts martiaux, aide les victimes de violences conjugales à échapper à leur tour à leurs bourreaux. Mais elle doit elle-même faire face à son passé, car elle ne pourra être totalement libre tant que vivra son ex-mari.</desc>
   </programme>
+  <programme channel="oqee.1385" start="20260522074834 +0200" stop="20260522093836 +0200">
+    <title lang="fr">Reservation Road</title>
+    <desc lang="fr">Cherchant à éviter un véhicule, Dwight, avocat, percute Josh, un jeune enfant, et prend la fuite. Ethan est détruit par la mort de son fils. Assoiffé de vengeance et déçu par la lenteur de la police, il décide de faire appel à un avocat pour traquer le coupable ...</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522093837 +0200" stop="20260522112938 +0200">
+    <title lang="fr">Amour &amp; Amnésie</title>
+    <desc lang="fr">Un homme tombe amoureux d'une femme qui souffre de graves troubles de la mémoire à court terme.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522112939 +0200" stop="20260522131658 +0200">
+    <title lang="fr">Qui a tué Maggie Moore(s)?</title>
+    <desc lang="fr">Le chef de police Sanders enquête sur les meurtres étranges de deux femmes portant le même nom et démêle un réseau de mensonges dans une petite ville.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522131659 +0200" stop="20260522151323 +0200">
+    <title lang="fr">Le meilleur des temps</title>
+    <desc lang="fr">Un perdant d’une petite ville est déterminé à avoir une autre chance de gagner un match de football.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522151324 +0200" stop="20260522174133 +0200">
+    <title lang="fr">Chevalier</title>
+    <desc lang="fr">Un jeune écuyer se lance dans une aventure qui va changer sa vie, lui faire gagner le cœur d'une belle jeune fille et secouer le monde médiéval.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522174134 +0200" stop="20260522195519 +0200">
+    <title lang="fr">Le Sourire De Mona Lisa</title>
+    <desc lang="fr">Julia Roberts, lauréate d'un Oscar, brille dans ce film au casting étourdissant : Kirsten Dunst, Julia Stiles, Maggie Gyllenhaal et l'oscarisée Marcia Gay Harden.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522195520 +0200" stop="20260522221303 +0200">
+    <title lang="fr">King Rising Au Nom Du Roi</title>
+    <desc lang="fr">Dans le royaume d'Ehb, un conflit sanglant fait rage entre le roi Konreid et Gallian, puissant sorcier des ombres. Un ancien maître d'armes, qui connait bien les ravages de la guerre, refuse de prendre part au combat. Jusqu'au jour où les créatures maléfique ss'en prennent à sa famille.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522221304 +0200" stop="20260522234956 +0200">
+    <title lang="fr">La famille Pickler</title>
+    <desc lang="fr">L'ambitieuse mère de famille Laura Pickler menait jusqu'à présent une vie parfaite à l'image de ses convictions politiques conservatrices : mariée à un champion de sculpture sur beurre, elle est sous les feux des projecteurs.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260522234957 +0200" stop="20260523014501 +0200">
+    <title lang="fr">Keeping Mum</title>
+    <desc lang="fr">Un pasteur préoccupé par l'écriture du sermon parfait ne voit pas que sa femme le trompe et que ses enfants préparent un mauvais coup.</desc>
+  </programme>
   <programme channel="oqee.1386" start="20260522001810 +0200" stop="20260522015758 +0200">
     <title lang="fr">L'Attaque des fourmis géantes</title>
     <desc lang="fr">Un groupe de rock has been veut tenter un comeback au festival de rock Coachella, dans le désert californien.
@@ -142858,6 +143579,42 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
     <title lang="fr">Le carrefour de l'amour</title>
     <desc lang="fr">Le carrefour de l’amour relate les vies de quatre collègues travaillant dans une grande surface. Quand un nouvel employé arrive pour quelques mois, tout va changer… pour le meilleur et pour le pire.</desc>
   </programme>
+  <programme channel="oqee.1386" start="20260522073103 +0200" stop="20260522095307 +0200">
+    <title lang="fr">Ride on</title>
+    <desc lang="fr">Lao Luo, un ancien cascadeur autrefois populaire ne vit que pour son cheval. Celui-ci est malheureusement impliqué dans un litige. Ne pouvant se résigner à la séparation, Lao n’a pas d’autre choix que de demander l’aide de sa fille avec qui il n’est plus en contact depuis de nombreuses années.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522095308 +0200" stop="20260522115928 +0200">
+    <title lang="fr">The Interview</title>
+    <desc lang="fr">Dave et son équipe ils découvrent que le dirigeant nord-coréen Kim Jong-un est un fan de leur show...</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522115929 +0200" stop="20260522134542 +0200">
+    <title lang="fr">Mauvaise connexion!</title>
+    <desc lang="fr">Un couple usé par le temps, Dan et Janice Dewerson, décide de s'organiser un week-end en amoureux en même temps qu'une " détox numérique ". Mais ce qui commence comme un séjour romantique et parfait va vite tourner à la catastrophe.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522134543 +0200" stop="20260522152511 +0200">
+    <title lang="fr">Hot Pursuit: En Cavale</title>
+    <desc lang="fr">Un flic reglo et plutôt tendu (Reese Witherspoon) tente de protéger l’veuve (Sofia Vergara) d'un boss de la drogue, alors qu’elles traversent le Texas poursuivies par des meurtriers et des flics véreux.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522152512 +0200" stop="20260522171152 +0200">
+    <title lang="fr">Love over distance</title>
+    <desc lang="fr">Evie a la trentaine, ambitieuse elle est prête à vivre la promotion de sa vie : un job à Rio de Janeiro ! Son petit ami a déjà fait ses valises, mais il s’avère que son patron a prévu des plans différents pour elle. Evie va être en charge d’un gros projet à Terneuzen, une petite ville de Hollande.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522171153 +0200" stop="20260522185845 +0200">
+    <title lang="fr">American Dreamer</title>
+    <desc lang="fr">Phil Loder est prof adjoint d'économie à Harvard. Son unique rêve est de posséder une maison mais cela semble hors de portée pour ce dernier... jusqu'à ce qu'une incroyable opportunité se présente à lui.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522185846 +0200" stop="20260522203525 +0200">
+    <title lang="fr">Un plan d'enfer</title>
+    <desc lang="fr">Trois gardes de sécurité d'un prestigieux musée conçoivent un plan rocambolesque pour voler les tableaux auxquels ils sont devenus très attachés avant leur transfert vers un autre musée.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522203526 +0200" stop="20260522222122 +0200">
+    <title lang="fr">Afternoon delight</title>
+    <desc lang="fr">Soucieuse de pimenter son mariage, Rachel emmène son mari  dans une boîte de strip-tease où ils y rencontrent, une strip-teaseuse et décide de l'embaucher comme nounou ...</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260522222123 +0200" stop="20260523000400 +0200">
+    <title lang="fr">The Beach Bum</title>
+    <desc lang="fr">The Beach Bum est une comédie trépidante et originale, réalisée par Harmony Korine, à qui l’on doit aussi Spring Breakers et Gummo, entre autres. Entourée d’un casting de stars, Korine signe une déclaration d’amour aux comédies de type « stoner » ainsi qu’à la beauté de la vie.</desc>
+  </programme>
   <programme channel="oqee.1387" start="20260522000545 +0200" stop="20260522015618 +0200">
     <title lang="fr">Coup de Foudre à Oxford</title>
     <desc lang="fr">Caro Drake, émotionnellement gardée, arrive à Oxford avec le seul objectif d'obtenir son doctorat, mais à travers une amitié turbulente avec un charmant jeune homme, Caro commence à s'ouvrir au mystère des nouvelles expériences, à la vulnérabilité et à l'amour.</desc>
@@ -142874,41 +143631,141 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
     <title lang="fr">Damoclès</title>
     <desc lang="fr">Éternels célibataires, multipliant les aventures sans lendemain, Hélène et Paul, la trentaine bien sonnée, vivent en colocation  dans un appartement parisien. Paul a décidé qu’il trouverait l’amour à l’ancienne, en se passant des sites de rencontre, tandis qu’Hélène surfe sans vergogne sur Tinder.</desc>
   </programme>
+  <programme channel="oqee.1387" start="20260522070036 +0200" stop="20260522085345 +0200">
+    <title lang="fr">Alone together</title>
+    <desc lang="fr">June, critique gastronomique, se rend dans le nord de l'État de New York pour une courte escapade romantique afin d'échapper à la pandémie qui sévit en ville.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522085346 +0200" stop="20260522111038 +0200">
+    <title lang="fr">Comment Savoir</title>
+    <desc lang="fr">Lisa ne vivait que pour sa passion du sport et du softball, mais sa soudaine exclusion de son club la laisse complètement désemparée. C’est alors qu’elle fait la connaissance de Matty, un joueur de baseball professionnel, séducteur invétéré plutôt nombriliste...</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522111039 +0200" stop="20260522130203 +0200">
+    <title lang="fr">Life or Something Like It</title>
+    <desc lang="fr">Lanie est une journaliste télé ambitieuse, convaincue qu'avoir la plus parfaite des coiffures, le plus beau des amants et le plus luxueux des appartements est ce qui rend véritablement heureux...</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522130204 +0200" stop="20260522144047 +0200">
+    <title lang="fr">Allumeuses!</title>
+    <desc lang="fr">Trois amies croquent la vie à pleines dents et n'ont pas besoin d'hommes pour être heureuses. Jusqu'au jour où l'une d'entre elles tombe amoureuse... Christina s'est toujours efforcée de respecter une règle d'or en matière de mecs: "Eviter toute relation sérieuse avec le sexe opposé".</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522144048 +0200" stop="20260522161323 +0200">
+    <title lang="fr">Un amour au poil</title>
+    <desc lang="fr">Lors d'une fête pour chiots, Hailey rencontre le père célibataire Ryan.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522161324 +0200" stop="20260522180425 +0200">
+    <title lang="fr">Amour &amp; Amnésie</title>
+    <desc lang="fr">Un homme tombe amoureux d'une femme qui souffre de graves troubles de la mémoire à court terme.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522180426 +0200" stop="20260522200538 +0200">
+    <title lang="fr">The Nest</title>
+    <desc lang="fr">Dans les années 1980, Rory, un ancien courtier devenu un ambitieux entrepreneur, convainc Allison, son épouse américaine, et leurs deux enfants de quitter le confort d’une banlieue cossue des États-Unis pour s’installer en Angleterre, son pays de naissance.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522200539 +0200" stop="20260522214918 +0200">
+    <title lang="fr">Camping, Love and Therapy</title>
+    <desc lang="fr">Pour sauver son mariage, Jack Spencer accepte de partager une escapade amoureuse avec sa femme Amanda. Mais à leur arrivée, ils découvrent que l’endroit qu’ils avaient réservé a été loué en même temps à un couple de hippies en lune de miel et à un beau gosse célibataire.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522214919 +0200" stop="20260522234334 +0200">
+    <title lang="fr">Le Livre de l'Amour</title>
+    <desc lang="fr">Henry et Penny vivent à la Nouvelle-Orléans et forment un couple très amoureux, jusqu'à ce que la tragédie frappe. Henry est alors contraint de se reconstruire. Après s'être lié d'amitié avec une adolescente à la rue revêche, il décide de l'aider à construire un radeau pour traverser l'Atlantique.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260522234335 +0200" stop="20260523013118 +0200">
+    <title lang="fr">Embrassez le marié!</title>
+    <desc lang="fr">Matt et Ryan étaient amants au lycée. Dix ans plus tard, Matt reçoit une invitation au mariage de Ryan et de sa future épouse Alex. D'abord stupéfait de par l'annonce du mariage, il repart dans sa ville natale afin d'essayer de renouer un contact avec son amour de jeunesse.</desc>
+  </programme>
   <programme channel="oqee.1388" start="20260522004209 +0200" stop="20260522012956 +0200">
     <title lang="fr">Mensonges</title>
-    <desc lang="fr">La directrice de la Villa Bellevie, une maison de retraite, a été assassinée. Julie interroge une infirmière qui a récemment été renvoyée de l'institution.</desc>
+    <desc lang="fr">Julie Beauchemin est une enquêtrice exceptionnelle, capable de résoudre les mystères les plus complexes sans jamais quitter les bureaux de la brigade. En dépit de son rôle majeur dans la brigade, elle a une peur pathologique des cadavres, du sang et des armes.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522012957 +0200" stop="20260522021744 +0200">
     <title lang="fr">Mensonges</title>
-    <desc lang="fr">La directrice de la Villa Bellevie, une maison de retraite, a été assassinée. Julie interroge une infirmière qui a récemment été renvoyée de l'institution.</desc>
+    <desc lang="fr">Julie Beauchemin est une enquêtrice exceptionnelle, capable de résoudre les mystères les plus complexes sans jamais quitter les bureaux de la brigade. En dépit de son rôle majeur dans la brigade, elle a une peur pathologique des cadavres, du sang et des armes.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522021745 +0200" stop="20260522031149 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Deux professeurs respectés du Dartmouth College, Half et Susanne Zantop, sont brutalement poignardés et laissés pour morts dans le bureau de leur maison du New Hampshire.</desc>
+    <desc lang="fr">Lorsqu'une jeune femme de 25 ans disparaît du quartier des bars de Portland, dans le Maine, sa mère soupçonne immédiatement un acte criminel et lance une campagne d'affichage signalant sa disparition.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522031150 +0200" stop="20260522040552 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Deux professeurs respectés du Dartmouth College, Half et Susanne Zantop, sont brutalement poignardés et laissés pour morts dans le bureau de leur maison du New Hampshire.</desc>
+    <desc lang="fr">Lorsqu'une jeune femme de 25 ans disparaît du quartier des bars de Portland, dans le Maine, sa mère soupçonne immédiatement un acte criminel et lance une campagne d'affichage signalant sa disparition.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522040553 +0200" stop="20260522050746 +0200">
     <title lang="fr">Criminal Milan</title>
-    <desc lang="fr">29 septembre 1984 : Angelo Epaminonda, parrain de la Mafia, est arrêté après des années de cavale. Ses déclarations révèlent l'histoire du Milan des années 70.</desc>
+    <desc lang="fr">La bande de la Comasina naît, la plus célèbre bande de braqueurs d'Italie, dirigée par Renato Vallanzasca. Le « beau René » trouve en Achille Serra son adversaire idéal.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522050747 +0200" stop="20260522053348 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Dans une ville de carte postale de la côte Est, une veuve de 80 ans est sauvagement assassinée lors d'un rituel macabre. Les preuves indiquent que le tueur lui a arraché le cœur et a bu son sang. </desc>
+    <desc lang="fr">Alors que les inspecteurs enquêtent sur l'affaire d'un agresseur à l'acide, ils découvrent un corps dans une benne à ordures et un plan absurde d'échange d'identité.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522053349 +0200" stop="20260522055950 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Dans une ville de carte postale de la côte Est, une veuve de 80 ans est sauvagement assassinée lors d'un rituel macabre. Les preuves indiquent que le tueur lui a arraché le cœur et a bu son sang. </desc>
+    <desc lang="fr">Alors que les inspecteurs enquêtent sur l'affaire d'un agresseur à l'acide, ils découvrent un corps dans une benne à ordures et un plan absurde d'échange d'identité.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522055951 +0200" stop="20260522063156 +0200">
     <title lang="fr">Expert Witness</title>
-    <desc lang="fr">Ce programme révèle l'expertise en imagerie médico-légale qui a permis la capture éventuelle de Michael Hardacre, le "Déchireur de Rochdale". À l'été 2000, une série d'attaques à Rochdale a terrifié une communauté. La police a lancé une enquête majeure mais avait peu d'éléments à exploiter.</desc>
+    <desc lang="fr">Avec tant de techniques médico-légales disponibles, les détectives et les experts peuvent parfois être en désaccord sur la meilleure façon de rechercher des preuves.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260522063157 +0200" stop="20260522070357 +0200">
     <title lang="fr">Expert Witness</title>
-    <desc lang="fr">Ce programme révèle l'expertise en imagerie médico-légale qui a permis la capture éventuelle de Michael Hardacre, le "Déchireur de Rochdale". À l'été 2000, une série d'attaques à Rochdale a terrifié une communauté. La police a lancé une enquête majeure mais avait peu d'éléments à exploiter.</desc>
+    <desc lang="fr">Avec tant de techniques médico-légales disponibles, les détectives et les experts peuvent parfois être en désaccord sur la meilleure façon de rechercher des preuves.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522070358 +0200" stop="20260522081035 +0200">
+    <title lang="fr">Agathe Koltès</title>
+    <desc lang="fr">Le corps d'un pilote d’une compagnie maritime est retrouvé enchevêtré dans les filins de la bouée de son bateau.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522081036 +0200" stop="20260522091459 +0200">
+    <title lang="fr">Agathe Koltès</title>
+    <desc lang="fr">Le corps d'un pilote d’une compagnie maritime est retrouvé enchevêtré dans les filins de la bouée de son bateau.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522091500 +0200" stop="20260522102121 +0200">
+    <title lang="fr">Bron</title>
+    <desc lang="fr">Les enquêteurs découvrent que le propriétaire de l'épave était aussi celui du navire échoué. Alors que le travail d'identification des squelettes s'annonce ardu, l'explosion d'une usine de produits chimiques fait réapparaitre la signature du réseau écoterroriste.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522102122 +0200" stop="20260522112749 +0200">
+    <title lang="fr">Bron</title>
+    <desc lang="fr">Les enquêteurs découvrent que le propriétaire de l'épave était aussi celui du navire échoué. Alors que le travail d'identification des squelettes s'annonce ardu, l'explosion d'une usine de produits chimiques fait réapparaitre la signature du réseau écoterroriste.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522112750 +0200" stop="20260522123502 +0200">
+    <title lang="fr">The Fall</title>
+    <desc lang="fr">Gibson met la famille de Spector sous surveillance, tandis que ce dernier provoque la jeune femme en envahissant sa vie privée.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522123503 +0200" stop="20260522134057 +0200">
+    <title lang="fr">The Fall</title>
+    <desc lang="fr">Gibson met la famille de Spector sous surveillance, tandis que ce dernier provoque la jeune femme en envahissant sa vie privée.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522134058 +0200" stop="20260522152107 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Plusieurs femmes sont retrouvées égorgées selon le même mode opératoire mais aucun indice ne transparaît. Le parquet envoie en renfort Cyril Casteaux, criminologue, et très vite un homme fasciné par les serial killers est découvert. Celui-ci nie toute implication.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522152108 +0200" stop="20260522170024 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Plusieurs femmes sont retrouvées égorgées selon le même mode opératoire mais aucun indice ne transparaît. Le parquet envoie en renfort Cyril Casteaux, criminologue, et très vite un homme fasciné par les serial killers est découvert. Celui-ci nie toute implication.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522170025 +0200" stop="20260522175434 +0200">
+    <title lang="fr">Dead Still</title>
+    <desc lang="fr">Des jeunes gens associés dans le commerce de photos grivoises se suicident les uns après les autres. Le dernier décès semble impliquer Brock Blennerhasset, mais les théories de Regan sont moquées par ses collègues.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522175435 +0200" stop="20260522184424 +0200">
+    <title lang="fr">Sthlm Requiem</title>
+    <desc lang="fr">Un prêtre et sa femme, qui travaillent avec des réfugiés, sont assassinés dans leur maison et une série de braquages ​​est liée aux meurtres, mais comment et pourquoi ? Pendant ce temps, le mariage d'Alex est en difficulté.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522184425 +0200" stop="20260522193446 +0200">
+    <title lang="fr">Sthlm Requiem</title>
+    <desc lang="fr">Un prêtre et sa femme, qui travaillent avec des réfugiés, sont assassinés dans leur maison et une série de braquages ​​est liée aux meurtres, mais comment et pourquoi ? Pendant ce temps, le mariage d'Alex est en difficulté.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522193447 +0200" stop="20260522212833 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Plusieurs femmes sont retrouvées égorgées selon le même mode opératoire mais aucun indice ne transparaît. Le parquet envoie en renfort Cyril Casteaux, criminologue, et très vite un homme fasciné par les serial killers est découvert. Celui-ci nie toute implication.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522212834 +0200" stop="20260522222527 +0200">
+    <title lang="fr">Diane, Femme flic</title>
+    <desc lang="fr">Adrien Beaulieu provoque un scandale dans une maternité en affirmant être le père d’un bébé né sous X, puis agresse un infirmier avant d’être expulsé. Le lendemain, il est retrouvé mort, frappé à la nuque. Diane enquête, interroge les témoins à la clinique et cherche à rencontrer la mère de l’enfant</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522222528 +0200" stop="20260522231901 +0200">
+    <title lang="fr">Diane, Femme flic</title>
+    <desc lang="fr">Adrien Beaulieu provoque un scandale dans une maternité en affirmant être le père d’un bébé né sous X, puis agresse un infirmier avant d’être expulsé. Le lendemain, il est retrouvé mort, frappé à la nuque. Diane enquête, interroge les témoins à la clinique et cherche à rencontrer la mère de l’enfant</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260522231902 +0200" stop="20260523001158 +0200">
+    <title lang="fr">Diane, Femme flic</title>
+    <desc lang="fr">Adrien Beaulieu provoque un scandale dans une maternité en affirmant être le père d’un bébé né sous X, puis agresse un infirmier avant d’être expulsé. Le lendemain, il est retrouvé mort, frappé à la nuque. Diane enquête, interroge les témoins à la clinique et cherche à rencontrer la mère de l’enfant</desc>
   </programme>
   <programme channel="oqee.1389" start="20260522000200 +0200" stop="20260522000600 +0200">
     <title lang="fr">Wrong&amp;right</title>
@@ -155593,7 +156450,7 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
   </programme>
   <programme channel="oqee.484" start="20260522060000 +0200" stop="20260522080000 +0200">
     <title lang="fr">Yabancı Damat</title>
-    <desc lang="fr">Ege'nin samimi kasabalarında geçen hikâyede, Türk bir genç kız ile Yunan bir gencin sınırları aşan aşkı anlatılır. İki ailenin kültürel farklılıkları, geleneklere bağlılıkları ve zaman zaman komik çatışmaları, çiftin ilişkisini hem zorlar hem de güçlendirir. Dizide, dostluk, aile bağları, önyargılarla yüzleşme ve aşkın birleştirici gücü sıcak ve duygusal bir tonla ekrana yansır.</desc>
+    <desc lang="fr">Birbirine âşık olan iki genç, farklı kültürlerden gelen ailelerinin baskıları ve önyargılarıyla mücadele etmek zorunda kalır. Gelenekler, alışkanlıklar ve aile bağları arasında sıkışan çift, ilişkilerini korumaya çalışırken hem duygusal hem de eğlenceli olaylar yaşanır. Hikâye boyunca sevginin birleştirici gücü, anlayışın önemi ve farklı kültürlerin aslında birbirini tamamlayabileceği sıcak bir anlatımla izleyiciye sunulur.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.484" start="20260522080000 +0200" stop="20260522100000 +0200">
@@ -164927,7 +165784,17 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
     <desc lang="fr">Live headlines, breaking news, analysis and interviews from Europe's News Centre.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.812" start="20260522010000 +0200" stop="20260522014500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260522010000 +0200" stop="20260522020000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260522014500 +0200" stop="20260522020000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -164947,10 +165814,20 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
     <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.812" start="20260522041500 +0200" stop="20260522045700 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20260522041500 +0200" stop="20260522050000 +0200">
     <title lang="fr">Lecţii de viaţă</title>
     <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260522045700 +0200" stop="20260522093000 +0200">
+    <title lang="fr">Ştirile Pro TV</title>
+    <desc lang="fr">De luni până vineri, jurnalul de ştiri de dimineaţă curge în cascade, cu informaţii adunate după miezul nopţii, cu reportaje realizate în zori sau cu o serie de repere ale zilei în curs.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.812" start="20260522050000 +0200" stop="20260522093000 +0200">
     <title lang="fr">Ştirile ProTv</title>
@@ -164965,6 +165842,11 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260522130000 +0200" stop="20260522140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.812" start="20260522130000 +0200" stop="20260522131500 +0200">
     <title lang="fr">Teleshopping</title>
@@ -165000,10 +165882,30 @@ Mais, à la nuit tombée, leur manque de respect pour la nature va se retourner 
     <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.812" start="20260522180000 +0200" stop="20260522190000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260522180000 +0200" stop="20260522193000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260522190000 +0200" stop="20260522192500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260522192500 +0200" stop="20260522193000 +0200">
+    <title lang="fr">Vremea</title>
+    <desc lang="fr">Prognoza meteo actualizată oferă informații esențiale despre evoluția vremii la nivel național și internațional: temperaturi, precipitații, fenomene extreme și tendințe pentru zilele următoare. Prezentată clar și concis, rubrica meteo îi ajută pe telespectatori să își planifice activitățile zilnice în funcție de condițiile atmosferice.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.812" start="20260522193000 +0200" stop="20260523000000 +0200">
+    <title lang="fr">Românii au talent</title>
+    <desc lang="fr">Fiecare vineri seară va scoate la iveală momente nemaiîntâlnite, care vor ține telespectatorii cu sufletul la gură. Dinamismul show-ului va fi întreținut de gazdele emisiunii Smiley şi Pavel Bartoş, care vor fi în permanență alături de concurenți și îi vor susține mai energic ca niciodată.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.812" start="20260522193000 +0200" stop="20260522233000 +0200">
     <title lang="fr">Românii au talent</title>
