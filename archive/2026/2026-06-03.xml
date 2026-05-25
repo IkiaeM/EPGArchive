@@ -640,6 +640,10 @@
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
   </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
+  </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
@@ -868,9 +872,17 @@
     <display-name>W-Sport</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3115/w256"/>
   </channel>
+  <channel id="oqee.1173">
+    <display-name>SciFi</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3831/w256"/>
+  </channel>
   <channel id="oqee.1174">
     <display-name>Bravo</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3833/w256"/>
+  </channel>
+  <channel id="oqee.1201">
+    <display-name>Redlight HD</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3185/w256"/>
   </channel>
   <channel id="oqee.1202">
     <display-name>Private HD</display-name>
@@ -935,6 +947,10 @@
   <channel id="oqee.1334">
     <display-name>Mieux TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3586/w256"/>
+  </channel>
+  <channel id="oqee.1371">
+    <display-name>Desire TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3682/w256"/>
   </channel>
   <channel id="oqee.1372">
     <display-name>Fashion TV Secrets</display-name>
@@ -2899,7 +2915,7 @@
   </programme>
   <programme channel="Arte.de" start="20260603112500 +0200" stop="20260603115500 +0200">
     <title lang="fr">Le patrimoine architectural italien en péril</title>
-    <desc lang="fr">Du lundi au vendredi, un reportage raconte les Européens dans toute leur diversité.</desc>
+    <desc lang="fr">L'Italie se flatte d'être un musée à ciel ouvert. Mais l'effondrement d'une tour médiévale, la Torre dei Conti, à Rome, le 3 novembre 2025, rappelle la fragilité du patrimoine architectural italien. Faute d'investissements publics, des initiatives privées tentent de sauver cet héritage qui s'effondre dans l'indifférence.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Arte.de" start="20260603115500 +0200" stop="20260603122500 +0200">
@@ -2974,7 +2990,7 @@
   </programme>
   <programme channel="Arte.de" start="20260603194000 +0200" stop="20260603201500 +0200">
     <title lang="fr">Donner son rein à un inconnu</title>
-    <desc lang="fr">Du lundi au vendredi, un reportage raconte les Européens dans toute leur diversité.</desc>
+    <desc lang="fr">Aux Pays-Bas, le don croisé de reins permet à des duos incompatibles de trouver des donneurs compatibles grâce à un logiciel dédié. Jusqu'à huit opérations peuvent être réalisées le même jour : chacun donne à un inconnu et reçoit un rein compatible. Roy Rodgers, 49 ans, et sa mère Vera, 70 ans, en ont bénéficié. L'Allemagne va autoriser ce système de don croisé.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Arte.de" start="20260603201500 +0200" stop="20260603214500 +0200">
@@ -3073,7 +3089,7 @@
   </programme>
   <programme channel="Arte.fr" start="20260603130000 +0200" stop="20260603133500 +0200">
     <title lang="fr">Donner son rein à un inconnu</title>
-    <desc lang="fr">Du lundi au vendredi, un reportage raconte les Européens dans toute leur diversité.</desc>
+    <desc lang="fr">Aux Pays-Bas, le don croisé de reins permet à des duos incompatibles de trouver des donneurs compatibles grâce à un logiciel dédié. Jusqu'à huit opérations peuvent être réalisées le même jour : chacun donne à un inconnu et reçoit un rein compatible. Roy Rodgers, 49 ans, et sa mère Vera, 70 ans, en ont bénéficié. L'Allemagne va autoriser ce système de don croisé.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="Arte.fr" start="20260603133500 +0200" stop="20260603142000 +0200">
@@ -4843,7 +4859,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260603041000 +0200" stop="20260603042000 +0200">
     <title lang="fr">Batwheels - S01E35</title>
-    <desc lang="fr">Flamme peut enfin faire sa première mission en solo. Il veut se débrouiller seul, il est très confiant, peut-être trop... Mais heureusement, Bibi veille et elle est là quand il a besoin d'aide.</desc>
+    <desc lang="fr">Tous les Batwheels ont été capturés par la Légion du Vroum. Pour aller les secourir, Bam va recevoir l'aide d'Adam, l'ancien modèle de Batmobile.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260603042000 +0200" stop="20260603043000 +0200">
@@ -5028,7 +5044,7 @@
   </programme>
   <programme channel="Boing.fr" start="20260603101500 +0200" stop="20260603102500 +0200">
     <title lang="fr">Batwheels - S02E19</title>
-    <desc lang="fr">Flamme rate l'occasion d'empêcher Poison Ivy de concrétiser ses plans maléfiques parce qu'il veut attirer l'attention sur lui. Il va apprendre de son erreur.</desc>
+    <desc lang="fr">Bibi fait une incursion dans le monde merveilleux du Magicien d'Oz. Elle y rencontre des véhicules qui ne lui sont pas inconnus et embarque dans une folle aventure qui la conduira jusqu'au Magicien...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Boing.fr" start="20260603102500 +0200" stop="20260603103500 +0200">
@@ -6513,7 +6529,7 @@
   </programme>
   <programme channel="CanalJ.fr" start="20260603072500 +0200" stop="20260603074000 +0200">
     <title lang="fr">Sonic Boom - S02E48</title>
-    <desc lang="fr">Eggman et Steve transforment leurs vacances en famille sur Roboken en plan machiavélique. Mighton et Bolts appellent Sonic et ses amis à l'aide.</desc>
+    <desc lang="fr">Afin d'éviter la faillite du centre sportif local, Sonic affronte le docteur Eggman dans un match de foot qui peut s'avérer décisif pour sa survie.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalJ.fr" start="20260603074000 +0200" stop="20260603075000 +0200">
@@ -6588,17 +6604,17 @@
   </programme>
   <programme channel="CanalJ.fr" start="20260603122500 +0200" stop="20260603124000 +0200">
     <title lang="fr">Sonic Boom - S02E32</title>
-    <desc lang="fr">Avec l'aide de son plus petit robot, le docteur Eggman décide d'attaquer Sonic.</desc>
+    <desc lang="fr">Un animal menacé d'extinction s'installe chez Sonic. Il ne peut pas s'en débarrasser à cause des multiples réglementations qui protègent cet affreux et malodorant animal.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalJ.fr" start="20260603124000 +0200" stop="20260603125000 +0200">
     <title lang="fr">Sonic Boom - S02E33</title>
-    <desc lang="fr">Tails va tout faire pour prouver que le Boufoot, créature mythique, existe réellement.</desc>
+    <desc lang="fr">Les robots de toute la planète sont devenus mauvais. Sonic et Tails voyagent vers la Ville dans les nuages pour tenter de trouver de l'aide.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalJ.fr" start="20260603125000 +0200" stop="20260603130500 +0200">
     <title lang="fr">Sonic Boom - S02E34</title>
-    <desc lang="fr">Avec l'aide des Froglodytes qu'il a asservi, Eggman se lance à la recherche d'un cristal qui doit alimenter son exo-squelette géant.</desc>
+    <desc lang="fr">Alors que les garçons sont partis, Amy et Sticks se font un week-end entre filles. Quand Belinda apprend que la bande n'est pas là, elle en profite pour attaquer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CanalJ.fr" start="20260603130500 +0200" stop="20260603131500 +0200">
@@ -8900,7 +8916,7 @@
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260603140500 +0200" stop="20260603141000 +0200">
     <title lang="fr">Teen Titans Go ! - S04E45</title>
-    <desc lang="fr">Aujourd'hui, c'est l'anniversaire de la naissance de l'amitié entre Changelin et Cyborg. Robin trouve ça ridicule. On ne fête pas ce genre d'anniversaire puisque ce n'est pas une vraie naissance. Et pourtant, si : lorsqu'une amitié naît, un petit être apparaît. Cela semble être une surprise pour Robin qui n'avait jamais vu ça, et pour cause…</desc>
+    <desc lang="fr">Les Teen Titans sont très inquiets : s'ils ne mettent pas la main sur les scénaristes de la série pour qu'ils écrivent un nouvel épisode, ils disparaîtront. Mais après 199 épisodes, les scénaristes de Teen Titans Go sont épuisés. Ils refusent de travailler à un deux-centième épisode. Les Teen Titans doivent prendre les choses en main et réaliser eux-mêmes cet épisode...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="CartoonNetwork.fr" start="20260603141000 +0200" stop="20260603142500 +0200">
@@ -11542,7 +11558,7 @@
   </programme>
   <programme channel="DiscoveryChannel.fr" start="20260603032500 +0200" stop="20260603041000 +0200">
     <title lang="fr">Au cœur des douanes : Suède - S03E10</title>
-    <desc lang="fr">En immersion au plus près dans le quotidien de douaniers dévoués qui contrôlent chaque jour les frontières terrestres, portuaires et aéroportuaires de la Suède, pour en assurer sa sécurité.</desc>
+    <desc lang="fr">Les services de douanes à la frontière suédoise surveillent l'entrée de marchandises interdites dans le pays. À eux de détecter les contrevenants.</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="DiscoveryChannel.fr" start="20260603041000 +0200" stop="20260603043500 +0200">
@@ -20341,8 +20357,8 @@
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="Gulli.fr" start="20260603175000 +0200" stop="20260603185500 +0200">
-    <title lang="fr">Un dîner presque parfait</title>
-    <desc lang="fr">Mêlant art de recevoir, cuisine et décoration, cinq candidats habitant dans la même ville doivent, à tour de rôle, inviter à dîner les quatre autres.</desc>
+    <title lang="fr">Un dîner presque parfait - S05E12</title>
+    <desc lang="fr">Pour cette édition de " Tout les oppose ", les cinq candidats ont un seul point commun : ils adorent leur cuisine. Quant à la cuisine de leurs concurrents, ils risquent de la détester ! Florian, Julien, Anna, Patrick et Jordie ayant chacun leur régime alimentaire bien spécial, il va être compliqué de faire plaisir à tout le monde !</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="Gulli.fr" start="20260603185500 +0200" stop="20260603200000 +0200">
@@ -21135,6 +21151,407 @@
     <title lang="fr">Au Quotidien</title>
     <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603050000 +0200" stop="20260603050500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603050500 +0200" stop="20260603052300 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603052300 +0200" stop="20260603054100 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603054100 +0200" stop="20260603060000 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603060000 +0200" stop="20260603063000 +0200">
+    <title lang="fr">Auto legend</title>
+    <desc lang="fr">Ce programme mensuel produit par TIME UP PROD va à la rencontre des plus grands collectionneurs de voitures anciennes d'exception ! Une émission présentée par la chroniqueuse Angélique Rayssiguier (TéléFoot, Lci, Equipe 21) et Morgan Moulin Traffort, pilote professionnel champion de France de Grand Tourisme 2013 au coté de Fabien Barthès chez Ferrari !</desc>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603063000 +0200" stop="20260603064500 +0200">
+    <title lang="fr">20 ans déjà !</title>
+    <desc lang="fr">Petit retour en arrière sur un fait d'actualité qui s'est déroulé il y a 20 ans. Un extrait de journal tout en images de Canal 8. Si près et si loin à la fois.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603064500 +0200" stop="20260603065400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603065400 +0200" stop="20260603070000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603070000 +0200" stop="20260603070500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603070500 +0200" stop="20260603071400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603071400 +0200" stop="20260603072000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603072000 +0200" stop="20260603072500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603072500 +0200" stop="20260603073400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603073400 +0200" stop="20260603074000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603074000 +0200" stop="20260603074500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603074500 +0200" stop="20260603075400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603075400 +0200" stop="20260603080000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603080000 +0200" stop="20260603080500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603080500 +0200" stop="20260603081400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603081400 +0200" stop="20260603082000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603082000 +0200" stop="20260603082500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603082500 +0200" stop="20260603083400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603083400 +0200" stop="20260603084000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603084000 +0200" stop="20260603084500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603084500 +0200" stop="20260603085400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603085400 +0200" stop="20260603090000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603090000 +0200" stop="20260603090500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603090500 +0200" stop="20260603092300 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603092300 +0200" stop="20260603094100 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603094100 +0200" stop="20260603100000 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603100000 +0200" stop="20260603103000 +0200">
+    <title lang="fr">Auto legend</title>
+    <desc lang="fr">Ce programme mensuel produit par TIME UP PROD va à la rencontre des plus grands collectionneurs de voitures anciennes d'exception ! Une émission présentée par la chroniqueuse Angélique Rayssiguier (TéléFoot, Lci, Equipe 21) et Morgan Moulin Traffort, pilote professionnel champion de France de Grand Tourisme 2013 au coté de Fabien Barthès chez Ferrari !</desc>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603103000 +0200" stop="20260603104500 +0200">
+    <title lang="fr">20 ans déjà !</title>
+    <desc lang="fr">Petit retour en arrière sur un fait d'actualité qui s'est déroulé il y a 20 ans. Un extrait de journal tout en images de Canal 8. Si près et si loin à la fois.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603104500 +0200" stop="20260603105400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603105400 +0200" stop="20260603110000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603110000 +0200" stop="20260603110500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603110500 +0200" stop="20260603112300 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603112300 +0200" stop="20260603114100 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603114100 +0200" stop="20260603120000 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603120000 +0200" stop="20260603123000 +0200">
+    <title lang="fr">Auto legend</title>
+    <desc lang="fr">Ce programme mensuel produit par TIME UP PROD va à la rencontre des plus grands collectionneurs de voitures anciennes d'exception ! Une émission présentée par la chroniqueuse Angélique Rayssiguier (TéléFoot, Lci, Equipe 21) et Morgan Moulin Traffort, pilote professionnel champion de France de Grand Tourisme 2013 au coté de Fabien Barthès chez Ferrari !</desc>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603123000 +0200" stop="20260603124500 +0200">
+    <title lang="fr">20 ans déjà !</title>
+    <desc lang="fr">Petit retour en arrière sur un fait d'actualité qui s'est déroulé il y a 20 ans. Un extrait de journal tout en images de Canal 8. Si près et si loin à la fois.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603124500 +0200" stop="20260603125400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603125400 +0200" stop="20260603130000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603130000 +0200" stop="20260603130500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603130500 +0200" stop="20260603132300 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603132300 +0200" stop="20260603134100 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603134100 +0200" stop="20260603140000 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603140000 +0200" stop="20260603143000 +0200">
+    <title lang="fr">Auto legend</title>
+    <desc lang="fr">Ce programme mensuel produit par TIME UP PROD va à la rencontre des plus grands collectionneurs de voitures anciennes d'exception ! Une émission présentée par la chroniqueuse Angélique Rayssiguier (TéléFoot, Lci, Equipe 21) et Morgan Moulin Traffort, pilote professionnel champion de France de Grand Tourisme 2013 au coté de Fabien Barthès chez Ferrari !</desc>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603143000 +0200" stop="20260603150000 +0200">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603150000 +0200" stop="20260603153000 +0200">
+    <title lang="fr">1, 2, 3 dansez</title>
+    <desc lang="fr">Chaque semaine, l'animateur Pierre-Yves Lombard et son chroniqueur programmateur Jérôme Richard reçoivent les meilleurs accordéonistes de France.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603153000 +0200" stop="20260603160000 +0200">
+    <title lang="fr">1, 2, 3 musette</title>
+    <desc lang="fr">Cette émission de 26', entièrement consacrée à l'accordéon, vous présente chaque semaine des artistes et vous fait découvrir de nouveaux talents.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603160000 +0200" stop="20260603163000 +0200">
+    <title lang="fr">1, 2, 3 dansez</title>
+    <desc lang="fr">Chaque semaine, l'animateur Pierre-Yves Lombard et son chroniqueur programmateur Jérôme Richard reçoivent les meilleurs accordéonistes de France.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603163000 +0200" stop="20260603164500 +0200">
+    <title lang="fr">20 ans déjà !</title>
+    <desc lang="fr">Petit retour en arrière sur un fait d'actualité qui s'est déroulé il y a 20 ans. Un extrait de journal tout en images de Canal 8. Si près et si loin à la fois.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603164500 +0200" stop="20260603165400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603165400 +0200" stop="20260603170000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603170000 +0200" stop="20260603170500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603170500 +0200" stop="20260603172300 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603172300 +0200" stop="20260603174100 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603174100 +0200" stop="20260603180000 +0200">
+    <title lang="fr">Plus belle ma Sarthe</title>
+    <desc lang="fr">Bruno PALMET reçoit une commune pour en découvrir les atouts avec ses acteurs. Puis, il retrouve Pascal MARIETTE pour approfondir la découverte du patrimoine, les patoisants de Heulà !. Enfin, il consacre la dernière partie de l'émission à une rencontre avec un invité remarquable</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603180000 +0200" stop="20260603183000 +0200">
+    <title lang="fr">Auto legend</title>
+    <desc lang="fr">Ce programme mensuel produit par TIME UP PROD va à la rencontre des plus grands collectionneurs de voitures anciennes d'exception ! Une émission présentée par la chroniqueuse Angélique Rayssiguier (TéléFoot, Lci, Equipe 21) et Morgan Moulin Traffort, pilote professionnel champion de France de Grand Tourisme 2013 au coté de Fabien Barthès chez Ferrari !</desc>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603183000 +0200" stop="20260603184500 +0200">
+    <title lang="fr">L'Invité.e Business</title>
+    <desc lang="fr">Entretien exclusif avec des entrepreneur.es des Pays de la Loire qui racontent leur(s) histoire(s), leur parcours, leur quotidien et les convictions qui les animent. Emission préparée et présentée par Clément LESSORT.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603184500 +0200" stop="20260603185400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603185400 +0200" stop="20260603190000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603190000 +0200" stop="20260603190500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603190500 +0200" stop="20260603192300 +0200">
+    <title lang="fr">Championne</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603192300 +0200" stop="20260603194100 +0200">
+    <title lang="fr">Éco-Scopie</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603194100 +0200" stop="20260603200000 +0200">
+    <title lang="fr">Place du marché</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603200000 +0200" stop="20260603203000 +0200">
+    <title lang="fr">Ci né ma</title>
+    <desc lang="fr">Soyez informés d'événements culturels récents et de tout ce qui se passe dans le domaine du théâtre et du cinéma!</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603203000 +0200" stop="20260603204500 +0200">
+    <title lang="fr">L'Invité.e Business</title>
+    <desc lang="fr">Entretien exclusif avec des entrepreneur.es des Pays de la Loire qui racontent leur(s) histoire(s), leur parcours, leur quotidien et les convictions qui les animent. Emission préparée et présentée par Clément LESSORT.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603204500 +0200" stop="20260603205400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603205400 +0200" stop="20260603210000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603210000 +0200" stop="20260603210500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603210500 +0200" stop="20260603212300 +0200">
+    <title lang="fr">Championne</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603212300 +0200" stop="20260603214100 +0200">
+    <title lang="fr">Éco-Scopie</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603214100 +0200" stop="20260603220000 +0200">
+    <title lang="fr">Place du marché</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603220000 +0200" stop="20260603223000 +0200">
+    <title lang="fr">Ci né ma</title>
+    <desc lang="fr">Soyez informés d'événements culturels récents et de tout ce qui se passe dans le domaine du théâtre et du cinéma!</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603223000 +0200" stop="20260603224500 +0200">
+    <title lang="fr">L'Invité.e Business</title>
+    <desc lang="fr">Entretien exclusif avec des entrepreneur.es des Pays de la Loire qui racontent leur(s) histoire(s), leur parcours, leur quotidien et les convictions qui les animent. Emission préparée et présentée par Clément LESSORT.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603224500 +0200" stop="20260603225400 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603225400 +0200" stop="20260603230000 +0200">
+    <title lang="fr">Au Quotidien</title>
+    <desc lang="fr">Chaque soir à 18h30, le journal co-présenté par Aurélien LEGENDRE et un journaliste de la rédaction. L'occasion de prendre connaissance chaque jour de l'essentiel de l'actualité en Sarthe. Politique, culture, sports, patrimoine, faits divers, justice, innovation, économie… : des reportages et un invité chaque soir pour savoir, découvrir et comprendre.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603230000 +0200" stop="20260603230500 +0200">
+    <title lang="fr">2 min pour comprendre</title>
+    <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
+    <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603230500 +0200" stop="20260603232300 +0200">
+    <title lang="fr">Championne</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603232300 +0200" stop="20260603234100 +0200">
+    <title lang="fr">Éco-Scopie</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="LMTVSarthe.fr" start="20260603234100 +0200" stop="20260604003000 +0200">
+    <title lang="fr">Place du marché</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="LaChaineMeteo.fr" start="20260603070000 +0200" stop="20260603090000 +0200">
     <title lang="fr">Non-stop</title>
@@ -25116,7 +25533,7 @@
   </programme>
   <programme channel="Nickelodeon.be" start="20260603074500 +0200" stop="20260603080900 +0200">
     <title lang="fr">Bienvenue chez les Loud - S08E15</title>
-    <desc lang="fr">Leur bus en panne, les Loud passent la nuit dans le château sinistre d'un couple étrange. // En visite au Parthénon, Lincoln enfile un casque de soldat qui le renvoie dans la Grèce antique.</desc>
+    <desc lang="fr">En Transylvanie, le bus des Loud tombe en panne. La famille se voit alors contrainte de passer la nuit dans le château d'un couple étrange.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Nickelodeon.be" start="20260603080900 +0200" stop="20260603083200 +0200">
@@ -25136,7 +25553,7 @@
   </programme>
   <programme channel="Nickelodeon.be" start="20260603090300 +0200" stop="20260603092900 +0200">
     <title lang="fr">Bob l'éponge - S11E20</title>
-    <desc lang="fr">M. Krabs commence à se méfier de tout lorsque Plankton n'essaie plus de lui voler la recette secrète. Patrick découvre les livres et se goinfre de connaissances.</desc>
+    <desc lang="fr">Marqué par le cancer de Cindy, Herrmann tente de devenir un meilleur époux. Kidd sympathise avec un sans-abri. Kylie passe les examens du concours de pompier. Brett est mise à rude épreuve lors d'une intervention...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Nickelodeon.be" start="20260603092900 +0200" stop="20260603094400 +0200">
@@ -25196,7 +25613,7 @@
   </programme>
   <programme channel="Nickelodeon.be" start="20260603134600 +0200" stop="20260603141000 +0200">
     <title lang="fr">Bienvenue chez les Loud - S10E07</title>
-    <desc lang="fr">"Opération : déménagement". Lance et Sharon déménageront-ils à Royal Woods ? - "Surentraîneuse personnelle". Lynn devient entraîneuse au club de gym de son oncle.</desc>
+    <desc lang="fr">Pour avoir meilleure réputation, Stella veut prouver qu'elle n'est pas la chouchou de la maîtresse. Lori envisage une nouvel avenir lorsque son patron lui dit qu'une carrière l'attend au Café Brûlé.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Nickelodeon.be" start="20260603141000 +0200" stop="20260603143200 +0200">
@@ -25211,7 +25628,7 @@
   </programme>
   <programme channel="Nickelodeon.be" start="20260603145700 +0200" stop="20260603151800 +0200">
     <title lang="fr">Bob l'éponge - S13E10</title>
-    <desc lang="fr">"Capitaine Minus". Plankton rejoint le clan des méchants. - "Bora Bora Bottom". Bob et Patrick prennent l'avion avec Carlo pour rejoindre une station balnéaire.</desc>
+    <desc lang="fr">L'équipe de la caserne 51 est appelée à intervenir pour une crise qui a lieu dans un centre communautaire. Alors que Severide n'a pas d'autre choix que d'enquêter sur un membre de la brigade, Kidd apporte son aide à un enseignant qui souffre d'un syndrome sévère de stress post-traumatique...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="Nickelodeon.be" start="20260603151800 +0200" stop="20260603152900 +0200">
@@ -26284,7 +26701,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260603072000 +0200" stop="20260603072700 +0200">
     <title lang="fr">Masha et Michka - S07E13</title>
-    <desc lang="fr">Youpi, c'est le retour de Masha et Michka ! "Avec leurs nouveaux amis, ils vont s'embarquer dans des aventures hautes en couleurs, aussi drôles qu'inattendues.</desc>
+    <desc lang="fr">Pour le nouvel an, Michka offre un jouet musical à Masha. Au début, tout le monde apprécie la jolie mélodie, mais finit par se lasser d'entendre toujours le même air.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260603072700 +0200" stop="20260603073600 +0200">
@@ -26404,7 +26821,7 @@
   </programme>
   <programme channel="PIWI.fr" start="20260603113000 +0200" stop="20260603114200 +0200">
     <title lang="fr">Super Wings, paré au décollage ! - S06E08</title>
-    <desc lang="fr">Henri se voit offrir un camion-jouet par son père. Il se salit. Son père demande l'aide aux SuperWings lorsque le lave-auto de sa ville tombe en panne.</desc>
+    <desc lang="fr">Laerke veut mettre au point une vieille locomotive à vapeur, Lauge, afin qu'il puisse rejoindre ses amis au musée ferroviaire danois. Jett livre un kit de réparation de train et ils mettent leur plan en route.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="PIWI.fr" start="20260603114200 +0200" stop="20260603115400 +0200">
@@ -31099,6 +31516,11 @@
     <title lang="fr">Un dimanche à la campagne</title>
     <desc lang="fr">Ils ont répondu à l'invitation de Frédéric Lopez : inoubliable Fleur de Lys dans "Notre-Dame de Paris", la chanteuse Julie Zenatti a démarré très jeune sur scène. Raphaël Mezrahi a piégé plus d'une centaine de stars avec ses vraies-fausses interviews devenues culte. Le journaliste Ismaël Khelifa, quant à lui, a deux passions : les voyages et les rencontres.</desc>
     <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="TV5MondeInfo.fr" start="20260603000000 +0200" stop="20260603003000 +0200">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
   </programme>
   <programme channel="TVPitchoun.fr" start="20260603000000 +0200" stop="20260603000300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
@@ -43226,6 +43648,35 @@
     <desc lang="fr">Serie A Women is the highest league of women's football in Italy. Watch</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
+  <programme channel="oqee.1173" start="20260603002500 +0200" stop="20260603011000 +0200">
+    <title lang="fr">Heroes - S04E09</title>
+    <desc lang="fr">Gretchen est agressée aux abattoirs. Claire réussit à la sauver et se met à la recherche de Rebecca, persuadée que c'est elle la responsable. C'est Samuel qui révèle à Claire que cette jeune fille a vu son père être assassiné sous ses yeux quand elle avait 5 ans. Noah et Rebecca ont une confrontation. Pendant ce temps, Sylar veut se servir de Matt pour aller à New York. Plus tard, il a des rêves et des flashs de la vie de Nathan. Peter utilise son nouveau pouvoir pendant son travail...</desc>
+    <category lang="fr">Série / Série fantastique</category>
+  </programme>
+  <programme channel="oqee.1173" start="20260603011000 +0200" stop="20260603020000 +0200">
+    <title lang="fr">Stargate Atlantis - S02E19</title>
+    <desc lang="fr">Sheppard et son équipe se rendent sur la planète Taranis afin de réparer le bouclier de protection. McKay réalise rapidement que le générateur puise son énergie dans un volcan. Trop sollicité par les habitants de la planète, le volcan ne tarde pas à entrer en éruption et menace d'exterminer la moitié du continent. Weir parvient à ramener un groupe de Taraniens sur Atlantis grâce à la Porte des étoiles, mais celle-ci disparaît dans le néant à la suite d'un tremblement de terre. Il ne reste qu'une solution : rapatrier le peuple de Taranis à bord du Dédale. Au vu du nombre d'habitants, Sheppard et McKay vont devoir effectuer plusieurs trajets, au péril de leur vie...</desc>
+    <category lang="fr">Série / Série de science-fiction</category>
+  </programme>
+  <programme channel="oqee.1173" start="20260603020000 +0200" stop="20260603024500 +0200">
+    <title lang="fr">Stargate Atlantis - S02E20</title>
+    <desc lang="fr">Un vaisseau-ruche Wraith entre en contact avec Atlantis. Michael, qui fait partie d'un groupe de rebelles, explique à Weir qu'il souhaite sceller avec eux une alliance. En effet, les Wraith sont en guerre civile et Michael envisage d'inoculer à ses ennemis le rétrovirus mis au point par le docteur Beckett. D'abord méfiante, Weir accepte la proposition. Sheppard et son équipe travaillent en étroite collaboration avec les Wraith et obtiennent une encyclopédie de données sur leur peuple. Au cours d'un essai, les membres d'Atlantis tombent dans un piège et comprennent que l'alliance était en fait une ruse permettant aux Wraith d'avoir accès aux coordonnées de la Terre...</desc>
+    <category lang="fr">Série / Série de science-fiction</category>
+  </programme>
+  <programme channel="oqee.1173" start="20260603024500 +0200" stop="20260603033500 +0200">
+    <title lang="fr">Stargate Atlantis - S03E01</title>
+    <desc lang="fr">Le Dédale remporte tant bien que mal la bataille contre les deux vaisseaux ruches tandis que Sheppard, dont le F302 a été attaqué, échappe de justesse à la mort. Il décide d'entreprendre une mission pour libérer McKay et Ronon, qui sont emprisonnés par les Wraith. Il reçoit l'aide inattendue de Michael, rejeté par les siens parce qu'il a été contaminé. Dans le même temps, Weir rentre du SGC et tente de mettre en place un plan d'attaque afin d'empêcher les vaisseaux ruches Wraith d'arriver sur Terre...</desc>
+    <category lang="fr">Série / Série de science-fiction</category>
+  </programme>
+  <programme channel="oqee.1173" start="20260603033500 +0200" stop="20260603042500 +0200">
+    <title lang="fr">Stargate Atlantis - S03E02</title>
+    <desc lang="fr">Sheppard et son équipe sont de retour à Atlantis en possession du vaisseau ruche Wraith dont ils se sont emparés pour s'échapper. Le docteur Weir présente au groupe Richard Woolsey, qui l'a accompagnée pour évaluer son travail à la tête de l'expédition. Les membres de l'équipe d'Atlantis doivent maintenant déterminer le sort qu'ils réservent aux 200 Wraith qui ont été capturés et humanisés par le docteur Beckett...</desc>
+    <category lang="fr">Série / Série de science-fiction</category>
+  </programme>
+  <programme channel="oqee.1173" start="20260603042500 +0200" stop="20260603054000 +0200">
+    <title lang="fr">Pause</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
   <programme channel="oqee.1174" start="20260603002000 +0200" stop="20260603010400 +0200">
     <title lang="fr">Below Deck Méditerranée - S07E10</title>
     <desc lang="fr">Storm devient maître d'équipage. Natalya partage ses frustrations avec un membre de l'équipage. Ils s'amusent dans une soirée inspirée des années 70.</desc>
@@ -43401,6 +43852,74 @@
     <desc lang="fr">L'équipage de pont tente de détacher une ancre emmêlée pendant que les invités font du paddle yoga. Storm réalise qu'il doit déléguer plus de tâches.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
+  <programme channel="oqee.1201" start="20260603010000 +0200" stop="20260603030000 +0200">
+    <title lang="fr">Tight Teen Tushies</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603030000 +0200" stop="20260603050500 +0200">
+    <title lang="fr">Afternoon Threeway</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603050500 +0200" stop="20260603070000 +0200">
+    <title lang="fr">Seduced By the Boss</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603070000 +0200" stop="20260603082500 +0200">
+    <title lang="fr">Dirty Secret Pov</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603082500 +0200" stop="20260603090000 +0200">
+    <title lang="fr">The Art Of Anal Sex 10-Jennifer White And Jojo Kiss</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603090000 +0200" stop="20260603102000 +0200">
+    <title lang="fr">Cock Cream Prescription</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603102000 +0200" stop="20260603110000 +0200">
+    <title lang="fr">Fantasstic Dp 5-Tina Kay</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603110000 +0200" stop="20260603121400 +0200">
+    <title lang="fr">Anal At the Pool</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603121400 +0200" stop="20260603130000 +0200">
+    <title lang="fr">Icons 2-Jessa Rhoades</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603130000 +0200" stop="20260603140400 +0200">
+    <title lang="fr">Dirty Grandpa</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603140400 +0200" stop="20260603150000 +0200">
+    <title lang="fr">After Dark-Tori Black And Adriana Chechik</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603150000 +0200" stop="20260603161200 +0200">
+    <title lang="fr">Anal Teen Angels 3</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603161200 +0200" stop="20260603170000 +0200">
+    <title lang="fr">Natural Beauties 9-Evelyn Claire Bree Daniels</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603170000 +0200" stop="20260603190000 +0200">
+    <title lang="fr">Young Pussy Paradise</title>
+    <category lang="fr">Magazine / Magazine de charme</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603190000 +0200" stop="20260603210100 +0200">
+    <title lang="fr">Curves For Day 2</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603210100 +0200" stop="20260603230200 +0200">
+    <title lang="fr">Street Whores 1</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1201" start="20260603230200 +0200" stop="20260604012100 +0200">
+    <title lang="fr">Aqua Teens</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
   <programme channel="oqee.1202" start="20260603015500 +0200" stop="20260603050000 +0200">
     <title lang="fr">Intimacy and Passion #4</title>
     <desc lang="fr">Today on Private, Lia Lin needs more than just company, she needs intimacy and passion, and along with Candee Licious, Stacy Cruz and Rebecca Volppeti, she's about to get it! Our fourth instalment of Intimacy &amp; Passion brings you and our girls nothing but great sex in some of the most intense couple's scenes that we've ever seen on www.private.com, and in the cases of Candee Licious and Rebecca Volppeti, there's an extra hint of anal passion too! Intimacy &amp; Passion Vol. 4, are you ready?</desc>
@@ -43410,6 +43929,26 @@
     <title lang="fr">Pilates Deep Sessions</title>
     <desc lang="fr">The hot brunette Athina needs to get in shape, so nothing better than an intensive course of Pilates. However, bearing in mind that the teacher is Juan Lucho, don't be surprised if the exercises will consist mainly of sucking and breathing, pelvic muscle development, wiggling, flexible hip movement and swallowing. We find Amirah Adara, Amber Nevada and the tremendous Alexa Tomas all in the same situation, although these girls really don't need to worry about their figures too much as they are already just perfect. The same goes for Jenny Glam but a bit of a work-out based on blowjobs and an occasional dose of anal sex never did anyone any harm!</desc>
     <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1208" start="20260603003700 +0200" stop="20260603020500 +0200">
+    <title lang="fr">Horizons lointains</title>
+    <desc lang="fr">Est-ce l'émotion due aux retrouvailles ? A peine Lilly a-t-elle fait la connaissance de son père que celui-ci succombe à une crise cardiaque. Sur son lit de mort, la jeune femme lui jure de se battre pour Kambonde. Plus tard, Lilly découvre qu'il lui a légué tous ses biens. Malgré les nombreuses dettes accumulées et la menace de désengagement de la banque, Lilly met tout en oeuvre pour continuer à faire vivre l'exploitation qui était si chère à son père...</desc>
+    <category lang="fr">Téléfilm / Téléfilm sentimental</category>
+  </programme>
+  <programme channel="oqee.1208" start="20260603020500 +0200" stop="20260603032300 +0200">
+    <title lang="fr">Vacances entre amies</title>
+    <desc lang="fr">Vicky Holmes semble avoir trouvé son rythme de croisière en amour et dans sa vie professionnelle. Cependant, quelques jours avant un voyage pour célébrer son anniversaire, elle est prise de court par la décision de son petit ami de déménager et de mettre fin à leur relation. Vicky décide alors d'emmener ses trois meilleures amies avec elle, pour une escapade entre filles à Trinidad. Le séjour va se révéler haut en couleurs...</desc>
+    <category lang="fr">Téléfilm / Téléfilm humoristique</category>
+  </programme>
+  <programme channel="oqee.1208" start="20260603032300 +0200" stop="20260603044200 +0200">
+    <title lang="fr">The Job</title>
+    <desc lang="fr">Lorsqu'Elizar Perla disparaît avec les pièces d'art qu'il a dérobées, le milieu se tourne vers sa fille Marty pour retrouver le butin. Pour arriver à ses fins, elle doit exécuter un plan aussi sournois qu'audacieux. Entre voleurs, le business est le business, la famille n'importe plus et il faudra en accepter les conséquences.</desc>
+    <category lang="fr">Téléfilm / Téléfilm de suspense</category>
+  </programme>
+  <programme channel="oqee.1208" start="20260603044200 +0200" stop="20260603055700 +0200">
+    <title lang="fr">Addiction</title>
+    <desc lang="fr">Deux frères évoluent de manière radicalement opposée...</desc>
+    <category lang="fr">Film / Drame</category>
   </programme>
   <programme channel="oqee.1208" start="20260603055700 +0200" stop="20260603072400 +0200">
     <title lang="fr">Binti</title>
@@ -43453,8 +43992,8 @@
   </programme>
   <programme channel="oqee.1208" start="20260603172900 +0200" stop="20260603192600 +0200">
     <title lang="fr">Joseph</title>
-    <desc lang="fr">Un médecin jamaïcain formé à la médecine occidentale et en conflit avec sa famille (dont tous les membres sont médecins) au sujet de sa croyance dans les bienfaits de la médecine traditionnelle, se rend au Ghana pour leur prouver qu'ils ont tort.</desc>
-    <category lang="fr">Film / Drame</category>
+    <desc lang="fr">Formé aux méthodes occidentales, Joseph King, un médecin jamaïcain, se retrouve embarqué dans un conflit avec les membres de sa propre famille, qui sont eux-mêmes tous médecins, lorsqu'il décide d'appliquer des méthodes traditionnelles, convaincu de leurs bienfaits. Bien décidé à leur prouver qu'ils ont tort, il décide de se rendre au Ghana afin de recueillir des indices qui pourraient conforter sa thèse...</desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
   </programme>
   <programme channel="oqee.1208" start="20260603192600 +0200" stop="20260603205900 +0200">
     <title lang="fr">Souvenirs en eaux troubles</title>
@@ -45586,6 +46125,321 @@
     <title lang="fr">Handi et alors ?</title>
     <desc lang="fr">Handicap visible ou invisible, toutes les différences sont explorées à travers des interviews et témoignages. Un magazine qui combat les idées reçues sur le handicap.</desc>
     <category lang="fr">Magazine / Magazine de la santé</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603000000 +0200" stop="20260603002400 +0200">
+    <title lang="fr">Her Shower Secret</title>
+    <desc lang="fr">Desire Fantasy: Her Shower Secret</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603002400 +0200" stop="20260603004300 +0200">
+    <title lang="fr">Sensual sex with skinny Russian</title>
+    <desc lang="fr">Smokin' hot brunette Katty West seductively removes her dressing robe in front of Johnny Oblong, who is mesmerized by the pierced babe's incredible body.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603004300 +0200" stop="20260603010800 +0200">
+    <title lang="fr">Man Versus Machine</title>
+    <desc lang="fr"> Tommy King is so excited to try out her new fucking machine, first sucking and slobbering all over the toy before she gets on her knees to feel it pump in and out of her wet pussy. When her bestie Kylie Rocket catches her, she shows Kylie how to use it, and the girls get so turned on they start kissing and licking each other too.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603010800 +0200" stop="20260603012900 +0200">
+    <title lang="fr">Wet Fantasy</title>
+    <desc lang="fr">Blonde Anna Claire Clouds shows off her perky tits and big, round ass in pink, strappy lingerie. Anna wants a big, hard cock and, lucky for her, Keiran Lee is there to give her one.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603012900 +0200" stop="20260603015100 +0200">
+    <title lang="fr">MILF Witches Part 3</title>
+    <desc lang="fr">It's Halloween night and three sexy MILF witches are on a mission for eternal youth!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603015100 +0200" stop="20260603021300 +0200">
+    <title lang="fr">Busy Beans Cafe</title>
+    <desc lang="fr">Alexis Fawx's favorite customer comes to her cafe alone after her boyfriend cancelled... again. The stunning Lacey London looks sadly at the menu, but after Alexis boosts her confidence with compliments and a kiss, she knows what she wants... Alexis!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603021300 +0200" stop="20260603023600 +0200">
+    <title lang="fr">Gym Routine Turns Raunchy</title>
+    <desc lang="fr">Ivy Ireland's pussy gets super wet as she works out in the gym, and when she notices Scott Nails getting his pump on nearby with his dick falling out of his shorts, she rolls over on her exercise ball and "accidentally" puts her mouth on it! There's no better way to get a guy's attention, and soon Scott is standing at attention as he watches her grind on the exercise bike. These two find a better way to work up a sweat as Ivy sucks Scott and grinds on his dick, then he pumps her pussy and ass!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603023600 +0200" stop="20260603025700 +0200">
+    <title lang="fr">Hot blonde squirting passion</title>
+    <desc lang="fr">Stunning blonde Cherry Kiss dons her tiniest booty shorts and summer shirt to give her man Steve a sultry dance performance before pushing him to the bed and hopping on to plant some sensual kisses on him.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603025700 +0200" stop="20260603031800 +0200">
+    <title lang="fr">Elegant beauty romanced by husband</title>
+    <desc lang="fr">Nicole and her husband Steve have planned this romantic night at home for just the two of them, and they're ready to enjoy each other to the fullest. Steve's hands roam over his wife's body in lacy lingerie, feeling every inch of her before following with his mouth.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603031800 +0200" stop="20260603034200 +0200">
+    <title lang="fr">Slugfest</title>
+    <desc lang="fr">Seductive, sexy, and trained to kill, Jasmine Jae is as tough as they come, as Danny D soon finds out after a night out with the hired assassin.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603034200 +0200" stop="20260603040400 +0200">
+    <title lang="fr">Romantic rendezvous in red</title>
+    <desc lang="fr">In this romantic setting, flame-haired babe Arian Joy seduces Michael Fly in sexy red lingerie, teasingly flashing her thong-clad booty. Aroused, Arian wordlessly approaches the well-hung stud and treats him to an invigorating blowjob before riding his long, thick dick cowgirl-style.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603040400 +0200" stop="20260603042800 +0200">
+    <title lang="fr">Machine Gunner - Episode 1</title>
+    <desc lang="fr">Black ops soldiers must be willing to get dirty and deploy every weapon at their disposal -including unconventional ones- to get the job done. Nobody knows that better than badass squad leader Nikki Ransom (Kira Noir), whose clandestine paramilitary unit is tasked with tracking down and capturing disgraced colonel Joe Riggs (Alex Jones).</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603042800 +0200" stop="20260603045100 +0200">
+    <title lang="fr">Booty Break</title>
+    <desc lang="fr">Fitspo influencer power couple Ricky Johnson and Cherie DeVille want to make sure you know how to stretch the right way, for the best health and flexibility, so they're showing you some of their favorite moves. But as Ricky stretches out hot blonde Cherie's curvy body, he can't keep his hands off his girl's big booty! When Ricky pulls down Cherie's leggings to see she's wearing a butt plug, the couple decide to keep this video all for themselves as he stretches Cherie's pussy and ass on camera.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603045100 +0200" stop="20260603051600 +0200">
+    <title lang="fr">Cub Hunter</title>
+    <desc lang="fr">MILF goddess Cherie Deville's having a perfect wifey morning, doing chores, making breakfast for her husband. Something's a bit off, though. Why are there scattered clothes and handcuffs in the living room? And who's that naked man in the pantry!? REWIND to the night before: lusty Cherie snuck out of the conjugal bed, put on some sultry clothes and headed out to the bar, hunting for hot cubs. The lucky Joan Loco has his dick sneakily sucked behind the bar counter before a barman kicks out the indecent couple. It's no surprise when Cherie brings Juan back to her place to completely satisfy her endless sexual appetite.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603051600 +0200" stop="20260603053900 +0200">
+    <title lang="fr">Taking Vanessa to the Sky</title>
+    <desc lang="fr">She's gorgeous, she's hot and she's horny. The dark-haired Vanessa Sky bends down for hunk Ricky Johnson and lets him slap her tight little butt. She wants his hands all over her and his dick deep down her eager throat. Vanessa's a sex queen and she knows it.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603053900 +0200" stop="20260603060400 +0200">
+    <title lang="fr">Horny blondes passionate lovemaking</title>
+    <desc lang="fr">Hot blonde lovers Jennifer Amilton and Steve Q rent a hotel room, and wearing matching white shirts, start making out. As passions rise, Steve pulls Jennifer onto his lap, and they kiss deeply and intensely.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603060400 +0200" stop="20260603062700 +0200">
+    <title lang="fr">Wedding Smashers Part 2</title>
+    <desc lang="fr">Lulu Chu, Jenna Foxx's ex-girlfriend, has taken a gig as her wedding photographer to get one last opportunity to scissor and lick her pussy. She just has to lay low and wait for Jenna's new stepmom to leave if she wants to play nice. Lulu finds a double ended dildo while hiding behind a changing screen and decides fuck playing nice! She crafts a gloryhole to give Jenna a naughty surprise. Jenna conceals her pleasure for as long as possible before throwing down with Lulu for some hardcore lesbian pre-wedding action.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603062700 +0200" stop="20260603065000 +0200">
+    <title lang="fr">Mind Games - Episode 2</title>
+    <desc lang="fr">After breaking a professional boundary with client Devin, therapist Liz (Sophia Locke) can't stop thinking about him and their hot sex... even in a session with other clients! Melanie (Charlie Forde) and Richard (Derrick Pierce) are constantly arguing over their mismatched sex drives, but even they notice Liz's attention wandering. Frustrated, Liz tells them to just hate-fuck already, and Melanie and Richard are shocked into trying it.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603065000 +0200" stop="20260603071300 +0200">
+    <title lang="fr">Big butt Latina deepthroat and fuck</title>
+    <desc lang="fr">Finally able to engage in some intimacy with Max after the rigors of everyday life, Canela Skin backs her big booty up on her beau in their bedroom. Grinding her ass into his cock and making him hard, Canela really puts her hips into it, turning Max on.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603071300 +0200" stop="20260603073600 +0200">
+    <title lang="fr">Facesitting lesbian spanks blonde</title>
+    <desc lang="fr">Clad in sexy pink lingerie, petite beauty Rika Fane gets spanked by raven-haired domme Adel Morel before the pair enjoy a lingering kiss. Pushing aside Rika's thong, big-boobed Adel rubs the Czech's tight pussy until it's dripping wet with desire, and then the blonde nymph returns the favour by kneeling in front of Adel and eating her out.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603073600 +0200" stop="20260603080000 +0200">
+    <title lang="fr">Bubble butt brunette beauty fucked</title>
+    <desc lang="fr">Amirah Amira has booked herself a session in the Massage Rooms and is ready for Max to give her a one way ticket to deep relaxation! Beginning with her neck and shoulders, Max works the kinks and knots out of Amirah's muscles, then soothes her back tension with his strong hands.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603080000 +0200" stop="20260603082400 +0200">
+    <title lang="fr">Her Shower Secret</title>
+    <desc lang="fr">Desire Fantasy: Her Shower Secret</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603082400 +0200" stop="20260603084300 +0200">
+    <title lang="fr">Sensual sex with skinny Russian</title>
+    <desc lang="fr">Smokin' hot brunette Katty West seductively removes her dressing robe in front of Johnny Oblong, who is mesmerized by the pierced babe's incredible body.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603084300 +0200" stop="20260603090800 +0200">
+    <title lang="fr">Man Versus Machine</title>
+    <desc lang="fr"> Tommy King is so excited to try out her new fucking machine, first sucking and slobbering all over the toy before she gets on her knees to feel it pump in and out of her wet pussy. When her bestie Kylie Rocket catches her, she shows Kylie how to use it, and the girls get so turned on they start kissing and licking each other too.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603090800 +0200" stop="20260603092900 +0200">
+    <title lang="fr">Wet Fantasy</title>
+    <desc lang="fr">Blonde Anna Claire Clouds shows off her perky tits and big, round ass in pink, strappy lingerie. Anna wants a big, hard cock and, lucky for her, Keiran Lee is there to give her one.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603092900 +0200" stop="20260603095100 +0200">
+    <title lang="fr">MILF Witches Part 3</title>
+    <desc lang="fr">It's Halloween night and three sexy MILF witches are on a mission for eternal youth!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603095100 +0200" stop="20260603101300 +0200">
+    <title lang="fr">Busy Beans Cafe</title>
+    <desc lang="fr">Alexis Fawx's favorite customer comes to her cafe alone after her boyfriend cancelled... again. The stunning Lacey London looks sadly at the menu, but after Alexis boosts her confidence with compliments and a kiss, she knows what she wants... Alexis!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603101300 +0200" stop="20260603103600 +0200">
+    <title lang="fr">Gym Routine Turns Raunchy</title>
+    <desc lang="fr">Ivy Ireland's pussy gets super wet as she works out in the gym, and when she notices Scott Nails getting his pump on nearby with his dick falling out of his shorts, she rolls over on her exercise ball and "accidentally" puts her mouth on it! There's no better way to get a guy's attention, and soon Scott is standing at attention as he watches her grind on the exercise bike. These two find a better way to work up a sweat as Ivy sucks Scott and grinds on his dick, then he pumps her pussy and ass!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603103600 +0200" stop="20260603105700 +0200">
+    <title lang="fr">Hot blonde squirting passion</title>
+    <desc lang="fr">Stunning blonde Cherry Kiss dons her tiniest booty shorts and summer shirt to give her man Steve a sultry dance performance before pushing him to the bed and hopping on to plant some sensual kisses on him.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603105700 +0200" stop="20260603111800 +0200">
+    <title lang="fr">Elegant beauty romanced by husband</title>
+    <desc lang="fr">Nicole and her husband Steve have planned this romantic night at home for just the two of them, and they're ready to enjoy each other to the fullest. Steve's hands roam over his wife's body in lacy lingerie, feeling every inch of her before following with his mouth.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603111800 +0200" stop="20260603114200 +0200">
+    <title lang="fr">Slugfest</title>
+    <desc lang="fr">Seductive, sexy, and trained to kill, Jasmine Jae is as tough as they come, as Danny D soon finds out after a night out with the hired assassin.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603114200 +0200" stop="20260603120400 +0200">
+    <title lang="fr">Romantic rendezvous in red</title>
+    <desc lang="fr">In this romantic setting, flame-haired babe Arian Joy seduces Michael Fly in sexy red lingerie, teasingly flashing her thong-clad booty. Aroused, Arian wordlessly approaches the well-hung stud and treats him to an invigorating blowjob before riding his long, thick dick cowgirl-style.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603120400 +0200" stop="20260603122800 +0200">
+    <title lang="fr">Machine Gunner - Episode 1</title>
+    <desc lang="fr">Black ops soldiers must be willing to get dirty and deploy every weapon at their disposal -including unconventional ones- to get the job done. Nobody knows that better than badass squad leader Nikki Ransom (Kira Noir), whose clandestine paramilitary unit is tasked with tracking down and capturing disgraced colonel Joe Riggs (Alex Jones).</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603122800 +0200" stop="20260603125100 +0200">
+    <title lang="fr">Booty Break</title>
+    <desc lang="fr">Fitspo influencer power couple Ricky Johnson and Cherie DeVille want to make sure you know how to stretch the right way, for the best health and flexibility, so they're showing you some of their favorite moves. But as Ricky stretches out hot blonde Cherie's curvy body, he can't keep his hands off his girl's big booty! When Ricky pulls down Cherie's leggings to see she's wearing a butt plug, the couple decide to keep this video all for themselves as he stretches Cherie's pussy and ass on camera.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603125100 +0200" stop="20260603131600 +0200">
+    <title lang="fr">Cub Hunter</title>
+    <desc lang="fr">MILF goddess Cherie Deville's having a perfect wifey morning, doing chores, making breakfast for her husband. Something's a bit off, though. Why are there scattered clothes and handcuffs in the living room? And who's that naked man in the pantry!? REWIND to the night before: lusty Cherie snuck out of the conjugal bed, put on some sultry clothes and headed out to the bar, hunting for hot cubs. The lucky Joan Loco has his dick sneakily sucked behind the bar counter before a barman kicks out the indecent couple. It's no surprise when Cherie brings Juan back to her place to completely satisfy her endless sexual appetite.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603131600 +0200" stop="20260603133900 +0200">
+    <title lang="fr">Taking Vanessa to the Sky</title>
+    <desc lang="fr">She's gorgeous, she's hot and she's horny. The dark-haired Vanessa Sky bends down for hunk Ricky Johnson and lets him slap her tight little butt. She wants his hands all over her and his dick deep down her eager throat. Vanessa's a sex queen and she knows it.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603133900 +0200" stop="20260603140400 +0200">
+    <title lang="fr">Horny blondes passionate lovemaking</title>
+    <desc lang="fr">Hot blonde lovers Jennifer Amilton and Steve Q rent a hotel room, and wearing matching white shirts, start making out. As passions rise, Steve pulls Jennifer onto his lap, and they kiss deeply and intensely.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603140400 +0200" stop="20260603142700 +0200">
+    <title lang="fr">Wedding Smashers Part 2</title>
+    <desc lang="fr">Lulu Chu, Jenna Foxx's ex-girlfriend, has taken a gig as her wedding photographer to get one last opportunity to scissor and lick her pussy. She just has to lay low and wait for Jenna's new stepmom to leave if she wants to play nice. Lulu finds a double ended dildo while hiding behind a changing screen and decides fuck playing nice! She crafts a gloryhole to give Jenna a naughty surprise. Jenna conceals her pleasure for as long as possible before throwing down with Lulu for some hardcore lesbian pre-wedding action.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603142700 +0200" stop="20260603145000 +0200">
+    <title lang="fr">Mind Games - Episode 2</title>
+    <desc lang="fr">After breaking a professional boundary with client Devin, therapist Liz (Sophia Locke) can't stop thinking about him and their hot sex... even in a session with other clients! Melanie (Charlie Forde) and Richard (Derrick Pierce) are constantly arguing over their mismatched sex drives, but even they notice Liz's attention wandering. Frustrated, Liz tells them to just hate-fuck already, and Melanie and Richard are shocked into trying it.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603145000 +0200" stop="20260603151300 +0200">
+    <title lang="fr">Big butt Latina deepthroat and fuck</title>
+    <desc lang="fr">Finally able to engage in some intimacy with Max after the rigors of everyday life, Canela Skin backs her big booty up on her beau in their bedroom. Grinding her ass into his cock and making him hard, Canela really puts her hips into it, turning Max on.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603151300 +0200" stop="20260603153600 +0200">
+    <title lang="fr">Facesitting lesbian spanks blonde</title>
+    <desc lang="fr">Clad in sexy pink lingerie, petite beauty Rika Fane gets spanked by raven-haired domme Adel Morel before the pair enjoy a lingering kiss. Pushing aside Rika's thong, big-boobed Adel rubs the Czech's tight pussy until it's dripping wet with desire, and then the blonde nymph returns the favour by kneeling in front of Adel and eating her out.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603153600 +0200" stop="20260603160000 +0200">
+    <title lang="fr">Bubble butt brunette beauty fucked</title>
+    <desc lang="fr">Amirah Amira has booked herself a session in the Massage Rooms and is ready for Max to give her a one way ticket to deep relaxation! Beginning with her neck and shoulders, Max works the kinks and knots out of Amirah's muscles, then soothes her back tension with his strong hands.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603160000 +0200" stop="20260603162400 +0200">
+    <title lang="fr">Her Shower Secret</title>
+    <desc lang="fr">Desire Fantasy: Her Shower Secret</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603162400 +0200" stop="20260603164300 +0200">
+    <title lang="fr">Sensual sex with skinny Russian</title>
+    <desc lang="fr">Smokin' hot brunette Katty West seductively removes her dressing robe in front of Johnny Oblong, who is mesmerized by the pierced babe's incredible body.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603164300 +0200" stop="20260603170800 +0200">
+    <title lang="fr">Man Versus Machine</title>
+    <desc lang="fr"> Tommy King is so excited to try out her new fucking machine, first sucking and slobbering all over the toy before she gets on her knees to feel it pump in and out of her wet pussy. When her bestie Kylie Rocket catches her, she shows Kylie how to use it, and the girls get so turned on they start kissing and licking each other too.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603170800 +0200" stop="20260603172900 +0200">
+    <title lang="fr">Wet Fantasy</title>
+    <desc lang="fr">Blonde Anna Claire Clouds shows off her perky tits and big, round ass in pink, strappy lingerie. Anna wants a big, hard cock and, lucky for her, Keiran Lee is there to give her one.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603172900 +0200" stop="20260603175100 +0200">
+    <title lang="fr">MILF Witches Part 3</title>
+    <desc lang="fr">It's Halloween night and three sexy MILF witches are on a mission for eternal youth!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603175100 +0200" stop="20260603181300 +0200">
+    <title lang="fr">Busy Beans Cafe</title>
+    <desc lang="fr">Alexis Fawx's favorite customer comes to her cafe alone after her boyfriend cancelled... again. The stunning Lacey London looks sadly at the menu, but after Alexis boosts her confidence with compliments and a kiss, she knows what she wants... Alexis!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603181300 +0200" stop="20260603183600 +0200">
+    <title lang="fr">Gym Routine Turns Raunchy</title>
+    <desc lang="fr">Ivy Ireland's pussy gets super wet as she works out in the gym, and when she notices Scott Nails getting his pump on nearby with his dick falling out of his shorts, she rolls over on her exercise ball and "accidentally" puts her mouth on it! There's no better way to get a guy's attention, and soon Scott is standing at attention as he watches her grind on the exercise bike. These two find a better way to work up a sweat as Ivy sucks Scott and grinds on his dick, then he pumps her pussy and ass!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603183600 +0200" stop="20260603185700 +0200">
+    <title lang="fr">Hot blonde squirting passion</title>
+    <desc lang="fr">Stunning blonde Cherry Kiss dons her tiniest booty shorts and summer shirt to give her man Steve a sultry dance performance before pushing him to the bed and hopping on to plant some sensual kisses on him.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603185700 +0200" stop="20260603191800 +0200">
+    <title lang="fr">Elegant beauty romanced by husband</title>
+    <desc lang="fr">Nicole and her husband Steve have planned this romantic night at home for just the two of them, and they're ready to enjoy each other to the fullest. Steve's hands roam over his wife's body in lacy lingerie, feeling every inch of her before following with his mouth.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603191800 +0200" stop="20260603194200 +0200">
+    <title lang="fr">Slugfest</title>
+    <desc lang="fr">Seductive, sexy, and trained to kill, Jasmine Jae is as tough as they come, as Danny D soon finds out after a night out with the hired assassin.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603194200 +0200" stop="20260603200400 +0200">
+    <title lang="fr">Romantic rendezvous in red</title>
+    <desc lang="fr">In this romantic setting, flame-haired babe Arian Joy seduces Michael Fly in sexy red lingerie, teasingly flashing her thong-clad booty. Aroused, Arian wordlessly approaches the well-hung stud and treats him to an invigorating blowjob before riding his long, thick dick cowgirl-style.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603200400 +0200" stop="20260603202800 +0200">
+    <title lang="fr">Machine Gunner - Episode 1</title>
+    <desc lang="fr">Black ops soldiers must be willing to get dirty and deploy every weapon at their disposal -including unconventional ones- to get the job done. Nobody knows that better than badass squad leader Nikki Ransom (Kira Noir), whose clandestine paramilitary unit is tasked with tracking down and capturing disgraced colonel Joe Riggs (Alex Jones).</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603202800 +0200" stop="20260603205100 +0200">
+    <title lang="fr">Booty Break</title>
+    <desc lang="fr">Fitspo influencer power couple Ricky Johnson and Cherie DeVille want to make sure you know how to stretch the right way, for the best health and flexibility, so they're showing you some of their favorite moves. But as Ricky stretches out hot blonde Cherie's curvy body, he can't keep his hands off his girl's big booty! When Ricky pulls down Cherie's leggings to see she's wearing a butt plug, the couple decide to keep this video all for themselves as he stretches Cherie's pussy and ass on camera.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603205100 +0200" stop="20260603211600 +0200">
+    <title lang="fr">Cub Hunter</title>
+    <desc lang="fr">MILF goddess Cherie Deville's having a perfect wifey morning, doing chores, making breakfast for her husband. Something's a bit off, though. Why are there scattered clothes and handcuffs in the living room? And who's that naked man in the pantry!? REWIND to the night before: lusty Cherie snuck out of the conjugal bed, put on some sultry clothes and headed out to the bar, hunting for hot cubs. The lucky Joan Loco has his dick sneakily sucked behind the bar counter before a barman kicks out the indecent couple. It's no surprise when Cherie brings Juan back to her place to completely satisfy her endless sexual appetite.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603211600 +0200" stop="20260603213900 +0200">
+    <title lang="fr">Taking Vanessa to the Sky</title>
+    <desc lang="fr">She's gorgeous, she's hot and she's horny. The dark-haired Vanessa Sky bends down for hunk Ricky Johnson and lets him slap her tight little butt. She wants his hands all over her and his dick deep down her eager throat. Vanessa's a sex queen and she knows it.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603213900 +0200" stop="20260603220400 +0200">
+    <title lang="fr">Horny blondes passionate lovemaking</title>
+    <desc lang="fr">Hot blonde lovers Jennifer Amilton and Steve Q rent a hotel room, and wearing matching white shirts, start making out. As passions rise, Steve pulls Jennifer onto his lap, and they kiss deeply and intensely.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603220400 +0200" stop="20260603222700 +0200">
+    <title lang="fr">Wedding Smashers Part 2</title>
+    <desc lang="fr">Lulu Chu, Jenna Foxx's ex-girlfriend, has taken a gig as her wedding photographer to get one last opportunity to scissor and lick her pussy. She just has to lay low and wait for Jenna's new stepmom to leave if she wants to play nice. Lulu finds a double ended dildo while hiding behind a changing screen and decides fuck playing nice! She crafts a gloryhole to give Jenna a naughty surprise. Jenna conceals her pleasure for as long as possible before throwing down with Lulu for some hardcore lesbian pre-wedding action.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603222700 +0200" stop="20260603225000 +0200">
+    <title lang="fr">Mind Games - Episode 2</title>
+    <desc lang="fr">After breaking a professional boundary with client Devin, therapist Liz (Sophia Locke) can't stop thinking about him and their hot sex... even in a session with other clients! Melanie (Charlie Forde) and Richard (Derrick Pierce) are constantly arguing over their mismatched sex drives, but even they notice Liz's attention wandering. Frustrated, Liz tells them to just hate-fuck already, and Melanie and Richard are shocked into trying it.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603225000 +0200" stop="20260603231300 +0200">
+    <title lang="fr">Big butt Latina deepthroat and fuck</title>
+    <desc lang="fr">Finally able to engage in some intimacy with Max after the rigors of everyday life, Canela Skin backs her big booty up on her beau in their bedroom. Grinding her ass into his cock and making him hard, Canela really puts her hips into it, turning Max on.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603231300 +0200" stop="20260603233600 +0200">
+    <title lang="fr">Facesitting lesbian spanks blonde</title>
+    <desc lang="fr">Clad in sexy pink lingerie, petite beauty Rika Fane gets spanked by raven-haired domme Adel Morel before the pair enjoy a lingering kiss. Pushing aside Rika's thong, big-boobed Adel rubs the Czech's tight pussy until it's dripping wet with desire, and then the blonde nymph returns the favour by kneeling in front of Adel and eating her out.</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1371" start="20260603233600 +0200" stop="20260604000000 +0200">
+    <title lang="fr">Bubble butt brunette beauty fucked</title>
+    <desc lang="fr">Amirah Amira has booked herself a session in the Massage Rooms and is ready for Max to give her a one way ticket to deep relaxation! Beginning with her neck and shoulders, Max works the kinks and knots out of Amirah's muscles, then soothes her back tension with his strong hands.</desc>
+    <category lang="fr">Film / Film pornographique</category>
   </programme>
   <programme channel="oqee.1372" start="20260603000000 +0200" stop="20260603003000 +0200">
     <title lang="fr">Midnight Affairs</title>
@@ -48904,7 +49758,7 @@
   </programme>
   <programme channel="oqee.165" start="20260603082200 +0200" stop="20260603084400 +0200">
     <title lang="fr">Bob l'éponge - S11E07</title>
-    <desc lang="fr">"Pâtés contaminés". Une nouvelle recette de pâtés de crabe contamine les habitants de la ville. - "Mauvaise conduite". Plankton et M. Krabs se rendent de mauvaise grâce à une leçon de conduite...</desc>
+    <desc lang="fr">"L'homme-sirène et le Bernard l'Ermite VI : le film". Bob et Patrick décident de tourner leur propre film de super héros. - "Un plankton chez les Krabs". Maman Krabs se cherche un mari et jette son dévolu sur Plankton...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.165" start="20260603084400 +0200" stop="20260603090600 +0200">
@@ -49024,7 +49878,7 @@
   </programme>
   <programme channel="oqee.165" start="20260603160100 +0200" stop="20260603162300 +0200">
     <title lang="fr">Bob l'éponge - S12E09</title>
-    <desc lang="fr">Le réveil de Bob rend l'âme et aucun autre n'est capable de le sortir de son sommeil...</desc>
+    <desc lang="fr">Severide, Kidd et Van Meter enquêtent sur un incendie dans un studio d'enregistrement. Kylie aide James à cacher un secret à Boden. Mouch peine à maintenir des limites avec un patient du programme paramédical...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.165" start="20260603162300 +0200" stop="20260603164500 +0200">
@@ -49069,7 +49923,7 @@
   </programme>
   <programme channel="oqee.165" start="20260603182800 +0200" stop="20260603185000 +0200">
     <title lang="fr">Bob l'éponge - S06E05</title>
-    <desc lang="fr">"Les livreurs de pizzas". Carlo et Bob vont livrer une pizza à un client, mais ils se perdent en route. - "On a mangé ma maison". Bob est victime d'une invasion de vers gloutons, qui dévorent sa maison. Désespéré, il décide de retourner chez ses parents...</desc>
+    <desc lang="fr">Severide et Casey en arrivent à se disputer lors d'un sauvetage dangereux : un adolescent est empêtré dans du fil de fer barbelé et il s'agit de le secourir sans aggraver ses blessures. Brett sort en rendez-vous avec un médecin après un appel. Otis montre un nouvel outil à la caserne. Certains problèmes d'argent provoquent des tensions pour Hope, Brett et Stella...</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.165" start="20260603185000 +0200" stop="20260603190300 +0200">
@@ -55142,6 +55996,31 @@
     <desc lang="fr">In this series we get to know a very responsible bank employee who knows firsthand how important it is to have full control over any situation.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.49" start="20260603050000 +0200" stop="20260603050500 +0200">
+    <title lang="fr">Art Land</title>
+    <desc lang="fr">You will learn how to make a beautiful yet simple picture using some unusual techniques with your child. Take paints, crepe paper and scissors - and we'll end up with a lilac.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260603051000 +0200" stop="20260603052000 +0200">
+    <title lang="fr">Crafty Hands - S02E24</title>
+    <desc lang="fr">Little inventors will be able to enrich their vocabulary and make a toy for their very own collection. In this episode, we're going to make a potholder.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260603052000 +0200" stop="20260603053000 +0200">
+    <title lang="fr">Okey-Dokey</title>
+    <desc lang="fr">In this episode, the little aliens will teach you how to greet someone in English. In this episode, "Greetings."</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="oqee.49" start="20260603053000 +0200" stop="20260603054000 +0200">
+    <title lang="fr">Once Upon A Time</title>
+    <desc lang="fr">THE PRICE OF MONEY - a story about a rich family and their lazy son.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.49" start="20260603054000 +0200" stop="20260603054500 +0200">
+    <title lang="fr">La fête des mots</title>
+    <desc lang="fr">"Word Party" - a video dictionary for your kids. Today's program is "My birthday". Your kid will love it!</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
   <programme channel="oqee.49" start="20260603060000 +0200" stop="20260603060500 +0200">
     <title lang="fr">Life Around Kids</title>
     <desc lang="fr">In this episode, we go to a geography lesson to make incredible discoveries together and learn lots of new English words.</desc>
@@ -59740,6 +60619,11 @@
     <desc lang="fr">Programma dal titolo e contenuto sconosciuto, da definirsi in seguito. </desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="oqee.707" start="20260603010900 +0200" stop="20260603035600 +0200">
+    <title lang="fr">Quarta Repubblica</title>
+    <desc lang="fr">Quarta repubblica è un talk show d'approfondimento Politico condotto da Nicola Porro.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
   <programme channel="oqee.707" start="20260603025000 +0200" stop="20260603033000 +0200">
     <title lang="fr">ATTUALITÀ</title>
     <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
@@ -59750,6 +60634,11 @@
     <desc lang="fr">Un programma televisivo divertente.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="oqee.707" start="20260603035600 +0200" stop="20260603045300 +0200">
+    <title lang="fr">4 di sera</title>
+    <desc lang="fr">Paolo Del Debbio guida il dibattito quotidiano sui fatti salienti della giornata. Politica, economia, i principali casi di cronaca ed attualità.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
   <programme channel="oqee.707" start="20260603041000 +0200" stop="20260603043000 +0200">
     <title lang="fr">NOTIZIARIO SPORTIVO</title>
     <desc lang="fr">Un programma che porta le ultime notizie del mondo sportivo.</desc>
@@ -59758,6 +60647,121 @@
   <programme channel="oqee.707" start="20260603043000 +0200" stop="20260603050000 +0200">
     <title lang="fr">CUCINA</title>
     <desc lang="fr">Uno spazio dei programmi di buoni sentimenti e buona cucina.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603045300 +0200" stop="20260603060000 +0200">
+    <title lang="fr">Tira e molla</title>
+    <desc lang="fr">Una sfida tra due coppie di partecipanti che cercano di ottenere più soldi possibili attraverso 4 prove per diventare campioni e ritornare alla puntata seguente.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603060000 +0200" stop="20260603062000 +0200">
+    <title lang="fr">SOAP OPERA</title>
+    <desc lang="fr">Uno spazio per la proiezione di diversi soap.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603062000 +0200" stop="20260603065000 +0200">
+    <title lang="fr">Divertissement</title>
+    <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603065000 +0200" stop="20260603084000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603084000 +0200" stop="20260603092000 +0200">
+    <title lang="fr">Sitcom</title>
+    <desc lang="fr">Le contenu détaillé devra être défini ultérieurement,</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603092000 +0200" stop="20260603104000 +0200">
+    <title lang="fr">Divertissement</title>
+    <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603104000 +0200" stop="20260603115000 +0200">
+    <title lang="fr">Divertissement</title>
+    <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603115000 +0200" stop="20260603123000 +0200">
+    <title lang="fr">Reality show</title>
+    <desc lang="fr">Uno spazio dei reality show non ancora specificati dal canale.</desc>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603123000 +0200" stop="20260603131000 +0200">
+    <title lang="fr">ATTUALITÀ</title>
+    <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603131000 +0200" stop="20260603135000 +0200">
+    <title lang="fr">CUCINA</title>
+    <desc lang="fr">Uno spazio dei programmi di buoni sentimenti e buona cucina.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603135000 +0200" stop="20260603140000 +0200">
+    <title lang="fr">CUCINA</title>
+    <desc lang="fr">Uno spazio dei programmi di buoni sentimenti e buona cucina.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603140000 +0200" stop="20260603144000 +0200">
+    <title lang="fr">TELEGIORNALE</title>
+    <desc lang="fr">Rubrica di approfondimento.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603144000 +0200" stop="20260603153000 +0200">
+    <title lang="fr">FICTION</title>
+    <desc lang="fr">Uno spazio per la proiezione di serie, lungometraggi e cortometraggi di registi del tutto il mondo.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603153000 +0200" stop="20260603170000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603170000 +0200" stop="20260603180000 +0200">
+    <title lang="fr">Reality show</title>
+    <desc lang="fr">Uno spazio dei reality show non ancora specificati dal canale.</desc>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603180000 +0200" stop="20260603185000 +0200">
+    <title lang="fr">QUIZ SHOW</title>
+    <desc lang="fr">Un programma televisivo divertente.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603185000 +0200" stop="20260603192000 +0200">
+    <title lang="fr">NOTIZIARIO SPORTIVO</title>
+    <desc lang="fr">Un programma che porta le ultime notizie del mondo sportivo.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603192000 +0200" stop="20260603194000 +0200">
+    <title lang="fr">Reality show</title>
+    <desc lang="fr">Uno spazio dei reality show non ancora specificati dal canale.</desc>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603194000 +0200" stop="20260603210000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603210000 +0200" stop="20260603214000 +0200">
+    <title lang="fr">TELEGIORNALE</title>
+    <desc lang="fr">Rubrica di approfondimento.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603214000 +0200" stop="20260603232000 +0200">
+    <title lang="fr">FICTION</title>
+    <desc lang="fr">Uno spazio per la proiezione di serie, lungometraggi e cortometraggi di registi del tutto il mondo.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603232000 +0200" stop="20260603235000 +0200">
+    <title lang="fr">TG SATIRICO</title>
+    <desc lang="fr">Rubrica di approfondimento. </desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260603235000 +0200" stop="20260604025000 +0200">
+    <title lang="fr">ATTUALITÀ</title>
+    <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="oqee.754" start="20260603000000 +0200" stop="20260603003000 +0200">
@@ -62202,7 +63206,7 @@
   </programme>
   <programme channel="oqee.932" start="20260603165000 +0200" stop="20260603171500 +0200">
     <title lang="fr">Totally Spies - S02E22</title>
-    <desc lang="fr">Alors qu'elles poursuivent un malfaiteur, les Spies se retrouvent coincées dans un ascenseur. C'est l'occasion pour elles de se remémorer tous les bons moments qu'elles ont partagés grâce au WOOHP...</desc>
+    <desc lang="fr">La classe de neige des filles tourne au cauchemar quand elles apprennent que l'ignoble Mandy partage leur chambre. Et comme si cela ne suffisait pas, un de leurs vieux ennemis, Dr Gelée, tout droit sorti de l'épisode ' Retour à l'ère glaciare ' s'échappe de prison et revient se venger de nos héroïnes. Quand Gelée enlève par erreur Mandy (qu'il prend pour Clover) les filles doivent mettre de côté leur animosité pour sauver leur camarade... et leurs vacances par la même occasion.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="oqee.932" start="20260603171500 +0200" stop="20260603173500 +0200">
