@@ -56,6 +56,10 @@
     <display-name>BBC NEWS</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/589/canal-ouah/CHN43FB/BBCNEWS_POURFB_myCANAL_640x480?=.png"/>
   </channel>
+  <channel id="BFMBusiness.fr">
+    <display-name>BFM Business</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~7eb91da112d351e5.png/480x480/quality/100/bfm-business.png"/>
+  </channel>
   <channel id="BFMGrandLille.fr">
     <display-name>BFM Grand Lille</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~5a012f0d7afc9c4c.png/480x480/quality/100/bfm-grand-lille.png"/>
@@ -123,6 +127,10 @@
   <channel id="CartoonNetwork.fr">
     <display-name>Cartoon Network</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~98316e754a46584c.png/480x480/quality/100/cartoon-network.png"/>
+  </channel>
+  <channel id="Cdirect.af">
+    <display-name>CDIRECT</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180765/canal-ouah/CHN43FB/CDIRECT_myCANAL_640x480?=.png"/>
   </channel>
   <channel id="Cherie25.fr">
     <display-name>RMC Life</display-name>
@@ -672,6 +680,10 @@
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
   </channel>
+  <channel id="TV5MondeAsie.fr">
+    <display-name>TV5 Monde Asie</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
+  </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
@@ -1115,6 +1127,10 @@
   <channel id="oqee.315">
     <display-name>Science &amp; Vie TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2727/w256"/>
+  </channel>
+  <channel id="oqee.335">
+    <display-name>Al Aoula International</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1610/w256"/>
   </channel>
   <channel id="oqee.338">
     <display-name>Al Jazeera</display-name>
@@ -4552,6 +4568,91 @@
     <title lang="fr">Newsnight</title>
     <desc lang="fr">Des interviews de personnalités du gouvernement et de l'opposition, de chefs d'entreprise et de syndicalistes, ainsi que des rapports analytiques qui vont au-delà des gros titres, permettent d'examiner en profondeur les principaux sujets politiques et économiques de la journée.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616000000 +0200" stop="20260616060000 +0200">
+    <title lang="fr">BFM Business</title>
+    <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616060000 +0200" stop="20260616083000 +0200">
+    <title lang="fr">Good Morning Business</title>
+    <desc lang="fr">Chaque jour, des entrepreneurs, des grands patrons, des fondateurs de start-up, des interviewés à l'antenne. Trois grandes interviews à suivre. A découvrir également, "La France qui bouge", un reportage en immersion dans une entreprise pour raconter son histoire et sa vie quotidienne.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616083000 +0200" stop="20260616093000 +0200">
+    <title lang="fr">Good Morning Market</title>
+    <desc lang="fr">Tous les jours à partir de 9h, Etienne Bracq fait vivre l'ouverture des marchés européens, les premières tendances, les premières analyses, les valeurs à surveiller. A suivre, la première heure de cotation avec des gérants, des économistes et des spécialistes des marchés.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616093000 +0200" stop="20260616103000 +0200">
+    <title lang="fr">Les experts</title>
+    <desc lang="fr">Raphaël Legendre et ses invités livrent chaque matin les clés de l'actualité économique et financière. Sans langue de bois et avec exigence, experts, économistes et chefs d'entreprise confrontent leurs points de vue pour un échange sans équivalent dans le paysage audiovisuel français.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616103000 +0200" stop="20260616110000 +0200">
+    <title lang="fr">BFM Entreprise</title>
+    <desc lang="fr">Présenté par Sandra Gandoin, ce rendez-vous donne la parole aux dirigeants pour tout comprendre du quotidien des entreprises et analyser leurs meilleurs leviers de performance. Un plongeon est fait dans le quotidien des entreprises, de leurs dirigeants et de leurs équipes.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616110000 +0200" stop="20260616120000 +0200">
+    <title lang="fr">Tout pour investir</title>
+    <desc lang="fr">Dès 11h, Tout pour investir, c'est une heure de conseils pour optimiser ses placements. Entouré d'économistes et de gestionnaires en patrimoine, Antoine Larigaudrie livre conseils et astuces pour gérer son capital et décrypter les tendances.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616120000 +0200" stop="20260616123000 +0200">
+    <title lang="fr">Les experts de l'immo</title>
+    <desc lang="fr">Tout savoir sur les grandes tendances du marché de l'immobilier en s'appuyant sur de précieux conseils délivrés par les meilleurs experts.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616123000 +0200" stop="20260616130000 +0200">
+    <title lang="fr">BFM Entreprise</title>
+    <desc lang="fr">Présenté par Sandra Gandoin, ce rendez-vous donne la parole aux dirigeants pour tout comprendre du quotidien des entreprises et analyser leurs meilleurs leviers de performance. Un plongeon est fait dans le quotidien des entreprises, de leurs dirigeants et de leurs équipes.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616130000 +0200" stop="20260616150000 +0200">
+    <title lang="fr">BFM Business</title>
+    <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616150000 +0200" stop="20260616153000 +0200">
+    <title lang="fr">BFM Crypto, le Club</title>
+    <desc lang="fr">Sandra Gandoin fait le point sur l'actualité web 3.0. Guillaume Sommerer accueille quant à lui les meilleurs experts du secteur.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616153000 +0200" stop="20260616180000 +0200">
+    <title lang="fr">BFM Bourse</title>
+    <desc lang="fr">De l'ouverture de la séance de Wall Street à la clôture de Paris, experts, gérants d'actifs, économistes, stratégistes, dirigeants d'entreprises cotées se mobilisent pour fournir une analyse précise et complète de l'actualité des marchés et pour et délivrer les meilleurs conseils en matière de placements.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616180000 +0200" stop="20260616190000 +0200">
+    <title lang="fr">La grande interview d'Hedwige Chevrillon</title>
+    <desc lang="fr">Sur le plateau d'Hedwige Chevrillon, patrons, décideurs et responsables politiques viennent décrypter les enjeux du moment.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616190000 +0200" stop="20260616193000 +0200">
+    <title lang="fr">Le 19h Eco</title>
+    <desc lang="fr">Tout ce qu'il faut retenir de la journée. Trente minutes d'actualité économique et financière, la tech, l'info en régions, mais aussi les rendez-vous à ne pas manquer et les clés pour comprendre l'actualité internationale.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616193000 +0200" stop="20260616210000 +0200">
+    <title lang="fr">Tech &amp; Co, la quotidienne</title>
+    <desc lang="fr">Innovations, les grandes levées de fonds, les prouesses technologiques, enjeux digitaux : chaque soir, tous les acteurs qui font vivre le monde de la tech se donnent rendez-vous sur le plateau de Tech &amp; Co pour décrypter et analyser les dernières actualités aux côtés de François Sorel.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616210000 +0200" stop="20260616223000 +0200">
+    <title lang="fr">BFM Business</title>
+    <desc lang="fr">Tous les jours, l'actualité du monde des affaires, en France, en Europe et dans le reste du monde, pour être au fait des dernières tendances.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616223000 +0200" stop="20260616233000 +0200">
+    <title lang="fr">Tech&amp;Co Business</title>
+    <desc lang="fr">Un rendez-vous qui accompagne les entreprises dans leur transition numérique. Frédéric Simottel débat avec ses invités autour des technologies, des usages, et des tendances.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BFMBusiness.fr" start="20260616233000 +0200" stop="20260617000000 +0200">
+    <title lang="fr">Iconic Business</title>
+    <desc lang="fr">Immobilier, voyage, mode, joaillerie, cosmétique, gastronomie, transports : chaque semaine, avec ses invités, Audrey Maubert présente le seul rendez-vous consacré au luxe. Un rendez-vous iconique et décomplexé.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="BFMGrandLille.fr" start="20260616063000 +0200" stop="20260616093000 +0200">
     <title lang="fr">Bonjour le Nord</title>
@@ -8858,6 +8959,83 @@
     <title lang="fr">Cléo et Chico - S01E03</title>
     <desc lang="fr">En jouant, Cléo balance son cousin sur le toit. En essayant de l'en faire descendre elle s'y coince aussi./Rouge veut à tout prix découvrir l'identité de Super-Génisse…</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616003000 +0200" stop="20260616070000 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616070000 +0200" stop="20260616100000 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616100000 +0200" stop="20260616113000 +0200">
+    <title lang="fr">Cinéma africain</title>
+    <desc lang="fr">Actualités, tendances à l'écran, culture, stars et coulisses du continent.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616113000 +0200" stop="20260616123000 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616123000 +0200" stop="20260616130000 +0200">
+    <title lang="fr">Déclic</title>
+    <desc lang="fr">Magazine dédié à l'emploi, offrant conseils, opportunités et témoignages pour guider et inspirer les professionnels et chercheurs.</desc>
+    <category lang="fr">Magazine / Magazine de l'emploi</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616130000 +0200" stop="20260616131500 +0200">
+    <title lang="fr">19.45 le JT</title>
+    <desc lang="fr">Toutes les infos clés d'Afrique pour rester connecté au continent.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616131500 +0200" stop="20260616140000 +0200">
+    <title lang="fr">Kelbul Mag</title>
+    <desc lang="fr">Chaque jour, un JT en lingala pour un décryptage décalé de l'actualité congolaise.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616140000 +0200" stop="20260616143000 +0200">
+    <title lang="fr">Série africaine</title>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616143000 +0200" stop="20260616160000 +0200">
+    <title lang="fr">Brillare</title>
+    <desc lang="fr">Talk-show qui met en lumière des parcours inspirants et atypiques. Présentée par Chrystelle, l'émission accueille des invités prestigieux d'horizons variés pour des échanges profonds et authentiques.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616160000 +0200" stop="20260616173000 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616173000 +0200" stop="20260616183000 +0200">
+    <title lang="fr">Confession créative</title>
+    <desc lang="fr">Entretien avec des personnalités influentes où elles partagent leurs parcours, inspirations et visions créatives dans un format intime et révélateur.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616183000 +0200" stop="20260616193000 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616193000 +0200" stop="20260616194500 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616194500 +0200" stop="20260616204500 +0200">
+    <title lang="fr">Talents Cdirect</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616204500 +0200" stop="20260616210000 +0200">
+    <title lang="fr">19.45 le JT</title>
+    <desc lang="fr">Toutes les infos clés d'Afrique pour rester connecté au continent.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616210000 +0200" stop="20260616214500 +0200">
+    <title lang="fr">Kelbul Mag</title>
+    <desc lang="fr">Chaque jour, un JT en lingala pour un décryptage décalé de l'actualité congolaise.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Cdirect.af" start="20260616214500 +0200" stop="20260617070000 +0200">
+    <title lang="fr">Non-stop</title>
+    <desc lang="fr">Le meilleur de la musique urbaine.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="Cherie25.fr" start="20260616002500 +0200" stop="20260616013500 +0200">
     <title lang="fr">Faites entrer l'accusé</title>
@@ -13969,7 +14147,7 @@
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France2.fr" start="20260616024500 +0200" stop="20260616034500 +0200">
-    <title lang="fr">Ça commence aujourd'hui</title>
+    <title lang="fr">Ça commence aujourd'hui - S09E148</title>
     <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
@@ -32637,6 +32815,13 @@
     <desc lang="fr">Jean-Pierre et Rollande décident d'engager une femme de ménage. François est irrité par le fait que son père donne son numéro de téléphone à quiconque en fait la demande.</desc>
     <category lang="fr">Série / Série jeunesse</category>
   </programme>
+  <programme channel="TV5MondeAsie.fr" start="20260616000000 +0200" stop="20260616002600 +0200">
+    <title lang="fr">Outremer.story</title>
+    <desc lang="fr">&lt;p&gt;A journey a world away from the usual tourist hotspots for an immersive visit to Overseas France. Men and women, each treasuring a deep attachment to their land, act as our guides for this unique exploration of Overseas France and all the wealth of its culture, environment and heritage.&lt;/p&gt;
+</desc>
+    <category lang="fr">Documentary</category>
+    <icon src="https://bo-apac.tv5monde.com/sites/default/files/styles/slide_small/public/2026-04/Outremer_story_1.png.jpeg?itok=FdnL6jY4"/>
+  </programme>
   <programme channel="TVPitchoun.fr" start="20260616000000 +0200" stop="20260616000300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
     <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
@@ -47159,7 +47344,7 @@
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.1212" start="20260616024500 +0200" stop="20260616034500 +0200">
-    <title lang="fr">Ça commence aujourd'hui</title>
+    <title lang="fr">Ça commence aujourd'hui - S09E148</title>
     <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
@@ -47589,7 +47774,7 @@
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.1228" start="20260616024500 +0200" stop="20260616034500 +0200">
-    <title lang="fr">Ça commence aujourd'hui</title>
+    <title lang="fr">Ça commence aujourd'hui - S09E148</title>
     <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
@@ -56221,6 +56406,182 @@
     <title lang="fr">Le cosmos dans tous ses états - S02E04</title>
     <desc lang="fr">A 500 millions de kilomètres de la Terre, Jupiter est la planète la plus extrême du système solaire, à la fois la plus large, la plus puissante et la plus mystérieuse. Cette géante de gaz, constituée à 90 % d'hydrogène, est difficile à approcher et attise la curiosité. Que sait-on d'elle ? Radiations, tempêtes, champ magnétique et pluies de diamants sont quelques-uns des phénomènes fascinants qui s'y produisent. Comment les expliquer ? La mission Juno de la NASA permet aux astronomes de mieux comprendre la nature de cette planète, dont la constitution et les propriétés rappellent celles d'une étoile.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616000000 +0200" stop="20260616002000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616002000 +0200" stop="20260616005500 +0200">
+    <title lang="fr">Sla O Slam</title>
+    <desc lang="fr">La série raconte l'histoire de Karima qui revient à sa ville natale Bejaad où elle va reprendre le travail de sa mère et commencera à organiser des fêtes de mariage. Ses amis d'enfance seront là pour lui aider. </desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616005500 +0200" stop="20260616013000 +0200">
+    <title lang="fr">Oyoune Ghaîma</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616013000 +0200" stop="20260616020500 +0200">
+    <title lang="fr">Aazima</title>
+    <desc lang="fr">Aazima Une détermination inébranlable... Le programme " Aazima ", comme son nom l'indique, retrace des parcours de vie exceptionnels de ceux et celles qui relèvent les défis de la vie avec courage et détermination. " Aazima " vous emmène à la découverte de ces héros du quotidien qui ont su transformer leurs moments difficiles en opportunités et en tirer profit afin de transformer leur existence et réaliser leurs rêves. À travers des interviews, des images vibrantes, des analyses approfondies, vous plongerez dans les secrets de leur réussite. Nos équipes les accompagnent depuis leurs premiers instants de doute jusqu'à la pose de la dernière pierre de l'édifice. Chaque histoire est différente mais le point commun c'est de ne jamais lâcher et savoir se relever même après l'échec.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616020500 +0200" stop="20260616030000 +0200">
+    <title lang="fr">Mawaki'e wa Wakaie</title>
+    <desc lang="fr">Magazine sur les sujets différents: la vie , la santé, la musique, le tourisme...</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616030000 +0200" stop="20260616040000 +0200">
+    <title lang="fr">Aicha</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616040000 +0200" stop="20260616043000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616043000 +0200" stop="20260616050500 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616050500 +0200" stop="20260616060000 +0200">
+    <title lang="fr">Maalim wa Modoun</title>
+    <desc lang="fr">Magazine d'information.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616060000 +0200" stop="20260616070000 +0200">
+    <title lang="fr">Ousrati</title>
+    <desc lang="fr">Laissez vous porter par "Ossrati" , une émission dans l'esprit de Ramadan placée sous le signe du bien-être et de la sérénité. Au programme les conseils pour la bonne santé, la beauté de votre corps, la mode, la décoration intérieure qui fait de votre maison le foyer de vos rêves...</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616070000 +0200" stop="20260616070500 +0200">
+    <title lang="fr">Hymne national+ Coran</title>
+    <desc lang="fr">Commencez votre journée avec l'hymne national du Maroc et la lecture du Saint Coran.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616070500 +0200" stop="20260616071000 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616071000 +0200" stop="20260616074000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616074000 +0200" stop="20260616081000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616081000 +0200" stop="20260616090500 +0200">
+    <title lang="fr">Arrouad</title>
+    <desc lang="fr">L'émission "ARROUAD" propose dans un chacun de ses épisodes un portrait d'une personnalité marocaine ayant réussi dans les domaines de la politique, du sport, de l'art, de la musique et de la société...</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616090500 +0200" stop="20260616100000 +0200">
+    <title lang="fr">Mawaki'e wa Wakaie</title>
+    <desc lang="fr">Magazine sur les sujets différents: la vie , la santé, la musique, le tourisme...</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616100000 +0200" stop="20260616105500 +0200">
+    <title lang="fr">Aicha</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616105500 +0200" stop="20260616115000 +0200">
+    <title lang="fr">Ousrati</title>
+    <desc lang="fr">Laissez vous porter par "Ossrati" , une émission dans l'esprit de Ramadan placée sous le signe du bien-être et de la sérénité. Au programme les conseils pour la bonne santé, la beauté de votre corps, la mode, la décoration intérieure qui fait de votre maison le foyer de vos rêves...</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616115000 +0200" stop="20260616122500 +0200">
+    <title lang="fr">Oyoune Ghaîma</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616122500 +0200" stop="20260616130000 +0200">
+    <title lang="fr">Ahlam City</title>
+    <desc lang="fr">Après plusieurs années de dur labeur, Zineb parvient enfin à acquérir la maison de ses rêves. Très vite, ce rêve de vie paisible tournera court suite à un conflit avec leur voisin, "Zaitouni", propriétaire d'un terrain qu'il entend bien exploiter. En dépit de tous ces désaccords et contre toute attente naîtra une histoire d'amour entre le fils de ce dernier et la fille de la famille Hammadi. Cela parviendra-t-il à apaiser les tensions et à mettre un terme à la rivalité entre les deux clans? </desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616130000 +0200" stop="20260616132000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616132000 +0200" stop="20260616140000 +0200">
+    <title lang="fr">Sla O Slam</title>
+    <desc lang="fr">La série raconte l'histoire de Karima qui revient à sa ville natale Bejaad où elle va reprendre le travail de sa mère et commencera à organiser des fêtes de mariage. Ses amis d'enfance seront là pour lui aider. </desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616140000 +0200" stop="20260616142000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616142000 +0200" stop="20260616144000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616144000 +0200" stop="20260616150000 +0200">
+    <title lang="fr">Al Malhoune</title>
+    <category lang="fr">Spectacle / Musical</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616150000 +0200" stop="20260616180000 +0200">
+    <title lang="fr">Parlement</title>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616180000 +0200" stop="20260616182000 +0200">
+    <title lang="fr">Qahwa nes nes</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616182000 +0200" stop="20260616183000 +0200">
+    <title lang="fr">Majala Jihaouia</title>
+    <desc lang="fr">Magazine consacré aux projets de développement en cours dans les différentes régions du royaume. Le programme fait entendre la voix des habitants de ces régions en faisant part de leurs attentes et en mettant la lumière sur leurs activités. Les atouts économiques, culturels et touristiques de ces régions sont également mis en avant ainsi que leur potentiel de développement. </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616183000 +0200" stop="20260616185000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616185000 +0200" stop="20260616192500 +0200">
+    <title lang="fr">Oyoune Ghaîma</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616192500 +0200" stop="20260616193000 +0200">
+    <title lang="fr">Allal w Kamelia</title>
+    <category lang="fr">Série / Série jeunesse</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616193000 +0200" stop="20260616194000 +0200">
+    <title lang="fr">Rattrapage</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616194000 +0200" stop="20260616202500 +0200">
+    <title lang="fr">Dar Lghazlan</title>
+    <desc lang="fr">L'histoire de cette série dramatique repose sur le conflit entre deux familles à propos des élections : la première composée d'Al-Bahy et de ses filles Karima et Monaya et la seconde composée de la mère Amina et de son mari Ismail, qui trompe sa femme avec sa gouvernante.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616202500 +0200" stop="20260616210000 +0200">
+    <title lang="fr">Ahlam City</title>
+    <desc lang="fr">Après plusieurs années de dur labeur, Zineb parvient enfin à acquérir la maison de ses rêves. Très vite, ce rêve de vie paisible tournera court suite à un conflit avec leur voisin, "Zaitouni", propriétaire d'un terrain qu'il entend bien exploiter. En dépit de tous ces désaccords et contre toute attente naîtra une histoire d'amour entre le fils de ce dernier et la fille de la famille Hammadi. Cela parviendra-t-il à apaiser les tensions et à mettre un terme à la rivalité entre les deux clans? </desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616210000 +0200" stop="20260616214500 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616214500 +0200" stop="20260616220000 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616220000 +0200" stop="20260616224000 +0200">
+    <title lang="fr">Fouk Selk</title>
+    <desc lang="fr"> "Fouk Selk" est un drame social qui raconte l'histoire d'Idris, un septuagénaire infirme qui vit seul dans une somptueuse villa à Marrakech. Ayant fait fortune dans l'exportation du thé marocain vers l'étranger. Mais après la mort d'Idris, sa sœur Lamia réapparaît, expulsant tous les domestiques de la villa. Mais la vie des domestiques bascule à nouveau lorsqu'apparaît Mahjoub, l'avocat d'Idris, leur annonçant l'existence d'une lettre laissée par son client où il leur lègue un tiers de ses biens, dont la villa et la plus grande part des actions de la société.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616224000 +0200" stop="20260616234000 +0200">
+    <title lang="fr">Alf Mrahba</title>
+    <desc lang="fr">Cette émission documentaire fera mieux connaître les repas de régions marocaines, les arts de la table, les produits du terroir, l'artisanat et les différents aspects de l'hospitalité propre à chaque localité.</desc>
+    <category lang="fr">Documentaire / Documentaire médias</category>
+  </programme>
+  <programme channel="oqee.335" start="20260616234000 +0200" stop="20260617000000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.338" start="20260616000000 +0200" stop="20260616010000 +0200">
     <title lang="fr">News Bulletin</title>
@@ -67793,7 +68154,17 @@
     <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
+  <programme channel="oqee.812" start="20260616050000 +0200" stop="20260616073000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260616050000 +0200" stop="20260616093000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260616073000 +0200" stop="20260616093000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -67865,6 +68236,11 @@
     <title lang="fr">Teleshopping</title>
     <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
     <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20260616223000 +0200" stop="20260616231500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.812" start="20260616223000 +0200" stop="20260616224500 +0200">
     <title lang="fr">Ştirile ProTv</title>
@@ -68513,19 +68889,22 @@
   </programme>
   <programme channel="oqee.893" start="20260616000000 +0200" stop="20260616001500 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616001500 +0200" stop="20260616003000 +0200">
     <title lang="fr">Newsfeed</title>
+    <desc lang="fr">This news program brings viewers the most important stories from around the world, combining breaking news, live updates, and concise analysis. Covering politics, business, technology, and international affairs, it provides a clear overview of the events shaping the day.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616003000 +0200" stop="20260616010000 +0200">
     <title lang="fr">Roundtable</title>
-    <desc lang="fr"> Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <desc lang="fr">This debate program brings together experts, commentators, and decision-makers to discuss pressing global issues. Through structured conversations and diverse viewpoints, it explores politics, society, and international affairs, encouraging critical thinking and informed dialogue.</desc>
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="oqee.893" start="20260616010000 +0200" stop="20260616013000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616013000 +0200" stop="20260616020000 +0200">
@@ -68535,181 +68914,207 @@
   </programme>
   <programme channel="oqee.893" start="20260616020000 +0200" stop="20260616024500 +0200">
     <title lang="fr">Documentary</title>
+    <desc lang="fr">This documentary series brings together powerful real-life stories from around the world, exploring a wide range of topics including history, society, environment, and human experience. Through in-depth research, interviews, and striking visuals, it provides a detailed and engaging perspective on significant events and issues. By combining personal narratives with expert analysis, the series aims to deepen understanding of the world and shed light on the complexities of contemporary life and global change.</desc>
     <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="oqee.893" start="20260616024500 +0200" stop="20260616030000 +0200">
     <title lang="fr">Digital documentaries</title>
+    <desc lang="fr">Exploring the intersection of technology, innovation and human experience, this documentary reveals stories that define the digital era. From groundbreaking developments and emerging trends to the social and cultural impact of technological change, it offers a thought-provoking perspective on a rapidly evolving world. Featuring expert insights, real-life experiences and in-depth reporting, the film examines how digital transformation continues to reshape the way people live, work and connect.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
   </programme>
   <programme channel="oqee.893" start="20260616030000 +0200" stop="20260616033000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616033000 +0200" stop="20260616040000 +0200">
     <title lang="fr">Nexus</title>
+    <desc lang="fr">This news program links major global events and emerging stories, offering concise updates and context. Covering politics, economics, and international affairs, it helps viewers understand how different developments are interconnected in a rapidly changing world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616040000 +0200" stop="20260616043000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616043000 +0200" stop="20260616050000 +0200">
     <title lang="fr">Roundtable</title>
-    <desc lang="fr"> Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <desc lang="fr">This debate program brings together experts, commentators, and decision-makers to discuss pressing global issues. Through structured conversations and diverse viewpoints, it explores politics, society, and international affairs, encouraging critical thinking and informed dialogue.</desc>
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="oqee.893" start="20260616050000 +0200" stop="20260616053000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616053000 +0200" stop="20260616060000 +0200">
     <title lang="fr">Inside America</title>
+    <desc lang="fr">An in-depth examination of the people, ideas and events shaping the United States today. Through interviews with experts, policymakers and influential voices, the program explores major developments in politics, economics, culture and society. Thought-provoking discussions and detailed analysis offer viewers a broader understanding of current issues and emerging trends, highlighting the stories behind the headlines and the forces driving change across the country.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.893" start="20260616060000 +0200" stop="20260616063000 +0200">
     <title lang="fr">News Business</title>
-    <desc lang="fr">As the world grapples with ever changing politics and crises, economy is always center stage. TRT World's Business News gives you the insight. " </desc>
+    <desc lang="fr">A comprehensive look at the latest developments in business, finance and the global economy. The program examines market movements, corporate news, investment trends and economic policies through expert analysis and detailed reporting. Featuring interviews, special reports and insights from industry leaders, it provides viewers with a deeper understanding of the challenges and opportunities influencing businesses and markets around the world.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.893" start="20260616063000 +0200" stop="20260616070000 +0200">
     <title lang="fr">The Newsmakers</title>
+    <desc lang="fr">This current affairs program examines major global stories through in-depth interviews, debates, and field reporting. It brings together key voices and perspectives to explore politics, conflict, and social change, offering context and analysis behind the headlines.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616070000 +0200" stop="20260616080000 +0200">
     <title lang="fr">Newshour</title>
+    <desc lang="fr">Bringing viewers the latest news from around the globe, this program delivers comprehensive coverage of major events, breaking developments and key international stories. Through live reports, expert analysis and on-the-ground journalism, it provides context and insight into the issues influencing politics, business, society and world affairs. Timely updates and balanced reporting help audiences stay informed about the events shaping today's rapidly changing world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616080000 +0200" stop="20260616083000 +0200">
     <title lang="fr">Africa Matters</title>
-    <desc lang="fr"> Every week, Africa Matters will bring you the untold, under-reported stories from across the continent and we'll also unpack the issues that matter to Africans.</desc>
+    <desc lang="fr">This magazine program explores key issues shaping Africa today, from politics and economics to culture and society. Through on-the-ground reporting and diverse voices, it highlights regional developments, challenges, and opportunities across different African countries and communities.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616083000 +0200" stop="20260616090000 +0200">
     <title lang="fr">Just 2 Degrees</title>
-    <desc lang="fr"> A rise of just two degrees in average temperatures means catastrophe for planet Earth. TRT World looks at the cold, hard truths behind a warming planet</desc>
+    <desc lang="fr">This magazine program focuses on climate change and environmental issues, examining how rising temperatures affect ecosystems, economies, and societies. Through expert insights and real-world stories, it highlights sustainability efforts and solutions for a changing planet.</desc>
     <category lang="fr">Magazine / Magazine de la nature</category>
   </programme>
   <programme channel="oqee.893" start="20260616090000 +0200" stop="20260616093000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616093000 +0200" stop="20260616100000 +0200">
     <title lang="fr">News Business</title>
-    <desc lang="fr">As the world grapples with ever changing politics and crises, economy is always center stage. TRT World's Business News gives you the insight. " </desc>
+    <desc lang="fr">A comprehensive look at the latest developments in business, finance and the global economy. The program examines market movements, corporate news, investment trends and economic policies through expert analysis and detailed reporting. Featuring interviews, special reports and insights from industry leaders, it provides viewers with a deeper understanding of the challenges and opportunities influencing businesses and markets around the world.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.893" start="20260616100000 +0200" stop="20260616103000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616103000 +0200" stop="20260616110000 +0200">
     <title lang="fr">The Newsmakers</title>
+    <desc lang="fr">This current affairs program examines major global stories through in-depth interviews, debates, and field reporting. It brings together key voices and perspectives to explore politics, conflict, and social change, offering context and analysis behind the headlines.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616110000 +0200" stop="20260616120000 +0200">
     <title lang="fr">Newshour</title>
+    <desc lang="fr">Bringing viewers the latest news from around the globe, this program delivers comprehensive coverage of major events, breaking developments and key international stories. Through live reports, expert analysis and on-the-ground journalism, it provides context and insight into the issues influencing politics, business, society and world affairs. Timely updates and balanced reporting help audiences stay informed about the events shaping today's rapidly changing world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616120000 +0200" stop="20260616123000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616123000 +0200" stop="20260616130000 +0200">
     <title lang="fr">Bigger Than Five</title>
+    <desc lang="fr">This current affairs magazine explores the role of global institutions in addressing today's major challenges. Through interviews, analysis, and expert perspectives, it examines international cooperation, reform debates, and the effectiveness of global decision-making systems.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616130000 +0200" stop="20260616133000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616133000 +0200" stop="20260616140000 +0200">
     <title lang="fr">Nexus</title>
+    <desc lang="fr">This news program links major global events and emerging stories, offering concise updates and context. Covering politics, economics, and international affairs, it helps viewers understand how different developments are interconnected in a rapidly changing world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616140000 +0200" stop="20260616143000 +0200">
     <title lang="fr">Roundtable</title>
-    <desc lang="fr"> Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <desc lang="fr">This debate program brings together experts, commentators, and decision-makers to discuss pressing global issues. Through structured conversations and diverse viewpoints, it explores politics, society, and international affairs, encouraging critical thinking and informed dialogue.</desc>
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="oqee.893" start="20260616143000 +0200" stop="20260616150000 +0200">
     <title lang="fr">The Newsmakers</title>
+    <desc lang="fr">This current affairs program examines major global stories through in-depth interviews, debates, and field reporting. It brings together key voices and perspectives to explore politics, conflict, and social change, offering context and analysis behind the headlines.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616150000 +0200" stop="20260616160000 +0200">
     <title lang="fr">Newshour</title>
+    <desc lang="fr">Bringing viewers the latest news from around the globe, this program delivers comprehensive coverage of major events, breaking developments and key international stories. Through live reports, expert analysis and on-the-ground journalism, it provides context and insight into the issues influencing politics, business, society and world affairs. Timely updates and balanced reporting help audiences stay informed about the events shaping today's rapidly changing world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616160000 +0200" stop="20260616163000 +0200">
-    <title lang="fr">News - London</title>
-    <desc lang="fr">TRT World brings the latest news from around the globe when it happens. </desc>
+    <title lang="fr">News London</title>
+    <desc lang="fr">A news bulletin that delivers comprehensive updates from London, covering political developments, social issues, economic trends, and major urban events. Through timely reporting and clear analysis, it highlights the city's evolving dynamics and diverse communities. The program brings together breaking news, public affairs, and cultural stories, offering viewers a structured overview of what shapes daily life in one of the world's most influential cities.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616163000 +0200" stop="20260616170000 +0200">
     <title lang="fr">Inside America</title>
+    <desc lang="fr">An in-depth examination of the people, ideas and events shaping the United States today. Through interviews with experts, policymakers and influential voices, the program explores major developments in politics, economics, culture and society. Thought-provoking discussions and detailed analysis offer viewers a broader understanding of current issues and emerging trends, highlighting the stories behind the headlines and the forces driving change across the country.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="oqee.893" start="20260616170000 +0200" stop="20260616171500 +0200">
-    <title lang="fr">News - London</title>
-    <desc lang="fr">TRT World brings the latest news from around the globe when it happens. </desc>
+    <title lang="fr">News London</title>
+    <desc lang="fr">A news bulletin that delivers comprehensive updates from London, covering political developments, social issues, economic trends, and major urban events. Through timely reporting and clear analysis, it highlights the city's evolving dynamics and diverse communities. The program brings together breaking news, public affairs, and cultural stories, offering viewers a structured overview of what shapes daily life in one of the world's most influential cities.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616171500 +0200" stop="20260616173000 +0200">
     <title lang="fr">Newsfeed</title>
+    <desc lang="fr">This news program brings viewers the most important stories from around the world, combining breaking news, live updates, and concise analysis. Covering politics, business, technology, and international affairs, it provides a clear overview of the events shaping the day.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616173000 +0200" stop="20260616180000 +0200">
     <title lang="fr">Strait Talk</title>
-    <desc lang="fr"> An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <desc lang="fr">This magazine program explores regional and global diplomacy, focusing on political developments, strategic issues, and international relations. Through interviews and analysis, it highlights key conversations shaping cooperation, conflict, and decision-making between nations.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616180000 +0200" stop="20260616190000 +0200">
-    <title lang="fr">Newshour - London</title>
-    <desc lang="fr">TRT World brings the latest news from around the globe when it happens. </desc>
+    <title lang="fr">Newshour London</title>
+    <desc lang="fr">A comprehensive news program based in London that delivers timely coverage of global and local events. It includes breaking news, political and economic developments, social issues, and international affairs. Through expert analysis and field reporting, it provides context and clarity on major stories, reflecting how decisions and events in the UK connect to broader global dynamics and impact audiences around the world.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616190000 +0200" stop="20260616193000 +0200">
-    <title lang="fr">News - London</title>
-    <desc lang="fr">TRT World brings the latest news from around the globe when it happens. </desc>
+    <title lang="fr">News London</title>
+    <desc lang="fr">A news bulletin that delivers comprehensive updates from London, covering political developments, social issues, economic trends, and major urban events. Through timely reporting and clear analysis, it highlights the city's evolving dynamics and diverse communities. The program brings together breaking news, public affairs, and cultural stories, offering viewers a structured overview of what shapes daily life in one of the world's most influential cities.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616193000 +0200" stop="20260616200000 +0200">
     <title lang="fr">Across the Balkans</title>
+    <desc lang="fr">This magazine program focuses on the Balkan region, highlighting political, social, and cultural developments across different countries. Through reports, interviews, and analysis, it offers insights into regional dynamics, shared histories, and current issues shaping the Balkans.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616200000 +0200" stop="20260616203000 +0200">
-    <title lang="fr">News - London</title>
-    <desc lang="fr">TRT World brings the latest news from around the globe when it happens. </desc>
+    <title lang="fr">News London</title>
+    <desc lang="fr">A news bulletin that delivers comprehensive updates from London, covering political developments, social issues, economic trends, and major urban events. Through timely reporting and clear analysis, it highlights the city's evolving dynamics and diverse communities. The program brings together breaking news, public affairs, and cultural stories, offering viewers a structured overview of what shapes daily life in one of the world's most influential cities.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616203000 +0200" stop="20260616210000 +0200">
     <title lang="fr">Roundtable</title>
-    <desc lang="fr"> Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <desc lang="fr">This debate program brings together experts, commentators, and decision-makers to discuss pressing global issues. Through structured conversations and diverse viewpoints, it explores politics, society, and international affairs, encouraging critical thinking and informed dialogue.</desc>
     <category lang="fr">Divers / Débat</category>
   </programme>
   <programme channel="oqee.893" start="20260616210000 +0200" stop="20260616214500 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616214500 +0200" stop="20260616220000 +0200">
     <title lang="fr">World Cup Daily</title>
+    <desc lang="fr">World Cup Daily is a sports magazine program providing daily coverage of the tournament, including match highlights, expert analysis, team updates, and behind-the-scenes stories. It captures the excitement of the competition while offering insight into performances, tactics, and key moments.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.893" start="20260616220000 +0200" stop="20260616223000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616223000 +0200" stop="20260616230000 +0200">
     <title lang="fr">Strait Talk</title>
-    <desc lang="fr"> An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <desc lang="fr">This magazine program explores regional and global diplomacy, focusing on political developments, strategic issues, and international relations. Through interviews and analysis, it highlights key conversations shaping cooperation, conflict, and decision-making between nations.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.893" start="20260616230000 +0200" stop="20260616233000 +0200">
     <title lang="fr">News</title>
+    <desc lang="fr">Offering up-to-date coverage of significant events and breaking developments, this news bulletin brings viewers the latest stories from around the world. Through live reports, expert analysis, and in-depth coverage, it examines political, economic, social, and international affairs. With a focus on accuracy, context, and relevance, the program helps audiences understand the complex issues and events influencing communities, nations, and global developments.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.893" start="20260616233000 +0200" stop="20260617000000 +0200">
     <title lang="fr">Africa Matters</title>
-    <desc lang="fr"> Every week, Africa Matters will bring you the untold, under-reported stories from across the continent and we'll also unpack the issues that matter to Africans.</desc>
+    <desc lang="fr">This magazine program explores key issues shaping Africa today, from politics and economics to culture and society. Through on-the-ground reporting and diverse voices, it highlights regional developments, challenges, and opportunities across different African countries and communities.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.9" start="20260616000000 +0200" stop="20260616010000 +0200">
