@@ -136,6 +136,10 @@
     <display-name>BFM ALSACE</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~8bb328e022ffe2db.png/480x480/quality/100/bfm-alsace.png"/>
   </channel>
+  <channel id="AngersTele.fr">
+    <display-name>Angers télé</display-name>
+    <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/AngersTV100x100.png"/>
+  </channel>
   <channel id="Animaux.fr">
     <display-name>Animaux</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~d5bfad7c376468c6.png/480x480/quality/100/animaux.png"/>
@@ -1357,6 +1361,10 @@
     <display-name>Investigation</display-name>
     <icon src="https://cdn.tvpassport.com/image/station/640x480/v2/s87899_h15_ac.png"/>
   </channel>
+  <channel id="KANAALZ.be">
+    <display-name>KANAALZ</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjOkiRSrN9WtxQwS_yfc0YilHxDl3dLqmE0TDHp57ayGsGX25e1pT4fwuyg&amp;amp;s"/>
+  </channel>
   <channel id="KIKA.de">
     <display-name>KIKA</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXZBr6zWiObQ4iCya4aKLvrm92Yomy-qCJ0WLpSIcjSoAjLGmyh5dePVpHw&amp;amp;s"/>
@@ -1820,6 +1828,9 @@
   </channel>
   <channel id="PickxPlusN.be">
     <display-name>PickxPlusN.be</display-name>
+  </channel>
+  <channel id="PickxPlusSports10N.be">
+    <display-name>PickxPlusSports10N.be</display-name>
   </channel>
   <channel id="PickxPlusSports1F.be">
     <display-name>PickxPlusSports1F.be</display-name>
@@ -2629,6 +2640,10 @@
     <display-name>Le Figaro TV</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1102/canal-ouah/CHN43FB/CHN43FB_1102_20241115-fDKx?=.png"/>
   </channel>
+  <channel id="Vier.be">
+    <display-name>Vier</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~9dd9f700e9e26fd0.png/480x480/quality/100/vier.png"/>
+  </channel>
   <channel id="VoirPlus.af">
     <display-name>Voir+</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180215/canal-ouah/CHN43FB/VOIR_PLUS_FB_myCANAL_640x480?=.png"/>
@@ -3108,6 +3123,18 @@
   <channel id="oqee.1381">
     <display-name>Newsmax</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3727/w256"/>
+  </channel>
+  <channel id="oqee.1385">
+    <display-name>Top Films - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3790/w256"/>
+  </channel>
+  <channel id="oqee.1386">
+    <display-name>Comédies - Rakuten TV</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3791/w256"/>
+  </channel>
+  <channel id="oqee.1387">
+    <display-name>Films Romantiques - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3796/w256"/>
   </channel>
   <channel id="oqee.139">
     <display-name>Planète+ Crime</display-name>
@@ -6577,6 +6604,12 @@
     <desc lang="fr">Nadia Naji (Groen) richt zich in de Commissie Wonen tot minister Hans Bonte over strengere lokale voorrangsregels voor sociale woningen. In de Commissie Sport wordt minister Annick De Ridder bevraagd door Gwendolyn Rutten (Anders.) over de IOC-regels rond de deelname van transvrouwen in vrouwencompetities. En Frederik Sioen (Vooruit) vraagt in de Commissie Cultuur naar het bezoek van minister Caroline Gennez aan de Biënnale van Venetië.</desc>
     <category lang="fr">Magazine</category>
     <icon src="https://images.voomotion.be/Events/2026/03/01/14/2619775_A.jpg"/>
+  </programme>
+  <programme channel="ACTUATV.be" start="20260619230000 +0200" stop="20260620000000 +0200">
+    <title lang="fr">Studio Commissie</title>
+    <desc lang="fr">Nadia Naji (Groen) richt zich in de Commissie Wonen tot minister Hans Bonte over strengere lokale voorrangsregels voor sociale woningen. In de Commissie Sport wordt minister Annick De Ridder bevraagd door Gwendolyn Rutten (Anders.) over de IOC-regels rond de deelname van transvrouwen in vrouwencompetities. En Frederik Sioen (Vooruit) vraagt in de Commissie Cultuur naar het bezoek van minister Caroline Gennez aan de Biënnale van Venetië.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/06/2619775_A.jpg"/>
   </programme>
   <programme channel="ACTUATV.be" start="20260619230000 +0200" stop="20260619231000 +0200">
     <title lang="fr">Studio Commissie</title>
@@ -10318,6 +10351,41 @@ Présentateur(s) : Michel Drucker
     <category lang="fr">Culture Infos</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~477e52e7714eecd0.jpeg/640x360/quality/80/bonsoir-l-alsace.jpg"/>
   </programme>
+  <programme channel="AngersTele.fr" start="20260619000000 +0200" stop="20260619060000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/9/4/14461493.jpg"/>
+  </programme>
+  <programme channel="AngersTele.fr" start="20260619060000 +0200" stop="20260619090000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/9/4/14461496.jpg"/>
+  </programme>
+  <programme channel="AngersTele.fr" start="20260619090000 +0200" stop="20260619120000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/9/4/14461493.jpg"/>
+  </programme>
+  <programme channel="AngersTele.fr" start="20260619120000 +0200" stop="20260619150000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/9/8/4/14461489.jpg"/>
+  </programme>
+  <programme channel="AngersTele.fr" start="20260619150000 +0200" stop="20260619180000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/3/9/4/14461493.jpg"/>
+  </programme>
+  <programme channel="AngersTele.fr" start="20260619180000 +0200" stop="20260619210000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/7/0/2/13539207.jpg"/>
+  </programme>
+  <programme channel="AngersTele.fr" start="20260619210000 +0200" stop="20260620000000 +0200">
+    <title lang="fr">Angers Télé, actualité de Maine-et-Loire</title>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="http://static-cdn.tv.sfr.net/data/img/pl/6/9/4/14461496.jpg"/>
+  </programme>
   <programme channel="Animaux.fr" start="20260619000000 +0200" stop="20260619005000 +0200">
     <title lang="fr">Les super-pouvoirs des lapins - S01E01</title>
     <desc lang="fr">Le lapin a développé des aptitudes incroyables pour survivre face à ses prédateurs, notamment sa vue, son ouïe, sa vitesse et sa coopération.</desc>
@@ -11422,12 +11490,22 @@ Présentateur(s) : Michel Drucker
     <desc lang="fr">À Téhéran, une affiche géante met en scène deux figures héroïsées de l'histoire militaire iranienne. Derrière cette image, ultra-contrôlée, se dessine une tradition séculaire : utiliser les murs comme support politique.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
+  <programme channel="Arte.de" start="20260619040500 +0200" stop="20260619045100 +0200">
+    <title lang="fr">28 minutes</title>
+    <desc lang="fr">Retour sur l'actualité internationale : la réponse politique à l'affaire Lyhanna ; le référendum suisse sur la limitation de sa population ; les manifestations en Albanie contre un projet de complexe hôtelier porté par le gendre et la fille de Donald Trump ; Gianni Infantino, président de la Fifa, figure de l'excès du foot business ; l'ampleur des violences sexistes au Pakistan.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Arte.de" start="20260619040500 +0200" stop="20260619044800 +0200">
     <title lang="fr">28 minutes</title>
     <desc lang="fr">Retour sur l'actualité internationale : la réponse politique à l'affaire Lyhanna ; le référendum suisse sur la limitation de sa population ; les manifestations en Albanie contre un projet de complexe hôtelier porté par le gendre et la fille de Donald Trump ; Gianni Infantino, président de la Fifa, figure de l'excès du foot business ; l'ampleur des violences sexistes au Pakistan.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="Arte.de" start="20260619044800 +0200" stop="20260619050000 +0200">
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
+    <category lang="fr">Divers / Fin</category>
+  </programme>
+  <programme channel="Arte.de" start="20260619045100 +0200" stop="20260619050000 +0200">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
     <category lang="fr">Divers / Fin</category>
@@ -35543,7 +35621,8 @@ Acteurs : Ria Sunn, Keira Croft
   <programme channel="CanalPlusFoot.fr" start="20260619032600 +0200" stop="20260619081100 +0200">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
-    <category lang="fr">Divers / Fin</category>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ed946480ce0f06dc.jpeg/640x360/quality/80/fin-des-programmes.jpg"/>
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260619081100 +0200" stop="20260619095400 +0200">
     <title lang="fr">Football : Ligue Conférence</title>
@@ -42022,6 +42101,42 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Emission sportive / Equitation</category>
   </programme>
   <programme channel="ChinaMovieChannel.cn" start="20260619010000 +0200" stop="20260619070000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DC7ACD6DAC4FDC7201A819B8AA7D8F5D.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260619070000 +0200" stop="20260619100000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/5E3ACEC9561E81C8CF52DDA3327D6935.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260619100000 +0200" stop="20260619130000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FBB3F177C737596C33314D11C1692095.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260619130000 +0200" stop="20260619160000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9D621386E848240ACE32974B27A83A7F.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260619160000 +0200" stop="20260619190000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/9D621386E848240ACE32974B27A83A7F.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260619190000 +0200" stop="20260619220000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8CBAD05033BF8B8CB2FE973659A1E991.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260619220000 +0200" stop="20260620010000 +0200">
     <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
     <desc lang="fr">Le résumé n'est pas disponible</desc>
     <category lang="fr">Film</category>
@@ -49660,11 +49775,26 @@ Présentateur(s) : Michaël Youn
     <title lang="fr">Avn 2023</title>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619000000 +0200" stop="20260619001800 +0200">
+    <title lang="fr">Afrik Désirs - S07E04</title>
+    <desc lang="fr">Découvrez Afrik Désirs, l'émission qui décrypte toutes vos questions coquines, présentée par Neslyne Antonela</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619001800 +0200" stop="20260619003600 +0200">
+    <title lang="fr">Afrik Désirs - S07E08</title>
+    <desc lang="fr">Découvrez Afrik Désirs, l'émission qui décrypte toutes vos questions coquines, présentée par Neslyne Antonela</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619002800 +0200" stop="20260619010000 +0200">
     <title lang="fr">Amour et Sexe</title>
     <desc lang="fr">Un couple africain vivant une relation amoureuse depuis deux ans décide de se marier. Avant le mariage civil, ils organisent une cérémonie traditionnelle. Malgré leur amour, des tensions surgissent lorsque l'homme découvre que sa fiancée a des aventures et qu'il a lui-même une liaison avec sa sœur. Malgré cela, ils décident de surmonter leurs problèmes et de se marier.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619003600 +0200" stop="20260619010100 +0200">
+    <title lang="fr">Afrik Désirs - S07E01</title>
+    <desc lang="fr">Découvrez Afrik Désirs, l'émission qui décrypte toutes vos questions coquines, présentée par Neslyne Antonela</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619010000 +0200" stop="20260619011800 +0200">
     <title lang="fr">Afrik Désirs</title>
@@ -49672,11 +49802,21 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619010100 +0200" stop="20260619013500 +0200">
+    <title lang="fr">Plaisirs éxotiques - S01E06</title>
+    <desc lang="fr">Elcha, la fiancée de Dji Boss, découvre la situation et le trio explore de nouvelles interactions.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619011800 +0200" stop="20260619013600 +0200">
     <title lang="fr">Afrik Désirs</title>
     <desc lang="fr">Découvrez Afrik Désirs, l'émission qui décrypte toutes vos questions coquines, présentée par Neslyne Antonela</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619013500 +0200" stop="20260619020200 +0200">
+    <title lang="fr">Les vacances de Little Orange - S01E06</title>
+    <desc lang="fr">Little Orange, une sublime femme d'affaires part en vacances dans une luxueuse villa au bord de la lagune. En quête de plaisir et d'oubli elle vient se ressourcer sexuellement. Son magnétisme trouble rapidement les vacanciers et bouscule les couples venus se détendre. Sous son influence, la villa devient le théâtre d'une libération des corps et des esprits.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619013600 +0200" stop="20260619020100 +0200">
     <title lang="fr">Afrik Désirs</title>
@@ -49690,6 +49830,16 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619020200 +0200" stop="20260619023300 +0200">
+    <title lang="fr">A chacun ses fantasmes - S01E05</title>
+    <desc lang="fr">Sandrine a un autre désir. Elle se fantasme ligotée, entièrement à la merci de deux hommes prêts à assouvir leurs envies sur elle. Elle adore se laisser dominer par plusieurs partenaires à la fois, et le plaisir qu'elle prend à les voir jouir sur son corps ne fait qu'amplifier son excitation.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619023300 +0200" stop="20260619030600 +0200">
+    <title lang="fr">Chez Livia - S01E01</title>
+    <desc lang="fr">Livia, une dame en chaire et accueillante, tient un restaurant spécialisé en recettes locales. Accro au sexe, elle baise avec ses clients Kalo et Ricardo. D'un autre côté, Kalo se tape Sofiana, la petite amie de Ricardo, en secret. Kat, l'amie de Sofiana qui est aussi serveuse au resto "Chez Livia", semble avoir une double personnalité. Elle fantasme sur les hommes mais les repousse quand ils l'approchent. Ricardo va finalement surprendre Kalo et Sofiana et pour leur accorder son pardon, il exige de les voir coucher ensemble en sa présence.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619023500 +0200" stop="20260619030200 +0200">
     <title lang="fr">Les vacances de Little Orange</title>
     <desc lang="fr">Little Orange, une sublime femme d'affaires part en vacances dans une luxueuse villa au bord de la lagune. En quête de plaisir et d'oubli elle vient se ressourcer sexuellement. Son magnétisme trouble rapidement les vacanciers et bouscule les couples venus se détendre. Sous son influence, la villa devient le théâtre d'une libération des corps et des esprits.</desc>
@@ -49702,20 +49852,44 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619030600 +0200" stop="20260619033600 +0200">
+    <title lang="fr">Chez Livia - S01E02</title>
+    <desc lang="fr">Livia, une dame en chaire et accueillante, tient un restaurant spécialisé en recettes locales. Accro au sexe, elle baise avec ses clients Kalo et Ricardo. D'un autre côté, Kalo se tape Sofiana, la petite amie de Ricardo, en secret. Kat, l'amie de Sofiana qui est aussi serveuse au resto "Chez Livia", semble avoir une double personnalité. Elle fantasme sur les hommes mais les repousse quand ils l'approchent. Ricardo va finalement surprendre Kalo et Sofiana et pour leur accorder son pardon, il exige de les voir coucher ensemble en sa présence.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619033300 +0200" stop="20260619040600 +0200">
     <title lang="fr">Chez Livia</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619033600 +0200" stop="20260619040900 +0200">
+    <title lang="fr">Afrik Désirs - S06E14</title>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619040600 +0200" stop="20260619043600 +0200">
     <title lang="fr">Chez Livia</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619040900 +0200" stop="20260619043400 +0200">
+    <title lang="fr">Man in Love - S01E03</title>
+    <desc lang="fr">Lova et Marley arrivent en voiture à Man. À peine installés dans leur résidence, l'excitation monte. Ils s'abandonnent l'un à l'autre avec fougue.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619043400 +0200" stop="20260619050400 +0200">
+    <title lang="fr">Man in Love - S01E04</title>
+    <desc lang="fr">Le matin suivant, Précieuse quitte La Piqûre endormi et croise Senpaï. Elle l'invite chez elle, ils partagent un repas sensuel qui les mène aux préliminaires. La Piqûre les surprend... et se joint à eux.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619043600 +0200" stop="20260619050900 +0200">
     <title lang="fr">Afrik Désirs</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619050400 +0200" stop="20260619052900 +0200">
+    <title lang="fr">Man in Love - S01E05</title>
+    <desc lang="fr">Précieuse, blessée à la cheville, est secourue par Marley et Lova en pleine balade. De retour chez eux, Lova lui applique une pommade. L'ambiance devient torride, et Marley s'ajoute à ce moment intime à trois.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619050900 +0200" stop="20260619053400 +0200">
     <title lang="fr">Man in Love</title>
@@ -49723,17 +49897,31 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619052900 +0200" stop="20260619055600 +0200">
+    <title lang="fr">Casino endgame</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619053400 +0200" stop="20260619060400 +0200">
     <title lang="fr">Man in Love</title>
     <desc lang="fr">Le matin suivant, Précieuse quitte La Piqûre endormi et croise Senpaï. Elle l'invite chez elle, ils partagent un repas sensuel qui les mène aux préliminaires. La Piqûre les surprend... et se joint à eux.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619055600 +0200" stop="20260619062900 +0200">
+    <title lang="fr">Beach House - S01E05</title>
+    <desc lang="fr">Sur une plage ivoirienne brûlante et dans un grand appartement où l'on entre comme on sort, les rencontres ne s'arrêtent jamais. Wayne, Talya, Little Orange, Théo Master et Marley passent leurs journées entre le sable, la musique, les boissons fraîches et les regards insistants. Quand ça accroche dehors, ça finit souvent dedans, dans cette maison où la chaleur continue le travail du soleil. Pendant les 14 épisodes, les tensions, les rapprochements et les confrontations s'enchaînent. Ici, le désir circule partout sous le soleil brulant, entre les murs, et jusque tard dans la nuit.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619060400 +0200" stop="20260619062900 +0200">
     <title lang="fr">Man in Love</title>
     <desc lang="fr">Précieuse, blessée à la cheville, est secourue par Marley et Lova en pleine balade. De retour chez eux, Lova lui applique une pommade. L'ambiance devient torride, et Marley s'ajoute à ce moment intime à trois.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619062900 +0200" stop="20260619070500 +0200">
+    <title lang="fr">La Tentation - S01E09</title>
+    <desc lang="fr">L'excès les rattrape. Entre passion et vertige, Tina et Thomas risquent de tout perdre.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619062900 +0200" stop="20260619065600 +0200">
     <title lang="fr">Casino endgame</title>
@@ -49746,17 +49934,36 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619070500 +0200" stop="20260619073700 +0200">
+    <title lang="fr">La Tentation - S01E10</title>
+    <desc lang="fr">Tina transforme la tentation en cadeau. Le couple, au bord du chaos, retrouve une forme d'équilibre inattendue.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619072900 +0200" stop="20260619080500 +0200">
     <title lang="fr">La Tentation</title>
     <desc lang="fr">L'excès les rattrape. Entre passion et vertige, Tina et Thomas risquent de tout perdre.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619073700 +0200" stop="20260619080100 +0200">
+    <title lang="fr">A chacun ses fantasmes - S01E02</title>
+    <desc lang="fr">C'est au tour de Béa : elle s'imagine marcher dans la rue quand deux inconnus masqués surgissent de nulle part et la suivent. Alors qu'elle essaye de les semer, ils finissent par la retrouver, puis la baisent. Il s'agit en fait de son mec et d'un ami à lui qu'elle ne connaît pas, ce qui fait monter encore plus son excitation.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619080100 +0200" stop="20260619083400 +0200">
+    <title lang="fr">Afrik Désirs - S06E12</title>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619080500 +0200" stop="20260619083700 +0200">
     <title lang="fr">La Tentation</title>
     <desc lang="fr">Tina transforme la tentation en cadeau. Le couple, au bord du chaos, retrouve une forme d'équilibre inattendue.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619083400 +0200" stop="20260619091000 +0200">
+    <title lang="fr">House of Love - S02E04</title>
+    <desc lang="fr">Précieuse récupère des préservatifs dans la voiture avec Arno, profitant de l'instant pour le séduire. Ils s'introduisent discrètement dans la maison… direction la chambre pour une escapade torride.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619083700 +0200" stop="20260619090100 +0200">
     <title lang="fr">A chacun ses fantasmes</title>
@@ -49769,17 +49976,31 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619091000 +0200" stop="20260619094000 +0200">
+    <title lang="fr">House of Love - S02E05</title>
+    <desc lang="fr">Après leur ébat, Arno et Nancy sont surpris par Sempaï, à la recherche de Précieuse. Plutôt que de s'énerver, il décide de se joindre à eux pour prolonger le plaisir.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619093400 +0200" stop="20260619101000 +0200">
     <title lang="fr">House of Love</title>
     <desc lang="fr">Précieuse récupère des préservatifs dans la voiture avec Arno, profitant de l'instant pour le séduire. Ils s'introduisent discrètement dans la maison… direction la chambre pour une escapade torride.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619094000 +0200" stop="20260619101200 +0200">
+    <title lang="fr">House of Love - S02E06</title>
+    <desc lang="fr">Précieuse traverse nue pour se changer et tombe nez à nez avec Marley sortant de la salle de bain. Le désir est immédiat, les préliminaires commencent sur le pas de la porte…</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619101000 +0200" stop="20260619104000 +0200">
     <title lang="fr">House of Love</title>
     <desc lang="fr">Après leur ébat, Arno et Nancy sont surpris par Sempaï, à la recherche de Précieuse. Plutôt que de s'énerver, il décide de se joindre à eux pour prolonger le plaisir.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619101200 +0200" stop="20260619125200 +0200">
+    <title lang="fr">Cake Vol.5</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619104000 +0200" stop="20260619111200 +0200">
     <title lang="fr">House of Love</title>
@@ -49793,11 +50014,26 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619125200 +0200" stop="20260619132600 +0200">
+    <title lang="fr">La Tentation - S01E02</title>
+    <desc lang="fr">Au petit-déjeuner, le silence entre Tina et Thomas en dit long. Elle replonge dans le jeu dangereux de Marc.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619132600 +0200" stop="20260619140100 +0200">
+    <title lang="fr">La Tentation - S01E03</title>
+    <desc lang="fr">Thomas, lui aussi, trouve refuge ailleurs. Avec Alice, sa collègue, il goûte à une liberté qu'il n'avoue pas.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619135200 +0200" stop="20260619142600 +0200">
     <title lang="fr">La Tentation</title>
     <desc lang="fr">Au petit-déjeuner, le silence entre Tina et Thomas en dit long. Elle replonge dans le jeu dangereux de Marc.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619140100 +0200" stop="20260619143500 +0200">
+    <title lang="fr">La Tentation - S01E04</title>
+    <desc lang="fr">Tina et Thomas se disent enfin la vérité. Le choc devient une étrange forme de rapprochement.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619142600 +0200" stop="20260619150100 +0200">
     <title lang="fr">La Tentation</title>
@@ -49805,17 +50041,36 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619143500 +0200" stop="20260619150700 +0200">
+    <title lang="fr">La Tentation - S01E05</title>
+    <desc lang="fr">Décidés à ne plus se mentir, ils franchissent ensemble la ligne. Le désir devient terrain d'expérimentation.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619150100 +0200" stop="20260619153500 +0200">
     <title lang="fr">La Tentation</title>
     <desc lang="fr">Tina et Thomas se disent enfin la vérité. Le choc devient une étrange forme de rapprochement.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619150700 +0200" stop="20260619152000 +0200">
+    <title lang="fr">Afrik Désirs - S06E10</title>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619152000 +0200" stop="20260619155900 +0200">
+    <title lang="fr">Plaisir D'un Soir</title>
+    <desc lang="fr">Le vent semble tourner en la faveur de Martin. Mégane accepte ses avances. Ils font l'amour chez lui. Pendant ce temps les deux femmes préparent une nuit inoubliable à leurs époux et elles changent leur garde-robe et décident d'être plus sexy.</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619153500 +0200" stop="20260619160700 +0200">
     <title lang="fr">La Tentation</title>
     <desc lang="fr">Décidés à ne plus se mentir, ils franchissent ensemble la ligne. Le désir devient terrain d'expérimentation.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619155900 +0200" stop="20260619162800 +0200">
+    <title lang="fr">Plaisir entre collegues</title>
+    <desc lang="fr">C'est la nuit spéciale pour Mireille, elle offre une partie de sexe inoubliable à son mari.</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619160700 +0200" stop="20260619162000 +0200">
     <title lang="fr">Afrik Désirs</title>
@@ -49828,11 +50083,21 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619162800 +0200" stop="20260619170700 +0200">
+    <title lang="fr">Une assistante attentionnée</title>
+    <desc lang="fr">C'est la nuit spéciale de Françoise. Après avoir effectué une danse sexy, elle fait l'amour à son homme comme jamais auparavant. Les couples se retrouvent. Les deux hommes se confient à leurs femmes en racontant l'histoire avec les serveuses. Ils s'en excusent et promettent de ne plus recommencer. Les deux épouses se regardent dans les yeux et échangent un clin d'œil complice.</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619165900 +0200" stop="20260619172800 +0200">
     <title lang="fr">Plaisir entre collegues</title>
     <desc lang="fr">C'est la nuit spéciale pour Mireille, elle offre une partie de sexe inoubliable à son mari.</desc>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619170700 +0200" stop="20260619173900 +0200">
+    <title lang="fr">Beach House - S01E11</title>
+    <desc lang="fr">Sur une plage ivoirienne brûlante et dans un grand appartement où l'on entre comme on sort, les rencontres ne s'arrêtent jamais. Wayne, Talya, Little Orange, Théo Master et Marley passent leurs journées entre le sable, la musique, les boissons fraîches et les regards insistants. Quand ça accroche dehors, ça finit souvent dedans, dans cette maison où la chaleur continue le travail du soleil. Pendant les 14 épisodes, les tensions, les rapprochements et les confrontations s'enchaînent. Ici, le désir circule partout sous le soleil brulant, entre les murs, et jusque tard dans la nuit.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619172800 +0200" stop="20260619180700 +0200">
     <title lang="fr">Une assistante attentionnée</title>
@@ -49840,20 +50105,44 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619173900 +0200" stop="20260619181500 +0200">
+    <title lang="fr">Beach House - S01E04</title>
+    <desc lang="fr">Sur une plage ivoirienne brûlante et dans un grand appartement où l'on entre comme on sort, les rencontres ne s'arrêtent jamais. Wayne, Talya, Little Orange, Théo Master et Marley passent leurs journées entre le sable, la musique, les boissons fraîches et les regards insistants. Quand ça accroche dehors, ça finit souvent dedans, dans cette maison où la chaleur continue le travail du soleil. Pendant les 14 épisodes, les tensions, les rapprochements et les confrontations s'enchaînent. Ici, le désir circule partout sous le soleil brulant, entre les murs, et jusque tard dans la nuit.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619180700 +0200" stop="20260619183900 +0200">
     <title lang="fr">Beach House</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619181500 +0200" stop="20260619184500 +0200">
+    <title lang="fr">Passion Brûlante - S01E08</title>
+    <desc lang="fr">En chemin, Véro retrouve son amie Mirna, venue elle aussi de Kinshasa. Elles se retrouvent chez Véro, en culotte et soutien-gorge, partageant un moment convivial. Véro lui confie son souhait de se fiancer avec Fara, tandis que Mirna avoue ses frustrations amoureuses. Véro appelle Fara qui arrive rapidement. Les deux femmes le séduisent avec attention. Bientôt, Fara fait l'amour à Véro en levrette, sous le regard excité de Mirna, qu'il rejoint ensuite pour une étreinte passionnée sur le canapé.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619183900 +0200" stop="20260619191500 +0200">
     <title lang="fr">Beach House</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619184500 +0200" stop="20260619191400 +0200">
+    <title lang="fr">Passion Brûlante - S01E09</title>
+    <desc lang="fr">Chez le Prince Mweso, ce dernier s'excuse auprès de Fara et promet de ne plus toucher à Bertha, lui demandant pardon et de la ramener. Fara refuse, affirmant que c'est fini et qu'il a une nouvelle relation. Bertha arrive, et les deux hommes l'accueillent chaleureusement. Sans un mot, ils se déshabillent et l'emmènent en chambre, où ils partagent une relation à trois, mêlant tendresse et passion intense, incluant le fouet fétiche de Bertha. Ils finissent heureux, nus, Bertha blottie entre eux.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619191400 +0200" stop="20260619194200 +0200">
+    <title lang="fr">Passion Brûlante - S01E10</title>
+    <desc lang="fr">Véro accompagne Mirna chez le sage Nkuyu, qui réalise un rituel pour guérir la tante de Mirna. Après avoir enduit Mirna d'huile et entamé ses incantations, Nkuyu se livre à des caresses sensuelles. Véro se joint au rituel, se masturbant devant Nkuyu, qui s'intéresse alors à elle. Nkuyu fait l'amour à Véro avec intensité, avant de reprendre Mirna pour une union passionnée. Pendant ce temps, Véro s'amuse avec les objets du sage, mais soudain, elle pousse un cri de stupeur et s'évanouit, laissant Nkuyu et Mirna inquiets.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619191500 +0200" stop="20260619194500 +0200">
     <title lang="fr">Passion Brûlante</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619194200 +0200" stop="20260619202200 +0200">
+    <title lang="fr">Afrik Désirs - S06E08</title>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619194500 +0200" stop="20260619201400 +0200">
     <title lang="fr">Passion Brûlante</title>
@@ -49865,30 +50154,60 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619202200 +0200" stop="20260619205600 +0200">
+    <title lang="fr">L'offre d'emploi</title>
+    <desc lang="fr">Les couples amoureux sont de retour de leur voyage, retrouvant leurs appartements avec enthousiasme. Pendant ce temps, le snack est en plein fonctionnement. La nouvelle gérante, installée au comptoir, donne des directives aux serveuses lorsque le patron fait son entrée. Les serveuses s'activent à la vue du patron, chacune cherchant à faire bonne impression. Manuela, l'une des serveuses, se distingue des autres en suivant le patron dans son bureau, avec l'intention de le séduire. En lui apportant un café, Manuela parvient à le charmer en utilisant des jeux de jambes suggestifs.</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619204200 +0200" stop="20260619212200 +0200">
     <title lang="fr">Afrik Désirs</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619205600 +0200" stop="20260619212500 +0200">
+    <title lang="fr">La nuit des amants</title>
+    <desc lang="fr">Le mari de Mireille, est en route pour son travail en tant que directeur d'une agence de voyage, après que sa femme lui a apporté son petit déjeuner. Mbolo, lui, reste au lit, travaillant sur son ordinateur, tandis que Françoise, ayant envie de lui, commence à lui faire une fellation. Au snack, les serveuses sont déjà en place. Martin, un jeune homme du quartier, entre et est chaleureusement accueilli par les filles. Séducteur, il attire toutes les convoitises, mais n'a d'yeux que pour Mégane, la gérante, qui semble désintéressée. Vanessa, l'une des serveuses, parvient à détourner son attention lorsqu'il lui demande où se trouvent les toilettes. Elle se propose de l'accompagner et, une fois là-bas, le séduit avec insistance. Martin finit par céder et ils ont une relation passionnée dans les toilettes.</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619212200 +0200" stop="20260619215600 +0200">
     <title lang="fr">L'offre d'emploi</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619212500 +0200" stop="20260619215700 +0200">
+    <title lang="fr">Le défi</title>
+    <desc lang="fr">Mbarga rentre et décide de faire un tour au nouveau snack. Comme d'habitude, l'accueil est remarquable. Mégane, la gérante, décide de le traiter comme un VIP et envoie ses serveuses en mission de séduction. Totalement captivé par le show des serveuses, Mbarga en perd la notion du temps. Sa femme, restée à la maison, s'inquiète et commence à l'appeler, mais il ne répond pas. Mégane ferme le snack à minuit. L'une des serveuses offre alors à Mbarga une nuit inoubliable.</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619215600 +0200" stop="20260619222500 +0200">
     <title lang="fr">La nuit des amants</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619215700 +0200" stop="20260619222800 +0200">
+    <title lang="fr">Beach House - S01E10</title>
+    <desc lang="fr">Sur une plage ivoirienne brûlante et dans un grand appartement où l'on entre comme on sort, les rencontres ne s'arrêtent jamais. Wayne, Talya, Little Orange, Théo Master et Marley passent leurs journées entre le sable, la musique, les boissons fraîches et les regards insistants. Quand ça accroche dehors, ça finit souvent dedans, dans cette maison où la chaleur continue le travail du soleil. Pendant les 14 épisodes, les tensions, les rapprochements et les confrontations s'enchaînent. Ici, le désir circule partout sous le soleil brulant, entre les murs, et jusque tard dans la nuit.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619222500 +0200" stop="20260619225700 +0200">
     <title lang="fr">Le défi</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619222800 +0200" stop="20260619230200 +0200">
+    <title lang="fr">Le club des Affranchis - S01E03</title>
+    <desc lang="fr">Secrets et expériences personnelles commencent à se dévoiler, révélant des désirs et conflits.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619225700 +0200" stop="20260619232800 +0200">
     <title lang="fr">Beach House</title>
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
+  </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619230200 +0200" stop="20260619233200 +0200">
+    <title lang="fr">Passion Brûlante - S01E02</title>
+    <desc lang="fr">Chez le sage Nkuyu, Véro interrompt une incantation. Il lui demande de se déchausser et d'approcher. Elle lui expose son problème. Pendant ce temps, Bertha, troublée par son désir pour Prince Mweso, se laisse emporter par ses pulsions. À l'arrivée de Fara, elle l'embrasse fougueusement et l'entraîne dans une scène de sexe intense, agrémentée de jeux érotiques. De retour chez Nkuyu, Véro lui remet de l'argent. Il lui rappelle ce qu'elle devra apporter pour la prochaine cérémonie. Une fois seule, Nkuyu admire les billets et danse en bénissant les esprits.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelTVAfrica.af" start="20260619232800 +0200" stop="20260620000200 +0200">
     <title lang="fr">Le club des Affranchis</title>
@@ -49896,90 +50215,90 @@ Présentateur(s) : Michaël Youn
     <category lang="fr">Adulte</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50082/canal-ouah/GEN169/Dorcel-f7MS"/>
   </programme>
+  <programme channel="DorcelTVAfrica.af" start="20260619233200 +0200" stop="20260620000300 +0200">
+    <title lang="fr">Passion Brûlante - S01E03</title>
+    <desc lang="fr">Bertha remercie Fara pour leur ébat et s'interroge sur Véro. Il lui explique que c'est une femme d'affaires venue chercher une protection spirituelle. Méfiante, Bertha lui conseille de rester vigilant. Véro arrive, et Fara la conduit chez le Prince Mweso. Séduite, ce dernier tente de la corrompre avec des trésors. Véro le provoque brièvement, le pousse à l'éjaculation, puis s'en va, laissant le Prince frustré et en plein fantasme.</desc>
+    <category lang="fr">Série / Série pornographique</category>
+  </programme>
   <programme channel="DorcelXXX.fr" start="20260619000000 +0200" stop="20260619022500 +0200">
     <title lang="fr">Young Lust Vol.4</title>
-    <desc lang="fr">Lorsqu' Owen Gray a engagé Vanna Bardot, Adria Rae, Kay Lovely et Jazmin Luv pour ce film, il savait que vous ne seriez pas déçus tellement ces femmes sont excitantes.</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619022500 +0200" stop="20260619044000 +0200">
     <title lang="fr">Stars 12</title>
-    <desc lang="fr">Lauren et Tommy ne sont peut-être en couple que depuis quelques semaines mais ils sont déjà follement amoureux l'un de l'autre. Ce que Tommy ne sait pas encore, c'est que Lauren est également créatrice de contenus pour adultes. Le jour ou Tommy tombe par hasard sur l'une des vidéos de sa copine, il découvre également que celle-ci est très friande du plaisir anal. Quelques jours après cette découverte, il décide de lui faire part de sa découverte pour voir comment elle va réagir...</desc>
-    <category lang="fr">Film</category>
+    <desc lang="fr">Cinq des plus belles stars Dorcel réalisent leurs fantasmes rien que pour vous</desc>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619044000 +0200" stop="20260619050000 +0200">
     <title lang="fr">Le plus vite possible</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619050000 +0200" stop="20260619072100 +0200">
     <title lang="fr">Pornochic</title>
-    <desc lang="fr">Sous vos yeux, les plus belles filles de la bourgeoisie française s'offrent sans soucis à la débauche la plus perverse... Une épopée luxueuse et libertine !</desc>
-    <category lang="fr">Film</category>
+    <desc lang="fr">Pour Maya et Jia, le désir et le plaisir passent avant tout.</desc>
+    <category lang="fr">Série / Série pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619072100 +0200" stop="20260619095300 +0200">
     <title lang="fr">Tushy Raw Vol.85</title>
     <desc lang="fr">TUSHY RAW va droit au but : du sexe anal chaud et intense avec les plus belles femmes de la planète. Tout ce que vous voyez ici est 100% réel et brut. Scarlett Alexis, Vanessa Sky, Layla Love, Charlie Forde et Megan Longoria se souviendront longtemps de cette véritable expérience au coeur du plaisir.</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619095300 +0200" stop="20260619100000 +0200">
     <title lang="fr">L'initiation de Clara Mia</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619100000 +0200" stop="20260619113500 +0200">
     <title lang="fr">Les plans à trois de Mariska</title>
     <desc lang="fr">Ces femmes adorent le sexe... de préférence à 3, Luna True Love aime jouer avec deux hommes, LadyLyne aime les sentir dans ces deux trous et Milf Dacada préfère les plans à trois avec un homme et une autre femme.</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619113500 +0200" stop="20260619132200 +0200">
     <title lang="fr">Tiffany Leiddi Road Trip</title>
-    <desc lang="fr">Ce n'est pas parce qu'elle part en voyage qu'une vraie coquine perd sa libido exacerbée, bien au contraire. Alors, quand Tiffany Leiddi s'offre 2 semaines de Road Trip pour parcourir les merveilles de l'ouest des Etats-Unis, elle ne chevauche pas que sa moto et la route 66 pourrait même être rebaptisée route 69 ! C'est parti pour une aventure torride.</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619132200 +0200" stop="20260619140300 +0200">
     <title lang="fr">Désir de réparation</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619140300 +0200" stop="20260619142600 +0200">
     <title lang="fr">Les invités de Shalina</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619142600 +0200" stop="20260619145700 +0200">
     <title lang="fr">Un heureux hasard</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619145700 +0200" stop="20260619162800 +0200">
     <title lang="fr">Nora &amp; Theo Vol.5</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619162800 +0200" stop="20260619183500 +0200">
     <title lang="fr">Tiffany Sexlife 4</title>
-    <desc lang="fr">Tiffany Leiddi et Ricky Mancini ce couple emblématique et complice est à la recherche de nouvelles sensations. Ricky après avoir fait jouir Tiffany un peu partout dans leur appartement laisse la belle inviter sa copine Anissa Kate pour les laisser s'adonner à des plaisirs très intimes. Une journée que Tiffany n'oubliera pas de sitôt !</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619183500 +0200" stop="20260619185700 +0200">
     <title lang="fr">Les saveurs du désir</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619185700 +0200" stop="20260619192900 +0200">
     <title lang="fr">Plaisir pur</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Film / Film pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619192900 +0200" stop="20260619195400 +0200">
     <title lang="fr">Surprise Massage</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619195400 +0200" stop="20260619212900 +0200">
     <title lang="fr">Danika Mori Vol.10</title>
-    <desc lang="fr">Un conseil, si vous êtes en couple, ne regardez pas ce nouveau film de Danika Mori... Car vous risquez fort de comparer vos journées avec l'existence de celui qui partage la vie de la petite brune italienne : fellation baveuse le matin, sodomie profonde l'après-midi, squirt au goûter et éjac faciale le soir. Et ceci chaque jour, parfois dans le désordre... Si vous jetez un oeil, on vous aura prévenu.</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619212900 +0200" stop="20260619233400 +0200">
     <title lang="fr">Blacked Raw Vol.97</title>
-    <desc lang="fr">BLACKED RAW est là pour embrasser de nouvelles cultures, du sexe passionné et de vraies femmes. Pas de photoshop ici, tout ce que vous voyez est 100% réel.</desc>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="DorcelXXX.fr" start="20260619233400 +0200" stop="20260620000000 +0200">
     <title lang="fr">La leçon particulière</title>
-    <category lang="fr">Film</category>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="Dreamworks.fr" start="20260619002000 +0200" stop="20260619004500 +0200">
     <title lang="fr">Fast &amp; Furious : Les espions dans la course - S01E03</title>
@@ -54799,13 +55118,15 @@ Depuis qu’il s’est évanoui dans la nature, les enquêteurs ont reçu près 
   </programme>
   <programme channel="France2.fr" start="20260619050000 +0200" stop="20260619055000 +0200">
     <title lang="fr">Tout le monde veut prendre sa place</title>
-    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
-    <category lang="fr">Divers / Jeu</category>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. Les 2 premières manches, "les qualifs", et "la compèt'" désignent le challenger qui relève "le défi" de détrôner le champion en titre. C'est le champion en titre qui choisit le thème des questions en finale.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/03/17/2422924_A.jpg"/>
   </programme>
   <programme channel="France2.fr" start="20260619055000 +0200" stop="20260619060000 +0200">
     <title lang="fr">Mot de passe : le duel</title>
-    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
-    <category lang="fr">Divers / Jeu</category>
+    <desc lang="fr">Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de semaine, le vendredi, avec le meilleur des 2 candidats et les deux célébrités.</desc>
+    <category lang="fr">Jeu</category>
+    <icon src="https://images.voomotion.be/Events/2025/12/31/04/2645062_A.jpg"/>
   </programme>
   <programme channel="France2.fr" start="20260619060000 +0200" stop="20260619063500 +0200">
     <title lang="fr">Le 6h info</title>
@@ -63957,6 +64278,42 @@ Réalisateur(s) : Antoine Védeilhé
     <category lang="fr">Programme</category>
     <icon src="https://img.bouygtel.fr/CMS/images/3AE6D03A599A3B4DC7338EBA2593DDB9.jpg"/>
   </programme>
+  <programme channel="HLive.fr" start="20260619070000 +0200" stop="20260619100000 +0200">
+    <title lang="fr">La chaîne culturelle de la communauté haïtienne</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/08B419A0C52AB1B1A36E464C8809BA73.jpg"/>
+  </programme>
+  <programme channel="HLive.fr" start="20260619100000 +0200" stop="20260619130000 +0200">
+    <title lang="fr">La chaîne culturelle de la communauté haïtienne</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3AE6D03A599A3B4DC7338EBA2593DDB9.jpg"/>
+  </programme>
+  <programme channel="HLive.fr" start="20260619130000 +0200" stop="20260619160000 +0200">
+    <title lang="fr">La chaîne culturelle de la communauté haïtienne</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/08B419A0C52AB1B1A36E464C8809BA73.jpg"/>
+  </programme>
+  <programme channel="HLive.fr" start="20260619160000 +0200" stop="20260619190000 +0200">
+    <title lang="fr">La chaîne culturelle de la communauté haïtienne</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3AE6D03A599A3B4DC7338EBA2593DDB9.jpg"/>
+  </programme>
+  <programme channel="HLive.fr" start="20260619190000 +0200" stop="20260619220000 +0200">
+    <title lang="fr">La chaîne culturelle de la communauté haïtienne</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3AE6D03A599A3B4DC7338EBA2593DDB9.jpg"/>
+  </programme>
+  <programme channel="HLive.fr" start="20260619220000 +0200" stop="20260620010000 +0200">
+    <title lang="fr">La chaîne culturelle de la communauté haïtienne</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Programme</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/3AE6D03A599A3B4DC7338EBA2593DDB9.jpg"/>
+  </programme>
   <programme channel="Histoire.fr" start="20260619000500 +0200" stop="20260619014500 +0200">
     <title lang="fr">Au royaume du Maréchal</title>
     <desc lang="fr">Le 11 novembre 1942, les troupes allemandes franchissent la ligne de démarcation en réaction au débarquement des Alliés en Afrique du Nord. Les Français de la zone non occupée vont vivre à leur tour au rythme des uniformes allemands et des tourments de l'occupation. C'est dans cette zone dite "libre" qu'est diffusé, d'octobre 1940 à août 1942 le journal France Actualités Pathé-Gaumont, les sociétés Gaumont et Pathé ayant été réquisitionnées par le gouvernement de Vichy. Ce journal va devenir l'un des principaux médias de propagande pour informer et divertir mais aussi contrôler et manipuler les Français. Le documentaire Au royaume du Maréchal suit la chronologie historique et montre, à travers les actualités, les événements tels que les voyaient les Français à l'époque.</desc>
@@ -65472,6 +65829,143 @@ Réalisateur(s) : Antoine Védeilhé
     <category lang="fr">Series</category>
     <episode-num>0.4.</episode-num>
     <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP049735860005/SHOWCARD_BACKGROUND/2048x1024"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619001100 +0200" stop="20260619002200 +0200">
+    <title lang="fr">CEO van mijn leven S3</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/24/2649660_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619002200 +0200" stop="20260619003400 +0200">
+    <title lang="fr">Car Upd8te S1</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/58/2622515_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619003400 +0200" stop="20260619003800 +0200">
+    <title lang="fr">Z-Food S3</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/31/2649521_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619003800 +0200" stop="20260619004000 +0200">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Zakenblad.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/00/2622511_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619004000 +0200" stop="20260619060000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619060000 +0200" stop="20260619100000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619100000 +0200" stop="20260619150000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619150000 +0200" stop="20260619200000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619200000 +0200" stop="20260619201100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619201100 +0200" stop="20260619202300 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619202300 +0200" stop="20260619205600 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619205600 +0200" stop="20260619210000 +0200">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Zakenblad.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/00/2622511_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619210000 +0200" stop="20260619211100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619211100 +0200" stop="20260619212400 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619212400 +0200" stop="20260619215700 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619215700 +0200" stop="20260619220000 +0200">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Zakenblad.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/00/2622511_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619220000 +0200" stop="20260619221100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619221100 +0200" stop="20260619222400 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619222400 +0200" stop="20260619225700 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619225700 +0200" stop="20260619230100 +0200">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Zakenblad.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/00/2622511_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619230100 +0200" stop="20260619231200 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619231200 +0200" stop="20260619232400 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619232400 +0200" stop="20260619235800 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260619235800 +0200" stop="20260620000100 +0200">
+    <title lang="fr">Business branding aveve</title>
+    <desc lang="fr">Zakenblad.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/00/2622511_A.jpg"/>
   </programme>
   <programme channel="KIKA.de" start="20260619060000 +0200" stop="20260619060500 +0200">
     <title lang="fr">Kikaninchen Schnipselwelt</title>
@@ -81574,7 +82068,7 @@ Présentateur(s) : Cyril Viguier
     <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="NT1.fr" start="20260619230000 +0200" stop="20260620002000 +0200">
-    <title lang="fr">Chroniques criminelles - S09E20</title>
+    <title lang="fr">Chroniques criminelles - S09E15</title>
     <desc lang="fr">Julie Douib, mère de deux enfants, est devenue le symbole de tous les féminicides qui font régulièrement la Une des médias. En mars 2019, Bruno Garcia-Cruciani était allé se rendre à la gendarmerie juste après le drame, en avouant qu'il avait tué sa compagne mais qu'il s'agissait d'un accident. Cette tragique histoire est la chronique d'un engrenage implacable.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
@@ -88004,6 +88498,234 @@ Cependant, l'excitation de Clawdeen est rapidement assombrie par la découverte 
     <category lang="fr">Téléfilm</category>
     <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
   </programme>
+  <programme channel="PenthousePassion.fr" start="20260619052400 +0200" stop="20260619054300 +0200">
+    <title lang="fr">Fresh College Snacks</title>
+    <desc lang="fr">Ah, to be a college professor with all those young newly independent co-eds! What's a teacher to do when one of the girls comes on to them? I mean he might be an authoritative figure, but he's also a man... a man with a weakness and a stiff dick!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619054300 +0200" stop="20260619060000 +0200">
+    <title lang="fr">Sweet Home Sex</title>
+    <desc lang="fr">Alisha (Martinika) wakes up to find a gift bag full of sexy black lingerie for her. Her lover, Leo (Casanova), watches from the balcony as she tries on his gifts and dances for him!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/564E520223DC23D7E4C70F6CABACCD92.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619060000 +0200" stop="20260619072100 +0200">
+    <title lang="fr">College Sex Favors</title>
+    <desc lang="fr">College is an exciting time. A time to learn independence and what it's like to be a grown-up. It's also a good time to find out what kind of favors you can get by being in a student body!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619072100 +0200" stop="20260619080000 +0200">
+    <title lang="fr">Passionate Lovers</title>
+    <desc lang="fr">Liya Silver, Shalina Devine, Cherry Kiss, Leo Ahsoka, and Clea Gaultier have an excruciating need for passionate loving, and it doesn't take long for these needy naughties to convince a man to indulge with them!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB7AB456D18CF7295099B95E859CEDB.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619080000 +0200" stop="20260619082200 +0200">
+    <title lang="fr">Sexy Salon Affairs</title>
+    <desc lang="fr">You probably consider yourself lucky if you can get a hair appointment with a nice salon, and it's on time! At the DP Salon getting lucky is having a hot, horny and flirty girl in the waiting room who invites you into her session for a crazy 3-way with her and the hairdresser! That's an appointment you'll keep!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619082200 +0200" stop="20260619083900 +0200">
+    <title lang="fr">Stepdaddy Loves My Ass</title>
+    <desc lang="fr">While Penelope (Kay) was in college she texted with her stepdad (Mike Mancini) about how much she wanted to be with him. He didn't take her seriously, but now that she's home she's going to show him just how serious she is!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619083900 +0200" stop="20260619090000 +0200">
+    <title lang="fr">I Screwed My Slutty Student</title>
+    <desc lang="fr">Stacy's (Cruz) having trouble with her studies and teases Kristof (Cale) with pictures to try to get him to come help, but by the time he gets there this dirty girl has worked her pussy into a frenzy and needs real satisfaction!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619090000 +0200" stop="20260619092100 +0200">
+    <title lang="fr">She Cleaned My Pipes</title>
+    <desc lang="fr">Jay (Snakes) is having trouble with his office coffee machine, so he calls the building maintenance person, Tiffany (Tatum). This cute girl gets flirty and asks to see his office, and soon she's showing him some of her "goods!"</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619092100 +0200" stop="20260619094200 +0200">
+    <title lang="fr">Cheating Brides Love Black Dick</title>
+    <desc lang="fr">Khloe's (Kapri) husband-to-be is drunk on their wedding day and propositioned her maid of honor right in front of her! Best man, Isiah (Maxwell) tries to smooth things out for his buddy, but the only way the bride will be satisfied is with last hurrah before she's attached to the "old ball and chain!"</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619094200 +0200" stop="20260619100000 +0200">
+    <title lang="fr">Petite Blondes In Lust</title>
+    <desc lang="fr">Candee (Licious) is hurting from a breakup when she meets Jimmy (Bud) at a café, and it seems that he's the perfect distraction for this girl's heartbreak once she takes him back to her apartment for some rebound sex!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619100000 +0200" stop="20260619101800 +0200">
+    <title lang="fr">Teen Massage</title>
+    <desc lang="fr">Chloe (Temple) is trying to get a job with Ramon (nomaR) for massage but since she's only given her boyfriend a hand massage Ramon needs to teach her a few techniques... and he might want a sample of her "hand massage!"</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/54F98317D66976C32F0D27A5CDE9C5E8.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619101800 +0200" stop="20260619104000 +0200">
+    <title lang="fr">Banging My Big Titty Babysitter</title>
+    <desc lang="fr">Sofi Ryan is a very lazy babysitter; she's lounging by the pool while Derrick Pierce's son is in his room using an iPad. He can't think of one reason why he shouldn't fire her, but sexy Sofi has "two big ones," and she happily shows him!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619104000 +0200" stop="20260619110000 +0200">
+    <title lang="fr">Kinky Wife Exchange Club</title>
+    <desc lang="fr">Ryan (Mclane) and Lacy (Lennon) are very good friends of Charlotte (Sins) and Robby (Echo) with an eccentric lifestyle with very entertaining stories, now Charlotte and Robby wanted to be a part of it and exchange partners!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619110000 +0200" stop="20260619111800 +0200">
+    <title lang="fr">We had Hot COVID Sex</title>
+    <desc lang="fr">MJ (Fresh) is going crazy from the lockdown and is ready to party, but Peter (Green) doesn't want her going out and bring COVID back in the house with her. To convince her to stay he brings a party into the house... the kind that happens when his zipper is down and his cock comes out!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619111800 +0200" stop="20260619114000 +0200">
+    <title lang="fr">I Screwed My Nurse</title>
+    <desc lang="fr">Tony (Rubino) overdid stretches his Asian physical therapist, Kimmy (Kimm) suggested he do. Water therapy works well, but he can't lift his leg without help so she gets into the tub with him! Hmmm… his leg has gone back to normal, but his dick? That's going to need some special attention!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB7AB456D18CF7295099B95E859CEDB.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619114000 +0200" stop="20260619120000 +0200">
+    <title lang="fr">Big Titty MILF Obsession</title>
+    <desc lang="fr">Beautiful, busty Casca (Akashova) is desperately trying to get her son enrolled in Mr. Nixon's (Tyler Nixon) class, but it's already full... perhaps this desperate MILF can work something out with the young professor?</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/AC46D80960D5B4116852D507D780CB71.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619120000 +0200" stop="20260619135600 +0200">
+    <title lang="fr">GirlFriends Sharing a Cock</title>
+    <desc lang="fr">Girls loving girls is always a treat, but here an extra treat is added into the mix making the orgasmic romp even more enjoyable for all!</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/564E520223DC23D7E4C70F6CABACCD92.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619135600 +0200" stop="20260619140000 +0200">
+    <title lang="fr">BTS Asian Massage Invasion 2</title>
+    <desc lang="fr">Jade Kush is a beautiful natural 32DD! Today she's playing a masseuse who convinces Jason Moody, who's looking for an accountant, that it's a massage he really needs! In between shots, she describes how she likes to give a BJ!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A2432DF1274BCB37FB2AA702C923CCFE.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619140000 +0200" stop="20260619152000 +0200">
+    <title lang="fr">Deepthroating Latinas</title>
+    <desc lang="fr">Kylie Rocket, Penelope Woods, Aria Valencia, and Harley Haze are cute young Latinas who are down for deep throating even if they've never done it before! Enjoy watching these hot little senoritas swallow some big dick before taking it in the taco!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619152000 +0200" stop="20260619154100 +0200">
+    <title lang="fr">Pick Up Fantasies</title>
+    <desc lang="fr">Sladyen Skaya is helped by handsome stranger, Lorenzo Viota, while she puts up a badminton net. To thank him she invites him to her house for coffee, but this blonde deviant is thirsty for something else!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7469754D8201016CD15E4DCB18DC5EAD.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619154100 +0200" stop="20260619160000 +0200">
+    <title lang="fr">Squirting Nurses</title>
+    <desc lang="fr">Nathan (Bronson) is having "issues" and needs more "pills", so Nurse Cassie (Del Isla) decides to make a house call and get to the bottom of "this" problem!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB7AB456D18CF7295099B95E859CEDB.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619160000 +0200" stop="20260619172400 +0200">
+    <title lang="fr">I Screwed My Teacher</title>
+    <desc lang="fr">Having a teacher crush can be so frustrating, unless they are teachers cast by Penthouse! Not only are they beautiful, they're also annoyed with the men in their lives and take their sexual frustration out on young male students... in the best way possible!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619172400 +0200" stop="20260619174300 +0200">
+    <title lang="fr">Fresh College Snacks</title>
+    <desc lang="fr">Ah, to be a college professor with all those young newly independent co-eds! What's a teacher to do when one of the girls comes on to them? I mean he might be an authoritative figure, but he's also a man... a man with a weakness and a stiff dick!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619174300 +0200" stop="20260619180000 +0200">
+    <title lang="fr">Sweet Home Sex</title>
+    <desc lang="fr">Alisha (Martinika) wakes up to find a gift bag full of sexy black lingerie for her. Her lover, Leo (Casanova), watches from the balcony as she tries on his gifts and dances for him!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/564E520223DC23D7E4C70F6CABACCD92.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619180000 +0200" stop="20260619192100 +0200">
+    <title lang="fr">College Sex Favors</title>
+    <desc lang="fr">College is an exciting time. A time to learn independence and what it's like to be a grown-up. It's also a good time to find out what kind of favors you can get by being in a student body!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619192100 +0200" stop="20260619200000 +0200">
+    <title lang="fr">Passionate Lovers</title>
+    <desc lang="fr">Liya Silver, Shalina Devine, Cherry Kiss, Leo Ahsoka, and Clea Gaultier have an excruciating need for passionate loving, and it doesn't take long for these needy naughties to convince a man to indulge with them!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/564E520223DC23D7E4C70F6CABACCD92.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619200000 +0200" stop="20260619202200 +0200">
+    <title lang="fr">Sexy Salon Affairs</title>
+    <desc lang="fr">You probably consider yourself lucky if you can get a hair appointment with a nice salon, and it's on time! At the DP Salon getting lucky is having a hot, horny and flirty girl in the waiting room who invites you into her session for a crazy 3-way with her and the hairdresser! That's an appointment you'll keep!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619202200 +0200" stop="20260619203900 +0200">
+    <title lang="fr">Stepdaddy Loves My Ass</title>
+    <desc lang="fr">While Penelope (Kay) was in college she texted with her stepdad (Mike Mancini) about how much she wanted to be with him. He didn't take her seriously, but now that she's home she's going to show him just how serious she is!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619203900 +0200" stop="20260619210000 +0200">
+    <title lang="fr">I Screwed My Slutty Student</title>
+    <desc lang="fr">Stacy's (Cruz) having trouble with her studies and teases Kristof (Cale) with pictures to try to get him to come help, but by the time he gets there this dirty girl has worked her pussy into a frenzy and needs real satisfaction!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619210000 +0200" stop="20260619212100 +0200">
+    <title lang="fr">She Cleaned My Pipes</title>
+    <desc lang="fr">Jay (Snakes) is having trouble with his office coffee machine, so he calls the building maintenance person, Tiffany (Tatum). This cute girl gets flirty and asks to see his office, and soon she's showing him some of her "goods!"</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619212100 +0200" stop="20260619214200 +0200">
+    <title lang="fr">Cheating Brides Love Black Dick</title>
+    <desc lang="fr">Khloe's (Kapri) husband-to-be is drunk on their wedding day and propositioned her maid of honor right in front of her! Best man, Isiah (Maxwell) tries to smooth things out for his buddy, but the only way the bride will be satisfied is with last hurrah before she's attached to the "old ball and chain!"</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/71B76F0DBA7E6EBABFB3A8D284C4263D.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619214200 +0200" stop="20260619220000 +0200">
+    <title lang="fr">Petite Blondes In Lust</title>
+    <desc lang="fr">Candee (Licious) is hurting from a breakup when she meets Jimmy (Bud) at a café, and it seems that he's the perfect distraction for this girl's heartbreak once she takes him back to her apartment for some rebound sex!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619220000 +0200" stop="20260619221800 +0200">
+    <title lang="fr">Teen Massage</title>
+    <desc lang="fr">Chloe (Temple) is trying to get a job with Ramon (nomaR) for massage but since she's only given her boyfriend a hand massage Ramon needs to teach her a few techniques... and he might want a sample of her "hand massage!"</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8F52B26C4F5CEB122219959D50BF21A3.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619221800 +0200" stop="20260619224000 +0200">
+    <title lang="fr">Banging My Big Titty Babysitter</title>
+    <desc lang="fr">Sofi Ryan is a very lazy babysitter; she's lounging by the pool while Derrick Pierce's son is in his room using an iPad. He can't think of one reason why he shouldn't fire her, but sexy Sofi has "two big ones," and she happily shows him!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619224000 +0200" stop="20260619230000 +0200">
+    <title lang="fr">Kinky Wife Exchange Club</title>
+    <desc lang="fr">Ryan (Mclane) and Lacy (Lennon) are very good friends of Charlotte (Sins) and Robby (Echo) with an eccentric lifestyle with very entertaining stories, now Charlotte and Robby wanted to be a part of it and exchange partners!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619230000 +0200" stop="20260619231800 +0200">
+    <title lang="fr">We had Hot COVID Sex</title>
+    <desc lang="fr">MJ (Fresh) is going crazy from the lockdown and is ready to party, but Peter (Green) doesn't want her going out and bring COVID back in the house with her. To convince her to stay he brings a party into the house... the kind that happens when his zipper is down and his cock comes out!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/A9F4E2C05A0CC63823F84B44BB76E282.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619231800 +0200" stop="20260619234000 +0200">
+    <title lang="fr">I Screwed My Nurse</title>
+    <desc lang="fr">Tony (Rubino) overdid stretches his Asian physical therapist, Kimmy (Kimm) suggested he do. Water therapy works well, but he can't lift his leg without help so she gets into the tub with him! Hmmm… his leg has gone back to normal, but his dick? That's going to need some special attention!</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/DCB7AB456D18CF7295099B95E859CEDB.jpg"/>
+  </programme>
+  <programme channel="PenthousePassion.fr" start="20260619234000 +0200" stop="20260620000100 +0200">
+    <title lang="fr">Big Titty MILF Obsession</title>
+    <desc lang="fr">Beautiful, busty Casca (Akashova) is desperately trying to get her son enrolled in Mr. Nixon's (Tyler Nixon) class, but it's already full... perhaps this desperate MILF can work something out with the young professor?</desc>
+    <category lang="fr">Téléfilm</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/2CBA4918D5731BD20CFED0C38BA50278.jpg"/>
+  </programme>
   <programme channel="Phoenix.de" start="20260619010000 +0200" stop="20260619070000 +0200">
     <title lang="fr">Des journaux, des reportages, des bulletins sur les affaires et la finance internationale</title>
     <desc lang="fr">Le résumé n'est pas disponible</desc>
@@ -88549,6 +89271,54 @@ Cependant, l'excitation de Clawdeen est rapidement assombrie par la découverte 
     <desc lang="fr">In een door zombies geteisterde wereld vechten een vindingrijke tiener en haar beschermer om te overleven. Ze worden geconfronteerd met meedogenloze gevaren en testen de grenzen van hoop en loyaliteit.</desc>
     <category lang="fr">Movies</category>
     <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_09929FC52F3BEC7422B9BBF505F15038.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619010000 +0200" stop="20260619040000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619040000 +0200" stop="20260619070000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619070000 +0200" stop="20260619100000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619100000 +0200" stop="20260619130000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619130000 +0200" stop="20260619160000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619160000 +0200" stop="20260619190000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619190000 +0200" stop="20260619220000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports10N.be" start="20260619220000 +0200" stop="20260620010000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
   </programme>
   <programme channel="PickxPlusSports1F.be" start="20260619002500 +0200" stop="20260619012000 +0200">
     <title lang="fr">UEFA Champions League Mag</title>
@@ -102977,7 +103747,7 @@ Paz, cuisinière de talent, est séparée de force de sa fille nouveau-née. Gin
   </programme>
   <programme channel="TF1.fr" start="20260619105500 +0200" stop="20260619114500 +0200">
     <title lang="fr">Les Feux de l'amour</title>
-    <desc lang="fr">Episode du 19 juin 2026 - Les familles Newman, Abbott, Baldwin et Winters sont au cœur des intrigues à Genoa City. Leurs rivalités, amours, espoirs et craintes s'entremêlent dans ce feuilleton quotidien. Les habitants de cette ville vivent des moments intenses, entre conflits et passions, offrant au...</desc>
+    <desc lang="fr">Episode du 19 juin 2026 - Les familles Newman, Abbott, Baldwin et Winters sont au cœur des intrigues à Genoa City. Leurs rivalités, amours, espoirs et craintes s'entremêlent dans ce feuilleton quotidien. Les habitants de cette ville vivent des...</desc>
     <category lang="fr">Feuilleton / Feuilleton sentimental</category>
   </programme>
   <programme channel="TF1.fr" start="20260619114500 +0200" stop="20260619115000 +0200">
@@ -103052,7 +103822,7 @@ Paz, cuisinière de talent, est séparée de force de sa fille nouveau-née. Gin
   </programme>
   <programme channel="TF1.fr" start="20260619200000 +0200" stop="20260619204500 +0200">
     <title lang="fr">JT 20h</title>
-    <desc lang="fr">Le journal télévisé présente les faits marquants et les événements essentiels de l'actualité nationale et internationale, tout en mettant en valeur l'actualité régionale.</desc>
+    <desc lang="fr">" JT 20h WE " du vendredi 19 juin 2026. Du vendredi au dimanche, la rédaction de TF1 propose "LE 20H" un rendez-vous d'information exposant avec clarté l'actualité française et internationale présentée par Anne-Claire Coudray ou Audrey Crespo-Mara, sa joker.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20260619204500 +0200" stop="20260619205000 +0200">
@@ -123453,6 +124223,116 @@ Présentateur(s) : Cyril Viguier
     <title lang="fr">La météo - S02E171</title>
     <desc lang="fr">Le bulletin météo quotidien.</desc>
     <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Vier.be" start="20260619001500 +0200" stop="20260619012000 +0200">
+    <title lang="fr">Oogappels</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~74cf26266f44abb1.jpeg/640x360/quality/80/oogappels.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619012000 +0200" stop="20260619045000 +0200">
+    <title lang="fr">Geen uitzending - PLAY</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53a83757c8010608.jpeg/640x360/quality/80/geen-uitzending.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619045000 +0200" stop="20260619050000 +0200">
+    <title lang="fr">Geen uitzending - PLAY</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53a83757c8010608.jpeg/640x360/quality/80/geen-uitzending.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619050000 +0200" stop="20260619060000 +0200">
+    <title lang="fr">Geen uitzending - PLAY</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53a83757c8010608.jpeg/640x360/quality/80/geen-uitzending.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619060000 +0200" stop="20260619090000 +0200">
+    <title lang="fr">Nostalgie: Sta Op! met Véronique De Kock</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b2e2b4c0749cc213.jpeg/640x360/quality/80/nostalgie-sta-op-met-veronique-de-kock.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619090000 +0200" stop="20260619110000 +0200">
+    <title lang="fr">Geen uitzending - PLAY</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53a83757c8010608.jpeg/640x360/quality/80/geen-uitzending.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619110000 +0200" stop="20260619113000 +0200">
+    <title lang="fr">Geen uitzending - PLAY</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53a83757c8010608.jpeg/640x360/quality/80/geen-uitzending.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619113000 +0200" stop="20260619123000 +0200">
+    <title lang="fr">Oogappels</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~74cf26266f44abb1.jpeg/640x360/quality/80/oogappels.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619123000 +0200" stop="20260619125500 +0200">
+    <title lang="fr">Lang Leve de Liefde</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~af6c0464600fd5d5.jpeg/640x360/quality/80/lang-leve-de-liefde.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619125500 +0200" stop="20260619134500 +0200">
+    <title lang="fr">Het Blok Nederland</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~314c95c99e240a8c.jpeg/640x360/quality/80/het-blok.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619134500 +0200" stop="20260619142500 +0200">
+    <title lang="fr">De Container Cup</title>
+    <category lang="fr">Sport</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6a968463dd47326d.jpeg/640x360/quality/80/de-container-cup.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619142500 +0200" stop="20260619152500 +0200">
+    <title lang="fr">Komen Eten bij De Tafel van Gert/Tine</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fd54a9ed3eeb6801.jpeg/640x360/quality/80/komen-eten.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619152500 +0200" stop="20260619162500 +0200">
+    <title lang="fr">Oogappels</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~74cf26266f44abb1.jpeg/640x360/quality/80/oogappels.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619162500 +0200" stop="20260619165500 +0200">
+    <title lang="fr">Lang Leve de Liefde</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a7e5c25e45aa7a4d.jpeg/640x360/quality/80/lang-leve-de-liefde.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619165500 +0200" stop="20260619175500 +0200">
+    <title lang="fr">Topdokters van Morgen</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~c17412c54b782b31.jpeg/640x360/quality/80/topdokters.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619175500 +0200" stop="20260619191000 +0200">
+    <title lang="fr">Kopen of Slopen?</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~176143d86a6acffc.jpeg/640x360/quality/80/kopen-of-slopen.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619191000 +0200" stop="20260619194500 +0200">
+    <title lang="fr">De Grannies van Amsterdam</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6a5cca22691c2f22.jpeg/640x360/quality/80/de-grannies-van-amsterdam.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619194500 +0200" stop="20260619203500 +0200">
+    <title lang="fr">Chateau Meiland La Dolce Vita</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0427323cc8c97e8c.jpeg/640x360/quality/80/chateau-meiland-la-dolce-vita.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619203500 +0200" stop="20260619222500 +0200">
+    <title lang="fr">My Super Ex-Girlfriend</title>
+    <desc lang="fr">Matt Saunders, jeune architecte, désespère de trouver l'âme soeur. Jusqu'au jour où il fait la connaissance de Jenny Johnson, une jolie jeune femme réservée et quelque peu étrange. Il va bientôt découvrir qu'elle est en fait G-Girl, la superhéroïne qui fait régner l'ordre dans la ville. Lorsque Matt décide de rompre, Jenny, anéantie et d'une jalousie maladive, déchaîne sur lui sa rage et ses pouvoirs extraordinaires.</desc>
+    <category lang="fr">Cinéma</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~backoffice~program~9fa1c734f1544cc4.jpg/640x360/quality/80/ma-super-ex.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619222500 +0200" stop="20260619231500 +0200">
+    <title lang="fr">De Douane In Actie</title>
+    <category lang="fr">Autre</category>
+  </programme>
+  <programme channel="Vier.be" start="20260619231500 +0200" stop="20260619234500 +0200">
+    <title lang="fr">Lang Leve de Liefde</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a7e5c25e45aa7a4d.jpeg/640x360/quality/80/lang-leve-de-liefde.jpg"/>
+  </programme>
+  <programme channel="Vier.be" start="20260619234500 +0200" stop="20260620005000 +0200">
+    <title lang="fr">Oogappels</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~74cf26266f44abb1.jpeg/640x360/quality/80/oogappels.jpg"/>
   </programme>
   <programme channel="VoirPlus.af" start="20260619010000 +0200" stop="20260619070000 +0200">
     <title lang="fr">Pour tout voir et tout savoir</title>
@@ -147687,6 +148567,54 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <desc lang="fr">Ed Henry offers his common-sense take on the news, helping viewers better understand the deeper details behind today's stories.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
+  <programme channel="oqee.1385" start="20260619001605 +0200" stop="20260619021313 +0200">
+    <title lang="fr">Chaudes nuits d'été</title>
+    <desc lang="fr">Daniel, un adolescent maladroit, se retrouve durant un été  à la tête d'un trafic de drogue, tout en tombant amoureux de l'énigmatique sœur de son associé.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260619021314 +0200" stop="20260619035855 +0200">
+    <title lang="fr">Becky</title>
+    <desc lang="fr">Becky, 13 ans, est pour le moins contrariée de devoir passer le week-end dans une cabine isolée avec son père et sa nouvelle belle-mère. Cette situation est pourtant le moindre de ses ennuis : un groupe de dangereux criminels tout juste évadés de prison prennent sa famille en otage.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260619035856 +0200" stop="20260619052329 +0200">
+    <title lang="fr">Gun</title>
+    <desc lang="fr">La police de Detroit cible Rich (50 Cent), un trafiquant d’armes charismatique, alors que la violence par armes à feu s’intensifie. Son ancien ami Angel (Val Kilmer), travaillant secrètement avec le détective Rogers, infiltre l’opération de Rich.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260619052330 +0200" stop="20260619074407 +0200">
+    <title lang="fr">USS Indianapolis</title>
+    <desc lang="fr">Juillet 1945. Le navire américain USS INDIANAPOLIS, commandé par le capitaine McVay (Nicolas Cage), est en mission secrète. Parti livrer des composants de la bombe atomique larguée sur Hiroshima, il est torpillé à son retour par les japonais et sombre dans l’Océan Pacifique.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260619011859 +0200" stop="20260619031619 +0200">
+    <title lang="fr">Oncle Drew</title>
+    <desc lang="fr">Un jeune propriétaire d'équipe et l'Oncle Drew (la star de la NBA Kyrie Irving) rassemblent l'ancienne équipe de basket de Drew pour prouver qu'un groupe de septuagénaires peut encore gagner.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260619031620 +0200" stop="20260619050304 +0200">
+    <title lang="fr">On sera 2!</title>
+    <desc lang="fr">Afin de survivre à la fièvre des mariages de l'été, les vieux amis célibataires Ben et Alice, décident de devenir l'accompagnant de l'autre à chaque fois que l'un d'entre eux sera invité.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260619050305 +0200" stop="20260619064129 +0200">
+    <title lang="fr">Une famille 2 en 1</title>
+    <desc lang="fr">Veuf, Frank se rend à une réunion d'anciens étudiants et y retrouve Helen, son ex-petite amie, elle aussi restée seule après le décès de son mari. Le courant passe immédiatement et le couple décide rapidement de s'installer ensemble.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260619064130 +0200" stop="20260619084823 +0200">
+    <title lang="fr">L'Incroyable destin de Harold Crick</title>
+    <desc lang="fr">Un auditeur est le seul à entendre un narrateur conter à la radio les événements qui mèneront à sa mort...</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260619012017 +0200" stop="20260619025631 +0200">
+    <title lang="fr">Apartment 12</title>
+    <desc lang="fr">Un artiste de Los Angeles voit sa vie basculer lorsque son exposition d'art est annulée et que sa petite-amie mannequin le quitte.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260619025632 +0200" stop="20260619045456 +0200">
+    <title lang="fr">Monte Carlo</title>
+    <desc lang="fr">Selena Gomez joue le rôle d'une fille ordinaire dont le voyage d'été à Paris se transforme en rêve de sa vie lorsqu'elle devient une princesse accidentelle en assumant l'identité d'une autre personne.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260619045457 +0200" stop="20260619064137 +0200">
+    <title lang="fr">Love over distance</title>
+    <desc lang="fr">Evie a la trentaine, ambitieuse elle est prête à vivre la promotion de sa vie : un job à Rio de Janeiro ! Son petit ami a déjà fait ses valises, mais il s’avère que son patron a prévu des plans différents pour elle. Evie va être en charge d’un gros projet à Terneuzen, une petite ville de Hollande.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260619064138 +0200" stop="20260619082006 +0200">
+    <title lang="fr">Esprits Sauvages</title>
+    <desc lang="fr">Quand une adolescente rebelle est arrêtée et condamnée à faire une thérapie équestre, elle noue un lien avec pur-sang au fort caractère, qu’elle va entraîner avec l’aide du propriétaire du ranch.</desc>
+  </programme>
   <programme channel="oqee.139" start="20260619000800 +0200" stop="20260619015700 +0200">
     <title lang="fr">Faites entrer l'accusé - S15E10</title>
     <desc lang="fr">Kalinka, 15 ans, a été retrouvée morte dans la maison du nouveau mari de sa mère, en Allemagne, en 1982. Ce dernier, le docteur Krombach, a bien tenté de réanimer l'adolescente. Mais ses explications confuses ont intrigué. André Bamberski, le père de Kalinka, a juré de venger la mort de sa fille.</desc>
@@ -154645,7 +155573,6 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.350" start="20260619125100 +0200" stop="20260619131900 +0200">
     <title lang="fr">Al Dente</title>
-    <desc lang="fr">Le chef Romuald Royer sillonne les routes de Corse dans son camion pour redécouvrir les produits de l'île, les cultures, méthodes et recettes de ses amis, qui peuvent aussi officier au-delà des rivages corses.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="oqee.350" start="20260619131900 +0200" stop="20260619134600 +0200">
@@ -160450,12 +161377,12 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <desc lang="fr">Büyük zaferlerin hangi zorlu yollardan geçilerek kazanıldığını gözler önüne seren yapım, sporcuların antrenman salonlarında akıttığı gizli alın terini izleyiciyle paylaşıyor. Hayatın içinden süzülüp gelen, pes etmeyen insanların ilham dolu yaşam mücadelelerini mercek altına alırken, spor dünyasının hiç bilinmeyen insani yönlerini ve fedakarlık öykülerini de derinlemesine bir dille ekrana taşıyor.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
-  <programme channel="oqee.511" start="20260619030000 +0200" stop="20260619060500 +0200">
+  <programme channel="oqee.511" start="20260619030000 +0200" stop="20260619051300 +0200">
     <title lang="fr">Football : Coupe du monde</title>
     <desc lang="fr">La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="oqee.511" start="20260619030000 +0200" stop="20260619051300 +0200">
+  <programme channel="oqee.511" start="20260619030000 +0200" stop="20260619060500 +0200">
     <title lang="fr">Football : Coupe du monde</title>
     <desc lang="fr">La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.</desc>
     <category lang="fr">Emission sportive / Football</category>
@@ -160474,6 +161401,11 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <title lang="fr">İstiklal Marşı</title>
     <desc lang="fr">Türkiye Cumhuriyeti'nin milli marşı olan İstiklal Marşı, izleyiciyle buluşuyor. Sözleri Mehmet Akif Ersoy tarafından kaleme alınan, bestesi Osman Zeki Üngör'e ait marş; bağımsızlık, vatan sevgisi ve milli birlik duygularını simgeler. Resmi ve özel yayın anlarında, taşıdığı tarihsel ve manevi değer doğrultusunda saygı çerçevesinde ekrana getirilmektedir.</desc>
     <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.511" start="20260619051500 +0200" stop="20260619060500 +0200">
+    <title lang="fr">Hayallerinin Peşinde</title>
+    <desc lang="fr">Hayallerinin Peşinde programı, zorlu koşullarda yaşayan kadınların verdikleri mücadeleleri ve bu süreçte devlet ile toplumdan aldıkları destekleri konu alıyor. Kadınların azim ve kararlılığıyla ulaştıkları başarı hikâyeleri, samimi ve ilham verici bir anlatımla izleyiciye aktarılıyor. Program, izleyicilere motivasyon ve umut aşılamayı hedefliyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.511" start="20260619051500 +0200" stop="20260619070000 +0200">
     <title lang="fr">Hayallerinin Peşinde</title>
@@ -160502,7 +161434,7 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
   </programme>
   <programme channel="oqee.511" start="20260619070000 +0200" stop="20260619093500 +0200">
     <title lang="fr">Marriage by Surprise</title>
-    <desc lang="fr">Yeşilçam ruhunu ekranlara taşıyan dizi, nostaljik mahalle yaşamını, komşuluk, aile, dostluk gibi kavramları ve aşk hikayelerini konu alıyor.</desc>
+    <desc lang="fr">Adile ve Münir, çocukları için ofis ve muayenehane yapmak istedikleri daireye ortak olmak durumunda kalınca işler karışır.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.511" start="20260619093000 +0200" stop="20260619121500 +0200">
@@ -167772,7 +168704,17 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <desc lang="fr">Live headlines, breaking news, analysis and interviews from Europe's News Centre.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.812" start="20260619010000 +0200" stop="20260619014500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260619010000 +0200" stop="20260619020000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260619014500 +0200" stop="20260619020000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -169943,10 +170885,20 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <desc lang="fr">Show Ana Haber, gün boyunca yaşanan önemli gelişmeleri ve gündemi belirleyen olayları izleyiciyle buluşturan ana haber programıdır. Siyaset, ekonomi ve toplumsal konular sade ve anlaşılır bir anlatımla aktarılır. Program, izleyicinin gündemi güvenilir ve doğru biçimde takip etmesini amaçlar.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.947" start="20260619180000 +0200" stop="20260619204500 +0200">
+    <title lang="fr">Bahar</title>
+    <desc lang="fr">Bahar, yıllarca ailesini her şeyin önünde tutarak kendi hayatını geri planda bırakan bir kadının, beklenmedik bir dönüm noktasının ardından yaşadığı büyük değişimi konu alıyor. Hayatını yeniden sorgulayan Bahar, geçmişiyle yüzleşirken hayallerini ve kendisini yeniden keşfetme yolculuğuna çıkar. Aile ilişkileri, fedakârlık, umut ve aşk temaları etrafında şekillenen hikâye; duygusal sahneleri ve güçlü karakterleriyle izleyiciyi içine çekiyor. Bahar, yeniden başlama cesaretinin ve değişimin mümkün olduğunu etkileyici bir anlatımla ekrana taşıyor.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="oqee.947" start="20260619180000 +0200" stop="20260619221500 +0200">
     <title lang="fr">Bahar</title>
     <desc lang="fr">Bahar, yıllarca ailesini her şeyin önünde tutarak kendi hayatını geri planda bırakan bir kadının, beklenmedik bir dönüm noktasının ardından yaşadığı büyük değişimi konu alıyor. Hayatını yeniden sorgulayan Bahar, geçmişiyle yüzleşirken hayallerini ve kendisini yeniden keşfetme yolculuğuna çıkar. Aile ilişkileri, fedakârlık, umut ve aşk temaları etrafında şekillenen hikâye; duygusal sahneleri ve güçlü karakterleriyle izleyiciyi içine çekiyor. Bahar, yeniden başlama cesaretinin ve değişimin mümkün olduğunu etkileyici bir anlatımla ekrana taşıyor.</desc>
     <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.947" start="20260619204500 +0200" stop="20260619221500 +0200">
+    <title lang="fr">Güldür Güldür Show</title>
+    <desc lang="fr">Güldür Güldür Show, sevilen kadrosu ve yaratıcı mizah anlayışıyla izleyicileri yeniden kahkahaya boğuyor. Gündelik yaşamdan ilham alan skeçler, sürpriz sahneler ve eğlenceli karakterlerle her bölüm keyifli anlar sunuyor. Program, hem güldüren hem de düşündüren içeriğiyle hafta sonlarını renklendiriyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.947" start="20260619221500 +0200" stop="20260619231500 +0200">
     <title lang="fr">Gece Hattı</title>
@@ -169958,10 +170910,30 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <desc lang="fr">Çocukluktan nişanlı olan Kuzey ve Yıldız'ın hikayesi 20 yıl sonra bambaşka bir şekilde kesişiyor. Kuzey terk edilip dolandırıldıktan sonra üç kızıyla Karadeniz'in yaylalarına dönüyor. Yıldız ise yılların öfkesiyle onu İstanbul'a geri göndermek için uğraşıyor. İnatlaşmalar, komik olaylar ve duygusal yüzleşmelerle dolu bu romantik komedi dizisi aşkın ikinci şansını anlatıyor. Ersoy Güler'in yönettiği yapımda aile, dostluk ve Karadeniz kültürü sıcak bir şekilde işleniyor. İzleyiciyi güldüren ve duygulandıran sezonun sevilen dizilerinden biri.</desc>
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
+  <programme channel="oqee.948" start="20260619000000 +0200" stop="20260619010000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619010000 +0200" stop="20260619013000 +0200">
+    <title lang="fr">Dünya Kupası</title>
+    <desc lang="fr">Dünya Kupası Özel, futbolun en büyük organizasyonlarından biri olan Dünya Kupası'ndaki gelişmeleri yakından takip eden özel bir spor programıdır. Programda maç özetleri, takım analizleri, oyuncu performansları ve turnuvanın dikkat çeken anları deneyimli yorumcular tarafından değerlendiriliyor. Futbolseverler, turnuvanın heyecanını ve perde arkasındaki detayları bu özel yayında izleme fırsatı buluyor.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
+  </programme>
   <programme channel="oqee.948" start="20260619010000 +0200" stop="20260619020000 +0200">
     <title lang="fr">Football : Süper Lig</title>
     <desc lang="fr">Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig. La plus haute compétition de football de Turquie. Cette compétition professionnelle, placée sous la supervision de la Fédération de Turquie de football, a été fondée en 1959.</desc>
     <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619013000 +0200" stop="20260619020000 +0200">
+    <title lang="fr">Arşiv Odası</title>
+    <desc lang="fr">Geçmişin izlerini bugüne taşıyan "Arşiv Odası", tarihî görüntüler, unutulmaz olaylar ve yıllara damga vuran anlarla izleyiciyi zaman içinde yolculuğa çıkarıyor. Özenle derlenen arşiv kayıtlarıyla hem bilgilendiriyor hem de nostalji dolu bir ekran deneyimi sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619020000 +0200" stop="20260619040000 +0200">
+    <title lang="fr">Transfer Raporu</title>
+    <desc lang="fr">Transfer Raporu, futbol dünyasında transfer döneminin tüm sıcak gelişmelerini ve kulis bilgilerini detaylı şekilde izleyiciye aktaran bir programdır. Yıldız oyuncuların transferleri, sürpriz imzalar, kulüplerin stratejik planları ve alanında uzman yorumcuların değerlendirmeleriyle futbol gündeminin perde arkası ekrana taşınıyor. Sporseverler için transfer döneminin kaçırılmayacak detaylarını sunan güvenilir bir yayın.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260619020000 +0200" stop="20260619030000 +0200">
     <title lang="fr">Milli Takım Zaferler</title>
@@ -169972,6 +170944,81 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <title lang="fr">Spor Gündemi</title>
     <desc lang="fr">Spor Gündemi, gün içerisinde spor dünyasında yaşanan tüm önemli gelişmeleri geniş bir perspektiften ele alıyor. Liglerden son durum, takımların form grafikleri, transfer dedikoduları ve maç önü analizleri bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Spor Gündemi, izleyicilere kapsamlı ve güncel bir spor panoraması sunuyor.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619040000 +0200" stop="20260619050000 +0200">
+    <title lang="fr">Bir Zamanlar Futbol</title>
+    <desc lang="fr">Bir Zamanlar Futbol, futbol tarihinin unutulmaz anlarını, efsaneleşmiş maçları ve önemli oyuncu hikâyelerini izleyiciye detaylı ve anlaşılır şekilde sunan bir spor programıdır. Program, geçmiş büyük karşılaşmaları ve futbolun dönüm noktalarını ele alır, nostaljik bir deneyim sunar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619050000 +0200" stop="20260619060000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619060000 +0200" stop="20260619070000 +0200">
+    <title lang="fr">Avrupa'dan Futbol</title>
+    <desc lang="fr">Avrupa'dan Futbol, Avrupa liglerinde yaşanan maçlar, takımların performansları, transfer haberleri ve futbolun nabzını tutan tüm gelişmeleri derinlemesine aktarır. Premier League'den La Liga'ya, Bundesliga'dan Serie A'ya uzanan geniş bir futbol panoraması sunan program, kıtadaki futbol heyecanını ekranlara taşır.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619070000 +0200" stop="20260619093000 +0200">
+    <title lang="fr">Sabah Sporu</title>
+    <desc lang="fr">Sabah Sporu, spor dünyasının nabzını tutan, güne dinamik bir başlangıç sunan özel bir kuşak. Futboldan basketbola, motor sporlarından bireysel branşlara kadar en güncel haberler, geceden kalan gelişmeler ve canlı bağlantılar bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Sabah Sporu, her sabah sporseverlere kapsamlı bir bilgi akışı sunuyor.</desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619093000 +0200" stop="20260619100000 +0200">
+    <title lang="fr">Dünya Kupası</title>
+    <desc lang="fr">Dünya Kupası Özel, futbolun en büyük organizasyonlarından biri olan Dünya Kupası'ndaki gelişmeleri yakından takip eden özel bir spor programıdır. Programda maç özetleri, takım analizleri, oyuncu performansları ve turnuvanın dikkat çeken anları deneyimli yorumcular tarafından değerlendiriliyor. Futbolseverler, turnuvanın heyecanını ve perde arkasındaki detayları bu özel yayında izleme fırsatı buluyor.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619100000 +0200" stop="20260619130000 +0200">
+    <title lang="fr">Spor Ajansı</title>
+    <desc lang="fr">Spor Ajansı, spor gündemini anbean takip eden izleyiciler için hazırlandı. Futbol, basketbol, voleybol ve daha birçok branştaki son dakika haberleri; transfer söylentileri, istatistik analizleri ve özel röportajlar Spor Ajansı'nda. Deneyimli ekibin yorumları ve geniş haber ağıyla Spor Ajansı, sporseverlere günün en doğru ve hızlı spor bilgilerini ulaştırıyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619130000 +0200" stop="20260619140000 +0200">
+    <title lang="fr">Gün Ortası</title>
+    <desc lang="fr">Gün Ortası, spor dünyasında yaşanan güncel gelişmeleri öğle saatlerinde izleyiciye aktaran kapsamlı bir spor programıdır. Futbol, basketbol, voleybol ve diğer branşlardaki önemli haberler, ilk yarıda yaşananlar ve ikinci yarıya dair beklentiler uzman yorumlarla detaylı şekilde analiz ediliyor. Canlı bağlantılar, geniş arşiv görüntüleri ve anlık gelişmelerle Gün Ortası, sporseverler için güvenilir ve bilgilendirici bir referans noktası sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619140000 +0200" stop="20260619170000 +0200">
+    <title lang="fr">Spor Gündemi</title>
+    <desc lang="fr">Spor Gündemi, gün içerisinde spor dünyasında yaşanan tüm önemli gelişmeleri geniş bir perspektiften ele alıyor. Liglerden son durum, takımların form grafikleri, transfer dedikoduları ve maç önü analizleri bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Spor Gündemi, izleyicilere kapsamlı ve güncel bir spor panoraması sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619170000 +0200" stop="20260619173000 +0200">
+    <title lang="fr">Ana Haber</title>
+    <desc lang="fr">Ana Haber, spor dünyasının gün boyunca yaşadığı tüm gelişmeleri en doğru ve hızlı şekilde ekranlara taşıyor. Maç sonuçları, kulüp açıklamaları, transfer haberleri ve özel röportajlar profesyonel bir sunumla izleyiciye aktarılıyor. Sporun tüm branşlarında güçlü bir haber akışı sunan Ana Haber, a spor'un en güvenilir bilgi kaynağı olmaya devam ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619173000 +0200" stop="20260619180000 +0200">
+    <title lang="fr">Dünya Kupası</title>
+    <desc lang="fr">Dünya Kupası Özel, futbolun en büyük organizasyonlarından biri olan Dünya Kupası'ndaki gelişmeleri yakından takip eden özel bir spor programıdır. Programda maç özetleri, takım analizleri, oyuncu performansları ve turnuvanın dikkat çeken anları deneyimli yorumcular tarafından değerlendiriliyor. Futbolseverler, turnuvanın heyecanını ve perde arkasındaki detayları bu özel yayında izleme fırsatı buluyor.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619180000 +0200" stop="20260619190000 +0200">
+    <title lang="fr">Ana Haber</title>
+    <desc lang="fr">Ana Haber, spor dünyasının gün boyunca yaşadığı tüm gelişmeleri en doğru ve hızlı şekilde ekranlara taşıyor. Maç sonuçları, kulüp açıklamaları, transfer haberleri ve özel röportajlar profesyonel bir sunumla izleyiciye aktarılıyor. Sporun tüm branşlarında güçlü bir haber akışı sunan Ana Haber, a spor'un en güvenilir bilgi kaynağı olmaya devam ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619190000 +0200" stop="20260619200000 +0200">
+    <title lang="fr">Football : Coupe du monde</title>
+    <desc lang="fr">Retransmission d'un match de la Coupe du monde de football masculin. La Coupe du monde, organisée par la FIFA, a lieu tous les quatre ans depuis 1930. C'est la compétition internationale de football la plus prestigieuse dans laquelle 32 nations se battent pour devenir la meilleure équipe du monde. </desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619200000 +0200" stop="20260619220000 +0200">
+    <title lang="fr">Transfer Raporu</title>
+    <desc lang="fr">Transfer Raporu, futbol dünyasında transfer döneminin tüm sıcak gelişmelerini ve kulis bilgilerini detaylı şekilde izleyiciye aktaran bir programdır. Yıldız oyuncuların transferleri, sürpriz imzalar, kulüplerin stratejik planları ve alanında uzman yorumcuların değerlendirmeleriyle futbol gündeminin perde arkası ekrana taşınıyor. Sporseverler için transfer döneminin kaçırılmayacak detaylarını sunan güvenilir bir yayın.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619220000 +0200" stop="20260619233000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260619233000 +0200" stop="20260620000000 +0200">
+    <title lang="fr">Dünya Kupası</title>
+    <desc lang="fr">Dünya Kupası Özel, futbolun en büyük organizasyonlarından biri olan Dünya Kupası'ndaki gelişmeleri yakından takip eden özel bir spor programıdır. Programda maç özetleri, takım analizleri, oyuncu performansları ve turnuvanın dikkat çeken anları deneyimli yorumcular tarafından değerlendiriliyor. Futbolseverler, turnuvanın heyecanını ve perde arkasındaki detayları bu özel yayında izleme fırsatı buluyor.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
   </programme>
   <programme channel="oqee.950" start="20260619010000 +0200" stop="20260619031500 +0200">
     <title lang="fr">Dudaktan Kalbe</title>
@@ -169999,8 +171046,8 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="oqee.950" start="20260619130000 +0200" stop="20260619153000 +0200">
-    <title lang="fr">Yağmur Zamanı</title>
-    <desc lang="fr">Tutku, aşk ve kaderin yön verdiği bu hikayede bir adam geçmişiyle yüzleşmek zorunda kalır. Yıllar boyunca saklanan duygular ve yarım kalan hesaplaşmalar gün yüzüne çıkar. Hayata umutla tutunan cesur bir kadın, onun karanlık dünyasında yeni bir yol açar. İki farklı hayat, acılar ve seçimlerle dolu bir kaderde kesişir. Aşk ve tutku kadar pişmanlık ve fedakarlık da hikayenin merkezindedir. Güçlü karakterler, sert yaşam koşulları karşısında ayakta kalmaya çalışırken insanın iç dünyası derinlemesine işlenir.</desc>
+    <title lang="fr">Yılanların Öcü</title>
+    <desc lang="fr">Köy hayatının sert gerçekleriyle çevrili bir dünyada adalet arayışı ön plana çıkar. Bir köyde yaşayan bir kadın ve bir erkeğin yaşam mücadelesi, aşk ve ihanetle derinleşir. Kaderin yön verdiği olaylar, karakterleri zor seçimlerle karşı karşıya bırakır. Fakir Baykurt'un unutulmaz romanından uyarlanan bu dramatik hikaye, insanın acılarını, direncini ve umudunu güçlü bir anlatımla ekrana taşır. Hayatta kalma çabası ve vicdan arasındaki ince çizgi dikkat çekici biçimde işlenir.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.950" start="20260619153000 +0200" stop="20260619184500 +0200">
@@ -170014,8 +171061,8 @@ L’un et l’autre se renvoient la responsabilité de cette escroquerie suppos�
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.950" start="20260619221500 +0200" stop="20260620010000 +0200">
-    <title lang="fr">Yağmur Zamanı</title>
-    <desc lang="fr">Tutku, aşk ve kaderin yön verdiği bu hikayede bir adam geçmişiyle yüzleşmek zorunda kalır. Yıllar boyunca saklanan duygular ve yarım kalan hesaplaşmalar gün yüzüne çıkar. Hayata umutla tutunan cesur bir kadın, onun karanlık dünyasında yeni bir yol açar. İki farklı hayat, acılar ve seçimlerle dolu bir kaderde kesişir. Aşk ve tutku kadar pişmanlık ve fedakarlık da hikayenin merkezindedir. Güçlü karakterler, sert yaşam koşulları karşısında ayakta kalmaya çalışırken insanın iç dünyası derinlemesine işlenir.</desc>
+    <title lang="fr">Yılanların Öcü</title>
+    <desc lang="fr">Köy hayatının sert gerçekleriyle çevrili bir dünyada adalet arayışı ön plana çıkar. Bir köyde yaşayan bir kadın ve bir erkeğin yaşam mücadelesi, aşk ve ihanetle derinleşir. Kaderin yön verdiği olaylar, karakterleri zor seçimlerle karşı karşıya bırakır. Fakir Baykurt'un unutulmaz romanından uyarlanan bu dramatik hikaye, insanın acılarını, direncini ve umudunu güçlü bir anlatımla ekrana taşır. Hayatta kalma çabası ve vicdan arasındaki ince çizgi dikkat çekici biçimde işlenir.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.951" start="20260619002000 +0200" stop="20260619010500 +0200">
