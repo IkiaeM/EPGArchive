@@ -84,6 +84,10 @@
     <display-name>CSTAR</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/94856040?=.png"/>
   </channel>
+  <channel id="Canal32.fr">
+    <display-name>Canal 32</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~6d0e7341e1a8b708.png/480x480/quality/100/canal-32.png"/>
+  </channel>
   <channel id="CanalJ.fr">
     <display-name>CANAL J</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~af78921dcd4437f4.png/480x480/quality/100/canal-j.png"/>
@@ -528,6 +532,10 @@
     <display-name>RMC STORY</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~56b83775344955b8.png/480x480/quality/100/rmc-story.png"/>
   </channel>
+  <channel id="OLTV.fr">
+    <display-name>OLPLAY</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png"/>
+  </channel>
   <channel id="OlympiaTV.fr">
     <display-name>OlympiaTV</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/93985302?=.png"/>
@@ -667,6 +675,10 @@
   <channel id="TV5Monde.fr">
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
+  </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
   </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
@@ -836,6 +848,10 @@
     <display-name>ART Hekayat 2</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2594/w256"/>
   </channel>
+  <channel id="oqee.1061">
+    <display-name>Tiji Russia</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/2571/w256"/>
+  </channel>
   <channel id="oqee.1065">
     <display-name>ON TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
@@ -863,6 +879,10 @@
   <channel id="oqee.1106">
     <display-name>Journal du Golf</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2849/w256"/>
+  </channel>
+  <channel id="oqee.1117">
+    <display-name>Sky News Arabia</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2894/w256"/>
   </channel>
   <channel id="oqee.1127">
     <display-name>Duck TV</display-name>
@@ -5506,6 +5526,311 @@
     <title lang="fr">Les nouveaux coins secrets des naturistes</title>
     <desc lang="fr">Chaque été, deux millions de Français profitent du soleil intégralement nus. La France est même la première destination naturiste au monde. Débutants ou pratiquants de longue date, c'est une véritable philosophie de vie pour certains, et tous cherchent la tranquillité absolue, à l'abri des regards indiscrets. Les adeptes d'escapades dans le plus simple appareil font découvrir les endroits où ils passent leurs vacances : enquête sur les nouvelles destinations secrètes des naturistes. De nombreux sites et une centaine de plages sont proposés dans l'Hexagone.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630070000 +0200" stop="20260630083000 +0200">
+    <title lang="fr">Direct de la veille</title>
+    <desc lang="fr">"Direct de la veille" est un magazine d'information traitant régulièrement des sujets variés.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630083000 +0200" stop="20260630101300 +0200">
+    <title lang="fr">Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630101300 +0200" stop="20260630101900 +0200">
+    <title lang="fr">Chez nos voisins</title>
+    <desc lang="fr">L'émission "Chez nos voisins" est un magazine régional.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630101900 +0200" stop="20260630103000 +0200">
+    <title lang="fr">Réussites : le portrait</title>
+    <desc lang="fr">Découvrez les portraits des gens de votre entourage, écoutez leurs histoires et expériences dans votre magazine "Réussites : le portrait". </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630103000 +0200" stop="20260630104300 +0200">
+    <title lang="fr">Grand tourisme</title>
+    <desc lang="fr">Une émission axée sur le tourisme qui vous fera découvrir les meilleurs destinations pour vos vacances de rêve. </desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630104300 +0200" stop="20260630104600 +0200">
+    <title lang="fr">La minute de l'immobilier</title>
+    <desc lang="fr">Emission réalisée en partenariat avec la FNAIM de l'Aube. Les agents immobiliers de la FNAIM vous donnent, une semaine sur deux, tous les conseils pour réaliser un achat immobilier dans les meilleures conditions. Un thème différent est abordé à chaque émission.</desc>
+    <category lang="fr">Magazine / Magazine de la décoration</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630104600 +0200" stop="20260630104900 +0200">
+    <title lang="fr">L'art de faire</title>
+    <desc lang="fr">Découvrez comment l' art et le savoir-faire associés peuvent être un excellent mélange dans votre magazine "L'art de faire".</desc>
+    <category lang="fr">Magazine / Magazine des beaux-arts</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630104900 +0200" stop="20260630110000 +0200">
+    <title lang="fr">Passion bénévoles</title>
+    <desc lang="fr">Une émission qui met en valeur les petits gestes de solidarité, d'entraide et de bénévolat dans le département de l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630110000 +0200" stop="20260630113000 +0200">
+    <title lang="fr">Les dossiers du jeudi</title>
+    <desc lang="fr">L'émission thématique qui débute à 19 heures, avec les rendez-vous quotidiens habituels et les dossiers de société chaque jeudi.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630113000 +0200" stop="20260630114300 +0200">
+    <title lang="fr">Emission spéciale</title>
+    <desc lang="fr">Des sujets très divers dans l'émission spéciale, avec la diffusion d'évènements culturels, musicaux, sportifs, voire interactifs, </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630114300 +0200" stop="20260630120000 +0200">
+    <title lang="fr">C'est de la balle</title>
+    <desc lang="fr">Retrouvez toute l'actualité du Ballon dans l'Aube avec votre magazine "C'est de la balle".</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630120000 +0200" stop="20260630120400 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630120400 +0200" stop="20260630120600 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630120600 +0200" stop="20260630121000 +0200">
+    <title lang="fr">Le grand quizz</title>
+    <desc lang="fr">Testez vos connaissances avec votre famille ou avec des amis et amusez-vous avec votre "Grand quizz" sur Canal 32.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630121000 +0200" stop="20260630124000 +0200">
+    <title lang="fr">JT Sport</title>
+    <desc lang="fr">Retrouvez les meilleurs moments de l'actualité sportive de votre département, les résultats et les classements, chaque lundi dans votre "Journal des sports". </desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630124000 +0200" stop="20260630124400 +0200">
+    <title lang="fr">Emission en alternance</title>
+    <desc lang="fr">Retrouvez dans cette tranche horaire, des magazines découverte, des portraits, des émissions pédagogiques qui concernent l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630124400 +0200" stop="20260630124600 +0200">
+    <title lang="fr">Passion bénévoles</title>
+    <desc lang="fr">Une émission qui met en valeur les petits gestes de solidarité, d'entraide et de bénévolat dans le département de l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630124600 +0200" stop="20260630125000 +0200">
+    <title lang="fr">Le grand quizz</title>
+    <desc lang="fr">Testez vos connaissances avec votre famille ou avec des amis et amusez-vous avec votre "Grand quizz" sur Canal 32.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630125000 +0200" stop="20260630125500 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630125500 +0200" stop="20260630130000 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630130000 +0200" stop="20260630131300 +0200">
+    <title lang="fr">Attitude montagne</title>
+    <desc lang="fr">L'émission "Attitude montagne" est un magazine d'information qui aborde de nombreux sujets de découvertes.</desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630131300 +0200" stop="20260630133000 +0200">
+    <title lang="fr">Mon meilleur match</title>
+    <desc lang="fr">Retrouvez et revivez les meilleurs moments des derniers matchs.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630133000 +0200" stop="20260630133500 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630133500 +0200" stop="20260630134000 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630134000 +0200" stop="20260630135300 +0200">
+    <title lang="fr">Tribune libre</title>
+    <desc lang="fr">David Mutel et ses invités analysent la dernière rencontre de l'ESTAC et désignent " l'homme du match ", " le fait du match ". Un compte rendu technique pour les fans de football.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630135300 +0200" stop="20260630140000 +0200">
+    <title lang="fr">Infos Troyes / L'objet d'une histoire / C'est mon quartier</title>
+    <desc lang="fr">Les trois émissions diffusées en alternance. Soyez au courant de toute l'actualité de Troyes avec "Info Troyes" et "C'est mon quartier" et découvrez les mille et une histoires des objets mis aux enchères avec "L'objet d'une histoire".</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630140000 +0200" stop="20260630150000 +0200">
+    <title lang="fr">Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630150000 +0200" stop="20260630150400 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630150400 +0200" stop="20260630160000 +0200">
+    <title lang="fr">Emission spéciale</title>
+    <desc lang="fr">Des sujets très divers dans l'émission spéciale, avec la diffusion d'évènements culturels, musicaux, sportifs, voire interactifs, </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630160000 +0200" stop="20260630170000 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630170000 +0200" stop="20260630170600 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630170600 +0200" stop="20260630173000 +0200">
+    <title lang="fr">Attitude montagne</title>
+    <desc lang="fr">L'émission "Attitude montagne" est un magazine d'information qui aborde de nombreux sujets de découvertes.</desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630173000 +0200" stop="20260630180000 +0200">
+    <title lang="fr">Jour de match / Dossiers du jeudi</title>
+    <desc lang="fr">Deux émissions diffusées en alternance: "Jour de match" où chaque semaine, David Mutel et Florian Jarjat commentent en "live" le match de l'Estac, dans un grand format de 52 mn, résumant les meilleurs moments de la rencontre et "Dossiers du jeudi": l'émission thématique avec les rendez-vous quotidiens habituels et les dossiers de société les jeudis. </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630180000 +0200" stop="20260630181500 +0200">
+    <title lang="fr">JT Sport</title>
+    <desc lang="fr">Retrouvez les meilleurs moments de l'actualité sportive de votre département, les résultats et les classements, chaque lundi dans votre "Journal des sports". </desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630181500 +0200" stop="20260630183000 +0200">
+    <title lang="fr">Jour de match / JT Sport</title>
+    <desc lang="fr">Deux émissions de sport diffusées en alternance: "Jour de match" et "JT Sport".</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630183000 +0200" stop="20260630183500 +0200">
+    <title lang="fr">Flash JT</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département dans votre "Flash JT".</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630183500 +0200" stop="20260630184000 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630184000 +0200" stop="20260630190000 +0200">
+    <title lang="fr">Infos Ciné</title>
+    <desc lang="fr">Découvrez toute l'actualité cinéma, à travers bande-annonces et interviews. Les sorties de films, les sorties DVD, le box office : toutes les infos pour ne rien manquer du 7e art.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630190000 +0200" stop="20260630193000 +0200">
+    <title lang="fr">Coup de jeune</title>
+    <desc lang="fr">Emission dédiée aux jeunes qui présente des nouveaux projets des jeunes artistes de la région et qui annonce les prochains événements. </desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630193000 +0200" stop="20260630194500 +0200">
+    <title lang="fr">JT d'actualité</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département. Société, économie, faits divers, culture, sports : tous les sujets sont abordés dans ce grand moment d'information.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630194500 +0200" stop="20260630195200 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630195200 +0200" stop="20260630195500 +0200">
+    <title lang="fr">Le grand quizz</title>
+    <desc lang="fr">Testez vos connaissances avec votre famille ou avec des amis et amusez-vous avec votre "Grand quizz" sur Canal 32.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630195500 +0200" stop="20260630200000 +0200">
+    <title lang="fr">Il était une fois dans l'Aube</title>
+    <desc lang="fr">L'émission "Il était une fois dans l'Aube" est un magazine de découverte.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630200000 +0200" stop="20260630200600 +0200">
+    <title lang="fr">Passion bénévoles</title>
+    <desc lang="fr">Une émission qui met en valeur les petits gestes de solidarité, d'entraide et de bénévolat dans le département de l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630200600 +0200" stop="20260630201900 +0200">
+    <title lang="fr">Mon meilleur match</title>
+    <desc lang="fr">Retrouvez et revivez les meilleurs moments des derniers matchs.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630201900 +0200" stop="20260630203000 +0200">
+    <title lang="fr">Emission en alternance</title>
+    <desc lang="fr">Retrouvez dans cette tranche horaire, des magazines découverte, des portraits, des émissions pédagogiques qui concernent l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine éducatif</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630203000 +0200" stop="20260630204000 +0200">
+    <title lang="fr">JT d'actualité</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département. Société, économie, faits divers, culture, sports : tous les sujets sont abordés dans ce grand moment d'information.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630204000 +0200" stop="20260630205000 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630205000 +0200" stop="20260630205200 +0200">
+    <title lang="fr">Jour de match / Cuisine et terroir / De l'Aube et d'ailleurs / Passion bénévole</title>
+    <desc lang="fr">Plusieurs émissions diffusées en alternance: "Jour de match", "Cuisine et terroir", "De l'Aube et d'ailleurs" et "Passion bénévole".</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630205200 +0200" stop="20260630210000 +0200">
+    <title lang="fr">Le grand quizz</title>
+    <desc lang="fr">Testez vos connaissances avec votre famille ou avec des amis et amusez-vous avec votre "Grand quizz" sur Canal 32.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630210000 +0200" stop="20260630213000 +0200">
+    <title lang="fr">JT Sport</title>
+    <desc lang="fr">Retrouvez les meilleurs moments de l'actualité sportive de votre département, les résultats et les classements, chaque lundi dans votre "Journal des sports". </desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630213000 +0200" stop="20260630214500 +0200">
+    <title lang="fr">JT d'actualité</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département. Société, économie, faits divers, culture, sports : tous les sujets sont abordés dans ce grand moment d'information.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630214500 +0200" stop="20260630215500 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630215500 +0200" stop="20260630220300 +0200">
+    <title lang="fr">Tribune libre</title>
+    <desc lang="fr">David Mutel et ses invités analysent la dernière rencontre de l'ESTAC et désignent " l'homme du match ", " le fait du match ". Un compte rendu technique pour les fans de football.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630220300 +0200" stop="20260630220600 +0200">
+    <title lang="fr">Il était une fois dans l'Aube</title>
+    <desc lang="fr">L'émission "Il était une fois dans l'Aube" est un magazine de découverte.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630220600 +0200" stop="20260630221100 +0200">
+    <title lang="fr">Réussites : le portrait</title>
+    <desc lang="fr">Découvrez les portraits des gens de votre entourage, écoutez leurs histoires et expériences dans votre magazine "Réussites : le portrait". </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630221100 +0200" stop="20260630223000 +0200">
+    <title lang="fr">Grand tourisme</title>
+    <desc lang="fr">Une émission axée sur le tourisme qui vous fera découvrir les meilleurs destinations pour vos vacances de rêve. </desc>
+    <category lang="fr">Magazine / Magazine des loisirs</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630223000 +0200" stop="20260630224500 +0200">
+    <title lang="fr">JT d'actualité</title>
+    <desc lang="fr">La rédaction est mobilisée pour vous présenter toute l'actualité de Troyes et du département. Société, économie, faits divers, culture, sports : tous les sujets sont abordés dans ce grand moment d'information.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630224500 +0200" stop="20260630225500 +0200">
+    <title lang="fr">Météo + Qualité de l'air</title>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630225500 +0200" stop="20260630230000 +0200">
+    <title lang="fr">La minute de l'immobilier</title>
+    <desc lang="fr">Emission réalisée en partenariat avec la FNAIM de l'Aube. Les agents immobiliers de la FNAIM vous donnent, une semaine sur deux, tous les conseils pour réaliser un achat immobilier dans les meilleures conditions. Un thème différent est abordé à chaque émission.</desc>
+    <category lang="fr">Magazine / Magazine de la décoration</category>
+  </programme>
+  <programme channel="Canal32.fr" start="20260630230000 +0200" stop="20260701070000 +0200">
+    <title lang="fr">Rediffusion en boucle</title>
+    <desc lang="fr">Rediffusion de programmes en boucle jusqu'au matin.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
   </programme>
   <programme channel="CanalJ.fr" start="20260630060500 +0200" stop="20260630061500 +0200">
     <title lang="fr">Robin des Bois, malice à Sherwood - S03E24</title>
@@ -12572,12 +12897,12 @@
     <category lang="fr">Emission sportive / Snooker</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630013000 +0200" stop="20260630024500 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Chinon_Châteauroux (174,1 km)</title>
     <desc lang="fr">Les formations qui tablent sur un sprint massif ne seront pas contrariées par les reliefs dans l'organisation de leur mission du jour. La vigilance sera de mise en fin de parcours en raison des changements de direction qui pourraient être exploités en cas de vent fort mais "l'avenue Cavendish" à Châteauroux fait partie des lignes droites qui se prêtent le mieux à une explication académique entre les fonceurs les plus racés.</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630024500 +0200" stop="20260630040000 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Ennezat_Le Mont-Dore Puy de Sancy (165,3 km)</title>
     <desc lang="fr">Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
@@ -12587,12 +12912,12 @@
     <category lang="fr">Emission sportive / Snooker</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630060000 +0200" stop="20260630071500 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Chinon_Châteauroux (174,1 km)</title>
     <desc lang="fr">Les formations qui tablent sur un sprint massif ne seront pas contrariées par les reliefs dans l'organisation de leur mission du jour. La vigilance sera de mise en fin de parcours en raison des changements de direction qui pourraient être exploités en cas de vent fort mais "l'avenue Cavendish" à Châteauroux fait partie des lignes droites qui se prêtent le mieux à une explication académique entre les fonceurs les plus racés.</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630071500 +0200" stop="20260630083000 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Ennezat_Le Mont-Dore Puy de Sancy (165,3 km)</title>
     <desc lang="fr">Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
@@ -12607,7 +12932,7 @@
     <category lang="fr">Emission sportive / Snooker</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630130000 +0200" stop="20260630143000 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Ennezat_Le Mont-Dore Puy de Sancy (165,3 km)</title>
     <desc lang="fr">Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
@@ -12617,7 +12942,7 @@
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630163000 +0200" stop="20260630181500 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Auch_Hautacam (180,6 km)</title>
     <desc lang="fr">Lorsque le Tour s'attaque aux Pyrénées, ce n'est jamais une journée anodine. La bataille entre les favoris pour le général se poursuit sur un ton de plus en plus sérieux.</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
@@ -12652,7 +12977,7 @@
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260630230000 +0200" stop="20260701000000 +0200">
-    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <title lang="fr">Cyclisme : Tour de France - Auch_Hautacam (180,6 km)</title>
     <desc lang="fr">Lorsque le Tour s'attaque aux Pyrénées, ce n'est jamais une journée anodine. La bataille entre les favoris pour le général se poursuit sur un ton de plus en plus sérieux.</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
@@ -18752,6 +19077,7 @@
   </programme>
   <programme channel="France5.fr" start="20260630030400 +0200" stop="20260630035500 +0200">
     <title lang="fr">Silence, ça pousse !</title>
+    <desc lang="fr">Des esprits moqueurs disent : \" Les jardiniers ne voient pas plus loin que le bout de leur jardin \". \" Silence, ça</desc>
     <category lang="fr">Magazine / Magazine du jardinage</category>
   </programme>
   <programme channel="France5.fr" start="20260630030400 +0200" stop="20260630035400 +0200">
@@ -21201,6 +21527,144 @@
   <programme channel="LuckyJack.fr" start="20260630040800 +0200" stop="20260630050000 +0200">
     <title lang="fr">European Poker Tour - S03E15</title>
     <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630050000 +0200" stop="20260630052200 +0200">
+    <title lang="fr">Learn from the Pros - S01E16</title>
+    <desc lang="fr">Les plus grands joueurs de poker vous livrent leurs stratégies et leurs astuces. De l'attitude à la technique, rien n'est laissé au hasard. Pour éviter le flop et exceller, "Learn from the pros" est votre meilleur atout!</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630052200 +0200" stop="20260630060500 +0200">
+    <title lang="fr">The Big Game - S01E01</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630060500 +0200" stop="20260630070000 +0200">
+    <title lang="fr">The Big Game - S01E02</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630070000 +0200" stop="20260630075200 +0200">
+    <title lang="fr">European Poker Tour - S03E19</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630075200 +0200" stop="20260630084200 +0200">
+    <title lang="fr">European Poker Tour - S03E21</title>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630084200 +0200" stop="20260630092700 +0200">
+    <title lang="fr">National Head's up Poker Championship - S01E15</title>
+    <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630092700 +0200" stop="20260630094800 +0200">
+    <title lang="fr">Learn from the Pros - S01E18</title>
+    <desc lang="fr">Les plus grands joueurs de poker vous livrent leurs stratégies et leurs astuces. De l'attitude à la technique, rien n'est laissé au hasard. Pour éviter le flop et exceller, "Learn from the pros" est votre meilleur atout!</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630094800 +0200" stop="20260630103100 +0200">
+    <title lang="fr">The Big Game - S01E05</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630103100 +0200" stop="20260630111400 +0200">
+    <title lang="fr">The Big Game - S01E06</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630111400 +0200" stop="20260630120600 +0200">
+    <title lang="fr">European Poker Tour - S03E22</title>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630120600 +0200" stop="20260630125700 +0200">
+    <title lang="fr">European Poker Tour - S04E01</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630125700 +0200" stop="20260630133800 +0200">
+    <title lang="fr">National Head's up Poker Championship - S01E16</title>
+    <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630133800 +0200" stop="20260630135900 +0200">
+    <title lang="fr">Learn from the Pros - S01E19</title>
+    <desc lang="fr">Les plus grands joueurs de poker vous livrent leurs stratégies et leurs astuces. De l'attitude à la technique, rien n'est laissé au hasard. Pour éviter le flop et exceller, "Learn from the pros" est votre meilleur atout!</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630135900 +0200" stop="20260630144200 +0200">
+    <title lang="fr">The Big Game - S01E07</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630144200 +0200" stop="20260630152500 +0200">
+    <title lang="fr">The Big Game - S01E08</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630152500 +0200" stop="20260630161700 +0200">
+    <title lang="fr">European Poker Tour - S04E04</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630161700 +0200" stop="20260630170000 +0200">
+    <title lang="fr">National Head's up Poker Championship - S01E17</title>
+    <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630170000 +0200" stop="20260630172200 +0200">
+    <title lang="fr">Learn from the Pros - S01E20</title>
+    <desc lang="fr">Les plus grands joueurs de poker vous livrent leurs stratégies et leurs astuces. De l'attitude à la technique, rien n'est laissé au hasard. Pour éviter le flop et exceller, "Learn from the pros" est votre meilleur atout!</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630172200 +0200" stop="20260630180500 +0200">
+    <title lang="fr">The Big Game - S01E09</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630180500 +0200" stop="20260630184800 +0200">
+    <title lang="fr">The Big Game - S01E10</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630184800 +0200" stop="20260630194000 +0200">
+    <title lang="fr">European Poker Tour - S04E05</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630194000 +0200" stop="20260630203000 +0200">
+    <title lang="fr">European Poker Tour - S04E06</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630203000 +0200" stop="20260630211300 +0200">
+    <title lang="fr">National Head's up Poker Championship - S01E18</title>
+    <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630211300 +0200" stop="20260630213500 +0200">
+    <title lang="fr">Learn from the Pros - S01E21</title>
+    <desc lang="fr">Les plus grands joueurs de poker vous livrent leurs stratégies et leurs astuces. De l'attitude à la technique, rien n'est laissé au hasard. Pour éviter le flop et exceller, "Learn from the pros" est votre meilleur atout!</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630213500 +0200" stop="20260630221800 +0200">
+    <title lang="fr">The Big Game - S01E11</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630221800 +0200" stop="20260630230100 +0200">
+    <title lang="fr">The Big Game - S01E12</title>
+    <desc lang="fr">Suivez la performance d'un joueur amateur staké à 100 000 $ qui gardera tout profit de sa rencontre à la table de cash game des légendes du poker comme ElkY, Phil Hellmuth, Daniel Negreanu.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630230100 +0200" stop="20260630235300 +0200">
+    <title lang="fr">European Poker Tour - S03E15</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260630235300 +0200" stop="20260701003800 +0200">
+    <title lang="fr">National Head's up Poker Championship - S01E13</title>
+    <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
     <category lang="fr">Documentaire sportif / Poker</category>
   </programme>
   <programme channel="M6.fr" start="20260630003500 +0200" stop="20260630011000 +0200">
@@ -25775,6 +26239,36 @@
     <title lang="fr">La télé de Florence Foresti</title>
     <desc lang="fr">Florence Foresti revient, le temps d'une soirée, sur ses quinze années de télévision et de sketchs devenus cultes. De ses premiers personnages dans l'émission "On a tout essayé" à ses créations les plus inoubliables dans "On n'est pas couché", l'une des humoristes préférées des Français retrace son parcours avec humour et émotion, avec le regard complice des animateurs, producteurs et proches qui l'ont accompagnée.</desc>
     <category lang="fr">Documentaire / Documentaire médias</category>
+  </programme>
+  <programme channel="OLTV.fr" start="20260630060000 +0200" stop="20260630090000 +0200">
+    <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="OLTV.fr" start="20260630090000 +0200" stop="20260630120000 +0200">
+    <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="OLTV.fr" start="20260630120000 +0200" stop="20260630150000 +0200">
+    <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="OLTV.fr" start="20260630150000 +0200" stop="20260630180000 +0200">
+    <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="OLTV.fr" start="20260630180000 +0200" stop="20260630210000 +0200">
+    <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="OLTV.fr" start="20260630210000 +0200" stop="20260701060000 +0200">
+    <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OlympiaTV.fr" start="20260630182000 +0200" stop="20260630195000 +0200">
     <title lang="fr">Christophe Maé - Carnet de voyage</title>
@@ -30604,6 +31098,11 @@
     <desc lang="fr">François met sa famille au défi de créer des concepts TV, puis filme leur quotidien en télé-réalité, mettant à l'épreuve leur inspiration.</desc>
     <category lang="fr">Série / Série jeunesse</category>
   </programme>
+  <programme channel="TV5MondeInfo.fr" start="20260630000000 +0200" stop="20260630003000 +0200">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
   <programme channel="TVPitchoun.fr" start="20260630000000 +0200" stop="20260630000300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
     <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
@@ -34623,7 +35122,7 @@
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Vox.de" start="20260630170000 +0200" stop="20260630180000 +0200">
-    <title lang="fr">Zwischen Tüll und Tränen - S11E166</title>
+    <title lang="fr">Zwischen Tüll und Tränen</title>
     <desc lang="fr">Frauen werden bei der Suche nach dem richtigen Braut-Kleid begleitet. Es muss sowohl zur Figur als auch zum Budget passen. Fach-Geschäfte im ganz Deutschland werden besucht. Oft sind Mütter, Schwieger-Mütter und beste Freundinnen dabei, die unbedingt ihre Meinung abgeben wollen. Es kann sehr emotional werden, denn eine Entscheidung zu treffen ist häufig schwierig. Es gibt eine große Vielfalt an Braut-Kleidern, von schlichter Eleganz bis zum stilvollen Luxus-Kleid. Experten geben Tipps in Sachen Schnitt, Farbe und Budget. Die Geschichte der Paare wird erzählt, vom Kennenlernen bis zur Verlobung.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
@@ -36650,6 +37149,785 @@
     <title lang="fr">Aelat Al Hajj Mutualiy</title>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.1061" start="20260630000900 +0200" stop="20260630002100 +0200">
+    <title lang="fr">Dino Ranch - S03E42</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630002100 +0200" stop="20260630003300 +0200">
+    <title lang="fr">Dino Ranch - S03E43</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630003300 +0200" stop="20260630004500 +0200">
+    <title lang="fr">Dino Ranch - S03E44</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630004500 +0200" stop="20260630005700 +0200">
+    <title lang="fr">Dino Ranch - S03E45</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630005700 +0200" stop="20260630011000 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E25</title>
+    <desc lang="fr">Jérôme pense que le travail de Jett est simple et qu'il serait facile de le remplacer. Il offre une baignoire à Nayan en Thaïlande. Bonino l'éléphant prend un bain mais il est surpris par un jet d'eau et coule. Jett intervient pour aider à ramener...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630011000 +0200" stop="20260630012200 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E26</title>
+    <desc lang="fr">Jett apporte un tableau de programme magnétique à Hye Mi en Corée. Elle a beaucoup d'activités chaque jour, du ballet au taekwondo en passant par des cours de musique. À la dernière minute, Dizzy prend les membres de la famille très occupés et les emmène dîner ensemble.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630012200 +0200" stop="20260630013400 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E27</title>
+    <desc lang="fr">Jett porte les pneus à Alex et à sa soeur Adriana à Monaco. Ils ont construit une voiture à hot-dog pour qu'Alex participe à un derby de caisses à savon. Lorsque des canards le poussent à fuir le terrain et à se rendre en ville, Paul vient et le ramène avec une escorte de police.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630013400 +0200" stop="20260630014600 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E28</title>
+    <desc lang="fr">Jett porte les pneus à Alex et à sa soeur Adriana à Monaco. Ils ont construit une voiture à hot-dog pour qu'Alex participe à un derby de caisses à savon. Lorsque des canards le poussent à fuir le terrain et à se rendre en ville, Paul vient et le ramène avec une escorte de police.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630014600 +0200" stop="20260630015800 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E29</title>
+    <desc lang="fr"> Jett et Noah font fonctionner un dinosaure en plastique qui sème le chaos. Donnie intervient avec un robot pour l'arrêter et désactiver sa batterie.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630015800 +0200" stop="20260630021200 +0200">
+    <title lang="fr">Robocar Poli - S02E35</title>
+    <desc lang="fr">Bulldo demande à Max de s'occuper de Bulldi, mais celui-ci profite d'un moment d'inattention pour disparaître. L'équipe de secours part à sa recherche.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630021200 +0200" stop="20260630022600 +0200">
+    <title lang="fr">Robocar Poli - S02E36</title>
+    <desc lang="fr">Après avoir lu le message d'un gâteau de la chance, Cracra et Levtou décident de partir vers l'ouest, sans se douter quels dangers les y attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630022600 +0200" stop="20260630024000 +0200">
+    <title lang="fr">Robocar Poli - S02E37</title>
+    <desc lang="fr">Tandis que Totobus demande des suggestions sur les endroits où emmener les enfants se promener, Tracky cherche comment embellir sa ferme.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630024000 +0200" stop="20260630025300 +0200">
+    <title lang="fr">Robocar Poli - S02E38</title>
+    <desc lang="fr">Impatient de découvrir la mer, Rudy se cache dans la cale de Marine. Heureusement, lorsque la tempête éclate, ses amis de l'équipe de secours arrivent à la rescousse.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630025300 +0200" stop="20260630025900 +0200">
+    <title lang="fr">Tsvetnyashki - S01E29</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630025900 +0200" stop="20260630031100 +0200">
+    <title lang="fr">Barbie Dreamtopia - S01E15</title>
+    <desc lang="fr">Les chaussettes dépareillées de Barbie poussent Chelsea à réfléchir sur l'assurance dont on peut faire preuve même en étant différent. A Dreamtopia, Barry, un nouvel ourson à la fraise, se joint à Chelsea et à Barbie, qui se rendent à une excursion en bateau avec les autres oursons...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630031100 +0200" stop="20260630032200 +0200">
+    <title lang="fr">Barbie Dreamtopia - S01E16</title>
+    <desc lang="fr">Dreamtopia c'est des mondes délicieux et ravissants, où Barbie et sa petite sœur Chelsea y voyagent grâce a son imagination. Rencontrer des personnages hauts en couleur qui vivent dans ces mondes fantaisistes, où tout devient possible !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630032200 +0200" stop="20260630033300 +0200">
+    <title lang="fr">Enchantimals : Les contes du paradis sauvage - S01E15</title>
+    <desc lang="fr">Danessa et Sprint éclaircissent le mystère des objets qui tombent du ciel et découvrent qu'ils ont de nouveaux voisins : Sancha Ecureuil et son amie Stumper, qui viennent d'emménager dans l'arbre d'à côté. Stumper s'est blessée en déplaçant des meubles et Danessa va devoir faire une visite à domicile...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630033300 +0200" stop="20260630034400 +0200">
+    <title lang="fr">Enchantimals - S01E16</title>
+    <desc lang="fr">Quand Patter et Flap font la connaissance de Lorna Brebis et de son amie Flage qui imitent leurs attitudes de paons, ils découvrent qu'il est parfois préférable d'être suivis que suiveurs...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630034400 +0200" stop="20260630034800 +0200">
+    <title lang="fr">Molang - S01E44</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630034800 +0200" stop="20260630035200 +0200">
+    <title lang="fr">Molang - S01E45</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630035200 +0200" stop="20260630035500 +0200">
+    <title lang="fr">Molang - S01E46</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630035500 +0200" stop="20260630035900 +0200">
+    <title lang="fr">Molang - S01E47</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630035900 +0200" stop="20260630040700 +0200">
+    <title lang="fr">Pororo - S03E44</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630040700 +0200" stop="20260630041400 +0200">
+    <title lang="fr">Pororo - S03E45</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630041400 +0200" stop="20260630042200 +0200">
+    <title lang="fr">Pororo - S03E46</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630042200 +0200" stop="20260630043000 +0200">
+    <title lang="fr">Pororo - S03E47</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630043000 +0200" stop="20260630043800 +0200">
+    <title lang="fr">Pororo - S03E48</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630043800 +0200" stop="20260630044500 +0200">
+    <title lang="fr">Pororo - S03E49</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630044500 +0200" stop="20260630045300 +0200">
+    <title lang="fr">Pororo - S03E50</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630045300 +0200" stop="20260630045900 +0200">
+    <title lang="fr">Tsvetnyashki - S01E39</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630045900 +0200" stop="20260630050600 +0200">
+    <title lang="fr">Tsvetnyashki - S02E41</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630050600 +0200" stop="20260630051200 +0200">
+    <title lang="fr">Tsvetnyashki - S02E42</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630051200 +0200" stop="20260630051900 +0200">
+    <title lang="fr">Tsvetnyashki - S02E43</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630051900 +0200" stop="20260630052800 +0200">
+    <title lang="fr">Robocar Poli - S01E04</title>
+    <desc lang="fr">Numérotation ayant droit</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630052800 +0200" stop="20260630053200 +0200">
+    <title lang="fr">Molang - S01E04</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630053200 +0200" stop="20260630053600 +0200">
+    <title lang="fr">Molang - S01E05</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630053600 +0200" stop="20260630053900 +0200">
+    <title lang="fr">Molang - S01E06</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630053900 +0200" stop="20260630054300 +0200">
+    <title lang="fr">Molang - S01E07</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630054300 +0200" stop="20260630054600 +0200">
+    <title lang="fr">Molang - S01E08</title>
+    <desc lang="fr">Série d'animation française. (n°8). "Camping-car".</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630054600 +0200" stop="20260630055000 +0200">
+    <title lang="fr">Molang - S01E09</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630055000 +0200" stop="20260630055300 +0200">
+    <title lang="fr">Molang - S01E10</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630055300 +0200" stop="20260630060500 +0200">
+    <title lang="fr">Lyapik edet v Okido - S01E36</title>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630060500 +0200" stop="20260630061600 +0200">
+    <title lang="fr">Lyapik edet v Okido - S01E37</title>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630061600 +0200" stop="20260630062700 +0200">
+    <title lang="fr">Lyapik edet v Okido - S01E38</title>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630062700 +0200" stop="20260630063500 +0200">
+    <title lang="fr">Tsvetnyashki - S02E23</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630063500 +0200" stop="20260630064300 +0200">
+    <title lang="fr">Bing - S01E67</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630064300 +0200" stop="20260630065000 +0200">
+    <title lang="fr">Bing - S01E68</title>
+    <desc lang="fr">Il est l'heure de dormir pour Bing. Mais Hoppity est introuvable et il fait noir dehors.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630065000 +0200" stop="20260630065700 +0200">
+    <title lang="fr">Bing - S01E69</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630065700 +0200" stop="20260630070500 +0200">
+    <title lang="fr">Bing - S01E70</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630070500 +0200" stop="20260630071700 +0200">
+    <title lang="fr">Zou - S01E09</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630071700 +0200" stop="20260630072800 +0200">
+    <title lang="fr">Zou - S01E10</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630072800 +0200" stop="20260630073900 +0200">
+    <title lang="fr">Zou - S01E11</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630073900 +0200" stop="20260630075000 +0200">
+    <title lang="fr">Zou - S01E12</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630075000 +0200" stop="20260630080100 +0200">
+    <title lang="fr">Zou - S01E13</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630080100 +0200" stop="20260630081400 +0200">
+    <title lang="fr">Dino Ranch - S03E46</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630081400 +0200" stop="20260630082600 +0200">
+    <title lang="fr">Dino Ranch - S03E47</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630082600 +0200" stop="20260630083800 +0200">
+    <title lang="fr">Dino Ranch - S03E48</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630083800 +0200" stop="20260630085000 +0200">
+    <title lang="fr">Dino Ranch - S03E49</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630085000 +0200" stop="20260630090200 +0200">
+    <title lang="fr">Dino Ranch - S03E50</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630090200 +0200" stop="20260630091500 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E30</title>
+    <desc lang="fr">Jett apporte une boîte en bois divisée à Tendai au Zimbabwe. Elle part à la chasse au trésor avec sa troupe de éclaireurs zèbres. La boîte tombe dans une rivière et flotte, alors Grand Albert utilise ses connaissances en éclaireur pour construire un radeau. Ils récupèrent la boîte et Tendai trouve le dernier élément de la liste!</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630091500 +0200" stop="20260630092700 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E31</title>
+    <desc lang="fr">Jett apporte un microphone à Rubby, une jeune fille qui propose un programme sur la nature en Australie. Elle interviewe les animaux, jusqu'à ce qu'un kangourou s'empare de son micro...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630092700 +0200" stop="20260630093900 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E32</title>
+    <desc lang="fr">Pendant qu'ils sont dans l'espace avec une fillette afin de compléter sa collection de pierre, les Super Wings ont plusieurs défis à relever...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630093900 +0200" stop="20260630095100 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E33</title>
+    <desc lang="fr">Jett apporte un chapeau de magicien à Moritz, qui assure un numéro avec son lapin de compagnie en Autriche. Mais le méchant lapin fait rouler le piano hors du théâtre. Dizzy arrive alors et utilise ses cordes de sauvetage pour empêcher le piano de tomber dans le Danube, puis le ramène au théâtre pour le tour final...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630095100 +0200" stop="20260630100300 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E34</title>
+    <desc lang="fr">Jett est un avion pas comme les autres : il fait partie de l'équipe des Super Wings et peut se transformer en super-héros à loisir.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630100300 +0200" stop="20260630101800 +0200">
+    <title lang="fr">Robocar Poli - S04E13</title>
+    <desc lang="fr">A Vroom ville, comme ailleurs, les enfants ont un certain goût de l'aventure et font parfois preuve d'imprudence. Heureusement, Poli, Roy, Héli et Ambre veillent sur eux et leur rappellent les règles simples qui permettent de circuler en ville en toute sécurité.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630101800 +0200" stop="20260630103200 +0200">
+    <title lang="fr">Robocar Poli - S04E14</title>
+    <desc lang="fr">A Vroom ville, comme ailleurs, les enfants ont un certain goût de l'aventure et font parfois preuve d'imprudence. Heureusement, Poli, Roy, Héli et Ambre veillent sur eux et leur rappellent les règles simples qui permettent de circuler en ville en toute sécurité.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630103200 +0200" stop="20260630104500 +0200">
+    <title lang="fr">Robocar Poli - S02E41</title>
+    <desc lang="fr">Lors d'une partie de cache-cache avec Levtou, Max part faire une course sans la prévenir. Levtou est furieuse, et Max doit trouver un moyen de se faire pardonner.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630104500 +0200" stop="20260630105900 +0200">
+    <title lang="fr">Robocar Poli - S04E16</title>
+    <desc lang="fr">A Vroom ville, comme ailleurs, les enfants ont un certain goût de l'aventure et font parfois preuve d'imprudence. Heureusement, Poli, Roy, Héli et Ambre veillent sur eux et leur rappellent les règles simples qui permettent de circuler en ville en toute sécurité.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630105900 +0200" stop="20260630111000 +0200">
+    <title lang="fr">Barbie Dreamtopia - S01E17</title>
+    <desc lang="fr">Dreamtopia c'est des mondes délicieux et ravissants, où Barbie et sa petite sœur Chelsea y voyagent grâce a son imagination. Rencontrer des personnages hauts en couleur qui vivent dans ces mondes fantaisistes, où tout devient possible !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630111000 +0200" stop="20260630112100 +0200">
+    <title lang="fr">Barbie Dreamtopia - S01E18</title>
+    <desc lang="fr">Chelsea et ses amis fabriquent des cerfs-volants. Otto s'accapare tout le matériel pour la queue de son cerf-volant. Chelsea s'imagine alors au Royame Arc-En-Ciel où tout le monde fabrique des cerfs-volants pour une cérémonie. Chelsea et la Reine Arc-en-Ciel Barbie travaillent en équipe pour fabriquer un cerf-volant, mais s'interrompent pour aider le Prince Notto à réparer son cerf-volant cassé...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630112100 +0200" stop="20260630113300 +0200">
+    <title lang="fr">Enchantimals - S01E17</title>
+    <desc lang="fr">Bren Ourse, en pleine hibernation, arpente la forêt dans son sommeil. Bree, Twist, Sage et Caper vont devoir coopérer pour la ramener en sécurité dans son lit...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630113300 +0200" stop="20260630114300 +0200">
+    <title lang="fr">Enchantimals : Les contes du paradis sauvage - S01E18</title>
+    <desc lang="fr">Quand Flick se rend au Glacier Enchanté pour participer au concours annuel de sculptures sur glace, son manque de confiance en elle la pousse à inventer toutes sortes d'excuses pour ne pas concourir...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630114300 +0200" stop="20260630114800 +0200">
+    <title lang="fr">Molang - S01E48</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630114800 +0200" stop="20260630115100 +0200">
+    <title lang="fr">Molang - S01E49</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630115100 +0200" stop="20260630115500 +0200">
+    <title lang="fr">Molang - S01E50</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630115500 +0200" stop="20260630115800 +0200">
+    <title lang="fr">Molang - S01E51</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630115800 +0200" stop="20260630120700 +0200">
+    <title lang="fr">Pororo - S03E51</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630120700 +0200" stop="20260630121400 +0200">
+    <title lang="fr">Pororo - S03E52</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630121400 +0200" stop="20260630122200 +0200">
+    <title lang="fr">Pororo - S03E01</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630122200 +0200" stop="20260630123000 +0200">
+    <title lang="fr">Pororo - S03E02</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630123000 +0200" stop="20260630123800 +0200">
+    <title lang="fr">Pororo - S03E03</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630123800 +0200" stop="20260630124500 +0200">
+    <title lang="fr">Pororo - S03E04</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630124500 +0200" stop="20260630125300 +0200">
+    <title lang="fr">Pororo - S03E05</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630125300 +0200" stop="20260630130000 +0200">
+    <title lang="fr">Tsvetnyashki - S01E40</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630130000 +0200" stop="20260630130800 +0200">
+    <title lang="fr">A table T'choupi ! - S01E25</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630130800 +0200" stop="20260630131500 +0200">
+    <title lang="fr">A table T'choupi ! - S01E26</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630131500 +0200" stop="20260630132200 +0200">
+    <title lang="fr">A table T'choupi ! - S01E27</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630132200 +0200" stop="20260630132900 +0200">
+    <title lang="fr">A table T'choupi ! - S01E28</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630132900 +0200" stop="20260630133600 +0200">
+    <title lang="fr">A table T'choupi ! - S01E29</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630133600 +0200" stop="20260630134300 +0200">
+    <title lang="fr">A table T'choupi ! - S01E30</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630134300 +0200" stop="20260630135000 +0200">
+    <title lang="fr">A table T'choupi ! - S01E31</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630135000 +0200" stop="20260630135700 +0200">
+    <title lang="fr">A table T'choupi ! - S01E32</title>
+    <desc lang="fr">Une compilation de séquences interactives sur le thème des légumes extraites de "Tchoupi et ses amis" : tomates, haricots verts, olives et asperges se transforment en clown, en chien ou en train. A dévorer au sens propre comme au sens figuré.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630135700 +0200" stop="20260630140500 +0200">
+    <title lang="fr">Robocar Poli - S01E04</title>
+    <desc lang="fr">Numérotation ayant droit</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630140500 +0200" stop="20260630142000 +0200">
+    <title lang="fr">Robocar Poli - S02E34</title>
+    <desc lang="fr">Pendant le grand nettoyage de Vroom Ville, Posti jette par erreur sa collection de timbres adorée. Il doit vite la retrouver avant qu'elle ne disparaisse à jamais.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630142000 +0200" stop="20260630143300 +0200">
+    <title lang="fr">Robocar Poli - S02E35</title>
+    <desc lang="fr">Bulldo demande à Max de s'occuper de Bulldi, mais celui-ci profite d'un moment d'inattention pour disparaître. L'équipe de secours part à sa recherche.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630143300 +0200" stop="20260630144700 +0200">
+    <title lang="fr">Robocar Poli - S02E36</title>
+    <desc lang="fr">Après avoir lu le message d'un gâteau de la chance, Cracra et Levtou décident de partir vers l'ouest, sans se douter quels dangers les y attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630144700 +0200" stop="20260630150100 +0200">
+    <title lang="fr">Robocar Poli - S02E37</title>
+    <desc lang="fr">Tandis que Totobus demande des suggestions sur les endroits où emmener les enfants se promener, Tracky cherche comment embellir sa ferme.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630150100 +0200" stop="20260630151400 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E09</title>
+    <desc lang="fr">Jett est un avion pas comme les autres : il fait partie de l'équipe des Super Wings et peut se transformer en super-héros à loisir.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630151400 +0200" stop="20260630152600 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E10</title>
+    <desc lang="fr">Nambayar de Mongolie demande des étoiles brillantes pour décorer l'intérieur de sa tente. Les moutons frappent dans la boîte, ce qui fait que les étoiles sont coincées dans leur toison. Grand Albert utilise le savoir-faire des cow-boys pour aider Nambayar et Jett à rassembler les moutons en fuite.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630152600 +0200" stop="20260630153800 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E11</title>
+    <desc lang="fr">Camila du Brésil porte une coiffe en plumes lors d'un défilé de carnaval. Jett utilise sa Jett Speed pour aider Camila et réparer son flotteur en cas de panne.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630153800 +0200" stop="20260630155000 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E12</title>
+    <desc lang="fr">Jett est un avion pas comme les autres : il fait partie de l'équipe des Super Wings et peut se transformer en super-héros à loisir.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630155000 +0200" stop="20260630160200 +0200">
+    <title lang="fr">Super Wings, paré au décollage ! - S01E13</title>
+    <desc lang="fr">Drew, au Canada, demande des patins à glace afin d'intégrer une équipe de hockey sur glace. Lorsqu'il arrive à la patinoire, il est tellement nerveux qu'il ne parvient pas à jouer. L'ancien gendarme, grand Albert, lui donne des conseils pour stimuler sa confiance en lui et enfin marquer le grand but..</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630160200 +0200" stop="20260630161500 +0200">
+    <title lang="fr">Dino Ranch - S02E21</title>
+    <desc lang="fr">Min et Clover croient à tort que la grande brontosaure qu'ils ont rencontrée est malhabile jusqu'à ce qu'ils réalisent que ce sont eux qui provoquent sa maladresse.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630161500 +0200" stop="20260630162700 +0200">
+    <title lang="fr">Dino Ranch - S02E22</title>
+    <desc lang="fr">Pour leur première visite à l'aéroport, les bébés dinos, très dissipés, vont donner du fil à retordre à Min. Celle-ci va devoir demander de l'aide à Jon et Miguel.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630162700 +0200" stop="20260630163900 +0200">
+    <title lang="fr">Dino Ranch - S02E23</title>
+    <desc lang="fr">Les Dino Rancheurs veulent apprendre à Biscuit, Angus et Quack à travailler en équipe, mais il n'est pas si simple de changer les habitudes des trois dinosaures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630163900 +0200" stop="20260630165100 +0200">
+    <title lang="fr">Dino Ranch - S02E24</title>
+    <desc lang="fr">Clover met en péril une mission médicale en jouant les héros solitaires. Il finit par apprendre à demander de l'aide, ce qui s'avère assez difficile pour lui.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630165100 +0200" stop="20260630165400 +0200">
+    <title lang="fr">Molang - S02E14</title>
+    <desc lang="fr">Molang, c'est un regard tendre et comique sur l'amitié entre un lapin fantaisiste, très joyeux et enthousiaste et un petit poussin timide, discret et émotif. La série expose avec humour les tranches de vie de Molang et Piu Piu, dans ce que leur quotidien a de plus commun comme dans leurs aventures les plus extraordinaires.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630165400 +0200" stop="20260630170000 +0200">
+    <title lang="fr">Tsvetnyashki - S01E14</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630170000 +0200" stop="20260630171400 +0200">
+    <title lang="fr">Pororo - S05E21</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630171400 +0200" stop="20260630172800 +0200">
+    <title lang="fr">Pororo - S05E22</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630172800 +0200" stop="20260630174200 +0200">
+    <title lang="fr">Pororo - S05E23</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630174200 +0200" stop="20260630175600 +0200">
+    <title lang="fr">Pororo - S05E24</title>
+    <desc lang="fr">Sur un îlot couvert de glace, encore inconnu de la civilisation, vit Pororo, un petit pingouin espiègle et curieux, ainsi que ses amis : Poby l'ours polaire, Eddy le renardeau futé, Loopy le timide castor et Crong le bébé dinosaure.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630175600 +0200" stop="20260630180000 +0200">
+    <title lang="fr">Molang - S01E02</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630180000 +0200" stop="20260630180400 +0200">
+    <title lang="fr">Molang - S01E03</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630180400 +0200" stop="20260630181200 +0200">
+    <title lang="fr">Bing - S01E41</title>
+    <desc lang="fr">Bing a invité Coco à une soirée pyjama. Bing s'amuse avec Hoppity, tandis que Coco préfère la compagnie de ses souris fées arc-en-ciel.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630181200 +0200" stop="20260630181900 +0200">
+    <title lang="fr">Bing - S01E42</title>
+    <desc lang="fr">Bing et Sula se rendent au magasin de Paula afin de faire les courses. Ils découvrent une machine à surprises, qui distribue des jouets au hasard. Sula a la chance de tomber sur le jouet qu'elle convoitait, mais ce n'est pas le cas de Bing...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630181900 +0200" stop="20260630182700 +0200">
+    <title lang="fr">Bing - S01E43</title>
+    <desc lang="fr">Bing fait du tourniquet en compagnie de Flop et de Pando qui le poussent très vite. Mais très vite, il se met à ressentir le tournis.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630182700 +0200" stop="20260630183400 +0200">
+    <title lang="fr">Bing - S01E44</title>
+    <desc lang="fr">Bing s'amuse à construire une maison. Alors que Coco, Sula et Charlie lui rendent visite, ils décident de jouer au jeu du grand méchant loup. Chacun choisit une maison de paille, de bois ou de briques. Bing décide de se déguiser en grand méchant loup...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630183400 +0200" stop="20260630184100 +0200">
+    <title lang="fr">Bing - S01E45</title>
+    <desc lang="fr">Par une chaude journée d'été, Bing a envie de manger un sorbet. La dégustation de sa glace à l'orange est cependant perturbée par son amie la grenouille, laquelle nage dans la petite piscine de Bing sans parvenir à en sortir. Bing et Flop organisent alors une opération de sauvetage...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630184100 +0200" stop="20260630184900 +0200">
+    <title lang="fr">Bing - S01E46</title>
+    <desc lang="fr">Amma et Sula peignent le mur. Bing décide de représenter un arc-en-ciel. Un peu maladroit, il fait couler de la peinture sur le dessin de Sula, qui n'est pas contente.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630184900 +0200" stop="20260630185600 +0200">
+    <title lang="fr">Bing - S01E47</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630185600 +0200" stop="20260630190200 +0200">
+    <title lang="fr">Tsvetnyashki - S01E25</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630190200 +0200" stop="20260630191400 +0200">
+    <title lang="fr">Zou - S03E25</title>
+    <desc lang="fr">Pour l'école, Zou doit réaliser un projet sur le thème du vent. Il n'est pas très inspiré. Finalement, il construit un ventilateur à pédales qui réjouit toute sa famille par cette journée de canicule...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630191400 +0200" stop="20260630192500 +0200">
+    <title lang="fr">Zou - S03E26</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630192500 +0200" stop="20260630193700 +0200">
+    <title lang="fr">Zou - S03E27</title>
+    <desc lang="fr">Une fête doit se tenir au gymnase, mais le système de sonorisation tombe en panne le matin même. La soirée risque d'être annulée. Zou se souvient alors du piano de Nanou. Non sans difficulté, le piano est installé dans le gymnase et la soirée est sauvée...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630193700 +0200" stop="20260630194800 +0200">
+    <title lang="fr">Zou - S03E28</title>
+    <desc lang="fr">Zou et Zak sont invités à disputer un match de volley-ball contre Zinnia et Elzée. Ils ont besoin de s'entraîner, mais la famille de Zou ne cesse de leur demander de l'aide pour d'autres choses...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630194800 +0200" stop="20260630195900 +0200">
+    <title lang="fr">Zou - S03E29</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630195900 +0200" stop="20260630201100 +0200">
+    <title lang="fr">Edmond et Lucy - S01E09</title>
+    <desc lang="fr">Edmond l'écureuil et Lucy l'oursonne sont élevés comme frère et soeur dans un majestueux châtaignier, sorte de cité radieuse de la forêt. Tous deux jouent et grandissent au coeur de la nature, répondent aux énigmes que celle-ci soulève et vivent des aventures au grand air en compagnie de leur famille et amis : Edouard, papa d'Edmond, Mima la grand-mère, Georges Hibou, les souris Polka et Hortense, Mitzi la petite chauve-souris et la Chose.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630201100 +0200" stop="20260630202300 +0200">
+    <title lang="fr">Edmond et Lucy - S01E10</title>
+    <desc lang="fr">Edmond et Lucy se demandent comment les abeilles choisissent les fleurs qu'elles vont butiner. Edouard leur explique ce phénomène complexe mais passionnant de la pollinisation.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630202300 +0200" stop="20260630203400 +0200">
+    <title lang="fr">Edmond et Lucy - S01E11</title>
+    <desc lang="fr">Edmond l'écureuil et Lucy l'oursonne sont élevés comme frère et soeur dans un majestueux châtaignier, sorte de cité radieuse de la forêt. Tous deux jouent et grandissent au coeur de la nature, répondent aux énigmes que celle-ci soulève et vivent des aventures au grand air en compagnie de leur famille et amis : Edouard, papa d'Edmond, Mima la grand-mère, Georges Hibou, les souris Polka et Hortense, Mitzi la petite chauve-souris et la Chose.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630203400 +0200" stop="20260630204500 +0200">
+    <title lang="fr">Edmond et Lucy - S01E12</title>
+    <desc lang="fr">En s'habillant pour aller ramasser des châtaignes, Edmond remet la main sur son vieux doudou. N'arrivant pas à s'en défaire, il l'embarque discrètement pour la balade.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630204500 +0200" stop="20260630205600 +0200">
+    <title lang="fr">Edmond et Lucy - S01E13</title>
+    <desc lang="fr">Edmond l'écureuil et Lucy l'oursonne sont élevés comme frère et soeur dans un majestueux châtaignier, sorte de cité radieuse de la forêt. Tous deux jouent et grandissent au coeur de la nature, répondent aux énigmes que celle-ci soulève et vivent des aventures au grand air en compagnie de leur famille et amis : Edouard, papa d'Edmond, Mima la grand-mère, Georges Hibou, les souris Polka et Hortense, Mitzi la petite chauve-souris et la Chose.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630205600 +0200" stop="20260630210000 +0200">
+    <title lang="fr">Molang - S01E04</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630210000 +0200" stop="20260630210700 +0200">
+    <title lang="fr">Tsvetnyashki - S02E41</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630210700 +0200" stop="20260630211300 +0200">
+    <title lang="fr">Tsvetnyashki - S02E42</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630211300 +0200" stop="20260630212100 +0200">
+    <title lang="fr">Tsvetnyashki - S02E43</title>
+    <desc lang="fr">Tsvetnyashki — eto razvivayushtij serial-myuzikl dlya malyshej do 4 let. Proekt sozdan komandoj animatorov, detskih psihologov, pedagogov… i roditelej. Napravlen na vsestoronnee razvitie malysha v igrovoj forme. Uchityvaet osobennosti detskogo vospriyatiya. A glavnoe — sozdan s lyubovyyu! V volshebnom alybome kapelek Tsvetnyashek zhivut Kurochka Koko, Tsyplenok Pi, Volchonok U, Lisenok Ajyayaj, Kotenok Mur i Zajchonok Skok. Kazhdyj iz nih v interaktivnoj forme razvivaet raznye navyki malysha — sotsialynye, intellektualynye, fizicheskie, sensornye, muzykalynye, hudozhestvennye. A roditelyam geroi seriala podskazyvayut idei dlya sovmestnyh igr s malyshom.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630212100 +0200" stop="20260630212900 +0200">
+    <title lang="fr">Robocar Poli - S01E04</title>
+    <desc lang="fr">Numérotation ayant droit</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630212900 +0200" stop="20260630213300 +0200">
+    <title lang="fr">Molang - S01E04</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630213300 +0200" stop="20260630213700 +0200">
+    <title lang="fr">Molang - S01E05</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630213700 +0200" stop="20260630214000 +0200">
+    <title lang="fr">Molang - S01E06</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630214000 +0200" stop="20260630214400 +0200">
+    <title lang="fr">Molang - S01E07</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630214400 +0200" stop="20260630214700 +0200">
+    <title lang="fr">Molang - S01E08</title>
+    <desc lang="fr">Série d'animation française. (n°8). "Camping-car".</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630214700 +0200" stop="20260630215100 +0200">
+    <title lang="fr">Molang - S01E09</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630215100 +0200" stop="20260630215400 +0200">
+    <title lang="fr">Molang - S01E10</title>
+    <desc lang="fr">L'été est arrivé. Molang et Piu Piu sont prêts à en profiter pleinement. Entre plongée et découverte des fonds marins, rencontre de nouveaux copains et voyage en camping-car, nos deux amis vont vivre un été mouvementé, riche en rencontres et en surprises. Fidèles à eux-mêmes, Molang et Piu Piu feront preuve de générosité et d'humour face aux drôles aventures qui les attendent.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630215400 +0200" stop="20260630220700 +0200">
+    <title lang="fr">Lyapik edet v Okido - S01E36</title>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630220700 +0200" stop="20260630221800 +0200">
+    <title lang="fr">Lyapik edet v Okido - S01E37</title>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630221800 +0200" stop="20260630222900 +0200">
+    <title lang="fr">Lyapik edet v Okido - S01E38</title>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630222900 +0200" stop="20260630223700 +0200">
+    <title lang="fr">Bing - S01E67</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630223700 +0200" stop="20260630224500 +0200">
+    <title lang="fr">Bing - S01E68</title>
+    <desc lang="fr">Il est l'heure de dormir pour Bing. Mais Hoppity est introuvable et il fait noir dehors.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630224500 +0200" stop="20260630225200 +0200">
+    <title lang="fr">Bing - S01E69</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630225200 +0200" stop="20260630230000 +0200">
+    <title lang="fr">Bing - S01E70</title>
+    <desc lang="fr">En compagnie de ses amis Sula, Pando, Coco et les autres, Bing le petit lapin noir découvre la vie en faisant parfois des bêtises !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630230000 +0200" stop="20260630231200 +0200">
+    <title lang="fr">Zou - S01E09</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630231200 +0200" stop="20260630232300 +0200">
+    <title lang="fr">Zou - S01E10</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630232300 +0200" stop="20260630233400 +0200">
+    <title lang="fr">Zou - S01E11</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630233400 +0200" stop="20260630234500 +0200">
+    <title lang="fr">Zou - S01E12</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630234500 +0200" stop="20260630235600 +0200">
+    <title lang="fr">Zou - S01E13</title>
+    <desc lang="fr">Zou est un zèbre âgé de 5 ans qui vit dans une ville habitée uniquement par des zèbres. Avec sa famille, Zou réside dans une grande maison à côté de chez son meilleur ami Elzee. Curieux et imaginatif, Zou va chaque jour vivre de nouvelles aventures.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="oqee.1061" start="20260630235600 +0200" stop="20260701000900 +0200">
+    <title lang="fr">Dino Ranch - S03E46</title>
+    <desc lang="fr">Dino Ranch suit l'aventure de deux jeunes cow-boys et une jeune cow-girl qui voyagent sur des terres où errent des dinosaures des temps modernes. </desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="oqee.1065" start="20260630033000 +0200" stop="20260630040000 +0200">
     <title lang="fr">Zai El Ketab</title>
     <category lang="fr">Magazine / Magazine politique</category>
@@ -37466,6 +38744,188 @@
     <title lang="fr">Anciennes émissions</title>
     <desc lang="fr">Les replays des programmes phares de la chaîne Journal du golf TV, comme "Académie", "Sweetspot", "Carnet de parcours", ou "L'heure du Coach",</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630000000 +0200" stop="20260630001500 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630001500 +0200" stop="20260630010000 +0200">
+    <title lang="fr">Hajma Mortaddah</title>
+    <desc lang="fr">Sport Show covers regional &amp; International activities.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630010000 +0200" stop="20260630013000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630013000 +0200" stop="20260630020000 +0200">
+    <title lang="fr">Minaassat</title>
+    <desc lang="fr">The latest in trending stories on social media platforms.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630020000 +0200" stop="20260630023000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630023000 +0200" stop="20260630030000 +0200">
+    <title lang="fr">Studio 1</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630030000 +0200" stop="20260630033000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630033000 +0200" stop="20260630040000 +0200">
+    <title lang="fr">Al Sooal Al Saab</title>
+    <desc lang="fr">The show aims at hosting controversial figures and will ask direct questions which might be uncomfortable sometimes.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630040000 +0200" stop="20260630043000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630043000 +0200" stop="20260630050000 +0200">
+    <title lang="fr">News Room</title>
+    <desc lang="fr">This is the heart of SNA news coverage, 2 hours of news show reflecting SNA's powerful engagement in news making.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630050000 +0200" stop="20260630053000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630053000 +0200" stop="20260630060000 +0200">
+    <title lang="fr">News Room</title>
+    <desc lang="fr">This is the heart of SNA news coverage, 2 hours of news show reflecting SNA's powerful engagement in news making.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630060000 +0200" stop="20260630063000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630063000 +0200" stop="20260630070000 +0200">
+    <title lang="fr">Radar</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630070000 +0200" stop="20260630080000 +0200">
+    <title lang="fr">Morning Show</title>
+    <desc lang="fr">Join the Sky News Arabia team for news, sport and business chat on the biggest stories of the day.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630080000 +0200" stop="20260630090000 +0200">
+    <title lang="fr">Morning Show</title>
+    <desc lang="fr">Join the Sky News Arabia team for news, sport and business chat on the biggest stories of the day.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630090000 +0200" stop="20260630094500 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630094500 +0200" stop="20260630100000 +0200">
+    <title lang="fr">Business News</title>
+    <desc lang="fr">Business bulletin covering GCC and international markets, business stories and economic.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630100000 +0200" stop="20260630110000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630110000 +0200" stop="20260630114500 +0200">
+    <title lang="fr">Noon News Show</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630114500 +0200" stop="20260630120000 +0200">
+    <title lang="fr">Business News</title>
+    <desc lang="fr">Business bulletin covering GCC and international markets, business stories and economic.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630120000 +0200" stop="20260630130000 +0200">
+    <title lang="fr">Noon News Show</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630130000 +0200" stop="20260630133000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630133000 +0200" stop="20260630140000 +0200">
+    <title lang="fr">Business with Lubna</title>
+    <desc lang="fr">Business Show covers regional &amp; International activities.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630140000 +0200" stop="20260630150000 +0200">
+    <title lang="fr">Studio 1</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630150000 +0200" stop="20260630160000 +0200">
+    <title lang="fr">Studio 1</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630160000 +0200" stop="20260630170000 +0200">
+    <title lang="fr">Radar</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630170000 +0200" stop="20260630171500 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630171500 +0200" stop="20260630180000 +0200">
+    <title lang="fr">Hajma Mortaddah</title>
+    <desc lang="fr">Sport Show covers regional &amp; International activities.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630180000 +0200" stop="20260630180500 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630180500 +0200" stop="20260630183000 +0200">
+    <title lang="fr">Minaassat</title>
+    <desc lang="fr">The latest in trending stories on social media platforms.</desc>
+    <category lang="fr">Magazine / Magazine du multimédia</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630183000 +0200" stop="20260630190000 +0200">
+    <title lang="fr">On the Map</title>
+    <desc lang="fr">A show that uses maps to tackle and explain geopolitical issues of international interest.</desc>
+    <category lang="fr">Magazine / Magazine de géopolitique</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630190000 +0200" stop="20260630200000 +0200">
+    <title lang="fr">Al Tasiaa</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630200000 +0200" stop="20260630210000 +0200">
+    <title lang="fr">News Room</title>
+    <desc lang="fr">This is the heart of SNA news coverage, 2 hours of news show reflecting SNA's powerful engagement in news making.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630210000 +0200" stop="20260630220000 +0200">
+    <title lang="fr">News Room</title>
+    <desc lang="fr">This is the heart of SNA news coverage, 2 hours of news show reflecting SNA's powerful engagement in news making.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630220000 +0200" stop="20260630230000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1117" start="20260630230000 +0200" stop="20260701000000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1127" start="20260630000000 +0200" stop="20260630000200 +0200">
     <title lang="fr">Entraînons-nous !</title>
@@ -41358,6 +42818,11 @@
     <title lang="fr">Météo</title>
     <desc lang="fr">Un bulletin météo plein de bonne humeur, capable de repousser les nuages et d'illuminer le ciel gris.</desc>
     <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1158" start="20260630042100 +0200" stop="20260630060600 +0200">
+    <title lang="fr">Personn'elles</title>
+    <desc lang="fr">A travers ce documentaire lié à son histoire personnelle, la réalisatrice souhaite faire partager le vécu des patientes, un vécu subjectif personnel à chacune, donner la parole aux soignants et aux accompagnements et présenter des initiatives "pour mieux vivre et combattre la maladie". Le film est un kaléidoscope de femmes attachantesn souriantes, battantes avouant parfois leurs faiblesses. Avec leur histoire, leurs ressentis et leur chemin vers la guérison, elles tente chacune de faire face à cette épreuve de la vie en gardant optimisme et joie de vivre.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.1158" start="20260630060600 +0200" stop="20260630064500 +0200">
     <title lang="fr">Repenser l'alimentation - Vers un avenir sans viande</title>
@@ -48535,6 +50000,7 @@
   </programme>
   <programme channel="oqee.264" start="20260630144500 +0200" stop="20260630145800 +0200">
     <title lang="fr">Ce jour-là en Poitou-Charentes</title>
+    <desc lang="fr">Le 5 juillet 2018, à 15h15, un terrible orage de grêle s'abat sur l'Est de la Charente, avec des grêlons parfois gros</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.264" start="20260630145800 +0200" stop="20260630150000 +0200">
@@ -50099,7 +51565,7 @@
   </programme>
   <programme channel="oqee.350" start="20260630173700 +0200" stop="20260630180700 +0200">
     <title lang="fr">Avec ou sans filtre</title>
-    <desc lang="fr">Chaque semaine, une personnalité corse ou amie de la Corse est placée face aux photos de sa vie. Luc Mondoloni l'accompagne pour soulever quelques interrogations.</desc>
+    <desc lang="fr">Luc Mondoloni vous donne rendez-vous dans le décor chargé d'histoire du Lazaret d'Ajaccio, des personnalités, Corses</desc>
     <category lang="fr">Magazine / Magazine de découvertes</category>
   </programme>
   <programme channel="oqee.350" start="20260630180200 +0200" stop="20260630180500 +0200">
@@ -52588,7 +54054,7 @@
   </programme>
   <programme channel="oqee.422" start="20260630001500 +0200" stop="20260630004500 +0200">
     <title lang="fr">Arquiteturas da Vinha - Adegas</title>
-    <desc lang="fr">Do Atlântico aos Açores, das areias de Colares às encostas vertiginosas do Douro e ao chão vulcânico da ilha do Pico, uma viagem única pela paisagem vitivinícola portuguesa</desc>
+    <desc lang="fr">Na paisagem do Douro, a Quinta do Portal não se impõe... integra-se. Assinada por Álvaro Siza Vieira, a adega surge como um edifício singular e inovador, que acolhe funções de produção, visitas e provas, dialogando com uma paisagem classificada como Património Mundial da UNESCO.</desc>
     <category lang="fr">Documentaire / Documentaire autre</category>
   </programme>
   <programme channel="oqee.422" start="20260630004500 +0200" stop="20260630010000 +0200">
@@ -54170,6 +55636,7 @@
   </programme>
   <programme channel="oqee.511" start="20260630030000 +0200" stop="20260630051300 +0200">
     <title lang="fr">2026 Dünya Kupası Son 32 Maçları</title>
+    <desc lang="fr">32 turunda turnuva artık eleme heyecanına girer ve her maç tek karşılaşma üzerinden oynanır. Takımlar çeyrek final yolunda sahaya çıkarken, strateji ve hata payı minimuma iner. Yüksek tempo, baskı ve kritik anlar sonucu belirler. Kazanan ekipler bir üst tura yükselir, kaybedenler turnuvaya veda eder. Bu aşamada sürpriz sonuçlar sık görülür ve rekabet seviyesi maksimuma çıkar. TRT 1 ekranlarında yayınlanan karşılaşmalar büyük ilgi görür.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="oqee.511" start="20260630042300 +0200" stop="20260630042500 +0200">
@@ -54269,6 +55736,7 @@
   </programme>
   <programme channel="oqee.511" start="20260630190000 +0200" stop="20260630211500 +0200">
     <title lang="fr">2026 Dünya Kupası Son 32 Maçları</title>
+    <desc lang="fr">32 turunda turnuva artık eleme heyecanına girer ve her maç tek karşılaşma üzerinden oynanır. Takımlar çeyrek final yolunda sahaya çıkarken, strateji ve hata payı minimuma iner. Yüksek tempo, baskı ve kritik anlar sonucu belirler. Kazanan ekipler bir üst tura yükselir, kaybedenler turnuvaya veda eder. Bu aşamada sürpriz sonuçlar sık görülür ve rekabet seviyesi maksimuma çıkar. TRT 1 ekranlarında yayınlanan karşılaşmalar büyük ilgi görür.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="oqee.511" start="20260630190000 +0200" stop="20260630231500 +0200">
@@ -54288,6 +55756,7 @@
   </programme>
   <programme channel="oqee.511" start="20260630230000 +0200" stop="20260701013000 +0200">
     <title lang="fr">2026 Dünya Kupası Son 32 Maçları</title>
+    <desc lang="fr">32 turunda turnuva artık eleme heyecanına girer ve her maç tek karşılaşma üzerinden oynanır. Takımlar çeyrek final yolunda sahaya çıkarken, strateji ve hata payı minimuma iner. Yüksek tempo, baskı ve kritik anlar sonucu belirler. Kazanan ekipler bir üst tura yükselir, kaybedenler turnuvaya veda eder. Bu aşamada sürpriz sonuçlar sık görülür ve rekabet seviyesi maksimuma çıkar. TRT 1 ekranlarında yayınlanan karşılaşmalar büyük ilgi görür.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="oqee.511" start="20260630231500 +0200" stop="20260701014500 +0200">
@@ -56462,7 +57931,8 @@
     <category lang="fr">Magazine / Magazine de télé-achat</category>
   </programme>
   <programme channel="oqee.67" start="20260630060000 +0200" stop="20260630061500 +0200">
-    <title lang="fr">Pazy: Que te recuerden como has vivido</title>
+    <title lang="fr">Remescar: cósmetica al instante</title>
+    <desc lang="fr">Espacio de televenta donde se muestran los productos cosméticos de Remescar, se comparten trucos de belleza y cómo aplicar esos productos con una experta.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.67" start="20260630061500 +0200" stop="20260630085500 +0200">
@@ -56471,17 +57941,17 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.67" start="20260630085500 +0200" stop="20260630132000 +0200">
-    <title lang="fr">Espejo público</title>
-    <desc lang="fr">Magacín matinal presentado por Susana Griso cuyo eje central es la actualidad nacional e internacional más inmediata. El programa incluye reportajes, entrevistas, tertulias y debates, así como secciones sobre gastronomía, moda, belleza, salud y crónica de sucesos.</desc>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <title lang="fr">Espejo Público Verano</title>
+    <desc lang="fr">Edición de verano del magacín matinal de la cadena, cuyo eje central es la actualidad nacional e internacional. El programa incluye reportajes, entrevistas, tertulias y debates, así como secciones sobre gastronomía, moda, belleza, salud y crónica de sucesos.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.67" start="20260630132000 +0200" stop="20260630134500 +0200">
-    <title lang="fr">Cocina abierta de Karlos Arguiñano</title>
-    <desc lang="fr">El famoso cocinero Karlos Arguiñano abre las puertas de su cocina. Por el programa pasan conocidos colaboradores como Eva Arguiñano, Martín Berasategui, Ainhoa Sánchez y Joseba Arguiñano, entre otros.</desc>
+    <title lang="fr">Cocina abierta de Karlos Arguiñano - S15E3181</title>
+    <desc lang="fr">Karlos Arguiñano, el cocinero más famoso de la televisión, ofrece cada día nuevas recetas y trucos culinarios en este programa de Antena 3. El cocinero vasco hace las delicias de los aficionados a los fogones ofreciendo a diario ideas para realizar suculentos platos.</desc>
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="oqee.67" start="20260630134500 +0200" stop="20260630150000 +0200">
-    <title lang="fr">La ruleta de la suerte</title>
+    <title lang="fr">La ruleta de la suerte - S20E4496</title>
     <desc lang="fr">Clásico concurso en el que tres participantes deben adivinar las letras correctas que forman una palabra o una frase con la ayuda de una ruleta que cuenta con 24 opciones. La presentación del programa corre a cargo de Jorge Fernández con la colaboración de Laura Moure.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
@@ -56496,7 +57966,7 @@
     <category lang="fr">Divers / JT sport</category>
   </programme>
   <programme channel="oqee.67" start="20260630153500 +0200" stop="20260630154000 +0200">
-    <title lang="fr">Al detalle</title>
+    <title lang="fr">Al detalle - S01E170</title>
     <desc lang="fr">Espacio informativo dedicado al análisis en profundidad de temas de interés.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
@@ -56506,17 +57976,17 @@
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.67" start="20260630154500 +0200" stop="20260630170000 +0200">
-    <title lang="fr">Sueños de libertad</title>
-    <desc lang="fr">Begoña Montes es una mujer atrapada en un matrimonio abusivo que busca la libertad para ella y su hijastra. Pero la España de 1958 no promete grandes oportunidades para una mujer sola.</desc>
+    <title lang="fr">Sueños de libertad - S01E593</title>
+    <desc lang="fr">Año 1958. Begoña Montes huye a través del bosque junto a la pequeña Julia, su hijastra. Begoña es la nueva esposa Jesús de la Reina, el viudo de oro de la comarca, dueño de una importante empresa de productos de tocador, Perfumerías de la Reina.Begoña corre con la niña, cuando Jesús las alcanza y dispara a sangre fría. ¿Habrá herido a Begoña? ¿Qué ha ocurrido para que Jesús pierda la cabeza y dispare a su propia mujer?</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.67" start="20260630170000 +0200" stop="20260630200000 +0200">
-    <title lang="fr">Y ahora, Sonsoles</title>
-    <desc lang="fr">Espacio dedicado a los asuntos de más actualidad con los mejores colaboradores e invitados. Es un programa presentado por la periodista Sonsoles Ónega.</desc>
+    <title lang="fr">Y ahora, Sonsoles - S04E935</title>
+    <desc lang="fr">Programa de actualidad en directo presentado por Sonsoles Ónega. Contará con los mejores invitados y colaboradores en plató para comentar las noticias y sucesos más relevantes de cada día.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.67" start="20260630200000 +0200" stop="20260630210000 +0200">
-    <title lang="fr">Pasapalabra</title>
+    <title lang="fr">Pasapalabra - S05E1556</title>
     <desc lang="fr">Concurso presentado por Roberto Leal, que se basa en las habilidades con el lenguaje. Durante los 30 minutos que dura el espacio, los concursantes, ayudados por famosos, tendrán que superar pruebas diferentes que giran alrededor del alfabeto y las palabras.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
@@ -56536,7 +58006,7 @@
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.67" start="20260630214500 +0200" stop="20260630230000 +0200">
-    <title lang="fr">El Hormiguero</title>
+    <title lang="fr">El Hormiguero - S20E2363</title>
     <desc lang="fr">Pablo Motos capitanea un equipo de desenfadados personajes dispuestos a diseccionar cada día la actualidad en tono jocoso. El programa incluye experimentos científicos, actuaciones musicales y entrevistas con los más destacados personajes del mundo del espectáculo.</desc>
     <category lang="fr">Divers / Talk-show</category>
   </programme>

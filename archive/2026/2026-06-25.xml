@@ -1270,6 +1270,10 @@
     <display-name>franceinfo:</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~367eff2d23ab1357.png/480x480/quality/100/franceinfo.png"/>
   </channel>
+  <channel id="FranceTVDocs.fr">
+    <display-name>France TV Docs</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1159/canal-ouah/CHN43FB/CHN43FB_1159_20260106--waH?=.png"/>
+  </channel>
   <channel id="FranceTVSeries.fr">
     <display-name>France TV S&amp;eacute;ries</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1092/canal-ouah/CHN43FB/CHN43FB_1092_20260126-de3E?=.png"/>
@@ -1372,6 +1376,10 @@
   <channel id="Investigation.ca">
     <display-name>Investigation</display-name>
     <icon src="https://cdn.tvpassport.com/image/station/640x480/v2/s87899_h15_ac.png"/>
+  </channel>
+  <channel id="KANAALZ.be">
+    <display-name>KANAALZ</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjOkiRSrN9WtxQwS_yfc0YilHxDl3dLqmE0TDHp57ayGsGX25e1pT4fwuyg&amp;amp;s"/>
   </channel>
   <channel id="KIKA.de">
     <display-name>KIKA</display-name>
@@ -2506,6 +2514,10 @@
     <display-name>Tipikvision</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrO1rmEw_aeT1yCzzdzwizJG-xvv0NkHUqpx6HEthJx3_iJEUS7-j71-d1w&amp;amp;s"/>
   </channel>
+  <channel id="Tivi5.fr">
+    <display-name>Tivi5</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcAytYRQf0WCYv17p-4MHv0YKLWK-Rmh2JFMZmqzrv_S-RjqXHy9Nnht9TQ&amp;amp;s"/>
+  </channel>
   <channel id="Toonami.fr">
     <display-name>Warner TV Next</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1095/canal-ouah/CHN43FB/CHN43FB_1095_20240611-RIcT?=.png"/>
@@ -3112,6 +3124,10 @@
     <display-name>Fashion TV Secrets</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3680/w256"/>
   </channel>
+  <channel id="oqee.1373">
+    <display-name>Films d'Action - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3788/w256"/>
+  </channel>
   <channel id="oqee.1375">
     <display-name>100% Comédie</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3781/w256"/>
@@ -3131,6 +3147,10 @@
   <channel id="oqee.1387">
     <display-name>Films Romantiques - Rakuten TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3796/w256"/>
+  </channel>
+  <channel id="oqee.1388">
+    <display-name>Crime - Rakuten TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3794/w256"/>
   </channel>
   <channel id="oqee.1389">
     <display-name>LingoToons</display-name>
@@ -11413,10 +11433,20 @@ Acteurs : Claire Borotra (Eloïse Gentil), Michel Jonasz (Robert Gentil), Claire
     <desc lang="fr">À mi-chemin entre le reportage de journal télévisé et le film catastrophe, ce clip de prévention de la mairie de Tokyo, publié en août 2025, alerte sur les risques d'éruption du mont Fuji. À grand renfort d'IA, il rappelle qu'au Japon, la nature peut être une terrible menace.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
+  <programme channel="Arte.de" start="20260625035000 +0200" stop="20260625043600 +0200">
+    <title lang="fr">28 minutes</title>
+    <desc lang="fr">Retour sur l'actualité de la semaine : la mort de Coluche il y a quarante ans ; le sommet du G7 à Évian ; le duel entre Mathilde Panot et Sébastien Lecornu ; les dernières frappes russes en Ukraine. Notre invité, Stéphane Beaud, publie un portrait sociologique de Zinedine Zidane.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Arte.de" start="20260625035000 +0200" stop="20260625044800 +0200">
     <title lang="fr">28 minutes</title>
     <desc lang="fr">Retour sur l'actualité de la semaine : la mort de Coluche il y a quarante ans ; le sommet du G7 à Évian ; le duel entre Mathilde Panot et Sébastien Lecornu ; les dernières frappes russes en Ukraine. Notre invité, Stéphane Beaud, publie un portrait sociologique de Zinedine Zidane.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="Arte.de" start="20260625043600 +0200" stop="20260625051000 +0200">
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
+    <category lang="fr">Divers / Fin</category>
   </programme>
   <programme channel="Arte.de" start="20260625044800 +0200" stop="20260625051000 +0200">
     <title lang="fr">Fin des programmes</title>
@@ -26394,6 +26424,13 @@ Année : 2024
     <category lang="fr">Inconnu</category>
     <icon src="https://cdn.tvpassport.com/image/show/1280x720/v2/p23650203_e_s2_aa.jpg"/>
   </programme>
+  <programme channel="CFTM.ca" start="20260625002900 +0200" stop="20260625005900 +0200">
+    <title lang="fr">Sucré salé</title>
+    <desc lang="fr">On part à la rencontre de nos artistes préférés pour découvrir leurs projets culturels tout en vivant avec eux des moments originaux et inusités sous le soleil chaud de l'été québécois.</desc>
+    <category lang="fr">Series</category>
+    <episode-num>24.27.</episode-num>
+    <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP005129220936/SHOWCARD_BACKGROUND/2048x1024"/>
+  </programme>
   <programme channel="CFTM.ca" start="20260625005900 +0200" stop="20260625013000 +0200">
     <title lang="fr">Le vrai du faux</title>
     <desc lang="fr">Dans cette émission spéciale toute féminine, on découvre une fière lanceuse d'ananas! L'ambiance est à la camaraderie entre Véronique Claveau, Ève Côté, Maude Guérin et Debbie Lynch-White.</desc>
@@ -30107,345 +30144,368 @@ Afin de libérer le capitaine Goulache d&amp;#039;un mauvais sort et de ramener 
   </programme>
   <programme channel="Canal32.fr" start="20260625070000 +0200" stop="20260625080000 +0200">
     <title lang="fr">Club Estac</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~40faf4efdaf994ba.jpeg/640x360/quality/80/club-estac.jpg"/>
+    <desc lang="fr">"Club Estac" vous fait vivre l'actualité du club, dresse le portrait de chaque invité, et évoque le prochain match, avec des invités "surprise" ! Damien Ardeois et Sébastien Dallet reçoivent comme toujours un membre de l'Estac pour évoquer l'actualité du club troyen. A chaque émission, vous pouvez gagner des places de match par SMS. Vous pouvez également réagir ou poser des questions à l'invité sur le Facebook Club Estac.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625080000 +0200" stop="20260625083000 +0200">
     <title lang="fr">Direct de la veille</title>
     <desc lang="fr">"Direct de la veille" est un magazine d'information traitant régulièrement des sujets variés.</desc>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~420a76c00ad14660.jpeg/640x360/quality/80/direct-de-la-veille.jpg"/>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625083000 +0200" stop="20260625093000 +0200">
     <title lang="fr">Magazine Télé-achat</title>
     <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~dfcd2df28f2bd69c.jpeg/640x360/quality/80/magazine-tele-achat.jpg"/>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625093000 +0200" stop="20260625103000 +0200">
     <title lang="fr">Emission spéciale</title>
     <desc lang="fr">Programme non communiqué, à déterminer.</desc>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9f471d67b11b46d6.jpeg/640x360/quality/80/emission-speciale.jpg"/>
+    <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625103000 +0200" stop="20260625103600 +0200">
     <title lang="fr">Emission en alternance</title>
     <desc lang="fr">Retrouvez dans cette tranche horaire, des magazines découverte, des portraits, des émissions pédagogiques qui concernent l'Aube.</desc>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9dd56368a882251f.jpeg/640x360/quality/80/emission-en-alternance.jpg"/>
+    <category lang="fr">Magazine / Magazine éducatif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625103600 +0200" stop="20260625103900 +0200">
     <title lang="fr">L'art de faire</title>
     <desc lang="fr">Découvrez comment l' art et le savoir-faire associés peuvent être un excellent mélange dans votre magazine "L'art de faire".</desc>
-    <category lang="fr">Culture Infos</category>
+    <category lang="fr">Magazine / Magazine des beaux-arts</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9c6246f413469dfb.jpeg/640x360/quality/80/l-art-de-faire.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625103900 +0200" stop="20260625104300 +0200">
     <title lang="fr">Il était une fois dans l'Aube</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">L'émission "Il était une fois dans l'Aube" est un magazine de découverte.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2af4d71b0ed75b90.jpeg/640x360/quality/80/il-etait-une-fois-dans-l-aube.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625104300 +0200" stop="20260625110000 +0200">
     <title lang="fr">Mon meilleur match</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7c9e7d8096f0dd62.jpeg/640x360/quality/80/mon-meilleur-match.jpg"/>
+    <desc lang="fr">Retrouvez et revivez les meilleurs moments des derniers matchs.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625110000 +0200" stop="20260625113000 +0200">
     <title lang="fr">Coup de jeune</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~92ae4a6431926cca.jpeg/640x360/quality/80/coup-de-jeune.jpg"/>
+    <desc lang="fr">Emission dédiée aux jeunes qui présente des nouveaux projets des jeunes artistes de la région et qui annonce les prochains événements. </desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625113000 +0200" stop="20260625120000 +0200">
     <title lang="fr">Attitude montagne</title>
     <desc lang="fr">L'émission "Attitude montagne" est un magazine d'information qui aborde de nombreux sujets de découvertes.</desc>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~53a9cf61ed21ff83.jpeg/640x360/quality/80/attitude-montagne.jpg"/>
+    <category lang="fr">Magazine / Magazine de la nature</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625120000 +0200" stop="20260625120500 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625120500 +0200" stop="20260625121000 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625121000 +0200" stop="20260625124000 +0200">
     <title lang="fr">Club Estac</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~40faf4efdaf994ba.jpeg/640x360/quality/80/club-estac.jpg"/>
+    <desc lang="fr">"Club Estac" vous fait vivre l'actualité du club, dresse le portrait de chaque invité, et évoque le prochain match, avec des invités "surprise" ! Damien Ardeois et Sébastien Dallet reçoivent comme toujours un membre de l'Estac pour évoquer l'actualité du club troyen. A chaque émission, vous pouvez gagner des places de match par SMS. Vous pouvez également réagir ou poser des questions à l'invité sur le Facebook Club Estac.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625124000 +0200" stop="20260625124300 +0200">
     <title lang="fr">Infos Troyes / L'objet d'une histoire / C'est mon quartier</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Les trois émissions diffusées en alternance. Soyez au courant de toute l'actualité de Troyes avec "Info Troyes" et "C'est mon quartier" et découvrez les mille et une histoires des objets mis aux enchères avec "L'objet d'une histoire".</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0eaf37830f8b0c03.jpeg/640x360/quality/80/infos-troyes-l-objet-d-une-histoire-c-est-mon-quartier.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625124300 +0200" stop="20260625125000 +0200">
     <title lang="fr">Il était une fois dans l'Aube</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2af4d71b0ed75b90.jpeg/640x360/quality/80/il-etait-une-fois-dans-l-aube.jpg"/>
+    <desc lang="fr">L'émission "Il était une fois dans l'Aube" est un magazine de découverte.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625125000 +0200" stop="20260625131000 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625131000 +0200" stop="20260625131300 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625131300 +0200" stop="20260625131400 +0200">
     <title lang="fr">C'est de la balle</title>
-    <category lang="fr">Sport</category>
+    <desc lang="fr">Retrouvez toute l'actualité du Ballon dans l'Aube avec votre magazine "C'est de la balle".</desc>
+    <category lang="fr">Magazine sportif / Football</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~09c9e16318234bdd.jpeg/640x360/quality/80/c-est-de-la-balle.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625131400 +0200" stop="20260625131500 +0200">
     <title lang="fr">Infos Ciné</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Découvrez toute l'actualité cinéma, à travers bande-annonces et interviews. Les sorties de films, les sorties DVD, le box office : toutes les infos pour ne rien manquer du 7e art.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~053935e60e910710.jpeg/640x360/quality/80/infos-cine.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625131500 +0200" stop="20260625133000 +0200">
     <title lang="fr">Chez nos voisins</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~714728b65c0fc3a4.jpeg/640x360/quality/80/chez-nos-voisins.jpg"/>
+    <desc lang="fr">L'émission "Chez nos voisins" est un magazine régional.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625133000 +0200" stop="20260625133500 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625133500 +0200" stop="20260625134000 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625134000 +0200" stop="20260625134300 +0200">
     <title lang="fr">La minute de l'immobilier</title>
     <desc lang="fr">Emission réalisée en partenariat avec la FNAIM de l'Aube. Les agents immobiliers de la FNAIM vous donnent, une semaine sur deux, tous les conseils pour réaliser un achat immobilier dans les meilleures conditions. Un thème différent est abordé à chaque émission.</desc>
-    <category lang="fr">Culture Infos</category>
+    <category lang="fr">Magazine / Magazine de la décoration</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~900bc57af08c80a2.jpeg/640x360/quality/80/la-minute-de-l-immobilier.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625134300 +0200" stop="20260625140000 +0200">
     <title lang="fr">Mon meilleur match</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7c9e7d8096f0dd62.jpeg/640x360/quality/80/mon-meilleur-match.jpg"/>
+    <desc lang="fr">Retrouvez et revivez les meilleurs moments des derniers matchs.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625140000 +0200" stop="20260625150000 +0200">
     <title lang="fr">Magazine Télé-achat</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~dfcd2df28f2bd69c.jpeg/640x360/quality/80/magazine-tele-achat.jpg"/>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625150000 +0200" stop="20260625150500 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625150500 +0200" stop="20260625151900 +0200">
     <title lang="fr">Mon meilleur match</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7c9e7d8096f0dd62.jpeg/640x360/quality/80/mon-meilleur-match.jpg"/>
+    <desc lang="fr">Retrouvez et revivez les meilleurs moments des derniers matchs.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625151900 +0200" stop="20260625152000 +0200">
     <title lang="fr">Chez nos voisins</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">L'émission "Chez nos voisins" est un magazine régional.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~714728b65c0fc3a4.jpeg/640x360/quality/80/chez-nos-voisins.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625152000 +0200" stop="20260625152200 +0200">
     <title lang="fr">Il était une fois dans l'Aube</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">L'émission "Il était une fois dans l'Aube" est un magazine de découverte.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2af4d71b0ed75b90.jpeg/640x360/quality/80/il-etait-une-fois-dans-l-aube.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625152200 +0200" stop="20260625153000 +0200">
     <title lang="fr">Le grand quizz</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f42c26b26e711ac0.jpeg/640x360/quality/80/le-grand-quizz.jpg"/>
+    <desc lang="fr">Testez vos connaissances avec votre famille ou avec des amis et amusez-vous avec votre "Grand quizz" sur Canal 32.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625153000 +0200" stop="20260625160000 +0200">
     <title lang="fr">Coup de jeune</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~92ae4a6431926cca.jpeg/640x360/quality/80/coup-de-jeune.jpg"/>
+    <desc lang="fr">Emission dédiée aux jeunes qui présente des nouveaux projets des jeunes artistes de la région et qui annonce les prochains événements. </desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625160000 +0200" stop="20260625170000 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625170000 +0200" stop="20260625170400 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625170400 +0200" stop="20260625173000 +0200">
     <title lang="fr">Emission spéciale</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9f471d67b11b46d6.jpeg/640x360/quality/80/emission-speciale.jpg"/>
+    <desc lang="fr">Programme non communiqué, à déterminer.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625173000 +0200" stop="20260625180000 +0200">
     <title lang="fr">Infos Ciné</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~053935e60e910710.jpeg/640x360/quality/80/infos-cine.jpg"/>
+    <desc lang="fr">Découvrez toute l'actualité cinéma, à travers bande-annonces et interviews. Les sorties de films, les sorties DVD, le box office : toutes les infos pour ne rien manquer du 7e art.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625180000 +0200" stop="20260625183000 +0200">
     <title lang="fr">Club Estac</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~40faf4efdaf994ba.jpeg/640x360/quality/80/club-estac.jpg"/>
+    <desc lang="fr">"Club Estac" vous fait vivre l'actualité du club, dresse le portrait de chaque invité, et évoque le prochain match, avec des invités "surprise" ! Damien Ardeois et Sébastien Dallet reçoivent comme toujours un membre de l'Estac pour évoquer l'actualité du club troyen. A chaque émission, vous pouvez gagner des places de match par SMS. Vous pouvez également réagir ou poser des questions à l'invité sur le Facebook Club Estac.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625183000 +0200" stop="20260625183500 +0200">
     <title lang="fr">Journal flash</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Suivez toute l'actualité dans l'Aube dans votre "Journal flash".</desc>
+    <category lang="fr">Divers / Journal</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f77a0d0f673238f3.jpeg/640x360/quality/80/journal-flash.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625183500 +0200" stop="20260625183700 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625183700 +0200" stop="20260625184000 +0200">
     <title lang="fr">Chez nos voisins</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">L'émission "Chez nos voisins" est un magazine régional.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~714728b65c0fc3a4.jpeg/640x360/quality/80/chez-nos-voisins.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625184000 +0200" stop="20260625184300 +0200">
     <title lang="fr">Passion bénévoles</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Une émission qui met en valeur les petits gestes de solidarité, d'entraide et de bénévolat dans le département de l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fa1f06235bef6a5b.jpeg/640x360/quality/80/passion-benevoles.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625184300 +0200" stop="20260625184600 +0200">
     <title lang="fr">Réussites : le portrait</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Découvrez les portraits des gens de votre entourage, écoutez leurs histoires et expériences dans votre magazine "Réussites : le portrait". </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~dd2872296c61ac04.jpeg/640x360/quality/80/reussites-le-portrait.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625184600 +0200" stop="20260625190000 +0200">
     <title lang="fr">Emission en alternance</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9dd56368a882251f.jpeg/640x360/quality/80/emission-en-alternance.jpg"/>
+    <desc lang="fr">Retrouvez dans cette tranche horaire, des magazines découverte, des portraits, des émissions pédagogiques qui concernent l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine éducatif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625190000 +0200" stop="20260625193000 +0200">
     <title lang="fr">Les dossiers du jeudi</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~bd47340187fb16fe.jpeg/640x360/quality/80/les-dossiers-du-jeudi.jpg"/>
+    <desc lang="fr">L'émission thématique qui débute à 19 heures, avec les rendez-vous quotidiens habituels et les dossiers de société chaque jeudi.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625193000 +0200" stop="20260625194500 +0200">
     <title lang="fr">Journal Télévisé</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ac51d7facdfe54a0.jpeg/640x360/quality/80/journal-televise.jpg"/>
+    <desc lang="fr">Journal télévisé arabophone et hispanophone qui traite de l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625194500 +0200" stop="20260625195200 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625195200 +0200" stop="20260625195500 +0200">
     <title lang="fr">Emission spéciale</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Programme non communiqué, à déterminer.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9f471d67b11b46d6.jpeg/640x360/quality/80/emission-speciale.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625195500 +0200" stop="20260625200000 +0200">
     <title lang="fr">Infos Troyes / L'objet d'une histoire / C'est mon quartier</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Les trois émissions diffusées en alternance. Soyez au courant de toute l'actualité de Troyes avec "Info Troyes" et "C'est mon quartier" et découvrez les mille et une histoires des objets mis aux enchères avec "L'objet d'une histoire".</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~0eaf37830f8b0c03.jpeg/640x360/quality/80/infos-troyes-l-objet-d-une-histoire-c-est-mon-quartier.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625200000 +0200" stop="20260625201300 +0200">
     <title lang="fr">Infos Ciné</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~053935e60e910710.jpeg/640x360/quality/80/infos-cine.jpg"/>
+    <desc lang="fr">Découvrez toute l'actualité cinéma, à travers bande-annonces et interviews. Les sorties de films, les sorties DVD, le box office : toutes les infos pour ne rien manquer du 7e art.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625201300 +0200" stop="20260625201600 +0200">
     <title lang="fr">Info rétro</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">L'actualité Auboise, 10 ans après. Découvrez les reportages qui ont fait l'actualité il y a 10 ans, à la même date.</desc>
+    <category lang="fr">Divers / Journal</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9d8829a4c2dadd8a.jpeg/640x360/quality/80/info-retro.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625201600 +0200" stop="20260625201900 +0200">
     <title lang="fr">L'art de faire</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Découvrez comment l' art et le savoir-faire associés peuvent être un excellent mélange dans votre magazine "L'art de faire".</desc>
+    <category lang="fr">Magazine / Magazine des beaux-arts</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9c6246f413469dfb.jpeg/640x360/quality/80/l-art-de-faire.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625201900 +0200" stop="20260625202200 +0200">
     <title lang="fr">Il était une fois dans l'Aube</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">L'émission "Il était une fois dans l'Aube" est un magazine de découverte.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2af4d71b0ed75b90.jpeg/640x360/quality/80/il-etait-une-fois-dans-l-aube.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625202200 +0200" stop="20260625203000 +0200">
     <title lang="fr">La minute de l'immobilier</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~900bc57af08c80a2.jpeg/640x360/quality/80/la-minute-de-l-immobilier.jpg"/>
+    <desc lang="fr">Emission réalisée en partenariat avec la FNAIM de l'Aube. Les agents immobiliers de la FNAIM vous donnent, une semaine sur deux, tous les conseils pour réaliser un achat immobilier dans les meilleures conditions. Un thème différent est abordé à chaque émission.</desc>
+    <category lang="fr">Magazine / Magazine de la décoration</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625203000 +0200" stop="20260625204000 +0200">
     <title lang="fr">Journal Télévisé</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ac51d7facdfe54a0.jpeg/640x360/quality/80/journal-televise.jpg"/>
+    <desc lang="fr">Journal télévisé arabophone et hispanophone qui traite de l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625204000 +0200" stop="20260625210000 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625210000 +0200" stop="20260625213000 +0200">
     <title lang="fr">Club Estac</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~40faf4efdaf994ba.jpeg/640x360/quality/80/club-estac.jpg"/>
+    <desc lang="fr">"Club Estac" vous fait vivre l'actualité du club, dresse le portrait de chaque invité, et évoque le prochain match, avec des invités "surprise" ! Damien Ardeois et Sébastien Dallet reçoivent comme toujours un membre de l'Estac pour évoquer l'actualité du club troyen. A chaque émission, vous pouvez gagner des places de match par SMS. Vous pouvez également réagir ou poser des questions à l'invité sur le Facebook Club Estac.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625213000 +0200" stop="20260625214500 +0200">
     <title lang="fr">Journal Télévisé</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ac51d7facdfe54a0.jpeg/640x360/quality/80/journal-televise.jpg"/>
+    <desc lang="fr">Journal télévisé arabophone et hispanophone qui traite de l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625214500 +0200" stop="20260625215200 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625215200 +0200" stop="20260625215500 +0200">
     <title lang="fr">Le grand quizz</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Testez vos connaissances avec votre famille ou avec des amis et amusez-vous avec votre "Grand quizz" sur Canal 32.</desc>
+    <category lang="fr">Divers / Jeu</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~f42c26b26e711ac0.jpeg/640x360/quality/80/le-grand-quizz.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625215500 +0200" stop="20260625220800 +0200">
     <title lang="fr">C'est de la balle</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~09c9e16318234bdd.jpeg/640x360/quality/80/c-est-de-la-balle.jpg"/>
+    <desc lang="fr">Retrouvez toute l'actualité du Ballon dans l'Aube avec votre magazine "C'est de la balle".</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625220800 +0200" stop="20260625221400 +0200">
     <title lang="fr">Passion bénévoles</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~fa1f06235bef6a5b.jpeg/640x360/quality/80/passion-benevoles.jpg"/>
+    <desc lang="fr">Une émission qui met en valeur les petits gestes de solidarité, d'entraide et de bénévolat dans le département de l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625221400 +0200" stop="20260625221700 +0200">
     <title lang="fr">La minute de l'immobilier</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Emission réalisée en partenariat avec la FNAIM de l'Aube. Les agents immobiliers de la FNAIM vous donnent, une semaine sur deux, tous les conseils pour réaliser un achat immobilier dans les meilleures conditions. Un thème différent est abordé à chaque émission.</desc>
+    <category lang="fr">Magazine / Magazine de la décoration</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~900bc57af08c80a2.jpeg/640x360/quality/80/la-minute-de-l-immobilier.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625221700 +0200" stop="20260625223000 +0200">
     <title lang="fr">Emission en alternance</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9dd56368a882251f.jpeg/640x360/quality/80/emission-en-alternance.jpg"/>
+    <desc lang="fr">Retrouvez dans cette tranche horaire, des magazines découverte, des portraits, des émissions pédagogiques qui concernent l'Aube.</desc>
+    <category lang="fr">Magazine / Magazine éducatif</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625223000 +0200" stop="20260625224500 +0200">
     <title lang="fr">Journal Télévisé</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ac51d7facdfe54a0.jpeg/640x360/quality/80/journal-televise.jpg"/>
+    <desc lang="fr">Journal télévisé arabophone et hispanophone qui traite de l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Canal32.fr" start="20260625224500 +0200" stop="20260625225000 +0200">
     <title lang="fr">Météo + Qualité de l'air</title>
-    <category lang="fr">Autre</category>
+    <desc lang="fr">Un bulletin météo assorti d'une page spéciale consacrée à la qualité de l'air dans la région.</desc>
+    <category lang="fr">Divers / Météo</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34c4d7afae3b48e6.jpeg/640x360/quality/80/meteo-qualite-de-l-air.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625225000 +0200" stop="20260625225500 +0200">
     <title lang="fr">Réussites : le portrait</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Découvrez les portraits des gens de votre entourage, écoutez leurs histoires et expériences dans votre magazine "Réussites : le portrait". </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~dd2872296c61ac04.jpeg/640x360/quality/80/reussites-le-portrait.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625225500 +0200" stop="20260625230000 +0200">
     <title lang="fr">L'art de faire</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Découvrez comment l' art et le savoir-faire associés peuvent être un excellent mélange dans votre magazine "L'art de faire".</desc>
+    <category lang="fr">Magazine / Magazine des beaux-arts</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~9c6246f413469dfb.jpeg/640x360/quality/80/l-art-de-faire.jpg"/>
   </programme>
   <programme channel="Canal32.fr" start="20260625230000 +0200" stop="20260626070000 +0200">
     <title lang="fr">Rediffusions</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3f64f5517544b510.jpeg/640x360/quality/80/rediffusions.jpg"/>
+    <desc lang="fr">Rediffusion en boucle du programme télévisé toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
   </programme>
   <programme channel="Canal3Benin.af" start="20260625003000 +0200" stop="20260625020000 +0200">
     <title lang="fr">Actu Matin</title>
@@ -32123,7 +32183,7 @@ Afin de libérer le capitaine Goulache d&amp;#039;un mauvais sort et de ramener 
   </programme>
   <programme channel="CanalPlus.fr" start="20260625054000 +0200" stop="20260625055500 +0200">
     <title lang="fr">Têtàtête(s)</title>
-    <desc lang="fr">Chaque semaine, une interview par Laurie Cholewa des talents ou cinéastes des films à l'affiche, un moment convivial et chaleureux qui raconte les coulisses des films les plus attendus en salles et des films diffusés sur Canal+.</desc>
+    <desc lang="fr">Manu Payet se confie sur ses 50 ans et les changements que cela implique. Il présente "Deviens Génial", film dans lequel il incarne un prof d'espagnol qui ment pour devenir prof d'allemand dans le collège de sa fille adolescente. Entre humour et émotion, il rend hommage aux enseignants et évoque sa passion pour la musique, des Beatles à Vald.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
   <programme channel="CanalPlus.fr" start="20260625055100 +0200" stop="20260625061200 +0200">
@@ -33947,6 +34007,11 @@ Acteurs : Kiara Lord, Lana Roy, Lika Star
     <desc lang="fr">Plus à l'aise à domicile qu'à l'extérieur, tant sur la scène continentale qu'en Serie A, Naples va devoir rapidement apprendre à voyager pour venir à bout du PSV Eindhoven, un adversaire à sa portée, et rester dans la course à la qualification directe pour la deuxième phase de la Ligue des champions.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
+  <programme channel="CanalPlusFoot.fr" start="20260625015600 +0200" stop="20260625075000 +0200">
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
+    <category lang="fr">Divers / Fin</category>
+  </programme>
   <programme channel="CanalPlusFoot.fr" start="20260625015600 +0200" stop="20260625075300 +0200">
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
@@ -33962,6 +34027,11 @@ Acteurs : Kiara Lord, Lana Roy, Lika Star
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
     <category lang="fr">Divers / Fin</category>
   </programme>
+  <programme channel="CanalPlusFoot.fr" start="20260625075000 +0200" stop="20260625093300 +0200">
+    <title lang="fr">Football : Ligue des champions - Bayer Leverkusen / Paris-SG</title>
+    <desc lang="fr">Intouchable en Ligue des champions, le PSG, tenant du titre, reste sur une retentissante victoire à Barcelone (1-2) où, même diminué par les absences, il est parvenu à s'imposer chez l'une des équipes favorites à sa succession. Cette fois, Achraf Hakimi et les Parisiens rendent visite au Bayer Leverkusen qui a débuté la compétition par deux matches nul, à Copenhague et contre le PSV Eindhoven.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
   <programme channel="CanalPlusFoot.fr" start="20260625075100 +0200" stop="20260625093400 +0200">
     <title lang="fr">Football : Ligue des champions - Bayer Leverkusen - Paris-SG</title>
     <desc lang="fr">Intouchable en Ligue des champions, le PSG, tenant du titre, reste sur une retentissante victoire à Barcelone (1-2) où, même diminué par les absences, il est parvenu à s'imposer chez l'une des équipes favorites à sa succession. Cette fois, Achraf Hakimi et les Parisiens rendent visite au Bayer Leverkusen qui a débuté la compétition par deux matches nul, à Copenhague et contre le PSV Eindhoven.</desc>
@@ -33975,6 +34045,11 @@ Acteurs : Kiara Lord, Lana Roy, Lika Star
   <programme channel="CanalPlusFoot.fr" start="20260625075500 +0200" stop="20260625093700 +0200">
     <title lang="fr">Football : Ligue des champions</title>
     <desc lang="fr">Intouchable en Ligue des champions, le PSG, tenant du titre, reste sur une retentissante victoire à Barcelone (1-2) où, même diminué par les absences, il est parvenu à s'imposer chez l'une des équipes favorites à sa succession. Cette fois, Achraf Hakimi et les Parisiens rendent visite au Bayer Leverkusen qui a débuté la compétition par deux matches nul, à Copenhague et contre le PSV Eindhoven.</desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="CanalPlusFoot.fr" start="20260625093300 +0200" stop="20260625111300 +0200">
+    <title lang="fr">Football : Ligue des champions - Arsenal / Atlético Madrid</title>
+    <desc lang="fr">Vainqueur de ses deux premières rencontres de Ligue des champions, Arsenal accueille l'Atlético Madrid, qui a balayé l'Eintracht Francfort (5-1), lors de la précédente journée.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260625093400 +0200" stop="20260625111300 +0200">
@@ -34063,7 +34138,7 @@ Acteurs : Kiara Lord, Lana Roy, Lika Star
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260625180300 +0200" stop="20260625195200 +0200">
-    <title lang="fr">Football : Ligue Europa - Nice - Go Ahead Eagles</title>
+    <title lang="fr">Football : Ligue Europa - Nice / Go Ahead Eagles</title>
     <desc lang="fr">Lanterne rouge avec six défaites en autant de la matches, l'OGC Nice est passé complètement à côté de sa Ligue Europa cette saison. Les Aiglons vont-ils sauver l'honneur, à l'occasion de la réception des Go Ahead Eagles néerlandais ? Ces derniers peuvent encore espérer disputer les barrages s'ils parviennent à intégrer le Top 24.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
@@ -34092,13 +34167,13 @@ Acteurs : Kiara Lord, Lana Roy, Lika Star
     <desc lang="fr">Le RC Strasbourg, club historique du foot français, fait son grand retour en Coupe d'Europe après vingt ans d'absence et une descente jusque dans le monde amateur en 2011. Un retour plein d'ambitions, alors que le club a changé de dimension depuis son rachat en 2023 et que son stade vient d'être rénové. A l'occasion de son parcours en Ligue Conférence, la plus jeune équipe d'Europe a ouvert ses portes à Canal+ pour faire vivre son aventure en immersion totale.</desc>
     <category lang="fr">Documentaire sportif / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260625205500 +0200" stop="20260625223700 +0200">
-    <title lang="fr">Football : Ligue Conférence - Häcken - Strasbourg</title>
+  <programme channel="CanalPlusFoot.fr" start="20260625205500 +0200" stop="20260625223800 +0200">
+    <title lang="fr">Football : Ligue Conférence - BK Häcken / Strasbourg</title>
     <desc lang="fr">Très en forme en ce début de saison, les Alsaciens du RC Strasbourg ont fait de la Ligue Conférence l'un de leurs principaux objectifs. L'aventure a parfaitement débuté pour les hommes de Liam Rosenior qui sont allés s'imposer sur la pelouse du Slovan Bratislava (1-2). Pour leur deuxième déplacement dans cette compétition, les Bleus du Racing s'envolent pour la Suède afin d'y affronter le BK Häcken, un adversaire à leur portée.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
-  <programme channel="CanalPlusFoot.fr" start="20260625205500 +0200" stop="20260625223800 +0200">
-    <title lang="fr">Football : Ligue Conférence - BK Häcken / Strasbourg</title>
+  <programme channel="CanalPlusFoot.fr" start="20260625205500 +0200" stop="20260625223700 +0200">
+    <title lang="fr">Football : Ligue Conférence - Häcken - Strasbourg</title>
     <desc lang="fr">Très en forme en ce début de saison, les Alsaciens du RC Strasbourg ont fait de la Ligue Conférence l'un de leurs principaux objectifs. L'aventure a parfaitement débuté pour les hommes de Liam Rosenior qui sont allés s'imposer sur la pelouse du Slovan Bratislava (1-2). Pour leur deuxième déplacement dans cette compétition, les Bleus du Racing s'envolent pour la Suède afin d'y affronter le BK Häcken, un adversaire à leur portée.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
@@ -41106,6 +41181,11 @@ Acteurs : Mariska Hargitay (Olivia Benson), Kelli Giddish (Amanda Rollins), Rich
     <desc lang="fr">Dans les quartiers nord de Marseille, Nora, une femme de ménage d'une cinquantaine d'années, est le pilier sur lequel se repose sa famille. Après une longue période de chômage, son fils aîné Ellyes finit par craquer et commet un braquage dans une station-service. Incarcéré depuis plusieurs mois, et en attente de son procès, il ne peut compter que sur sa mère qui vient lui rendre régulièrement visite. Sa fille, mère célibataire d'une petite-fille, se cherche également et franchit la ligne jaune de l'argent facile en cédant à la prostitution. Peu dupe, Nora souhaite que ses enfants prennent enfin les bonnes décisions...</desc>
     <category lang="fr">Film / Drame</category>
   </programme>
+  <programme channel="CinePlusClub.fr" start="20260625041000 +0200" stop="20260625062100 +0200">
+    <title lang="fr">Bonne Mère</title>
+    <desc lang="fr">Dans les quartiers nord de Marseille, Nora, une femme de ménage d'une cinquantaine d'années, est le pilier sur lequel se repose sa famille. Après une longue période de chômage, son fils aîné Ellyes finit par craquer et commet un braquage dans une station-service. Incarcéré depuis plusieurs mois, et en attente de son procès, il ne peut compter que sur sa mère qui vient lui rendre régulièrement visite. Sa fille, mère célibataire d'une petite-fille, se cherche également et franchit la ligne jaune de l'argent facile en cédant à la prostitution. Peu dupe, Nora souhaite que ses enfants prennent enfin les bonnes décisions...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
   <programme channel="CinePlusClub.fr" start="20260625041000 +0200" stop="20260625061800 +0200">
     <title lang="fr">Bonne Mère</title>
     <desc lang="fr">Dans les quartiers nord de Marseille, Nora, une femme de ménage d'une cinquantaine d'années, est le pilier sur lequel se repose sa famille. Après une longue période de chômage, son fils aîné Ellyes finit par craquer et commet un braquage dans une station-service. Incarcéré depuis plusieurs mois, et en attente de son procès, il ne peut compter que sur sa mère qui vient lui rendre régulièrement visite. Sa fille, mère célibataire d'une petite-fille, se cherche également et franchit la ligne jaune de l'argent facile en cédant à la prostitution. Peu dupe, Nora souhaite que ses enfants prennent enfin les bonnes décisions...</desc>
@@ -42923,6 +43003,11 @@ Acteurs : Mariska Hargitay (Olivia Benson), Kelli Giddish (Amanda Rollins), Rich
     <desc lang="fr">C'est le 1er septembre 2020 que Kev Adams a ouvert à Paris le Fridge Comedy Room, sa propre salle de spectacle qui fait à la fois office de comedy club, de bar et de restaurant. Le "Comédie Club Tour" est allé lui rendre visite dans cette salle intimiste, où il a présenté quelques-uns de ses humoristes préférés du moment.</desc>
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
+  <programme channel="ComediePlus.fr" start="20260625033300 +0200" stop="20260625045500 +0200">
+    <title lang="fr">Comédie Club Tour : Kev Adams</title>
+    <desc lang="fr">C'est le 1er septembre 2020 que Kev Adams a ouvert à Paris le Fridge Comedy Room, sa propre salle de spectacle qui fait à la fois office de comedy club, de bar et de restaurant. Le "Comédie Club Tour" est allé lui rendre visite dans cette salle intimiste, où il a présenté quelques-uns de ses humoristes préférés du moment.</desc>
+    <category lang="fr">Divers / Divertissement-humour</category>
+  </programme>
   <programme channel="ComediePlus.fr" start="20260625033300 +0200" stop="20260625045400 +0200">
     <title lang="fr">Comédie Club Tour : Kev Adams</title>
     <desc lang="fr">C'est le 1er septembre 2020 que Kev Adams a ouvert à Paris le Fridge Comedy Room, sa propre salle de spectacle qui fait à la fois office de comedy club, de bar et de restaurant. Le "Comédie Club Tour" est allé lui rendre visite dans cette salle intimiste, où il a présenté quelques-uns de ses humoristes préférés du moment.</desc>
@@ -42938,15 +43023,21 @@ Acteurs : Mariska Hargitay (Olivia Benson), Kelli Giddish (Amanda Rollins), Rich
     <desc lang="fr">Une bande de quatre artistes est invitée à se produire dans un appartement privé et devant un public privilégié. Les humoristes sont accueillis par John Sulo, leur maître de cérémonie pour la soirée, et jouent chacun un sketch devant quelques spectateurs chanceux. Chaque épisode met en scène une nouvelle bande, un nouveau public et un nouvel appartement.</desc>
     <category lang="fr">Spectacle / Humour</category>
   </programme>
+  <programme channel="ComediePlus.fr" start="20260625045500 +0200" stop="20260625053300 +0200">
+    <title lang="fr">Comédie @ Home</title>
+    <desc lang="fr">Une bande de quatre artistes est invitée à se produire dans un appartement privé et devant un public privilégié. Les humoristes sont accueillis par John Sulo, leur maître de cérémonie pour la soirée, et jouent chacun un sketch devant quelques spectateurs chanceux. Chaque épisode met en scène une nouvelle bande, un nouveau public et un nouvel appartement.</desc>
+    <category lang="fr">Spectacle / Humour</category>
+  </programme>
   <programme channel="ComediePlus.fr" start="20260625052500 +0200" stop="20260625085600 +0200">
     <title lang="fr">Les coulisses des interviews de Raphaël Mezrahi</title>
     <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a surtout retenu la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michdel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans cette émission, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile ce que les téléspectateurs n'ont pas vu à l'époque.</desc>
     <category lang="fr">Documentaire / Documentaire médias</category>
   </programme>
   <programme channel="ComediePlus.fr" start="20260625053300 +0200" stop="20260625085600 +0200">
-    <title lang="fr">Les coulisses des interviews de Raphaël Mezrahi</title>
-    <desc lang="fr">Pendant des années à la télévision, Raphaël Mezrahi a joué au faux journaliste et a interviewé des célébrités lors de rencontres pleines d'humour surréaliste. De ces rencontres, le public a surtout retenu la colère de Jean-Pierre Castaldi, persuadé d'avoir affaire à un journaliste authentique mais incompétent. A travers quelques interviews, d'autres personnalités se sont révélées, comme celles de Thierry Roland ou Michdel Galabru. Devenu trop célèbre en France, Mezrahi a poursuivi ses interviews à l'étranger. Daryl Hannah, Georges Clooney, Samuel Jackson et bien d'autres stars ont ainsi subi le feu de ses questions idiotes, certains perdant leurs nerfs, d'autres restant pros jusqu'au bout. Dans cette émission, l'humoriste revient sur les coulisses de ces fameuses interviews et dévoile ce que les téléspectateurs n'ont pas vu à l'époque.</desc>
-    <category lang="fr">Documentaire / Documentaire médias</category>
+    <title lang="fr">Les coulisses des interviews de Raphaël Mezrahi (n°2)</title>
+    <desc lang="fr">Les coulisses des fameuses "vraies-fausses" interviews de Raphaël Mezrahi se dévoilent dans ce nouveau numéro : retour sur des séquences devenues cultes.</desc>
+    <category lang="fr">Doc Société</category>
+    <icon src="https://images.voomotion.be/Events/2025/08/06/06/2572482_A.jpg"/>
   </programme>
   <programme channel="ComediePlus.fr" start="20260625085600 +0200" stop="20260625102800 +0200">
     <title lang="fr">Alil Vardar : Comment garder son mec</title>
@@ -47408,6 +47499,123 @@ Acteurs : Mariska Hargitay (Olivia Benson), Kelli Giddish (Amanda Rollins), Rich
     <category lang="fr">Dessin animé</category>
     <icon src="https://images.voomotion.be/Events/2026/06/11/06/2668466_A.jpg"/>
   </programme>
+  <programme channel="DisneyJunior.fr" start="20260625001500 +0200" stop="20260625004000 +0200">
+    <title lang="fr">SuperChatons</title>
+    <desc lang="fr">Bitsy, Ginny, Sparks et Buddy sont… des SuperChatons ! Redressant les torts où qu’ils se trouvent, ce quatuor félin a pour mission de faire du monde un endroit meilleur et plus chat-leureux.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3ef7037bdee9f3cf.jpeg/640x360/quality/80/superchatons.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625004000 +0200" stop="20260625010500 +0200">
+    <title lang="fr">SuperChatons</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~4787815c3d6d1e32.jpeg/640x360/quality/80/superchatons.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625010500 +0200" stop="20260625011500 +0200">
+    <title lang="fr">SuperChatons</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b627452c6ce0f6d6.jpeg/640x360/quality/80/superchatons.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625011500 +0200" stop="20260625012500 +0200">
+    <title lang="fr">SuperChatons</title>
+    <desc lang="fr">Bitsy, Ginny, Sparks et Buddy sont… des SuperChatons ! Redressant les torts où qu’ils se trouvent, ce quatuor félin a pour mission de faire du monde un endroit meilleur et plus chat-leureux.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~40e8b647695c648d.jpeg/640x360/quality/80/superchatons.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625012500 +0200" stop="20260625015000 +0200">
+    <title lang="fr">Spidey et ses amis extraordinaires</title>
+    <desc lang="fr">Les aventures de Peter Parker, Gwen Stacy et Miles Morales, qui s’associent à des Super-Héros pour vaincre leurs ennemis et découvrir que le travail d’équipe est la meilleure façon de sauver la situation. La troisième saison introduit une nouvelle intrigue intitulée “Dino-Webs”, où l’équipe de Spidey reçoit des costumes spéciaux appelés Dino Web Suits et peut se transformer en dinosaures pour poursuivre les méchants, protéger la nature et défendre leur incroyable nouvelle Maison dans les Arbres Dino-Web.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~d9a41c204c5dfee2.jpeg/640x360/quality/80/spidey-et-ses-amis-extraordinaires.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625015000 +0200" stop="20260625021500 +0200">
+    <title lang="fr">Spidey et ses amis extraordinaires</title>
+    <desc lang="fr">Les aventures de Peter Parker, Gwen Stacy et Miles Morales, qui s’associent à des Super-Héros pour vaincre leurs ennemis et découvrir que le travail d’équipe est la meilleure façon de sauver la situation. La troisième saison introduit une nouvelle intrigue intitulée “Dino-Webs”, où l’équipe de Spidey reçoit des costumes spéciaux appelés Dino Web Suits et peut se transformer en dinosaures pour poursuivre les méchants, protéger la nature et défendre leur incroyable nouvelle Maison dans les Arbres Dino-Web.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~5c5ecfbe61e00b8c.jpeg/640x360/quality/80/spidey-et-ses-amis-extraordinaires.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625021500 +0200" stop="20260625024000 +0200">
+    <title lang="fr">Spidey et ses amis extraordinaires</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~681995cf52aba0d5.jpeg/640x360/quality/80/spidey-et-ses-amis-extraordinaires.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625024000 +0200" stop="20260625030500 +0200">
+    <title lang="fr">Robogobo</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~51cac07a21d7f07d.jpeg/640x360/quality/80/robogobo.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625030500 +0200" stop="20260625033000 +0200">
+    <title lang="fr">Robogobo</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e3123e152617edf9.jpeg/640x360/quality/80/robogobo.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625033000 +0200" stop="20260625035500 +0200">
+    <title lang="fr">Robogobo</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~5d7db4e3e2044b83.jpeg/640x360/quality/80/robogobo.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625035500 +0200" stop="20260625040500 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Dans le monde coloré et pétillant de Bluey, une jeune chienne bleu, l'aventure quotidienne prend une tournure ludique et imaginative. Accompagnée de sa petite sœur Bingo, Bluey transforme les situations banales en jeux captivants. Lorsque Bluey reçoit une invitation à une fête d'anniversaire, l'excitation est à son comble. Cependant, Bingo, avec sa plume magique, complique les préparatifs en introduisant des éléments inattendus et fantaisistes qui mettent à l'épreuve la patience de toute la famille. Parallèlement, leur père, Bandit (David McCormack), se retrouve confronté aux défis de la vie quotidienne lorsqu'il doit conduire ses filles à l'école. Les deux petites chiennes, avec leur créativité débordante, ne manqueront pas d'imaginer des scénarios hilarants et surprenants, rendant chaque moment mémorable. À travers des jeux qui reflètent leur quotidien, Bluey et Bingo apprennent des leçons précieuses sur l'amitié, la famille et l'imagination, tout en apportant joie et rires à ceux qui les entourent.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6f60d574e4196306.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625040500 +0200" stop="20260625041500 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Ce regard drôle et sincère porté sur la vie de famille moderne célèbre la façon dont les jeux créatifs contribuent à former des enfants épanouis. Bluey, un chiot bouvier australien, a une imagination débordante et adore transformer la vie quotidienne en aventures ludiques. Elle et sa petite sœur Bingo se lancent dans l'exploration de leur monde, utilisant le jeu pour vaincre leurs peurs et s'essayer aux rôles des adultes. Rien ne leur plaît davantage que d'entraîner leurs parents, et surtout leur père, dans leurs jeux. La maman, Chilli, est retournée au travail, et le papa, Bandit, jongle entre la garde des enfants et le télétravail. Mais s'il pense que c'est lui qui commande, ce sont les filles qui mènent la danse lorsqu'il s'agit de jouer, mais aussi pour tout le reste !</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~c0ce915eb1ee30a6.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625041500 +0200" stop="20260625042500 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Dans le monde coloré et pétillant de Bluey, une jeune chienne bleu, l'aventure quotidienne prend une tournure ludique et imaginative. Accompagnée de sa petite sœur Bingo, Bluey transforme les situations banales en jeux captivants. Lorsque Bluey reçoit une invitation à une fête d'anniversaire, l'excitation est à son comble. Cependant, Bingo, avec sa plume magique, complique les préparatifs en introduisant des éléments inattendus et fantaisistes qui mettent à l'épreuve la patience de toute la famille. Parallèlement, leur père, Bandit (David McCormack), se retrouve confronté aux défis de la vie quotidienne lorsqu'il doit conduire ses filles à l'école. Les deux petites chiennes, avec leur créativité débordante, ne manqueront pas d'imaginer des scénarios hilarants et surprenants, rendant chaque moment mémorable. À travers des jeux qui reflètent leur quotidien, Bluey et Bingo apprennent des leçons précieuses sur l'amitié, la famille et l'imagination, tout en apportant joie et rires à ceux qui les entourent.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3ee613721a776d89.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625042500 +0200" stop="20260625043500 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Ce regard drôle et sincère porté sur la vie de famille moderne célèbre la façon dont les jeux créatifs contribuent à former des enfants épanouis. Bluey, un chiot bouvier australien, a une imagination débordante et adore transformer la vie quotidienne en aventures ludiques. Elle et sa petite sœur Bingo se lancent dans l'exploration de leur monde, utilisant le jeu pour vaincre leurs peurs et s'essayer aux rôles des adultes. Rien ne leur plaît davantage que d'entraîner leurs parents, et surtout leur père, dans leurs jeux. La maman, Chilli, est retournée au travail, et le papa, Bandit, jongle entre la garde des enfants et le télétravail. Mais s'il pense que c'est lui qui commande, ce sont les filles qui mènent la danse lorsqu'il s'agit de jouer, mais aussi pour tout le reste !</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~c0ce915eb1ee30a6.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625043500 +0200" stop="20260625044000 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Dans le monde coloré et pétillant de Bluey, une jeune chienne bleu, l'aventure quotidienne prend une tournure ludique et imaginative. Accompagnée de sa petite sœur Bingo, Bluey transforme les situations banales en jeux captivants. Lorsque Bluey reçoit une invitation à une fête d'anniversaire, l'excitation est à son comble. Cependant, Bingo, avec sa plume magique, complique les préparatifs en introduisant des éléments inattendus et fantaisistes qui mettent à l'épreuve la patience de toute la famille. Parallèlement, leur père, Bandit (David McCormack), se retrouve confronté aux défis de la vie quotidienne lorsqu'il doit conduire ses filles à l'école. Les deux petites chiennes, avec leur créativité débordante, ne manqueront pas d'imaginer des scénarios hilarants et surprenants, rendant chaque moment mémorable. À travers des jeux qui reflètent leur quotidien, Bluey et Bingo apprennent des leçons précieuses sur l'amitié, la famille et l'imagination, tout en apportant joie et rires à ceux qui les entourent.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b90467442bcab69c.jpeg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625044500 +0200" stop="20260625045000 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Dans le monde coloré et pétillant de Bluey, une jeune chienne bleu, l'aventure quotidienne prend une tournure ludique et imaginative. Accompagnée de sa petite sœur Bingo, Bluey transforme les situations banales en jeux captivants. Lorsque Bluey reçoit une invitation à une fête d'anniversaire, l'excitation est à son comble. Cependant, Bingo, avec sa plume magique, complique les préparatifs en introduisant des éléments inattendus et fantaisistes qui mettent à l'épreuve la patience de toute la famille. Parallèlement, leur père, Bandit (David McCormack), se retrouve confronté aux défis de la vie quotidienne lorsqu'il doit conduire ses filles à l'école. Les deux petites chiennes, avec leur créativité débordante, ne manqueront pas d'imaginer des scénarios hilarants et surprenants, rendant chaque moment mémorable. À travers des jeux qui reflètent leur quotidien, Bluey et Bingo apprennent des leçons précieuses sur l'amitié, la famille et l'imagination, tout en apportant joie et rires à ceux qui les entourent.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b914609023611103.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625045500 +0200" stop="20260625050000 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Ce regard drôle et sincère porté sur la vie de famille moderne célèbre la façon dont les jeux créatifs contribuent à former des enfants épanouis. Bluey, un chiot bouvier australien, a une imagination débordante et adore transformer la vie quotidienne en aventures ludiques. Elle et sa petite sœur Bingo se lancent dans l'exploration de leur monde, utilisant le jeu pour vaincre leurs peurs et s'essayer aux rôles des adultes. Rien ne leur plaît davantage que d'entraîner leurs parents, et surtout leur père, dans leurs jeux. La maman, Chilli, est retournée au travail, et le papa, Bandit, jongle entre la garde des enfants et le télétravail. Mais s'il pense que c'est lui qui commande, ce sont les filles qui mènent la danse lorsqu'il s'agit de jouer, mais aussi pour tout le reste !</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~c0ce915eb1ee30a6.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625050500 +0200" stop="20260625051000 +0200">
+    <title lang="fr">Bluey</title>
+    <desc lang="fr">Dans le monde coloré et pétillant de Bluey, une jeune chienne bleu, l'aventure quotidienne prend une tournure ludique et imaginative. Accompagnée de sa petite sœur Bingo, Bluey transforme les situations banales en jeux captivants. Lorsque Bluey reçoit une invitation à une fête d'anniversaire, l'excitation est à son comble. Cependant, Bingo, avec sa plume magique, complique les préparatifs en introduisant des éléments inattendus et fantaisistes qui mettent à l'épreuve la patience de toute la famille. Parallèlement, leur père, Bandit (David McCormack), se retrouve confronté aux défis de la vie quotidienne lorsqu'il doit conduire ses filles à l'école. Les deux petites chiennes, avec leur créativité débordante, ne manqueront pas d'imaginer des scénarios hilarants et surprenants, rendant chaque moment mémorable. À travers des jeux qui reflètent leur quotidien, Bluey et Bingo apprennent des leçons précieuses sur l'amitié, la famille et l'imagination, tout en apportant joie et rires à ceux qui les entourent.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6f60d574e4196306.jpg/640x360/quality/80/bluey.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625051000 +0200" stop="20260625053500 +0200">
+    <title lang="fr">Spidey et ses amis extraordinaires</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~c097c0761d0fc117.jpeg/640x360/quality/80/spidey-et-ses-amis-extraordinaires.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625053500 +0200" stop="20260625060000 +0200">
+    <title lang="fr">Spidey et ses amis extraordinaires</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~c021009e897f3c94.jpeg/640x360/quality/80/spidey-et-ses-amis-extraordinaires.jpg"/>
+  </programme>
+  <programme channel="DisneyJunior.fr" start="20260625060000 +0200" stop="20260625062500 +0200">
+    <title lang="fr">La maison de Mickey+</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~320d1aa475a4e80e.jpeg/640x360/quality/80/la-maison-de-mickey.jpg"/>
+  </programme>
   <programme channel="DisneyJunior.fr" start="20260625062500 +0200" stop="20260625065000 +0200">
     <title lang="fr">Princesse Sofia</title>
     <desc lang="fr">Sofia doit choisir entre Minimus et Skye pour l'accompagner sur les Îles mystérieuses pour une mission...</desc>
@@ -51714,10 +51922,9 @@ Dans la seconde partie, Enquêtes Criminelles s'intéressera à une affaire de v
     <category lang="fr">Emission sportive / Escalade</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260625051500 +0200" stop="20260625060000 +0200">
-    <title lang="fr">Escalade : Coupe du monde</title>
-    <desc lang="fr">Coupe du monde. 3e manche bloc. Finale messieurs. A Madrid (Espagne).</desc>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6b06797025ed268a.jpeg/640x360/quality/80/escalade-coupe-du-monde.jpg"/>
+    <title lang="fr">Escalade : Coupe du monde - Finale messieurs</title>
+    <desc lang="fr">Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.</desc>
+    <category lang="fr">Emission sportive / Escalade</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260625060000 +0200" stop="20260625070000 +0200">
     <title lang="fr">VTT : Coupe du monde de cross-country - Course dames</title>
@@ -51740,7 +51947,7 @@ Dans la seconde partie, Enquêtes Criminelles s'intéressera à une affaire de v
     <category lang="fr">Emission sportive / VTT</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260625100000 +0200" stop="20260625110000 +0200">
-    <title lang="fr">Tennis : Tournoi ATP du Queen's</title>
+    <title lang="fr">Tennis : Tournoi ATP du Queen's - Francisco Cerundolo - Tommy Paul</title>
     <desc lang="fr">Suivez le tournoi ATP du Queen's, une épreuve classée dans la catégorie 500 sur l'ATP Tour de tennis. Disputé depuis 1890, sur les magnifiques courts du Queen's Club de Londres, ce tournoi sur gazon sert de préparation idéale avant Wimbledon, qui a lieu deux semaines plus tard. Sa réputation est telle qu'il est considéré comme le deuxième plus grand tournoi sur gazon après le Grand Chelem.</desc>
     <category lang="fr">Emission sportive / Tennis</category>
   </programme>
@@ -56130,7 +56337,7 @@ Dans la seconde partie, Enquêtes Criminelles s'intéressera à une affaire de v
   </programme>
   <programme channel="France3Bourgogne.fr" start="20260625001500 +0200" stop="20260625003700 +0200">
     <title lang="fr">#grandstudio3</title>
-    <desc lang="fr">Le rendez-vous inédit de la chaîne pour s'en mettre plein les oreilles et plein la vue, depuis son studio musical, installé à la Vapeur pour cette session live.</desc>
+    <desc lang="fr">Shao et Cinza se partagent la scène du Darius Club de Lons-le-Saunier pour leur Grand #studio3. Les deux rappeurs se</desc>
     <category lang="fr">Magazine / Magazine musical</category>
   </programme>
   <programme channel="France3Bourgogne.fr" start="20260625003700 +0200" stop="20260625015700 +0200">
@@ -57435,7 +57642,7 @@ Dans la seconde partie, Enquêtes Criminelles s'intéressera à une affaire de v
   </programme>
   <programme channel="France3FrancheComte.fr" start="20260625001500 +0200" stop="20260625003700 +0200">
     <title lang="fr">#grandstudio3</title>
-    <desc lang="fr">Le rendez-vous inédit de la chaîne pour s'en mettre plein les oreilles et plein la vue, depuis son studio musical, installé à la Vapeur pour cette session live.</desc>
+    <desc lang="fr">Shao et Cinza se partagent la scène du Darius Club de Lons-le-Saunier pour leur Grand #studio3. Les deux rappeurs se</desc>
     <category lang="fr">Magazine / Magazine musical</category>
   </programme>
   <programme channel="France3FrancheComte.fr" start="20260625003700 +0200" stop="20260625015700 +0200">
@@ -58569,7 +58776,7 @@ Dans la seconde partie, Enquêtes Criminelles s'intéressera à une affaire de v
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260625095200 +0200" stop="20260625101200 +0200">
     <title lang="fr">Viure al país</title>
-    <desc lang="fr">Un magazine occitan à la rencontre de toutes celles et ceux qui se boulèguent pour faire vivre leur pays, qu'ils soient militants, politiques ou simples citoyens.</desc>
+    <desc lang="fr">Un magazine occitan à la rencontre de toutes celles et ceux qui se boulèguent pour faire vivre leur pays, qu'ils soient</desc>
     <category lang="fr">Magazine / Magazine de découvertes</category>
   </programme>
   <programme channel="France3MidiPyrenees.fr" start="20260625101200 +0200" stop="20260625104000 +0200">
@@ -61798,6 +62005,103 @@ Dans la seconde partie, Enquêtes Criminelles s'intéressera à une affaire de v
     <desc lang="fr">Vingt minutes d'éclairage quotidien complet sur les Outre-mer.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625004700 +0200" stop="20260625013500 +0200">
+    <title lang="fr">Face à l'histoire : Léon Blum, une vie héroïque</title>
+    <desc lang="fr">Au début des années 1930, Léon Blum est attaqué par l'extrême droite antisémite. Désigné chef du gouvernement du Front populaire après les élections législatives, il s'attelle à transformer la société française en profondeur. Le choix de la non-intervention durant la guerre d'Espagne ébranle l'unité du Front populaire et la course au réarmement plombe son projet de réformes sociales. Son gouvernement chute.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/116285589"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625013500 +0200" stop="20260625075300 +0200">
+    <title lang="fr">Fin des programmes</title>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/1510"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625075300 +0200" stop="20260625092300 +0200">
+    <title lang="fr">Echappées belles</title>
+    <desc lang="fr">Avignon est le lieu idéal pour passer un week-end hors du temps, au coeur d'une ville chargée d'histoire et ouverte sur une région où la nature est reine. Sophie Jovillard va se perdre dans les ruelles pittoresques de la vieille ville, découvrir des savoir-faire uniques et arpenter les parcs naturels de la région.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>19.0.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123590487"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625092300 +0200" stop="20260625105200 +0200">
+    <title lang="fr">Echappées belles</title>
+    <desc lang="fr">Des paysages sauvages du West Cork aux montagnes verdoyantes de Wicklow, en passant par la capitale, Dublin, ou encore l'île de Dursey et ses falaises spectaculaires, Jérôme Pitorin part à la rencontre de celles et ceux qui font vivre l'Irlande et qui ont à coeur de préserver ses traditions.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>19.0.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/123683426"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625105200 +0200" stop="20260625122000 +0200">
+    <title lang="fr">Echappées belles</title>
+    <desc lang="fr">Sophie Jovillard explore le duché de Luxembourg, ses paysages insoupçonnés – forêts majestueuses, vallées secrètes, villages pittoresques – et sa vitalité culturelle. L'animatrice découvre le rôle discret mais central de la famille grand-ducale, engagée en faveur de l'environnement, de la culture et de la solidarité.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>18.0.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119916471"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625122000 +0200" stop="20260625134800 +0200">
+    <title lang="fr">Echappées belles</title>
+    <desc lang="fr">Il n'y a pas si longtemps, l'Albanie vivait sous l'un des régimes les plus fermés et oppressifs d'Europe. Aujourd'hui, la beauté naturelle et le dynamisme touristique semblent effacer peu à peu les traces de cette époque sombre, offrant aux visiteurs une vision d'une nation résolument tournée vers l'avenir.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>18.0.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119710624"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625134800 +0200" stop="20260625151800 +0200">
+    <title lang="fr">Premiers résistants, seuls contre tous</title>
+    <desc lang="fr">En 1945, la victoire sur l'Allemagne nazie est à peine acquise qu'on se met déjà réécrire l'histoire. Celle d'une France libérée par son peuple, résistante dans l'âme, unie contre l'oppression. On oublie la genèse du combat. Celui des tout premiers, hommes et femmes, de gauche, de droite, communistes, d'extrême droite, apolitiques qui, individuellement et dès le 17 juin 1940, ont dit non.</desc>
+    <category lang="fr">Decouverte</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119848749"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625151800 +0200" stop="20260625160900 +0200">
+    <title lang="fr">Les secrets de l'alimentation anti-inflamatoire</title>
+    <desc lang="fr">Des chercheurs soupçonnent les aliments ultra-transformés de jouer un rôle dans la survenue de certaines maladies chroniques. Le microbiote intestinal et ses milliards de bactéries serait menacé par les nombreux additifs chimiques présents dans ces produits, véritables bombes inflammatoires. A contrario, certains aliments sont capables de nourrir les bonnes bactéries de la flore intestinale.</desc>
+    <category lang="fr">Decouverte</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/112105519"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625160900 +0200" stop="20260625174900 +0200">
+    <title lang="fr">Les pouvoirs extraordinaires du corps humain</title>
+    <desc lang="fr">La douleur est l'un des systèmes de défense de l'organisme les plus performants, et elle est nécessaire à la survie. Mais quand elle s'installe dans la durée, elle devient une maladie : la douleur chronique. Adriana Karembeu et Michel Cymes partent à la découverte des multiples aspects de la douleur, pour comprendre son fonctionnement et sa prise en charge en France.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121608845"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625174900 +0200" stop="20260625193000 +0200">
+    <title lang="fr">Les pouvoirs extraordinaires du corps humain</title>
+    <desc lang="fr">La douleur est l'un des systèmes de défense de l'organisme les plus performants, et elle est nécessaire à la survie. Mais quand elle s'installe dans la durée, elle devient une maladie : la douleur chronique. Adriana Karembeu et Michel Cymes partent à la découverte des multiples aspects de la douleur, pour comprendre son fonctionnement et sa prise en charge en France.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/121608845"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625193000 +0200" stop="20260625210000 +0200">
+    <title lang="fr">Prenez soin de vous !</title>
+    <desc lang="fr">Toujours épuisés, jamais reposés : près de deux tiers des Français se disent régulièrement fatigués. Manque d'énergie, essoufflement, perte de mémoire, sommeil perturbé : la fatigue, tout le monde l'a déjà ressentie, mais lorsqu'elle se prolonge, il faut agir car le manque d'énergie peut gâcher la vie. Heureusement, il existe des solutions pour faire le plein d'énergie.</desc>
+    <category lang="fr">Actualites</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/111853334"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625210000 +0200" stop="20260625214900 +0200">
+    <title lang="fr">Libération(s), dans la joie et la douleur</title>
+    <desc lang="fr">La libération de la France ne s'est pas faite en un jour, mais en un an. Elle ne se résume pas aux foules en liesse et à la victoire du général de Gaulle. Son histoire est bien plus sombre et bien plus complexe. Après le débarquement de Normandie, les combats vont être rudes partout en France. Ces libérations de la France sont racontées par des témoins et à travers des archives exceptionnelles.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115757731"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625214900 +0200" stop="20260625224200 +0200">
+    <title lang="fr">Libération(s), dans la joie et la douleur</title>
+    <desc lang="fr">A la fin de l'été 1944, la libération du territoire français est presque achevée. Le 12 septembre 1944, la jonction s'opère près de Dijon entre les armées alliées, venues des bords de la Manche, et celles qui remontent depuis la Méditerranée. Une page de la campagne de France se tourne. Les Alliés se préparent maintenant à livrer la bataille ultime : celle de l'Alsace annexée par le Troisième Reich.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115757835"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625224200 +0200" stop="20260625233000 +0200">
+    <title lang="fr">Libération(s), dans la joie et la douleur</title>
+    <desc lang="fr">A l'automne 1944, alors que les Alliés ont libéré les trois-quarts du territoire hexagonal, du côté des civils, l'euphorie est vite retombée. La vie quotidienne s'améliore peu : les Français vivent toujours dans le chaos de la guerre. Cette France meurtrie mais libre côtoie une France occupée où des millions de civils des régions de l'Est et d'une partie de l'Ouest connaissent toujours un sort dramatique.</desc>
+    <category lang="fr">Decouverte</category>
+    <episode-num>0.2.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/115757680"/>
+  </programme>
+  <programme channel="FranceTVDocs.fr" start="20260625233000 +0200" stop="20260626010500 +0200">
+    <title lang="fr">Premiers résistants, seuls contre tous</title>
+    <desc lang="fr">En 1945, la victoire sur l'Allemagne nazie est à peine acquise qu'on se met déjà réécrire l'histoire. Celle d'une France libérée par son peuple, résistante dans l'âme, unie contre l'oppression. On oublie la genèse du combat. Celui des tout premiers, hommes et femmes, de gauche, de droite, communistes, d'extrême droite, apolitiques qui, individuellement et dès le 17 juin 1940, ont dit non.</desc>
+    <category lang="fr">Decouverte</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/119848749"/>
+  </programme>
   <programme channel="FranceTVSeries.fr" start="20260625003800 +0200" stop="20260625100500 +0200">
     <title lang="fr">Fin des programmes</title>
     <category lang="fr">Divertissement</category>
@@ -64824,13 +65128,11 @@ Acteurs : Claire Borotra (Eloïse Gentil), Michel Jonasz (Robert Gentil), Claire
   <programme channel="IDF1.fr" start="20260625053000 +0200" stop="20260625054500 +0200">
     <title lang="fr">Planète C</title>
     <desc lang="fr">Des spécialistes mettent en lumière des méthodes qui permettent de produire des aliments et d'autres ressources en préservant l'environnement.</desc>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e1ddbaad791d2bdd.jpeg/640x360/quality/80/planete-c.jpg"/>
+    <category lang="fr">Magazine / Magazine de la nature</category>
   </programme>
   <programme channel="IDF1.fr" start="20260625054500 +0200" stop="20260625060000 +0200">
     <title lang="fr">Tu peux pas test</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~b81d6883dbb15194.jpeg/640x360/quality/80/tu-peux-pas-test.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="IDF1.fr" start="20260625060000 +0200" stop="20260625061400 +0200">
     <title lang="fr">Tu peux pas test</title>
@@ -65533,6 +65835,116 @@ Acteurs : Claire Borotra (Eloïse Gentil), Michel Jonasz (Robert Gentil), Claire
     <category lang="fr">Series</category>
     <episode-num>0.9.</episode-num>
     <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP049735860009/SHOWCARD_BACKGROUND/2048x1024"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625000300 +0200" stop="20260625000900 +0200">
+    <title lang="fr">Z-Energy S15</title>
+    <desc lang="fr">Brandstofdistributeur in Nieuw-Zeeland met merkservicestations.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2025/12/31/10/2647174_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625000900 +0200" stop="20260625060000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625060000 +0200" stop="20260625100000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625100000 +0200" stop="20260625150000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625150000 +0200" stop="20260625200000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625200000 +0200" stop="20260625201100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625201100 +0200" stop="20260625202300 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625202300 +0200" stop="20260625205900 +0200">
+    <title lang="fr">Trends Doc (De quantumtoekomst 1/2) S2 (18/20)</title>
+    <desc lang="fr">«De quantumtoekomst 1/2»Quantumtechnologie belooft doorbraken in geneeskunde, energie en computing. Trends Doc volgt de wereldwijde race tussen landen en bedrijven om die revolutionaire technologie als eerste te beheersen.</desc>
+    <category lang="fr">Doc Société</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/13/15/1935085_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625205900 +0200" stop="20260625210300 +0200">
+    <title lang="fr">Z-Futureproof: POM Oost-Vlaanderen S1</title>
+    <category lang="fr">Magazine d'information</category>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625210300 +0200" stop="20260625211400 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625211400 +0200" stop="20260625212700 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625212700 +0200" stop="20260625220200 +0200">
+    <title lang="fr">Trends Doc (De quantumtoekomst 1/2) S2 (18/20)</title>
+    <desc lang="fr">«De quantumtoekomst 1/2»Quantumtechnologie belooft doorbraken in geneeskunde, energie en computing. Trends Doc volgt de wereldwijde race tussen landen en bedrijven om die revolutionaire technologie als eerste te beheersen.</desc>
+    <category lang="fr">Doc Société</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/13/15/1935085_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625220200 +0200" stop="20260625220600 +0200">
+    <title lang="fr">Z-Futureproof: POM Oost-Vlaanderen S1</title>
+    <category lang="fr">Magazine d'information</category>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625220600 +0200" stop="20260625221700 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625221700 +0200" stop="20260625223000 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625223000 +0200" stop="20260625230600 +0200">
+    <title lang="fr">Trends Doc (De quantumtoekomst 1/2) S2 (18/20)</title>
+    <desc lang="fr">«De quantumtoekomst 1/2»Quantumtechnologie belooft doorbraken in geneeskunde, energie en computing. Trends Doc volgt de wereldwijde race tussen landen en bedrijven om die revolutionaire technologie als eerste te beheersen.</desc>
+    <category lang="fr">Doc Société</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/13/15/1935085_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625230600 +0200" stop="20260625231000 +0200">
+    <title lang="fr">Z-Futureproof: POM Oost-Vlaanderen S1</title>
+    <category lang="fr">Magazine d'information</category>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625231000 +0200" stop="20260625232100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625232100 +0200" stop="20260625233400 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260625233400 +0200" stop="20260626000800 +0200">
+    <title lang="fr">Trends Doc (De quantumtoekomst 1/2) S2 (18/20)</title>
+    <desc lang="fr">«De quantumtoekomst 1/2»Quantumtechnologie belooft doorbraken in geneeskunde, energie en computing. Trends Doc volgt de wereldwijde race tussen landen en bedrijven om die revolutionaire technologie als eerste te beheersen.</desc>
+    <category lang="fr">Doc Société</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/13/15/1935085_A.jpg"/>
   </programme>
   <programme channel="KIKA.de" start="20260625060000 +0200" stop="20260625060500 +0200">
     <title lang="fr">Kikaninchen Schnipselwelt</title>
@@ -67399,19 +67811,20 @@ Présentateur(s) : Cyril Viguier
   <programme channel="LMTVSarthe.fr" start="20260625050000 +0200" stop="20260625050500 +0200">
     <title lang="fr">2 min pour comprendre</title>
     <desc lang="fr">Jean-Claude Durousseaud présente cette émission destinée à analyser et à tenter de comprendre en seulement deux minutes un sujet lié à la santé.</desc>
-    <category lang="fr">Culture Infos</category>
+    <category lang="fr">Magazine / Magazine de la santé</category>
   </programme>
   <programme channel="LMTVSarthe.fr" start="20260625050500 +0200" stop="20260625052300 +0200">
     <title lang="fr">Championne</title>
-    <category lang="fr">Culture Infos</category>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="LMTVSarthe.fr" start="20260625052300 +0200" stop="20260625054100 +0200">
     <title lang="fr">Éco-Scopie</title>
-    <category lang="fr">Culture Infos</category>
+    <desc lang="fr">Sur la sellette, deux pépites sarthoises qui évoluent "De la chimie au naturel", avec François BLUA pour Biodevas et Fabrice CHAUSSEC pour Odyssée Environnement. Et la présentation des actions du Centre des Jeunes Dirigeants du Mans, avec Bérengère ROBIN</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="LMTVSarthe.fr" start="20260625054100 +0200" stop="20260625060000 +0200">
     <title lang="fr">Place du marché</title>
-    <category lang="fr">Culture Infos</category>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="LMTVSarthe.fr" start="20260625060000 +0200" stop="20260625063000 +0200">
     <title lang="fr">Ci né ma</title>
@@ -90349,19 +90762,19 @@ Acteurs : Kiara Lord, Lana Roy, Lika Star
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="ProSieben.de" start="20260625051000 +0200" stop="20260625052500 +0200">
-    <title lang="fr">B Positive</title>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~bb3931fb9aa74eef.jpeg/640x360/quality/80/b-positive.jpg"/>
+    <title lang="fr">B Positive - S02E02</title>
+    <desc lang="fr">Père de famille fraîchement divorcé, Drew apprend qu'il a besoin de la transplantation d'un rein. Contre toute-attente, une ancienne conquête, Gina, se porte volontaire. De tempéraments opposés, ces deux-là vont se retrouver liés à jamais...</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="ProSieben.de" start="20260625052500 +0200" stop="20260625054500 +0200">
-    <title lang="fr">Call Me Kat</title>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ddaced3124899cd.jpeg/640x360/quality/80/call-me-kat.jpg"/>
+    <title lang="fr">Call Me Kat - S01E10</title>
+    <desc lang="fr">Kat a 39 ans et est toujours célibataire au grand dam de sa mère qui aimerait la voir marier. Afin de prouver à cette dernière qu'elle est heureuse sans mari, Kat dépense l'argent que ses parents ont mis de côté pour son mariage afin d'ouvrir un bar à chats à Louisville, dans le Kentucky.</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="ProSieben.de" start="20260625054500 +0200" stop="20260625060500 +0200">
-    <title lang="fr">Call Me Kat</title>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ac42e4a0551cace.jpeg/640x360/quality/80/call-me-kat.jpg"/>
+    <title lang="fr">Call Me Kat - S01E11</title>
+    <desc lang="fr">Kat a 39 ans et est toujours célibataire au grand dam de sa mère qui aimerait la voir marier. Afin de prouver à cette dernière qu'elle est heureuse sans mari, Kat dépense l'argent que ses parents ont mis de côté pour son mariage afin d'ouvrir un bar à chats à Louisville, dans le Kentucky.</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="ProSieben.de" start="20260625060500 +0200" stop="20260625070000 +0200">
     <title lang="fr">taff</title>
@@ -107811,6 +108224,11 @@ Présentation : Julie Morelle</desc>
     <episode-num>2024.8.</episode-num>
     <icon src="https://europe.tv5monde.com/sites/tv5_locaux/files/styles/vignette_programme/public/2026-06/field_media_image-92804-6589534.jpg?h=d1cb525d&amp;itok=-oMUTAju"/>
   </programme>
+  <programme channel="TV5MondeInfo.fr" start="20260625000000 +0200" stop="20260625003000 +0200">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
   <programme channel="TV5MondeInfo.fr" start="20260625003200 +0200" stop="20260625005800 +0200">
     <title lang="fr">Le journal Afrique</title>
     <desc lang="fr">Pas de description</desc>
@@ -119625,7 +120043,8 @@ Acteurs : Claire Borotra (Eloïse Gentil), Michel Jonasz (Robert Gentil), Claire
   <programme channel="Teva.fr" start="20260625015000 +0200" stop="20260625063000 +0200">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Divers / Programme indéterminé</category>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~3251df198d4879d1.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
   </programme>
   <programme channel="Teva.fr" start="20260625063000 +0200" stop="20260625084000 +0200">
     <title lang="fr">Vous les femmes</title>
@@ -119855,6 +120274,11 @@ Acteurs : Claire Borotra (Eloïse Gentil), Michel Jonasz (Robert Gentil), Claire
     <desc lang="fr">La nuit, tous les chats sont gris. Tipik vous accompagne de 23 heures à 5 heures du matin avec le meilleur de la musique.</desc>
     <category lang="fr">Music</category>
     <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_A57F69F79D1AB2B9BBA0A41F0FF0EA35.jpg"/>
+  </programme>
+  <programme channel="Tivi5.fr" start="20260625000000 +0200" stop="20260626000000 +0200">
+    <title lang="fr">TIVI5MONDE PLUS 2026</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">TV Series</category>
   </programme>
   <programme channel="Toonami.fr" start="20260625000500 +0200" stop="20260625003000 +0200">
     <title lang="fr">Dragon Ball - S05E22</title>
@@ -135530,7 +135954,7 @@ En plein cœur de Paris, Hugo et sa famille se heurtent, eux, à des voisins ind
   </programme>
   <programme channel="oqee.1106" start="20260625120000 +0200" stop="20260625130000 +0200">
     <title lang="fr">Swing</title>
-    <desc lang="fr">Cette semaine retour sur l'accident de Tiger Woods qui s'est déroulé vendredi dernier en Floride. Quelles sont les conséquences de ce nouvel accroc dans la vie du Tigre ? Verra-t-on l'ancien numéro un mondial à Augusta cette année au départ 90e Masters de l'histoire ? On en débat Dans la deuxième partie de l'émission, Ugo Coussaud, 3e en Inde la sera avec nous et Louis Cohen-Boyer décortiquera son swing.</desc>
+    <desc lang="fr">L'actualité du golf décryptée par les spécialistes de Journal du Golf.</desc>
     <category lang="fr">Documentaire sportif / Golf</category>
   </programme>
   <programme channel="oqee.1106" start="20260625130000 +0200" stop="20260625132400 +0200">
@@ -135650,7 +136074,7 @@ En plein cœur de Paris, Hugo et sa famille se heurtent, eux, à des voisins ind
   </programme>
   <programme channel="oqee.1106" start="20260625210000 +0200" stop="20260625220000 +0200">
     <title lang="fr">Swing</title>
-    <desc lang="fr">L'actualité du golf décryptée par les spécialistes de Journal du Golf.</desc>
+    <desc lang="fr">Cette semaine retour sur l'accident de Tiger Woods qui s'est déroulé vendredi dernier en Floride. Quelles sont les conséquences de ce nouvel accroc dans la vie du Tigre ? Verra-t-on l'ancien numéro un mondial à Augusta cette année au départ 90e Masters de l'histoire ? On en débat Dans la deuxième partie de l'émission, Ugo Coussaud, 3e en Inde la sera avec nous et Louis Cohen-Boyer décortiquera son swing.</desc>
     <category lang="fr">Documentaire sportif / Golf</category>
   </programme>
   <programme channel="oqee.1106" start="20260625220000 +0200" stop="20260625223700 +0200">
@@ -135853,19 +136277,19 @@ En plein cœur de Paris, Hugo et sa famille se heurtent, eux, à des voisins ind
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1117" start="20260625063000 +0200" stop="20260625070000 +0200">
-    <title lang="fr">News Room</title>
-    <desc lang="fr">This is the heart of SNA news coverage, 2 hours of news show reflecting SNA's powerful engagement in news making.</desc>
+    <title lang="fr">Radar</title>
+    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1117" start="20260625070000 +0200" stop="20260625080000 +0200">
-    <title lang="fr">News</title>
-    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
-    <category lang="fr">Divers / Journal</category>
+    <title lang="fr">Morning Show</title>
+    <desc lang="fr">Join the Sky News Arabia team for news, sport and business chat on the biggest stories of the day.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.1117" start="20260625080000 +0200" stop="20260625090000 +0200">
-    <title lang="fr">News</title>
-    <desc lang="fr">All the day's news from Sky News Arabia's correspondents across the Arab world and around the globe.</desc>
-    <category lang="fr">Divers / Journal</category>
+    <title lang="fr">Morning Show</title>
+    <desc lang="fr">Join the Sky News Arabia team for news, sport and business chat on the biggest stories of the day.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.1117" start="20260625090000 +0200" stop="20260625094500 +0200">
     <title lang="fr">News</title>
@@ -149760,6 +150184,18 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
     <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.1373" start="20260625014124 +0200" stop="20260625032822 +0200">
+    <title lang="fr">Killing Salazar</title>
+    <desc lang="fr">Une équipe d'élite d'agents est chargée de protéger un dangereux baron de la drogue. Ils se réfugient dans un hôtel de luxe en attendant leur extraction. Ils se retrouvent bientôt au centre d'une embuscade alors que les anciens associés du baron de la drogue lancent un assaut explosif sur l'hôtel.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260625032823 +0200" stop="20260625052034 +0200">
+    <title lang="fr">Paradox</title>
+    <desc lang="fr">Le négociateur de la police de Hong Kong, Lee Chung-Chi, apprend que sa fille de 16 ans, Wing-Chi, a disparu en Thaïlande.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260625052035 +0200" stop="20260625071255 +0200">
+    <title lang="fr">Mortal</title>
+    <desc lang="fr">Eric est un jeune américano-norvégien qui s'est réfugié dans une forêt après avoir provoqué l'incendie d'une ferme,  tuant 5 personnes,  et provoqué ensuite la mort accidentelle d’une sixième personne. Il est arrêté par la police et rencontre une psychologue, Christine, qui semble pouvoir l'aider.</desc>
+  </programme>
   <programme channel="oqee.1375" start="20260625015151 +0200" stop="20260625034649 +0200">
     <title lang="fr">Derrière un Micro - S01E01</title>
     <desc lang="fr">À Montréal, Kyan Khojandi réunit 8 humoristes francophones pour une soirée de stand-up unique. Avec ce show, il crée des passerelles entre les talents, leur offre une grande scène et l’opportunité de se dévoiler au public.</desc>
@@ -149924,6 +150360,38 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
     <title lang="fr">Siberia</title>
     <desc lang="fr">Un négociant en diamants tente de vendre des pierres aux origines douteuses à des acheteurs russes. Alors que la vente commence à capoter et qu'il découvre l'univers sombre du commerce de diamants, sa rencontre avec la gérante russe d'un café tourne à l'obsession.</desc>
   </programme>
+  <programme channel="oqee.1385" start="20260625075750 +0200" stop="20260625101716 +0200">
+    <title lang="fr">The Best Offer</title>
+    <desc lang="fr">Virgil Oldman, un expert en art reclus, acquiert des tableaux inestimables en trompant leurs propriétaires sur leur valeur. Engagé par la mystérieuse Claire Ibbetson pour évaluer son patrimoine, Virgil découvre des pièces mécaniques et demande l’aide de son ami Robert pour les réassembler.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625101717 +0200" stop="20260625123944 +0200">
+    <title lang="fr">House of Sand and Fog</title>
+    <desc lang="fr">Une épouse abandonnée et expulsée de sa maison, entre dans un conflit tragique avec les nouveaux propriétaires de la maison.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625123945 +0200" stop="20260625143046 +0200">
+    <title lang="fr">Amour &amp; Amnésie</title>
+    <desc lang="fr">Un homme tombe amoureux d'une femme qui souffre de graves troubles de la mémoire à court terme.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625143047 +0200" stop="20260625162037 +0200">
+    <title lang="fr">We love happy ending</title>
+    <desc lang="fr">Une écrivain dont les romans dépressifs rencontrent un grand succès perd l'inspiration en même temps qu'elle vit le parfait bonheur. Refusant de renoncer à cette mine d'or, son éditeur décide de rendre sa vie misérable pour lui faire retrouver sa plume.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625162038 +0200" stop="20260625181928 +0200">
+    <title lang="fr">Golem, le tueur de Londres</title>
+    <desc lang="fr">Londres, 1880. Une série de meurtres secouent le quartier malfamé de Limehouse. Selon la rumeur, ces crimes ne peuvent avoir été perpétrés que par le Golem, une créature des légendes hébraïques d’Europe centrale.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625181929 +0200" stop="20260625202047 +0200">
+    <title lang="fr">Takers</title>
+    <desc lang="fr">Un groupe de braqueurs expérimentés tente une dernière fois de défier les services de police en s'attaquant à un fourgon blindé transportant plus de 20 millions de dollars.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625202048 +0200" stop="20260625215756 +0200">
+    <title lang="fr">La mecanique de l'ombre</title>
+    <desc lang="fr">Deux ans après un «burn-out», Duval est toujours au chômage. Contacté par un homme d’affaire énigmatique, il se voit proposer un travail simple: retranscrire des écoutes téléphoniques. Aux abois financièrement, Duval accepte sans s’interroger sur la finalité de l’organisation qui l’emploie.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260625215757 +0200" stop="20260626001705 +0200">
+    <title lang="fr">Harvey Milk</title>
+    <desc lang="fr">Le film retrace les huit dernières années de la vie d'Harvey Milk. Dans les années 70, il fut le premier homme politique américain ouvertement gay à être élu à des fonctions officielles, à San Francisco en Californie ...</desc>
+  </programme>
   <programme channel="oqee.1386" start="20260625012052 +0200" stop="20260625030408 +0200">
     <title lang="fr">Prison Fury</title>
     <desc lang="fr">Ce qui n'était au départ qu'une simple mission d'escorte va rapidement tourner au chaos lorsque les prisonniers de Koh Kla s'emparent de l'enceinte de la prison. Une équipe spéciale se retrouve piégée dans la prison et doit se battre pour survivre et protéger un témoin clé.</desc>
@@ -149940,6 +150408,47 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
     <title lang="fr">Snake Outta Compton</title>
     <desc lang="fr">Un groupe de rap débarque dans l'endroit le plus dangereux des États-Unis, Compton, la banlieue ghetto de Los Angeles, dans le but de signer leur tout premier contrat d'enregistrement. Peu de temps après, les membres de ce groupe de rap finissent par devenir le seul espoir de la ville.</desc>
   </programme>
+  <programme channel="oqee.1386" start="20260625080406 +0200" stop="20260625100345 +0200">
+    <title lang="fr">Money Train</title>
+    <desc lang="fr">John et Charlie font partie de la police qui protège le Money-Train, le train qui chaque semaine ramasse les recettes de toutes les stations de métro de New-York. Il ont le même rêve: dévaliser le train. Surtout Charlie qui pourrait ainsi rembourser ses dettes de jeu...</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625100346 +0200" stop="20260625114942 +0200">
+    <title lang="fr">Fool's Paradise</title>
+    <desc lang="fr">Un publiciste malchanceux a sa chance lorsqu'il découvre qu'un homme muet récemment libéré d'un établissement de santé mentale ressemble étrangement à un acteur de méthode qui refuse de quitter sa caravane.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625114943 +0200" stop="20260625132417 +0200">
+    <title lang="fr">Arrête de pleurer Pénélope</title>
+    <desc lang="fr">Chloé, Léonie et Pénélope, trois amies d’enfance qui se sont perdues de vue depuis de nombreuses années, sont convoquées chez le notaire.
+La tante de Chloé, chez qui elles avaient l’habitude de passer leurs vacances d’été, leur a légué à toutes les trois sa maison à la campagne.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625132418 +0200" stop="20260625151238 +0200">
+    <title lang="fr">Braquage à l'allemande</title>
+    <desc lang="fr">Quatre hommes, trahis par la banque, s'unissent pour se venger.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625151239 +0200" stop="20260625165519 +0200">
+    <title lang="fr">Célibataires ou presque</title>
+    <desc lang="fr">Trois amis se jurent de demeurer célibataires, ce qui crée des conflits avec la gent féminine... et même entre eux. Daniel voit secrètement une amie du trio, Mikey fait l'impossible pour reconquérir son épouse infidèle. Jason, lui, cumule les aventures d'un soir.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625165520 +0200" stop="20260625183448 +0200">
+    <title lang="fr">Hot Pursuit: En Cavale</title>
+    <desc lang="fr">Un flic reglo et plutôt tendu (Reese Witherspoon) tente de protéger l’veuve (Sofia Vergara) d'un boss de la drogue, alors qu’elles traversent le Texas poursuivies par des meurtriers et des flics véreux.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625183449 +0200" stop="20260625201141 +0200">
+    <title lang="fr">La famille Pickler</title>
+    <desc lang="fr">L'ambitieuse mère de famille Laura Pickler menait jusqu'à présent une vie parfaite à l'image de ses convictions politiques conservatrices : mariée à un champion de sculpture sur beurre, elle est sous les feux des projecteurs.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625201142 +0200" stop="20260625215755 +0200">
+    <title lang="fr">Mauvaise connexion!</title>
+    <desc lang="fr">Un couple usé par le temps, Dan et Janice Dewerson, décide de s'organiser un week-end en amoureux en même temps qu'une " détox numérique ". Mais ce qui commence comme un séjour romantique et parfait va vite tourner à la catastrophe.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625215756 +0200" stop="20260625233620 +0200">
+    <title lang="fr">Une famille 2 en 1</title>
+    <desc lang="fr">Veuf, Frank se rend à une réunion d'anciens étudiants et y retrouve Helen, son ex-petite amie, elle aussi restée seule après le décès de son mari. Le courant passe immédiatement et le couple décide rapidement de s'installer ensemble.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260625233621 +0200" stop="20260626013431 +0200">
+    <title lang="fr">Quelqu'un Que J'ai Bien Connu</title>
+    <desc lang="fr">Lors d'un voyage dans sa ville natale, Ally (Alison Brie), une bourreau de travail, passe une nuit tourbillonnante avec son ex-petit ami Sean (Jay Ellis), ce qui l'amène à remettre en question tous les choix qu'elle a faits et la personne qu'elle est devenue.</desc>
+  </programme>
   <programme channel="oqee.1387" start="20260625005532 +0200" stop="20260625031458 +0200">
     <title lang="fr">The Best Offer</title>
     <desc lang="fr">Virgil Oldman, un expert en art reclus, acquiert des tableaux inestimables en trompant leurs propriétaires sur leur valeur. Engagé par la mystérieuse Claire Ibbetson pour évaluer son patrimoine, Virgil découvre des pièces mécaniques et demande l’aide de son ami Robert pour les réassembler.</desc>
@@ -149955,6 +150464,82 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
   <programme channel="oqee.1387" start="20260625064730 +0200" stop="20260625083023 +0200">
     <title lang="fr">Love, Romance &amp; Chocolate</title>
     <desc lang="fr">Emma et le chocolatier Luc concourent pour le titre de Chocolatier Rayal de Belgique. La beauté et le romantisme de Bruges inspirent des combinaisons de chocolats uniques, mais gagneront-t-ils sans qu'ils y perdent leur cœur ?</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625083024 +0200" stop="20260625103136 +0200">
+    <title lang="fr">The Nest</title>
+    <desc lang="fr">Dans les années 1980, Rory, un ancien courtier devenu un ambitieux entrepreneur, convainc Allison, son épouse américaine, et leurs deux enfants de quitter le confort d’une banlieue cossue des États-Unis pour s’installer en Angleterre, son pays de naissance.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625103137 +0200" stop="20260625121456 +0200">
+    <title lang="fr">Tous les chemins mènent à Rome</title>
+    <desc lang="fr">Une mère de famille un peu à cran, se voit partir en road trip en Italie avec son amour de jeunesse Italien, afin de rattraper sa fille rebelle, qui souhaite rejoindre New-York à tout prix.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625121457 +0200" stop="20260625141534 +0200">
+    <title lang="fr">From Prada to Nada</title>
+    <desc lang="fr">Nora et Mary Dominguez, deux soeurs gâtées, mènent une vie dorée à Beverly Hills. Cependant leur monde s'écroule quand leur père meurt subitement. Maintenant sans le moindre sou, elles doivent vivre chez leur tante Aurelia à Los Angeles.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625141535 +0200" stop="20260625155636 +0200">
+    <title lang="fr">Amour et préjugés</title>
+    <desc lang="fr">Une jeune policière rêvant de trouver l'amour et un propriétaire de bar entre dans un jeu romantique du chat et de la souris alors qu'ils voulaient orienter leurs vies amoureuses dans d'autres directions.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625155637 +0200" stop="20260625174056 +0200">
+    <title lang="fr">Love Potion 9</title>
+    <desc lang="fr">Deux scientifiques désespérés avec le sexe opposé expérimentent une substance qui les rend irrésistibles à quiconque les entend parler.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625174057 +0200" stop="20260625193130 +0200">
+    <title lang="fr">Coup de Foudre à Oxford</title>
+    <desc lang="fr">Caro Drake, émotionnellement gardée, arrive à Oxford avec le seul objectif d'obtenir son doctorat, mais à travers une amitié turbulente avec un charmant jeune homme, Caro commence à s'ouvrir au mystère des nouvelles expériences, à la vulnérabilité et à l'amour.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625193131 +0200" stop="20260625213951 +0200">
+    <title lang="fr">New Year Blues</title>
+    <desc lang="fr">Quatre couples très différents, avec des problèmes, des besoins et des préoccupations très différents, font face à leurs soucis et à leurs obstacles au début d'une nouvelle année.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625213952 +0200" stop="20260625231813 +0200">
+    <title lang="fr">Une Affaire d'amour</title>
+    <desc lang="fr">Mauvais timing : Thomas débarque à l'improviste chez son ex-copine, Sarah Pohl, une journaliste en pleine enquête sur des sans-papiers.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260625231814 +0200" stop="20260626011906 +0200">
+    <title lang="fr">A l'ombre des regards</title>
+    <desc lang="fr">Holly est une jeune femme qui se laisse dépérir depuis la mort de sa mère jusqu'à ce qu'elle fasse la connaissance de Shane, un champion de MMA déchu. Mais Holly se rend compte qu'elle a plus de responsabilités qu'elle ne l'avait imaginé dans la chute de Shane et dans son propre destin.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625004516 +0200" stop="20260625013303 +0200">
+    <title lang="fr">Mensonges</title>
+    <desc lang="fr">Un critique gastronomique, à la dent dure, invité par un chef à goûter son plat en direct, meurt sur le plateau : il semblerait qu'il ait été empoisonné.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625013304 +0200" stop="20260625022707 +0200">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le soir du Nouvel An, Catherine Carroll reçoit 53 coups de couteau et meurt sur le sol de la salle de bains de sa maison. Son fils de 19 ans, Greg Parsons, découvre la scène de crime et, une semaine plus tard, est arrêté et accusé de meurtre.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625022708 +0200" stop="20260625032112 +0200">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le soir du Nouvel An, Catherine Carroll reçoit 53 coups de couteau et meurt sur le sol de la salle de bains de sa maison. Son fils de 19 ans, Greg Parsons, découvre la scène de crime et, une semaine plus tard, est arrêté et accusé de meurtre.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625032113 +0200" stop="20260625042229 +0200">
+    <title lang="fr">Criminal Milan</title>
+    <desc lang="fr">1987. Alors que le crime organisé semble n'être plus qu'un lointain souvenir, Renato Vallanzasca prépare sa dernière évasion.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625042230 +0200" stop="20260625044701 +0200">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Dans le Chicago de l'époque de la prohibition, un pilier de bar sans ressources semble être la cible parfaite pour un plan d'assurance visant à s'enrichir rapidement. Jusqu'à ce qu'il refuse de s'effondrer.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625044702 +0200" stop="20260625051500 +0200">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Dans le Chicago de l'époque de la prohibition, un pilier de bar sans ressources semble être la cible parfaite pour un plan d'assurance visant à s'enrichir rapidement. Jusqu'à ce qu'il refuse de s'effondrer.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625051501 +0200" stop="20260625054151 +0200">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Dans le Chicago de l'époque de la prohibition, un pilier de bar sans ressources semble être la cible parfaite pour un plan d'assurance visant à s'enrichir rapidement. Jusqu'à ce qu'il refuse de s'effondrer.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625054152 +0200" stop="20260625061357 +0200">
+    <title lang="fr">Expert Witness</title>
+    <desc lang="fr">Dans cet épisode, nous révélons comment un expert a percé les secrets d'ossements non identifiés trouvés à Sheffield. Certains cas sont clairs et nets. D'autres se présentent comme un mystère complet, et il faut un expert pour découvrir les premiers indices.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625061358 +0200" stop="20260625064607 +0200">
+    <title lang="fr">Expert Witness</title>
+    <desc lang="fr">Dans cet épisode, nous révélons comment un expert a percé les secrets d'ossements non identifiés trouvés à Sheffield. Certains cas sont clairs et nets. D'autres se présentent comme un mystère complet, et il faut un expert pour découvrir les premiers indices.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260625064608 +0200" stop="20260625071813 +0200">
+    <title lang="fr">Expert Witness</title>
+    <desc lang="fr">Dans cet épisode, nous révélons comment un expert a percé les secrets d'ossements non identifiés trouvés à Sheffield. Certains cas sont clairs et nets. D'autres se présentent comme un mystère complet, et il faut un expert pour découvrir les premiers indices.</desc>
   </programme>
   <programme channel="oqee.1389" start="20260625000300 +0200" stop="20260625001500 +0200">
     <title lang="fr">Life Around</title>
@@ -157316,12 +157901,12 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
   </programme>
   <programme channel="oqee.350" start="20260625095400 +0200" stop="20260625104700 +0200">
     <title lang="fr">Temps d'histoire</title>
-    <desc lang="fr">Cette émission se propose de favoriser la connaissance et la compréhension des grandes thématiques, des événements et</desc>
+    <desc lang="fr">Cette émission se propose de favoriser la connaissance et la compréhension des grandes thématiques, des événements et personnages qui ont marqué l'Histoire de la Corse et de les resituer, avec le concours de spécialistes, dans leur environnement européen et méditerranéen. Il s'agit également d'aborder ces sujets sous un angle nouveau et sous une...</desc>
     <category lang="fr">Magazine / Magazine historique</category>
   </programme>
   <programme channel="oqee.350" start="20260625104700 +0200" stop="20260625111800 +0200">
     <title lang="fr">Avec ou sans filtre</title>
-    <desc lang="fr">Chaque semaine, une personnalité corse ou amie de la Corse est placée face aux photos de sa vie. Luc Mondoloni l'accompagne pour soulever quelques interrogations.</desc>
+    <desc lang="fr">Luc Mondoloni vous donne rendez-vous dans le décor chargé d'histoire du Lazaret d'Ajaccio, des personnalités, Corses</desc>
     <category lang="fr">Magazine / Magazine de découvertes</category>
   </programme>
   <programme channel="oqee.350" start="20260625111800 +0200" stop="20260625114800 +0200">
@@ -157600,7 +158185,7 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
   </programme>
   <programme channel="oqee.353" start="20260625095200 +0200" stop="20260625101200 +0200">
     <title lang="fr">Viure al país</title>
-    <desc lang="fr">Un magazine occitan à la rencontre de toutes celles et ceux qui se boulèguent pour faire vivre leur pays, qu'ils soient militants, politiques ou simples citoyens.</desc>
+    <desc lang="fr">Un magazine occitan à la rencontre de toutes celles et ceux qui se boulèguent pour faire vivre leur pays, qu'ils soient</desc>
     <category lang="fr">Magazine / Magazine de découvertes</category>
   </programme>
   <programme channel="oqee.353" start="20260625101200 +0200" stop="20260625104000 +0200">
@@ -162430,7 +163015,7 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
   </programme>
   <programme channel="oqee.505" start="20260625063500 +0200" stop="20260625070000 +0200">
     <title lang="fr">Primeira página</title>
-    <desc lang="fr"> Noticiário televisivo</desc>
+    <desc lang="fr">Revista de imprensa com as primeiras páginas dos jornais. Diretos com as redações dos jornais onde estão a ser ultimadas as edições da manhã seguinte e ainda um olhar para a imprensa regional e internacional.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.505" start="20260625070000 +0200" stop="20260625103000 +0200">
@@ -170887,10 +171472,20 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
     <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.812" start="20260625041500 +0200" stop="20260625045700 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20260625041500 +0200" stop="20260625050000 +0200">
     <title lang="fr">Lecţii de viaţă</title>
     <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260625045700 +0200" stop="20260625093000 +0200">
+    <title lang="fr">Ştirile Pro TV</title>
+    <desc lang="fr">De luni până vineri, jurnalul de ştiri de dimineaţă curge în cascade, cu informaţii adunate după miezul nopţii, cu reportaje realizate în zori sau cu o serie de repere ale zilei în curs.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.812" start="20260625050000 +0200" stop="20260625093000 +0200">
     <title lang="fr">Ştirile ProTv</title>
@@ -170905,6 +171500,11 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260625130000 +0200" stop="20260625140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.812" start="20260625130000 +0200" stop="20260625131500 +0200">
     <title lang="fr">Teleshopping</title>
@@ -170936,20 +171536,45 @@ L’enquête révèle une incroyable histoire : la victime Alberto Rodriguez, mo
     <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.812" start="20260625180000 +0200" stop="20260625190000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260625180000 +0200" stop="20260625193000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260625190000 +0200" stop="20260625192500 +0200">
+    <title lang="fr">Ştirile sportive</title>
+    <desc lang="fr">Cele mai importante informații din lumea sportului, prezentate într-un format dinamic și accesibil: rezultate, declarații exclusive, imagini spectaculoase și analize ale celor mai relevante competiții interne și internaționale. De la fotbal și sporturi de echipă, până la performanțe individuale remarcabile, jurnalul sportiv aduce zilnic pulsul actualității sportive.</desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.812" start="20260625192500 +0200" stop="20260625193000 +0200">
+    <title lang="fr">Vremea</title>
+    <desc lang="fr">Prognoza meteo actualizată oferă informații esențiale despre evoluția vremii la nivel național și internațional: temperaturi, precipitații, fenomene extreme și tendințe pentru zilele următoare. Prezentată clar și concis, rubrica meteo îi ajută pe telespectatori să își planifice activitățile zilnice în funcție de condițiile atmosferice.</desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.812" start="20260625193000 +0200" stop="20260625201500 +0200">
     <title lang="fr">Las Fierbinţi</title>
     <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="oqee.812" start="20260625201500 +0200" stop="20260625210000 +0200">
+    <title lang="fr">Iubire ca în filme</title>
+    <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="oqee.812" start="20260625201500 +0200" stop="20260625211500 +0200">
     <title lang="fr">Iubire ca în filme</title>
     <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
     <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260625210000 +0200" stop="20260625223000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
   <programme channel="oqee.812" start="20260625211500 +0200" stop="20260625220000 +0200">
     <title lang="fr">Lecţii de viaţă</title>
