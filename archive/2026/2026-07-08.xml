@@ -96,6 +96,10 @@
     <display-name>Canal 32</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~6d0e7341e1a8b708.png/480x480/quality/100/canal-32.png"/>
   </channel>
+  <channel id="CanalJ.fr">
+    <display-name>CANAL J</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~af78921dcd4437f4.png/480x480/quality/100/canal-j.png"/>
+  </channel>
   <channel id="CanalPlus.fr">
     <display-name>Canal+</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~897223a57e2e8ae5.png/480x480/quality/100/canal.png"/>
@@ -460,6 +464,10 @@
     <display-name>M6 Music</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~b4eb6aa19b3ef5f1.png/480x480/quality/100/m6-music.png"/>
   </channel>
+  <channel id="MCM.fr">
+    <display-name>MCM</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~9f3991bdc4b3b017.png/480x480/quality/100/mcm.png"/>
+  </channel>
   <channel id="MCMTop.fr">
     <display-name>MCM Top</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~2d0f105d5d08b651.png/480x480/quality/100/mcm-top.png"/>
@@ -683,6 +691,10 @@
   <channel id="TV5Monde.fr">
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
+  </channel>
+  <channel id="TV5MondeAsie.fr">
+    <display-name>TV5 Monde Asie</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
   </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
@@ -948,6 +960,10 @@
     <display-name>Emotion'L+</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3220/w256"/>
   </channel>
+  <channel id="oqee.1210">
+    <display-name>EVTV</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3237/w256"/>
+  </channel>
   <channel id="oqee.1211">
     <display-name>Scream'IN+</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3239/w256"/>
@@ -988,6 +1004,10 @@
     <display-name>A Haber</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3328/w256"/>
   </channel>
+  <channel id="oqee.1255">
+    <display-name>EMCI TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3352/w256"/>
+  </channel>
   <channel id="oqee.1296">
     <display-name>BFMTV Grands Reportages</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3495/w256"/>
@@ -1007,6 +1027,10 @@
   <channel id="oqee.1335">
     <display-name>Lutte TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3584/w256"/>
+  </channel>
+  <channel id="oqee.1368">
+    <display-name>Bang U</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3684/w256"/>
   </channel>
   <channel id="oqee.139">
     <display-name>Planète+ Crime</display-name>
@@ -1284,6 +1308,10 @@
     <display-name>MyZen Nature</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2215/w256"/>
   </channel>
+  <channel id="oqee.698">
+    <display-name>Penthouse Gold</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1370/w256"/>
+  </channel>
   <channel id="oqee.702">
     <display-name>Equinoxe TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1446/w256"/>
@@ -1379,6 +1407,10 @@
   <channel id="oqee.951">
     <display-name>Bloomberg HT</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3755/w256"/>
+  </channel>
+  <channel id="oqee.953">
+    <display-name>TRT Belgesel</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/2345/w256"/>
   </channel>
   <channel id="oqee.968">
     <display-name>Tele 1</display-name>
@@ -5401,6 +5433,11 @@
     <desc lang="fr">Les prévisions météo pour le lendemain</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="CNews.fr" start="20260708035400 +0200" stop="20260708042600 +0200">
+    <title lang="fr">Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="CNews.fr" start="20260708035400 +0200" stop="20260708041600 +0200">
     <title lang="fr">Edition de la nuit</title>
     <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée </desc>
@@ -5430,6 +5467,11 @@
     <title lang="fr">Météo</title>
     <desc lang="fr">Les prévisions météo pour le lendemain</desc>
     <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="CNews.fr" start="20260708042900 +0200" stop="20260708045300 +0200">
+    <title lang="fr">Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée </desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="CNews.fr" start="20260708042900 +0200" stop="20260708045100 +0200">
     <title lang="fr">Edition de la nuit</title>
@@ -6065,6 +6107,221 @@
     <desc lang="fr">Rediffusion en boucle du programme télévisé toute la nuit jusqu'au matin.</desc>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
+  <programme channel="CanalJ.fr" start="20260708060500 +0200" stop="20260708061500 +0200">
+    <title lang="fr">Robin des Bois, malice à Sherwood - S01E12</title>
+    <desc lang="fr">Un aventurier, fraîchement arrivé à Nottingham, parvient à remplacer Robin dans le coeur des villageois, mais son seul but est de les voler.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708061500 +0200" stop="20260708062500 +0200">
+    <title lang="fr">Robin des Bois, malice à Sherwood - S01E13</title>
+    <desc lang="fr">Parce que Robin s'est amusé de ses piètres talents de tireuse à l'arc, Marianne, vexée, ensorcèle une flèche qui tombe entre les mains du Prince Jean.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708062500 +0200" stop="20260708064000 +0200">
+    <title lang="fr">Robin des Bois, malice à Sherwood - S01E14</title>
+    <desc lang="fr">Une vielle dame profite de la naïveté de Petit Jean pour lui "prendre" sa chance pour ensuite lui revendre à prix d'or. Robin va tenter de l'aider.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708064000 +0200" stop="20260708065000 +0200">
+    <title lang="fr">Robin des Bois, malice à Sherwood - S01E15</title>
+    <desc lang="fr">Décidé à s'entraîner avec sa nouvelle catapulte, le prince Jean menace de détruire la ferme de Juliette. Robin, qui doit stopper les tirs, s'oppose aux soldats du Prince Jean.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708065000 +0200" stop="20260708070500 +0200">
+    <title lang="fr">Robin des Bois, malice à Sherwood - S01E16</title>
+    <desc lang="fr">Robin donne une leçon d'humilité au Prince Jean qui séquestre un sculpteur condamné à glorifier sa suprématie sur le jeune hors la loi.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708070500 +0200" stop="20260708071500 +0200">
+    <title lang="fr">Sonic Boom - S02E13</title>
+    <desc lang="fr">Sonic trébuche sur une vieille armure mecha. Ça le rend beaucoup plus puissant mais également dépendant. Il ne tarde pas à changer.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708071500 +0200" stop="20260708072500 +0200">
+    <title lang="fr">Sonic Boom - S02E14</title>
+    <desc lang="fr">Lorsque le docteur Eggman décide de construire un robot géant pour détruire Sonic, rien ne se passe comme il l'avait prévu.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708072500 +0200" stop="20260708074000 +0200">
+    <title lang="fr">Sonic Boom - S02E15</title>
+    <desc lang="fr">Sonic et ses amis se méfient lorsque Og, un froglodyte, remonte à la surface. Ils ont raison, c'est le premier d'une armée de froglodytes qui arrive.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708074000 +0200" stop="20260708075000 +0200">
+    <title lang="fr">Sonic Boom - S02E16</title>
+    <desc lang="fr">Après avoir participé à un tirage au sort, Knuckles remporte une lampe et réalise que pour pouvoir l'utiliser il doit d'abord trouver une maison.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708075000 +0200" stop="20260708080500 +0200">
+    <title lang="fr">Sonic Boom - S02E17</title>
+    <desc lang="fr">Quand le cristal Meroke, qui est la source d'énergie du Village, s'éteint, Sonic et ses amis doivent trouver un moyen de le remplacer.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708084500 +0200" stop="20260708091000 +0200">
+    <title lang="fr">Pokémon : Les Horizons - S26E15</title>
+    <desc lang="fr">Après avoir rencontré Spinel déguisé, Liko s'aperçoit qu'elle a perdu la mémoire. Elle est incapable de se rappeler pourquoi elle est retournée à Paldea.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708091000 +0200" stop="20260708093500 +0200">
+    <title lang="fr">Avatar, le dernier maître de l'air - S01E15</title>
+    <desc lang="fr">Aang est angoissé lorsque Katara et Sokka découvrent une piste qui pourrait leur permettre de retrouver leur père. De peur d'être abandonné, Aang leur cache un message fondamental...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708093500 +0200" stop="20260708100000 +0200">
+    <title lang="fr">Avatar, le dernier maître de l'air - S01E16</title>
+    <desc lang="fr">L'Avatar et ses amis sont sauvés par un homme appartenant à la bande d'un déserteur de la Nation du Feu lors d'une fête dans une ville de la Nation du Feu. Aang apprend la maîtrise du feu, mais blesse Katara. Après cela, il se jure de ne plus jamais utiliser le feu...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708100000 +0200" stop="20260708102500 +0200">
+    <title lang="fr">Avatar, le dernier maître de l'air - S01E17</title>
+    <desc lang="fr">Après avoir entendu des rumeurs sur la survie de maîtres de l'air, le groupe décide de rejoindre le temple de l'air boréal pour voir cela de leurs propres yeux.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708102500 +0200" stop="20260708110000 +0200">
+    <title lang="fr">Ninjago - S08E10</title>
+    <desc lang="fr">Garmadon entreprend de détruire Ninjago à l'aide d'un gigantesque robot. Les ninjas soignent Lloyd, gravement blessé, et découvrent qu'il a perdu ses pouvoirs.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708130000 +0200" stop="20260708131500 +0200">
+    <title lang="fr">Alvinnn !!! et les Chipmunks - S01E44</title>
+    <desc lang="fr">Prêts à tout pour prendre leur revanche sur la défaite humiliante de l'année passée, les Chipmunks se disputent pour savoir qui est le plus compétent pour les mener à la victoire...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708131500 +0200" stop="20260708132500 +0200">
+    <title lang="fr">Alvinnn !!! et les Chipmunks - S01E49</title>
+    <desc lang="fr">Alvin est blessé. Simon accepte d'affronter Derek dans une émission de survie où il ne peut y avoir qu'un seul vainqueur. Les coups bas sont-ils la seule façon de gagner ?...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708132500 +0200" stop="20260708133500 +0200">
+    <title lang="fr">Alvinnn !!! et les Chipmunks - S01E40</title>
+    <desc lang="fr">Alvin veut offrir à Dave des vacances bien méritées. En secret, il s'inscrit pour un échange de maisons avec des Hawaïens. Mais les hôtes arrivent en avance, et Dave est encore à la maison...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708133500 +0200" stop="20260708134500 +0200">
+    <title lang="fr">Alvinnn !!! et les Chipmunks - S01E10</title>
+    <desc lang="fr">Alvin, Simon et les Chipettes, persuadés que Theodore est amoureux d'une fille, lui donnent des conseils en séduction. Mais les enseignements des uns contredisent ceux des autres...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708134500 +0200" stop="20260708140000 +0200">
+    <title lang="fr">Alvinnn !!! et les Chipmunks - S01E09</title>
+    <desc lang="fr">Quelque peu agacé, Dave installe une application parentale destinée à surveiller attentivement le comportement des Chipmunks. Alvin s'en amuse et, très vite, tente tout ce qui est en son pouvoir pour lui échapper...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708140000 +0200" stop="20260708141000 +0200">
+    <title lang="fr">Underdog - S01E05</title>
+    <desc lang="fr">Tony la Griffe vole un laser qui contrôle les objets pour animer une statue géante représentant un chat égyptien antique. Toutoudini donne accidentellement vie à la statue.</desc>
+    <category lang="fr">Dessin animé / Dessin animé d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708141000 +0200" stop="20260708142000 +0200">
+    <title lang="fr">Underdog - S01E06</title>
+    <desc lang="fr">Paulie veut que la Dog Force nettoie le QG. Préférant aller à la fête foraine, Toutoudini invoque un aspirateur géant dont s'empare Tony la Griffe.</desc>
+    <category lang="fr">Dessin animé / Dessin animé d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708142000 +0200" stop="20260708144500 +0200">
+    <title lang="fr">Marblegen - S01E08</title>
+    <desc lang="fr">Un vendeur de vêtements de sports propose à Cosmo de devenir son égérie. Cosmo s'emballe, séduit par les paillettes et la promesse de célébrité, et se coupe de Rémus.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708144500 +0200" stop="20260708151000 +0200">
+    <title lang="fr">Marblegen - S01E16</title>
+    <desc lang="fr">La Marblegen Romulus a été détruite et il y a peut-être un espoir pour la reconstruire. Zuméo guide Cosmo et Aïssa dans les niveaux secrets de l'Observatoire à la recherche d'un fragment de Météorite, l'ingrédient ultime pour recréer les Marblegen jumelles. Cependant, ils doivent affronter les fantômes des snipers passés pour obtenir la Météorite. Pendant ce temps, Kali et Bishop tentent d'empêcher les Météores de réparer leur Marblegen fétiche.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708151000 +0200" stop="20260708153000 +0200">
+    <title lang="fr">Marblegen - S01E06</title>
+    <desc lang="fr">Aïssa, lors d'un match contre les Météores, joue en tant que "Chronos", une Marblegen qui réinitialise le temps en cas de défaite. Avec les pouvoirs de Romulus activés, elle conserve la conscience du passé et découvre qu'elle est revenue dans le temps. Elle revit la même journée plusieurs fois, qui se trouve être son anniversaire, se terminant toujours en catastrophe. Piégée dans une chronologie cauchemardesque, elle doit compter sur elle-même pour vaincre à la fois "Chronos" et les Ombres, et trouver un moyen de se libérer de cette boucle temporelle.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708153000 +0200" stop="20260708160000 +0200">
+    <title lang="fr">Marblegen - S01E04</title>
+    <desc lang="fr">Malgré l'interdiction de Zuméo, Cosmo a emprunté le grimoire des Costello. Désormais entre les mains d'Archi et Lardo, les Météores doivent le récupérer chez King.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708160000 +0200" stop="20260708162500 +0200">
+    <title lang="fr">Foot 2 rue - S04E03</title>
+    <desc lang="fr">Les Bleus doivent affronter les "Spectres du Vieux Manoir". Depuis leur défaite face au FC Golmetti, l'ambiance au sein de l'équipe est électrique.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708162500 +0200" stop="20260708164500 +0200">
+    <title lang="fr">Foot 2 rue - S04E04</title>
+    <desc lang="fr">Avant un match décisif face aux "As de Coeur", Kani déserte l'institut pour éviter ses parents venus lui rendre visite. Grâce à l'intervention de Bianca qui comprend la situation, ils acceptent de rester pour assister à la rencontre. Leur présence inattendue au bord du terrain bouleverse profondément Kani...</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708164500 +0200" stop="20260708171500 +0200">
+    <title lang="fr">Foot 2 rue - S04E05</title>
+    <desc lang="fr">Les Bleus affrontent les Torpilleurs sur un terrain quasiment posé sur la mer, mais Assâad a peur de l'eau, ce qui pose un problème de taille.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708171500 +0200" stop="20260708174000 +0200">
+    <title lang="fr">Beyblade X - S02E33</title>
+    <desc lang="fr">Le rideau se lève sur une bataille, non pas entre Bladers, mais entre Concepteurs. L'équipe Persona va utiliser des toupies créées par Multi pour affronter Zooganic.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708174000 +0200" stop="20260708180000 +0200">
+    <title lang="fr">Beyblade X - S02E34</title>
+    <desc lang="fr">Alors que l'équipe Yggdrasil grimpe au sommet du classement du tournoi des étoiles, elle est défiée par l'équipe Gordias. Zonamos et Iwao s'affrontent dans un jeu d'énigmes.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708180000 +0200" stop="20260708182500 +0200">
+    <title lang="fr">Ninjago - S09E05</title>
+    <desc lang="fr">Harumi mène un assaut contre le quartier général de la résistance dont les membres sont contraints de fuir. Dans le Premier Royaume, les ninjas se font un nouvel allié : Heavy Metal, bras droit de Iron Baron...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708182500 +0200" stop="20260708185000 +0200">
+    <title lang="fr">Ninjago - S09E06</title>
+    <desc lang="fr">Lloyd découvre la véritable nature de Mystake et Garmadon fait de Harumi sa fille des ténèbres. Dans l'autre monde, les ninjas, accompagnés par Faith, s'aventurent dans le territoire des Onis...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708185000 +0200" stop="20260708190000 +0200">
+    <title lang="fr">Sonic Boom - S01E15</title>
+    <desc lang="fr">Une météorite s'abat sur l'île de Sonic. En touchant l'étrange matière qui la compose, Sonic et Eggman se retrouvent chacun dans le corps de l'autre.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708190000 +0200" stop="20260708191500 +0200">
+    <title lang="fr">Sonic Boom - S01E16</title>
+    <desc lang="fr">Sans le vouloir, Tails se retrouve enrôlé par une étrange confrérie qui fait tout pour être diabolique.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708191500 +0200" stop="20260708192500 +0200">
+    <title lang="fr">Sonic Boom - S01E17</title>
+    <desc lang="fr">Au cours d'une bataille entre Eggman et Sonic, Eggman est blessé, mais au lieu d'agir comme un méchant, il décide de poursuivre Sonic en justice.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708192500 +0200" stop="20260708194000 +0200">
+    <title lang="fr">Sonic Boom - S01E18</title>
+    <desc lang="fr">Eggman inonde l'île avec sa dernière invention, la sauce tomate Eggman. Sonic suppose qu'il s'agit d'un nouveau piège.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708194000 +0200" stop="20260708195000 +0200">
+    <title lang="fr">Sonic Boom - S01E19</title>
+    <desc lang="fr">La spectaculaire vitesse de Sonic provoque des dégâts. Curieusement, c'est auprès d'Eggman qu'il trouve la solution, à moins qu'il s'agisse d'un piège.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708195000 +0200" stop="20260708200500 +0200">
+    <title lang="fr">Sonic Boom - S01E20</title>
+    <desc lang="fr">La nouvelle arme d'Eggman pertube l'espace temps et lui fait revivre tous les jours le même jour. Il a besoin de Sonic et Tails pour en sortir.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708200500 +0200" stop="20260708202500 +0200">
+    <title lang="fr">Pokémon: Noir et Blanc - S16E35</title>
+    <desc lang="fr">En poursuivant leur croisière dans les îles Décolores, en route pour la région de Kanto, les amis explorent une zone rocailleuse de l'île Spacieuse. Ils décident de s'arrêter pour la nuit, mais Pikachu et Coupenotte sont réveillés par le Pokémon fabuleux Jirachi...</desc>
+    <category lang="fr">Dessin animé / Dessin animé manga</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708202500 +0200" stop="20260708204500 +0200">
+    <title lang="fr">Pokémon: Noir et Blanc - S16E36</title>
+    <desc lang="fr">Après un long périple à travers l'île Spacieuse, les amis aperçoivent quelque chose qui ressemble à une étoile filante. En examinant les débris, Sacha trouve une pièce rune, censée porter chance à son propriétaire...</desc>
+    <category lang="fr">Dessin animé / Dessin animé manga</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708204500 +0200" stop="20260708211000 +0200">
+    <title lang="fr">Pokémon: Noir et Blanc - S16E37</title>
+    <desc lang="fr">Le Pokégroupe fait la connaissance d'Alexia, une journaliste de la région de Kalos qui réalise des photographies de Pokémon. Elle filme le tournoi.</desc>
+    <category lang="fr">Dessin animé / Dessin animé manga</category>
+  </programme>
+  <programme channel="CanalJ.fr" start="20260708220000 +0200" stop="20260709060500 +0200">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
   <programme channel="CanalPlus.fr" start="20260708014600 +0200" stop="20260708033800 +0200">
     <title lang="fr">Sirât</title>
     <desc lang="fr">Au coeur des montagnes du sud du Maroc, Luis, accompagné de son fils Estéban, 12 ans, recherche Mar, sa fille aînée qui a disparu sans laisser de traces lors d'une rave party il y a plusieurs mois. Ils rallient un groupe de fêtards, mais aucun d'entre eux ne se souvient de la jeune femme. Alors que la police intervient pour mettre fin à la fête et ordonner à tous les étrangers de quitter le territoire, Luis suit les ravers qui se mettent en route vers une énième fête dans les profondeurs du désert. Ils s'enfoncent dans l'immensité brûlante d'un miroir de sable qui les confronte à leurs propres limites...</desc>
@@ -6167,7 +6424,7 @@
   </programme>
   <programme channel="CanalPlus.fr" start="20260708182400 +0200" stop="20260708183800 +0200">
     <title lang="fr">L'hebd'Hollywood</title>
-    <desc lang="fr">Le magazine trace la chronique de la vie à Hollywood, des grands studios aux indépendants, des stars aux étoiles montantes. Entre événements, indiscrétions et exclusivités, le journaliste Didier Allouch propose depuis Los Angeles un décryptage très personnel de l'actualité du cinéma américain. News sur les tournages, tendances, films en salles, stars : la cité des Anges livre tous ses secrets.</desc>
+    <desc lang="fr">L'Hebd'Hollywood présente les plus gros blockbusters de l'été : Supergirl avec Milly Alcock en héroïne Gen Z, Spider-Man Brand New Day promis à 2 milliards de dollars, et L'Odyssée de Christopher Nolan. L'émission met en avant la programmation spéciale \"instinct bestial\" de Canal+ avec des films de créatures : Primate, un film d'horreur avec un chimpanzé tueur, et Deep Water de Renny Harlin, mêlant catastrophe aérienne et requins.</desc>
     <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="CanalPlus.fr" start="20260708183800 +0200" stop="20260708185200 +0200">
@@ -6480,6 +6737,11 @@
     <desc lang="fr">Employé d'un magasin d'électroménager, Daniel semble loin de la carrière de chanteur dont il rêve depuis sa tendre enfance. A l'approche de la quarantaine, ce célibataire a désormais d'autres chats à fouetter, notamment régler ses trop nombreuses dettes. Impressionné par les connaissances de son collègue Stéphane, un homme aussi intelligent que naïf, il échafaude un plan. Ensemble, ils vont tenter d'écumer les plateaux de télévision en remportant les sommes mises en jeu. Enfin sélectionnés pour une émission, les deux s'y rendent avec l'espoir de gagner le gros lot. C'est finalement à cet instant que Daniel perce dans la chanson...</desc>
     <category lang="fr">Film / Comédie</category>
   </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708021100 +0200" stop="20260708033700 +0200">
+    <title lang="fr">Les beaux gosses</title>
+    <desc lang="fr">Hervé et Camel, adolescents de 14 ans scolarisés dans le même collège, ne pensent qu'à une chose : les filles. C'est leur unique sujet de conversation. Malheureusement, les deux amis, desservis par un physique ingrat, multiplient les échecs. Alors ils se contentent de se masturber devant de vieux catalogues. Mais un jour, tout change pour Hervé, qui vit seul avec une mère intrusive et déprimée. En effet, il réalise qu'Aurore, la plus jolie fille de la classe, a le béguin pour lui. Encouragé par Camel, Hervé tente de se rapprocher d'elle. Il compte profiter d'une fête, organisée par la grande soeur d'Aurore, pour arriver à ses fins...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708021100 +0200" stop="20260708033600 +0200">
     <title lang="fr">Les beaux gosses</title>
     <desc lang="fr">Hervé et Camel, adolescents de 14 ans scolarisés dans le même collège, ne pensent qu'à une chose : les filles. C'est leur unique sujet de conversation. Malheureusement, les deux amis, desservis par un physique ingrat, multiplient les échecs. Alors ils se contentent de se masturber devant de vieux catalogues. Mais un jour, tout change pour Hervé, qui vit seul avec une mère intrusive et déprimée. En effet, il réalise qu'Aurore, la plus jolie fille de la classe, a le béguin pour lui. Encouragé par Camel, Hervé tente de se rapprocher d'elle. Il compte profiter d'une fête, organisée par la grande soeur d'Aurore, pour arriver à ses fins...</desc>
@@ -6490,9 +6752,19 @@
     <desc lang="fr">Paul et Stéphane, deux repris de justice, profitent de l'arrêt de la fourgonnette qui les transporte pour s'évader, enchaînés l'un à l'autre. Les premiers contacts entre les deux hommes manquent de chaleur mais bientôt, Stéphane, qui passe pour être le meilleur casseur de France, s'intéresse fortement au projet que caresse Paul. Celui-ci envisage rien moins qu'un fabuleux cambriolage dans un casino de la Côte d'Azur. C'est chez une jeune veuve, qui pleure encore le meurtre de son mari par la police, que les deux complices trouvent asile. Le trio se met à l'ouvrage. Rien ne doit être laissé au hasard dans cette périlleuse entreprise...</desc>
     <category lang="fr">Film / Film d'aventures</category>
   </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708054000 +0200" stop="20260708070200 +0200">
+    <title lang="fr">Angelo dans la forêt mystérieuse</title>
+    <desc lang="fr">Angelo, 10 ans, rêve depuis toujours de devenir un aventurier et un explorateur. Jusqu'au jour où, partant en voiture avec sa famille pour se rendre au chevet de sa grand-mère malade, il est brusquement mis au défi de prouver sa témérité. En effet, oublié par erreur sur une aire d'autoroute, Angelo, n'écoutant que son courage, décide de couper à travers la forêt pour rejoindre la maison de Mémé. Il s'enfonce alors dans un territoire mystérieux peuplé d'êtres étranges que menace un ennemi pire encore que l'ogre de la région…</desc>
+    <category lang="fr">Film / Film d'animation</category>
+  </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708054200 +0200" stop="20260708070300 +0200">
     <title lang="fr">Angelo dans la forêt mystérieuse</title>
     <desc lang="fr">Angelo, 10 ans, rêve depuis toujours de devenir un aventurier et un explorateur. Jusqu'au jour où, partant en voiture avec sa famille pour se rendre au chevet de sa grand-mère malade, il est brusquement mis au défi de prouver sa témérité. En effet, oublié par erreur sur une aire d'autoroute, Angelo, n'écoutant que son courage, décide de couper à travers la forêt pour rejoindre la maison de Mémé. Il s'enfonce alors dans un territoire mystérieux peuplé d'êtres étranges que menace un ennemi pire encore que l'ogre de la région…</desc>
+    <category lang="fr">Film / Film d'animation</category>
+  </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708070200 +0200" stop="20260708082200 +0200">
+    <title lang="fr">Le tour du monde en 80 jours</title>
+    <desc lang="fr">Passe-partout, un jeune ouistiti naïf, vit avec une mère surprotectrice qui lui évite le moindre danger, allant jusqu'à l'enfermer dans sa chambre. Il rêve d'une vie trépidante et pleine d'aventures. Tout bascule lorsqu'il croise Phileas Frog, une grenouille exploratrice portée sur les blagues, mais aussi sur les escroqueries. Cette dernière l'entraîne dans son défi à dix millions de palourdes : le tour du monde en 80 jours, pour ainsi établir un nouveau record du monde. Ils se lancent dans cette grande traversée, ignorant que l'inspecteur Fix est à leurs trousses, elle qui soupçonne Phileas d'être l'auteur d'un braquage... </desc>
     <category lang="fr">Film / Film d'animation</category>
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708070300 +0200" stop="20260708082300 +0200">
@@ -6500,10 +6772,20 @@
     <desc lang="fr">Passe-partout, un jeune ouistiti naïf, vit avec une mère surprotectrice qui lui évite le moindre danger, allant jusqu'à l'enfermer dans sa chambre. Il rêve d'une vie trépidante et pleine d'aventures. Tout bascule lorsqu'il croise Phileas Frog, une grenouille exploratrice portée sur les blagues, mais aussi sur les escroqueries. Cette dernière l'entraîne dans son défi à dix millions de palourdes : le tour du monde en 80 jours, pour ainsi établir un nouveau record du monde. Ils se lancent dans cette grande traversée, ignorant que l'inspecteur Fix est à leurs trousses, elle qui soupçonne Phileas d'être l'auteur d'un braquage... </desc>
     <category lang="fr">Film / Film d'animation</category>
   </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708082200 +0200" stop="20260708101000 +0200">
+    <title lang="fr">Populaire</title>
+    <desc lang="fr">En 1958. La jeune Rose Pamphyle vit avec son père, un veuf bourru, dans un petit village normand. Son destin est déjà tout tracé : elle est promise au fils du garagiste et à une existence de femme au foyer, docile et soignée. Mais Rose voit les choses d'un autre oeil. Elle s'enfuit pour Lisieux, où Louis Echard, patron d'un cabinet d'assurances, cherche une secrétaire. Découvrant que la jeune femme est douée d'une faculté très particulière - elle tape à la machine à une vitesse redoutable -, Echard se met en tête de l'entraîner pour des concours de vitesse dactylographique, et de faire d'elle la fille la plus rapide du pays...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708082300 +0200" stop="20260708101100 +0200">
     <title lang="fr">Populaire</title>
     <desc lang="fr">En 1958. La jeune Rose Pamphyle vit avec son père, un veuf bourru, dans un petit village normand. Son destin est déjà tout tracé : elle est promise au fils du garagiste et à une existence de femme au foyer, docile et soignée. Mais Rose voit les choses d'un autre oeil. Elle s'enfuit pour Lisieux, où Louis Echard, patron d'un cabinet d'assurances, cherche une secrétaire. Découvrant que la jeune femme est douée d'une faculté très particulière - elle tape à la machine à une vitesse redoutable -, Echard se met en tête de l'entraîner pour des concours de vitesse dactylographique, et de faire d'elle la fille la plus rapide du pays...</desc>
     <category lang="fr">Film / Comédie</category>
+  </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708101000 +0200" stop="20260708115200 +0200">
+    <title lang="fr">L'arnacoeur</title>
+    <desc lang="fr">Alex est expert dans un domaine peu ordinaire : il est briseur de couples professionnel. Usant de son charme, il peut transformer n'importe quel petit ami en ex. Avec sa soeur Mélanie et son beau-frère Marc, il gère une petite entreprise chargée de venir en aide aux femmes malheureuses dans leur couple. Un jour, il est amené à s'occuper de la jolie Juliette, une riche héritière qui file le parfait amour avec Jonathan, un Anglais avec qui elle doit prochainement se marier. Alex refuse tout d'abord cette mission car il s'est donné comme mot d'ordre de ne pas s'en prendre aux femmes comblées. Mais des soucis financiers vont l'amener à revenir sur ses principes...</desc>
+    <category lang="fr">Film / Comédie romantique</category>
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708101100 +0200" stop="20260708115200 +0200">
     <title lang="fr">L'arnacoeur</title>
@@ -6515,15 +6797,30 @@
     <desc lang="fr">Après huit mois d'internement en hôpital psychiatrique pour des troubles bipolaires, Pat Solatano, la trentaine, est contraint de retourner vivre chez ses parents. Car en son absence, il a tout perdu. Sa maison d'abord, son emploi d'enseignant ensuite, puis surtout sa femme, Nikki, qui a obtenu le divorce. Convaincu qu'il est guéri, Pat, devenu un optimiste forcené, se met en tête de reconquérir son ex épouse. Il se heurte dans cette entreprise à l'incompréhension de son père, plus intéressé par le football que par les états d'âme de son fils. Lors d'un dîner chez son meilleur ami, Pat rencontre Tiffany, une jeune et jolie veuve, elle aussi sujette à la déprime. Les deux marginaux sont en phase, et Tiffany propose à Pat de l'aider dans sa reconquête...</desc>
     <category lang="fr">Film / Comédie dramatique</category>
   </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708135100 +0200" stop="20260708162900 +0200">
+    <title lang="fr">The Dark Knight Rises</title>
+    <desc lang="fr">Cela fait huit ans maintenant que Batman a tourné le dos à ses activités de justicier pour endosser le rôle du fugitif. Il a choisi d'assumer l'entière responsabilité de la mort du procureur Harvey Dent, sacrifiant tout ce qu'il avait de plus cher afin de préserver l'idéal qu'il partage avec le commissaire Gordon. Pendant un temps, grâce au Dent Act, une série de lois anti-crime, le nombre de délits a baissé sensiblement à Gotham. Mais l'arrivée d'une cambrioleuse agile au masque de chat pourrait bien inverser la tendance. Plus dangereux encore, Bane, un terroriste, oblige Batman a sortir de sa réserve. L'issue du duel se révèle incertaine...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708135100 +0200" stop="20260708163000 +0200">
     <title lang="fr">The Dark Knight Rises</title>
     <desc lang="fr">Cela fait huit ans maintenant que Batman a tourné le dos à ses activités de justicier pour endosser le rôle du fugitif. Il a choisi d'assumer l'entière responsabilité de la mort du procureur Harvey Dent, sacrifiant tout ce qu'il avait de plus cher afin de préserver l'idéal qu'il partage avec le commissaire Gordon. Pendant un temps, grâce au Dent Act, une série de lois anti-crime, le nombre de délits a baissé sensiblement à Gotham. Mais l'arrivée d'une cambrioleuse agile au masque de chat pourrait bien inverser la tendance. Plus dangereux encore, Bane, un terroriste, oblige Batman a sortir de sa réserve. L'issue du duel se révèle incertaine...</desc>
     <category lang="fr">Film / Film d'action</category>
   </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708162900 +0200" stop="20260708175400 +0200">
+    <title lang="fr">Adieu les cons</title>
+    <desc lang="fr">Agée de 43 ans, Suze Trappet vient d'apprendre qu'elle était atteinte d'une grave maladie. Elle veut retrouver le fils qu'elle a eu à 15 ans et qu'elle a dû abandonner. A l'agence de santé, personne ne veut l'aider dans sa recherche. Pendant ce temps et dans le bureau d'à côté, JB, un quinquagénaire n'en peut plus et a décidé d'en finir. Armé d'un fusil, il fait un trou énorme dans le mur et blesse l'agent qui recevait Suze. C'est le début d'une course poursuite pour Suze et JB. Ensemble et avec monsieur Blin, un archiviste aveugle, ils vont tenter d'échapper à la police et de retrouver l'enfant de Suze...</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708163000 +0200" stop="20260708175500 +0200">
     <title lang="fr">Adieu les cons</title>
     <desc lang="fr">Agée de 43 ans, Suze Trappet vient d'apprendre qu'elle était atteinte d'une grave maladie. Elle veut retrouver le fils qu'elle a eu à 15 ans et qu'elle a dû abandonner. A l'agence de santé, personne ne veut l'aider dans sa recherche. Pendant ce temps et dans le bureau d'à côté, JB, un quinquagénaire n'en peut plus et a décidé d'en finir. Armé d'un fusil, il fait un trou énorme dans le mur et blesse l'agent qui recevait Suze. C'est le début d'une course poursuite pour Suze et JB. Ensemble et avec monsieur Blin, un archiviste aveugle, ils vont tenter d'échapper à la police et de retrouver l'enfant de Suze...</desc>
     <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708175400 +0200" stop="20260708192300 +0200">
+    <title lang="fr">Le Père Noël est une ordure</title>
+    <desc lang="fr">C'est la nuit de Noël. Thérèse et Pierre s'apprêtent à assurer la permanence téléphonique de l'association SOS détresse-amitié. Une soirée plutôt calme se prépare malgré les troublantes intentions que les deux jeunes gens nourrissent l'un à l'égard de l'autre, les épouvantables gâteaux d'un voisin yougoslave, les fantaisies de l'ascenseur et les visites intempestives et totalement contraires au règlement de quelques désespérés envahissants. Parmi ceux-ci se trouvent Josette, qui vient de quitter son mari alcoolique, et Katia, un travesti gravement dépressif. Mais la plus mauvaise surprise attend le dépanneur, appelé pour l'ascenseur et frappé d'une balle en plein front par Félix, l'époux tyranique de Josette, encore costumé en Père Noël...</desc>
+    <category lang="fr">Film / Comédie</category>
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708175500 +0200" stop="20260708192300 +0200">
     <title lang="fr">Le Père Noël est une ordure</title>
@@ -6539,6 +6836,11 @@
     <title lang="fr">La fleur du mal</title>
     <desc lang="fr">La famille Charpin-Vasseur est installée dans la région de Bordeaux depuis trois générations. Ses membres gardent plusieurs secrets. Par exemple, tante Line qui, à la fin de la guerre, a été accusée d'un meurtre avant d'être acquittée, faute de preuves. Anne Charpin-Vasseur, sa nièce, mène tambour battant sa campagne électorale pour conquérir la mairie locale. Pendant ce temps, Michèle, la fille d'Anne, file le parfait amour avec François. Mais un jour, un tract anonyme apparaît dans la ville, révélant des détails sordides sur la famille. Rapidement, tout le monde se met à soupçonner les autres membres du clan, tout particulièrement Gérard, le père de François...</desc>
     <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="CanalPlusGrandEcran.fr" start="20260708224500 +0200" stop="20260709002400 +0200">
+    <title lang="fr">La balance</title>
+    <desc lang="fr">Début des années 80, à Paris. Un truand est assassiné dans un bar de Belleville. Palouzi, chef de la brigade territoriale, vient de perdre son meilleur informateur. Il n'aura plus aucun renseignement sur les agissements de Massina, le caïd du quartier, qu'il n'a jamais réussi à prendre en flagrant délit. A la recherche d'un nouvel indicateur, il jette son dévolu sur Dédé, un ancien lieutenant de Massina tombé en disgrâce et qui, depuis, mène une vie paisible avec Nicole, une prostituée. Dédé est arrêté et placé devant un choix cornélien. Ou bien il accepte de trahir Massina, ou bien il va en prison pour proxénétisme. Dédé commence par refuser. Les hommes de Palouzi le traquent alors sans répit...</desc>
+    <category lang="fr">Film / Film policier</category>
   </programme>
   <programme channel="CanalPlusGrandEcran.fr" start="20260708224500 +0200" stop="20260709002500 +0200">
     <title lang="fr">La balance</title>
@@ -8315,6 +8617,66 @@
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="Cherie25.fr" start="20260708071500 +0200" stop="20260708085500 +0200">
+    <title lang="fr">Faites entrer l'accusé</title>
+    <desc lang="fr">Pour toucher les assurances vie qu'elle avait contractées au nom de son compagnon, Geneviève Montillet n'a pas hésité à demander à ses fils et un de leurs amis de l'assassiner. Mais ils ont échoué. C'est finalement elle qui a tué Eric de Vriendt. Il a fallu sept années de procédure pour que la meurtrière soit arrêtée.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708085500 +0200" stop="20260708104000 +0200">
+    <title lang="fr">Faites entrer l'accusé - S16E03</title>
+    <desc lang="fr">Le 22 mars 2002, Jean-Raymond Blatti, comptable d'une petite entreprise de la banlieue genevoise, est retrouvé mort à son bureau, le crâne défoncé. Sur son ventre, la police découvre une inscription : "Sale violeur", écrite à l'encre indélébile.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708104000 +0200" stop="20260708122000 +0200">
+    <title lang="fr">Faites entrer l'accusé - S08E13</title>
+    <desc lang="fr">Charles et Christophe Cretello sont les derniers à avoir vu leurs amis Angela et Alain Hay vivants. Quelques heures avant cette visite, les Hay avaient retiré 500 000 francs en liquide. A partir du déjeuner, Angela et Alain Hay n'ont plus donné signe de vie. Leurs corps ont été retrouvés un mois et demi plus tard, dans le coffre de leur voiture, immergée au fond du grand canal d'Alsace.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708122000 +0200" stop="20260708135000 +0200">
+    <title lang="fr">Faites entrer l'accusé</title>
+    <desc lang="fr">Le 28 février 1985, Evelyne Laborde et Bruno Joushomme, mariés depuis peu, ont un accident à bord de leur 2 CV, dans le bois de Meudon. Joushomme est sauf, mais Evelyne reste prisonnière des flammes. Si tout d'abord, la police croit à un accident, ce couple atypique éveille peu à peu les soupçons des enquêteurs.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708135000 +0200" stop="20260708144500 +0200">
+    <title lang="fr">Urgences - S01E05</title>
+    <desc lang="fr">Accablé de soucis, le docteur Mark Greene ne sait plus où donner de la tête. Doit-il davantage se préoccuper de son patient, Sam Gasner, atteint d'une sévère insuffisance cardiaque, ou de sa femme, qui vient d'être embauchée par le juge fédéral de Milwaukee et qui lui demande de déménager ? Malgré les très nombreuses sollicitations des malades qui ne cessent d'arriver, Greene a bien du mal à se concentrer. De son côté, Douglas Ross aide financièrement la mère d'une petite fille asthmatique qui ne peut acheter les médicaments dont son enfant a besoin. Une femme enceinte, victime d'un accident, risque un accouchement prématuré. C'est encore le docteur Ross qui doit s'en occuper...</desc>
+    <category lang="fr">Série / Série hospitalière</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708144500 +0200" stop="20260708155000 +0200">
+    <title lang="fr">Urgences - S01E04</title>
+    <desc lang="fr">Douglas Ross est toujours attiré par Carol Hathaway, qui vient d'emménager avec John Taglieri. Tandis que les docteurs Benton et Langworthy discutent d'un décès consécutif à un accident de voiture, John Carter contacte les parents pour leur annoncer la mort de leur fils. Le docteur Susan Lewis essaie de convaincre un commercial surmené de se relaxer, afin de ne pas aggraver son ulcère...</desc>
+    <category lang="fr">Série / Série hospitalière</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708155000 +0200" stop="20260708164500 +0200">
+    <title lang="fr">Urgences - S01E06</title>
+    <desc lang="fr">Malgré l'oppressante chaleur qui règne dans l'hôpital, due à une panne du système de climatisation, les médecins et infirmières des urgences se démènent pour assumer au mieux leurs responsabilités. Les docteurs Greene et Ross soignent une petite fille de 5 ans qui a des problèmes cardiaques et découvrent qu'elle a absorbé de la cocaïne. Le docteur Benton essaie de sauver un jeune patient blessé par balle. Susan Lewis se fait du souci pour sa soeur Chloe, qui voudrait rester avec elle alors que ses problèmes mentaux s'aggravent visiblement...</desc>
+    <category lang="fr">Série / Série hospitalière</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708164500 +0200" stop="20260708174500 +0200">
+    <title lang="fr">Urgences - S01E07</title>
+    <desc lang="fr">Le docteur Benton est confiant. Il pense que le travail remarquable qu'il a effectué en sauvant de la mort un patient qui avait été poignardé lui vaudra la bourse universitaire de Starzl, pour laquelle il postule. Son adversaire direct n'est autre que le docteur Langworthy. De leur côté, le docteur Ross et l'infirmière Hathaway parviennent à garder en vie un garçonnet de 12 ans, victime d'un accident de bateau. Dans l'euphorie de leur victoire, ils échangent un baiser...</desc>
+    <category lang="fr">Série / Série hospitalière</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708174500 +0200" stop="20260708211000 +0200">
+    <title lang="fr">Un gars, une fille</title>
+    <desc lang="fr">Dans la vie de couple, les plus petits aléas de la vie semblent parfois poser les plus gros problèmes. On constate relativement souvent que les hommes et les femmes ne réagissent pas de la même manière, ce qui ne facilite pas toujours le quotidien ! Alexandra et Jean en font l'expérience tous les jours. Entre disputes et réconciliations, discussions interminables et brèves chamailleries, il est parfois compliqué de s'entendre. La répartition des tâches ménagères et les négociations en vue du prochain repas de famille chez la belle-mère peuvent générer d'incroyables tensions. La vie amoureuse s'avère alors très loin d'être un long fleuve tranquille.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708211000 +0200" stop="20260708220500 +0200">
+    <title lang="fr">Cold Case - S07E17</title>
+    <desc lang="fr">John Stillman doit aider Diane Yates, une vieille connaissance qui enquête pour le FBI. Elle souhaite obtenir le dossier du meurtre de Mel Shaver, qui a été abattu en 2009, alors qu'il promenait son chien. Lilly et Yates se retrouvent chez la veuve de ce malheureux. Mais l'agent du FBI se montre beaucoup trop brusque lors de cet interrogatoire informel. De son côté, Nick Vera se met en tête d'élucider une affaire d'incendie criminel survenu en 2006. Un homme, considéré comme responsable, avait bien été envoyé en prison. Mais il a été assassiné par ses codétenus. Nick disparaît, laissant ses collègues inquiets...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708220500 +0200" stop="20260708230000 +0200">
+    <title lang="fr">Cold Case - S07E16</title>
+    <desc lang="fr">L'enquête sur l'assassinat de Mick Malone est rouverte par l'équipe de Lilly Rush. En effet, cet employé des docks, qui participait à des combats de catch illégaux, avait été tué dans des circonstances troubles. Père d'un garçon de 9 ans, il n'avait cependant rien à se reprocher. Pourtant, son ascension fulgurante avait posé problème à ceux qui espéraient gagner de l'argent à bon compte. Lilly comprend que le défunt ne se préoccupait pas de ces considérations. Il voulait surtout montrer à son fils qu'il n'était pas un perdant. De son côté, Valens suit une nouvelle piste qui pourrait le mener à l'agresseur de sa mère...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Cherie25.fr" start="20260708235500 +0200" stop="20260709010700 +0200">
+    <title lang="fr">Faites entrer l'accusé</title>
+    <desc lang="fr">Fin août 2004, Caroline est agressée sur un parking d'Angoulême, enlevée puis séquestrée avant d'être violée à plusieurs reprises. La police fait le rapprochement avec une autre affaire de viol commis en 2001. Dans ce dossier, Raoul Becquerel, alors en attente de son procès, a été libéré à cause d'une erreur de procédure. Dans les semaines qui suivent, le scénario se répète deux fois. La cavale de l'agresseur prend fin dans la nuit du 29 au 30 septembre 2004.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="ChevalTV.fr" start="20260708000000 +0200" stop="20260708030000 +0200">
     <title lang="fr">La chaîne des sports équestres</title>
     <desc lang="fr">Cheval TV, la chaîne des sports équestres, pour tout savoir du monde de l'équitation.</desc>
@@ -8555,10 +8917,20 @@
     <desc lang="fr">Emma et Dexter, deux jeunes diplômés aux caractères diamétralement opposés, choisissent de rester amis après une nuit partagée, mais totalement platonique. Leur relation complexe se déploie sur vingt ans, jalonnée de séparations et de retrouvailles, mettant en lumière la profondeur de leurs sentiments. Face aux aléas de la vie professionnelle et sentimentale, ils s'interrogent sur l'unicité de leur attachement. Au fil des épreuves et des joies, leur lien se consolide, les amenant à questionner la véritable nature de leur relation, bien au-delà des simples contours de l'amitié...</desc>
     <category lang="fr">Film / Drame</category>
   </programme>
+  <programme channel="CinePlusFamiz.fr" start="20260708010700 +0200" stop="20260708024600 +0200">
+    <title lang="fr">Soyez sympas, rembobinez</title>
+    <desc lang="fr">Elroy est le patron d'un modeste vidéo-club. Il ne sait pas comment affronter les travaux de mise aux normes imposés par la municipalité car les affaires ne marchent pas fort. Son vidéo-club survit à peine grâce à la fidélité des habitants du quartier et à son impressionnant stock de cassettes VHS. Mais Elroy découvre avec stupeur que tous les films ont été effacés. C'est Jerry, vieil ami de l'un de ses employés, qui est responsable de ce drame, à cause du halo magnétique que son cerveau émet. Pour Jerry, la solution est simple : il faut retourner tous les films effacés. Mais comment va réagir la clientèle ?...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
   <programme channel="CinePlusFamiz.fr" start="20260708010800 +0200" stop="20260708024600 +0200">
     <title lang="fr">Soyez sympas, rembobinez</title>
     <desc lang="fr">Elroy est le patron d'un modeste vidéo-club. Il ne sait pas comment affronter les travaux de mise aux normes imposés par la municipalité car les affaires ne marchent pas fort. Son vidéo-club survit à peine grâce à la fidélité des habitants du quartier et à son impressionnant stock de cassettes VHS. Mais Elroy découvre avec stupeur que tous les films ont été effacés. C'est Jerry, vieil ami de l'un de ses employés, qui est responsable de ce drame, à cause du halo magnétique que son cerveau émet. Pour Jerry, la solution est simple : il faut retourner tous les films effacés. Mais comment va réagir la clientèle ?...</desc>
     <category lang="fr">Film / Comédie</category>
+  </programme>
+  <programme channel="CinePlusFamiz.fr" start="20260708024600 +0200" stop="20260708035300 +0200">
+    <title lang="fr">Pascal Thomas : Juste une mise au point</title>
+    <desc lang="fr">Pascal Thomas débute sa carrière avec "Les Zozos" en 1972. Depuis, il est devenu l'un de ces cinéastes atypiques qui ont marqué toute une génération.</desc>
+    <category lang="fr">Documentaire / Documentaire cinéma</category>
   </programme>
   <programme channel="CinePlusFamiz.fr" start="20260708024600 +0200" stop="20260708030900 +0200">
     <title lang="fr">Mes racines d'amour</title>
@@ -8566,6 +8938,11 @@
     <category lang="fr">Film / Court métrage dramatique</category>
   </programme>
   <programme channel="CinePlusFamiz.fr" start="20260708030900 +0200" stop="20260708053800 +0200">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="CinePlusFamiz.fr" start="20260708035300 +0200" stop="20260708053800 +0200">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
@@ -20477,19 +20854,54 @@
     <desc lang="fr">Dans cette seconde partie, Anne-Elisabeth Lemoine (du lundi au jeudi) et Mohamed Bouhafsi (les vendredis et samedis) accueillent des invités pour une discussion à bâtons rompus.</desc>
     <category lang="fr">Divers / Talk-show</category>
   </programme>
+  <programme channel="France5.fr" start="20260708015500 +0200" stop="20260708024300 +0200">
+    <title lang="fr">Les routes de l'impossible - S17E04</title>
+    <desc lang="fr">Dans l'immensité de l'archipel indonésien, Sumatra occupe une place à part. Ils sont 60 millions à vivre sur la sixième plus grande île du monde. L'agriculture fait sa richesse, mais c'est aussi son pire ennemi. Un tiers des habitants dépend du travail des champs. Pour éviter d'emprunter les pistes défoncées, Masinis utilise la vieille ligne de chemin de fer qui date du début du XXe siècle, mais est-elle plus rapide et plus sûre ? De son côté, Rudi le taxi n'a rien à envier à ce train souffreteux : le chauffeur de minibus transporte six passagers sur 80 km et la route est dans le même état que la vieille voie ferrée.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
   <programme channel="France5.fr" start="20260708015500 +0200" stop="20260708025200 +0200">
     <title lang="fr">Les routes de l'impossible - S17E04</title>
     <desc lang="fr">Dans l'immensité de l'archipel indonésien, Sumatra occupe une place à part. Ils sont 60 millions à vivre sur la sixième plus grande île du monde. L'agriculture fait sa richesse, mais c'est aussi son pire ennemi. Un tiers des habitants dépend du travail des champs. Pour éviter d'emprunter les pistes défoncées, Masinis utilise la vieille ligne de chemin de fer qui date du début du XXe siècle, mais est-elle plus rapide et plus sûre ? De son côté, Rudi le taxi n'a rien à envier à ce train souffreteux : le chauffeur de minibus transporte six passagers sur 80 km et la route est dans le même état que la vieille voie ferrée.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708024300 +0200" stop="20260708034500 +0200">
+    <title lang="fr">Qu'est-il arrivé à Rosemary Kennedy ?</title>
+    <desc lang="fr">Dans les années 1930, Rosemary Kennedy rayonne sur les photos aux côtés de ses frères JFK ou Bobby, ne laissant rien deviner de ses souffrances, ni du léger retard mental dont elle est atteinte depuis la naissance. Mais en 1941, à 23 ans, elle disparaît de la vie publique après avoir subi une lobotomie, décidée par son père, sa fragilité ne cadrant pas avec les ambitions du clan. Que lui est-il vraiment arrivé ? Pour la première fois, un documentaire, conçu à mi-chemin entre le mélodrame et le film noir, revient sur ce qui reste à ce jour le plus terrible secret des Kennedy.</desc>
+    <category lang="fr">Documentaire / Documentaire politique</category>
   </programme>
   <programme channel="France5.fr" start="20260708025200 +0200" stop="20260708050500 +0200">
     <title lang="fr">La nuit France 5</title>
     <desc lang="fr">La programmation nocturne de France 5, composée principalement de rediffusions de documentaires variés.</desc>
     <category lang="fr">Magazine / Magazine de reportages</category>
   </programme>
+  <programme channel="France5.fr" start="20260708034500 +0200" stop="20260708044100 +0200">
+    <title lang="fr">Lunettes, voir encore plus loin</title>
+    <desc lang="fr">Acheter ses lunettes est souvent compliqué et il ne faut pas se tromper : elles sont l'un des postes de dépense les plus importants des Français, près de 400 euros pour une paire de lunettes de vue. Alors comment s'y retrouver ? Que valent les lunettes 100% remboursées ? Pourquoi et comment certains opticiens poussent-ils leurs clients à dépenser plus ? Faut-il se tourner vers la fabrication française qui revient en force, et à quel prix ? Et que faire des anciennes lunettes qui s'accumulent dans les tiroirs, année après année ? Enquête.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708044100 +0200" stop="20260708050400 +0200">
+    <title lang="fr">Imprévus</title>
+    <desc lang="fr">"Imprévus" est une série documentaire de découvertes. </desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708050400 +0200" stop="20260708051500 +0200">
+    <title lang="fr">Les trois Bricochons - S01E42</title>
+    <desc lang="fr">Le lit de Rebecca se casse, alors les Bricochons lui en construisent un nouveau. Quand Wilf s'endort dedans, les cochons décident de le ramener chez lui sans le réveiller.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708050500 +0200" stop="20260708051600 +0200">
     <title lang="fr">Les trois Bricochons - S01E42</title>
     <desc lang="fr">Le lit de Rebecca se casse, alors les Bricochons lui en construisent un nouveau. Quand Wilf s'endort dedans, les cochons décident de le ramener chez lui sans le réveiller.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708051500 +0200" stop="20260708051600 +0200">
+    <title lang="fr">Les trois Bricochons - S01E22</title>
+    <desc lang="fr">Les Bricochons veulent remonter le moral de Wilf, mais celui-ci profite de leur gentillesse et leur demande un véhicule bruyant, juste pour embêter tout le monde.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708051600 +0200" stop="20260708053600 +0200">
+    <title lang="fr">Les trois Bricochons - S01E23</title>
+    <desc lang="fr">Les Bricochons veulent remonter le moral de Wilf, mais il profite de leur gentillesse et leur demande un véhicule bruyant, juste pour embêter tout le monde.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708051600 +0200" stop="20260708051700 +0200">
@@ -20502,9 +20914,24 @@
     <desc lang="fr">Les Bricochons veulent remonter le moral de Wilf, mais il profite de leur gentillesse et leur demande un véhicule bruyant, juste pour embêter tout le monde.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708053600 +0200" stop="20260708054700 +0200">
+    <title lang="fr">Les trois Bricochons - S01E24</title>
+    <desc lang="fr">Les Bricochons construisent les maquettes des maisons de Bois-Mignon. A la suite d'un quiproquo, Wilf est persuadé que la maison de Laura renferme un trésor.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708053700 +0200" stop="20260708054800 +0200">
     <title lang="fr">Les trois Bricochons - S01E24</title>
     <desc lang="fr">Les Bricochons construisent les maquettes des maisons de Bois-Mignon. A la suite d'un quiproquo, Wilf est persuadé que la maison de Laura renferme un trésor.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708054700 +0200" stop="20260708054800 +0200">
+    <title lang="fr">Les trois Bricochons - S01E25</title>
+    <desc lang="fr">Laura rêve de flotter sur un nuage. Les Bricochons lui fabriquent un gros coussin flottant, mais il est si relaxant que Wilf s'endort dessus et s'envole.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708054800 +0200" stop="20260708060500 +0200">
+    <title lang="fr">Les mini-héros de la forêt - S01E50</title>
+    <desc lang="fr">Les mini-héros jouent au ballon lorsqu¿ils sont interrompus par monsieur Loir. La tempête de la nuit dernière a bloqué le tronc où se trouve toute sa réserve de noisettes : il a vraiment besoin d¿aide. Le problème, c¿est qu'il n¿est pas toujours très gentil avec les habitants de la forêt... Alors, Gaston hésite à l¿aider. Mais les mini-héros aident tout le monde !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708054800 +0200" stop="20260708054900 +0200">
@@ -20522,14 +20949,34 @@
     <desc lang="fr">Jean-Claude rêve d'avoir un chapeau de cow-boy comme son ami Billy mais pas facile de trouver un chapeau à la bonne taille pour un ver de terre.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708061500 +0200" stop="20260708061600 +0200">
+    <title lang="fr">Billy, le hamster cowboy - S01E14</title>
+    <desc lang="fr">Billy, bousculé par Gros Dur au magasin de tout, fait tomber une horloge qui se casse. Il découvre à l'intérieur une carte au trésor ! Billy, Suzie et JC décident illico d'aller chercher le trésor...</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708061500 +0200" stop="20260708062600 +0200">
     <title lang="fr">Billy, le hamster cowboy - S01E14</title>
     <desc lang="fr">Billy, bousculé par Gros Dur au magasin de tout, fait tomber une horloge qui se casse. Il découvre à l'intérieur une carte au trésor ! Billy, Suzie et JC décident illico d'aller chercher le trésor...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708061600 +0200" stop="20260708063000 +0200">
+    <title lang="fr">Billy, le hamster cowboy - S01E15</title>
+    <desc lang="fr">Suzie et Billy rigolent en lisant une BD racontant l'histoire d'une fourmi, sergent de cavalerie, qui disparaît sous son chapeau trop grand.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708062600 +0200" stop="20260708063500 +0200">
     <title lang="fr">Billy, le hamster cowboy - S01E15</title>
     <desc lang="fr">Suzie et Billy rigolent en lisant une BD racontant l'histoire d'une fourmi, sergent de cavalerie, qui disparaît sous son chapeau trop grand.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708063000 +0200" stop="20260708063400 +0200">
+    <title lang="fr">T'choupi à la campagne - S01E34</title>
+    <desc lang="fr">La chienne Loupiote s'amuse à attraper Doudou pour l'enterrer et le cacher. T'choupi récupère son nounours tellement sale que Papa doit le laver. Tout mouillé il ne sera certainement pas sec pour la nuit. T'choupi est triste, il ne se sent pas le courage de dormir sans lui…</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708063400 +0200" stop="20260708064500 +0200">
+    <title lang="fr">T'choupi à la campagne - S01E44</title>
+    <desc lang="fr">Les yeux bandés, T'choupi joue à colin-maillard avec Nina et Luce jusqu'à ce qu'il tombe dans les orties. Il hésite ensuite à retourner jouer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708063500 +0200" stop="20260708064400 +0200">
@@ -20542,6 +20989,16 @@
     <desc lang="fr">Les yeux bandés, T'choupi joue à colin-maillard avec Nina et Luce jusqu'à ce qu'il tombe dans les orties. Il hésite ensuite à retourner jouer.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708064500 +0200" stop="20260708064800 +0200">
+    <title lang="fr">Masha et Michka - S05E25</title>
+    <desc lang="fr">Michka a acheté une magnifique moto ! Maintenant qu'il est devenu un motard très cool, il espère impressionner son amoureuse. De son côté, Masha est attirée comme un aimant par cette nouvelle machine. Préparez-vous : tout va finir sens dessus dessous dans la forêt, et pour de vrai !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708064800 +0200" stop="20260708070400 +0200">
+    <title lang="fr">Masha et Michka - S08E01</title>
+    <desc lang="fr">Barbapapa est né un jour dans le jardin de Claudine et François, qui l'ont tout de suite adopté. Les deux enfants s'amusent beaucoup avec leur compagnon, qui peut se transformer à volonté. Mais après quelques mois parmi les hommes, Barbapapa s'ennuie, jusqu'au jour où Barbamama fait son apparition. Ensemble, ils ont bientôt sept Barbabébés, trois filles et trois garçons : Barbouille, Barbidur, Barbotine, Barbidou, Barbalala, Barbibul et Barbabelle. Adaptée des livres d'Annette Tison et Talus Taylor, cette série d'animation réalisée dans les années 70 a toujours la faveur des plus petits.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708065000 +0200" stop="20260708065800 +0200">
     <title lang="fr">Masha et Michka - S05E25</title>
     <desc lang="fr">Michka a acheté une magnifique moto ! Maintenant qu'il est devenu un motard très cool, il espère impressionner son amoureuse. De son côté, Masha est attirée comme un aimant par cette nouvelle machine. Préparez-vous : tout va finir sens dessus dessous dans la forêt, et pour de vrai !</desc>
@@ -20552,14 +21009,34 @@
     <desc lang="fr">Barbapapa est né un jour dans le jardin de Claudine et François, qui l'ont tout de suite adopté. Les deux enfants s'amusent beaucoup avec leur compagnon, qui peut se transformer à volonté. Mais après quelques mois parmi les hommes, Barbapapa s'ennuie, jusqu'au jour où Barbamama fait son apparition. Ensemble, ils ont bientôt sept Barbabébés, trois filles et trois garçons : Barbouille, Barbidur, Barbotine, Barbidou, Barbalala, Barbibul et Barbabelle. Adaptée des livres d'Annette Tison et Talus Taylor, cette série d'animation réalisée dans les années 70 a toujours la faveur des plus petits.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708070400 +0200" stop="20260708070500 +0200">
+    <title lang="fr">Masha et Michka - S06E03</title>
+    <desc lang="fr">Les loups s'apprêtent à cuisiner du bortsch sous la direction de Masha. Ils ont un livre de cuisine, une marmite et une appétit vorace, mais il leur manque les ingrédients.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708070400 +0200" stop="20260708070600 +0200">
     <title lang="fr">Masha et Michka - S06E03</title>
     <desc lang="fr">Les loups s'apprêtent à cuisiner du bortsch sous la direction de Masha. Ils ont un livre de cuisine, une marmite et une appétit vorace, mais il leur manque les ingrédients.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708070500 +0200" stop="20260708070600 +0200">
+    <title lang="fr">Masha et Michka : Edition football - S01E01</title>
+    <desc lang="fr">La petite Masha, toujours pleine d'énergie et curieuse du monde qui l'entoure, découvre le football en compagnie de son ami Michka, un ours débonnaire.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708070600 +0200" stop="20260708070900 +0200">
+    <title lang="fr">Les mini-héros de la forêt - S01E14</title>
+    <desc lang="fr">Nico raconte aux mini-héros la légende de la grenouille Rainette, qui après avoir bondit tout autour du monde, découvre un véritable trésor en rentrant dans son étang. Mais quel est ce fabuleux trésor ?</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708070600 +0200" stop="20260708071000 +0200">
     <title lang="fr">Masha et Michka : Edition football - S01E01</title>
     <desc lang="fr">La petite Masha, toujours pleine d'énergie et curieuse du monde qui l'entoure, découvre le football en compagnie de son ami Michka, un ours débonnaire.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708070900 +0200" stop="20260708072500 +0200">
+    <title lang="fr">Les mini-héros de la forêt - S01E48</title>
+    <desc lang="fr">Les mini-héros aident une grenouille à surmonter sa peur des acrobaties et à avoir confiance en son talent lors du grand spectacle annuel des grenouilles.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708071000 +0200" stop="20260708071900 +0200">
@@ -20582,9 +21059,24 @@
     <desc lang="fr">Les mini-héros jouent au ballon lorsqu¿ils sont interrompus par monsieur Loir. La tempête de la nuit dernière a bloqué le tronc où se trouve toute sa réserve de noisettes : il a vraiment besoin d¿aide. Le problème, c¿est qu'il n¿est pas toujours très gentil avec les habitants de la forêt... Alors, Gaston hésite à l¿aider. Mais les mini-héros aident tout le monde !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708073800 +0200" stop="20260708074000 +0200">
+    <title lang="fr">Les mini-héros de la forêt - S01E32</title>
+    <desc lang="fr">Les mini-héros explorent la forêt au rythme de Tess la Tortue, à la recherche d'espèces inconnues. A la grande surprise de Juliette, ils découvrent un nouvel ami inattendu.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708073800 +0200" stop="20260708074500 +0200">
     <title lang="fr">Les mini-héros de la forêt - S01E32</title>
     <desc lang="fr">Les mini-héros explorent la forêt au rythme de Tess la Tortue, à la recherche d'espèces inconnues. A la grande surprise de Juliette, ils découvrent un nouvel ami inattendu.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708074000 +0200" stop="20260708074200 +0200">
+    <title lang="fr">Bluey - S03E45</title>
+    <desc lang="fr">A la pharmacie, Bluey, Bingo et leurs amis s'amusent avec les écrans de surveillance.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708074200 +0200" stop="20260708075800 +0200">
+    <title lang="fr">Bluey - S03E38</title>
+    <desc lang="fr">Bluey et Bingo construisent une maison miniature très spéciale pour Kimjim, leur animal en peluche.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708074500 +0200" stop="20260708075200 +0200">
@@ -20602,14 +21094,34 @@
     <desc lang="fr">Deux babysitters arrivent pour s'occuper de Bluey et Bingo !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708080000 +0200" stop="20260708080100 +0200">
+    <title lang="fr">Bluey - S01E39</title>
+    <desc lang="fr">La cousine Muffin vient dormir chez Bluey et Bingo, ravies de pouvoir se coucher plus tard. Muffin, qui n'a pas fait la sieste, arrive épuisée et les nerfs à fleur de peau et c'est le chaos. Pour faire durer la soirée, les fillettes jouent au jeu du restaurant qui prend beaucoup de temps. Mais Muffin renverse les tables, vole les frites de Papa et s'enfuit, se moquant de Maman "policière" qui la poursuit ! Là, Bluey comprend enfin que sa cousine a réellement besoin de sommeil et met un terme à la soirée en inventant une ruse pour l'amener à se coucher.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708080000 +0200" stop="20260708081100 +0200">
     <title lang="fr">Bluey - S01E39</title>
     <desc lang="fr">La cousine Muffin vient dormir chez Bluey et Bingo, ravies de pouvoir se coucher plus tard. Muffin, qui n'a pas fait la sieste, arrive épuisée et les nerfs à fleur de peau et c'est le chaos. Pour faire durer la soirée, les fillettes jouent au jeu du restaurant qui prend beaucoup de temps. Mais Muffin renverse les tables, vole les frites de Papa et s'enfuit, se moquant de Maman "policière" qui la poursuit ! Là, Bluey comprend enfin que sa cousine a réellement besoin de sommeil et met un terme à la soirée en inventant une ruse pour l'amener à se coucher.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708080100 +0200" stop="20260708081000 +0200">
+    <title lang="fr">Bluey - S02E26</title>
+    <desc lang="fr">Alors que maman finit de lui lire une histoire et lui souhaite bonne nuit en l'embrassant, Bingo lui promet que demain matin, elle se réveillera dans son propre lit.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708081000 +0200" stop="20260708081900 +0200">
+    <title lang="fr">Les trois Bricochons - S01E26</title>
+    <desc lang="fr">Bruno organise une chasse au trésor pour les Bricochons, avec des énigmes spéciales pour les experts en construction. Mais Wilf veut trouver le trésor avant tout le monde.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708081100 +0200" stop="20260708082000 +0200">
     <title lang="fr">Bluey - S02E26</title>
     <desc lang="fr">Alors que maman finit de lui lire une histoire et lui souhaite bonne nuit en l'embrassant, Bingo lui promet que demain matin, elle se réveillera dans son propre lit.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708081900 +0200" stop="20260708083500 +0200">
+    <title lang="fr">Les trois Bricochons - S01E12</title>
+    <desc lang="fr">Cornélia veut construire plus vite que tout le monde ! Mais à trop se presser, elle rate son circuit de course pour Cathy. Heureusement, les Bricochons savent qu'en s'entraidant, ils peuvent toujours réparer leurs erreurs !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708082000 +0200" stop="20260708082900 +0200">
@@ -20620,6 +21132,11 @@
   <programme channel="France5.fr" start="20260708082900 +0200" stop="20260708084000 +0200">
     <title lang="fr">Les trois Bricochons - S01E12</title>
     <desc lang="fr">Cornélia veut construire plus vite que tout le monde ! Mais à trop se presser, elle rate son circuit de course pour Cathy. Heureusement, les Bricochons savent qu'en s'entraidant, ils peuvent toujours réparer leurs erreurs !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708083500 +0200" stop="20260708084300 +0200">
+    <title lang="fr">Peppa Pig - S05E07</title>
+    <desc lang="fr">A l'occasion d'Halloween, Peppa et Papy Pig ont taillé un énorme potiron. Avec l'aide de mademoiselle Rabbit, il leur faut maintenant trouver le moyen de l'apporter au concours de citrouilles organisé par l'école...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708084000 +0200" stop="20260708084300 +0200">
@@ -20637,9 +21154,19 @@
     <desc lang="fr">Magoo a oublié le cadeau de Mr Chat dans sa lettre au père Noël ! Décidé à corriger cet oubli, il suit Weasel déguisé en lutin qui l'amène sans le vouloir dans la cabine de l'aéroFizz. Magoo prend alors Fizz pour le responsable du courrier de Noël...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708085400 +0200" stop="20260708085500 +0200">
+    <title lang="fr">Peppa Pig - S06E37</title>
+    <desc lang="fr">A l'école, à la maison ou au terrain de jeu, Peppa Pig et ses amis font de nouvelles découvertes. Chaque aventure est prétexte à s'amuser et à apprendre.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708085400 +0200" stop="20260708090000 +0200">
     <title lang="fr">Peppa Pig - S06E37</title>
     <desc lang="fr">A l'école, à la maison ou au terrain de jeu, Peppa Pig et ses amis font de nouvelles découvertes. Chaque aventure est prétexte à s'amuser et à apprendre.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708085500 +0200" stop="20260708090300 +0200">
+    <title lang="fr">Simon Superlapin - S05E39</title>
+    <desc lang="fr">Superlapin est super fort en skate, pas Super Ferdi, mais chacun a un talent, et Super Ferdi est le roi des bricoleurs ! Dans cette aventure, Superlapin va compter sur son copain, car ils sont menacés par le vilain Professeur Wolf, et le bricolage, Superlapin n'y connait rien !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708090000 +0200" stop="20260708090300 +0200">
@@ -20657,9 +21184,19 @@
     <desc lang="fr">En jouant avec Gaspard, Simon envoie le ballon dans le trou de l'arbre creux. Ils veulent le récupérer mais le trou est barré par une grosse toile d'araignée. Gaspard aimerait demander de l'aide à Ferdinand : à trois, on est plus fort ! Mais Ferdinand ne peut pas venir...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708091400 +0200" stop="20260708091500 +0200">
+    <title lang="fr">Simon Superlapin - S04E06</title>
+    <desc lang="fr">Suite à une dispute, Simon et Gaspard font tomber la clé de leur cabane dans une grande flaque. Il ne leur en faut pas plus pour s'imaginer devoir plonger dans la flaque, qui devient océan, pour retrouver la clé de leur base secrète.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708091400 +0200" stop="20260708092000 +0200">
     <title lang="fr">Simon Superlapin - S04E06</title>
     <desc lang="fr">Suite à une dispute, Simon et Gaspard font tomber la clé de leur cabane dans une grande flaque. Il ne leur en faut pas plus pour s'imaginer devoir plonger dans la flaque, qui devient océan, pour retrouver la clé de leur base secrète.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708091500 +0200" stop="20260708092600 +0200">
+    <title lang="fr">Taki Tanuki - S01E09</title>
+    <desc lang="fr">Alors que Taki a promis à Billy de le rejoindre dans la forêt pour construire une cabane, elle découvre qu'elle a aussi promis à Papa de l'aider à farcir les raviolis.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="France5.fr" start="20260708092000 +0200" stop="20260708092600 +0200">
@@ -20672,10 +21209,30 @@
     <desc lang="fr">Après un accès de gourmandise, Taki est prise de hoquet ; à chaque fois qu'elle hoquète, cela lui déclenche une transformation. La journée s'annonce très compliquée !</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="France5.fr" start="20260708093200 +0200" stop="20260708093400 +0200">
+    <title lang="fr">Taki Tanuki - S01E36</title>
+    <desc lang="fr">Par une belle journée, la famille Tanuki part en excursion au mont Yama. Mais Taya, qui est partie bille en tête, ne tarde pas à peiner dans la montée.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="France5.fr" start="20260708093200 +0200" stop="20260708094000 +0200">
     <title lang="fr">Taki Tanuki - S01E36</title>
     <desc lang="fr">Par une belle journée, la famille Tanuki part en excursion au mont Yama. Mais Taya, qui est partie bille en tête, ne tarde pas à peiner dans la montée.</desc>
     <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708093400 +0200" stop="20260708093900 +0200">
+    <title lang="fr">Trotro et Zaza - S01E01</title>
+    <desc lang="fr">Pensant avoir trouvé une idée géniale pour pouvoir jouer tranquille, Trotro propose à Zaza de faire un dessin surprise pour offrir à Papa et Maman.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708093900 +0200" stop="20260708094000 +0200">
+    <title lang="fr">Trotro et Zaza - S01E08</title>
+    <desc lang="fr">Avec Boubou, Trotro imagine une baguette magique capable de faire disparaître les loups qui font peur à Zaza.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708094000 +0200" stop="20260708100000 +0200">
+    <title lang="fr">Yétili - S01E23</title>
+    <desc lang="fr">7 heures du matin. Jour. Silence. Se dépêcher de prendre son petit déjeuner avant que la librairie n'ouvre ses portes. Vite !Cannelle et Chocolat, deux petites souris sortent de leur cachette pour enfin profiter de la libraire.Ils se dirigent dans leurs rayons préférés, ceux où les pages sont colorées. Mais quand ils arrivent devant les rayons : des poils. Beaucoup de poils. Le dos d'un grand et gros yeti. Chocolat, le petit frère, adore les poils doux, il saute sur le dos du yeti et s'accroche à ses poils devant les yeux ronds de Cannelle, qui n'en revient pas</desc>
+    <category lang="fr">Série / Série jeunesse</category>
   </programme>
   <programme channel="France5.fr" start="20260708094000 +0200" stop="20260708094200 +0200">
     <title lang="fr">Trotro et Zaza - S01E01</title>
@@ -20692,12 +21249,22 @@
     <desc lang="fr">7 heures du matin. Jour. Silence. Se dépêcher de prendre son petit déjeuner avant que la librairie n'ouvre ses portes. Vite !Cannelle et Chocolat, deux petites souris sortent de leur cachette pour enfin profiter de la libraire.Ils se dirigent dans leurs rayons préférés, ceux où les pages sont colorées. Mais quand ils arrivent devant les rayons : des poils. Beaucoup de poils. Le dos d'un grand et gros yeti. Chocolat, le petit frère, adore les poils doux, il saute sur le dos du yeti et s'accroche à ses poils devant les yeux ronds de Cannelle, qui n'en revient pas</desc>
     <category lang="fr">Série / Série jeunesse</category>
   </programme>
+  <programme channel="France5.fr" start="20260708100000 +0200" stop="20260708102800 +0200">
+    <title lang="fr">Drôles de villes pour une rencontre - S04E02</title>
+    <desc lang="fr">En plein hiver, Alexandra Alévêque expérimente la vie des insulaires qui habitent à Hydra, une île grecque située à moins de deux heures d'Athènes.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
   <programme channel="France5.fr" start="20260708100000 +0200" stop="20260708102500 +0200">
     <title lang="fr">Drôles de villes pour une rencontre - S04E02</title>
     <desc lang="fr">En plein hiver, Alexandra Alévêque expérimente la vie des insulaires qui habitent à Hydra, une île grecque située à moins de deux heures d'Athènes.</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
   <programme channel="France5.fr" start="20260708102500 +0200" stop="20260708103000 +0200">
+    <title lang="fr">La p'tite librairie</title>
+    <desc lang="fr">François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
+    <category lang="fr">Magazine / Magazine littéraire</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708102800 +0200" stop="20260708103000 +0200">
     <title lang="fr">La p'tite librairie</title>
     <desc lang="fr">François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
     <category lang="fr">Magazine / Magazine littéraire</category>
@@ -20781,6 +21348,11 @@
     <title lang="fr">Partenaires particuliers, un voyage pas comme les autres - S01E04</title>
     <desc lang="fr">Pour les derniers jours du séjour, cap sur la campagne catalane. Si les quatre voyageurs ne sont pas les meilleurs marcheurs, l'un d'eux est un vrai chef scout : Amaury, qui emmène la bande en randonnée. Au sein du groupe, les appréhensions du début se sont dissipées. Avant de se quitter, l'heure est aux confidences et chacun se livre un peu plus sur sa vie, son histoire et comment il a vécu cette semaine.</desc>
     <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="France5.fr" start="20260708230000 +0200" stop="20260709000700 +0200">
+    <title lang="fr">C dans l'air</title>
+    <desc lang="fr">Caroline Roux (du lundi au jeudi) et Aurélie Casse (le vendredi et le samedi) décryptent en direct l'actualité en compagnie de quatre experts.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="France5.fr" start="20260708230000 +0200" stop="20260709000500 +0200">
     <title lang="fr">C dans l'air</title>
@@ -21042,6 +21614,116 @@
     <title lang="fr">Trump face au FBI</title>
     <desc lang="fr">A quelques jours des élections présidentielles aux Etats-Unis, ce documentaire levait le voile sur les relations entre Donald Trump et le FBI. Dès le début de son mandat, l'ancien président a partagé son mépris à l'encontre de la principale agence de force de l'ordre des Etats-Unis en renvoyant son directeur James Comey. A travers les témoignages d'anciens agents du FBI, ce film dresse un constat resté opaque sur la relation complexe entre le FBI et Trump. Des images d'archive illustrent également ce documentaire.</desc>
     <category lang="fr">Documentaire / Documentaire politique</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708050000 +0200" stop="20260708055500 +0200">
+    <title lang="fr">Nuremberg : des images pour l'histoire</title>
+    <desc lang="fr">Au cours de l'été 1945, les autorités américaines chargent Budd et Stuart Schulberg de rassembler des preuves visuelles attestant des crimes nazis, en vue du procès qui se prépare à Nuremberg. Ils doivent étayer l'accusation du procureur en chef Robert Jackson. En quatre mois d'enquête, les Schulberg parviennent à sauver de la destruction des centaines d'heures d'images, en grande partie réalisées par les nazis. Leur équipe de montage travaille ensuite sans relâche pour achever avant l'ouverture du procès, le 21 novembre 1945, des films exposant les atrocités perpétrées après la prise du pouvoir par Hitler, des premiers pogroms au système concentrationnaire, et leur caractère prémédité. Stuart Schulberg est ensuite chargé de filmer les grandes étapes de la procédure.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708055500 +0200" stop="20260708063500 +0200">
+    <title lang="fr">Les paquebots perdus - S02E04</title>
+    <desc lang="fr">Durant une violente tempête, le paquebot Oceanos connaît une fin tragique. Son capitaine et l'équipage négligents abandonnent le navire, laissant des centaines de passagers désemparés. Face à ce désastre, l'équipe d'animation prend les commandes de manière inattendue. Faisant preuve d'un courage remarquable, ces héros improbables organisent un plan d'évacuation audacieux et spectaculaire.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708063500 +0200" stop="20260708072500 +0200">
+    <title lang="fr">Les paquebots perdus - S02E03</title>
+    <desc lang="fr">L'Achille Lauro est réputé comme l'un des paquebots les plus malchanceux de l'histoire maritime, sa carrière étant jalonnée d'incendies, de collisions et d'accidents. Il fait la une en 1985 quand il est détourné par des terroristes de l'OLP. La prise d'otages sanglante qui s'ensuit provoque un incident diplomatique majeur et marque l'opinion publique, avant que le navire ne sombre tragiquement des années plus tard.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708072500 +0200" stop="20260708081000 +0200">
+    <title lang="fr">Les paquebots perdus - S02E06</title>
+    <desc lang="fr">L'Île-de-France, paquebot transatlantique et fierté nationale, a connu une histoire mouvementée. Ayant survécu à la Seconde Guerre mondiale, il s'est illustré par d'héroïques sauvetages en mer, sauvant de nombreuses vies. Son destin a toutefois pris une tournure inattendue et controversée lorsqu'il a été utilisé illégalement puis sabordé pour le tournage d'un film catastrophe.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708081000 +0200" stop="20260708090000 +0200">
+    <title lang="fr">1996, hold-up à Moscou</title>
+    <desc lang="fr">En 1996, Boris Eltsine, malade et détesté, brigue un second mandat à la présidence de la Russie. Face à lui, un candidat communiste, Guennadi Ziouganov, porté aux nues par les oubliés de la transition post-soviétique. Crédité en début de course d'à peine 3% des intentions de vote, Eltsine parvient pourtant contre toute attente à se faire réélire avec près de 54% des voix. Comment a-t-il pu gagner ?</desc>
+    <category lang="fr">Documentaire / Documentaire politique</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708090000 +0200" stop="20260708105000 +0200">
+    <title lang="fr">Mesures actives</title>
+    <desc lang="fr">Jack Bryan détaille trente ans de guerre politique secrète conçue par Vladimir Poutine pour perturber, et contrôler les événements mondiaux. Au cours de leur enquête, les cinéastes ont suivi diverses pistes mêlant argent, investissements immobiliers, relations avec la mafia, et ont enregistré des témoignages menant directement à la Maison Blanche.</desc>
+    <category lang="fr">Documentaire / Documentaire géopolitique</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708105000 +0200" stop="20260708115000 +0200">
+    <title lang="fr">L'histoire vraie des fake news</title>
+    <desc lang="fr">En étudiant les fake news à travers l'Histoire, Ian Hislop revient sur leurs origines, ce qui les motive pouvoir, profit, paranoïa, propagande et ce qui peut être fait pour lutter contre.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708115000 +0200" stop="20260708124000 +0200">
+    <title lang="fr">Nazi Megastructures - S01E03</title>
+    <desc lang="fr">Pour protéger au mieux leurs sous-marins, les nazis ont construit d'impénétrables et massifs abris. Ces structures étant très visibles et imposantes, elles ont été conçues pour résister aux tirs et aux bombes ennemies. Des abris subsistent encore aujourd'hui et sont l'exemple de l'imagination sans limite de l'époque. Ces forteresses sous-marines voulues par Hitler, font parties des constructions les plus incroyables de la Seconde Guerre mondiale.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708124000 +0200" stop="20260708133500 +0200">
+    <title lang="fr">Nazi Megastructures - S01E04</title>
+    <desc lang="fr">James Holland teste l'efficacité de l'armement allemand. Des Lugers aux mitrailleuses MG42 et au canon antichar Pak40, il découvre les failles que les nazis ont tenté de cacher.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708133500 +0200" stop="20260708142500 +0200">
+    <title lang="fr">A la Une - S01E01</title>
+    <desc lang="fr">Enquête sur les scandales politiques les plus choquants et sur la manière dont ces histoires ont été mises en avant par les médias du monde entier.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708142500 +0200" stop="20260708151500 +0200">
+    <title lang="fr">A la Une - S01E02</title>
+    <desc lang="fr">Enquête sur la façon dont les histoires criminelles sont rapportées, avec cette recherche incessante de nouvelles informations, où chaque détail sordide découvert est révélé.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708151500 +0200" stop="20260708160500 +0200">
+    <title lang="fr">A la Une - S01E03</title>
+    <desc lang="fr">Les familles royales fascinent le public, alimentant la curiosité pour leur vie privée. Ce volet explore les grands événements royaux, des mariages féeriques aux divorces retentissants, analysant leur couverture médiatique et leur impact sociétal. Il examine la relation complexe entre la royauté et le public, ainsi que le rôle des médias dans cette dynamique. Le documentaire s'interroge sur les raisons de notre fascination pour ces personnalités et tente de comprendre pourquoi leurs vies nous touchent tant, révélant les mécanismes de cette relation symbiotique entre les familles royales et le public.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708160500 +0200" stop="20260708165000 +0200">
+    <title lang="fr">Mythes et Monstres - S01E01</title>
+    <desc lang="fr">Les récits fantastiques accompagnent l'histoire humaine à travers les époques. Des montagnes aux océans, chaque territoire inspire ses propres mythes, peuplés de créatures surnaturelles et de divinités mystérieuses. Ces légendes transmises de génération en génération racontent les exploits de héros face aux forces du mal, mêlant amour et batailles dans un éternel combat entre ordre et chaos.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708165000 +0200" stop="20260708174500 +0200">
+    <title lang="fr">Caligula: les trésors retrouvés - S01E01</title>
+    <desc lang="fr">En seulement quatre années de règne, Caligula s'est imposé comme l'un des empereurs les plus controversés de Rome. Souvent dépeint comme un tyran cruel, il laisse un souvenir sombre. Pourtant, de récentes découvertes archéologiques offrent une perspective différente : celle d'un bâtisseur visionnaire. Il fut notamment l'auteur de projets titanesques aux prouesses techniques remarquables, tels que les aqueducs.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708174500 +0200" stop="20260708183500 +0200">
+    <title lang="fr">Caligula: les trésors retrouvés - S01E02</title>
+    <desc lang="fr">Dans les eaux du lac de Nemi, au sud de Rome, on découvre la démesure de Caligula : deux navires monumentaux, véritables temples flottants aux décors somptueux.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708183500 +0200" stop="20260708192500 +0200">
+    <title lang="fr">Pompéi : les origines</title>
+    <desc lang="fr">Tout le monde connaît la Pompéi romaine. Pourtant, qui sait que cette ville antique avait déjà une longue histoire derrière elle à l'heure de sa fin tragique ? Que sait-on de ses fondateurs qui ont tracé son plan et construit ses premiers bâtiments ? Sous la Pompéi romaine miraculeusement préservée par les cendres du Vésuve, se cachent les traces d'une ville encore plus ancienne.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708192500 +0200" stop="20260708195500 +0200">
+    <title lang="fr">Enquêtes archéologiques - S01E16</title>
+    <desc lang="fr">Les progrès scientifiques et l'alliance de l'archéologie et de la chimie, permettent de renouer avec les parfums oubliés, appréciés par les hommes de l'Antiquité.</desc>
+    <category lang="fr">Documentaire / Documentaire civilisations</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708195500 +0200" stop="20260708205000 +0200">
+    <title lang="fr">Le siècle de l'Asie - S01E01</title>
+    <desc lang="fr">Le 9 septembre 1976, le président Mao Tsé-toung s'éteint à Pékin après trois décennies tumultueuses au pouvoir. Son décès provoque des troubles politiques de grande ampleur, mais les bouleversements qui s'ensuivront transformeront radicalement le pays. Ce récit historique explore comment la disparition du chef suprême a finalement ouvert la voie à l'émergence de la superpuissance chinoise moderne.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708205000 +0200" stop="20260708214000 +0200">
+    <title lang="fr">Le siècle de l'Asie - S01E02</title>
+    <desc lang="fr">Début 1998, l'Asie est frappée par une violente crise économique : en Indonésie, des manifestations poussent le président Suharto à la démission.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708214000 +0200" stop="20260708222500 +0200">
+    <title lang="fr">Le siècle de l'Asie - S01E03</title>
+    <desc lang="fr">Pour certains, Ferdinand Marcos est un des grands dirigeants politiques du XXe siècle, pour d'autres, il illustre parfaitement la définition du dictateur.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708222500 +0200" stop="20260708231500 +0200">
+    <title lang="fr">Le siècle de l'Asie - S01E04</title>
+    <desc lang="fr">2017 a marqué les 70 ans de la partition des Indes qui a entraîné l'une des plus grandes migrations de l'histoire contemporaine des peuples.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="Histoire.fr" start="20260708231500 +0200" stop="20260709002000 +0200">
+    <title lang="fr">L'Armée rouge</title>
+    <desc lang="fr">Créée par Trotski en 1918, dans un contexte de guerre totale contre une partie de la population russe et des puissances étrangères, l'Armée rouge doit rapidement abandonner ses idéaux égalitaires et démocratiques. En 1920, pour mater la rébellion de Tambov, l'ancien officier tsariste Mikhaïl Toukhatchevski, mandaté par Lénine, largue des gaz toxiques sur les villageois. Deux ans plus tard, l'Armée rouge sort renforcée de sa victoire contre les "blancs", qui met un terme à la guerre civile. Sa puissance inquiète Staline qui, au début des années 1930, purge son état-major. Lorsque l'Allemagne envahit l'URSS en juin 1941, l'Armée rouge, privée de commandement, est exsangue. Mais les grandes batailles, de Moscou à Stalingrad, et une habile propagande vont enflammer le patriotisme de tout un peuple.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="HustlerTV.fr" start="20260708003000 +0200" stop="20260708020000 +0200">
     <title lang="fr">Horny Legal In-Laws' Anal Threesomes</title>
@@ -23089,6 +23771,34 @@
     <title lang="fr">Rap français</title>
     <desc lang="fr">Pendant une heure retrouvez des clips de Rap français dans votre émission hebdomadaire Rap français.</desc>
     <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708000000 +0200" stop="20260708060000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708060000 +0200" stop="20260708090000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708090000 +0200" stop="20260708120000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708120000 +0200" stop="20260708150000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708150000 +0200" stop="20260708180000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708180000 +0200" stop="20260708210000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="MCM.fr" start="20260708210000 +0200" stop="20260709000000 +0200">
+    <title lang="fr">Arrêt de la chaîne</title>
+    <category lang="fr">Divers / Autre</category>
   </programme>
   <programme channel="MCMTop.fr" start="20260708060000 +0200" stop="20260708210000 +0200">
     <title lang="fr">Top Mix</title>
@@ -28640,7 +29350,17 @@
     <desc lang="fr">Qu'on y enseigne, qu'on y étudie ou qu'on y dépose sa progéniture tous les matins, l'école ne laisse personne indifférent. Professeurs dépressifs, parents stressés et écoliers dans la lune : bienvenue dans le quotidien d'un triangle infernal. Devant le portail, à la cantine, dans les couloirs ou dans les salles de cours, les relations s'entremêlent pour le meilleur, et souvent pour le pire !</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="RTL9.fr" start="20260708060000 +0200" stop="20260708060500 +0200">
+    <title lang="fr">Capucine - S01E47</title>
+    <desc lang="fr">Capucine, une fille de son temps, parle de tout devant tout le monde et aborde différents thèmes, de sa sexualité à ses soucis au travail.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260708060000 +0200" stop="20260708060600 +0200">
+    <title lang="fr">Pep's - S02E248</title>
+    <desc lang="fr">Qu'on y enseigne, qu'on y étudie ou qu'on y dépose sa progéniture tous les matins, l'école ne laisse personne indifférent. Professeurs dépressifs, parents stressés et écoliers dans la lune : bienvenue dans le quotidien d'un triangle infernal. Devant le portail, à la cantine, dans les couloirs ou dans les salles de cours, les relations s'entremêlent pour le meilleur, et souvent pour le pire !</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708060500 +0200" stop="20260708061000 +0200">
     <title lang="fr">Pep's - S02E248</title>
     <desc lang="fr">Qu'on y enseigne, qu'on y étudie ou qu'on y dépose sa progéniture tous les matins, l'école ne laisse personne indifférent. Professeurs dépressifs, parents stressés et écoliers dans la lune : bienvenue dans le quotidien d'un triangle infernal. Devant le portail, à la cantine, dans les couloirs ou dans les salles de cours, les relations s'entremêlent pour le meilleur, et souvent pour le pire !</desc>
     <category lang="fr">Série / Série humoristique</category>
@@ -28649,6 +29369,11 @@
     <title lang="fr">Pep's - S02E249</title>
     <desc lang="fr">Qu'on y enseigne, qu'on y étudie ou qu'on y dépose sa progéniture tous les matins, l'école ne laisse personne indifférent. Professeurs dépressifs, parents stressés et écoliers dans la lune : bienvenue dans le quotidien d'un triangle infernal. Devant le portail, à la cantine, dans les couloirs ou dans les salles de cours, les relations s'entremêlent pour le meilleur, et souvent pour le pire !</desc>
     <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708061000 +0200" stop="20260708063000 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E49</title>
+    <desc lang="fr">Une femme suspecte son mari d'avoir une maîtresse, puis elle pense qu'il s'agit d'un amant. En fait, son mari nourrit le secret dessein de devenir homme d'Eglise.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708061200 +0200" stop="20260708062000 +0200">
     <title lang="fr">Pep's - S02E252</title>
@@ -28660,9 +29385,19 @@
     <desc lang="fr">Une femme suspecte son mari d'avoir une maîtresse, puis elle pense qu'il s'agit d'un amant. En fait, son mari nourrit le secret dessein de devenir homme d'Eglise.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="RTL9.fr" start="20260708063000 +0200" stop="20260708065000 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E50</title>
+    <desc lang="fr">Un étudiant mal-aimé par son père se lance dans un trafic de sujet d'examens dans l'espoir d'être mieux considéré par son père.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260708064500 +0200" stop="20260708070500 +0200">
     <title lang="fr">Le jour où tout a basculé - S02E50</title>
     <desc lang="fr">Un étudiant mal-aimé par son père se lance dans un trafic de sujet d'examens dans l'espoir d'être mieux considéré par son père.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708065000 +0200" stop="20260708071500 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E51</title>
+    <desc lang="fr">Un gagnant à la loterie qui a joué avec son épouse tente de toucher le gros lot sans rien lui dire pour empocher l'argent avec sa maîtresse.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708070500 +0200" stop="20260708073000 +0200">
@@ -28670,9 +29405,19 @@
     <desc lang="fr">Un gagnant à la loterie qui a joué avec son épouse tente de toucher le gros lot sans rien lui dire pour empocher l'argent avec sa maîtresse.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="RTL9.fr" start="20260708071500 +0200" stop="20260708074000 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E52</title>
+    <desc lang="fr">Parce qu'un adolescent a besoin d'une greffe, deux quadragénaires découvrent qu'elles ont aimé le même homme sans le savoir il y a près de 18 ans.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260708073000 +0200" stop="20260708075500 +0200">
     <title lang="fr">Le jour où tout a basculé - S02E52</title>
     <desc lang="fr">Parce qu'un adolescent a besoin d'une greffe, deux quadragénaires découvrent qu'elles ont aimé le même homme sans le savoir il y a près de 18 ans.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708074000 +0200" stop="20260708081000 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E53</title>
+    <desc lang="fr">Une cadre supérieure est confrontée au traitement disriminatoire de son employeur lorsqu'elle lui apprend qu'elle est enceinte.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708075500 +0200" stop="20260708082000 +0200">
@@ -28695,15 +29440,30 @@
     <desc lang="fr">Un adolescent doit endosser la responsabilité de l'accident de voiture commis par son frère aîné et tente de garder le silence vis-à-vis de leurs parents.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
+  <programme channel="RTL9.fr" start="20260708092000 +0200" stop="20260708094500 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E57</title>
+    <desc lang="fr">Un quinquagénaire victime de Parkinson prend un nouveau médicament. Mais le traitment a des effets secondaires imprévus : désinhibition sexuelle et morale...</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260708093000 +0200" stop="20260708100000 +0200">
     <title lang="fr">Le jour où tout a basculé - S02E57</title>
     <desc lang="fr">Un quinquagénaire victime de Parkinson prend un nouveau médicament. Mais le traitment a des effets secondaires imprévus : désinhibition sexuelle et morale...</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708094500 +0200" stop="20260708102000 +0200">
+    <title lang="fr">Le jour où tout a basculé - S02E58</title>
+    <desc lang="fr">Une septuagénaire est victime des agissements de son propriétaire qui veut tout faire pour l'expulser.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708100000 +0200" stop="20260708103000 +0200">
     <title lang="fr">Le jour où tout a basculé - S02E58</title>
     <desc lang="fr">Une septuagénaire est victime des agissements de son propriétaire qui veut tout faire pour l'expulser.</desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708102000 +0200" stop="20260708111500 +0200">
+    <title lang="fr">Les spécialistes : investigation scientifique - S01E07</title>
+    <desc lang="fr">Une jeune fille est découverte, une arme à la main, seule en pleine rue. Arrivée à l'hôpital, elle tombe presque aussitôt dans le coma. Les médecins découvrent rapidement qu'elle a fait une overdose due à un excès de consommation de produits hallucinogènes. Comment a-t-elle pu se retrouver dans cette situation ?...</desc>
+    <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708103000 +0200" stop="20260708113000 +0200">
     <title lang="fr">Les spécialistes : investigation scientifique - S01E07</title>
@@ -28725,9 +29485,19 @@
     <desc lang="fr">Le capitaine Venturi enquête sur la disparition de Marina, une fillette de 6 ans. L'enfant est retrouvée vivante dans un buisson près de sa maison, mais décède dans les bras de Venturi, en réclamant sa peluche. Venturi pense que la petite fille connaissait son meurtrier. La fille de Francesca De Biase fait un malaise et doit être transportée à l'hôpital...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="RTL9.fr" start="20260708141000 +0200" stop="20260708151000 +0200">
+    <title lang="fr">Les spécialistes : investigation scientifique - S01E11</title>
+    <desc lang="fr">Au cours d'un hold-up, l'employée d'une bijouterie trouve la mort. Les premiers indices mènent la police sur les traces d'un homme qui aurait déjà fait une victime, dix ans plus tôt...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260708141500 +0200" stop="20260708151500 +0200">
     <title lang="fr">Les spécialistes : investigation scientifique - S01E11</title>
     <desc lang="fr">Au cours d'un hold-up, l'employée d'une bijouterie trouve la mort. Les premiers indices mènent la police sur les traces d'un homme qui aurait déjà fait une victime, dix ans plus tôt...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708151000 +0200" stop="20260708160000 +0200">
+    <title lang="fr">Les spécialistes : investigation scientifique - S01E12</title>
+    <desc lang="fr">Venturi et De Biase ont échappé de justesse à la mort. Treize bombes prêtes à exploser avaient été placées dans la maison de l'homme qu'ils recherchent, un certain Mario Samueli...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708151500 +0200" stop="20260708160500 +0200">
@@ -28735,15 +29505,30 @@
     <desc lang="fr">Venturi et De Biase ont échappé de justesse à la mort. Treize bombes prêtes à exploser avaient été placées dans la maison de l'homme qu'ils recherchent, un certain Mario Samueli...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="RTL9.fr" start="20260708160000 +0200" stop="20260708165500 +0200">
+    <title lang="fr">Les spécialistes : investigation scientifique - S02E01</title>
+    <desc lang="fr">L'équipe du RIS cherche toujours à identifier le poseur de bombes et à le mettre sous les verrous. Au cours d'une analyse, le lieutenant Levi découvre un détail qui la conduit chez un loueur de voitures. Sur place, elle récupère une lettre destinée à Venturi...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260708160500 +0200" stop="20260708170000 +0200">
     <title lang="fr">Les spécialistes : investigation scientifique - S02E01</title>
     <desc lang="fr">L'équipe du RIS cherche toujours à identifier le poseur de bombes et à le mettre sous les verrous. Au cours d'une analyse, le lieutenant Levi découvre un détail qui la conduit chez un loueur de voitures. Sur place, elle récupère une lettre destinée à Venturi...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708165500 +0200" stop="20260708175500 +0200">
+    <title lang="fr">Les spécialistes : investigation scientifique - S02E02</title>
+    <desc lang="fr">Le cadavre d'une fille est retrouvé sous un pont, probablement tuée par un chauffard. Venturi se charge de l'affaire. Il découvre qu'elle a été victime d'un accident tragique et involontaire après une course organisée avec deux autres amis...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708170000 +0200" stop="20260708180000 +0200">
     <title lang="fr">Les spécialistes : investigation scientifique - S02E02</title>
     <desc lang="fr">Le cadavre d'une fille est retrouvé sous un pont, probablement tuée par un chauffard. Venturi se charge de l'affaire. Il découvre qu'elle a été victime d'un accident tragique et involontaire après une course organisée avec deux autres amis...</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="RTL9.fr" start="20260708175500 +0200" stop="20260708183000 +0200">
+    <title lang="fr">Amour, gloire et beauté - S01E9658</title>
+    <desc lang="fr">Les réactions sont vives lorsque tout le monde apprend que Luna s'est évadée !</desc>
+    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
   </programme>
   <programme channel="RTL9.fr" start="20260708180000 +0200" stop="20260708183000 +0200">
     <title lang="fr">Amour, gloire et beauté - S01E9658</title>
@@ -30063,6 +30848,56 @@
     <desc lang="fr">Comme chaque jour de l'an sous le règne de Louis XI, une foire populaire a lieu sur le parvis de Notre-Dame, à Paris. C'est là que l'alchimiste Frollo remarque Esmeralda, une ravissante danseuse dont la grâce captive la foule et le séduit lui-même aussitôt. A peine a-t-il le temps de préparer son enlèvement que la belle, poursuivie par des gardes, se réfugie dans la cathédrale. Frollo ne s'avoue par vaincu pour autant : il charge Quasimodo, le bossu de Notre-Dame, d'enlever la jeune femme. L'homme au physique contrefait, qui se souvient qu'Esmeralda lui avait donné de l'eau lorsqu'il était au pilori, est heureux de voir sa mission compromise par l'intervention de Phoebus, le beau capitaine des archers, dont la bohémienne s'éprend sans tarder...</desc>
     <category lang="fr">Film / Drame sentimental</category>
   </programme>
+  <programme channel="TCM.fr" start="20260708063000 +0200" stop="20260708074000 +0200">
+    <title lang="fr">Frankenstein</title>
+    <desc lang="fr">Persuadé qu'il est capable de rivaliser avec la puissance divine, le docteur Henry Frankenstein décide, assisté de son valet bossu, Fritz, de façonner une créature humaine à partir d'organes et de membres épars recueillis dans les cimetières. Il s'aide de l'électricité tirée de la foudre pour animer son monstre. Mais celui-ci, malencontreusement pourvu du cerveau d'un criminel, se montre très violent. Lorsqu'il tue la petite Maria, les villageois se soulèvent et décident d'annuler les festivités données en l'honneur du mariage de Frankenstein avec Elizabeth. A présent, ils n'ont qu'une idée : arrêter le monstre avant qu'il ne commette d'autres crimes...</desc>
+    <category lang="fr">Film / Film fantastique</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708074000 +0200" stop="20260708085500 +0200">
+    <title lang="fr">La fiancée de Frankenstein</title>
+    <desc lang="fr">Le monstre créé de toutes pièces par le docteur Frankenstein a survécu alors que tous le croient mort dans l'incendie du moulin où il s'était réfugié. Il recommence bien malgré lui à terroriser la contrée et se réfugie chez un ermite aveugle, à qui il ne manifeste aucune hostilité. Le docteur Pretorius se rend alors chez son collègue Frankenstein et lui propose de créer une compagne pour le monstre. Frankenstein se récrie qu'il ne veut plus usurper les privilèges du Créateur mais Pretorius obtient sa collaboration en enlevant sa fiancée, Elizabeth. La nouvelle créature, amenée à la vie, est terrorisée par le fiancé que ses créateurs lui destinent...</desc>
+    <category lang="fr">Film / Film fantastique</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708085500 +0200" stop="20260708103000 +0200">
+    <title lang="fr">Le fils de Frankenstein</title>
+    <desc lang="fr">Le baron Wolf von Frankenstein revient au château familial, en compagnie de sa femme, Elsa, et de son jeune enfant. Depuis que son père est mort, vingt-cinq ans auparavant, personne n'a plus hanté les couloirs sombres de la demeure peu hospitalière. Peu après, le baron est abordé par l'ancien assistant de son père, Ygor, qui lui révèle que la créature a réchappé de la destruction. Par un passage secret, Ygor conduit Wolf dans un laboratoire, où le monstre repose dans un coma artificiel. Le baron décide de lui redonner vie, pour prouver que son père cherchait le bien de l'humanité. Ygor a d'autres projets, plus sanglants. Il veut se venger...</desc>
+    <category lang="fr">Film / Film fantastique</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708103000 +0200" stop="20260708123000 +0200">
+    <title lang="fr">Règlements de comptes à O.K. Corral</title>
+    <desc lang="fr">A la poursuite de deux hors-la-loi, Wyatt Earp, le shérif de Dodge City, se heurte à un confrère désabusé qui, par faiblesse, a laissé filer les truands. Au saloon, Wyatt retrouve Doc Holliday, un ancien dentiste miné par la tuberculose et l'alcool. Menacé par un vieil ennemi venu le tuer, Doc dégaine plus vite que son agresseur et l'abat. Jeté en prison et promis à un lynchage en règle, il n'échappe à la mort que grâce à l'intervention de Wyatt Earp, qui le fait évader. En compagnie de sa maîtresse, Kate, l'ancien dentiste s'installe à Dodge City. Il aura, par deux fois, l'occasion de sauver la vie de son ami...</desc>
+    <category lang="fr">Film / Western</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708123000 +0200" stop="20260708143500 +0200">
+    <title lang="fr">El Dorado</title>
+    <desc lang="fr">Cole Thornton arrive à El Dorado, une petite ville du Texas où il a trouvé du travail dans le ranch de Bart Jason. Il rencontre son vieil ami, JP Harrah, le shérif de la bourgade, et apprend de sa bouche que son nouvel employeur est un petit tyran, qui cherche à s'emparer des terres d'un brave fermier, Kevin McDonald. Thornton décide de vider les lieux. Mais en quittant la ville, il est contraint d'abattre un des fils McDonald et reçoit une balle dans le dos, que le médecin ne parvient pas à extraire. Plus tard, bien loin de là, alors qu'il s'est fait un ami du jeune Mississippi et souffre de paralysie partielle, il apprend qu'un nouveau tueur a été engagé par Bart Jason...</desc>
+    <category lang="fr">Film / Western</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708143500 +0200" stop="20260708164000 +0200">
+    <title lang="fr">Sueurs froides</title>
+    <desc lang="fr">Ancien policier, John "Scottie" Ferguson est détective privé à San Francisco. Il souffre d'une peur pathologique du vide depuis la mort d'un collègue policier, qui s'est écrasé au sol. Son vertige l'oblige à renoncer à son activité. L'un de ses camarades d'école, Gavin Elster, lui demande de suivre sa femme, Madeleine, en lui précisant que cette dernière, suicidaire, se croit possédée par l'âme d'une ancêtre. Scottie tombe rapidement amoureux de Madeleine, qu'il sauve une première fois de la noyade, mais que son vertige empêche de préserver d'une chute dans le vide. Ecrasé par la culpabilité, Scottie sombre dans le désespoir, jusqu'à ce qu'il découvre en Judy Barton, l'employée d'un hôtel, l'hallucinant sosie de Madeleine...</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708164000 +0200" stop="20260708184000 +0200">
+    <title lang="fr">Mirage de la vie</title>
+    <desc lang="fr">Lora Meredith, une jeune actrice au chômage, cherche désespérément du travail pour élever sa petite fille Susie. Elle va héberger dans son appartement, Annie, une jeune femme noire, maman elle aussi d'une petite Sarah Jane, une jolie métisse qui n'accepte pas ses origines. Elles vont faire la connaissance de Steve Archer, jeune et sympathique photographe, qui va tomber amoureux de Lora. Lorsque le succès arrive enfin avec l'aide d'Allen Loomis son impresario, cette dernière délaisse Steve pour devenir la maîtresse de l'auteur David Edwards. Le temps a passé, Lora semble lasse de n'exister qu'a travers les personnages qu'elle incarne, et veut revenir auprès de Steve qu'elle accepte enfin d'épouser sans savoir que sa fille Susie est également amoureuse de lui.</desc>
+    <category lang="fr">Film / Mélodrame</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708184000 +0200" stop="20260708205000 +0200">
+    <title lang="fr">Le temps d'aimer et le temps de mourir</title>
+    <desc lang="fr">A peine sorti de l'adolescence, Ernst Graeber connaît les dures heures de la campagne de Russie. Depuis qu'ils reculent, ses camarades et lui s'interrogent sur les horreurs de la guerre qu'ils mènent, avec son cortège de drames et de morts. Revenant dans sa ville natale à l'occasion d'une permission, il la découvre en ruines. Ses parents ont disparu. Il ne retrouve que deux de ses camarades d'enfance, Oscar Binding et Elizabeth Kruse, dont le père est interné dans un camp de concentration. La solitude rapproche Elizabeth et Ernst. Ils décident de se marier. Peu de temps après leur mariage, leur logement est détruit. Ils doivent se réfugier dans les décombres d'une église...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708205000 +0200" stop="20260708222500 +0200">
+    <title lang="fr">Willie Boy</title>
+    <desc lang="fr">En 1909, Willie Boy, un Indien travaillant dans un ranch, arrive à Banning, en Californie, pour assister à la fête de la réserve Morongo. Il doit épouser Lola Boniface. Ce projet d'union déplaît fortement au père de la jeune fille. Pendant ce temps, le shérif Christopher Cooper fait sa cour à Elizabeth Arnold, qui est tout à la fois médecin et superintendant de la réserve. Willie décide d'enlever Lola et de l'emmener dans le Nevada. Le père de Lola les surprend tandis qu'ils s'étreignent. Le jeune homme le tue. Le crime ayant été commis sur la terre des Blancs, le meurtrier et sa belle doivent s'enfuir. Elizabeth Arnold charge Cooper de les rattraper...</desc>
+    <category lang="fr">Film / Western</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260708222500 +0200" stop="20260709002000 +0200">
+    <title lang="fr">Mon nom est Personne</title>
+    <desc lang="fr">Constatant qu'il prend de l'âge, Jack Beauregard, légendaire pistolero, songe à rengainer ses colts et à quitter l'Ouest pour l'Europe, où il compte achever paisiblement sa vie. Mais l'argent du voyage lui manque. C'est à ce moment que débarque un jeune aventurier énigmatique. Il se fait appeler "Personne" et voue à Jack une admiration sans bornes, quelque peu encombrante. Il aimerait que son héros affronte les 150 hors-la-loi qui forment la redoutable "horde sauvage". Ces derniers, qui se sont déjà rendus coupables de l'assassinat du frère de Jack, ont leur propre idée sur la question. Ils tentent de prendre les devants et, moyennant finances, proposent à Personne d'abattre Jack...</desc>
+    <category lang="fr">Film / Western</category>
+  </programme>
   <programme channel="TF1.fr" start="20260708011500 +0200" stop="20260708012000 +0200">
     <title lang="fr">Tirage de l'EuroMillions - S29E54</title>
     <desc lang="fr">Les derniers tirages de la loterie EuroMillions, avec les 5 numéros gagnants et les 2 bonnes étoiles, ainsi que les codes victorieux de My Million.</desc>
@@ -31241,6 +32076,12 @@
     <title lang="fr">La Damnation de Faust</title>
     <desc lang="fr">Dans son bureau, Faust se lamente sur son existence misérable. Alors qu'il s'apprête à avaler un poison, Méphistophélès lui apparaît et lui propose d'exaucer tous ses désirs. Ensemble, ils partent goûter les nourritures terrestres. Leur première halte les conduit dans une auberge peuplée d'étudiants et de soldats en goguette. Puis le maître des ténèbres emmène Faust sur les bords de l'Elbe, où lui apparaît en rêve l'abstraite beauté de Marguerite. La jeune fille est en prison, accusée du meurtre de sa mère. Méphistophélès promet de la libérer si Faust accepte de le servir...</desc>
     <category lang="fr">Opéra / Drame lyrique</category>
+  </programme>
+  <programme channel="TV5MondeAsie.fr" start="20260708000000 +0200" stop="20260708002531 +0200">
+    <title lang="fr">Chroniques d'en haut</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">Documentary</category>
+    <icon src="https://bo-apac.tv5monde.com/sites/default/files/styles/slide_small/public/2020-07/Chroniques_d_en_haut_aneto_3.jpg.jpeg?itok=xAqkkb8-"/>
   </programme>
   <programme channel="TVPitchoun.fr" start="20260708000000 +0200" stop="20260708000300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
@@ -33819,7 +34660,7 @@
     <category lang="fr">Magazine / Magazine judiciaire</category>
   </programme>
   <programme channel="Teva.fr" start="20260708095500 +0200" stop="20260708105000 +0200">
-    <title lang="fr">Au coeur du crime</title>
+    <title lang="fr">Au coeur du crime - S05E33</title>
     <desc lang="fr">Une voiture carbonisée est retrouvée dans un fossé. A l'intérieur du véhicule, un corps humain se consume. Face aux enquêteurs, l'époux de la victime avance la théorie de l'incendie accidentel. Mais un bidon d'essence ouvert a été retrouvé dans la voiture et le cadavre n'est pas celui de sa femme. L'enquête prend alors un autre tournant.</desc>
     <category lang="fr">Magazine / Magazine judiciaire</category>
   </programme>
@@ -44989,6 +45830,34 @@
     <desc lang="fr">Un matin, dans un restaurant, un homme a ouvert le feu au hasard, avant de se donner la mort. Anne, Jimmy, Carla, Charlie et le docteur Laraby ont tous les cinq survécu à cette tragédie, et ils tentent tant bien que mal de survivre au traumatisme et de se reconstruire. Anne, à force de raconter ce qui lui est arrivé, devient impopulaire à l'école, tandis que son meilleur ami Jimmy se replie sur lui-même. Carla, la serveuse du restaurant, néglige son bébé et se lance dans des aventures sans lendemain. Charlie, qu'une balle a frôlé, se met à fréquenter les casinos, certain d'avoir la chance de son côté, tandis que le docteur Laraby se met à caresser un rêve : guérir sa femme de ses migraines. Un psychologue tente de leur venir en aide, mais il se heurte à leur suspicion...</desc>
     <category lang="fr">Film / Drame</category>
   </programme>
+  <programme channel="oqee.1210" start="20260708000000 +0200" stop="20260708060000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260708060000 +0200" stop="20260708090000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260708090000 +0200" stop="20260708120000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260708120000 +0200" stop="20260708150000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260708150000 +0200" stop="20260708180000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260708180000 +0200" stop="20260708210000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.1210" start="20260708210000 +0200" stop="20260709000000 +0200">
+    <title lang="fr">Evangile TV</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
   <programme channel="oqee.1211" start="20260708014500 +0200" stop="20260708033300 +0200">
     <title lang="fr">La diabolique</title>
     <desc lang="fr">Après le décès de sa grand-mère, Lisa emménage avec ses parents dans la maison de celle-ci. Elle fait alors la connaissance d'une autre petite fille, qu'elle seule peut voir. Ses parents pensent à une amie imaginaire, mais très vite, celle-ci divulgue des secrets sur l'enfance de Christine, la mère de Lisa. Paul, le père, suspecte alors sa femme de lui cacher l'indicible. Quoi qu'il en soit, il est persuadé que les événements qui se déroulent dans cette demeure ne sont pas normaux et commence à suspecter des manifestations paranormales. La famille, qui ploie lentement sous le poids de la suspicion, risque d'être la victime des spectres...</desc>
@@ -46970,6 +47839,34 @@
     <desc lang="fr">Güne son nokta, A Haber ekranlarında yayınlanan Gece Ajansı ile konuluyor. Programda iç ve dış siyaset, ekonomi ve spor alanlarında gün boyunca yaşanan önemli gelişmeler kapsamlı şekilde ele alınıyor. Son dakika haberleri, öne çıkan başlıklar ve detaylı aktarımlarla izleyiciye günün tamamını özetleyen güvenilir ve güncel bir haber akışı sunuluyor.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.1255" start="20260708000000 +0200" stop="20260708060000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260708060000 +0200" stop="20260708090000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260708090000 +0200" stop="20260708120000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260708120000 +0200" stop="20260708150000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260708150000 +0200" stop="20260708180000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260708180000 +0200" stop="20260708210000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1255" start="20260708210000 +0200" stop="20260709000000 +0200">
+    <title lang="fr">EMCI TV</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
   <programme channel="oqee.1296" start="20260708001700 +0200" stop="20260708001800 +0200">
     <title lang="fr">A suivre, votre case "Destins"</title>
     <category lang="fr">Magazine / Magazine d'information</category>
@@ -47767,6 +48664,74 @@
   <programme channel="oqee.1335" start="20260708230000 +0200" stop="20260709020000 +0200">
     <title lang="fr">Lutte TV</title>
     <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708004900 +0200" stop="20260708020800 +0200">
+    <title lang="fr">Let's Tag Team Dad's GF!</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708020800 +0200" stop="20260708033700 +0200">
+    <title lang="fr">Sneaking Around And Boning Gets Her So Wet</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708033700 +0200" stop="20260708045500 +0200">
+    <title lang="fr">Let's Share Our Trainer's Meat</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708045500 +0200" stop="20260708062000 +0200">
+    <title lang="fr">Sex on Social Media: Let's Post it</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708062000 +0200" stop="20260708074100 +0200">
+    <title lang="fr">18YO Camp Counselors</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708074100 +0200" stop="20260708090100 +0200">
+    <title lang="fr">Amateurs Do the Help 2</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708090100 +0200" stop="20260708102100 +0200">
+    <title lang="fr">Let's Tag Team Dad's GF!</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708102100 +0200" stop="20260708114900 +0200">
+    <title lang="fr">Sneaking Around And Boning Gets Her So Wet</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708114900 +0200" stop="20260708130700 +0200">
+    <title lang="fr">Let's Share Our Trainer's Meat</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708130700 +0200" stop="20260708143200 +0200">
+    <title lang="fr">Sex on Social Media: Let's Post it</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708143200 +0200" stop="20260708155400 +0200">
+    <title lang="fr">18YO Camp Counselors</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708155400 +0200" stop="20260708171400 +0200">
+    <title lang="fr">Amateurs Do the Help 2</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708171400 +0200" stop="20260708183300 +0200">
+    <title lang="fr">Let's Tag Team Dad's GF!</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708183300 +0200" stop="20260708200200 +0200">
+    <title lang="fr">Sneaking Around And Boning Gets Her So Wet</title>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708200200 +0200" stop="20260708212000 +0200">
+    <title lang="fr">Let's Share Our Trainer's Meat</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708212000 +0200" stop="20260708224400 +0200">
+    <title lang="fr">Sex on Social Media: Let's Post it</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260708224400 +0200" stop="20260709000600 +0200">
+    <title lang="fr">Humpin' At the House Party</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
   <programme channel="oqee.139" start="20260708002800 +0200" stop="20260708011300 +0200">
     <title lang="fr">L'affaire Jeremy Bamber : enfant du diable ? - S01E03</title>
@@ -54214,10 +55179,109 @@
     <desc lang="fr">Telediario en el que se cuentan noticias de temas nacionales con especial peso en los temas internacionales.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.366" start="20260708050000 +0200" stop="20260708053000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario en el que se cuentan noticias de temas nacionales con especial peso en los temas internacionales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708053000 +0200" stop="20260708060000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario en el que se cuentan noticias de temas nacionales con especial peso en los temas internacionales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708060000 +0200" stop="20260708075000 +0200">
+    <title lang="fr">Telediario Matinal</title>
+    <desc lang="fr">Sirun Demirjian y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708075000 +0200" stop="20260708103500 +0200">
+    <title lang="fr">La hora de La 1: La hora de la actualidad</title>
+    <desc lang="fr">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708103500 +0200" stop="20260708110000 +0200">
+    <title lang="fr">Diario 24</title>
+    <desc lang="fr">Espacio de información nacional e internacional.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708110000 +0200" stop="20260708140000 +0200">
+    <title lang="fr">Diario 24</title>
+    <desc lang="fr">Espacio de información nacional e internacional.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708140000 +0200" stop="20260708145700 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708145700 +0200" stop="20260708153600 +0200">
+    <title lang="fr">Telediario 1</title>
+    <desc lang="fr">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708153600 +0200" stop="20260708154200 +0200">
+    <title lang="fr">Deportes 1</title>
+    <desc lang="fr">Actualidad deportiva diaria nacional e internacional.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708154200 +0200" stop="20260708154500 +0200">
+    <title lang="fr">El tiempo</title>
+    <desc lang="fr">Retransmisión del parte meteorológico para España en el día de hoy.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708154500 +0200" stop="20260708160000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708160000 +0200" stop="20260708163000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708163000 +0200" stop="20260708170000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708170000 +0200" stop="20260708200000 +0200">
+    <title lang="fr">La tarde en 24H</title>
+    <desc lang="fr">Informativo en directo de noticias, entrevistas y reportajes con dedicación especial a la economía, internacional, cultura y deporte. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708200000 +0200" stop="20260708203000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708203000 +0200" stop="20260708205800 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708205800 +0200" stop="20260708213700 +0200">
+    <title lang="fr">Telediario 2</title>
+    <desc lang="fr">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708214400 +0200" stop="20260708220400 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260708220400 +0200" stop="20260709003000 +0200">
+    <title lang="fr">La noche en 24H</title>
+    <desc lang="fr">Informativo diario que incluye entrevistas y debates sobre diversas cuestiones de actualidad. El programa ofrece la posibilidad de que los espectadores participen opinando sobre las cuestiones debatidas mediante un foro en la web de RTVE.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="oqee.368" start="20260708001500 +0200" stop="20260708002000 +0200">
     <title lang="fr">TG1 Sera</title>
     <desc lang="fr">Le ultime notizie in tempo reale. News e aggiornamenti su politica, cronaca, economia, sport e attualita' dall'Italia e dall'estero. </desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.368" start="20260708002000 +0200" stop="20260708015000 +0200">
+    <title lang="fr">Notti Mondiali</title>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.368" start="20260708002000 +0200" stop="20260708005500 +0200">
     <title lang="fr">Notti Mondiali</title>
@@ -54233,10 +55297,30 @@
     <desc lang="fr">Un homme, qui possède un don exceptionnel, peut lire dans certains objets du quotidien la vie des personnes qui les ont possédés et peut ainsi prévoir des événements dramatiques.</desc>
     <category lang="fr">Série / Série de suspense</category>
   </programme>
+  <programme channel="oqee.368" start="20260708015000 +0200" stop="20260708015500 +0200">
+    <title lang="fr">Che tempo fa</title>
+    <desc lang="fr">L'appuntamento con le previsioni del tempo gestito dall'Aeronautica militare.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.368" start="20260708015500 +0200" stop="20260708031000 +0200">
+    <title lang="fr">Reazione a catena</title>
+    <desc lang="fr">"Reazione a catena" permette a tutti con divertimento di scoprire o riscoprire alcune curiosità sulla lingua italiana, coinvolgendo i concorrenti del gioco e chi lo segue da casa, in una divertente "ginnastica mentale" che, come dice il suo sottotitolo, "rinfresca la mente".</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="oqee.368" start="20260708025500 +0200" stop="20260708045500 +0200">
     <title lang="fr">Il Restauratore - S02E08</title>
     <desc lang="fr">Un homme, qui possède un don exceptionnel, peut lire dans certains objets du quotidien la vie des personnes qui les ont possédés et peut ainsi prévoir des événements dramatiques.</desc>
     <category lang="fr">Série / Série de suspense</category>
+  </programme>
+  <programme channel="oqee.368" start="20260708031000 +0200" stop="20260708035500 +0200">
+    <title lang="fr">Rex, chien flic - S07E10</title>
+    <desc lang="fr">Michou Lang caracole en tête des classements avec son nouveau tube. Mais le succès monte bien vite à la tête de la jeune femme, qui se brouille avec Tanja Steiner, son ancienne partenaire, et quitte son ami Patrick pour Daniel Traun, un manager. Les répétitions s'enchaînent, rythmées par les coups de colère de Michou, de plus en plus détestable. Un soir, alors qu'elle s'apprête à rentrer chez elle, sa voiture explose au démarrage. L'expertise révèle qu'un rayon laser est à l'origine du drame, et les soupçons se portent aussitôt sur Patrick, l'ami délaissé...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.368" start="20260708035500 +0200" stop="20260708060000 +0200">
+    <title lang="fr">RAInews24</title>
+    <desc lang="fr">Il programma presenta le ultime notizie in tempo reale. News attualità e aggiornamenti su politica, cronaca, esteri, economia, sport e attualità.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.368" start="20260708045500 +0200" stop="20260708060000 +0200">
     <title lang="fr">RAInews24</title>
@@ -54693,10 +55777,25 @@
     <desc lang="fr">IKEA is one of the world's largest consumers of wood. Almost 15 million cubic meters of the material are used every year in cheap IKEA products - with millions of trees felled for the mass production machine.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="oqee.373" start="20260708001500 +0200" stop="20260708013500 +0200">
+    <title lang="fr">Premio Cimitile</title>
+    <desc lang="fr">Il Premio Cimitile è una rassegna letteraria nazionale, è uno degli eventi culturali della Regione Campania. La premiazione si svolge nello scenario delle Basiliche Paleocristiane di Cimitile, il complesso unico al mondo, ha origini pagane e annovera sette Basiliche di varie epoche, rappresenta uno dei più suggestivi complessi artistico-religiosi.</desc>
+    <category lang="fr">Spectacle / Cérémonie</category>
+  </programme>
   <programme channel="oqee.373" start="20260708005000 +0200" stop="20260708014000 +0200">
     <title lang="fr">Premio Cimitile</title>
     <desc lang="fr">Il Premio Cimitile è una rassegna letteraria nazionale, è uno degli eventi culturali della Regione Campania. La premiazione si svolge nello scenario delle Basiliche Paleocristiane di Cimitile, il complesso unico al mondo, ha origini pagane e annovera sette Basiliche di varie epoche, rappresenta uno dei più suggestivi complessi artistico-religiosi.</desc>
     <category lang="fr">Spectacle / Cérémonie</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708013500 +0200" stop="20260708014000 +0200">
+    <title lang="fr">Appuntamento al cinema</title>
+    <desc lang="fr">Appuntamento al cinema. Approfondimenti sul mondo del cinema, interviste agli autori ed attori dei film in uscita. Rubrica di promozione della cultura cinematografica in Italia a cura dell'Anicagis. </desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708014000 +0200" stop="20260708030500 +0200">
+    <title lang="fr">La Guerra del Tiburtino III</title>
+    <desc lang="fr">Quando un meteorite cade a Tiburtino III, un verme alieno si insinua in Leonardo che lo "erige" capo di un gruppo di invasati decisi a isolare il quartiere. Pinna, figlio di Leonardo, con l'aiuto della fashion blogger Lavinia, dovrà affrontare la minaccia e tentare di salvare Roma. Riusciranno a salvare la Capitale?</desc>
+    <category lang="fr">Film / Film de science-fiction</category>
   </programme>
   <programme channel="oqee.373" start="20260708014000 +0200" stop="20260708014500 +0200">
     <title lang="fr">Appuntamento al cinema</title>
@@ -54708,12 +55807,27 @@
     <desc lang="fr">FICTION - Il commissario Cattani ha lasciato la Polizia per dedicarsi alla figlia, ma viene contattato dai Servizi Segreti, che stanno indagando su un personaggio potente ed insospettabile.... - (ITA, 1986) Regia di Florestano Vancini Con Michele Placido, Florinda Bolkan 5^ e 6^ puntata</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="oqee.373" start="20260708030500 +0200" stop="20260708045000 +0200">
+    <title lang="fr">La mafia - S06E03</title>
+    <desc lang="fr">Davide Licata entra a far parte di un Nucleo Speciale il cui obiettivo è colpire il vertice della piramide mafiosa. La sua lotta lo porterà a confrontarsi con gli orrori della Storia e con il male che si cela nell'animo umano.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="oqee.373" start="20260708032500 +0200" stop="20260708045000 +0200">
     <title lang="fr">Rex</title>
     <desc lang="fr">Rex met en scène une unité de police criminelle à Vienne puis Rome et notamment le duo infaillible d'un inspecteur et de son berger allemand, Rex. Les scénaristes ont traité plusieurs aspects de la criminalité: crimes passionnels, de psychopathes, par accident, crapuleux, mafieux, etc...; et divers problèmes de société occupent également le devant de la scène dans l'un ou l'autre épisode: alcoolisme, violence domestique, addiction au jeu, etc...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="oqee.373" start="20260708045000 +0200" stop="20260708050000 +0200">
+    <title lang="fr">Zio Gianni</title>
+    <desc lang="fr">"Zio Gianni" racconta in modo scanzonato e originale, l'incontro tra Gianni Coletti, cinquant'anni, e i suoi nuovi compagni di vita, tre allegri spiantati di vent'anni nella Roma dei giorni nostri...</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="oqee.373" start="20260708045000 +0200" stop="20260708051000 +0200">
+    <title lang="fr">ImPazienti</title>
+    <desc lang="fr">SIT COM - Una manovra imprevista e crash... un incidente! Nessuna ferita, per fortuna, ma ha inizio di un'interminabile controversia tra due automobilisti coll'unico obiettivo d'incassare un risarcimento.... - Da un'idea di Massimiliano Tortora Con Enrico Bertolino e Max Tortora Regia di Celeste Laudisio</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708050000 +0200" stop="20260708051000 +0200">
     <title lang="fr">ImPazienti</title>
     <desc lang="fr">SIT COM - Una manovra imprevista e crash... un incidente! Nessuna ferita, per fortuna, ma ha inizio di un'interminabile controversia tra due automobilisti coll'unico obiettivo d'incassare un risarcimento.... - Da un'idea di Massimiliano Tortora Con Enrico Bertolino e Max Tortora Regia di Celeste Laudisio</desc>
     <category lang="fr">Série / Série humoristique</category>
@@ -54724,8 +55838,13 @@
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.373" start="20260708052500 +0200" stop="20260708060000 +0200">
-    <title lang="fr">Retour à Las Sabinas</title>
-    <desc lang="fr">Gracia et Paloma retournent à Las Sabinas pour s'occuper de leur père, Emilio. Gracia retrouve son amour d'enfance, Miguel qui est à présent fiancé à Esther. Le frère de Miguel, Tano, qui est aussi amoureux de Gracia, décide de tenter sa chance quand il la recroise. Paloma prend les rênes des terres familiales et se dispute avec une propriétaire, Paca Utrera, qui a un plan abominable pour le village. Emilio doit regagner l'affection de ses filles, mais un terrible secret qu'il partage avec Paca l'en empêche. La mère de Miguel et Tano, Silvia, a hâte que Gracia quitte Manterana. Le jeune Óscar est retrouvé mort dans des circonstances étranges. Manuela doit enquêter sur le meurtre avec l'aide du frère d'Óscar, Álex, qui est prêtre.</desc>
+    <title lang="fr">Retour à Las Sabinas - S01E20</title>
+    <desc lang="fr">Miguel et Esther, jeunes mariés, planifient avec excitation leur lune de miel à New York. Gracia reçoit un appel l'informant d'une terrible nouvelle concernant son mari. Gracia s'attache de plus en plus à Paloma. Lucas a une opinion tranchée du petit copain de Lucía, Nico. Paca et Tomás passent à la prochaine étape de leur plan. Manuela découvre quelque chose qui la pousse à présenter ses excuses.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708060000 +0200" stop="20260708061000 +0200">
+    <title lang="fr">Retour à Las Sabinas - S01E20</title>
+    <desc lang="fr">Miguel et Esther, jeunes mariés, planifient avec excitation leur lune de miel à New York. Gracia reçoit un appel l'informant d'une terrible nouvelle concernant son mari. Gracia s'attache de plus en plus à Paloma. Lucas a une opinion tranchée du petit copain de Lucía, Nico. Paca et Tomás passent à la prochaine étape de leur plan. Manuela découvre quelque chose qui la pousse à présenter ses excuses.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.373" start="20260708060000 +0200" stop="20260708060500 +0200">
@@ -54738,9 +55857,24 @@
     <desc lang="fr">A la fin du XIXe siècle, la saga de la famille Barkley. Veuve énergique, Victoria Barkley dirige le ranch et sa famille d'une main de fer. Elle est aidée dans sa tâche par ses 3 fils, sa fille et le fils illégitime de son mari disparu.</desc>
     <category lang="fr">Série / Série western</category>
   </programme>
+  <programme channel="oqee.373" start="20260708061000 +0200" stop="20260708070000 +0200">
+    <title lang="fr">La grande vallée</title>
+    <desc lang="fr">A la fin du XIXe siècle, la saga de la famille Barkley. Veuve énergique, Victoria Barkley dirige le ranch et sa famille d'une main de fer. Elle est aidée dans sa tâche par ses 3 fils, sa fille et le fils illégitime de son mari disparu.</desc>
+    <category lang="fr">Série / Série western</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708070000 +0200" stop="20260708074500 +0200">
+    <title lang="fr">Alerte à Malibu - S02E22</title>
+    <desc lang="fr">Suite aux recommandations de Harvey, Eddie et Shauni consultent Rosalind, une diseuse de bonne aventure...</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
   <programme channel="oqee.373" start="20260708070000 +0200" stop="20260708083000 +0200">
     <title lang="fr">Alerte à Malibu</title>
     <desc lang="fr">Les nageurs sur les plages de Malibu peuvent se baigner en paix, les sauveteurs en mer sous la houlette de Mitch Buchannon veillent au grain et se tiennent prêts à intervenir au moindre signe de danger. Au programme: bains de soleil, sports nautiques, secouristes musclés, maillots de bains rouges sexy, courses au ralenti et grosses bouées, le tout dans un mélange d'action, d'humour et d'émotion.</desc>
+    <category lang="fr">Série / Série d'action</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708074500 +0200" stop="20260708083000 +0200">
+    <title lang="fr">Alerte à Malibu - S03E01</title>
+    <desc lang="fr">Mitch apprend que son oncle Alex, un homme au comportement quelque peu excentrique, s'est noyé alors qu'il cherchait de l'or dans une rivière située au nord de la Californie...</desc>
     <category lang="fr">Série / Série d'action</category>
   </programme>
   <programme channel="oqee.373" start="20260708083000 +0200" stop="20260708084500 +0200">
@@ -54792,10 +55926,20 @@
     <title lang="fr">Dribbling Mondiali</title>
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
+  <programme channel="oqee.373" start="20260708145000 +0200" stop="20260708153500 +0200">
+    <title lang="fr">NCIS - S22E11</title>
+    <desc lang="fr">Un criminel qui utilisait l'identité d'un militaire est retrouvé mort dans un parc. Nick menait en secret, à la demande de Vance, une mission d'infiltration auprès d'un gang utilisant de fausses cartes militaires. Pour protéger la couverture de Torres, le NCIS organise un faux mariage entre lui et Jessica, bien que Nick sorte actuellement avec sa sœur, Robin Knight…</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="oqee.373" start="20260708145000 +0200" stop="20260708154000 +0200">
     <title lang="fr">NCIS</title>
     <desc lang="fr">Le NCIS est une unité spéciale chargée d'enquêter sur toutes les affaires criminelles qui impliquent la marine américaine, la Navy, ou le corps des Marines. Car l'armée américaine est comme un Etat dans l'Etat, avec ses règles et ses traditions. L'agent spécial Leroy Jethro Gibbs, qui dirige une équipe du NCIS, n'ignore rien de cela. Secondé notamment par l'agent DiNozzo, un ancien policier, il a pour mission d'élucider toutes sortes d'affaires, depuis la rixe entre marins qui tourne mal jusqu'aux tentatives de sabotages venues de l'extérieur. Une formule à succès, centrée sur des personnages attachants, et développée à partir de la série "JAG". Le producteur Donald P. Bellisario ("Supercopter", "Code Quantum"), est à l'origine des deux projets.</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.373" start="20260708153500 +0200" stop="20260708164500 +0200">
+    <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
+    <desc lang="fr">A suivre le prestigieux Tour de France de cyclisme. Organisé par l'UCI, le Tour se déroule en juillet sur 21 étapes pendant 23 jours. La "Grande Boucle" consiste en au moins deux contre-la-montre, des étapes de montagne et l'arrivée à Nice, exceptionnellement pour l'édition 2024.</desc>
+    <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
   <programme channel="oqee.373" start="20260708154000 +0200" stop="20260708164500 +0200">
     <title lang="fr">Cyclisme : Tour de France - Tour de France</title>
@@ -54832,8 +55976,8 @@
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.373" start="20260708194500 +0200" stop="20260708203000 +0200">
-    <title lang="fr">Blue Bloods</title>
-    <desc lang="fr">Chez les Reagan, la loi et la police de New York sont une affaire de famille. Comme son père Henry avant lui, et comme pour ses enfants Danny, Erin et Jamie, Frank est un officier parmi les plus efficaces de la Grosse Pomme. Avec ses enfants, Frank combat le crime et notamment une société secrète, "The Blue Templar", un groupement de flics corrompus. Retour réussi dans l'univers des séries pour Tom Selleck, l'inoubliable interprète de Magnum.</desc>
+    <title lang="fr">Blue Bloods - S02E03</title>
+    <desc lang="fr">Le cambriolage d'une banque tourne mal. Un des clients tire sur les trois braqueurs. Dans la confusion, tout le monde prend la fuite, à l'exception du tireur, d'un des cambrioleurs et d'une autre personne. Désespéré et prêt à tout pour ne pas se retrouver derrière les barreaux, le braqueur décide de retenir les deux clients en otages. Alerté, Frank se rend sur place et réalise avec stupeur que le malfaiteur est Bill Flood, un de ses ex-collègues. Il est persuadé que le mobile de cet ancien agent n'est pas la simple envie d'être riche à millions. En effet, Frank a appris que le policier en question a basculé dans la délinquance à cause de la terrible maladie dont souffre sa fille de 8 ans...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="oqee.373" start="20260708203000 +0200" stop="20260708210000 +0200">
@@ -62905,6 +64049,126 @@
     <desc lang="fr">Enjoy a moment of escape watching this amazing landscape, captured in Polynesia.</desc>
     <category lang="fr">Divers / Emission spéciale</category>
   </programme>
+  <programme channel="oqee.698" start="20260708000000 +0200" stop="20260708020000 +0200">
+    <title lang="fr">Nasty 18YO Nymphos</title>
+    <desc lang="fr">Kylie Rocket, Laney Grey, River Lynn, and Stella Luxx may seem nerdy, smart, and boring, however these 18YOs are anything but that! They know just how to use their smarts to catch a guy off guard to get what they really want!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708020000 +0200" stop="20260708034100 +0200">
+    <title lang="fr">My Young Black Stepdaughter</title>
+    <desc lang="fr">Nicole Kitt, Kira Noir, Daya Knight, and Diamond Banks are beautiful, young, black, and stepdaughters. Stepdaughters with a goal. It might be to get a ride to the mall, to avoid doing chores for the rest of her life, or even to have an "itch" scratched. Whatever the goal is, their stepdads are in for deep trouble!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708034100 +0200" stop="20260708040000 +0200">
+    <title lang="fr">MILFs Unleashed</title>
+    <desc lang="fr">Ebony beauty Lola Marie is clearly asking for it and our favorite dirty MILF, Tina Kay, is not one to refuse an opening like that especially with Vince Karter's tasty cock inserted in the mix! No one leaves this bedroom without a smile on their face and a throb in their pants.</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708040000 +0200" stop="20260708054200 +0200">
+    <title lang="fr">Lesbian Stepsisters</title>
+    <desc lang="fr">Blended families can be so awkward, so annoying, especially if you're a girl with a new stepsister around the same age! On occasion there can be silver linings in these relationships, especially if both girls are horny and like eating pussy!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708054200 +0200" stop="20260708055500 +0200">
+    <title lang="fr">BTS MILF Maids</title>
+    <desc lang="fr">Go behind-the-scenes of Penthouse's MILF Maids movie and meet beautiful MILF, Lauren Phillips, Sheena Ryder, Kayla Paige, and Jessica Ryan!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708055500 +0200" stop="20260708060000 +0200">
+    <title lang="fr">Dani Daniels Lesbian Chats</title>
+    <desc lang="fr">Ash Hollywood is a sucker for suckers and she has a big one! Before you can say "cut!" she's got her lingerie off and pleasuring her pussy as she teases her cam audience with her descriptions. I could listen to her "storytelling" for hours! And if anyone can make a pussy purr, it's Ash Hollywood! Meow!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708060000 +0200" stop="20260708075700 +0200">
+    <title lang="fr">MILFS Take Young Cock</title>
+    <desc lang="fr">There's no question about it, beautiful MILF Cherry Kiss, Alyssa Bounty, Anissa Kate, and Josephine are all after one thing! They want young cock to satisfy a craving as old as time. They'll be sneaky about what they want... for maybe a minute!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708075700 +0200" stop="20260708080000 +0200">
+    <title lang="fr">BTS Penthouse Presents: Soccer Sluts</title>
+    <desc lang="fr">Penthouse's January 2020 Pet of the Month, Bunny Colby plays "Dirty Gerty" with Oliver Flynn who has his own special "technique" for when he cums!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708080000 +0200" stop="20260708093600 +0200">
+    <title lang="fr">Lessons in Pussy</title>
+    <desc lang="fr">Penthouse makes learning fun with hot teachers like Anissa Kate, Vera Jarw, Eden Ivy, and Tiffany Tatum. With small classrooms and personal attention these sexy professors might not get you to raise your hand, they'll definitely get a rise out of you!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708093600 +0200" stop="20260708100000 +0200">
+    <title lang="fr">Big Asses Crave Black Cock</title>
+    <desc lang="fr">Numi Zarah is sexy, hot, and wet in her very tiny black bikini, but this beautiful Bengali girl gets even wetter when anticipating Slimpoke big black dick inside of her!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708100000 +0200" stop="20260708115600 +0200">
+    <title lang="fr">Sharing My Nympho Girlfriend</title>
+    <desc lang="fr">European nympho girls Megan Murkovski, Candee Licious, Marica Chanelle, and Lia Lin love sex so much that they are more than happy to include a third or forth partner!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708115600 +0200" stop="20260708120000 +0200">
+    <title lang="fr">BTS Miami Mamacitas</title>
+    <desc lang="fr">Gabriela Lopez has an amazing body and is not shy about letting you know! Get to know more about this Latina cockteaser and her big clit when she's behind the camera!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708120000 +0200" stop="20260708140000 +0200">
+    <title lang="fr">Nasty 18YO Nymphos</title>
+    <desc lang="fr">Kylie Rocket, Laney Grey, River Lynn, and Stella Luxx may seem nerdy, smart, and boring, however these 18YOs are anything but that! They know just how to use their smarts to catch a guy off guard to get what they really want!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708140000 +0200" stop="20260708154100 +0200">
+    <title lang="fr">My Young Black Stepdaughter</title>
+    <desc lang="fr">Nicole Kitt, Kira Noir, Daya Knight, and Diamond Banks are beautiful, young, black, and stepdaughters. Stepdaughters with a goal. It might be to get a ride to the mall, to avoid doing chores for the rest of her life, or even to have an "itch" scratched. Whatever the goal is, their stepdads are in for deep trouble!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708154100 +0200" stop="20260708160000 +0200">
+    <title lang="fr">MILFs Unleashed</title>
+    <desc lang="fr">Ebony beauty Lola Marie is clearly asking for it and our favorite dirty MILF, Tina Kay, is not one to refuse an opening like that especially with Vince Karter's tasty cock inserted in the mix! No one leaves this bedroom without a smile on their face and a throb in their pants.</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708160000 +0200" stop="20260708174200 +0200">
+    <title lang="fr">Lesbian Stepsisters</title>
+    <desc lang="fr">Blended families can be so awkward, so annoying, especially if you're a girl with a new stepsister around the same age! On occasion there can be silver linings in these relationships, especially if both girls are horny and like eating pussy!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708174200 +0200" stop="20260708175500 +0200">
+    <title lang="fr">BTS MILF Maids</title>
+    <desc lang="fr">Go behind-the-scenes of Penthouse's MILF Maids movie and meet beautiful MILF, Lauren Phillips, Sheena Ryder, Kayla Paige, and Jessica Ryan!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708175500 +0200" stop="20260708180000 +0200">
+    <title lang="fr">Dani Daniels Lesbian Chats</title>
+    <desc lang="fr">Ash Hollywood is a sucker for suckers and she has a big one! Before you can say "cut!" she's got her lingerie off and pleasuring her pussy as she teases her cam audience with her descriptions. I could listen to her "storytelling" for hours! And if anyone can make a pussy purr, it's Ash Hollywood! Meow!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708180000 +0200" stop="20260708195700 +0200">
+    <title lang="fr">MILFS Take Young Cock</title>
+    <desc lang="fr">There's no question about it, beautiful MILF Cherry Kiss, Alyssa Bounty, Anissa Kate, and Josephine are all after one thing! They want young cock to satisfy a craving as old as time. They'll be sneaky about what they want... for maybe a minute!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708195700 +0200" stop="20260708200000 +0200">
+    <title lang="fr">BTS Penthouse Presents: Soccer Sluts</title>
+    <desc lang="fr">Penthouse's January 2020 Pet of the Month, Bunny Colby plays "Dirty Gerty" with Oliver Flynn who has his own special "technique" for when he cums!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708200000 +0200" stop="20260708213600 +0200">
+    <title lang="fr">Lessons in Pussy</title>
+    <desc lang="fr">Penthouse makes learning fun with hot teachers like Anissa Kate, Vera Jarw, Eden Ivy, and Tiffany Tatum. With small classrooms and personal attention these sexy professors might not get you to raise your hand, they'll definitely get a rise out of you!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708213600 +0200" stop="20260708220000 +0200">
+    <title lang="fr">Big Asses Crave Black Cock</title>
+    <desc lang="fr">Numi Zarah is sexy, hot, and wet in her very tiny black bikini, but this beautiful Bengali girl gets even wetter when anticipating Slimpoke big black dick inside of her!</desc>
+    <category lang="fr">Téléfilm / Téléfilm érotique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708220000 +0200" stop="20260708235600 +0200">
+    <title lang="fr">Sharing My Nympho Girlfriend</title>
+    <desc lang="fr">European nympho girls Megan Murkovski, Candee Licious, Marica Chanelle, and Lia Lin love sex so much that they are more than happy to include a third or forth partner!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.698" start="20260708235600 +0200" stop="20260709000100 +0200">
+    <title lang="fr">BTS Miami Mamacitas</title>
+    <desc lang="fr">Gabriela Lopez has an amazing body and is not shy about letting you know! Get to know more about this Latina cockteaser and her big clit when she's behind the camera!</desc>
+    <category lang="fr">Film / Film pornographique</category>
+  </programme>
   <programme channel="oqee.702" start="20260708063000 +0200" stop="20260708090000 +0200">
     <title lang="fr">Cadence matinale</title>
     <desc lang="fr">Retrouvez chaque matin du lundi au vendredi l'émission de divertissement pour bien commencer votre journée.</desc>
@@ -66648,6 +67912,131 @@
     <title lang="fr">Aslı Şafak'la İşin Aslı</title>
     <desc lang="fr">Ekonomi, iş dünyası ve gündemdeki kritik konuları ele alan bir programdır. Analizler, güncel gelişmeler ve uzman yorumları izleyiciye açık ve anlaşılır bir dille aktarılır. Program, izleyicinin olayları daha doğru değerlendirmesine ve ekonomik gelişmeler hakkında bilinçli kararlar almasına katkı sağlıyor.</desc>
     <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708012500 +0200" stop="20260708021500 +0200">
+    <title lang="fr">Chemins d'école, chemins de tous les dangers</title>
+    <desc lang="fr">Au Népal, le petit Ali et ses camarades bravent tous les obstacles pour se rendre à l'école depuis leur village perdu de Kumpur, perché à 4000 mètres.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708021500 +0200" stop="20260708032000 +0200">
+    <title lang="fr">Şehirden Uzakta</title>
+    <desc lang="fr">Şehirden Uzakta, TRT Belgesel kanalında, Kıvanç Kasabalı ile Anadolu'nun sıcak insanlarını ve doğal güzelliklerini keşfe çıkan bir belgesel. Kasabalı, her bölümde Anadolu'nun farklı köylerine giderek, yerel halkın yaşamını, geleneklerini ve doğayla iç içe olan huzurlu yaşamlarını anlatıyor. Bu program, modern hayatın gürültüsünden uzak, samimi ve sakin bir yaşam arayanlar için ilham verici bir keşif sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708032000 +0200" stop="20260708040500 +0200">
+    <title lang="fr">Gönüllü Veteriner</title>
+    <desc lang="fr">Gönüllü Veteriner, TRT Belgesel kanalında yayınlanan ve hayvan sağlığına adanmış gönüllü veterinerlerin hayatına odaklanan bir belgesel dizisidir. Program, gönüllü veterinerlerin hayvanların sağlığı için verdikleri mücadeleleri, karşılaştıkları zorlukları ve fedakarlıklarını izleyiciye aktarır. Her bölümde, veterinerlerin çeşitli yerlerdeki hayvanlarla ilgilenirken yaşadıkları deneyimler ve bu süreçteki duygusal anlar izlenir. Hayvan hakları ve veterinerlik mesleğinin önemine dikkat çekerken, aynı zamanda toplumda hayvanlara karşı duyarlılığı artırmayı amaçlar.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708040500 +0200" stop="20260708050000 +0200">
+    <title lang="fr">Aslan Ailesi</title>
+    <desc lang="fr">Savanlarda sürdürülen yaşam, bir ailenin etrafında şekillenen düzen üzerinden ayrıntılı biçimde ele alınıyor. Avlanma süreci, yavruların büyümesi ve grup içindeki bağlar dikkat çekici gözlemlerle aktarılıyor. Güç, sabır ve dayanışma temaları sade ama etkileyici bir anlatımla işlenirken, yaban hayatındaki hassas denge ve hayatta kalma mücadelesi izleyiciye güçlü biçimde yansıtılıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708050000 +0200" stop="20260708055500 +0200">
+    <title lang="fr">Khoor Moosa'da Hayat</title>
+    <desc lang="fr">Uzak ve zorlu bir coğrafyada devam eden yaşam mücadelesi bu belgeselde ayrıntılı biçimde ele alınıyor. İnsanların doğayla kurduğu ilişki, günlük alışkanlıkları ve geçim yolları gerçek gözlemlerle aktarılıyor. Çevre koşullarına uyum, dayanışma ve sabır temaları sade ama etkileyici bir anlatımla işlenirken izleyiciye farklı bir yaşam düzenine dair güçlü bir bakış sunuluyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708055500 +0200" stop="20260708055800 +0200">
+    <title lang="fr">Tanıtım</title>
+    <desc lang="fr">Farklı belgesel ve dizi içeriklerinin tanıtımları, öne çıkan konular ve izleyiciye sunacağı deneyimler üzerinden kapsamlı biçimde aktarılıyor. Programların temaları, önemli sahneleri ve genel havası, anlaşılır ve ilgi çekici bir anlatımla izleyiciye sunuluyor. Görsel ve anlatımsal ögeler bir araya gelerek merak uyandıran ve bilgilendirici bir içerik oluşturuyor. İzleyiciye, programı keşfetme ve ilgisini yönlendirme imkânı tanınıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708055800 +0200" stop="20260708065500 +0200">
+    <title lang="fr">İstiklal Marşı</title>
+    <desc lang="fr">Türkiye Cumhuriyeti'nin milli marşı olan İstiklal Marşı, izleyiciyle buluşuyor. Sözleri Mehmet Akif Ersoy tarafından kaleme alınan, bestesi Osman Zeki Üngör'e ait marş; bağımsızlık, vatan sevgisi ve milli birlik duygularını simgeler. Resmi ve özel yayın anlarında, taşıdığı tarihsel ve manevi değer doğrultusunda saygı çerçevesinde ekrana getirilmektedir.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708065500 +0200" stop="20260708074500 +0200">
+    <title lang="fr">Chemins d'école, chemins de tous les dangers</title>
+    <desc lang="fr">Au Népal, le petit Ali et ses camarades bravent tous les obstacles pour se rendre à l'école depuis leur village perdu de Kumpur, perché à 4000 mètres.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708074500 +0200" stop="20260708091000 +0200">
+    <title lang="fr">Yiyeceğin Serüveni</title>
+    <desc lang="fr">"Yiyeceğin Serüveni", dünyanın dört bir yanındaki yiyeceklerin tarladan, çiftlikten veya doğadan başlayıp sofralara ulaşana kadar geçirdiği aşamaları ayrıntılarıyla anlatan kapsamlı bir belgesel dizisidir. Üretim süreçleri, geleneksel yöntemler, modern gıda teknolojileri ve kültürel lezzet hikâyelerini bir araya getiren seri, izleyicilere hem öğretici hem de görsel açıdan zengin bir keşif sunar. Yiyeceklerin arka planındaki emek, bilim ve kültürü etkileyici bir dille ekrana taşır.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708091000 +0200" stop="20260708095500 +0200">
+    <title lang="fr">Ulak</title>
+    <desc lang="fr">Doğanın kendi ritmi içinde ilerleyen yaşam, yaban hayatının izleri ve mevsimsel değişimler bu belgeselde ayrıntılı biçimde ele alınıyor. Sessiz gözlemlerle aktarılan doğal süreçler, canlıların çevreye uyumunu ve hayatta kalma mücadelesini gözler önüne seriyor. Sakin ve derinlikli anlatım, doğayla kurulan bağın önemini vurgularken izleyiciye farkındalık kazandırıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708095500 +0200" stop="20260708105000 +0200">
+    <title lang="fr">Yellowstone : Nature extrême</title>
+    <desc lang="fr">Un voyage en quatre volets à la découverte de la faune et des paysages du parc de Yellowstone : zoom pour débuter sur l'hiver et le règne des grands prédateurs.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708105000 +0200" stop="20260708115000 +0200">
+    <title lang="fr">Yurtsuz Kraliçe</title>
+    <desc lang="fr">Doğal yaşam alanını kaybeden bir canlının sürdürdüğü hayatta kalma mücadelesi bu belgeselde ayrıntılı biçimde ele alınıyor. Çevresel değişimler, insan faaliyetlerinin etkisi ve ekosistemde yaşanan dönüşüm, dikkat çekici gözlemlerle aktarılıyor. Sessiz ama etkileyici anlatım, doğanın kırılgan dengesini ve korunmasının önemini vurgularken izleyiciye güçlü bir farkındalık kazandırıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708115000 +0200" stop="20260708135500 +0200">
+    <title lang="fr">Şehirden Uzakta</title>
+    <desc lang="fr">Şehirden Uzakta, TRT Belgesel kanalında, Kıvanç Kasabalı ile Anadolu'nun sıcak insanlarını ve doğal güzelliklerini keşfe çıkan bir belgesel. Kasabalı, her bölümde Anadolu'nun farklı köylerine giderek, yerel halkın yaşamını, geleneklerini ve doğayla iç içe olan huzurlu yaşamlarını anlatıyor. Bu program, modern hayatın gürültüsünden uzak, samimi ve sakin bir yaşam arayanlar için ilham verici bir keşif sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708135500 +0200" stop="20260708142000 +0200">
+    <title lang="fr">Açık Ateş</title>
+    <desc lang="fr">Doğayla baş başa sürdürülen yaşamın merkezinde yer alan ateş etrafında şekillenen hikâyeler bu belgeselde ayrıntılı biçimde ele alınıyor. Üretim, paylaşım ve birlikte olma kültürü, gerçek deneyimler üzerinden aktarılıyor. Ateşin sağladığı sıcaklık ve dayanışma, insanın doğayla kurduğu bağın güçlü bir simgesi olarak sunulurken izleyiciye sade, samimi ve düşündürücü bir anlatım sunuluyor.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708142000 +0200" stop="20260708151500 +0200">
+    <title lang="fr">Khoor Moosa'da Hayat</title>
+    <desc lang="fr">Uzak ve zorlu bir coğrafyada devam eden yaşam mücadelesi bu belgeselde ayrıntılı biçimde ele alınıyor. İnsanların doğayla kurduğu ilişki, günlük alışkanlıkları ve geçim yolları gerçek gözlemlerle aktarılıyor. Çevre koşullarına uyum, dayanışma ve sabır temaları sade ama etkileyici bir anlatımla işlenirken izleyiciye farklı bir yaşam düzenine dair güçlü bir bakış sunuluyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708151500 +0200" stop="20260708160000 +0200">
+    <title lang="fr">Gönüllü Veteriner</title>
+    <desc lang="fr">Gönüllü Veteriner, TRT Belgesel kanalında yayınlanan ve hayvan sağlığına adanmış gönüllü veterinerlerin hayatına odaklanan bir belgesel dizisidir. Program, gönüllü veterinerlerin hayvanların sağlığı için verdikleri mücadeleleri, karşılaştıkları zorlukları ve fedakarlıklarını izleyiciye aktarır. Her bölümde, veterinerlerin çeşitli yerlerdeki hayvanlarla ilgilenirken yaşadıkları deneyimler ve bu süreçteki duygusal anlar izlenir. Hayvan hakları ve veterinerlik mesleğinin önemine dikkat çekerken, aynı zamanda toplumda hayvanlara karşı duyarlılığı artırmayı amaçlar.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708160000 +0200" stop="20260708163500 +0200">
+    <title lang="fr">Yola Çıkan Öyküler</title>
+    <desc lang="fr">Yollara düşen insanların hikâyeleri, farklı coğrafyalarda yaşanan deneyimler ve karşılaşmalar bu belgeselde ayrıntılı biçimde ele alınıyor. Yolculuklar sadece mesafeleri değil, yaşamları da değiştirirken; umut, arayış ve keşif temaları ön plana çıkıyor. Samimi anlatım, izleyiciyi bu yolculukların bir parçası haline getirerek insan hikâyelerinin evrensel yönünü güçlü biçimde yansıtıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708163500 +0200" stop="20260708173000 +0200">
+    <title lang="fr">Aslan Ailesi</title>
+    <desc lang="fr">Savanlarda sürdürülen yaşam, bir ailenin etrafında şekillenen düzen üzerinden ayrıntılı biçimde ele alınıyor. Avlanma süreci, yavruların büyümesi ve grup içindeki bağlar dikkat çekici gözlemlerle aktarılıyor. Güç, sabır ve dayanışma temaları sade ama etkileyici bir anlatımla işlenirken, yaban hayatındaki hassas denge ve hayatta kalma mücadelesi izleyiciye güçlü biçimde yansıtılıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708173000 +0200" stop="20260708180500 +0200">
+    <title lang="fr">Yiyeceğin Serüveni</title>
+    <desc lang="fr">"Yiyeceğin Serüveni", dünyanın dört bir yanındaki yiyeceklerin tarladan, çiftlikten veya doğadan başlayıp sofralara ulaşana kadar geçirdiği aşamaları ayrıntılarıyla anlatan kapsamlı bir belgesel dizisidir. Üretim süreçleri, geleneksel yöntemler, modern gıda teknolojileri ve kültürel lezzet hikâyelerini bir araya getiren seri, izleyicilere hem öğretici hem de görsel açıdan zengin bir keşif sunar. Yiyeceklerin arka planındaki emek, bilim ve kültürü etkileyici bir dille ekrana taşır.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708180500 +0200" stop="20260708190000 +0200">
+    <title lang="fr">Yavru Hayvan Kurtarma</title>
+    <desc lang="fr">Doğada karşılaşılan zorluklar nedeniyle hayatta kalma riski taşıyan yavru hayvanların kurtarılma süreci bu belgeselde ayrıntılı biçimde ele alınıyor. Müdahale anları, bakım süreçleri ve yeniden hayata tutunma çabası gerçek gözlemlerle aktarılıyor. Sorumluluk, merhamet ve doğaya saygı temaları sade ama etkileyici bir anlatımla işlenirken, izleyiciye yaşamı korumanın önemi güçlü biçimde hissettiriliyor.</desc>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708190000 +0200" stop="20260708193000 +0200">
+    <title lang="fr">Gümrük 24 Saat</title>
+    <desc lang="fr">Sınır kapılarında gece gündüz sürdürülen denetim faaliyetleri bu belgeselde ayrıntılı biçimde ele alınıyor. Kaçakçılıkla mücadele, şüpheli geçişler ve alınan güvenlik önlemleri gerçek olaylar üzerinden izleyiciye aktarılıyor. Görevli ekiplerin dikkat, sabır ve kararlılık gerektiren çalışmaları sade ama etkileyici bir anlatımla sunulurken, sınır güvenliğinin ne denli önemli olduğu güçlü biçimde vurgulanıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire justice</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708193000 +0200" stop="20260708203000 +0200">
+    <title lang="fr">Anadolu İnsanı</title>
+    <desc lang="fr">Anadolu'nun farklı bölgelerinde yaşayan insanların hayatları ve kültürel mirası bu bölümde kapsamlı biçimde ele alınıyor. Safranbolu'nun tarihî dokusu, Antalya Kaş Kanyonu'nun doğa içindeki yaşamı ve Balıkesir Gömeç'in geleneksel kültürü bir araya getirilerek zengin bir anlatım sunuluyor. Günlük yaşam, toplumsal ilişkiler ve yerel değerler üzerinden şekillenen içerik, izleyiciye hem bilgilendirici hem de düşündürücü bir Anadolu yolculuğu yaşatıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708203000 +0200" stop="20260708204500 +0200">
+    <title lang="fr">Söz</title>
+    <desc lang="fr">İnsan hayatında verilen sözlerin bireysel ve toplumsal karşılığı bu belgeselde kapsamlı biçimde ele alınıyor. Vicdanla verilen kararlar, sorumluluk bilinci ve sözün arkasında durmanın getirdiği zorluklar gerçek hikâyeler üzerinden anlatılıyor. Anlatım boyunca insanın kendisiyle yaptığı iç hesaplaşmalar, ahlaki duruş ve güven kavramı ön plana çıkıyor. Bu derinlikli içerik, izleyiciyi sözün anlamı üzerine düşünmeye davet ederken, insan olmanın temel değerlerini güçlü bir dille hatırlatıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708204500 +0200" stop="20260708233000 +0200">
+    <title lang="fr">Yellowstone : Nature extrême</title>
+    <desc lang="fr">Un voyage en quatre volets à la découverte de la faune et des paysages du parc de Yellowstone : zoom pour débuter sur l'hiver et le règne des grands prédateurs.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="oqee.953" start="20260708233000 +0200" stop="20260709012500 +0200">
+    <title lang="fr">Yurtsuz Kraliçe</title>
+    <desc lang="fr">Doğal yaşam alanını kaybeden bir canlının sürdürdüğü hayatta kalma mücadelesi bu belgeselde ayrıntılı biçimde ele alınıyor. Çevresel değişimler, insan faaliyetlerinin etkisi ve ekosistemde yaşanan dönüşüm, dikkat çekici gözlemlerle aktarılıyor. Sessiz ama etkileyici anlatım, doğanın kırılgan dengesini ve korunmasının önemini vurgularken izleyiciye güçlü bir farkındalık kazandırıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire animalier</category>
   </programme>
   <programme channel="oqee.968" start="20260708060000 +0200" stop="20260708070000 +0200">
     <title lang="fr">Başrol</title>
