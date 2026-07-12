@@ -596,6 +596,10 @@
     <display-name>Tahiti Nui TV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~4f89934309c38843.png/480x480/quality/100/tntv-france.png"/>
   </channel>
+  <channel id="TeleKreol.frdrom">
+    <display-name>TELE KREOL</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/160203/canal-ouah/CHN43FB/TELEKREOL_myCANAL_640x480?=.png"/>
+  </channel>
   <channel id="TeleTOONplus1.fr">
     <display-name>Télétoon +1</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/21523015?=.png"/>
@@ -868,6 +872,10 @@
     <display-name>Desire TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3682/w256"/>
   </channel>
+  <channel id="oqee.1372">
+    <display-name>Fashion TV Secrets</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3680/w256"/>
+  </channel>
   <channel id="oqee.139">
     <display-name>Planète+ Crime</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2623/w256"/>
@@ -1068,6 +1076,10 @@
     <display-name>English Club TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/56/w256"/>
   </channel>
+  <channel id="oqee.490">
+    <display-name>CCTV-4</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1828/w256"/>
+  </channel>
   <channel id="oqee.510">
     <display-name>PowerTürk TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1634/w256"/>
@@ -1227,6 +1239,10 @@
   <channel id="oqee.968">
     <display-name>Tele 1</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2453/w256"/>
+  </channel>
+  <channel id="oqee.97">
+    <display-name>Stingray Festival 4K</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1102/w256"/>
   </channel>
   <channel id="serieclub.fr">
     <display-name>SERIE CLUB</display-name>
@@ -6748,7 +6764,7 @@
     <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="CanalPlusFoot.fr" start="20260723150400 +0200" stop="20260723164300 +0200">
-    <title lang="fr">Football : Ligue des champions - Paris-SG / Monaco</title>
+    <title lang="fr">Football : Ligue des champions - Paris-SG - Monaco</title>
     <desc lang="fr">Au match aller du 17 février dernier, les Parisiens se sont imposés 2-3 sur la pelouse monégasque et ont donc un avantage avant cette manche retour. Et ce n'est pas un choc de Ligue 1 mais bien un barrage retour de Ligue des champions entre les Parisiens et les Monégasques. Les champions en titre de Luis Enrique, emmenés par Warren Zaïre-Emery ou leur maître à jouer Vitinha, vont vouloir aller chercher la victoire devant leur public du Parc des Princes.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
@@ -21802,6 +21818,36 @@
     <desc lang="fr">Une affiche entre deux prétendants réguliers au podium, toujours pleine de promesses.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
+  <programme channel="Ligue1Plus.fr" start="20260723050000 +0200" stop="20260723050900 +0200">
+    <title lang="fr">Best of Ligue 1</title>
+    <desc lang="fr">Retrouvez tous les buts sur coup-franc de Juninho en Ligue 1 McDonald's</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus.fr" start="20260723050900 +0200" stop="20260723052100 +0200">
+    <title lang="fr">Best of Ligue 1</title>
+    <desc lang="fr">Retrouvez tous les buts de Mathieu Valbuena en Ligue 1 McDonald's</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus.fr" start="20260723052100 +0200" stop="20260723053200 +0200">
+    <title lang="fr">Best of Ligue 1</title>
+    <desc lang="fr">Retrouvez tous les buts de Karim Benzema en Ligue 1 McDonald's</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus.fr" start="20260723053200 +0200" stop="20260723054200 +0200">
+    <title lang="fr">Best of Ligue 1</title>
+    <desc lang="fr">Retrouvez tous les buts d'Eden Hazard en Ligue 1 McDonald's</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus.fr" start="20260723054200 +0200" stop="20260723055000 +0200">
+    <title lang="fr">Best of Ligue 1</title>
+    <desc lang="fr">Retrouvez tous les buts de Lionel Messi en Ligue 1 McDonald's</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="Ligue1Plus.fr" start="20260723055000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Best of Ligue 1</title>
+    <desc lang="fr">Retrouvez les 30 plus beaux buts d'André-Pierre Gignac en Ligue 1 McDonald's</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
   <programme channel="Ligue1Plus.fr" start="20260723060000 +0200" stop="20260723074300 +0200">
     <title lang="fr">Football : Match d'archives - Saint-Etienne / Lyon</title>
     <desc lang="fr">Un derby humiliant pour les Verts, balayés chez eux par une équipe lyonnaise en feu.</desc>
@@ -21975,6 +22021,36 @@
   <programme channel="LuckyJack.fr" start="20260723035800 +0200" stop="20260723044100 +0200">
     <title lang="fr">National Head's up Poker Championship - S01E36</title>
     <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260723044100 +0200" stop="20260723052000 +0200">
+    <title lang="fr">World Poker Tour Greatest Shows - S01E17</title>
+    <desc lang="fr">Nous sommes en 2007, à l'Hôtel Bellagio. Ils étaient 639 mais ne sont plus que 6 autour de cette formidable table finale. Carlos Mortensen a pour l'heure l'avantage...</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260723052000 +0200" stop="20260723055800 +0200">
+    <title lang="fr">World Poker Tour Greatest Shows - S01E18</title>
+    <desc lang="fr">Nous sommes toujours en 2007 au Bellagio. Aujourd'hui, ils ne sont plus que 4. Carlos Mortenssen et Kirk Morrisson sont toujours en lice et vont tout tenter pour tenter de remporter un premier prix d'une valeur avoisinant les 4 millions de dollars.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260723055800 +0200" stop="20260723070000 +0200">
+    <title lang="fr">European Poker Tour - S05E08</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260723070000 +0200" stop="20260723074900 +0200">
+    <title lang="fr">European Poker Tour - S05E23</title>
+    <desc lang="fr">L'European Poker Tour (EPT) est une série de tournois de poker. Retransmission des moments forts de ce concours.</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260723074900 +0200" stop="20260723083000 +0200">
+    <title lang="fr">National Head's up Poker Championship - S01E38</title>
+    <desc lang="fr">Depuis 2005, le NBC National Head's Up Poker Championship invite des joueurs illustres à se réunir au Ceasars Palace de Las Vegas. Un tournoi d'élite sur invitation qui a notamment consacré Annie Duke, Chris Ferguson, Ted Forrest ou Huck Seed, mais nécessite un buy-in minimum de 20 000 dollars pour entrer dans la compétition. Les maîtres du bluff répondent chaque année présents pour enflammer le tapis vert !</desc>
+    <category lang="fr">Documentaire sportif / Poker</category>
+  </programme>
+  <programme channel="LuckyJack.fr" start="20260723083000 +0200" stop="20260723085200 +0200">
+    <title lang="fr">Learn from the Pros - S01E15</title>
+    <desc lang="fr">Les plus grands joueurs de poker vous livrent leurs stratégies et leurs astuces. De l'attitude à la technique, rien n'est laissé au hasard. Pour éviter le flop et exceller, "Learn from the pros" est votre meilleur atout!</desc>
     <category lang="fr">Documentaire sportif / Poker</category>
   </programme>
   <programme channel="LuckyJack.fr" start="20260723085200 +0200" stop="20260723093800 +0200">
@@ -27821,6 +27897,26 @@
     <desc lang="fr">En Espagne, Barcelone est confrontée à une recrudescence de pickpockets et d'une petite délinquance. En Israël, Haïfa est confronté à une autre délinquance,</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="RMCAlerteSecours.fr" start="20260723045500 +0200" stop="20260723054800 +0200">
+    <title lang="fr">Ambulance, code rouge - S01E01</title>
+    <desc lang="fr">Les caméras suivent les équipes d'intervention des soins intensifs et des ambulances aériennes, qui ne s'occupent que des cas les plus prioritaires. Elles couvrent tout, des accidents de voiture aux agressions à l'arme blanche, en passant par les arrêts cardiaques et les blessures par écrasement.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RMCAlerteSecours.fr" start="20260723054800 +0200" stop="20260723064000 +0200">
+    <title lang="fr">Ambulance, code rouge - S01E02</title>
+    <desc lang="fr">Dans les West Midlands, l'équipe de soins intensifs est appelée pour un accident de la route où un garçon de 13 ans est allongé sur la chaussée avec du sang sortant de son oreille après avoir été renversé sur le chemin de l'école.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RMCAlerteSecours.fr" start="20260723064000 +0200" stop="20260723073300 +0200">
+    <title lang="fr">Ambulance, code rouge - S01E03</title>
+    <desc lang="fr">L'ambulancier Rob et le Dr Adam se battent pour sauver la vie d'un adolescent poignardé dans la rue. L'ambulancier Tom Waters aide un homme après un grave accident avec un outil électrique.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RMCAlerteSecours.fr" start="20260723073300 +0200" stop="20260723082600 +0200">
+    <title lang="fr">Ambulance, code rouge - S01E04</title>
+    <desc lang="fr">L'équipe de traumatologie de l'Ambulance aérienne des Midlands se porte au secours d'un motocycliste. Rob Davis se bat pour sauver la vie d'une personne de 80 ans en arrêt cardiaque dans son allée. Un homme soupçonné d'avoir subi une crise cardiaque présente les symptômes de Covid.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="RMCAlerteSecours.fr" start="20260723082600 +0200" stop="20260723091900 +0200">
     <title lang="fr">Ambulance, code rouge - S01E05</title>
     <desc lang="fr">Lorsqu'une employée de supermarché s'effondre, l'équipe a peu de temps pour lui sauver la vie. Un garçon de 11 ans est pris au piège dans l'épave d'une voiture dans laquelle il se trouvait. Un tacle méchant sur le terrain de rugby laisse un quadragénaire avec un pied cassé.</desc>
@@ -28020,6 +28116,31 @@
     <title lang="fr">Phénomènes vus de l'espace - S06E10</title>
     <desc lang="fr">Dans cet épisode, découvrez les donjons de l'apocalypse, des hommes qui planifient la fin du monde et les tombes interdites des pharaons noirs.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260723040700 +0200" stop="20260723045800 +0200">
+    <title lang="fr">Les trésors perdus de la Vallée des Rois - S04E06</title>
+    <desc lang="fr">Les archéologues enquêtent sur le parcours d'un pharaon légendaire, Alexandre le Grand. A Saqqarah, les chercheurs découvrent comment il a accédé au trône et conquis le coeur des Egyptiens. Sur le site de Philadelphie, des catacombes singulières lèvent le voile sur l'héritage du règne d'Alexandre. A Taposiris Magna, les archéologues font une découverte extraordinaire.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260723045800 +0200" stop="20260723054900 +0200">
+    <title lang="fr">Les trésors perdus de la Vallée des Rois - S04E04</title>
+    <desc lang="fr">Dans l'ancienne ville de Philadelphie, des égyptologues découvrent une momie remarquablement préservée datant de la fin de la civilisation égyptienne.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260723054900 +0200" stop="20260723064000 +0200">
+    <title lang="fr">Les trésors perdus de la Vallée des Rois - S04E07</title>
+    <desc lang="fr">Les archéologues enquêtent sur la plus célèbre femme pharaon de l'Egypte ancienne, Cléopâtre. Sur le site archéologique de Philadelphie, l'équipe découvre un ancien cercueil et de précieux objets funéraires qui permettent d'en savoir plus sur les sujets de Cléopâtre.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260723064000 +0200" stop="20260723073100 +0200">
+    <title lang="fr">Les trésors perdus de la Vallée des Rois - S04E08</title>
+    <desc lang="fr">En Egypte, les archéologues découvrent la flotte perdue des bâtisseurs de pyramides dans un mystérieux système de grottes près de la mer Rouge. </desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="RMCMystere.fr" start="20260723073100 +0200" stop="20260723082200 +0200">
+    <title lang="fr">Les trésors perdus de la Vallée des Rois - S04E01</title>
+    <desc lang="fr">Les archéologues enquêtent sur le mystère qui entoure la mort de Toutankhamon. L'égyptologue Aliaa Ismail examine les circonstances entourant le décès de l'enfant roi pour avancer sur la piste de l'assassinat.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
   </programme>
   <programme channel="RMCMystere.fr" start="20260723082200 +0200" stop="20260723091300 +0200">
     <title lang="fr">Les trésors perdus de la Vallée des Rois - S04E05</title>
@@ -28331,6 +28452,26 @@
     <desc lang="fr">Als Betinas Mutter verstarb, hinterließ sie ihrer Tochter ein Haus und 130.000 Euro Schulden. Um wenigstens einen Teil der Schulden begleichen zu können, möchte die Familie den Hausrat verkaufen. Andreas Bierschock soll helfen.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
+  <programme channel="RTL2.de" start="20260723051000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller</title>
+    <desc lang="fr">Jens-Peter (47) leidet an einer psychischen Erkrankung. Manchmal ist er antriebslos, manchmal strotzt er vor Energie und hat das Gefühl, er könne alles schaffen. Zum Glück weicht seine Ehefrau Astrid (56) nie von seiner Seite. Doch nun droht dem Paar das nächste Übel: Die Garage muss geräumt werden, da die Gemeinde dort bauen will - und darin stapeln sich Unmengen an Schrott und Trödel.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260723060000 +0200" stop="20260723070000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S01E05</title>
+    <desc lang="fr">Heike und Michael aus Rheinland-Pfalz wollten in ihrer alten Scheune ein Bistro eröffnen. Doch dann steht dem Pärchen gleich doppelter Kindersegen ins Haus. Nun soll dort ein neues Kinderzimmer für die Zwillinge Rebecca und Ramon entstehen. Dem geplanten Umbau steht jedoch ein Riesen-Problem im Weg: Das Gemäuer ist komplett vollgestellt mit altem Trödel. Trödelprofi Otto möchte der Familie helfen, doch das ist gar nicht so leicht...</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260723070000 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller - S01E06</title>
+    <desc lang="fr">Ludwig und sein Schwager Joachim möchten endlich ihre Häuser auf Vordermann bringen. Die Wohnungen der Beiden versinken immer mehr im Chaos. In Ludwigs Haus liegen überall die verschiedensten Dinge herum und stauben langsam ein. Noch schlimmer ist es bei Joachim: Er hat sein Haus vom Keller bis unter das Dach so vollgestellt, das es schlichtweg nicht mehr bewohnbar ist. Ganz klar ein Fall für Trödel-Profi Mauro.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260723080000 +0200" stop="20260723090000 +0200">
+    <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller</title>
+    <desc lang="fr">Neben dem Gaststätten-Inventar stapeln sich auch 200 alte Spielautomaten, mit denen Hein früher gehandelt hat. An ein Durchkommen ist hier nicht mehr zu denken. Was dort überall herumsteht, weiß Hein nicht mehr genau, schließlich hat er vor Jahren angefangen, den Dachboden mit Massen an Trödel und Müll vollzustellen. Seine beiden Töchter Bianca und Silke sind verzweifelt. Sie führen seit einiger Zeit das Familien-Unternehmen, eine Zeltvermietungs-Firma, und brauchen dringend mehr Platz zum Lagern der sperrigen Utensilien. Doch Hein weigert sich, seine angeblichen Dachboden-Schätze aufzugeben. Otto Schulte vom "Trödeltrupp" merkt schnell, dass die Preisvorstellungen mehr als überzogen sind. Wird der Trödelexperte überhaupt einige Sachen an den Mann bringen können? Und kann Otto endlich für mehr Platz in den Lagerhallen der Familie sorgen?</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="RTL2.de" start="20260723090000 +0200" stop="20260723100000 +0200">
     <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller</title>
     <desc lang="fr">David (47) hat den Trödel zum größten Teil von seinen Großeltern und Eltern geerbt. Sich von seinen Liebhaberstücken zu trennen, kam für den Croupier bisher nicht in Frage. Er hat sich einen eigenen "Sammler-Raum" eingerichtet, den weder Ehefrau Angela (39) noch die drei Söhne Felix (6), Fynn (4) und Fiete (2) betreten dürfen. Sein größter Schatz aber steht im Esszimmer - eine uraltes Motorrad der Marke NSU.</desc>
@@ -28354,6 +28495,11 @@
   <programme channel="RTL2.de" start="20260723135500 +0200" stop="20260723150000 +0200">
     <title lang="fr">Südklinik am Ring - S01E27</title>
     <desc lang="fr">Ein Referendar bringt seine 18-jährige Schülerin nach einem Sportunfall in die Notaufnahme. Seine Sorge um das Mädchen lässt das Ärzteteam stutzig werden. Dann wird ein Mann von seiner Tochter gezwungen, sich von einem Internisten untersuchen zu lassen. Es stellt sich heraus, dass der Mann eine tickende Zeitbombe in sich trägt. Außerdem wird in der Orthopädie eine junge Auszubildende behandelt. Die Ärzte werden Zeugen eines Familiendramas.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="RTL2.de" start="20260723150000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">Südklinik am Ring - S01E28</title>
+    <desc lang="fr">Eine Schwangere kommt wegen Schmerzen und Übelkeit in die Notaufnahme. Ausgerechnet jetzt will ihr Freund sie verlassen. Dann will ein Mann seine Schwester aus dem Krankenhaus abholen - und muss als Patient bleiben. Außerdem wird eine junge Frau nach einem Sturz in der Notaufnahme behandelt. Dabei entdeckt der Arzt eine ältere Verletzung. Die Frau macht ihrem Freund ein überraschendes Geständnis.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="RTL2.de" start="20260723160000 +0200" stop="20260723160400 +0200">
@@ -28943,6 +29089,31 @@
   <programme channel="StingrayClassica.fr" start="20260723034900 +0200" stop="20260723045400 +0200">
     <title lang="fr">Veerhavenconcert 2016</title>
     <desc lang="fr">Interprété par la Sinfonia Rotterdam. Dir. Conrad van Alphen. Avec Maria Warenberg (mezzo-soprano), Melle de Vries (violon). Enregistré en 2016, au Veerhaven, à Rotterdam.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="StingrayClassica.fr" start="20260723045400 +0200" stop="20260723052200 +0200">
+    <title lang="fr">Mozart - Quatuor à cordes n° 19 en do majeur</title>
+    <desc lang="fr">Fondé par David Grimal, l'ensable "Les Dissonances" interprète le Quatuor no 19 "Les Dissonances" de Mozart, oeuvre audacieuse, enregistrée à l'"Opéra Comique" en 2015.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="StingrayClassica.fr" start="20260723052200 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Classica Spotlight</title>
+    <desc lang="fr">Des vidéos de qualité cinématographique et des extraits de concert dynamiques mettant en vedette les étoiles futures de la musique classique.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="StingrayClassica.fr" start="20260723060000 +0200" stop="20260723065500 +0200">
+    <title lang="fr">Sergiu Celibidache - The Triumphant Return</title>
+    <desc lang="fr">Le maestro Sergiu Celibidache a dirigé le Berliner Philharmoniker de 1945 à 1954, avant de revenir pour un concert en 1992. Le documentaire de Wolfgang Becker, The Triumphant Return, présente le retour très attendu de Celibidache au Berlin Philharmonic après une absence de 38 ans. De nombreuses séquences vidéo des répétitions de la Symphonie no 7 d'Anton Bruckner - le seul enregistrement vidéo existant de Celibidache et du célèbre orchestre - et des entrevues avec d'anciens membres de l'orchestre nous ramènent au dernier concert de Celibidache avec le Berliner Philharmoniker.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="StingrayClassica.fr" start="20260723065500 +0200" stop="20260723074800 +0200">
+    <title lang="fr">Shusha Renaissance</title>
+    <desc lang="fr">La ville culturelle de Chouchi (Shusha), " berceau " de la musique et poésie azerbaïdjanaise, est mise en lumière à travers des oeuvres d'Amirov, Babirov, Garayev et Kouliyev, avec le pianiste Murad Huseynov.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="StingrayClassica.fr" start="20260723074800 +0200" stop="20260723085700 +0200">
+    <title lang="fr">Misha Fomin au Concertgebouw</title>
+    <desc lang="fr">Le pianiste Misha Fomin présente un récital regroupant diverses œuvres romantiques pour piano. Le concert s'ouvre avec la Sonate pour piano no 10, op. 14/2 et la Sonate no 15, op. 28 (" Pastorale ") de Beethoven, et se poursuit avec une performance de la Nocturne, op. 9/1, et de l'Étude, op. 25/7 de Chopin. Le programme se termine avec les Variations sur un thème de Paganini, op. 35 (Livre II), une œuvre de Brahms réputée être particulièrement exigeante d'un point de vue technique. En rappel, Fomin livre Chant polonais no 5 (" Meine Freunden ") de Chopin/Liszt. Enregistré au Concertgebouw d'Amsterdam, en novembre 2020.</desc>
     <category lang="fr">Concert / Classique</category>
   </programme>
   <programme channel="StingrayClassica.fr" start="20260723085700 +0200" stop="20260723094100 +0200">
@@ -32015,6 +32186,131 @@
     <desc lang="fr">Présentée par l'homme de lettres et le dramaturge John Mairai, "Faatiamai", c'est votre rendez-vous hebdomadaire d'histoires, de contes et de légendes.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723033000 +0200" stop="20260723033500 +0200">
+    <title lang="fr">Horoscope</title>
+    <desc lang="fr">L'horoscope du jour, signe par signe.</desc>
+    <category lang="fr">Divers / Voyance</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723033500 +0200" stop="20260723040000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723040000 +0200" stop="20260723042500 +0200">
+    <title lang="fr">Kozé Réyoné</title>
+    <desc lang="fr">Kozé Réyoné est un magazine qui propose chaque matin un rendez-vous d'actualité et d'échanges avec les téléspectateurs. Il s'agit d'un programme de proximité.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723042500 +0200" stop="20260723050000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723050000 +0200" stop="20260723052500 +0200">
+    <title lang="fr">974TV</title>
+    <desc lang="fr">Un magazine qui vise à mettre en valeur le savoir-faire local. Il propose des contenus variés, et informations sur la qualité des produits locaux.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723052500 +0200" stop="20260723053000 +0200">
+    <title lang="fr">Horoscope</title>
+    <desc lang="fr">L'horoscope du jour, signe par signe.</desc>
+    <category lang="fr">Divers / Voyance</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723053000 +0200" stop="20260723063000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723063000 +0200" stop="20260723063500 +0200">
+    <title lang="fr">Horoscope</title>
+    <desc lang="fr">L'horoscope du jour, signe par signe.</desc>
+    <category lang="fr">Divers / Voyance</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723063500 +0200" stop="20260723070000 +0200">
+    <title lang="fr">Kaloubadia</title>
+    <desc lang="fr">L'émission propose des performances artistiques, des échanges autour du patrimoine créole et des invités qui incarnent la richesse culturelle de La Réunion.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723070000 +0200" stop="20260723071000 +0200">
+    <title lang="fr">Cuisine</title>
+    <desc lang="fr">Des recettes savoureuses et locales avec des produits de qualité. Pas à pas, apprenez à réaliser une recette très économique en un tour de main !</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723071000 +0200" stop="20260723073000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723073000 +0200" stop="20260723090000 +0200">
+    <title lang="fr">TV Caddy</title>
+    <desc lang="fr">L'émission de présentation des produits et de télé-achat.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723090000 +0200" stop="20260723120000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723120000 +0200" stop="20260723122500 +0200">
+    <title lang="fr">974TV</title>
+    <desc lang="fr">Un magazine qui vise à mettre en valeur le savoir-faire local. Il propose des contenus variés, et informations sur la qualité des produits locaux.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723122500 +0200" stop="20260723130000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723130000 +0200" stop="20260723140000 +0200">
+    <title lang="fr">TV Caddy</title>
+    <desc lang="fr">L'émission de présentation des produits et de télé-achat.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723140000 +0200" stop="20260723153000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723153000 +0200" stop="20260723154000 +0200">
+    <title lang="fr">Cuisine</title>
+    <desc lang="fr">Des recettes savoureuses et locales avec des produits de qualité. Pas à pas, apprenez à réaliser une recette très économique en un tour de main !</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723154000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">Kaloubadia</title>
+    <desc lang="fr">L'émission propose des performances artistiques, des échanges autour du patrimoine créole et des invités qui incarnent la richesse culturelle de La Réunion.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723160000 +0200" stop="20260723180000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723180000 +0200" stop="20260723200000 +0200">
+    <title lang="fr">L'Ambians Kréol avec Louisiane</title>
+    <desc lang="fr">Un talk-show musical et interactif qui propose musique créole, dédicaces en direct, invités et ambiance festive pour célébrer la culture réunionnaise et ses rythmes chaleureux.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723200000 +0200" stop="20260723203000 +0200">
+    <title lang="fr">974TV</title>
+    <desc lang="fr">Un magazine qui vise à mettre en valeur le savoir-faire local. Il propose des contenus variés, et informations sur la qualité des produits locaux.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723203000 +0200" stop="20260723213000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723213000 +0200" stop="20260723220000 +0200">
+    <title lang="fr">Le journal du cinéma</title>
+    <desc lang="fr">Le journal du cinéma, c'est toute l'actualité du cinéma à travers six minutes quotidiennes d'interviews exclusives et de bandes-annonces en avant-première.</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="TeleKreol.frdrom" start="20260723220000 +0200" stop="20260724033000 +0200">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
   <programme channel="TeleTOONplus1.fr" start="20260723001700 +0200" stop="20260723002400 +0200">
     <title lang="fr">Les minijusticiers - S03E67</title>
     <desc lang="fr">Rires, blagues, moqueries : la vie n'est pas toujours rose à l'école. Qui n'a jamais été ridiculisé par ses petits camarades ? Mais aujourd'hui, c'est fini ! Les Minijusticiers arrivent, bien décidés à tout changer et à transformer chaque défaut en super pouvoir. Réalisation : Norman J. LeBlanc (saison 3, France, 2017)</desc>
@@ -34061,6 +34357,26 @@
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
+  <programme channel="Vox.de" start="20260723053000 +0200" stop="20260723060500 +0200">
+    <title lang="fr">Les experts : Miami - S06E11</title>
+    <desc lang="fr">Au cours d'une livraison dans les docks, des trafiquants d'armes sont pulvérisés par une arme aussi puissante que mystérieuse. Il s'agit d'un fusil électronique surnommé le "vaporisateur". Son usage est interdit aux Etats-Unis mais il suscite la convoitise de plusieurs personnes, parmi lesquelles les dirigeants d'un groupuscule paramilitaire qui agit sous couvert du Patriot Act. Les experts se rendent sur le lieu de la tuerie, un petit local. Ils savent qu'une course contre la montre vient de débuter et qu'il va leur falloir être particulièrement efficaces...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260723060500 +0200" stop="20260723070000 +0200">
+    <title lang="fr">Les experts : Manhattan - S09E11</title>
+    <desc lang="fr">Deux corps sont retrouvés la même nuit : celui d'un avocat procédurier et celui d'un jeune ingénieur tout juste diplômé. Rien ne semble relier les deux meurtres et pourtant, les balles qui les ont tués présentent la même particularité : elles n'ont aucun signe distinctif, ni traces ni rayures, ce qui fait qu'il est impossible pour les experts de remonter à l'arme. L'équipe de Mac enquête malgré tout sur ces étranges projectiles et découvre qu'ils ont été tirés avec une arme à feu très spéciale...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260723070000 +0200" stop="20260723075500 +0200">
+    <title lang="fr">Les experts : Manhattan - S09E12</title>
+    <desc lang="fr">Mark Riley, un brillant officier de police apprécié de tous, est tué pendant un braquage. Chargés de l'enquête, les experts s'intéressent à un dénommé Anthony Lombardo, suspecté d'être impliqué dans cette affaire. L'individu prétend avoir été blessé par balle lors de l'attaque, mais il n'apparaît sur aucune vidéo de surveillance et personne ne peut confirmer l'avoir vu sur place. La police soupçonne Lombardo, qui se présente comme un simple témoin oculaire et clame son innocence, de faire partie du groupe de voleurs, et poursuit sans ciller son interrogatoire...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260723075500 +0200" stop="20260723084000 +0200">
+    <title lang="fr">Les experts - S05E13</title>
+    <desc lang="fr">Les ouvriers d'un chantier de construction ont fait une bien macabre découverte : les corps de deux jeunes femmes, enchâssés dans du béton. Catherine, Warrick et Nick, dépêchés sur les lieux du crime, sont chargés de l'enquête. Ils apprennent que les victimes étaient toutes les deux russes et remontent rapidement jusqu'à un trafic de jeunes femmes orchestré via Internet. Ce réseau, organisé entre les Etats-Unis et la Russie, propose à de riches Américains de prendre femme moyennant des sommes rondelettes. De fil en aiguille, les trois enquêteurs se retrouvent à la porte d'une agence matrimoniale, qu'ils soupçonnent de s'adonner à des activités illicites...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
   <programme channel="Vox.de" start="20260723084000 +0200" stop="20260723093500 +0200">
     <title lang="fr">Les experts - S05E14</title>
     <desc lang="fr">Sofia, Sara, Grissom et Greg sont chargés d'une affaire de disparition. Une femme, qui regagnait son domicile tard dans la nuit, s'est mystérieusement volatilisée. Sa voiture a été retrouvée, vide, abandonnée sur le bord d'une autoroute. Les enquêteurs découvrent que la disparue avait passé une grande partie de la nuit avec un ami, qu'ils interrogent, mais sans pour autant en apprendre plus sur ce qui les préoccupe. Pendant ce temps, Catherine, Warrick et Nick sont envoyés sur une autre affaire : un chasseur a été retrouvé mort, la dépouille d'un ours brun qu'il venait d'abattre à côté de lui...</desc>
@@ -34099,6 +34415,11 @@
     <title lang="fr">Les experts : Miami - S06E14</title>
     <desc lang="fr">Greg Tanner, un célèbre joueur de base-ball, s'apprête à convoler en justes noces avec sa fiancée, Susan. Mais la jeune femme est touchée d'une balle en pleine tête, tirée par une arme déclenchée à distance. Les experts arrivent aussitôt sur les lieux du drame. Ils récoltent les indices et interrogent les témoins. Ils apprennent ainsi que Greg a, la veille, enterré sa vie de garçon dans un club chic. Et qu'au cours de la soirée, la pulpeuse Kelly Chapman a dansé pour lui. Poussant plus loin les investigations, Horatio découvre que Kelly, loin d'être une innocente créature, faisait chanter Greg grâce à des photos compromettantes...</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260723150000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">Shopping Queen - S15E155</title>
+    <desc lang="fr">Motto in Münster: Prima Ballerina! Setze deine neuen Ballerinas perfekt in Szene! Pro Woche treten fünf Frauen an fünf aufeinanderfolgenden Tagen gegeneinander an, um die Frau mit dem besten Stil zu werden. Am Ende der Woche wird die "Shopping Queen" gekürt.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="Vox.de" start="20260723160000 +0200" stop="20260723170000 +0200">
     <title lang="fr">Das Duell - Zwischen Tüll und Tränen</title>
@@ -41391,6 +41712,11 @@
     <desc lang="fr">En l'an 2525, les hommes ont colonisé d'autres planètes. Sur l'une d'elle, les humains sont infectés par des entités extraterrestres, qui ont la capacité de prendre possession des corps de leurs hôtes. Face à la menace, l'ex-soldat James Ford est tiré de sa retraite pour prendre la tête d'un groupe d'hommes chargés de détruire ces aliens avant qu'il ne soit trop tard...</desc>
     <category lang="fr">Téléfilm / Téléfilm de science-fiction</category>
   </programme>
+  <programme channel="oqee.1174" start="20260723001300 +0200" stop="20260723005700 +0200">
+    <title lang="fr">Below Deck : la vie à bord - S02E09</title>
+    <desc lang="fr">Les tensions entre Amy et Kate et l'attitude irresponsable de Kelley compliquent toute l'organisation de l'équipage. Kelley reçoit d'ailleurs un sévère avertissement du capitaine Lee…</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="oqee.1174" start="20260723005700 +0200" stop="20260723013900 +0200">
     <title lang="fr">Below Deck Australie - S01E07</title>
     <desc lang="fr">Les problèmes de sécurité atteignent leur paroxysme, et quand Jamie n'approuve pas les ordres du capitaine, il veut que l'équipe de pont le suive.</desc>
@@ -41414,6 +41740,36 @@
   <programme channel="oqee.1174" start="20260723034300 +0200" stop="20260723041400 +0200">
     <title lang="fr">Nelly &amp; Ashanti: We Belong Together - S01E02</title>
     <desc lang="fr">Ashanti fait face à des défis d'équilibre travail-vie personnelle lors du Motown Christmas Special, sa première performance depuis la naissance du bébé. Nelly se produit au ONE Musicfest d'Atlanta tout en s'adaptant à la vie de famille.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723041400 +0200" stop="20260723045800 +0200">
+    <title lang="fr">L'incroyable famille Kardashian - S16E07</title>
+    <desc lang="fr">Khloé se méfie à nouveau de Corey, ce qui blesse et perturbe Kris. Kim est furieuse d'apprendre que Khloé a offert un nouvel animal à North en secret...</desc>
+    <category lang="fr">Série / Série de téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723045800 +0200" stop="20260723054100 +0200">
+    <title lang="fr">L'incroyable famille Kardashian - S16E08</title>
+    <desc lang="fr">Déterminée à réaliser l'un des rêves de North, Kim met ses capacités de survie à l'épreuve pour une nuit dans la nature...</desc>
+    <category lang="fr">Série / Série de téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723061200 +0200" stop="20260723065600 +0200">
+    <title lang="fr">L'incroyable famille Kardashian - S16E09</title>
+    <desc lang="fr">Kris accepte à contrecoeur que Kim organise la soirée du réveillon de Noël, mais la soirée est compromise lorsque Kim invite un hôte non-désiré...</desc>
+    <category lang="fr">Série / Série de téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723065600 +0200" stop="20260723074000 +0200">
+    <title lang="fr">L'incroyable famille Kardashian - S16E10</title>
+    <desc lang="fr">Khloé essaie de gérer une dispute entre Kourtney et Kendall, mais cela ne fait qu'empirer les choses. Kylie doit montrer à Kris qui est la chef...</desc>
+    <category lang="fr">Série / Série de téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723074000 +0200" stop="20260723082200 +0200">
+    <title lang="fr">Southern Hospitality - S01E06</title>
+    <desc lang="fr">Grace Lilly essaie d'impressionner Leva en organisant un nouvel événement chez Bourbon and Bubbles, mais craint le manque de soutien après le fiasco de Charlotte. Joe Bradley vise une promotion qui pourrait affecter sa romance naissante avec Mia. Le retour d'un employé controversé divise l'équipe et révèle une rumeur scandaleuse.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723082200 +0200" stop="20260723084900 +0200">
+    <title lang="fr">Nelly &amp; Ashanti: We Belong Together - S01E03</title>
+    <desc lang="fr">Ashanti interprète l'hymne national à New York, remportant un franc succès. Les enfants de Nelly cherchent à tisser des liens avec elle.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="oqee.1174" start="20260723084900 +0200" stop="20260723092000 +0200">
@@ -41461,6 +41817,11 @@
     <desc lang="fr">Le monde de Khloé est chamboulé à la suite de rumeurs selon lesquelles Tristan la tromperait avec une amie proche de la famille, Jordyn Woods...</desc>
     <category lang="fr">Série / Série de téléréalité</category>
   </programme>
+  <programme channel="oqee.1174" start="20260723151500 +0200" stop="20260723155900 +0200">
+    <title lang="fr">L'incroyable famille Kardashian - S16E12</title>
+    <desc lang="fr">Après la trahison choquante de Tristan, Kim et Kourtney emmènent Khloé en voyage pour l'aider à digérer la nouvelle...</desc>
+    <category lang="fr">Série / Série de téléréalité</category>
+  </programme>
   <programme channel="oqee.1174" start="20260723155900 +0200" stop="20260723164100 +0200">
     <title lang="fr">Southern Hospitality - S01E07</title>
     <desc lang="fr">Leva a besoin que l'équipe du Republic collabore pour le week-end de la Pride, mais les tensions persistent après une violente dispute. Will doit choisir entre réaliser le rêve d'Emmy et aller en fac de droit ou poursuivre son ambition de gérer un restaurant. Mikel et TJ enterrent la hache de guerre pour organiser un événement. Maddi lance une accusation contre Bradley, qui réplique.</desc>
@@ -41486,6 +41847,16 @@
     <desc lang="fr">Les membres de l'équipage se réunissent pour discuter et donner leur point de vue sur les péripéties de cette première saison riche en rebondissements.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
+  <programme channel="oqee.1174" start="20260723192200 +0200" stop="20260723200800 +0200">
+    <title lang="fr">Below Deck Australie - S01E11</title>
+    <desc lang="fr">Jamie affecte Brittini dans l'équipe de nuit Benny n'ayant pas fait ses preuves, et Aesha affronte Magda et Ryan qui parle dans son dos.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723200800 +0200" stop="20260723210000 +0200">
+    <title lang="fr">Below Deck Australie - S01E12</title>
+    <desc lang="fr">L'enquête de Jason sur l'équipe de pont le met face à une décision difficile, et Magda se trouve dans de beaux draps quand est prise au téléphone.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="oqee.1174" start="20260723210000 +0200" stop="20260723214800 +0200">
     <title lang="fr">Chirurgie à tout prix - S05E13</title>
     <desc lang="fr">Un mannequin mexicain consulte les médecins dans l'espoir de redresser son nez et sa carrière, tandis qu'une militaire souhaite refaire ses seins massacrés.</desc>
@@ -41500,6 +41871,11 @@
     <title lang="fr">Chirurgie à tout prix - S05E15</title>
     <desc lang="fr">Danielle consulte le docteur pour réparer son ventre balafré, tandis qu'une Britannique aux aréoles en forme de coeur veut devenir une caricature...</desc>
     <category lang="fr">Série / Série de téléréalité</category>
+  </programme>
+  <programme channel="oqee.1174" start="20260723232400 +0200" stop="20260724001100 +0200">
+    <title lang="fr">Below Deck : la vie à bord - S02E10</title>
+    <desc lang="fr">Kelley propose un date à Jennice mais cela ne va pas se passer comme prévu. Lassé des luttes de pouvoir dans la cuisine, Ben retire Kate du service et décide de la remplacer par Amy.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
   <programme channel="oqee.1208" start="20260723011700 +0200" stop="20260723032300 +0200">
     <title lang="fr">Ordre &amp; châtiment, le péché de nos pères</title>
@@ -42650,6 +43026,51 @@
     <desc lang="fr">Melih Altınok ile Sebep Sonuç A Haber ekranlarında gündemdeki önemli siyasi ve toplumsal başlıkları uzman yorumlarıyla masaya yatıran analiz programıdır. Programda sebep ve sonuç ilişkisi çerçevesinde ele alınan konular detaylıca tartışılırken izleyici farklı bakış açılarıyla gelişmeleri takip eder. Her bölüm yeni bir meseleyi mercek altına alarak olayların nedenlerini ve muhtemel sonuçlarını gündeme taşıyor.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="oqee.1249" start="20260723040000 +0200" stop="20260723050000 +0200">
+    <title lang="fr">Ajans Yeni Gün</title>
+    <desc lang="fr">Ajans Yeni Gün A Haber'in sabah kuşağında ekranlara gelen kapsamlı haber bültenidir. Türkiye ile dünyada gece boyunca yaşanan kritik gelişmeler, politika, ekonomi, toplum ve önemli olaylar dikkatle izleyiciye aktarılıyor. Son dakika haberleri ve gündemi belirleyen başlıklar sade anlatımla sunulurken izleyici günün ilk saatlerinde olayların genel tablosunu yakından takip ediyor. Program izleyiciyi hem bilgilendiriyor hem de güne dair önemli konulara dair merak uyandırıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723050000 +0200" stop="20260723055500 +0200">
+    <title lang="fr">Sabah Ajansı</title>
+    <desc lang="fr">Sabah Ajansı, A Haber ekranlarında sabah saatlerinde izleyiciyle buluşan kapsamlı bir haber bültenidir. Türkiye ve dünya gündeminde gece boyunca yaşanan gelişmeler, son dakika haberleri, ekonomi ve siyaset gibi gündemin önemli başlıkları detaylarıyla ele alınıyor. Program izleyicide merak uyandıran haberleri sade bir dille açıklayarak ekrana taşıyor ve izleyicinin güne dair önemli gelişmeleri hızlı ve net şekilde takip etmesine fırsat veriyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723055500 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723060000 +0200" stop="20260723065500 +0200">
+    <title lang="fr">Sabah Ajansı</title>
+    <desc lang="fr">Sabah Ajansı, A Haber ekranlarında sabah saatlerinde izleyiciyle buluşan kapsamlı bir haber bültenidir. Türkiye ve dünya gündeminde gece boyunca yaşanan gelişmeler, son dakika haberleri, ekonomi ve siyaset gibi gündemin önemli başlıkları detaylarıyla ele alınıyor. Program izleyicide merak uyandıran haberleri sade bir dille açıklayarak ekrana taşıyor ve izleyicinin güne dair önemli gelişmeleri hızlı ve net şekilde takip etmesine fırsat veriyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723065500 +0200" stop="20260723070000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723070000 +0200" stop="20260723075500 +0200">
+    <title lang="fr">Sabah Ajansı</title>
+    <desc lang="fr">Sabah Ajansı, A Haber ekranlarında sabah saatlerinde izleyiciyle buluşan kapsamlı bir haber bültenidir. Türkiye ve dünya gündeminde gece boyunca yaşanan gelişmeler, son dakika haberleri, ekonomi ve siyaset gibi gündemin önemli başlıkları detaylarıyla ele alınıyor. Program izleyicide merak uyandıran haberleri sade bir dille açıklayarak ekrana taşıyor ve izleyicinin güne dair önemli gelişmeleri hızlı ve net şekilde takip etmesine fırsat veriyor.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723075500 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723080000 +0200" stop="20260723085500 +0200">
+    <title lang="fr">Ajans Bugün</title>
+    <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723085500 +0200" stop="20260723090000 +0200">
+    <title lang="fr">Hava Durumu</title>
+    <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
   <programme channel="oqee.1249" start="20260723090000 +0200" stop="20260723100000 +0200">
     <title lang="fr">Ajans Bugün</title>
     <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
@@ -42694,6 +43115,11 @@
     <title lang="fr">Hava Durumu</title>
     <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
     <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260723150000 +0200" stop="20260723155000 +0200">
+    <title lang="fr">Ajans Gün Içi</title>
+    <desc lang="fr">Türkiye ve dünyada gün içinde yaşanan önemli gelişmeler ile son dakika haberleri izleyiciye sade ve anlaşılır bir dille sunuluyor. Gündemdeki politika, ekonomi ve toplumsal olaylar derli toplu biçimde ele alınırken izleyici günün haber akışını bu programla yakından takip ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1249" start="20260723155000 +0200" stop="20260723170000 +0200">
     <title lang="fr">Ajans Akşama Doğru</title>
@@ -42773,6 +43199,21 @@
   <programme channel="oqee.1293" start="20260723045900 +0200" stop="20260723055900 +0200">
     <title lang="fr">J'irai dormir chez vous - S05E01</title>
     <desc lang="fr">Antoine commence son voyage à San Francisco. Il découvre avec surprise des gens complètement nus dans le quartier de Castro. Puis il croise plusieurs membres de la communauté des "Soeurs de la perpétuelle indulgence". Leur tenue vestimentaire et leur maquillage sont étonnants. Elles militent contre l'homophobie, le sida et la culpabilité. Puis Antoine se procure un "Trike", une splendide Harley Davidson à trois roues et file vers le nord.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.1293" start="20260723055900 +0200" stop="20260723065900 +0200">
+    <title lang="fr">J'irai dormir chez vous - S01E13</title>
+    <desc lang="fr">Alors qu'il pensait avoir du mal à entrer en contact avec la population cambodgienne vivant à Angkor, Antoine de Maximy a la surprise d'être invité à un enterrement et à passer la nuit sur le bateau de la famille en deuil, sur le lac de Tonlé Sap. Il se rend ensuite à Battambang, l'une des plus grandes ville du pays, pour une entrevue avec une équipe de démineurs, qui tente de débarrasser les millions de mines antipersonnel qui infestent le pays. En leur compagnie, il déguste une boisson locale dans laquelle marinent des mygales. Il trouve ensuite l'hospitalité dans un monastère auprès de jeunes moines étudiants, avant de reprendre la route pour Ban Lung.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.1293" start="20260723065900 +0200" stop="20260723080000 +0200">
+    <title lang="fr">J'irai dormir chez vous - S05E06</title>
+    <desc lang="fr">Antoine revient sur le tournage de l'épisode tourné au Cap Vert en 2014. Après la rediffusion de l'épisode, il partage ses rencontres inédites parfois amusantes, comme lorsqu'il croise des femmes au marché. Il plaisante avec l'une d'elles et essaie évidemment de se faire inviter à déjeuner. Apparemment ce n'est pas du goût du mari. Il parle également du volcan Fogo et s'attache à décrire la petite école et ses élèves, qui se trouvaient au milieu du village, dans le cratère. Pourquoi ? Parce qu'aujourd'hui, tout a disparu. Une éruption a tout détruit, heureusement sans faire de victimes. Enfin, Antoine raconte son escapade sur l'île de Santo Antão, qui n'apparaît pas dans le film.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.1293" start="20260723080000 +0200" stop="20260723090000 +0200">
+    <title lang="fr">J'irai dormir chez vous - S06E03</title>
+    <desc lang="fr">Antoine promène ses caméras dans les îles anglophones des Petites Antilles. Comme toujours, il s'écarte des lieux touristiques pour susciter des rencontres authentiques et insolites. Mais le village de Sainte-Lucie voit d'un mauvais oeil l'arrivée d'un étranger bardé d'objectifs. Au port de pêche de Dennery, Antoine rencontre Dyna, qui accepte de le recevoir chez elle. Le voyage se complique à Gros Islet, où le baroudeur échoue dans un quartier où les bars et les boîtes de nuit sont partout. Il met le cap sur la Barbade, une île voisine, où il fait la connaissance de Denzel et de Clyde, un ancien policier.</desc>
     <category lang="fr">Documentaire / Documentaire voyage</category>
   </programme>
   <programme channel="oqee.1293" start="20260723090000 +0200" stop="20260723095800 +0200">
@@ -43683,6 +44124,14 @@
     <title lang="fr">Sex on Social Media: Let's Post it</title>
     <category lang="fr">Téléfilm / Téléfilm pornographique</category>
   </programme>
+  <programme channel="oqee.1368" start="20260723050500 +0200" stop="20260723062100 +0200">
+    <title lang="fr">Filthy Amateur Bathroom Threeways</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
+  <programme channel="oqee.1368" start="20260723062100 +0200" stop="20260723074300 +0200">
+    <title lang="fr">Humpin' At the House Party</title>
+    <category lang="fr">Téléfilm / Téléfilm pornographique</category>
+  </programme>
   <programme channel="oqee.1368" start="20260723074300 +0200" stop="20260723090600 +0200">
     <title lang="fr">Please Teacher Slam My Slot!</title>
     <category lang="fr">Film / Film pornographique</category>
@@ -44045,6 +44494,206 @@
     <title lang="fr">After the Apocalypse</title>
     <desc lang="fr">Eve's (Kira Noir) seemingly normal morning routine is interrupted by a string of odd occurrences, followed by the arrival of two desperate strangers (Kenna James and Dante Colle) who deliver the shocking news that a mysterious incident has brought upon the apocalypse. Eve has a hard time believing them but when the clues add up, she finds herself providing safe harbor for a pair of plotting partners who each appear to have their own secret agenda; seducing Eve into picking a side.</desc>
     <category lang="fr">Film / Film pornographique</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723000000 +0200" stop="20260723003000 +0200">
+    <title lang="fr">Midnight Affairs</title>
+    <desc lang="fr">Are you prepared for a Midnite Affair? We have all of the most seductive moments in sexy history.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723003000 +0200" stop="20260723010000 +0200">
+    <title lang="fr">Midnight Affairs</title>
+    <desc lang="fr">Are you prepared for a Midnite Affair? We have all of the most seductive moments in sexy history.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723010000 +0200" stop="20260723013000 +0200">
+    <title lang="fr">Fetish</title>
+    <desc lang="fr">Kinky, sexy, bold. Check out the dirtiest of fantasies in the world. What would you try?</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723013000 +0200" stop="20260723020000 +0200">
+    <title lang="fr">Fetish</title>
+    <desc lang="fr">Kinky, sexy, bold. Check out the dirtiest of fantasies in the world. What would you try?</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723020000 +0200" stop="20260723023000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723023000 +0200" stop="20260723030000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723030000 +0200" stop="20260723033000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723033000 +0200" stop="20260723040000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723040000 +0200" stop="20260723043000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723043000 +0200" stop="20260723050000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723050000 +0200" stop="20260723053000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723053000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723060000 +0200" stop="20260723063000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723063000 +0200" stop="20260723070000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723070000 +0200" stop="20260723073000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723073000 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723090000 +0200" stop="20260723093000 +0200">
+    <title lang="fr">Fashion Films</title>
+    <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723093000 +0200" stop="20260723100000 +0200">
+    <title lang="fr">Fashion Films</title>
+    <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723100000 +0200" stop="20260723103000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723103000 +0200" stop="20260723110000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723110000 +0200" stop="20260723113000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723113000 +0200" stop="20260723120000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723120000 +0200" stop="20260723123000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723123000 +0200" stop="20260723130000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723130000 +0200" stop="20260723133000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723133000 +0200" stop="20260723140000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723140000 +0200" stop="20260723143000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723143000 +0200" stop="20260723150000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723170000 +0200" stop="20260723173000 +0200">
+    <title lang="fr">Fashion Films</title>
+    <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723173000 +0200" stop="20260723180000 +0200">
+    <title lang="fr">Fashion Films</title>
+    <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723180000 +0200" stop="20260723183000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723183000 +0200" stop="20260723190000 +0200">
+    <title lang="fr">Photographers</title>
+    <desc lang="fr">The most seductive and sultry moments caught on film; check out all the best fashion sexy photographers and the photoshoots they are able to produce.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723200000 +0200" stop="20260723203000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723203000 +0200" stop="20260723210000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723210000 +0200" stop="20260723213000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723213000 +0200" stop="20260723220000 +0200">
+    <title lang="fr">Swimwear</title>
+    <desc lang="fr">Who doesn't love swimwear? All of your favorite swimsuit models in the most incredible swimwear brands are right here.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723220000 +0200" stop="20260723223000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723223000 +0200" stop="20260723230000 +0200">
+    <title lang="fr">Lingerie</title>
+    <desc lang="fr">Lingerie is fashion's sexiest category and we have all of the best designers, models, and lingerie photoshoots to your liking only on FashionTV.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723230000 +0200" stop="20260723233000 +0200">
+    <title lang="fr">Fashion Films</title>
+    <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1372" start="20260723233000 +0200" stop="20260724000000 +0200">
+    <title lang="fr">Fashion Films</title>
+    <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.139" start="20260723002200 +0200" stop="20260723011300 +0200">
     <title lang="fr">TikTok : meurtre viral - S01E03</title>
@@ -45187,6 +45836,16 @@
     <desc lang="fr">La brigade retrouve le corps d'un homme dans un quartier touristique. L'enquête prend un tour inédit lorsque Tom et Lola reçoivent une mystérieuse boîte remplie d'énigmes qui semblent liées à leur victime. Le tueur est-il en train de jouer avec eux ? L'équipe devra agir vite pour éviter un nouveau meurtre...</desc>
     <category lang="fr">Série / Série policière</category>
   </programme>
+  <programme channel="oqee.1429" start="20260723000600 +0200" stop="20260723003200 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723003200 +0200" stop="20260723005800 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
   <programme channel="oqee.1429" start="20260723005800 +0200" stop="20260723012400 +0200">
     <title lang="fr">Gym direct</title>
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
@@ -45223,6 +45882,56 @@
     <category lang="fr">Divers / Fitness</category>
   </programme>
   <programme channel="oqee.1429" start="20260723035900 +0200" stop="20260723042500 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723042500 +0200" stop="20260723050000 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723050000 +0200" stop="20260723052500 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723052500 +0200" stop="20260723055000 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723055000 +0200" stop="20260723061700 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723061700 +0200" stop="20260723064200 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723064200 +0200" stop="20260723070800 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723070800 +0200" stop="20260723073400 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723073400 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723080000 +0200" stop="20260723082600 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723082600 +0200" stop="20260723085200 +0200">
     <title lang="fr">Gym direct</title>
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
     <category lang="fr">Divers / Fitness</category>
@@ -45302,6 +46011,11 @@
     <desc lang="fr">Fitness. Présenté par Constant. "Cardio boxe".</desc>
     <category lang="fr">Divers / Fitness</category>
   </programme>
+  <programme channel="oqee.1429" start="20260723152100 +0200" stop="20260723154700 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
   <programme channel="oqee.1429" start="20260723154700 +0200" stop="20260723161300 +0200">
     <title lang="fr">Gym direct</title>
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
@@ -45342,6 +46056,26 @@
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
     <category lang="fr">Divers / Fitness</category>
   </programme>
+  <programme channel="oqee.1429" start="20260723191300 +0200" stop="20260723193900 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723193900 +0200" stop="20260723200400 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723200400 +0200" stop="20260723202900 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723202900 +0200" stop="20260723205500 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
   <programme channel="oqee.1429" start="20260723205500 +0200" stop="20260723212100 +0200">
     <title lang="fr">Gym direct</title>
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
@@ -45366,6 +46100,25 @@
     <title lang="fr">Gym direct</title>
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
     <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723230400 +0200" stop="20260723233000 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723233000 +0200" stop="20260723235600 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1429" start="20260723235600 +0200" stop="20260724002100 +0200">
+    <title lang="fr">Gym direct</title>
+    <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
+    <category lang="fr">Divers / Fitness</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723001900 +0200" stop="20260723004800 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
   <programme channel="oqee.1430" start="20260723004800 +0200" stop="20260723011500 +0200">
     <title lang="fr">Les animaux de la 8</title>
@@ -45394,6 +46147,52 @@
   </programme>
   <programme channel="oqee.1430" start="20260723033600 +0200" stop="20260723040500 +0200">
     <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723040500 +0200" stop="20260723043400 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">A Carnac, une cinquantaine de moutons des landes de Bretagne broutent paisiblement autour des menhirs. Cet éco pâturage permet d'entretenir le plus grand site mégalithique du monde. Sur la plage de Sarzeau, les gravelots à collier interrompu ont commencé à nicher. Enfin, aux côtés de Gurvan, un fermier passionné, Sandrine Arcizet parti en calèche avec des chevaux de trait bretons, voir les vaches Pie Noir à l'heure de la traite.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723043400 +0200" stop="20260723050300 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723050300 +0200" stop="20260723053000 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Cette semaine, Sandrine Arcizet et Elodie Ageron partent pour le Sud. Dans le Var, elles vont rencontrer les meilleurs amis des animaux, prêts à tout pour leur venir en aide.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723053000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723060000 +0200" stop="20260723062900 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Près de Rouen, dans le parc Rêve de bisons, Guillaume assouvi sa passion pour le Canada. Sandrine, à bord d'un camion militaire, se retrouve au milieu d'un troupeau de quatre cents bisons. De son côté, Elodie approche une meute de loups arctiques. Ces chasseurs d'exception savent s'unir pour piéger leur proie. Puis, dans le Calvados, Sandrine se rend dans une ferme pédagogique. Elle assiste au "salut de l'aube", un drôle de ballet de jeunes autruches.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723062900 +0200" stop="20260723065500 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron prennent le train pour Valence. En Ardèche, elles retournent chez Marjorie, une bergère qui a créé un lieu unique où elle propose des activités surprenantes aux passionnés d'animaux. Elodie et Sandrine partent ensuite en randonnée dans les hauteurs du Pouzin.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723065500 +0200" stop="20260723072200 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723072200 +0200" stop="20260723075000 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Dans la Sarthe, Sandrine Arcizet se rend chez Martine, une professeure de violon qui a transformé sa maison en refuge. Elodie part en virée dans les paysages de l'Anjou, aux commandes d'un doggykart, un traîneau à roue tracté par des chiens nordiques. Sandrine rejoint Vivien et ses chiens, pour une balade utile sur les bords de Loire. Elodie se rend dans une ferme pédagogique pour y observer un rituel intense pour les biches et les cerfs : le brame.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723075000 +0200" stop="20260723081700 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723081700 +0200" stop="20260723084300 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron partent à la découverte d'animaux qui se ressemblent et pourtant si différents au Zoo Safari de Thoiry. Comme le phacochère, proche du cochon et du sanglier. Le zèbre se distingue des ânes et des chevaux par ses rayures et aussi par son instinct de survie. Chez les renards, roux et polaires se côtoient désormais.</desc>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
   <programme channel="oqee.1430" start="20260723084300 +0200" stop="20260723091000 +0200">
@@ -45467,6 +46266,10 @@
     <title lang="fr">Les animaux de la 8</title>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
+  <programme channel="oqee.1430" start="20260723152500 +0200" stop="20260723155100 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
   <programme channel="oqee.1430" start="20260723155100 +0200" stop="20260723161700 +0200">
     <title lang="fr">Les animaux de la 8</title>
     <category lang="fr">Magazine / Magazine animalier</category>
@@ -45503,6 +46306,21 @@
     <title lang="fr">Les animaux de la 8</title>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
+  <programme channel="oqee.1430" start="20260723192600 +0200" stop="20260723195100 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Au pied du Sacré-Coeur, Elodie retrouve William et sa chienne labrador pour une balade en side-car. Dans la Ferme Tropicale de Karim Daoues, elle découvre un très gros crabe des cocotiers et un boa canin. Sandrine rencontre Caro Monica, une coach sportive qui ne se sépare jamais d'Olga, sa poule de compagnie.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723195100 +0200" stop="20260723201800 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron partent sur les routes de France à la rencontre de passionnés d'animaux. Vétérinaires, soigneurs, bénévoles : ces femmes et ces hommes consacrent leur temps au bien-être des bêtes à poils ou à plumes, de fidèles compagnons qui n'ont pas fini de surprendre.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723201800 +0200" stop="20260723204400 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron partent sur les routes de France à la rencontre de passionnés d'animaux. Vétérinaires, soigneurs, bénévoles : ces femmes et ces hommes consacrent leur temps au bien-être des bêtes à poils ou à plumes, de fidèles compagnons qui n'ont pas fini de surprendre.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
   <programme channel="oqee.1430" start="20260723204400 +0200" stop="20260723211300 +0200">
     <title lang="fr">Les animaux de l'été</title>
     <desc lang="fr">Elodie Ageron et Sandrine Arcizet partent à la découverte des régions aux côtés des bêtes, en vol avec des oies sauvages au-dessus du lac d'Annecy, en kayak avec un chien dans les gorges de l'Ardèche ou encore en balade dans le maquis corse avec des chèvres.</desc>
@@ -45526,6 +46344,16 @@
   <programme channel="oqee.1430" start="20260723223600 +0200" stop="20260723230300 +0200">
     <title lang="fr">Les animaux de l'été</title>
     <desc lang="fr">Sandrine Arcizet et Elodie Ageron proposent de découvrir des animaux extraordinaires. Qu'ils changent d'apparence pour se cacher ou qu'ils soient capables de vivre éternellement, zoom sur les pouvoirs les plus mystérieux de ces animaux vraiment pas comme les autres.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723230300 +0200" stop="20260723233200 +0200">
+    <title lang="fr">Les animaux de l'été</title>
+    <desc lang="fr">Rencontre avec celles et ceux qui offrent une nouvelle vie aux animaux maltraités. Refuge pour éléphants, hôpital pour tortues ou encore sanctuaire pour animaux abandonnés : ces passionnés se dévouent pour prendre soins de leurs rescapés.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260723233200 +0200" stop="20260724000200 +0200">
+    <title lang="fr">Les animaux de l'été</title>
+    <desc lang="fr">Les deux animatrices rencontrent des passionnés qui ont créé un lien fusionnel avec leur animal. Comme Anthony qui a tout fait pour retrouver son chien Milky disparu pendant 18 jours, Valentin, un maraîcher qui travaille toujours avec son chat Mimi ou Camille qui partage toutes ses activités sportives avec sa chienne Rhéa. Des duos inséparables étonnants et émouvants</desc>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
   <programme channel="oqee.1431" start="20260723000300 +0200" stop="20260723003400 +0200">
@@ -49352,10 +50180,29 @@
     <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="oqee.335" start="20260723050500 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Arrouad</title>
+    <desc lang="fr">L'émission "ARROUAD" propose dans un chacun de ses épisodes un portrait d'une personnalité marocaine ayant réussi dans les domaines de la politique, du sport, de l'art, de la musique et de la société...</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="oqee.335" start="20260723060000 +0200" stop="20260723070000 +0200">
     <title lang="fr">Ousrati</title>
     <desc lang="fr">Laissez vous porter par "Ossrati" , une émission dans l'esprit de Ramadan placée sous le signe du bien-être et de la sérénité. Au programme les conseils pour la bonne santé, la beauté de votre corps, la mode, la décoration intérieure qui fait de votre maison le foyer de vos rêves...</desc>
     <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.335" start="20260723070000 +0200" stop="20260723070500 +0200">
+    <title lang="fr">Hymne national+ Coran</title>
+    <desc lang="fr">Commencez votre journée avec l'hymne national du Maroc et la lecture du Saint Coran.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.335" start="20260723070500 +0200" stop="20260723071000 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.335" start="20260723071000 +0200" stop="20260723074000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.335" start="20260723074000 +0200" stop="20260723081000 +0200">
     <title lang="fr">Tinoubka (Documentaire amazigh)</title>
@@ -49521,6 +50368,16 @@
     <title lang="fr">Rozmowy (nie)wygodne</title>
     <desc lang="fr">Inspirujące rozmowy Mariusza Szczygła z wybitnymi osobowościami świata kultury i sztuki. Prowokujące pytania, wymagające nieszablonowych odpowiedzi i odkrywania swojej osobowości. Wywiady odbywać się będą we "Wrzenie Świata" - miejscu spotkań bohemy intelektualnej Warszawy. Gość: Jan Kliment, tancerz</desc>
     <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.340" start="20260723050000 +0200" stop="20260723053500 +0200">
+    <title lang="fr">Barwy szczęścia</title>
+    <desc lang="fr">Napięcie w relacji Oliwki i Tomka ulega zaostrzeniu. Dodatkowo potęguje je Madzia, dzieląc się swoimi obserwacjami na temat zainteresowania Kępskiego Grażyną. Natomiast Dominika bezskutecznie próbuje skłonić Renatę do konfrontacji z problemem uzależnienia od opioidów. Z kolei Daniel po raz kolejny wywołuje niepokój Asi, stanowczo przypominając byłej żonie, że w przypadku ograniczania jego kontaktów z Emilem - ma pełne prawo wejść na drogę sądową.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.340" start="20260723053500 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Gra słów. Krzyżówka</title>
+    <desc lang="fr">Teleturniej sprawdzający wiedzę, oparty na formule krzyżówki, wykorzystujący niesłabnącą popularność tego typu gry umysłowej oraz chęć rywalizacji. W codziennej rozgrywce czworo uczestników zmierzy się ze sobą, by zdobyć tytuł finalisty dnia i uzyskać możliwość wzięcia udziału w finale tygodnia. Zasady rozwiązywania zadań umożliwiają widzom szybkie i intuicyjne przyswojenie reguł gry bez względu na wiek i możliwości percepcyjne, a program ma lekką, przystępną formułę.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.340" start="20260723060000 +0200" stop="20260723063000 +0200">
     <title lang="fr">Panorama</title>
@@ -50567,6 +51424,16 @@
     <desc lang="fr">Programa de entrevistas a prominentes personajes iberoamericanos para profundizar en la riqueza, diversidad y cultura de las sociedades latinoamericanas.</desc>
     <category lang="fr">Divers / Interview</category>
   </programme>
+  <programme channel="oqee.366" start="20260723050000 +0200" stop="20260723053000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario en el que se cuentan noticias de temas nacionales con especial peso en los temas internacionales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260723053000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Telediario en el que se cuentan noticias de temas nacionales con especial peso en los temas internacionales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.366" start="20260723060000 +0200" stop="20260723075000 +0200">
     <title lang="fr">Telediario Matinal</title>
     <desc lang="fr">Sirun Demirjian y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
@@ -50595,6 +51462,21 @@
   <programme channel="oqee.366" start="20260723145700 +0200" stop="20260723153600 +0200">
     <title lang="fr">Telediario 1</title>
     <desc lang="fr">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260723153600 +0200" stop="20260723154200 +0200">
+    <title lang="fr">Deportes 1</title>
+    <desc lang="fr">Actualidad deportiva diaria nacional e internacional.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.366" start="20260723154200 +0200" stop="20260723154500 +0200">
+    <title lang="fr">El tiempo</title>
+    <desc lang="fr">Retransmisión del parte meteorológico para España en el día de hoy.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.366" start="20260723154500 +0200" stop="20260723160000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Información continua 24 horas, nacional e internacional, 365 días al año.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.366" start="20260723160000 +0200" stop="20260723163000 +0200">
@@ -50867,6 +51749,21 @@
     <desc lang="fr">En muchas ciudades alemanas, los repartidores en bicicleta llevan hamburguesas, pizza y otros alimentos a los hogares. Miles de estos repartidores proceden de la India, atraídos por la promesa de estudiar en Alemania, y han contraído fuertes deudas.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="oqee.371" start="20260723070000 +0200" stop="20260723070200 +0200">
+    <title lang="fr">DW News</title>
+    <desc lang="fr">DW News is news and information channel from a German international broadcaster Deutsche Well (German Wall). It provides latest news from Europe and all around the world in several languages on a daily basis. DW news is informative, entertaining, up-to-date and what is more important, reliable source of news.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.371" start="20260723070200 +0200" stop="20260723073000 +0200">
+    <title lang="fr">The Day</title>
+    <desc lang="fr">The news as it happened, presented, clarified and analysed by experts and specialists. Studio-based and in-the field summaries and analysis of the events to have marked the previous twenty-four hours enable understanding and place within a wider context the issues that have shaped, focused and given direction over the course of the previous day.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.371" start="20260723073000 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Focus on Europe</title>
+    <desc lang="fr">Informativo presentado por Alexander Kudascheff que da cuenta, cada día, de todo lo que pasa en Europa. El programa informa sobre la actualidad política, cultural y social del continente europeo.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
   <programme channel="oqee.371" start="20260723080000 +0200" stop="20260723080200 +0200">
     <title lang="fr">DW News</title>
     <desc lang="fr">DW News is news and information channel from a German international broadcaster Deutsche Well (German Wall). It provides latest news from Europe and all around the world in several languages on a daily basis. DW news is informative, entertaining, up-to-date and what is more important, reliable source of news.</desc>
@@ -50971,6 +51868,26 @@
     <title lang="fr">Le cannibale de Milwaukee : "Mon ami Dahmer", Derf Backderf</title>
     <desc lang="fr">Dans son lycée de Bath Richfield, dans l'Ohio, le cartooniste et auteur américain Derf Backderf a eu pour condisciple Jeffrey Dahmer. Entre 1978 et 1991, de ses 18 à ses 31 ans, ce tueur en série a torturé et tué dix-sept jeunes hommes au moins, avant d'être arrêté. Condamné puis assassiné par un codétenu en 1994, il a commis le premier de ces meurtres dans la maison familiale où Backderf lui rendait visite dans leur adolescence. Le choc profond ressenti en apprenant les faits fait naître en lui le besoin de retourner sur ses pas pour confronter le monstre des gros titres au souvenir du garçon un peu fêlé mais drôle, puis de plus en plus inquiétant, qu'il avait fini par fuir et oublier. Alors dessinateur de presse, Derf Backderf va mettre vingt ans à achever "Mon ami Dahmer", album-enquête multiprimé.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.371" start="20260723150000 +0200" stop="20260723150200 +0200">
+    <title lang="fr">DW News</title>
+    <desc lang="fr">DW News is news and information channel from a German international broadcaster Deutsche Well (German Wall). It provides latest news from Europe and all around the world in several languages on a daily basis. DW news is informative, entertaining, up-to-date and what is more important, reliable source of news.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.371" start="20260723150200 +0200" stop="20260723151500 +0200">
+    <title lang="fr">DW News Focus</title>
+    <desc lang="fr">Global developments are explored through detailed reports and balanced perspectives that highlight key issues affecting societies worldwide. The program delivers clear analysis supported by expert opinions, offering viewers a deeper understanding of political, economic and social events shaping the international landscape today.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.371" start="20260723151500 +0200" stop="20260723153000 +0200">
+    <title lang="fr">Best of DW-online Content</title>
+    <desc lang="fr">See the world differently: surprising stories, original analysis and news that matters.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.371" start="20260723153000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">REV</title>
+    <desc lang="fr">Life isn't about the destination, but the journey to get there, something Rev completely adheres to. The show brings you updates from the world of cars, examining the latest news and events pertaining to vehicles. From test driving the latest vehicles to examining how engineering is changing to combat climate change, Rev explores every avenue of car-based news, keeping fellow petrol heads up to date with developments within the industry.</desc>
+    <category lang="fr">Magazine / Magazine de l'automobile</category>
   </programme>
   <programme channel="oqee.371" start="20260723160000 +0200" stop="20260723160200 +0200">
     <title lang="fr">DW News</title>
@@ -51606,6 +52523,16 @@
     <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.396" start="20260723070000 +0200" stop="20260723073000 +0200">
+    <title lang="fr">Sky News @ Breakfast</title>
+    <desc lang="fr">Des interviews de personnalités sur les principaux sujets de l'actualité du matin, ainsi que les dernières informations des correspondants de Sky News.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260723073000 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Sky News @ Breakfast</title>
+    <desc lang="fr">Des interviews de personnalités sur les principaux sujets de l'actualité du matin, ainsi que les dernières informations des correspondants de Sky News.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.396" start="20260723080000 +0200" stop="20260723083000 +0200">
     <title lang="fr">Mornings with Ridge and Frost</title>
     <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
@@ -51672,6 +52599,16 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20260723143000 +0200" stop="20260723150000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260723150000 +0200" stop="20260723153000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260723153000 +0200" stop="20260723160000 +0200">
     <title lang="fr">Sky News Today</title>
     <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -54223,6 +55160,166 @@
     <desc lang="fr">The Digital World project is a series of 34 programmes about modern technologies of the digital universe, thanks to which you can be the first to learn the latest news about new popular gadgets, appliances and devices that make the life of modern society more comfortable and technological.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.490" start="20260723003000 +0200" stop="20260723010000 +0200">
+    <title lang="fr">Memory of China</title>
+    <desc lang="fr">Memory of China is the first history program of China, the TV program unveils secrets of important historical events, mega projects and the untold stories behind those crucial decisions of this country.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723010000 +0200" stop="20260723013000 +0200">
+    <title lang="fr">Around China</title>
+    <desc lang="fr">Around China leads viewers into a fabulous world where they may have a full taste of the excellent personality of the Chinese nation and obtain an intimate understanding of its changes and evolution both in recent time and in future.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723013000 +0200" stop="20260723020000 +0200">
+    <title lang="fr">Across the Strait</title>
+    <desc lang="fr">The Across the Strait traces the much-discussed issues across the Strait, reflects the will of the citizens on two sides of the Strait and details the Chinese Government's policy of "one country, two systems" in a bid to enhance the Taiwan fellowmen's understanding of the Mainland China.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723020000 +0200" stop="20260723030000 +0200">
+    <title lang="fr">Global News</title>
+    <desc lang="fr">International news and current affairs from CCTV-4 (China Central Television 4). Global News brings you the latest stories from around the world.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723030000 +0200" stop="20260723031500 +0200">
+    <title lang="fr">Nostalgia</title>
+    <desc lang="fr">Past stories, Nostalgia.</desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723031500 +0200" stop="20260723040000 +0200">
+    <title lang="fr">On the Way</title>
+    <desc lang="fr">From the visual angle of a traveler to show the beauty of China and the world</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723040000 +0200" stop="20260723043000 +0200">
+    <title lang="fr">Memory of China</title>
+    <desc lang="fr">Memory of China is the first history program of China, the TV program unveils secrets of important historical events, mega projects and the untold stories behind those crucial decisions of this country.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723043000 +0200" stop="20260723051500 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723051500 +0200" stop="20260723060000 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723060000 +0200" stop="20260723070000 +0200">
+    <title lang="fr">China News</title>
+    <desc lang="fr">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723070000 +0200" stop="20260723073000 +0200">
+    <title lang="fr">Around China</title>
+    <desc lang="fr">Around China leads viewers into a fabulous world where they may have a full taste of the excellent personality of the Chinese nation and obtain an intimate understanding of its changes and evolution both in recent time and in future.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723073000 +0200" stop="20260723081500 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723081500 +0200" stop="20260723090000 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723090000 +0200" stop="20260723093000 +0200">
+    <title lang="fr">Memory of China</title>
+    <desc lang="fr">Memory of China is the first history program of China, the TV program unveils secrets of important historical events, mega projects and the untold stories behind those crucial decisions of this country.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723093000 +0200" stop="20260723100000 +0200">
+    <title lang="fr">China Showbiz</title>
+    <desc lang="fr">The China Showbiz gathers together a wide range of wonderful TV artistic works and directs viewers into a fabulous world of arts through works appreciation and review.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723100000 +0200" stop="20260723103000 +0200">
+    <title lang="fr">China News</title>
+    <desc lang="fr">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723103000 +0200" stop="20260723111500 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723111500 +0200" stop="20260723120000 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723120000 +0200" stop="20260723123000 +0200">
+    <title lang="fr">China News</title>
+    <desc lang="fr">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723123000 +0200" stop="20260723130000 +0200">
+    <title lang="fr">Across the Strait</title>
+    <desc lang="fr">The Across the Strait traces the much-discussed issues across the Strait, reflects the will of the citizens on two sides of the Strait and details the Chinese Government's policy of "one country, two systems" in a bid to enhance the Taiwan fellowmen's understanding of the Mainland China.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723130000 +0200" stop="20260723133000 +0200">
+    <title lang="fr">China News</title>
+    <desc lang="fr">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723133000 +0200" stop="20260723140000 +0200">
+    <title lang="fr">Asia Today</title>
+    <desc lang="fr">Asia Today is a 30-minute news program revolving around the latest events in politics, economy, social development and culture across the continent. Find out Asia that you've never known. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723140000 +0200" stop="20260723144500 +0200">
+    <title lang="fr">On the Way</title>
+    <desc lang="fr">From the visual angle of a traveler to show the beauty of China and the world</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723144500 +0200" stop="20260723150000 +0200">
+    <title lang="fr">Nostalgia</title>
+    <desc lang="fr">Past stories, Nostalgia.</desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723150000 +0200" stop="20260723153000 +0200">
+    <title lang="fr">China News</title>
+    <desc lang="fr">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723153000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">Focus Today</title>
+    <desc lang="fr">Traces the current affairs from china and abroadarts/culture</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723160000 +0200" stop="20260723164500 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723164500 +0200" stop="20260723173000 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723173000 +0200" stop="20260723180000 +0200">
+    <title lang="fr">China Showbiz</title>
+    <desc lang="fr">The China Showbiz gathers together a wide range of wonderful TV artistic works and directs viewers into a fabulous world of arts through works appreciation and review.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723230000 +0200" stop="20260723234500 +0200">
+    <title lang="fr">On the Way</title>
+    <desc lang="fr">From the visual angle of a traveler to show the beauty of China and the world</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723234500 +0200" stop="20260723235000 +0200">
+    <title lang="fr">Nostalgia</title>
+    <desc lang="fr">Past stories, Nostalgia.</desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="oqee.490" start="20260723235000 +0200" stop="20260724003000 +0200">
+    <title lang="fr">Discoveries</title>
+    <desc lang="fr">China is a country with a very early civilization and a rich history. The ancient Chinese invented the compass, gunpowder, the art of paper-making and block printing, and many other things that have contributed immensely to the progress of mankind. Combining scientific inquiry with human interest, this the story will explore some of the greatest discoveries made in the country, bringing the audience closer to its fascinating tradition and diverse national heritage.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
   <programme channel="oqee.510" start="20260723052500 +0200" stop="20260723060000 +0200">
     <title lang="fr">Pop Program</title>
     <desc lang="fr">Programda pop müziğin öne çıkan ve en çok izlenen klipleri dinamik bir yayın akışıyla izleyiciyle buluşuyor. Güncel hitler, yeni çıkan klipler ve sevilen pop parçaları güçlü görsellerle art arda ekrana geliyor. Akıcı kurgu ve tempolu geçişlerle izleyiciye keyifli bir klip deneyimi sunuluyor.</desc>
@@ -54618,12 +55715,12 @@
     <desc lang="fr">Die Sportwagen der Marke Porsche sind legendär. Der Testfahrer Lars Kern setzt sich in sechs der Originalmodelle und testet sie auf der Porsche-Rennstrecke Leipzig, um zu erfahren, was sie in puncto Beschleunigung und Fahrspaß drauf haben. Dabei wurden auf der Rennstrecke Kurven von einigen weltberühmten Rennspisten nachgebaut. </desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
-  <programme channel="oqee.56" start="20260723060000 +0200" stop="20260723061000 +0200">
+  <programme channel="oqee.56" start="20260723060000 +0200" stop="20260723062000 +0200">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260723060000 +0200" stop="20260723062000 +0200">
+  <programme channel="oqee.56" start="20260723060000 +0200" stop="20260723061000 +0200">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -54633,12 +55730,12 @@
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260723062000 +0200" stop="20260723070000 +0200">
+  <programme channel="oqee.56" start="20260723062000 +0200" stop="20260723064000 +0200">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
-  <programme channel="oqee.56" start="20260723062000 +0200" stop="20260723064000 +0200">
+  <programme channel="oqee.56" start="20260723062000 +0200" stop="20260723070000 +0200">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -54698,6 +55795,11 @@
     <desc lang="fr">Täglich bewerten die Kommentatoren Stefan Aust, Anna Schneider, Henryk M. Broder, Gunnar Schupelius und Jan Fleischhauer den Tag nach Kategorien wie: "Mein Gewinner", "Mein Verlierer", "Meine Nachricht des Tages", und "Mein Aufreger des Tages". Eine vielseitige Plattform für tägliche Meinungen und Analysen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="oqee.56" start="20260723090000 +0200" stop="20260723090500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723090000 +0200" stop="20260723091500 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
@@ -54727,6 +55829,11 @@
     <title lang="fr">Börsenflash</title>
     <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.56" start="20260723100000 +0200" stop="20260723100500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260723100000 +0200" stop="20260723101500 +0200">
     <title lang="fr">WELT Newsroom</title>
@@ -54758,6 +55865,11 @@
     <desc lang="fr">WELT setzt neue Maßstäbe mit "KI-WELT" - der ersten deutschlandweiten Nachrichtensendung, die vollständig von Künstlicher Intelligenz produziert und von einem Avatar moderiert wird. Im Mittelpunkt stehen aktuelle Entwicklungen rund um KI, Robotik und Zukunftstechnologien. Alle redaktionellen Inhalte entstehen KI-gesteuert, werden aber journalistisch begleitet. Eine Sendung über die digitale Zukunft - gemacht mit den Mitteln der Zukunft.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260723110000 +0200" stop="20260723110500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723110000 +0200" stop="20260723111500 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
@@ -54773,19 +55885,39 @@
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260723114000 +0200" stop="20260723114500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723114000 +0200" stop="20260723115000 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260723114500 +0200" stop="20260723120000 +0200">
+    <title lang="fr">Börsenflash</title>
+    <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.56" start="20260723115000 +0200" stop="20260723120000 +0200">
     <title lang="fr">Börsenflash</title>
     <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20260723120000 +0200" stop="20260723120500 +0200">
+    <title lang="fr">Die Welt am Mittag</title>
+    <desc lang="fr">Ab 12 Uhr liefert "Die Welt am Mittag" einen kompakten Überblick über das aktuelle Tagesgeschehen. Die Sendung fasst die wichtigsten Entwicklungen aus Politik, Wirtschaft, Gesellschaft und Sport zusammen und ordnet die Top-Themen des Tages ein. Auch die aktuellen Entwicklungen an den Börsen und den internationalen Finanzmärkten sind fester Bestandteil der Sendung.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723120000 +0200" stop="20260723121500 +0200">
     <title lang="fr">Die Welt am Mittag</title>
     <desc lang="fr">Ab 12 Uhr liefert "Die Welt am Mittag" einen kompakten Überblick über das aktuelle Tagesgeschehen. Die Sendung fasst die wichtigsten Entwicklungen aus Politik, Wirtschaft, Gesellschaft und Sport zusammen und ordnet die Top-Themen des Tages ein. Auch die aktuellen Entwicklungen an den Börsen und den internationalen Finanzmärkten sind fester Bestandteil der Sendung.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260723121000 +0200" stop="20260723123000 +0200">
+    <title lang="fr">WELT - Meinung am Mittag</title>
+    <desc lang="fr">Jeden Mittag liefern profilierte Kommentatoren eine pointierte Einordnung der aktuellen Ereignisse und bewerten den Tag in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger. Das Format bietet eine vielseitige Plattform für tägliche Einschätzungen, ordnet politische und gesellschaftliche Entwicklungen ein und setzt Impulse für die Debatten des restlichen Tages.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260723121500 +0200" stop="20260723122000 +0200">
@@ -54863,10 +55995,19 @@
     <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20260723160000 +0200" stop="20260723161000 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723160000 +0200" stop="20260723161500 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260723161000 +0200" stop="20260723163000 +0200">
+    <title lang="fr">Inside Kanzleramt</title>
+    <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.56" start="20260723161500 +0200" stop="20260723163000 +0200">
     <title lang="fr">Inside Kanzleramt</title>
@@ -54897,12 +56038,22 @@
     <desc lang="fr">Wo steht der Dax, und wie sieht der Dow Jones nach Börsenschluss in New York aus? Das Wirtschaftsmagazin berichtet von der Frankfurter Börse und analysiert Trends auf dem internationalen Aktienmarkt. Wichtige Analysten kommen zu Wort und schätzen die Lage an den Börsen ein, geben einen Überblick über die Situation auf den internationalen Finanzmärkten und auf die wirtschaftliche Lage.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20260723180000 +0200" stop="20260723181000 +0200">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723180000 +0200" stop="20260723180500 +0200">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20260723180500 +0200" stop="20260723181500 +0200">
+    <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
+    <desc lang="fr">Jeden Abend ordnen profilierte Kommentatoren die Ereignisse des Tages ein und bewerten sie in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger. Unterschiedliche Persönlichkeiten bringen ihre Perspektiven ein und schaffen damit eine lebendige Mischung aus pointierten Einschätzungen, analytischer Schärfe und persönlicher Haltung.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.56" start="20260723181000 +0200" stop="20260723181500 +0200">
     <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
     <desc lang="fr">Jeden Abend ordnen profilierte Kommentatoren die Ereignisse des Tages ein und bewerten sie in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger. Unterschiedliche Persönlichkeiten bringen ihre Perspektiven ein und schaffen damit eine lebendige Mischung aus pointierten Einschätzungen, analytischer Schärfe und persönlicher Haltung.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
@@ -54917,7 +56068,17 @@
     <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20260723185500 +0200" stop="20260723191000 +0200">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20260723185500 +0200" stop="20260723191500 +0200">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20260723191000 +0200" stop="20260723193000 +0200">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -58265,6 +59426,31 @@
     <desc lang="fr">Un programma televisivo divertente.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="oqee.707" start="20260723042000 +0200" stop="20260723054000 +0200">
+    <title lang="fr">Divertissement</title>
+    <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.707" start="20260723054000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">Divertissement</title>
+    <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.707" start="20260723060000 +0200" stop="20260723062000 +0200">
+    <title lang="fr">SOAP OPERA</title>
+    <desc lang="fr">Uno spazio per la proiezione di diversi soap.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.707" start="20260723062000 +0200" stop="20260723065000 +0200">
+    <title lang="fr">Divertissement</title>
+    <desc lang="fr">A suivre magazines et/ou émissions de divertissement encore non précisés par la chaîne, veuillez consulter les grilles de programme ultérieurement pour découvrir le contenu.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.707" start="20260723065000 +0200" stop="20260723084000 +0200">
+    <title lang="fr">News</title>
+    <desc lang="fr">Un programma televisivo dedicato all'attualità. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.707" start="20260723084000 +0200" stop="20260723092000 +0200">
     <title lang="fr">Sitcom</title>
     <desc lang="fr">Le contenu détaillé devra être défini ultérieurement,</desc>
@@ -58908,6 +60094,37 @@
     <title lang="fr">NTD Taiwan News</title>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.771" start="20260723050000 +0200" stop="20260723060000 +0200">
+    <title lang="fr">TV Drama Series:Smile Again</title>
+    <desc lang="fr">This drama series from South Korea follows the story of Ban Ha-Jin, an orphan and high school drop-out who has become a devious and resourceful character and tries to become best friends with Jae-myung, a former baseball player. He ends up working for Jae-myung's father's company who also employs Oh Dan-hee, Ha-jin's former girlfriend, in the company softball team. She is coached by Jae-myung who soon falls in love with her.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723060000 +0200" stop="20260723063000 +0200">
+    <title lang="fr">Good Morning NTD</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723063000 +0200" stop="20260723070000 +0200">
+    <title lang="fr">Beautiful Taiwan</title>
+    <desc lang="fr">Taiwan has so much to offer and its stunning scenery, from cityscapes to natural views will leave your head spinning. </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723070000 +0200" stop="20260723073000 +0200">
+    <title lang="fr">Greater New York Today</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723073000 +0200" stop="20260723080000 +0200">
+    <title lang="fr">China's Forbidden News 30'</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723080000 +0200" stop="20260723083000 +0200">
+    <title lang="fr">NTD World News</title>
+    <desc lang="fr">New Tang Dynasty Television brings you extensive coverage of the day's leading stories, providing unbiased reporting on the news causing national and international headlines.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723083000 +0200" stop="20260723090000 +0200">
+    <title lang="fr">Learning Chinese Painting</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
   <programme channel="oqee.771" start="20260723090000 +0200" stop="20260723091500 +0200">
     <title lang="fr">Hello, Learning English</title>
     <category lang="fr">Magazine / Magazine d'information</category>
@@ -58959,6 +60176,11 @@
     <title lang="fr">Tasty Life</title>
     <desc lang="fr">Former police detective Jang Shin-jo has hung up his gun for the last time to enjoy retirement and follow his dream of owning a restaurant. However, getting hot and bothered in the kitchen because of a badly prepared meal is not his only worry. He is also the adoring father of four daughters who present him with many problems as they fall in love with the wrong people, get married and endure that trials and tribulations of complex lives. </desc>
     <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.771" start="20260723150000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">TV Drama Series: Shin Don</title>
+    <desc lang="fr">Shin Don is a South Korean drama series revolving around the most disputed historical figures- Shin Don, and his ambitious life. Shin Don was a Buddhist priest who enjoyed King Gongmin's power. Shin Don gained absolute control over the country. Though he was a Buddhist priest, he relied on political power more than compassion or loving kindness in order to survive the troubled times.</desc>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.771" start="20260723160000 +0200" stop="20260723163000 +0200">
     <title lang="fr">Chinese Medicine</title>
@@ -59501,6 +60723,11 @@
     <desc lang="fr">"Apropo" este unul dintre cele mai folosite cuvinte din vocabularul românilor. Fie ca sunt în maşină, la serviciu, acasă, pe stradă sau pur şi simplu aleg un iaurt dintr-un supermarket, cu "apropo" îşi încep românii cele mai multe dintre discuţii. Tocmai de aceea, ProTV a născocit o emisiune care să se numească simplu Apropo TV, care să satisfacă cele mai multe dintre curiozităţile telespectatorilor şi să le dea câteva subiecte zdravene de vorbit cel puţin pentru câteva zile.</desc>
     <category lang="fr">Magazine / Magazine de l'art de vivre</category>
   </programme>
+  <programme channel="oqee.812" start="20260723150000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20260723160000 +0200" stop="20260723170000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
@@ -59706,6 +60933,21 @@
     <desc lang="fr">Jede Generation gilt als das beste Auto ihrer Zeit. Die neue S-Klasse wird vorgestellt oder ist es doch nur ein Facelift? 50 Jahre Golf GTI - der beliebteste Kompaktsportler feiert Geburtstag mit einem Sondermodell. Darf man den Mercedes GLC gebraucht kaufen? Wir verraten es!</desc>
     <category lang="fr">Magazine / Magazine de l'automobile</category>
   </programme>
+  <programme channel="oqee.842" start="20260723051500 +0200" stop="20260723054500 +0200">
+    <title lang="fr">Wissen - S33E16</title>
+    <desc lang="fr">Drohnen werden zur Brandbekämpfung eingesetzt, während Automaten Burger herstellen und nachhaltiger Honig produziert wird. Kuriose Erfindungen und der richtige Eisgenuss stehen im Mittelpunkt. Artilleriegranaten werden im Akkord gefertigt.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="oqee.842" start="20260723054500 +0200" stop="20260723060000 +0200">
+    <title lang="fr">ntv Service - S05E86</title>
+    <desc lang="fr">Die aktuellen politischen und wirtschaftlichen Entwicklungen zeigen, wie sehr wir als Konsumenten von ihren Folgen betroffen sind. ntv baut mit dem neuen Service-Magazin seine jahrelange Kompetenz bei Ratgeber-Themen weiter aus.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.842" start="20260723060000 +0200" stop="20260723090000 +0200">
+    <title lang="fr">Deutschland am Morgen - S01E57</title>
+    <desc lang="fr">"Deutschland am Morgen" ist das tägliche Nachrichtenmagazin für einen informierten Start in den Tag. Es liefert kompakt die wichtigsten Themen aus Politik, Wirtschaft, Sport und Service.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
   <programme channel="oqee.842" start="20260723090000 +0200" stop="20260723091500 +0200">
     <title lang="fr">Nachrichten</title>
     <desc lang="fr">Die Komplexität des Weltgeschehens verständlich erklärt: Berichterstattung über aktuelle politische, wirtschaftliche, soziale, kulturelle, sportliche und sonstige Ereignisse in komprimierter Form. Die Nachrichten bei n-tv werden an 365 Tagen im Jahr von Montag bis Freitag zu jeder vollen, vormittags zu jeder halben Stunde und morgens zwischen 7 und 9 Uhr alle 15 Minuten gesendet.</desc>
@@ -59810,6 +61052,21 @@
     <title lang="fr">News Spezial - S07E23</title>
     <desc lang="fr">Ein großes Thema, das gerade in der ganzen Welt oder in ganz Deutschland für Furore sorgt, wird in dieser Sendung besonders ausführlich behandelt. Auf der Grundlage genauer und gründlicher Recherchen wird das jeweilige Thema ausführlich dargestellt und die Problematik bis ins Detail erläutert. Interviews und Diskussionen mit Experten runden das Informationsprogramm ab.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.842" start="20260723150000 +0200" stop="20260723153000 +0200">
+    <title lang="fr">Nachrichten</title>
+    <desc lang="fr">Die Komplexität des Weltgeschehens verständlich erklärt: Berichterstattung über aktuelle politische, wirtschaftliche, soziale, kulturelle, sportliche und sonstige Ereignisse in komprimierter Form. Die Nachrichten bei n-tv werden an 365 Tagen im Jahr von Montag bis Freitag zu jeder vollen, vormittags zu jeder halben Stunde und morgens zwischen 7 und 9 Uhr alle 15 Minuten gesendet.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.842" start="20260723153000 +0200" stop="20260723154000 +0200">
+    <title lang="fr">ntv Wirtschaft - S07E23</title>
+    <desc lang="fr">"ntv Wirtschaft" erklärt kompakt die wichtigsten Wirtschafts-, Finanz- und Verbraucherthemen des Tages, ordnet Entwicklungen ein und bietet Expertenstimmen sowie Marktberichte.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.842" start="20260723154000 +0200" stop="20260723160000 +0200">
+    <title lang="fr">ntv Service - S05E86</title>
+    <desc lang="fr">Die aktuellen politischen und wirtschaftlichen Entwicklungen zeigen, wie sehr wir als Konsumenten von ihren Folgen betroffen sind. ntv baut mit dem neuen Service-Magazin seine jahrelange Kompetenz bei Ratgeber-Themen weiter aus.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
   </programme>
   <programme channel="oqee.842" start="20260723160000 +0200" stop="20260723161500 +0200">
     <title lang="fr">Nachrichten</title>
@@ -61492,6 +62749,136 @@
     <desc lang="fr">Farklı şehir ve bölgeleri gezen program, yerel yaşamı, kültürel gelenekleri ve özgün hikâyeleri izleyiciye aktarıyor. Sunucu, mekanları keşfederken halkla sohbet ediyor, yemek kültürünü ve günlük yaşam ritüellerini tanıtıyor. Her bölüm, hem eğlenceli hem bilgilendirici bir yolculuk sunarak, izleyiciye farklı yaşam tarzlarını ve kültürel çeşitliliği deneyimleme fırsatı veriyor.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
+  <programme channel="oqee.954" start="20260723043000 +0200" stop="20260723051000 +0200">
+    <title lang="fr">Kesişen Kültürler</title>
+    <desc lang="fr">Farklı coğrafyaların tarihinden mimarisine, yemek kültüründen moda alışkanlıklarına kadar uzanan bir kültürel yolculuğu ekrana taşıyan belgesel serisi. Aynaz Deedra'nın kendine özgü eğlenceli anlatımıyla, gezip gördüğü yerlerin kültürel özellikleri izleyiciye aktarılıyor. Her bölüm, farklı yaşam biçimlerini, gelenekleri ve şehirlerin karakterini keşfederek izleyiciye hem bilgi dolu hem görsel bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723051000 +0200" stop="20260723054500 +0200">
+    <title lang="fr">Türkiye'nin Fotoğraf Rotaları</title>
+    <desc lang="fr">Türkiye'nin çeşitli bölgelerindeki doğal ve tarihi güzellikleri mercek altına alan program, fotoğrafçılar ve görsel keşif tutkunları için hazırlandı. Dağlar, göller, kıyılar ve şehir manzaraları detaylı şekilde tanıtılırken, yerel kültür, mimari ve gelenekler de işleniyor. İzleyici, hem estetik bir görsel deneyim yaşıyor hem de Türkiye'nin farklı rotalarını keşfederek fotoğrafçılık için ilham alıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723054500 +0200" stop="20260723062000 +0200">
+    <title lang="fr">Çikolatanın Yolculuğu</title>
+    <desc lang="fr">Dizi, kakao çekirdeklerinin toplanmasından işlenerek çikolataya dönüşmesine kadar olan süreci mercek altına alıyor. Farklı üretim teknikleri, ustaların sırları ve çikolatanın kültürel tarihi, lezzet tutkunları için keyifli ve bilgilendirici bir yolculuk sunuyor. İzleyiciler, tatlı endüstrisinin arka planına dair detayları keşfetme fırsatı buluyor.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723062000 +0200" stop="20260723065500 +0200">
+    <title lang="fr">İstikamet Ege</title>
+    <desc lang="fr">Program, Ege Bölgesi'nin tarihini, doğasını ve kültürel zenginliklerini ekrana taşıyor. Sahil kasabalarının sokaklarından taş ustalarının atölyelerine, yöresel lezzetlerden festivallere kadar pek çok farklı konuya değiniliyor. İzleyiciler, Ege'nin kendine özgü yaşam tarzını, doğal güzelliklerini ve kültürel mirasını hem bilgilendirici hem de görsel olarak etkileyici bir şekilde deneyimliyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723065500 +0200" stop="20260723072500 +0200">
+    <title lang="fr">Kalemimde Anadolu</title>
+    <desc lang="fr">Anadolu'nun kültürel ve tarihi zenginliklerini kalem üzerinden ekrana taşıyan bir belgesel serisi. Her bölümde farklı şehirler, köyler ve yöresel yaşam hikâyeleri ele alınıyor. İzleyici, gelenekler, yaşam tarzları ve insan hikâyeleri ile Anadolu'yu keşfederken hem bilgilendirici hem görsel bir deneyim yaşıyor. Kalemle anlatılan her öykü, Anadolu'nun ruhunu ve kültürel mirasını ekrana taşıyan bir yolculuğa dönüştürülüyor.</desc>
+    <category lang="fr">Documentaire / Documentaire aventures</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723072500 +0200" stop="20260723080000 +0200">
+    <title lang="fr">Duyulan Şehirler</title>
+    <desc lang="fr">Şehirlerin gizli melodilerini, sokak seslerini ve günlük yaşam ritimlerini keşfeden bir belgesel serisi. Her bölüm, farklı şehirlerdeki kültürel dokuyu, toplumsal yaşamı ve mekanların seslerini ekrana taşıyor. İzleyici, şehirleri sadece görerek değil, duyarak deneyimleyip atmosferine dahil oluyor. Görsel ve işitsel anlatımıyla şehirlerin karakteri, ritmi ve ruhu izleyiciye etkileyici bir şekilde aktarılıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723080000 +0200" stop="20260723084500 +0200">
+    <title lang="fr">Farklı Rotalar</title>
+    <desc lang="fr">Belgesel dizisi, farklı coğrafi ve kültürel rotaları takip ederek izleyiciyi keşfe davet ediyor. Her bölüm, ziyaret edilen bölgenin tarihini, kültürünü ve insanlarını gözler önüne sererken, yaşam tarzları, gelenekler ve doğal güzellikler de detaylı biçimde aktarılıyor. Farklı yerlerdeki yaşam öyküleri ve mekanlar, keşif odaklı anlatımıyla izleyiciye eşsiz bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723084500 +0200" stop="20260723092500 +0200">
+    <title lang="fr">Bir Varmış Bir Yokmuş Anadolu</title>
+    <desc lang="fr">Anadolu'nun 12 farklı şehrinde, 12 masal ve efsanenin izini süren bir belgesel serisi. Her bölümde halk bilimciler, yazarlar, arkeologlar ve masal anlatıcıları rehberliğinde hikâyeler araştırılıyor. Bölümlerin sonunda ise ünlü sanatçıların seslendirdiği animasyonlu masallar, izleyiciye görsel ve işitsel bir şölen sunuyor. Anadolu'nun kültürel mirasını, efsaneler ve halk hikâyeleri üzerinden keşfetmek isteyenler için büyüleyici bir yolculuk sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire aventures</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723092500 +0200" stop="20260723100000 +0200">
+    <title lang="fr">Bir Kent Bir Efsane</title>
+    <desc lang="fr">Şehirler, sadece fiziksel yapılarıyla değil, aynı zamanda içlerinde barındırdıkları efsaneler ve tarihsel hikâyelerle de kimlik kazanır. Her kent, geçmişten günümüze aktarılan anlatılar, kültürel miras ve insan yaşamıyla şekillenir. Bu anlatım, şehirlerin mimarisini ve ruhunu daha derin bir şekilde keşfetme imkânı sunar. Tarih ve efsane bir araya gelerek her kenti benzersiz bir hikâyeye dönüştürür.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723100000 +0200" stop="20260723105000 +0200">
+    <title lang="fr">Kesişen Kültürler</title>
+    <desc lang="fr">Farklı coğrafyaların tarihinden mimarisine, yemek kültüründen moda alışkanlıklarına kadar uzanan bir kültürel yolculuğu ekrana taşıyan belgesel serisi. Aynaz Deedra'nın kendine özgü eğlenceli anlatımıyla, gezip gördüğü yerlerin kültürel özellikleri izleyiciye aktarılıyor. Her bölüm, farklı yaşam biçimlerini, gelenekleri ve şehirlerin karakterini keşfederek izleyiciye hem bilgi dolu hem görsel bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723105000 +0200" stop="20260723113500 +0200">
+    <title lang="fr">Maceraperest Franziska</title>
+    <desc lang="fr">Dünyayı keşfe çıkan cesur bir gezginin sıra dışı maceralarını anlatan bir belgesel serisi. Her bölümde farklı ülkeler, kültürel deneyimler ve unutulmaz karşılaşmalar izleyiciye aktarılıyor. Yolculuklar, hem eğlenceli hem öğretici bir anlatımla sunulurken, izleyici her adımda gezginin heyecanına ve keşif tutkusuna ortak oluyor. Görsel ve kültürel zenginliklerle dolu bir serüven ekrana taşınıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723113500 +0200" stop="20260723121500 +0200">
+    <title lang="fr">Gerçek Tarihin İzinde</title>
+    <desc lang="fr">Tarihin perde arkasına ışık tutan, kayıp belgelerden unutulmuş hikâyelere kadar her ayrıntıyı ekrana taşıyan bir belgesel serisi. Eski medeniyetler, önemli olaylar ve tarih boyunca şekillenen kültürel izler izleyiciye hem bilgi hem de merak uyandıran bir deneyim sunuyor. Her bölüm, geçmişin sırlarını keşfetme ve tarih anlayışını derinleştirme fırsatı veriyor.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723121500 +0200" stop="20260723125000 +0200">
+    <title lang="fr">Yolun Bittiği Yer</title>
+    <desc lang="fr">Uzak yolların son durağına yapılan keşifleri, kültürel dokuları ve insan hikâyelerini ekrana taşıyan bir belgesel serisi. Her bölüm, bilinmeyen köşeleri, doğal güzellikleri ve sıradışı yaşamları izleyiciye sunarken, yolculuğun hem fiziksel hem de duygusal boyutunu keşfetmesini sağlıyor. Görsel ve anlatısal açıdan zengin içerikler, izleyiciyi ekran başına kilitleyen sürükleyici bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723125000 +0200" stop="20260723132500 +0200">
+    <title lang="fr">Istanbul'un Müzeleri</title>
+    <desc lang="fr">İstanbul'un müzeleri, binlerce yıllık tarihi ve kültürel mirası bir araya getiren önemli yapılardır. Bizans, Osmanlı ve modern dönemlere ait eserler, arkeoloji, sanat ve günlük yaşam örnekleriyle birlikte sergilenir. Her müze, şehrin farklı bir dönemine ışık tutar ve ziyaretçiye zengin bir tarihsel yolculuk sunar. Bu çeşitlilik, İstanbul'un çok katmanlı yapısını anlamayı kolaylaştırır ve kültürel keşfi derinleştirir.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723132500 +0200" stop="20260723140000 +0200">
+    <title lang="fr">İstikamet Ege</title>
+    <desc lang="fr">Program, Ege Bölgesi'nin tarihini, doğasını ve kültürel zenginliklerini ekrana taşıyor. Sahil kasabalarının sokaklarından taş ustalarının atölyelerine, yöresel lezzetlerden festivallere kadar pek çok farklı konuya değiniliyor. İzleyiciler, Ege'nin kendine özgü yaşam tarzını, doğal güzelliklerini ve kültürel mirasını hem bilgilendirici hem de görsel olarak etkileyici bir şekilde deneyimliyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723140000 +0200" stop="20260723144000 +0200">
+    <title lang="fr">Mimarların Evleri</title>
+    <desc lang="fr">Farklı mimarların tasarladığı evler ve yaşam alanları detaylı şekilde ele alınıyor. Evlerin mimari stilinden kullanılan malzemelere, estetik ve fonksiyonel özelliklerinden yaşam deneyimine kadar her detay keşfediliyor. Bölümler, mimarların yaratıcı süreçlerini ve mekanların kullanıcıya sunduğu deneyimi görsel ve bilgilendirici bir şekilde sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire beaux-arts</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723144000 +0200" stop="20260723151500 +0200">
+    <title lang="fr">Suda Yaşayanlar</title>
+    <desc lang="fr">Suların gizemli dünyasında hayat bulan canlıları ve ekosistemleri derinlemesine keşfeden bir belgesel serisi. Nehirlerden göllere, denizlerden okyanuslara kadar farklı yaşam alanlarını ekranlara taşıyan her bölüm, izleyiciye suda yaşayan türlerin yaşam döngüsünü, davranışlarını ve doğal denge içindeki yerlerini gösteriyor. Görsel olarak büyüleyici ve bilgi dolu anlatımıyla izleyici, suyun içindeki yaşamı adeta hissediyor.</desc>
+    <category lang="fr">Documentaire / Documentaire nature</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723151500 +0200" stop="20260723155000 +0200">
+    <title lang="fr">Bir Ege Hayali</title>
+    <desc lang="fr">Ege'nin büyüleyici doğası, tarihi dokusu ve kültürel zenginliklerini ekrana taşıyan bir belgesel serisi. Sahil kasabaları, köy yaşamı, gelenekler ve yerel hikâyelerle izleyici, Ege'nin ruhunu keşfederken hem bilgi sahibi oluyor hem de görsel bir yolculuğa çıkıyor. Her bölüm, bölgenin yaşamını ve güzelliklerini derinlemesine göstererek izleyiciyi adeta Ege'de bir hayal yolculuğuna davet ediyor.</desc>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723155000 +0200" stop="20260723163500 +0200">
+    <title lang="fr">Farklı Rotalar</title>
+    <desc lang="fr">Belgesel dizisi, farklı coğrafi ve kültürel rotaları takip ederek izleyiciyi keşfe davet ediyor. Her bölüm, ziyaret edilen bölgenin tarihini, kültürünü ve insanlarını gözler önüne sererken, yaşam tarzları, gelenekler ve doğal güzellikler de detaylı biçimde aktarılıyor. Farklı yerlerdeki yaşam öyküleri ve mekanlar, keşif odaklı anlatımıyla izleyiciye eşsiz bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723163500 +0200" stop="20260723171500 +0200">
+    <title lang="fr">Bir Varmış Bir Yokmuş Anadolu</title>
+    <desc lang="fr">Anadolu'nun 12 farklı şehrinde, 12 masal ve efsanenin izini süren bir belgesel serisi. Her bölümde halk bilimciler, yazarlar, arkeologlar ve masal anlatıcıları rehberliğinde hikâyeler araştırılıyor. Bölümlerin sonunda ise ünlü sanatçıların seslendirdiği animasyonlu masallar, izleyiciye görsel ve işitsel bir şölen sunuyor. Anadolu'nun kültürel mirasını, efsaneler ve halk hikâyeleri üzerinden keşfetmek isteyenler için büyüleyici bir yolculuk sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire aventures</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723171500 +0200" stop="20260723180000 +0200">
+    <title lang="fr">Kesişen Kültürler</title>
+    <desc lang="fr">Farklı coğrafyaların tarihinden mimarisine, yemek kültüründen moda alışkanlıklarına kadar uzanan bir kültürel yolculuğu ekrana taşıyan belgesel serisi. Aynaz Deedra'nın kendine özgü eğlenceli anlatımıyla, gezip gördüğü yerlerin kültürel özellikleri izleyiciye aktarılıyor. Her bölüm, farklı yaşam biçimlerini, gelenekleri ve şehirlerin karakterini keşfederek izleyiciye hem bilgi dolu hem görsel bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723180000 +0200" stop="20260723184000 +0200">
+    <title lang="fr">Sudaki Izler: Amerika</title>
+    <desc lang="fr">Amerika'nın çeşitli eyaletlerindeki su kaynakları, nehirler, göller ve yeraltı suları detaylı şekilde inceleniyor. Program, suyun çevresel, ekonomik ve toplumsal önemini vurgularken, karşılaşılan sorunları, kirlilik ve kuraklık gibi tehditleri de ele alıyor. Her bölümde bilimsel veriler ve kültürel anlatımlar kullanılarak izleyiciye hem bilgilendirici hem de farkındalık yaratıcı bir deneyim sunuluyor.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723184000 +0200" stop="20260723192000 +0200">
+    <title lang="fr">Duyulan Şehirler</title>
+    <desc lang="fr">Şehirlerin gizli melodilerini, sokak seslerini ve günlük yaşam ritimlerini keşfeden bir belgesel serisi. Her bölüm, farklı şehirlerdeki kültürel dokuyu, toplumsal yaşamı ve mekanların seslerini ekrana taşıyor. İzleyici, şehirleri sadece görerek değil, duyarak deneyimleyip atmosferine dahil oluyor. Görsel ve işitsel anlatımıyla şehirlerin karakteri, ritmi ve ruhu izleyiciye etkileyici bir şekilde aktarılıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723192000 +0200" stop="20260723195500 +0200">
+    <title lang="fr">İstikamet Ege</title>
+    <desc lang="fr">Program, Ege Bölgesi'nin tarihini, doğasını ve kültürel zenginliklerini ekrana taşıyor. Sahil kasabalarının sokaklarından taş ustalarının atölyelerine, yöresel lezzetlerden festivallere kadar pek çok farklı konuya değiniliyor. İzleyiciler, Ege'nin kendine özgü yaşam tarzını, doğal güzelliklerini ve kültürel mirasını hem bilgilendirici hem de görsel olarak etkileyici bir şekilde deneyimliyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723195500 +0200" stop="20260723235000 +0200">
+    <title lang="fr">İmza Peyzajım</title>
+    <desc lang="fr">Ünlü peyzaj mimarlarının kendi imza bahçelerini nasıl tasarladıklarını ve farklı disiplinleri bir araya getirerek yarattıkları benzersiz mekanları anlatan bir belgesel serisi. Sanat, mimari, çevre mühendisliği ve botanik unsurları bir araya gelerek izleyiciye hem görsel hem de ilham verici bir deneyim sunuyor. Her bölümde tasarım süreci, kullanılan teknikler ve estetik seçimler ekrana taşınırken, izleyici peyzaj mimarisinin yaratıcı dünyasına adım atıyor.</desc>
+    <category lang="fr">Documentaire / Documentaire art de vivre</category>
+  </programme>
+  <programme channel="oqee.954" start="20260723235000 +0200" stop="20260724002500 +0200">
+    <title lang="fr">Şehre Umut Verenler</title>
+    <desc lang="fr">Şehirlerin hayatına dokunan ve fark yaratan insanların hikâyelerini anlatan bir belgesel serisi. Her bölümde topluma umut veren projeler, yaratıcı girişimler ve insanların hayatında iz bırakan çabalar ekrana taşınıyor. İzleyici, değişim yaratan bu hikâyelerle hem ilham alıyor hem de şehir yaşamının daha umut dolu yönlerini keşfediyor. Görsel ve duygusal anlatımıyla izleyiciyi ekran başına kilitleyen bir deneyim sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
   <programme channel="oqee.968" start="20260723060000 +0200" stop="20260723070000 +0200">
     <title lang="fr">Başrol</title>
     <desc lang="fr">Başrol, Tele1'de hafta içi her gün izleyicileri hayatın başrolündeki isimlerle buluşturan özel bir belgesel programıdır. Türk müziği, sineması, edebiyatı ve futbolunun en güçlü isimlerinin yaşam öyküleri, karşılaştıkları zorluklar ve başarıları ekrana taşınır. Aynı zamanda Türkiye'nin geçirdiği büyük dönüşümler bu kişilerin yaşam perspektifiyle aktarılır. Program, izleyiciye hem ilham verici hem de bilgilendirici bir deneyim sunar.</desc>
@@ -61581,6 +62968,141 @@
     <title lang="fr">Başrol</title>
     <desc lang="fr">Başrol, Tele1'de hafta içi her gün izleyicileri hayatın başrolündeki isimlerle buluşturan özel bir belgesel programıdır. Türk müziği, sineması, edebiyatı ve futbolunun en güçlü isimlerinin yaşam öyküleri, karşılaştıkları zorluklar ve başarıları ekrana taşınır. Aynı zamanda Türkiye'nin geçirdiği büyük dönüşümler bu kişilerin yaşam perspektifiyle aktarılır. Program, izleyiciye hem ilham verici hem de bilgilendirici bir deneyim sunar.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723001300 +0200" stop="20260723011700 +0200">
+    <title lang="fr">Popa Chubby : It's A Mighty Hard Road</title>
+    <desc lang="fr">Popa Chubby, né Ted Horowitz, est un chanteur et guitariste blues américain qui s'est élevé au rang des figures les plus populaires de la scène blues de New York. Au début de sa carrière, il a fait paraître l'album Booty and the Beast (1995), qui est devenu l'un des albums blues les plus vendus des années 90. Dans ses propres mots, Chubby qualifie son style scénique de " rencontre entre The Stooges et Buddy Guy, Motörhead et Muddy Waters, Jimi Hendrix et Robert Johnson ". Dans le cadre du Festival Blues sur Seine, Chubby et son groupe livrent une prestation enlevante, qui fait parfaitement étalage des talents de guitaristes de l'artiste. Enregistré au Théâtre Simone Signoret, le 8 novembre 2019.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723011700 +0200" stop="20260723024700 +0200">
+    <title lang="fr">Ryan Porter &amp; The West Coast Get Down : BIRD</title>
+    <desc lang="fr">Le saxophoniste Kamasi Washington et le tromboniste Ryan Porter, de Los Angeles, ont cofondé le collectif West Coast Get Down, qui fusionne jazz, funk et hip-hop. C'est en partie grâce à WCCD que le jazz a connu une résurgence à Los Angeles, partageant ainsi la vedette avec New York, qui est depuis longtemps reconnue comme la mecque mondiale du jazz. Les musiciens se réunissent ici, emportant avec eux l'esprit de L.A. au club musical BIRD de Rotterdam, aux Pays-Bas. Short Summary: Le saxophoniste Kamasi Washington et le tromboniste Ryan Porter, de Los Angeles, ont cofondé le collectif West Coast Get Down, qui fusionne jazz, funk et hip-hop. Ils se réunissent ici, emportant avec eux l'esprit de L.A. à Rotterdam, aux Pays-Bas.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723024700 +0200" stop="20260723030000 +0200">
+    <title lang="fr">Most Amazing 4K Clips</title>
+    <desc lang="fr">Stunning 4K clips from the world of pop, rock, jazz, classical music, dance, and theater</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723030000 +0200" stop="20260723040000 +0200">
+    <title lang="fr">Maceo Plex - Audio Obscura x Rijksmuseum</title>
+    <desc lang="fr">Audio Obscura x Rijksmuseum - The American DJ/producer - known for his enigmatic combinations of grooving, melancholic and ecstatic house and techno - visited the museum for some ground-level inspiration, and will share this during this once a lifetime event under the ever so stunning Rijksmuseum. This is the first time the museum collaborates on a project that revolves around electronic music, matching its vision to inspire visitors and to let them experience art in exciting new ways Initiated by Audio Obscura, this is the next step in connecting world-class artists with legendary, historical locations.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723040000 +0200" stop="20260723052500 +0200">
+    <title lang="fr">Pete Doherty &amp; Frederic Lo Live at Le Trianon</title>
+    <desc lang="fr">Pete Doherty &amp; Frederic Lo Live at Le Trianon - For his latest project, Peter Doherty (The Libertines, Babyshambles, Peter Doherty &amp; The Puta Madres) has teamed up with Frédéric Lo, a guitarist and composer known for his work with Daniel Darc on the album Crèvecœur. Lo originally wanted to offer him to cover a track of Darc "Useless and Out of Use": their collaboration will finally result in a whole album.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723052500 +0200" stop="20260723062700 +0200">
+    <title lang="fr">Marius Neset : Jazz in Duketown</title>
+    <desc lang="fr">Jazz in Duketown est le plus important festival de jazz extérieur gratuit aux Pays-Bas. Ce rassemblement attire les grands amateurs de jazz ainsi que les artistes de renommée internationale. L'édition de 2019 a accueilli le saxophoniste norvégien Marius Neset, désormais établi à Copenhague. Le musicien est reconnu mondialement pour ses collaborations avec People Are Machines, Kaktusch, JazzKamikaze ainsi que les projets StoRMChaser et Human Chain de Django Bates. Neset a obtenu sa maîtrise en 2008, au Copenhagen Rhythmic Music Conservatory.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723062700 +0200" stop="20260723065900 +0200">
+    <title lang="fr">Lifschitz &amp; Davidson</title>
+    <desc lang="fr">Lifschitz &amp; Davidson - Sonya Lifschitz is a pianist working across many contexts, with repertoire spanning from 15th century Faenza Codex to works written for her today. She is known for her fiercely imaginative, daring collaborations across film, animation, spoken word, visual and performance art. Robert Davidson has been making music from language since childhood. He has created music from the voices of Australia's prime ministers, from 100 years of radio broadcasts and from stories of asylum seekers and indigenous members of Australia's Stolen Generations. This performance is recorded during Classical:NEXT 2019 in Rotterdam, The Netherlands.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723065900 +0200" stop="20260723080200 +0200">
+    <title lang="fr">Sven Väth at Family Piknik</title>
+    <desc lang="fr">Sven Väth at Family Piknik 2017 - Active on the music scene for more than 30 years, Sven Väth is a true icon of techno. He was one of the first DJs to host a weekly event in Ibiza, and his "Cocoon" nights have quickly become a staple for fans of underground music in all its forms. Väth has been involved in all major developments of the techno movement, but even after three decades, this living legend is not ready to take the backstage and continues to dance crowds on five continents. Experience the unique sounds of Sven Väth with this performance recorded at the 2017 Family Piknik Festival!</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723080200 +0200" stop="20260723084500 +0200">
+    <title lang="fr">WOMEX 2018</title>
+    <desc lang="fr">L'édition 2018 du festival Womex s'est déroulée à Las Palmas, dans les îles Canari. La percussionniste coréenne Kim So Ra, l'une des artistes invitées, joue du janggu - un tambour à deux têtes en forme de sablier - depuis qu'elle est enfant.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723084500 +0200" stop="20260723090200 +0200">
+    <title lang="fr">Most Amazing 4K Clips</title>
+    <desc lang="fr">Stunning 4K clips from the world of pop, rock, jazz, classical music, dance, and theater</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723090200 +0200" stop="20260723103000 +0200">
+    <title lang="fr">Cirque Le Roux : La nuit du cerf</title>
+    <desc lang="fr">Six artistes circassiens offrent un spectacle d'inspiration cinématographique, alliant cirque, théâtre, musique, le tout dans l'esthétique du début des années 70. Un voyage acrobatique surprenant mêlant humour, poésie et situations absurdes.</desc>
+    <category lang="fr">Spectacle / Cirque</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723103000 +0200" stop="20260723113700 +0200">
+    <title lang="fr">Caixa Cubo - Da Pá Virada Sessions</title>
+    <desc lang="fr">Da Pá Virada Sessions réunit les meilleurs musiciens du jazz brésilien contemporain (et plus encore). Chacune des sessions filmées à São Paulo procure une expérience unique en offrant un nouveau point de vue sur la scène musicale du Brésil. De plus, les artistes participants sont choisis avec l'aide du rédacteur en chef de Stingray DJAZZ. Parmi ceux-ci se trouve le Trio Corrente, composé de Fabio Torres au piano, Paulo Paulelli à la basse et Edu Ribeiro à la batterie. Depuis 2001, ce trio crée un son original qui marie les classiques du choro et de la musica popular brasileira.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723113700 +0200" stop="20260723121000 +0200">
+    <title lang="fr">Classical:NEXT 2019</title>
+    <desc lang="fr">Transition dresse le portrait du piano d'avant-garde sur plus de cent ans. Chaque morceau se fait innovateur, tandis que la musique navigue dans des eaux inexplorées pour tracer un nouveau profil de l'instrument. Créé par Tricia Dawn Williams (de Malte), ce programme propose une expérience unique qui transforme le récital de piano en une performance interdisciplinaire intégrant des technologies de reconnaissance des gestes, de l'art vidéo, des musiques électroniques et des techniques pianistiques avancées. Lors de ce concert tiré de Classical:NEXT! 2019, les musiciens Tricia Dawn Williams (piano), Ruben Zahra (opérateur des technologies) et Atau Tanaka (opérateur des technologies) présentent un programme diversifié d'œuvres de leur propre répertoire ainsi que des compositions de George Crumb et Henry Cowell.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723121000 +0200" stop="20260723131300 +0200">
+    <title lang="fr">MPB Sessions</title>
+    <desc lang="fr">Pedro et Celso Viáfora forment un duo père-fils qui propose une rencontre fascinante entre deux générations de musiciens brésiliens.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723131300 +0200" stop="20260723134200 +0200">
+    <title lang="fr">WOMEX 2018</title>
+    <desc lang="fr">L'édition 2018 du festival Womex s'est déroulée à Las Palmas, dans les îles Canari. Mario Batkovic, l'un des artistes en vedette, y explore les possibilités sonores de l'accordéon.</desc>
+    <category lang="fr">Divers / Emission musicale</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723134200 +0200" stop="20260723144700 +0200">
+    <title lang="fr">Caixa Cubo - Da Pá Virada Sessions</title>
+    <desc lang="fr">La série Da Pá Virada Sessions présente les meilleurs musiciens de la scène jazz contemporaine du Brésil et d'ailleurs. Filmées à São Paulo, ces séances proposent une expérience unique en apportant un éclairage nouveau sur la scène musicale brésilienne. Tous les artistes qui y prennent part ont été sélectionnés en collaboration avec l'éditeur musical de Stingray DJAZZ. Les Da Pá Virada Sessions mettent notamment en scène la chanteuse, instrumentiste et compositrice Martina Marana. Utilisant le pourvoir de l'ironie pour les défaire les préjugés à l'égard musiciennes, Marana s'affranchit des étiquettes sexistes et se réapproprie ses propres pouvoirs en tant que musicienne et compositrice. Parolière de talent, Marana produit une musique unique et sans compromis.</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723144700 +0200" stop="20260723150000 +0200">
+    <title lang="fr">Most Amazing 4K Clips</title>
+    <desc lang="fr">Stunning 4K clips from the world of pop, rock, jazz, classical music, dance, and theater</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723150000 +0200" stop="20260723161100 +0200">
+    <title lang="fr">Omer Avital Qantar - Jazz in Duketown</title>
+    <desc lang="fr">Jazz in Duketown est le plus important festival de jazz extérieur gratuit aux Pays-Bas. Ce rassemblement attire les grands amateurs de jazz ainsi que les artistes de renommée internationale. L'édition de 2019 a accueilli le contrebassiste israélo-américain Omer Avital, qui livre un jazz radieux, énergique, éclatant et teinté d'influences orientales. À Jazz in Duketown 2019, il livre un concert en formule quintette avec les saxophonistes Asaf Yuria et Alexander Levin, le batteur Ofri Nehemya et le pianiste Eden Ladin. Ils présentent le répertoire unique d'Avital, tiré de son album Qantar.</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723161100 +0200" stop="20260723173900 +0200">
+    <title lang="fr">The Libertines at Olympia Paris 2016</title>
+    <desc lang="fr">The Libertines at Olympia Paris 2016 - Firstly, there was a successful reunion on stage at Leeds and Reading in 2010, then a concert at Zénith Paris, and not a single listener was left untouched. After playing Glastonbury and other summer festivals, the English rock band The Libertines are definitely back with their album Anthems For Doomed Youth. With this new tour de force, the group (with original members Pete Doherty, Carl Barat, John Hassall, and Gary Powell) opens a new chapter in history. Anthems For Doomed Youth, highly acclaimed by the press, is their first since their studio album Libertines, now a British rock classic, topped the charts back in 2004. Join this legendary foursome at the Olympia in Paris for an evening of pure rock!</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723173900 +0200" stop="20260723183900 +0200">
+    <title lang="fr">Paulo Novaes - New Year's Eve Special</title>
+    <desc lang="fr">Paulo Novaes - New Year's Eve Special - The Da Pá Virada Sessions series presents the best musicians of contemporary Brazilian jazz, and beyond. Filmed in São Paulo, each session offers a unique experience by giving a fresh look into Brazil's music scene. The artists for each session are selected in consultation with Stingray DJAZZ's music editor. One of the artists taking part in this series is Paulo Novaes. Coming from a family of musicians, Paulo Novaes has already lived through a lifetime of music in spite of his young age. Paulo is the cousin of singer Bruna Caram, with whom he performed in São Paulo, Madrid, Barcelona, Lisbon, and other major cities. As a singer, composer, and instrumentalist, his creativity is enjoyed in many forms.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723183900 +0200" stop="20260723190700 +0200">
+    <title lang="fr">Classical:NEXT 2019</title>
+    <desc lang="fr">Śniedź est un duo vocal et électronique de Varsovie (Pologne) qui combine des techniques vocales avancées et une forme d'improvisation qu'ils ont baptisée " glitchtronica ". Le programmateur musical Antoni Beksiak s'intéresse à la croisée des musiques contemporaines, ethniques, classiques, jazz et pop dans son travail de mise sur pied d'initiatives, de critique et de créateur. Lors de cette vitrine à Classical:NEXT 2019 (Rotterdam, Pays-Bas), ils interprètent leurs propres créations.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723190700 +0200" stop="20260723201100 +0200">
+    <title lang="fr">Tribute to Elis Regina : Da Pá Virada Sessions</title>
+    <desc lang="fr">La série Da Pá Virada Sessions met en scène les meilleurs musiciens de la scène jazz contemporaine du Brésil. Filmées à São Paulo, ces séances proposent une expérience unique en apportant un éclairage nouveau sur la scène musicale brésilienne. Tous les artistes qui y prennent part ont été sélectionnés en collaboration avec l'éditeur musical de Stingray DJAZZ. Les Da Pá Virada Sessions mettent notamment en scène un groupe hommage composé de Vanessa Moreno (chant), de Fi Marostica (basse), de Tiago Costa (piano Rhodes et clavier) et de Jonatas Sansao (batterie). Le quatuor rend hommage à la légendaire chanteuse brésilienne Elis Regina en interprétant des pièces célèbres et des titres peu connus de son répertoire. Regina est souvent associée à l'essor de la MPB (música popular Brasileira).</desc>
+    <category lang="fr">Concert / Jazz</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723201100 +0200" stop="20260723204500 +0200">
+    <title lang="fr">GayBird Leung et Zephyr Quartet</title>
+    <desc lang="fr">GayBird Leung s'illustre dans l'industrie musicale de Hong Kong depuis 1996. Il a été directeur musical, compositeur et producteur de plus d'une centaine de productions musicales, concerts et productions théâtrales. Il poursuit son exploration du royaume de la création musicale, enquêtant sur diverses manières potentielles d'interpréter des musiques électroniques en augmentant l'expérience musicale. Comprenant Emma Perkins (violon), Emily Tulloch (violon), Jason Thomas (viole) et Hilary Kleinig (violoncelle), Zephyr Quartet figure parmi les plus importants projets musicaux à défier les genres et mener des collaborations audacieuses, dynamiques et interdisciplinaires. Durant cette vitrine à Classical:NEXT 2019 à Rotterdam, le quatuor interprète la composition " Music in Anticlockwise " (2017) de GayBird Leung.</desc>
+    <category lang="fr">Concert / Classique</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723204500 +0200" stop="20260723210200 +0200">
+    <title lang="fr">Most Amazing 4K Clips</title>
+    <desc lang="fr">Stunning 4K clips from the world of pop, rock, jazz, classical music, dance, and theater</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723210200 +0200" stop="20260723220300 +0200">
+    <title lang="fr">ParookaVille - S01E01</title>
+    <desc lang="fr">Parookaville is a city that comes to life once a year to keep the legend of Bill Parooka alive. It was started as an artistic, free-flowing, wild, and musical place where people could connect with their pure selves, experience real connections, and feel a deep sense of bliss and fulfillment. Step into the darkness if you dare, follow your inner light and immerse yourself in a spectacular world of freedom and love! Only four years since the first event, this festival has already become one of Germany's most prevalent music festivals. This edition features Armin van Buuren, Showtek, Robin Schulz, and W&amp;W.</desc>
+    <category lang="fr">Spectacle / Musical</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723220300 +0200" stop="20260723234900 +0200">
+    <title lang="fr">Red Hot Chili Peppers - Live at Tokyo Dome</title>
+    <desc lang="fr">Live at Tokyo Dome 2023 - Red Hot Chili Peppers after the return of John Frusciante, who has come to Japan for the first time in 16 years in 2023!</desc>
+    <category lang="fr">Concert / Variétés</category>
+  </programme>
+  <programme channel="oqee.97" start="20260723234900 +0200" stop="20260724005800 +0200">
+    <title lang="fr">Skunk Anansie</title>
+    <desc lang="fr">Skunk Anansie s'empare des Vieilles Charrues 2019 pour y déverser un torrent d'énergie punk ! Un concert sportif au rendez-vous ! Skunk Anansie, 25 ans de carrière Cette année, le groupe de rock alternatif britannique surprend avec la sortie d'un album live intitulé " 25LIVE@25 ". L'icône de la scène rock des années 90 qui a habitué son public à des shows ébouriffants, célèbre sa carrière avec un projet de 25 chansons. A travers une compilation d'enregistrements extraits de différentes performances, Skunk Anansie prouve une nouvelle fois sa puissance sur scène. Ne ratez pas le retour des piliers du rock lors de la 28ème édition des Vieilles Charrues !</desc>
+    <category lang="fr">Concert / Pop &amp; Rock</category>
   </programme>
   <programme channel="serieclub.fr" start="20260723004500 +0200" stop="20260723013000 +0200">
     <title lang="fr">Snowpiercer - S02E10</title>
