@@ -414,9 +414,17 @@
     <display-name>ICI Radio Canada Télé Est du Québec</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/1200px-ICI_T%C3%A9l%C3%A9_logo.svg.png"/>
   </channel>
+  <channel id="CKSH.ca">
+    <display-name>ICI Radio Canada Télé Estrie</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png"/>
+  </channel>
   <channel id="CKTM.ca">
     <display-name>ICI Radio Canada Télé Mauricie Centre du Québec</display-name>
     <icon src="https://cdn.tvpassport.com/image/station/640x480/v2/s16371_h15_ae.png"/>
+  </channel>
+  <channel id="CKTV.ca">
+    <display-name>ICI Radio Canada Télé Saguenay</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/ICI_T%C3%A9l%C3%A9_logo.svg/800px-ICI_T%C3%A9l%C3%A9_logo.svg.png"/>
   </channel>
   <channel id="CMC.us">
     <display-name>CMC</display-name>
@@ -1346,6 +1354,10 @@
     <display-name>Investigation</display-name>
     <icon src="https://cdn.tvpassport.com/image/station/640x480/v2/s87899_h15_ac.png"/>
   </channel>
+  <channel id="KANAALZ.be">
+    <display-name>KANAALZ</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjOkiRSrN9WtxQwS_yfc0YilHxDl3dLqmE0TDHp57ayGsGX25e1pT4fwuyg&amp;amp;s"/>
+  </channel>
   <channel id="KIKA.de">
     <display-name>KIKA</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXZBr6zWiObQ4iCya4aKLvrm92Yomy-qCJ0WLpSIcjSoAjLGmyh5dePVpHw&amp;amp;s"/>
@@ -1815,6 +1827,9 @@
   </channel>
   <channel id="PickxPlusSports3F.be">
     <display-name>PickxPlusSports3F.be</display-name>
+  </channel>
+  <channel id="PickxPlusSports3N.be">
+    <display-name>PickxPlusSports3N.be</display-name>
   </channel>
   <channel id="PickxPlusSports4F.be">
     <display-name>PickxPlusSports4F.be</display-name>
@@ -2741,6 +2756,10 @@
     <display-name>Bip TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2661/w256"/>
   </channel>
+  <channel id="oqee.1072">
+    <display-name>All Flamenco</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2604/w256"/>
+  </channel>
   <channel id="oqee.1081">
     <display-name>Maison &amp; Travaux TV</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2645/w256"/>
@@ -3048,6 +3067,18 @@
   <channel id="oqee.1381">
     <display-name>Newsmax</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3727/w256"/>
+  </channel>
+  <channel id="oqee.1385">
+    <display-name>Rakuten TV Top Films</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3790/w256"/>
+  </channel>
+  <channel id="oqee.1386">
+    <display-name>Rakuten TV Comédies</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3791/w256"/>
+  </channel>
+  <channel id="oqee.1387">
+    <display-name>Rakuten TV Romance</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3796/w256"/>
   </channel>
   <channel id="oqee.139">
     <display-name>Planète+ Crime</display-name>
@@ -6470,6 +6501,12 @@
     <icon src="https://images.voomotion.be/Events/2026/06/12/06/2619775_A.jpg"/>
   </programme>
   <programme channel="ACTUATV.be" start="20260731220000 +0200" stop="20260731230000 +0200">
+    <title lang="fr">Studio Commissie</title>
+    <desc lang="fr">In Studio Commissie krijgt u een selectie van de meest interessante onderwerpen die tijdens de werkzaamheden van de commissies aan bod zijn gekomen.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/06/2619775_A.jpg"/>
+  </programme>
+  <programme channel="ACTUATV.be" start="20260731230000 +0200" stop="20260801000000 +0200">
     <title lang="fr">Studio Commissie</title>
     <desc lang="fr">In Studio Commissie krijgt u een selectie van de meest interessante onderwerpen die tijdens de werkzaamheden van de commissies aan bod zijn gekomen.</desc>
     <category lang="fr">Magazine</category>
@@ -26315,6 +26352,229 @@ Les aventures de Barbapapa, Barbamama et de leurs 7 enfants.
     <desc lang="fr">Restez informé de l'actualité de la région de l'Est-du-Québec avec des reportages approfondis sur les grands enjeux. Explications, analyses et mises en contexte.</desc>
     <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/telejournal-est-du-quebec-charles-alexandre-tisseyre-denis-leduc.jpg"/>
   </programme>
+  <programme channel="CKSH.ca" start="20260731003000 +0200" stop="20260731010000 +0200">
+    <title lang="fr">L'ESCALE CULTURELLE</title>
+    <desc lang="fr">Une célébration de notre identité, grâce à des escales culturelles qui mettront en lumière la créativité partout au pays.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/escale-culturelle-emission.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731010000 +0200" stop="20260731013000 +0200">
+    <title lang="fr">QUESTION DE JUGEMENT</title>
+    <desc lang="fr">Pierre Hébert est de retour à la barre de Question de jugement pour s’amuser avec les préjugés du public envers les gens invités en studio. Rigolade et autodérision sont au rendez-vous. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/questiondejugement.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731013000 +0200" stop="20260731020000 +0200">
+    <title lang="fr">GENSSES D’INFLUENCE</title>
+    <desc lang="fr">Dans une cabine de la Grande Roue de Montréal, à 60 mètres dans les airs, avec des personnalités invitées qui abordent franchement le privilège de l’influence, Dave-Éric Ouellet alias MC Gilles nous convie à un huis clos aussi spectaculaire qu’inusité!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/genssesdinfluencecbft.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731020000 +0200" stop="20260731030000 +0200">
+    <title lang="fr">LA QUESTION</title>
+    <desc lang="fr">À LA question, François Morency pose une seule question au duo participant, qui doit trouver l’unique réponse parmi 16 choix pour remporter 25 000 $. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/laquestion.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731030000 +0200" stop="20260731040000 +0200">
+    <title lang="fr">BONSOIR BONSOIR</title>
+    <desc lang="fr">Jean-Sébastien Girard présente des entrevues intimes et pimentées d'humour, des prestations musicales et une brochette de collaborateurs et collaboratrices de renom.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/bonsoir-bonsoir-jean-sebastien-girard-2026.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731040000 +0200" stop="20260731050000 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL AVEC CÉLINE GALIPEAU</title>
+    <desc lang="fr">Un regard approfondi sur les sujets de l'heure, au pays comme à l'international, et sur les grands enjeux auxquels la société est confrontée. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/letelejournalaveccelinegalipeau.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731050000 +0200" stop="20260731050500 +0200">
+    <title lang="fr">SPORTS EXPRESS</title>
+    <desc lang="fr">Les nouvelles du sport en bref.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/sportsexpress.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731050500 +0200" stop="20260731053300 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL ESTRIE</title>
+    <desc lang="fr">Restez informé de l'actualité de la région de l'Estrie avec des reportages approfondis sur les grands enjeux. Explications, analyses et mises en contexte.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/telejournal-estrie-pierrick-pichette-zoe-bellehumeur.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731053300 +0200" stop="20260731063325 +0200">
+    <title lang="fr">ADDICT</title>
+    <desc lang="fr">Addict est une série dramatique française où une famille s’installe dans un nouveau quartier paisible. Le couple veut donner un nouveau souffle à son amour. Est-ce que l’harmonie durera? Et le voisinage est-il aussi calme et agréable qu’il semble l’être?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/addictcbft.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731063325 +0200" stop="20260731073205 +0200">
+    <title lang="fr">L'HOMME DE NOS VIES</title>
+    <desc lang="fr">La vie de Camille bascule quand l'homme qu'elle aime disparaît du jour au lendemain après avoir vidé son compte en banque. Elle décide de le retrouver et découvre qu'il séduit d'autres femmes dans le but de les escroquer. Camille va tout faire pour ouvrir les yeux à ses victimes aveuglément amoureuses pour faire front contre lui et obtenir justice. Arriveront-elles à le faire tomber?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tou-tv/16x9/lhomme-de-nos-vies.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731073205 +0200" stop="20260731120000 +0200">
+    <title lang="fr">FIN DES ÉMISSIONS</title>
+    <desc lang="fr">On se retrouve demain matin. En attendant, revoyez nos meilleurs moments.</desc>
+    <icon src="https://img.src.ca/ouglo/emission/480x270/findesemissions.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731120000 +0200" stop="20260731121221 +0200">
+    <title lang="fr">ESME ET ROY</title>
+    <desc lang="fr">Esme et Roy sont les meilleurs Monstro-gardiens de Monstroville. Ils sont passés experts dans l'art d'inventer des jeux aidant les petits monstres à résoudre leurs grands problèmes.Avec des personnages adorables auxquels on ne peut que s'attacher, la série Esme et Roy inspire les enfants à jouer différemment et favorise ainsi la créativité et l'apprentissage.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/esme-et-roy-image-generique.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731121221 +0200" stop="20260731122437 +0200">
+    <title lang="fr">ESME ET ROY</title>
+    <desc lang="fr">Esme et Roy sont les meilleurs Monstro-gardiens de Monstroville. Ils sont passés experts dans l'art d'inventer des jeux aidant les petits monstres à résoudre leurs grands problèmes.Avec des personnages adorables auxquels on ne peut que s'attacher, la série Esme et Roy inspire les enfants à jouer différemment et favorise ainsi la créativité et l'apprentissage.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/esme-et-roy-image-generique.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731122437 +0200" stop="20260731122737 +0200">
+    <title lang="fr">LILOU BAMBOU</title>
+    <desc lang="fr">Toujours à la recherche de nouvelles expériences, Lilou Bambou apprend à faire des choses pour la première fois et démontre aux enfants que tout est possible.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/lilou-bambou-image-generique.png"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731122737 +0200" stop="20260731122837 +0200">
+    <title lang="fr">LÉON</title>
+    <desc lang="fr">Léon est un petit cyclope qui aime jouer des tours et prendre des risques. Rusé et débrouillard, il réussit toujours à se sortir du pétrin.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/leon.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731122837 +0200" stop="20260731124102 +0200">
+    <title lang="fr">THÉO LE LOUP</title>
+    <desc lang="fr">Théo le loup suit les aventures de Théo, un jeune garçon autochtone amené à explorer sa culture et son identité en compagnie de ses deux meilleurs amis, à travers ses amusantes péripéties pour aider les membres de sa communauté.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/theoleloup.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731124102 +0200" stop="20260731124436 +0200">
+    <title lang="fr">BERNARD</title>
+    <desc lang="fr">Suis les aventures de Bernard, un gros ours blanc un peu badaud dont le quotidien est rempli de surprises.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/bernard-generique.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731124436 +0200" stop="20260731130657 +0200">
+    <title lang="fr">ARTHUR ET LES ENFANTS DE LA TABLE RONDE</title>
+    <desc lang="fr">En des temps anciens et magiques, trois jeunes écuyers menés par le jeune Arthur et l'intrépide princesse Guenièvre ont formé la confrérie de la table ronde.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/arthuretlesenfantsdelatableronde.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731130657 +0200" stop="20260731131034 +0200">
+    <title lang="fr">BERNARD</title>
+    <desc lang="fr">Suis les aventures de Bernard, un gros ours blanc un peu badaud dont le quotidien est rempli de surprises.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/bernard-generique.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731131034 +0200" stop="20260731131204 +0200">
+    <title lang="fr">CHOP CHOP NINJA CHALLENGE</title>
+    <desc lang="fr">Dix défis sont donnés à chacun de nos quatre personnages principaux (Iro, Jo, Tetsuo et Neeko). Dans 40 courts métrages d'une minute et demie chacun, nos personnages donnent tout ce qu'ils ont pour montrer qu'ils sont capables de relever les défis!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/chopchopninjachallenge-23952.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731131204 +0200" stop="20260731131304 +0200">
+    <title lang="fr">T'ES OÙ CHICKY?</title>
+    <desc lang="fr">Petit poussin mignon, Chicky se retrouve dans un lieu inconnu qui sera découvert au fil des expériences de notre petit héros.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/tesouchicky.png"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731131304 +0200" stop="20260731131514 +0200">
+    <title lang="fr">HARRY ET BIP</title>
+    <desc lang="fr">Les aventures rigolotes de deux pingouins en Antarctique.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/harryetbip.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731131514 +0200" stop="20260731132714 +0200">
+    <title lang="fr">LES PYJAMASQUES</title>
+    <desc lang="fr">Sacha, Amaya et Greg, se transforment en superhéros la nuit. Dans leurs pyjamas magiques, Yoyo, Bibou et Gluglu font régner la justice dans la ville!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/lespyjamasques.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731132714 +0200" stop="20260731132952 +0200">
+    <title lang="fr">ANGRY BIRDS BLUES</title>
+    <desc lang="fr">Les aventures d'oiseaux rigolos dans un univers coloré et joyeux. Pour des fous rires avec toute la famille.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/angrybirdsblue.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731132952 +0200" stop="20260731135352 +0200">
+    <title lang="fr">ALIX ET LES MERVEILLEUX</title>
+    <desc lang="fr">Sous son escalier, Alix découvre un passage menant à un monde fantaisiste où vivent d'étonnants personnages. Dans cet univers, la jeune fille débordante d'imagination s'évade pour vivre des aventures rocambolesques en compagnie de Chapelier et de ses amis, les Merveilleux.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/alix-et-les-merveilleux-image-generique-2.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731135352 +0200" stop="20260731135737 +0200">
+    <title lang="fr">MINI-JEAN ET MINI-BULLE</title>
+    <desc lang="fr">Mini-Jean et Mini-Bulle suivent leur formation dans l'agence la plus secrète et technologique du monde! C'est comme l'école, mais avec moins d'ennui, plus d'explosions et Byzantin, une adorable œil-mutante-géante pour jouer!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/minijeanetminibulle.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731135737 +0200" stop="20260731135846 +0200">
+    <title lang="fr">GARFIELD TOUT COURT</title>
+    <desc lang="fr">Garfield est un gros chat paresseux, égoïste et gourmand qui prend un malin plaisir à tyranniser le monde autour de lui. </desc>
+    <icon src="https://img.src.ca/ouglo/emission/480x270/garfieldtoutcourt.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731135846 +0200" stop="20260731141130 +0200">
+    <title lang="fr">SONIC BOOM</title>
+    <desc lang="fr">Les aventures de Sonic et de son meilleur ami Tails, en lutte contre le terrible Docteur Eggman.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/sonic-boom.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731141130 +0200" stop="20260731142259 +0200">
+    <title lang="fr">SONIC BOOM</title>
+    <desc lang="fr">Les aventures de Sonic et de son meilleur ami Tails, en lutte contre le terrible Docteur Eggman.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/sonic-boom.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731142259 +0200" stop="20260731142413 +0200">
+    <title lang="fr">LES LANCE-PIERRES D'ANGRY BIRDS</title>
+    <desc lang="fr">Si un lance-pierre est défaillant? Et où vont les cochons après avoir éclaté?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/leslancepierresdangrybirds.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731142413 +0200" stop="20260731142658 +0200">
+    <title lang="fr">ANGRY BIRDS</title>
+    <desc lang="fr">Les oiseaux réussiront-ils à contrecarrer les multiples tentatives des cochons pour attraper leurs précieux œufs?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/angrybirds.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731142658 +0200" stop="20260731142908 +0200">
+    <title lang="fr">LES BULLES D'ANGRY BIRDS</title>
+    <desc lang="fr">Venez jouer avec les jeunes Angry Birds dans leur jardin de bulles! Il s'agit d'un magnifique havre de paix où les oiseaux peuvent laisser libre cours à leur imagination, en jouant à des jeux, en se prenant pour des superhéros et, bien sûr, en s'attirant toutes sortes d'ennuis!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/lesbullesdangrybirds.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731142908 +0200" stop="20260731145215 +0200">
+    <title lang="fr">SOUS LES MERS</title>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/souslesmers.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731145215 +0200" stop="20260731145715 +0200">
+    <title lang="fr">PROCHAIN ARRÊT</title>
+    <desc lang="fr">Envoyés sur Terre sur ordre de leur commandant, les extraterrestres Mish, Klaus, Erza et Suzy se voient confier une mission toute spéciale : trouver un endroit à partir duquel organiser l'invasion de la Terre. Réussiront-ils?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/prochainarret.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731145715 +0200" stop="20260731150000 +0200">
+    <title lang="fr">LES COCHONS D'ANGRY BIRDS</title>
+    <desc lang="fr">Ces méchants petits cochons adorables font face à des défis et à des événements inattendus, qui mènent toujours à des solutions comiques.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/cochons-angry-birds.png"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731150000 +0200" stop="20260731170000 +0200">
+    <title lang="fr">CINÉMA  - MEURTRES À TOULOUSE</title>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/meurtres-toulouse.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731170000 +0200" stop="20260731173000 +0200">
+    <title lang="fr">LA CUISINE D'ISABELLE ET RICARDO</title>
+    <desc lang="fr">Isabelle Deschamps Plante nous reçoit dans la même cuisine que Ricardo pour y préparer des recettes simples et réconfortantes.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/lacuisinedisabelleetricardo.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731173000 +0200" stop="20260731180000 +0200">
+    <title lang="fr">5 CHEFS DANS MA CUISINE</title>
+    <desc lang="fr">Épicurienne passionnée de cuisine depuis toujours, Marina Orsini s'entoure chaque semaine de cinq chefs, un par jour, pour préparer deux repas pour faciliter la vie des gens et des familles en quête d'inspiration pour cuisiner.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/5chefsdansmacuisine.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731180000 +0200" stop="20260731183000 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL MIDI MONTRÉAL</title>
+    <desc lang="fr">Les nouvelles qui font la manchette à la mi-journée avec les journalistes sur le terrain, au pays et ailleurs dans le monde.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/letelejournalmidimontreal.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731183000 +0200" stop="20260731190000 +0200">
+    <title lang="fr">QUESTION DE JUGEMENT</title>
+    <desc lang="fr">Pierre Hébert est de retour à la barre de Question de jugement pour s’amuser avec les préjugés du public envers les gens invités en studio. Rigolade et autodérision sont au rendez-vous. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/questiondejugement.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731190000 +0200" stop="20260731200000 +0200">
+    <title lang="fr">BONSOIR BONSOIR</title>
+    <desc lang="fr">Jean-Sébastien Girard présente des entrevues intimes et pimentées d'humour, des prestations musicales et une brochette de collaborateurs et collaboratrices de renom.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/bonsoir-bonsoir-jean-sebastien-girard-2026.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731200000 +0200" stop="20260731220000 +0200">
+    <title lang="fr">LES ENQUÊTES DE VERA</title>
+    <desc lang="fr">Avec son esprit caustique et son charme singulier, Vera Stanhope et son équipe font face à une série de meurtres mystérieux et captivants au cœur de la région du Northumberland, dans le nord de l'Angleterre, et de son paysage à couper le souffle.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/lesenquetesdevera.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731220000 +0200" stop="20260731230000 +0200">
+    <title lang="fr">LES ENQUÊTES DE MURDOCH</title>
+    <desc lang="fr">À la fin du XIXe siècle, au Canada anglais, le détective William Murdoch emploie des méthodes avant-gardistes pour résoudre des crimes sordides.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/lesenquetesdemurdoch.jpg"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731230000 +0200" stop="20260731235900 +0200">
+    <title lang="fr">DUMAS</title>
+    <desc lang="fr">Une série de Luc Dionne avec Gildor Roy. Plongez dans l’univers des firmes de sécurité privées. Infidélité, espionnage industriel et détournement de fonds.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/dumas.png"/>
+  </programme>
+  <programme channel="CKSH.ca" start="20260731235900 +0200" stop="20260801003000 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL ESTRIE</title>
+    <desc lang="fr">Restez informé de l'actualité de la région de l'Estrie avec des reportages approfondis sur les grands enjeux. Explications, analyses et mises en contexte.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/telejournal-estrie-pierrick-pichette-zoe-bellehumeur.jpg"/>
+  </programme>
   <programme channel="CKTM.ca" start="20260731003000 +0200" stop="20260731010000 +0200">
     <title lang="fr">L'escale culturelle</title>
     <desc lang="fr">
@@ -26538,6 +26798,229 @@ Les aventures de Barbapapa, Barbamama et de leurs 7 enfants.
     <title lang="fr">LE TÉLÉJOURNAL MAURICIE</title>
     <desc lang="fr">Restez informé de l'actualité de la région de la Mauricie avec des reportages approfondis sur les grands enjeux. Explications, analyses et mises en contexte.</desc>
     <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/telejournal-mauricie-julie-grenon-jonathan-roberge.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731003000 +0200" stop="20260731010000 +0200">
+    <title lang="fr">L'ESCALE CULTURELLE</title>
+    <desc lang="fr">Une célébration de notre identité, grâce à des escales culturelles qui mettront en lumière la créativité partout au pays.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/escale-culturelle-emission.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731010000 +0200" stop="20260731013000 +0200">
+    <title lang="fr">QUESTION DE JUGEMENT</title>
+    <desc lang="fr">Pierre Hébert est de retour à la barre de Question de jugement pour s’amuser avec les préjugés du public envers les gens invités en studio. Rigolade et autodérision sont au rendez-vous. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/questiondejugement.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731013000 +0200" stop="20260731020000 +0200">
+    <title lang="fr">GENSSES D’INFLUENCE</title>
+    <desc lang="fr">Dans une cabine de la Grande Roue de Montréal, à 60 mètres dans les airs, avec des personnalités invitées qui abordent franchement le privilège de l’influence, Dave-Éric Ouellet alias MC Gilles nous convie à un huis clos aussi spectaculaire qu’inusité!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/genssesdinfluencecbft.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731020000 +0200" stop="20260731030000 +0200">
+    <title lang="fr">LA QUESTION</title>
+    <desc lang="fr">À LA question, François Morency pose une seule question au duo participant, qui doit trouver l’unique réponse parmi 16 choix pour remporter 25 000 $. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/laquestion.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731030000 +0200" stop="20260731040000 +0200">
+    <title lang="fr">BONSOIR BONSOIR</title>
+    <desc lang="fr">Jean-Sébastien Girard présente des entrevues intimes et pimentées d'humour, des prestations musicales et une brochette de collaborateurs et collaboratrices de renom.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/bonsoir-bonsoir-jean-sebastien-girard-2026.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731040000 +0200" stop="20260731050000 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL AVEC CÉLINE GALIPEAU</title>
+    <desc lang="fr">Un regard approfondi sur les sujets de l'heure, au pays comme à l'international, et sur les grands enjeux auxquels la société est confrontée. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/letelejournalaveccelinegalipeau.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731050000 +0200" stop="20260731050500 +0200">
+    <title lang="fr">SPORTS EXPRESS</title>
+    <desc lang="fr">Les nouvelles du sport en bref.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/sportsexpress.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731050500 +0200" stop="20260731053300 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL SAGUENAY-LAC-SAINT-JEAN</title>
+    <desc lang="fr">Restez informé de l'actualité de la région du Saguenay–Lac-Saint-Jean avec des reportages approfondis sur les grands enjeux. Explications, analyses et mises en contexte.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/telejournal-saguenay-lac-saint-jean-melanie-patry-jean-francois-coulombe.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731053300 +0200" stop="20260731063325 +0200">
+    <title lang="fr">ADDICT</title>
+    <desc lang="fr">Addict est une série dramatique française où une famille s’installe dans un nouveau quartier paisible. Le couple veut donner un nouveau souffle à son amour. Est-ce que l’harmonie durera? Et le voisinage est-il aussi calme et agréable qu’il semble l’être?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/addictcbft.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731063325 +0200" stop="20260731073205 +0200">
+    <title lang="fr">L'HOMME DE NOS VIES</title>
+    <desc lang="fr">La vie de Camille bascule quand l'homme qu'elle aime disparaît du jour au lendemain après avoir vidé son compte en banque. Elle décide de le retrouver et découvre qu'il séduit d'autres femmes dans le but de les escroquer. Camille va tout faire pour ouvrir les yeux à ses victimes aveuglément amoureuses pour faire front contre lui et obtenir justice. Arriveront-elles à le faire tomber?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tou-tv/16x9/lhomme-de-nos-vies.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731073205 +0200" stop="20260731120000 +0200">
+    <title lang="fr">FIN DES ÉMISSIONS</title>
+    <desc lang="fr">On se retrouve demain matin. En attendant, revoyez nos meilleurs moments.</desc>
+    <icon src="https://img.src.ca/ouglo/emission/480x270/findesemissions.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731120000 +0200" stop="20260731121221 +0200">
+    <title lang="fr">ESME ET ROY</title>
+    <desc lang="fr">Esme et Roy sont les meilleurs Monstro-gardiens de Monstroville. Ils sont passés experts dans l'art d'inventer des jeux aidant les petits monstres à résoudre leurs grands problèmes.Avec des personnages adorables auxquels on ne peut que s'attacher, la série Esme et Roy inspire les enfants à jouer différemment et favorise ainsi la créativité et l'apprentissage.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/esme-et-roy-image-generique.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731121221 +0200" stop="20260731122437 +0200">
+    <title lang="fr">ESME ET ROY</title>
+    <desc lang="fr">Esme et Roy sont les meilleurs Monstro-gardiens de Monstroville. Ils sont passés experts dans l'art d'inventer des jeux aidant les petits monstres à résoudre leurs grands problèmes.Avec des personnages adorables auxquels on ne peut que s'attacher, la série Esme et Roy inspire les enfants à jouer différemment et favorise ainsi la créativité et l'apprentissage.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/esme-et-roy-image-generique.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731122437 +0200" stop="20260731122737 +0200">
+    <title lang="fr">LILOU BAMBOU</title>
+    <desc lang="fr">Toujours à la recherche de nouvelles expériences, Lilou Bambou apprend à faire des choses pour la première fois et démontre aux enfants que tout est possible.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/lilou-bambou-image-generique.png"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731122737 +0200" stop="20260731122837 +0200">
+    <title lang="fr">LÉON</title>
+    <desc lang="fr">Léon est un petit cyclope qui aime jouer des tours et prendre des risques. Rusé et débrouillard, il réussit toujours à se sortir du pétrin.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/leon.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731122837 +0200" stop="20260731124102 +0200">
+    <title lang="fr">THÉO LE LOUP</title>
+    <desc lang="fr">Théo le loup suit les aventures de Théo, un jeune garçon autochtone amené à explorer sa culture et son identité en compagnie de ses deux meilleurs amis, à travers ses amusantes péripéties pour aider les membres de sa communauté.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/theoleloup.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731124102 +0200" stop="20260731124436 +0200">
+    <title lang="fr">BERNARD</title>
+    <desc lang="fr">Suis les aventures de Bernard, un gros ours blanc un peu badaud dont le quotidien est rempli de surprises.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/bernard-generique.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731124436 +0200" stop="20260731130657 +0200">
+    <title lang="fr">ARTHUR ET LES ENFANTS DE LA TABLE RONDE</title>
+    <desc lang="fr">En des temps anciens et magiques, trois jeunes écuyers menés par le jeune Arthur et l'intrépide princesse Guenièvre ont formé la confrérie de la table ronde.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/arthuretlesenfantsdelatableronde.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731130657 +0200" stop="20260731131034 +0200">
+    <title lang="fr">BERNARD</title>
+    <desc lang="fr">Suis les aventures de Bernard, un gros ours blanc un peu badaud dont le quotidien est rempli de surprises.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/bernard-generique.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731131034 +0200" stop="20260731131204 +0200">
+    <title lang="fr">CHOP CHOP NINJA CHALLENGE</title>
+    <desc lang="fr">Dix défis sont donnés à chacun de nos quatre personnages principaux (Iro, Jo, Tetsuo et Neeko). Dans 40 courts métrages d'une minute et demie chacun, nos personnages donnent tout ce qu'ils ont pour montrer qu'ils sont capables de relever les défis!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/chopchopninjachallenge-23952.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731131204 +0200" stop="20260731131304 +0200">
+    <title lang="fr">T'ES OÙ CHICKY?</title>
+    <desc lang="fr">Petit poussin mignon, Chicky se retrouve dans un lieu inconnu qui sera découvert au fil des expériences de notre petit héros.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/tesouchicky.png"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731131304 +0200" stop="20260731131514 +0200">
+    <title lang="fr">HARRY ET BIP</title>
+    <desc lang="fr">Les aventures rigolotes de deux pingouins en Antarctique.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/harryetbip.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731131514 +0200" stop="20260731132714 +0200">
+    <title lang="fr">LES PYJAMASQUES</title>
+    <desc lang="fr">Sacha, Amaya et Greg, se transforment en superhéros la nuit. Dans leurs pyjamas magiques, Yoyo, Bibou et Gluglu font régner la justice dans la ville!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/lespyjamasques.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731132714 +0200" stop="20260731132952 +0200">
+    <title lang="fr">ANGRY BIRDS BLUES</title>
+    <desc lang="fr">Les aventures d'oiseaux rigolos dans un univers coloré et joyeux. Pour des fous rires avec toute la famille.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/angrybirdsblue.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731132952 +0200" stop="20260731135352 +0200">
+    <title lang="fr">ALIX ET LES MERVEILLEUX</title>
+    <desc lang="fr">Sous son escalier, Alix découvre un passage menant à un monde fantaisiste où vivent d'étonnants personnages. Dans cet univers, la jeune fille débordante d'imagination s'évade pour vivre des aventures rocambolesques en compagnie de Chapelier et de ses amis, les Merveilleux.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/alix-et-les-merveilleux-image-generique-2.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731135352 +0200" stop="20260731135737 +0200">
+    <title lang="fr">MINI-JEAN ET MINI-BULLE</title>
+    <desc lang="fr">Mini-Jean et Mini-Bulle suivent leur formation dans l'agence la plus secrète et technologique du monde! C'est comme l'école, mais avec moins d'ennui, plus d'explosions et Byzantin, une adorable œil-mutante-géante pour jouer!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/minijeanetminibulle.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731135737 +0200" stop="20260731135846 +0200">
+    <title lang="fr">GARFIELD TOUT COURT</title>
+    <desc lang="fr">Garfield est un gros chat paresseux, égoïste et gourmand qui prend un malin plaisir à tyranniser le monde autour de lui. </desc>
+    <icon src="https://img.src.ca/ouglo/emission/480x270/garfieldtoutcourt.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731135846 +0200" stop="20260731141130 +0200">
+    <title lang="fr">SONIC BOOM</title>
+    <desc lang="fr">Les aventures de Sonic et de son meilleur ami Tails, en lutte contre le terrible Docteur Eggman.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/sonic-boom.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731141130 +0200" stop="20260731142259 +0200">
+    <title lang="fr">SONIC BOOM</title>
+    <desc lang="fr">Les aventures de Sonic et de son meilleur ami Tails, en lutte contre le terrible Docteur Eggman.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/sonic-boom.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731142259 +0200" stop="20260731142413 +0200">
+    <title lang="fr">LES LANCE-PIERRES D'ANGRY BIRDS</title>
+    <desc lang="fr">Si un lance-pierre est défaillant? Et où vont les cochons après avoir éclaté?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/leslancepierresdangrybirds.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731142413 +0200" stop="20260731142658 +0200">
+    <title lang="fr">ANGRY BIRDS</title>
+    <desc lang="fr">Les oiseaux réussiront-ils à contrecarrer les multiples tentatives des cochons pour attraper leurs précieux œufs?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/angrybirds.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731142658 +0200" stop="20260731142908 +0200">
+    <title lang="fr">LES BULLES D'ANGRY BIRDS</title>
+    <desc lang="fr">Venez jouer avec les jeunes Angry Birds dans leur jardin de bulles! Il s'agit d'un magnifique havre de paix où les oiseaux peuvent laisser libre cours à leur imagination, en jouant à des jeux, en se prenant pour des superhéros et, bien sûr, en s'attirant toutes sortes d'ennuis!</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/lesbullesdangrybirds.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731142908 +0200" stop="20260731145215 +0200">
+    <title lang="fr">SOUS LES MERS</title>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/souslesmers.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731145215 +0200" stop="20260731145715 +0200">
+    <title lang="fr">PROCHAIN ARRÊT</title>
+    <desc lang="fr">Envoyés sur Terre sur ordre de leur commandant, les extraterrestres Mish, Klaus, Erza et Suzy se voient confier une mission toute spéciale : trouver un endroit à partir duquel organiser l'invasion de la Terre. Réussiront-ils?</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/prochainarret.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731145715 +0200" stop="20260731150000 +0200">
+    <title lang="fr">LES COCHONS D'ANGRY BIRDS</title>
+    <desc lang="fr">Ces méchants petits cochons adorables font face à des défis et à des événements inattendus, qui mènent toujours à des solutions comiques.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/jeunesse/16x9/cochons-angry-birds.png"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731150000 +0200" stop="20260731170000 +0200">
+    <title lang="fr">CINÉMA  - MEURTRES À TOULOUSE</title>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/meurtres-toulouse.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731170000 +0200" stop="20260731173000 +0200">
+    <title lang="fr">LA CUISINE D'ISABELLE ET RICARDO</title>
+    <desc lang="fr">Isabelle Deschamps Plante nous reçoit dans la même cuisine que Ricardo pour y préparer des recettes simples et réconfortantes.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/lacuisinedisabelleetricardo.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731173000 +0200" stop="20260731180000 +0200">
+    <title lang="fr">5 CHEFS DANS MA CUISINE</title>
+    <desc lang="fr">Épicurienne passionnée de cuisine depuis toujours, Marina Orsini s'entoure chaque semaine de cinq chefs, un par jour, pour préparer deux repas pour faciliter la vie des gens et des familles en quête d'inspiration pour cuisiner.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/5chefsdansmacuisine.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731180000 +0200" stop="20260731183000 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL MIDI MONTRÉAL</title>
+    <desc lang="fr">Les nouvelles qui font la manchette à la mi-journée avec les journalistes sur le terrain, au pays et ailleurs dans le monde.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/letelejournalmidimontreal.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731183000 +0200" stop="20260731190000 +0200">
+    <title lang="fr">QUESTION DE JUGEMENT</title>
+    <desc lang="fr">Pierre Hébert est de retour à la barre de Question de jugement pour s’amuser avec les préjugés du public envers les gens invités en studio. Rigolade et autodérision sont au rendez-vous. </desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/questiondejugement.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731190000 +0200" stop="20260731200000 +0200">
+    <title lang="fr">BONSOIR BONSOIR</title>
+    <desc lang="fr">Jean-Sébastien Girard présente des entrevues intimes et pimentées d'humour, des prestations musicales et une brochette de collaborateurs et collaboratrices de renom.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/bonsoir-bonsoir-jean-sebastien-girard-2026.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731200000 +0200" stop="20260731220000 +0200">
+    <title lang="fr">LES ENQUÊTES DE VERA</title>
+    <desc lang="fr">Avec son esprit caustique et son charme singulier, Vera Stanhope et son équipe font face à une série de meurtres mystérieux et captivants au cœur de la région du Northumberland, dans le nord de l'Angleterre, et de son paysage à couper le souffle.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/lesenquetesdevera.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731220000 +0200" stop="20260731230000 +0200">
+    <title lang="fr">LES ENQUÊTES DE MURDOCH</title>
+    <desc lang="fr">À la fin du XIXe siècle, au Canada anglais, le détective William Murdoch emploie des méthodes avant-gardistes pour résoudre des crimes sordides.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/lesenquetesdemurdoch.jpg"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731230000 +0200" stop="20260731235900 +0200">
+    <title lang="fr">DUMAS</title>
+    <desc lang="fr">Une série de Luc Dionne avec Gildor Roy. Plongez dans l’univers des firmes de sécurité privées. Infidélité, espionnage industriel et détournement de fonds.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/emissions/16x9/dumas.png"/>
+  </programme>
+  <programme channel="CKTV.ca" start="20260731235900 +0200" stop="20260801003000 +0200">
+    <title lang="fr">LE TÉLÉJOURNAL SAGUENAY-LAC-SAINT-JEAN</title>
+    <desc lang="fr">Restez informé de l'actualité de la région du Saguenay–Lac-Saint-Jean avec des reportages approfondis sur les grands enjeux. Explications, analyses et mises en contexte.</desc>
+    <icon src="https://images.radio-canada.ca/q_auto,w_635/v1/ici-tele/16x9/telejournal-saguenay-lac-saint-jean-melanie-patry-jean-francois-coulombe.jpg"/>
   </programme>
   <programme channel="CMC.us" start="20260731010000 +0200" stop="20260731070000 +0200">
     <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
@@ -38089,6 +38572,42 @@ Acteurs : Laurent Ournac, Thierry Heckendorn (André), Patrick Guérineau (Xavie
     <desc lang="fr">Le résumé n'est pas disponible</desc>
     <category lang="fr">Film</category>
     <icon src="https://img.bouygtel.fr/CMS/images/5160B580E8353A7A5616AF6415278A70.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260731070000 +0200" stop="20260731100000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8CBAD05033BF8B8CB2FE973659A1E991.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260731100000 +0200" stop="20260731130000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/8CBAD05033BF8B8CB2FE973659A1E991.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260731130000 +0200" stop="20260731160000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FBB3F177C737596C33314D11C1692095.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260731160000 +0200" stop="20260731190000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/FBB3F177C737596C33314D11C1692095.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260731190000 +0200" stop="20260731220000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/4D9EC06523B54FC22F2F71B181D2C674.jpg"/>
+  </programme>
+  <programme channel="ChinaMovieChannel.cn" start="20260731220000 +0200" stop="20260801010000 +0200">
+    <title lang="fr">China Movie Channel : la chaîne du cinéma chinois</title>
+    <desc lang="fr">Le résumé n'est pas disponible</desc>
+    <category lang="fr">Film</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/0DDD80F9C87F2ED5E23C7B636EB2D336.jpg"/>
   </programme>
   <programme channel="CinePlusClassic.be" start="20260731004700 +0200" stop="20260731020300 +0200">
     <title lang="fr">Jeunesse perdue</title>
@@ -65740,6 +66259,109 @@ Présentateur(s) : Jean-Luc Lemoine
     <episode-num>1.15.</episode-num>
     <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP049735860035/SHOWCARD_BACKGROUND/2048x1024"/>
   </programme>
+  <programme channel="KANAALZ.be" start="20260731002500 +0200" stop="20260731060000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731060000 +0200" stop="20260731100000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731100000 +0200" stop="20260731150000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731150000 +0200" stop="20260731200000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731200000 +0200" stop="20260731201100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731201100 +0200" stop="20260731202300 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731202300 +0200" stop="20260731205700 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731205700 +0200" stop="20260731210800 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731210800 +0200" stop="20260731212100 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731212100 +0200" stop="20260731215400 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731215400 +0200" stop="20260731220500 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731220500 +0200" stop="20260731221800 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731221800 +0200" stop="20260731225100 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731225100 +0200" stop="20260731230200 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731230200 +0200" stop="20260731231500 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731231500 +0200" stop="20260731234800 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731234800 +0200" stop="20260731235900 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20260731235900 +0200" stop="20260801000000 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/15/2621263_A.jpg"/>
+  </programme>
   <programme channel="KIKA.de" start="20260731060000 +0200" stop="20260731060500 +0200">
     <title lang="fr">Kikaninchen Schnipselwelt</title>
     <desc lang="fr">Freundelied: "Komm, lass uns spielen! Heute ist ein schöner Tag. Einer von ganz vielen. Ein Tag, den ich mag!" Kikaninchen startet mit seinen Freunden von ARD und ZDF gut gelaunt in einen neuen Tag.</desc>
@@ -66944,7 +67566,7 @@ Présentateur(s) : Élodie Poyade
   </programme>
   <programme channel="LMTVSarthe.fr" start="20260731053000 +0200" stop="20260731060000 +0200">
     <title lang="fr">WRT en 48 Heures</title>
-    <category lang="fr">Documentaire / Documentaire sport</category>
+    <category lang="fr">Culture Infos</category>
   </programme>
   <programme channel="LMTVSarthe.fr" start="20260731060000 +0200" stop="20260731063000 +0200">
     <title lang="fr">L'Odyssée Samouraï 2000</title>
@@ -81140,7 +81762,7 @@ Présentateur(s) : Élodie Poyade
   </programme>
   <programme channel="Nickelodeon.be" start="20260731014300 +0200" stop="20260731020800 +0200">
     <title lang="fr">Patrick Super Star - S05E01</title>
-    <desc lang="fr">Depuis la maison farfelue de la famille Étoile, le jeune Patrick anime sa propre émission et emmène les téléspectateurs dans son imagination.</desc>
+    <desc lang="fr">Lors d'un stage, quatre employés devant former une super équipe confondent Patrick avec le professeur. Patrick, qui ne pense qu'au buffet, leur fait donc faire des exercices qui tournent à la catastrophe, tandis que le professeur paye les pots cassés, en tentant de récupérer son poste. // Après plusieurs auditions, Patrick désigne Samuel, l'âne des mers de M. Jenkins, comme acolyte. Cependant, l'animal s'en prend à la famille et au public de Patrick, en leur donnant des coups de pied.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Nickelodeon.be" start="20260731020800 +0200" stop="20260731021900 +0200">
@@ -87492,6 +88114,54 @@ Cependant, l'excitation de Clawdeen est rapidement assombrie par la découverte 
   <programme channel="PickxPlusSports3F.be" start="20260731220000 +0200" stop="20260801010000 +0200">
     <title lang="fr">Aucune diffusion n'est prévue pour le moment</title>
     <desc lang="fr">Aucune diffusion n'est prévue pour le moment</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731010000 +0200" stop="20260731040000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731040000 +0200" stop="20260731070000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731070000 +0200" stop="20260731100000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731100000 +0200" stop="20260731130000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731130000 +0200" stop="20260731160000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731160000 +0200" stop="20260731190000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731190000 +0200" stop="20260731220000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
+    <category lang="fr">Other</category>
+    <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
+  </programme>
+  <programme channel="PickxPlusSports3N.be" start="20260731220000 +0200" stop="20260801010000 +0200">
+    <title lang="fr">Geen uitzending op dit ogenblik</title>
+    <desc lang="fr">Geen uitzending op dit ogenblik</desc>
     <category lang="fr">Other</category>
     <icon src="https://experience-cache.cdi.streaming.proximustv.be/posterserver/poster/EPG/250_250_6E9D3726E2382092969FC4DE65DAD5A8.jpg"/>
   </programme>
@@ -111992,48 +112662,27 @@ Présentateur(s) : Jean-Luc Lemoine
   </programme>
   <programme channel="TeleLyonMetropole.fr" start="20260731063000 +0200" stop="20260731093000 +0200">
     <title lang="fr">Bonjour Lyon</title>
-    <desc lang="fr">L'essentiel de l'actualité toutes les 15 minutes avec un focus sur les évènements marquants de la veille et les temps forts du jour.
-
-Présentateur(s) : Aline Picard
-</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="https://tv.cdnartwhere.eu/cache/i2/DcxLDoMgEADQu8y6yh_Rs7AZZNqalmgcTEyMd5ftW7wLEjLBBN9atymKKJaCH-K-UF6w23Zi7uf_euQovNdZ26RCIGcN-oRSoTTamjGb4Ad4QUH-tUxJbU8XZJM3znXdmw0O7gc.jpg"/>
+    <desc lang="fr">L'essentiel de l'actualité toutes les 15 minutes avec un focus sur les évènements marquants de la veille et les temps forts du jour.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="TeleLyonMetropole.fr" start="20260731093000 +0200" stop="20260731120000 +0200">
     <title lang="fr">Bonjour Lyon</title>
-    <desc lang="fr">L'essentiel de l'actualité toutes les 15 minutes avec un focus sur les évènements marquants de la veille et les temps forts du jour.
-
-Présentateur(s) : Aline Picard
-</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="https://tv.cdnartwhere.eu/cache/i2/DcxLDoMgEADQu8y6yh_Rs7AZZNqalmgcTEyMd5ftW7wLEjLBBN9atymKKJaCH-K-UF6w23Zi7uf_euQovNdZ26RCIGcN-oRSoTTamjGb4Ad4QUH-tUxJbU8XZJM3znXdmw0O7gc.jpg"/>
+    <desc lang="fr">L'essentiel de l'actualité toutes les 15 minutes avec un focus sur les évènements marquants de la veille et les temps forts du jour.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="TeleLyonMetropole.fr" start="20260731120000 +0200" stop="20260731170000 +0200">
     <title lang="fr">Le 12-17</title>
-    <desc lang="fr">Le 12-17
-
-Présentateur(s) : Victoria Solano
-</desc>
-    <category lang="fr">Magazine de société</category>
-    <icon src="https://tv.cdnartwhere.eu/cache/i2/DczBDoMgDADQf-l5E0qKRb-FS4u4mY1oBJMly_59XN_hfUGlZpjh2doxRxPNVuSR61Dyssn9OHOtQ3rv1xINEgdkpSR2IrSsI7ELTv064kSscIMi9dUztI4-Ptguq6S2n93Yw-8P.jpg"/>
+    <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="TeleLyonMetropole.fr" start="20260731170000 +0200" stop="20260731190000 +0200">
     <title lang="fr">Bonsoir Lyon</title>
-    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.
-
-Présentateur(s) : Élodie Poyade
-</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="https://tv.cdnartwhere.eu/cache/i2/Dcw7DoMwDADQu3gu5IchcJYsbuK2qEQgHCQkxN3J-oZ3wZuEYYJfKdsUVFBzpi9LmznN1Gw7i7RxWY8UFLLR3Jto7Og6F9E7O7AenU2MvvcEL8gk_5oZbbsTva7yoVjWvdqAcD8.jpg"/>
+    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="TeleLyonMetropole.fr" start="20260731190000 +0200" stop="20260801080000 +0200">
     <title lang="fr">Bonsoir Lyon</title>
-    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.
-
-Présentateur(s) : Élodie Poyade
-</desc>
-    <category lang="fr">Magazine d'information</category>
-    <icon src="https://tv.cdnartwhere.eu/cache/i2/Dcw7DoMwDADQu3gu5IchcJYsbuK2qEQgHCQkxN3J-oZ3wZuEYYJfKdsUVFBzpi9LmznN1Gw7i7RxWY8UFLLR3Jto7Og6F9E7O7AenU2MvvcEL8gk_5oZbbsTva7yoVjWvdqAcD8.jpg"/>
+    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="TeleMB.be" start="20260731000000 +0200" stop="20260731002000 +0200">
     <title lang="fr">Les Infos</title>
@@ -114218,49 +114867,49 @@ Présentateur(s) : Élodie Poyade
   <programme channel="Telenantes.fr" start="20260731050000 +0200" stop="20260731050400 +0200">
     <title lang="fr">Nantes info</title>
     <desc lang="fr">Journal</desc>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Autre</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731050400 +0200" stop="20260731050600 +0200">
     <title lang="fr">Météo</title>
     <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
-    <category lang="fr">Divers / Météo</category>
+    <category lang="fr">Autre</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731050600 +0200" stop="20260731051900 +0200">
     <title lang="fr">Nantes à la carte</title>
     <desc lang="fr">Nantes à la carte, le rendez-vous qui raconte Nantes, d'hier à aujourd'hui à travers de petites histoires. Nantes à la carte, 3 minutes de balades en images et en anecdotes dans le Nantes d'hier depuis le Nantes d'aujourd'hui !</desc>
-    <category lang="fr">Magazine / Magazine culturel</category>
+    <category lang="fr">Culture Infos</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731051900 +0200" stop="20260731052500 +0200">
     <title lang="fr">C'est local</title>
-    <category lang="fr">Magazine / Magazine d'actualité</category>
+    <category lang="fr">Culture Infos</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731052500 +0200" stop="20260731053100 +0200">
     <title lang="fr">Nantes soir</title>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Autre</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731053100 +0200" stop="20260731053500 +0200">
     <title lang="fr">Nantes info</title>
     <desc lang="fr">Journal</desc>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Autre</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731053500 +0200" stop="20260731053700 +0200">
     <title lang="fr">Météo</title>
     <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
-    <category lang="fr">Divers / Météo</category>
+    <category lang="fr">Autre</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731053700 +0200" stop="20260731054300 +0200">
     <title lang="fr">Nantes soir</title>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Autre</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731054300 +0200" stop="20260731054700 +0200">
     <title lang="fr">Focus</title>
-    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
-    <category lang="fr">Magazine / Magazine d'information</category>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole !</desc>
+    <category lang="fr">Culture Infos</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731054700 +0200" stop="20260731060000 +0200">
     <title lang="fr">Grand Format</title>
-    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
-    <category lang="fr">Magazine / Magazine d'information</category>
+    <desc lang="fr">A chaque grand événement d'actualité en Loire-Atlantique, Télénantes se mobilise et vous propose une couverture "grand format".</desc>
+    <category lang="fr">Culture Infos</category>
   </programme>
   <programme channel="Telenantes.fr" start="20260731060000 +0200" stop="20260731060400 +0200">
     <title lang="fr">Nantes info</title>
@@ -118808,6 +119457,48 @@ Voyage : Destination l'Australie au volant du Jeep Wrangler et à la découverte
     <icon src="https://img.bouygtel.fr/CMS/images/49DFB00BB5D9AA155A1CF5711C7CA366.jpg"/>
   </programme>
   <programme channel="UnionTV.fr" start="20260731030000 +0200" stop="20260731050000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731050000 +0200" stop="20260731090000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731090000 +0200" stop="20260731120000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/49DFB00BB5D9AA155A1CF5711C7CA366.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731120000 +0200" stop="20260731150000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731150000 +0200" stop="20260731180000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/49DFB00BB5D9AA155A1CF5711C7CA366.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731180000 +0200" stop="20260731210000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/49DFB00BB5D9AA155A1CF5711C7CA366.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731210000 +0200" stop="20260731230000 +0200">
+    <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
+    <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
+    <category lang="fr">Magazine</category>
+    <icon src="https://img.bouygtel.fr/CMS/images/7773786E094AA3C9202CA6F76CAB030D.jpg"/>
+  </programme>
+  <programme channel="UnionTV.fr" start="20260731230000 +0200" stop="20260801000000 +0200">
     <title lang="fr">La chaine des amoureux du sexe et de l'érotisme</title>
     <desc lang="fr">La chaine des amoureux du sexe et de l'érotisme.</desc>
     <category lang="fr">Magazine</category>
@@ -126631,6 +127322,133 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
     <title lang="fr">Best Of Destination 2</title>
     <desc lang="fr">BEST OF ÉTÉ 2026 - DESTINATION #2Chaque mois, le magazine culturel DESTINATION vous propose de découvrir un lieu emblématique de notre territoire. Pour notre best of de cet été, nous en avons sélectionné quelques-uns :1) Le Musée ESTÈVE à Bourges2) Le Conservatoire de Bourges3) L'École des Beaux-Arts de Châteauroux Métropole4) Le Centre National du Costume et de la Scène à Moulins</desc>
     <category lang="fr">Magazine / Magazine du tourisme</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731001600 +0200" stop="20260731011800 +0200">
+    <title lang="fr">Lela Soto. Recital de cante</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731011800 +0200" stop="20260731021900 +0200">
+    <title lang="fr">Felipa del Moreno. Jerezaneando. 23 Festival de Jerez</title>
+    <desc lang="fr">Espectáculo con raíz jerezana que muestra la fuerza y el buen cante de Felipa del Moreno presentando su disco "Jerezaneando", acompañada de artistas como Andrés Peña y La Reina Gitana.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731021900 +0200" stop="20260731023200 +0200">
+    <title lang="fr">Seguiriya. Antonio Canales. La guitarra canta</title>
+    <desc lang="fr">En el escenario del Festival Flamenco Universal de Mérida, la elegancia de Antonio Canales destaca de manera única, especialmente en su renombrado baile por seguiriyas.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731023200 +0200" stop="20260731034300 +0200">
+    <title lang="fr">Jesús Méndez en concierto. Voz del Alba</title>
+    <desc lang="fr">Jesús Méndez presenta su disco "Voz del Alba" en Jerez de la Frontera, cuna del flamenco. El cantaor sube al escenario del Alcázar con mucha fuerza para mostrar orgulloso su nuevo trabajo. Cinco guitarristas dan variedad de color a los cantes. Los Mellis acompañan con sus coros armonizados.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731034300 +0200" stop="20260731051500 +0200">
+    <title lang="fr">Rayuela. Marco Flores. 24 Festival de Jerez</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731051500 +0200" stop="20260731062900 +0200">
+    <title lang="fr">Madrid siempre Flamenco. Paco del Pozo</title>
+    <desc lang="fr">El cantaor dedica un completo recital a Madrid, importante ciudad en la historia del flamenco. Acompañado del toque magistral del guitarrista Jerónimo Maya, el compás y baile de Rafael Peral y Noe Barroso, ofrece una gran variedad de palos flamencos.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731062900 +0200" stop="20260731073400 +0200">
+    <title lang="fr">María Juncal al baile. VII Jerez Off Festival Flamenco</title>
+    <desc lang="fr">Espectáculo de María Juncal, considerada una de las mejores flamencas actuales de Las Palmas de Gran Canaria, presentado en el VII Festival Flamenco Jerez Off 2018.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731073400 +0200" stop="20260731081800 +0200">
+    <title lang="fr">¿Funcionarios del arte? Los tablaos de Madrid</title>
+    <desc lang="fr">Documental sobre los tablaos de Madrid que recoge entrevistas a bailaores y gestores de este circuito de vibrante actividad artística y empresarial.</desc>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731081800 +0200" stop="20260731091900 +0200">
+    <title lang="fr">Puro. Rafael Campallo. 26 Festival de Jerez</title>
+    <desc lang="fr">Este "Puro" espectáculo intenta no dejarse influenciar por ninguna danza, no mezclar con nada que adultere el más fiel movimiento flamenco.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731091900 +0200" stop="20260731102300 +0200">
+    <title lang="fr">Adela Campallo al baile. VII Jerez Off Festival Flamenco</title>
+    <desc lang="fr">La pureza del baile de la sevillana Adela Campallo pasa por el VII Jerez Off Festival ofreciendo un bello espectáculo acompañada de músicos de gran nivel.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731102300 +0200" stop="20260731111900 +0200">
+    <title lang="fr">El Sentir de un pueblo. Saray García. 24 Festival de Jerez</title>
+    <desc lang="fr">Saray García homenajea al flamenco, el arte y la alegría propia de Jerez en un espectáculo lleno de color y vida estrenado en el 24 Festival de Jerez.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731111900 +0200" stop="20260731113000 +0200">
+    <title lang="fr">Camarón. ¡Ay, José! 25 años del mito</title>
+    <desc lang="fr">La banda flamenca Pata Negra dedica este conocido tanguillo llamado "Camarón" al gran maestro. María la Mónica lo incluye como la pieza final del concierto. Divertido final de fiesta que homenajea a Camarón, aquel joven gitano que cantaba para la abuela de María, a cambio de un puchero caliente.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731113000 +0200" stop="20260731114000 +0200">
+    <title lang="fr">Flamencomic de Eddie Pons. Parte 4</title>
+    <desc lang="fr">Con una mezcla de humor y pasión, esta serie animada celebra el flamenco de una manera única. Creada por el dibujante francés Eddie Pons, nos sumerge en las divertidas y emotivas aventuras de un guitarrista encantador y un cantante sensible, quienes navegan por situaciones hilarantes, todo al ritmo del flamenco.</desc>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731114000 +0200" stop="20260731123900 +0200">
+    <title lang="fr">Lugares flamencos con encanto. Venta de Vargas</title>
+    <desc lang="fr">Un recorrido exclusivo por la mítica Venta de Vargas, uno de los lugares más emblemáticos en la historia del flamenco.</desc>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731123900 +0200" stop="20260731135700 +0200">
+    <title lang="fr">Identidad. Dorantes</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731135700 +0200" stop="20260731143300 +0200">
+    <title lang="fr">Antonio Reyes. El cante dulce</title>
+    <desc lang="fr">La magia y la profundidad del flamenco cobran vida con Antonio Reyes, una de las voces más destacadas de la actualidad. Con su inconfundible estilo dulce y sereno, nos transporta con cada nota en sus actuaciones.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731143300 +0200" stop="20260731154400 +0200">
+    <title lang="fr">Cádiz le canta a Juan Villar</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731154400 +0200" stop="20260731165300 +0200">
+    <title lang="fr">Flamenco Jazz. Juan Diego Mateos Trío</title>
+    <desc lang="fr">El toque elegante y personal del guitarrista Juan Diego Mateos ofrece un concierto de flamenco jazz, que cuenta como invitado a Diego Pozo de "Los Delinquentes".</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731165300 +0200" stop="20260731170900 +0200">
+    <title lang="fr">Duende</title>
+    <desc lang="fr">Duende es un cortometraje de ficción en torno al Flamenco. Después de la separación de sus padres, la vida de Paula es un caos. Solo el recuerdo de su Tata, a través del baile flamenco, propulsará un cambio definitivo en su vida.</desc>
+    <category lang="fr">Ballet / Contemporain</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731170900 +0200" stop="20260731182200 +0200">
+    <title lang="fr">Macarena Ramírez. Recital de baile</title>
+    <desc lang="fr">Una de las mejores bailaoras del momento presenta un hermoso recital de baile flamenco en el festival La Isla Ciudad Flamenca, rebosante de colorido.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731182200 +0200" stop="20260731185400 +0200">
+    <title lang="fr">El flamenco de Sanlúcar</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731185400 +0200" stop="20260731200400 +0200">
+    <title lang="fr">Las Campanas de Santiago. Andrés Peña. 25 Festival de Jerez</title>
+    <desc lang="fr">Un espectáculo homenaje a los barrios más flamencos de Jerez de la Frontera con un elenco de grandes músicos como José Gálvez, David Carpio, Miguel "El Londro", Carlos Grilo, Javier Peña y la colaboración especial de Tia Juana la del Pipa.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731200400 +0200" stop="20260731205700 +0200">
+    <title lang="fr">Pedro El Granaíno. Festival La Isla Ciudad Flamenca</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731205700 +0200" stop="20260731220300 +0200">
+    <title lang="fr">Guerrero. Juan Manuel Fernández</title>
+    <desc lang="fr">Precioso concierto del guitarrista Juan Manuel Fernández, premiado con este espectáculo en la 7ª edición de La Isla Ciudad Flamenca como la mejor "Actuación del festival".</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731220300 +0200" stop="20260731234400 +0200">
+    <title lang="fr">Flamenconautas. ¡Vamo' allá!. 22 Festival de Jerez</title>
+    <desc lang="fr">Estreno de "¡Vamo'allá!" en el 22 Festival de Jerez por parte de Flamenconautas, la compañía dirigida por Javier Latorre y compuesta 13 bailaores y 8 músicos de más de ocho nacionalidades.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731234400 +0200" stop="20260731235600 +0200">
+    <title lang="fr">Rancapino Chico. Cádiz le canta a Juan Villar</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20260731235600 +0200" stop="20260801003800 +0200">
+    <title lang="fr">Antonio Canales, el maestro</title>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.1081" start="20260731000000 +0200" stop="20260731000200 +0200">
     <title lang="fr">DIY Jardin - S01E08</title>
@@ -134972,7 +135790,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731020000 +0200" stop="20260731022900 +0200">
     <title lang="fr">Mousso Massibo - S01E13</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731020000 +0200" stop="20260731023000 +0200">
@@ -134982,7 +135800,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731022900 +0200" stop="20260731025600 +0200">
     <title lang="fr">Mousso Massibo - S01E14</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731023000 +0200" stop="20260731030000 +0200">
@@ -135050,7 +135868,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731060000 +0200" stop="20260731062800 +0200">
     <title lang="fr">Mousso Massibo - S01E13</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731060000 +0200" stop="20260731063000 +0200">
@@ -135060,7 +135878,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731062800 +0200" stop="20260731065500 +0200">
     <title lang="fr">Mousso Massibo - S01E14</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731063000 +0200" stop="20260731070000 +0200">
@@ -135123,7 +135941,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731100000 +0200" stop="20260731102900 +0200">
     <title lang="fr">Mousso Massibo - S01E13</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731100000 +0200" stop="20260731103000 +0200">
@@ -135133,7 +135951,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731102900 +0200" stop="20260731105600 +0200">
     <title lang="fr">Mousso Massibo - S01E14</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731103000 +0200" stop="20260731110000 +0200">
@@ -135196,7 +136014,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731140000 +0200" stop="20260731142800 +0200">
     <title lang="fr">Mousso Massibo - S01E13</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731140000 +0200" stop="20260731143000 +0200">
@@ -135206,7 +136024,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731142800 +0200" stop="20260731145600 +0200">
     <title lang="fr">Mousso Massibo - S01E14</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731143000 +0200" stop="20260731150000 +0200">
@@ -135269,7 +136087,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731180000 +0200" stop="20260731182900 +0200">
     <title lang="fr">Mousso Massibo - S01E15</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731180000 +0200" stop="20260731183000 +0200">
@@ -135337,7 +136155,7 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   </programme>
   <programme channel="oqee.1217" start="20260731220000 +0200" stop="20260731222800 +0200">
     <title lang="fr">Mousso Massibo - S01E15</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260731220000 +0200" stop="20260731223000 +0200">
@@ -136182,6 +137000,11 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
     <desc lang="fr">Türkiye'nin tüm bölgeleri için beklenen hava koşullarını izleyiciyle buluşturan kısa haber kuşağı. Sıcaklık değişimleri, yağış ihtimali ve rüzgar bilgileri gibi meteorolojik ayrıntılar sade ve anlaşılır bir dille aktarır. İzleyici gün planlarken ihtiyaç duyduğu hava bilgilerini ekranda görerek hazırlığını yapıyor.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="oqee.1249" start="20260731090000 +0200" stop="20260731100000 +0200">
+    <title lang="fr">Ajans Bugün</title>
+    <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.1249" start="20260731090000 +0200" stop="20260731094500 +0200">
     <title lang="fr">Ajans Bugün</title>
     <desc lang="fr">Türkiye ve dünyada öne çıkan son dakika haberleri, politika, ekonomi ve toplum gündemindeki başlıklar izleyiciye net ve anlaşılır bir anlatımla sunuluyor. Gündemdeki sıcak gelişmeler birbiriyle bağlantılı şekilde ele alınırken izleyicinin haber akışı içinde yönünü bulması sağlanıyor.</desc>
@@ -136219,6 +137042,11 @@ Rien ne la prédestinait à devenir une reine de la route. Avant de rencontrer D
   <programme channel="oqee.1249" start="20260731130000 +0200" stop="20260731135000 +0200">
     <title lang="fr">Ajans</title>
     <desc lang="fr">Ajans, A Haber'in haber akışında yer alan ve gün boyunca Türkiye ile dünya gündemindeki önemli gelişmeleri izleyiciye aktaran haber programıdır. Siyaset, ekonomi ve toplumsal olaylar gibi öne çıkan başlıklar bir arada ele alınırken izleyiciye günün kritik haberleri net bir anlatımla sunulur.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1249" start="20260731135000 +0200" stop="20260731150000 +0200">
+    <title lang="fr">Ajans Gün Içi</title>
+    <desc lang="fr">Türkiye ve dünyada gün içinde yaşanan önemli gelişmeler ile son dakika haberleri izleyiciye sade ve anlaşılır bir dille sunuluyor. Gündemdeki politika, ekonomi ve toplumsal olaylar derli toplu biçimde ele alınırken izleyici günün haber akışını bu programla yakından takip ediyor.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.1249" start="20260731135000 +0200" stop="20260731144500 +0200">
@@ -141657,6 +142485,54 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <title lang="fr">Ed Henry the Big Take</title>
     <desc lang="fr">Ed Henry offers his common-sense take on the news, helping viewers better understand the deeper details behind today's stories.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.1385" start="20260731003252 +0200" stop="20260731021233 +0200">
+    <title lang="fr">Clean</title>
+    <desc lang="fr">Clean, un homme au passé criminel, cherche la rédemption après avoir vécu une tragédie personnelle. Il dédie désormais sa vie à sa communauté délaissée et à la sécurité d’une jeune fille qui lui rappelle sa propre fille.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260731021234 +0200" stop="20260731041614 +0200">
+    <title lang="fr">Gotti</title>
+    <desc lang="fr">Au milieu des années 1980, John Gotti devient le parrain de la famille Gambino, l'une des cinq familles de la mafia italo-américaine de New York. Son fils John Junior assiste à sa montée et à sa chute.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260731041615 +0200" stop="20260731055952 +0200">
+    <title lang="fr">Secrets noyés</title>
+    <desc lang="fr">Une découverte macabre dans un lac éphémère met Tom, un adolescent introverti, face au passé de ses voisins, un père et sa fille unis par de sinistres secrets.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260731055953 +0200" stop="20260731074012 +0200">
+    <title lang="fr">Pay the ghost</title>
+    <desc lang="fr">1 an après la disparition de son fils durant une parade de Halloween, Mike (N. Cage) est toujours hanté par des images et des messages effrayants. Accompagné de son ex-femme il poursuit les recherches pour comprendre ces messages et retrouver son fils.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260731011643 +0200" stop="20260731025920 +0200">
+    <title lang="fr">The Beach Bum</title>
+    <desc lang="fr">The Beach Bum est une comédie trépidante et originale, réalisée par Harmony Korine, à qui l’on doit aussi Spring Breakers et Gummo, entre autres. Entourée d’un casting de stars, Korine signe une déclaration d’amour aux comédies de type « stoner » ainsi qu’à la beauté de la vie.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260731025921 +0200" stop="20260731043450 +0200">
+    <title lang="fr">How It Ends</title>
+    <desc lang="fr">Dans cette comédie apocalyptique positive, Liza (Zoe Lister-Jones) s'embarque dans un voyage hilarant à travers Los Angeles pour tenter de rejoindre la dernière fête avant la fin du monde, rencontrant des personnages éclectiques en chemin.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260731043451 +0200" stop="20260731061126 +0200">
+    <title lang="fr">Deathgasm</title>
+    <desc lang="fr">Deux geeks chevelus s'ennuient ferme dans leur bled paumé et décident de créer leur propre groupe de metal. Mais une mystérieuse partition sur laquelle ils ont mis la main va briser cette relative quiétude : quelques notes jouées suffisent à déchainer les enfers sur leur petite ville.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260731061127 +0200" stop="20260731080751 +0200">
+    <title lang="fr">Le meilleur des temps</title>
+    <desc lang="fr">Un perdant d’une petite ville est déterminé à avoir une autre chance de gagner un match de football.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260731002040 +0200" stop="20260731020956 +0200">
+    <title lang="fr">Coup de Foudre: Mode d'Emploi</title>
+    <desc lang="fr">Werther, un jeune écrivain insouciant et charmant, rencontre Charlotte, l'amour de sa vie. Mais il découvre qu'elle est fiancée. Contre l'avis de son meilleur ami, Werther met son monde sens dessus dessous cultivant l'espoir de conquérir le cœur de sa compagne.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260731020957 +0200" stop="20260731040854 +0200">
+    <title lang="fr">Misfits club</title>
+    <desc lang="fr">Valeria vient juste de déménager à Madrid après la séparation de ses parents. Nouvelles amitiés, une ville aux multiples opportunités, premier amour… Des expériences fortes qui changera à jamais la vie de Valeria et de son groupe d’amis.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260731040855 +0200" stop="20260731054212 +0200">
+    <title lang="fr">They Came Together</title>
+    <desc lang="fr">Un petit confiseur est furieux de découvrir qu'une grande entreprise de confiserie s'installe dans les environs. Mais tout se complique lorsqu'une romance improbable naît avec sa nouvelle concurrente.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260731054213 +0200" stop="20260731072756 +0200">
+    <title lang="fr">Ainsi va la vie</title>
+    <desc lang="fr">Oren Little, agent immobilier bourru et égoïste, voit sa vie chamboulée lorsque son fils lui confie sa fille de 9 ans dont il ne soupçonnait pas l'existence. Oren tente alors de s'en débarrasser en l'imposant à sa voisine. Mais les choses ne sont pas toujours aussi simples.</desc>
   </programme>
   <programme channel="oqee.139" start="20260731001500 +0200" stop="20260731011200 +0200">
     <title lang="fr">La veuve noire - S01E03</title>
@@ -162879,7 +163755,6 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731034500 +0200" stop="20260731040000 +0200">
     <title lang="fr">12 minutes with</title>
-    <desc lang="fr">In-depth interviews with influential Europeans shaping politics, business, science and the future of the continent.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731040000 +0200" stop="20260731041400 +0200">
@@ -163084,7 +163959,6 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731134500 +0200" stop="20260731140000 +0200">
     <title lang="fr">12 minutes with</title>
-    <desc lang="fr">In-depth interviews with influential Europeans shaping politics, business, science and the future of the continent.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731140000 +0200" stop="20260731141400 +0200">
@@ -163099,12 +163973,10 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731142900 +0200" stop="20260731145100 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731145100 +0200" stop="20260731150000 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731150000 +0200" stop="20260731151500 +0200">
@@ -163144,7 +164016,6 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731164500 +0200" stop="20260731170000 +0200">
     <title lang="fr">12 minutes with</title>
-    <desc lang="fr">In-depth interviews with influential Europeans shaping politics, business, science and the future of the continent.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731170000 +0200" stop="20260731171500 +0200">
@@ -163179,12 +164050,10 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731182900 +0200" stop="20260731185200 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731185200 +0200" stop="20260731190000 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260731190000 +0200" stop="20260731191500 +0200">
@@ -163219,7 +164088,6 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731203000 +0200" stop="20260731210000 +0200">
     <title lang="fr">Euronews Investigates</title>
-    <desc lang="fr">Euronews Investigates: untold stories impacting everyday Europeans — conflict, climate, migration, security.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.802" start="20260731210000 +0200" stop="20260731211400 +0200">
@@ -163254,7 +164122,6 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   </programme>
   <programme channel="oqee.802" start="20260731223000 +0200" stop="20260731230000 +0200">
     <title lang="fr">Euronews Investigates</title>
-    <desc lang="fr">Euronews Investigates: untold stories impacting everyday Europeans — conflict, climate, migration, security.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.802" start="20260731230000 +0200" stop="20260731231500 +0200">
@@ -163282,10 +164149,20 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.812" start="20260731010000 +0200" stop="20260731014500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260731010000 +0200" stop="20260731020000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260731014500 +0200" stop="20260731020000 +0200">
+    <title lang="fr">Ştirile sportive</title>
+    <desc lang="fr">Cele mai importante informații din lumea sportului, prezentate într-un format dinamic și accesibil: rezultate, declarații exclusive, imagini spectaculoase și analize ale celor mai relevante competiții interne și internaționale. De la fotbal și sporturi de echipă, până la performanțe individuale remarcabile, jurnalul sportiv aduce zilnic pulsul actualității sportive.</desc>
+    <category lang="fr">Divers / JT sport</category>
   </programme>
   <programme channel="oqee.812" start="20260731020000 +0200" stop="20260731024500 +0200">
     <title lang="fr">Las Fierbinţi</title>
@@ -165515,6 +166392,11 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <desc lang="fr">Geçmişlerinde hatalar yapmış ve toplumdan dışlanmış gençlerin bir araya geldiği özel bir sınıfta geçen etkileyici bir dramdır. Katı kuralları ve farklı yaklaşımıyla dikkat çeken öğretmenleri sayesinde bu gençler, hem kendilerini hem de hayatı yeniden keşfeder. Anlatı; umut, değişim, dostluk ve sevginin insan hayatındaki dönüştürücü gücünü samimi ve çarpıcı bir şekilde ele alır.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.947" start="20260731040000 +0200" stop="20260731070000 +0200">
+    <title lang="fr">Yeni Gelin</title>
+    <desc lang="fr">Eğlenceli yapım, bambaşka kültürlerin mizahi çatışmasını merkezine alıyor. Şehirde büyüyen genç bir kadının, köklü bir aşiretin konağına gelin gelmesiyle ailedeki tüm dengeler sarsılır. Konağın katı gelenekleri, kıskanç eltilerin planları ve renkli karakterlerin çekişmeleri arasında kendine bir yer edinmeye çalışan yeni gelinin yaşadıkları, izleyicilere her bölümde kahkaha dolu ve son derece samimi sahneler sunarak ekran başına kilitlemeyi sürdürüyor.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="oqee.947" start="20260731040000 +0200" stop="20260731061500 +0200">
     <title lang="fr">Kuzey Yildizi</title>
     <desc lang="fr">Çocukluktan nişanlı olan Kuzey ve Yıldız'ın hikayesi 20 yıl sonra bambaşka bir şekilde kesişiyor. Kuzey terk edilip dolandırıldıktan sonra üç kızıyla Karadeniz'in yaylalarına dönüyor. Yıldız ise yılların öfkesiyle onu İstanbul'a geri göndermek için uğraşıyor. İnatlaşmalar, komik olaylar ve duygusal yüzleşmelerle dolu bu romantik komedi dizisi aşkın ikinci şansını anlatıyor. Ersoy Güler'in yönettiği yapımda aile, dostluk ve Karadeniz kültürü sıcak bir şekilde işleniyor. İzleyiciyi güldüren ve duygulandıran sezonun sevilen dizilerinden biri.</desc>
@@ -165595,10 +166477,25 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <desc lang="fr">Çocukluktan nişanlı olan Kuzey ve Yıldız'ın hikayesi 20 yıl sonra bambaşka bir şekilde kesişiyor. Kuzey terk edilip dolandırıldıktan sonra üç kızıyla Karadeniz'in yaylalarına dönüyor. Yıldız ise yılların öfkesiyle onu İstanbul'a geri göndermek için uğraşıyor. İnatlaşmalar, komik olaylar ve duygusal yüzleşmelerle dolu bu romantik komedi dizisi aşkın ikinci şansını anlatıyor. Ersoy Güler'in yönettiği yapımda aile, dostluk ve Karadeniz kültürü sıcak bir şekilde işleniyor. İzleyiciyi güldüren ve duygulandıran sezonun sevilen dizilerinden biri.</desc>
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
+  <programme channel="oqee.948" start="20260731010000 +0200" stop="20260731013000 +0200">
+    <title lang="fr">Avrupa'dan Futbol</title>
+    <desc lang="fr">Avrupa'dan Futbol, Avrupa liglerinde yaşanan maçlar, takımların performansları, transfer haberleri ve futbolun nabzını tutan tüm gelişmeleri derinlemesine aktarır. Premier League'den La Liga'ya, Bundesliga'dan Serie A'ya uzanan geniş bir futbol panoraması sunan program, kıtadaki futbol heyecanını ekranlara taşır.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
   <programme channel="oqee.948" start="20260731010000 +0200" stop="20260731020000 +0200">
     <title lang="fr">Football : Süper Lig</title>
     <desc lang="fr">Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig. La plus haute compétition de football de Turquie. Cette compétition professionnelle, placée sous la supervision de la Fédération de Turquie de football, a été fondée en 1959.</desc>
     <category lang="fr">Emission sportive / Football</category>
+  </programme>
+  <programme channel="oqee.948" start="20260731013000 +0200" stop="20260731020000 +0200">
+    <title lang="fr">Arşiv Odası</title>
+    <desc lang="fr">Geçmişin izlerini bugüne taşıyan "Arşiv Odası", tarihî görüntüler, unutulmaz olaylar ve yıllara damga vuran anlarla izleyiciyi zaman içinde yolculuğa çıkarıyor. Özenle derlenen arşiv kayıtlarıyla hem bilgilendiriyor hem de nostalji dolu bir ekran deneyimi sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260731020000 +0200" stop="20260731040000 +0200">
+    <title lang="fr">Avrupa Gecesi</title>
+    <desc lang="fr">Avrupa Gecesi, Şampiyonlar Ligi, Avrupa Ligi ve Konferans Ligi maçlarının heyecanını ekranlara taşıyan özel bir programdır. Maç bitimlerinin analizi, taktik çözümlemeler, teknik direktör hamleleri ve oyuncu performansları uzman yorumlarla ekrana taşınıyor. Avrupa futbolunun perde arkası detayları izleyiciyle</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260731020000 +0200" stop="20260731030000 +0200">
     <title lang="fr">Milli Takım Zaferler</title>
@@ -165610,10 +166507,25 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <desc lang="fr">Spor Gündemi, gün içerisinde spor dünyasında yaşanan tüm önemli gelişmeleri geniş bir perspektiften ele alıyor. Liglerden son durum, takımların form grafikleri, transfer dedikoduları ve maç önü analizleri bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Spor Gündemi, izleyicilere kapsamlı ve güncel bir spor panoraması sunuyor.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
+  <programme channel="oqee.948" start="20260731040000 +0200" stop="20260731050000 +0200">
+    <title lang="fr">Bir Zamanlar Futbol</title>
+    <desc lang="fr">Bir Zamanlar Futbol, futbol tarihinin unutulmaz anlarını, efsaneleşmiş maçları ve önemli oyuncu hikâyelerini izleyiciye detaylı ve anlaşılır şekilde sunan bir spor programıdır. Program, geçmiş büyük karşılaşmaları ve futbolun dönüm noktalarını ele alır, nostaljik bir deneyim sunar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
   <programme channel="oqee.948" start="20260731040000 +0200" stop="20260731070000 +0200">
     <title lang="fr">Avrupa'dan Futbol</title>
     <desc lang="fr">Avrupa'dan Futbol, Avrupa liglerinde yaşanan maçlar, takımların performansları, transfer haberleri ve futbolun nabzını tutan tüm gelişmeleri derinlemesine aktarır. Premier League'den La Liga'ya, Bundesliga'dan Serie A'ya uzanan geniş bir futbol panoraması sunan program, kıtadaki futbol heyecanını ekranlara taşır.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260731050000 +0200" stop="20260731060000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260731060000 +0200" stop="20260731070000 +0200">
+    <title lang="fr">Dev Maçlar</title>
+    <desc lang="fr">Dev Maçlar, futbol tarihinin en heyecan verici ve unutulmaz karşılaşmalarını ekranlara taşıyan özel bir spor programıdır. Dünyanın farklı liglerinde ve uluslararası organizasyonlarında oynanan önemli maçlar, yıldız futbolcuların performansları, tarihi goller ve kırılma anlarıyla birlikte izleyicilere sunulur. Program, futbolseverlere geçmişin efsanevi mücadelelerini yeniden izleme ve spor tarihinin unutulmaz anlarını keşfetme fırsatı verir.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
   </programme>
   <programme channel="oqee.948" start="20260731070000 +0200" stop="20260731100000 +0200">
     <title lang="fr">Sabah Sporu</title>
@@ -165640,6 +166552,11 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <desc lang="fr">Ana Haber, spor dünyasının gün boyunca yaşadığı tüm gelişmeleri en doğru ve hızlı şekilde ekranlara taşıyor. Maç sonuçları, kulüp açıklamaları, transfer haberleri ve özel röportajlar profesyonel bir sunumla izleyiciye aktarılıyor. Sporun tüm branşlarında güçlü bir haber akışı sunan Ana Haber, a spor'un en güvenilir bilgi kaynağı olmaya devam ediyor.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.948" start="20260731190000 +0200" stop="20260731200000 +0200">
+    <title lang="fr">Dev Maçlar</title>
+    <desc lang="fr">Dev Maçlar, futbol tarihinin en heyecan verici ve unutulmaz karşılaşmalarını ekranlara taşıyan özel bir spor programıdır. Dünyanın farklı liglerinde ve uluslararası organizasyonlarında oynanan önemli maçlar, yıldız futbolcuların performansları, tarihi goller ve kırılma anlarıyla birlikte izleyicilere sunulur. Program, futbolseverlere geçmişin efsanevi mücadelelerini yeniden izleme ve spor tarihinin unutulmaz anlarını keşfetme fırsatı verir.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
+  </programme>
   <programme channel="oqee.948" start="20260731190000 +0200" stop="20260731194500 +0200">
     <title lang="fr">Skorbord</title>
     <desc lang="fr">Skorbord, günün maçlarından en taze skorları, performans verilerini ve öne çıkan istatistikleri tek bir çatı altında topluyor. Futboldan basketbola, Avrupa liglerinden yerel karşılaşmalara kadar geniş bir yelpazede detaylı bilgilere ulaşabileceğiniz Skorbord, hızlı ve net anlatımıyla sporseverlerin vazgeçilmezi.</desc>
@@ -165650,6 +166567,11 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
     <desc lang="fr">Devre Arası, futbol maçlarının ilk 45 dakikasında yaşanan tüm önemli anları uzman yorumlarla ele alıyor. İlk yarının taktik analizleri, oyuncu performansları, kritik pozisyonların değerlendirilmesi ve ikinci yarıya dair beklentiler bu programda. Derinlikli analizleriyle Devre Arası, maç keyfini artıran önemli bir ara değerlendirme programı.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
+  <programme channel="oqee.948" start="20260731200000 +0200" stop="20260731220000 +0200">
+    <title lang="fr">Transfer Raporu</title>
+    <desc lang="fr">Transfer Raporu, futbol dünyasında transfer döneminin tüm sıcak gelişmelerini ve kulis bilgilerini detaylı şekilde izleyiciye aktaran bir programdır. Yıldız oyuncuların transferleri, sürpriz imzalar, kulüplerin stratejik planları ve alanında uzman yorumcuların değerlendirmeleriyle futbol gündeminin perde arkası ekrana taşınıyor. Sporseverler için transfer döneminin kaçırılmayacak detaylarını sunan güvenilir bir yayın.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
   <programme channel="oqee.948" start="20260731200000 +0200" stop="20260731210000 +0200">
     <title lang="fr">Skorbord</title>
     <desc lang="fr">Skorbord, günün maçlarından en taze skorları, performans verilerini ve öne çıkan istatistikleri tek bir çatı altında topluyor. Futboldan basketbola, Avrupa liglerinden yerel karşılaşmalara kadar geniş bir yelpazede detaylı bilgilere ulaşabileceğiniz Skorbord, hızlı ve net anlatımıyla sporseverlerin vazgeçilmezi.</desc>
@@ -165658,6 +166580,11 @@ Plusieurs membres de la famille se retrouvent aujourd’hui mis en examen, suspe
   <programme channel="oqee.948" start="20260731210000 +0200" stop="20260731230000 +0200">
     <title lang="fr">90+1</title>
     <desc lang="fr">"90+1", futbolun en kritik anlarını mercek altına alan, maçların kaderini değiştiren pozisyonları analiz eden özel bir program. Sahadaki mücadeleyi, teknik detayları ve gündemin öne çıkan başlıklarını uzman yorumlarla ekrana getiriyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260731220000 +0200" stop="20260801010000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260731230000 +0200" stop="20260801010000 +0200">

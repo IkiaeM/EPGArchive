@@ -528,6 +528,10 @@
     <display-name>RMC WOW</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCWOWmono.png"/>
   </channel>
+  <channel id="RTI1.ci">
+    <display-name>RTI1</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180171/canal-ouah/CHN43FB/RTI1_myCANAL_640x480?=.png"/>
+  </channel>
   <channel id="RTL9.fr">
     <display-name>RTL9</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~39e76725dfcc33a3.png/480x480/quality/100/rtl-9.png"/>
@@ -607,6 +611,10 @@
   <channel id="TeleKreol.frdrom">
     <display-name>TELE KREOL</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/160203/canal-ouah/CHN43FB/TELEKREOL_myCANAL_640x480?=.png"/>
+  </channel>
+  <channel id="TeleLyonMetropole.fr">
+    <display-name>BFM Lyon</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~cc81bc1e6fb67547.png/480x480/quality/100/bfm-lyon-metropole.png"/>
   </channel>
   <channel id="TeleTOONplus1.fr">
     <display-name>Télétoon +1</display-name>
@@ -735,6 +743,10 @@
   <channel id="oqee.104">
     <display-name>Daystar</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/811/w256"/>
+  </channel>
+  <channel id="oqee.1065">
+    <display-name>ON TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
   </channel>
   <channel id="oqee.1071">
     <display-name>Bip TV</display-name>
@@ -1080,6 +1092,10 @@
     <display-name>Travel Channel</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1224/w256"/>
   </channel>
+  <channel id="oqee.658">
+    <display-name>RTS</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3017/w256"/>
+  </channel>
   <channel id="oqee.667">
     <display-name>TRT Cocuk</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1642/w256"/>
@@ -1139,6 +1155,10 @@
   <channel id="oqee.802">
     <display-name>Euronews International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1314/w256"/>
+  </channel>
+  <channel id="oqee.812">
+    <display-name>Pro TV International</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1028/w256"/>
   </channel>
   <channel id="oqee.835">
     <display-name>RTL</display-name>
@@ -1653,8 +1673,8 @@
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="6ter.fr" start="20260806082000 +0200" stop="20260806083000 +0200">
-    <title lang="fr">Un trésor dans votre maison</title>
-    <desc lang="fr">Cette émission consiste à estimer vos objets et ensuite à les vendre lors d'une vente aux enchères afin d'obtenir une belle petite somme d'argent.</desc>
+    <title lang="fr">Un trésor dans votre maison - S01E06</title>
+    <desc lang="fr">Et si un trésor se cachait dans votre grenier ? Dans chaque épisode, un particulier nous ouvre ses portes, convaincu de posséder une pépite : timbres rares, bijoux de famille, vase ancien ou vieil instrument oublié. Il nous confie l'estimation qu'i...</desc>
     <category lang="fr">Magazine / Magazine de services</category>
   </programme>
   <programme channel="6ter.fr" start="20260806083000 +0200" stop="20260806090000 +0200">
@@ -1744,7 +1764,7 @@
   </programme>
   <programme channel="6ter.fr" start="20260806205000 +0200" stop="20260806211000 +0200">
     <title lang="fr">Un trésor dans votre maison - S01E06</title>
-    <desc lang="fr">Cette émission consiste à estimer vos objets et ensuite à les vendre lors d'une vente aux enchères afin d'obtenir une belle petite somme d'argent.</desc>
+    <desc lang="fr">Et si un trésor se cachait dans votre grenier ? Dans chaque épisode, un particulier nous ouvre ses portes, convaincu de posséder une pépite : timbres rares, bijoux de famille, vase ancien ou vieil instrument oublié. Il nous confie l'estimation qu'i...</desc>
     <category lang="fr">Magazine / Magazine de services</category>
   </programme>
   <programme channel="6ter.fr" start="20260806211000 +0200" stop="20260806213000 +0200">
@@ -5372,6 +5392,61 @@
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
     <category lang="fr">Divers / Fin</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806075100 +0200" stop="20260806084000 +0200">
+    <title lang="fr">Genre genres</title>
+    <desc lang="fr">Au rendez-vous : des cinéastes, scénaristes, actrices et acteurs, autrices et auteurs passionnés par ce genre, des échanges éclairés, du comparatif, du superlatif, et l'expertise de Michel Hazanavicius, un cinéaste qui aime se frotter à des genres différents. Sans oublier le kit fan d'Antoine qui compile tout ce qu'il a préféré regarder, faire, lire, écouter ou même manger sur le sujet.</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806084000 +0200" stop="20260806101900 +0200">
+    <title lang="fr">Les Musiciens</title>
+    <desc lang="fr">Astrid Thompson parvient enfin à réaliser le rêve de son père, un riche mécène aujourd'hui décédé : réunir quatre Stradivarius pour un concert unique très attendu par les mélomanes du monde entier. Mais Lise, George, Peter et Apolline, les quatre virtuoses recrutés pour l'occasion, sont incapables de jouer ensemble. Les crises d'égo se succèdent au rythme des répétitions. Sans solution, Astrid se résout à aller chercher le seul qui, à ses yeux, peut encore sauver l'événement : Charlie Beaumont, le compositeur de la partition...</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806101900 +0200" stop="20260806115800 +0200">
+    <title lang="fr">Enzo</title>
+    <desc lang="fr">Enzo, un adolescent de 16 ans issu d'une famille bourgeoise, est apprenti maçon à La Ciotat. Le père universitaire du garçon, qui le voyait faire des études supérieures, ne parvient pas à cacher son désarroi en voyant son fils emprunter un tout autre chemin. Enzo cherche à échapper au cadre confortable mais étouffant de la villa familiale, où les disputes sur son avenir sont monnaie courante. C'est sur les chantiers, au contact de Vlad, un collègue ukrainien, qu'Enzo va entrevoir un nouvel horizon...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806115800 +0200" stop="20260806134200 +0200">
+    <title lang="fr">Fils de</title>
+    <desc lang="fr">Une semaine après l'élection présidentielle, la France cherche toujours son Premier ministre. Nino, jeune attaché parlementaire carriériste, est missionné pour convaincre son père, l'ex-leader socialiste Lionel Perrin, d'accepter le poste. Mais cet éternel perdant a coupé les ponts avec la politique et avec son fils. Nino se retrouve embarqué dans une course effrénée où tous les coups sont permis. Il a 24 heures pour sauver sa carrière, son couple et, si possible, l'avenir de la France...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806134200 +0200" stop="20260806145800 +0200">
+    <title lang="fr">Un monde merveilleux</title>
+    <desc lang="fr">Dans un futur proche où les humains dépendent de plus en plus des robots, Max, une ancienne professeure réfractaire à la technologie, vivote avec sa fille Paula grâce à des petites combines. Elle met au point un plan audacieux : kidnapper un robot dernier cri pour le revendre en pièces détachées. Malheureusement, l'androïde s'avère être un vieux modèle, un T-O, qui se revend mal sur le marché noir. En outre, la situation dérape et Max perd la garde de sa fille. Elle embarque alors T-O dans une course-poursuite pour retrouver sa fille et pour tenter de prouver qu'il reste un peu d'humanité dans ce monde...</desc>
+    <category lang="fr">Film / Comédie satirique</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806145800 +0200" stop="20260806163900 +0200">
+    <title lang="fr">Avignon</title>
+    <desc lang="fr">Acteur en perte de vitesse, Stéphane espère bien relancer sa carrière lorsqu'il débarque avec les membres de sa troupe au Festival d'Avignon pour jouer une pièce de boulevard. Il y recroise Fanny, une comédienne de renom rencontrée des années plus tôt, qui interprète un classique de Victor Hugo. Tombé sous le charme de la jeune femme, Stéphane profite d'un quiproquo pour se rapprocher d'elle. Pris dans un mensonge qu'il va devoir faire durer le temps du festival, il ignore qu'il vient de s'engager dans une situation qui va très vite le dépasser...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806163900 +0200" stop="20260806172000 +0200">
+    <title lang="fr">Super plan</title>
+    <desc lang="fr">Antoine, Mina, Renan, Simon et Bertrand se souviennent des meilleurs moments de Super Plan dans un super best of de fin de saison.</desc>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806172000 +0200" stop="20260806191400 +0200">
+    <title lang="fr">The Prosecutor</title>
+    <desc lang="fr">Un ancien policier devenu procureur est déterminé à faire triompher la justice à tout prix. Lorsqu'une affaire complexe révèle des failles et manipulations au coeur même du système judiciaire, il se retrouve isolé face à des forces criminelles puissantes. Entre enquête, pression politique et affrontements, il met tout en oeuvre pour défendre la vérité et protéger les innocents...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806191400 +0200" stop="20260806210000 +0200">
+    <title lang="fr">A Normal Family</title>
+    <desc lang="fr">A Séoul, Jae-wan, un avocat matérialiste, et son frère Jae-gyu, un chirurgien idéaliste, ont une vision de la vie bien différente. Comme tous les mois, ils se retrouvent avec leurs épouses pour dîner dans un restaurant chic de la ville. Et, comme à chaque fois, ces agapes donnent lieu à un affrontement entre Jae-wan et Jae-gyu. Le lendemain, les deux hommes découvrent avec effroi dans les médias la vidéo d'une violente agression d'un sans-abri, commise la veille. Ils en sont certains, les agresseurs ne sont nuls autres que leurs enfants adolescents. Cette affaire va chambouler l'existence des deux frères et mettre leur sens de la morale à l'épreuve...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806210000 +0200" stop="20260806233000 +0200">
+    <title lang="fr">F1 : Le film</title>
+    <desc lang="fr">Sonny Hayes était le jeune pilote de Formule 1 le plus talentueux des années 1990 jusqu'au terrible accident qui avait mis un terme à sa carrière. Trente ans plus tard, devenu pilote indépendant, il est contacté par Ruben Cervantes, patron d'une écurie en difficulté, qui le convainc de reprendre du service afin de lui épargner la faillite. Sonny fera équipe avec Joshua Pearce, diamant brut prêt à devenir le numéro 1, dont il deviendra le mentor, mais aussi le rival...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="CanalPlusBoxOffice.fr" start="20260806233000 +0200" stop="20260807012300 +0200">
+    <title lang="fr">Materialists</title>
+    <desc lang="fr">Lucy est une jeune et ambitieuse "matchmakeuse" new-yorkaise qui offre ses services à des clients fortunés en quête d'amour. Si professionnellement, elle compte déjà neuf mariages à son actif, sa vie amoureuse n'est pas reluisante. Elle pense avoir trouvé le "match" parfait en rencontrant Harry, un beau et riche homme d'affaires. Mais c'est alors que son chemin recroise celui de John, son ex-petit ami serveur. Ce dernier, un homme tout sauf idéal, est toujours amoureux d'elle. Lucy se retrouve prise au piège dans un triangle amoureux complexe. Ce dilemme affecte son activité professionnelle…</desc>
+    <category lang="fr">Film / Comédie romantique</category>
   </programme>
   <programme channel="CanalPlusDocs.fr" start="20260806003800 +0200" stop="20260806020800 +0200">
     <title lang="fr">Ride : pour l'amour du BMX</title>
@@ -11100,7 +11175,7 @@
   </programme>
   <programme channel="Eurosport1.fr" start="20260806203000 +0200" stop="20260806223000 +0200">
     <title lang="fr">Tennis : Masters 1000 du Canada</title>
-    <desc lang="fr">Après son titre à Wimbledon face à Alexander Zverev, le numéro un mondial Jannik Sinner va tenter de remporter, au Canada, son 6e Masters 1000 de l'année. L'Italien reste sur 34 victoires d'affilée dans cette catégorie de tournoi et il a remporté les cinq premiers Masters 1000 de la saison : Indian Wells, Miami, Monte-Carlo, Madrid et Rome.</desc>
+    <desc lang="fr">L'Américain Ben Shelton, n°6 mondial, remet son titre en jeu au Canada. L'an dernier, il s'était imposé en finale, à Toronto, face au Russe Karen Khachanov, en trois sets disputés. Mais Shelton aura fort à faire pour doubler la mise, cette année à Montréal, avec la présence du numéro 2 mondial, l'Allemand Alexander Zverev.</desc>
     <category lang="fr">Emission sportive / Tennis</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260806223000 +0200" stop="20260806233000 +0200">
@@ -21405,17 +21480,17 @@
     <category lang="fr">Série / Série de téléréalité</category>
   </programme>
   <programme channel="MTV.fr" start="20260806060000 +0200" stop="20260806062200 +0200">
-    <title lang="fr">Ridiculous - S43E34</title>
+    <title lang="fr">Ridiculous - S43E30</title>
     <desc lang="fr">Rob, Steelo et Lolo Wood enfourchent leurs "vélos frontaux", réveillent de vieux "souvenirs horrifiques" et tirent "en plein dans le chauve" !</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="MTV.fr" start="20260806062200 +0200" stop="20260806064500 +0200">
-    <title lang="fr">Ridiculous - S43E29</title>
+    <title lang="fr">Ridiculous - S43E31</title>
     <desc lang="fr">Rob, Steelo et Lolo Wood se font mal sur des rochers glissants, obtiennent sept ans de malchance à cause de "briseurs de miroirs" et commandent au "drive en force".</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="MTV.fr" start="20260806064500 +0200" stop="20260806070700 +0200">
-    <title lang="fr">Ridiculous - S43E31</title>
+    <title lang="fr">Ridiculous - S43E33</title>
     <desc lang="fr">Rob, Steelo et Lolo Wood se prennent des coups "en pleine tête", se font arroser par des "chasseurs de tuyaux" et observent les plus belles acrobaties dans "mate ma chute".</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
@@ -27695,6 +27770,66 @@
     <desc lang="fr">L'assèchement des terres, autrefois limité aux zones arides, touche désormais divers climats, perturbant les écosystèmes. Ce phénomène provoque incendies et pénuries d'eau à l'échelle mondiale. Les épisodes s'intensifient, comme en témoignent les longues périodes de sécheresse en Amérique et en Europe. Cette tendance soulève des enjeux écologiques et sociétaux majeurs. Les scientifiques s'inquiètent des conséquences futures, redoutant des tensions liées au manque d'eau. Face à ces défis, une adaptation de nos modes de vie semble nécessaire pour faire face au changement climatique et ses impacts croissants.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
+  <programme channel="RTI1.ci" start="20260806000000 +0200" stop="20260806060000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806060000 +0200" stop="20260806090000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806090000 +0200" stop="20260806120000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806120000 +0200" stop="20260806130000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806130000 +0200" stop="20260806140000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806140000 +0200" stop="20260806150000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806150000 +0200" stop="20260806160000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806160000 +0200" stop="20260806170000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806170000 +0200" stop="20260806180000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806180000 +0200" stop="20260806190000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806190000 +0200" stop="20260806200000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806200000 +0200" stop="20260806210000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806210000 +0200" stop="20260806220000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806220000 +0200" stop="20260806230000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20260806230000 +0200" stop="20260807000000 +0200">
+    <title lang="fr">RTI 1, la télévision ivoirienne</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
   <programme channel="RTL9.fr" start="20260806001000 +0200" stop="20260806003500 +0200">
     <title lang="fr">Le jour où tout a basculé - S02E87</title>
     <desc lang="fr">Un adolescent va tout faire pour sauver sa mère de la dépression dont elle souffre depuis que son mari a déserté le foyer six ans auparavant.</desc>
@@ -29104,6 +29239,11 @@
     <title lang="fr">Le pays d'où je viens</title>
     <desc lang="fr">La veille de Noël, Eric Perceval, un riche héritier dépensier poursuivi par les deux détectives que son père a attachés à ses basques, se réfugie dans un village de montagne. Il constate avec stupéfaction que tout le monde le connaît, alors qu'il n'est jamais venu. Il finit par comprendre qu'il est le sosie parfait du pianiste de la brasserie de l'endroit, Julien Barrère. Ce dernier est amoureux de la serveuse, Marinette, mais il est trop timide pour oser lui déclarer sa flamme. Eric, jouant sur leur ressemblance, se fait aimer de la jeune fille dans l'intention de réunir les amoureux ainsi généreusement abusés. Les deux détectives arrivent sur les lieux et enlèvent Julien, qui n'y comprend goutte, à la place d'Eric...</desc>
     <category lang="fr">Film / Comédie</category>
+  </programme>
+  <programme channel="TCM.fr" start="20260806051500 +0200" stop="20260806072500 +0200">
+    <title lang="fr">Tendresse</title>
+    <desc lang="fr">En 1910, aux Etats-Unis. Un couple d'émigrants d'origine norvégienne a fait souche sur la côte Ouest. Trois filles et un garçon sont nés. Tous habitent une vieille maison à San Francisco et joignent péniblement les deux bouts. Malgré tout, la vie sous le ciel californien reste supportable, pour ne pas dire relativement agréable. L'oncle Chris prodigue ses conseils à la famille, tandis que le propriétaire, un vieux gentleman très "britannique", lit des histoires, le soir, à la veillée...</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
   </programme>
   <programme channel="TCM.fr" start="20260806072500 +0200" stop="20260806084500 +0200">
     <title lang="fr">Le fort de la dernière chance</title>
@@ -31801,6 +31941,45 @@
     <desc lang="fr">Des moments musicaux illustrés de nombreux clips.</desc>
     <category lang="fr">Divers / Emission musicale</category>
   </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806063000 +0200" stop="20260806093000 +0200">
+    <title lang="fr">Bonjour Lyon</title>
+    <desc lang="fr">L'essentiel de l'actualité toutes les 15 minutes avec un focus sur les évènements marquants de la veille et les temps forts du jour.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806093000 +0200" stop="20260806120000 +0200">
+    <title lang="fr">Bonjour Lyon</title>
+    <desc lang="fr">L'essentiel de l'actualité toutes les 15 minutes avec un focus sur les évènements marquants de la veille et les temps forts du jour.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806120000 +0200" stop="20260806170000 +0200">
+    <title lang="fr">Le 12-17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806170000 +0200" stop="20260806183000 +0200">
+    <title lang="fr">Bonsoir Lyon</title>
+    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806183000 +0200" stop="20260806190000 +0200">
+    <title lang="fr">Lyon politiques</title>
+    <desc lang="fr">Un invité politique chaque jeudi en direct et en partenariat avec Mag2 Lyon.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806190000 +0200" stop="20260806193000 +0200">
+    <title lang="fr">Bonsoir Lyon</title>
+    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806193000 +0200" stop="20260806223000 +0200">
+    <title lang="fr">Basket-ball : Euroligue masculine</title>
+    <desc lang="fr">A suivre des matchs de la prestigieuse EuroLigue de basket-ball, officiellement appelée EuroLeague. Cette prestigieuse compétition européenne de basket-ball masculin a été fondée en 1958 et elle est maintenant organisée par l'Euroleague Basketball, la société privée gérant l'EuroLigue et l'EuroCoupe. Chaque année 20 équipes se battent pour devenir la meilleure équipe en Europe.</desc>
+    <category lang="fr">Emission sportive / Basket-ball</category>
+  </programme>
+  <programme channel="TeleLyonMetropole.fr" start="20260806223000 +0200" stop="20260807063000 +0200">
+    <title lang="fr">Bonsoir Lyon</title>
+    <desc lang="fr">Le rendez-vous incontournable des fins de journée, pour préparer sereinement sa soirée. Info, trafic, météo et deux invités à 17h15 et 19h15 en lien avec l'actualité.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="TeleTOONplus1.fr" start="20260806001700 +0200" stop="20260806002400 +0200">
     <title lang="fr">Les minijusticiers - S03E39</title>
     <desc lang="fr">Charlie a les os fragiles. Elle ne peut pas faire une activité sans se casser ou se fouler quelque chose. En devenant Superplâtre, elle se retrouve protégée par une super armure qui lui permet de profiter enfin des activités dont elle rêvait...</desc>
@@ -33932,6 +34111,100 @@
     <desc lang="fr">Des reconstitutions de scènes de crimes permettent de comprendre et de suivre, étape par étape, les investigations menées par les services de la police scientifique américaine. Grâce aux moindres indices recueillis sur les lieux du drame, aux rapports d'autopsie ultra-précis et aux méthodes scientifiques de pointe, les enquêteurs parviennent à élucider des meurtres parfois minutieusement planifiés.</desc>
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
+  <programme channel="Vox.de" start="20260806053000 +0200" stop="20260806060500 +0200">
+    <title lang="fr">Les experts : Miami - S08E12</title>
+    <desc lang="fr">Phoenicks, une star de la chanson, s'est jetée volontairement dans les flammes lors d'un concert : elle en est morte. En comparant le dossier médical de la défunte et les résultats de l'autopsie, Horatio découvre que la victime n'est pas la vraie Phoenicks. Interrogé, le manager de la vedette avoue que Phoenicks a disparu il y a plusieurs mois. C'est l'une de ses danseuses, Vanessa Patton, qui a pris sa place pour ne pas inquiéter les fans. Vanessa l'avait déjà remplacée sans que personne ne remarque rien. Le légiste est formel : Vanessa n'est pas morte à cause du feu, mais a succombé à une crise cardiaque. Son maquillage était extrêmement inflammable et des indices sur ses vêtements démontrent qu'elle a été électrisée...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806060500 +0200" stop="20260806070000 +0200">
+    <title lang="fr">Les experts : Manhattan - S01E11</title>
+    <desc lang="fr">L'équipe doit mener plusieurs enquêtes de front, dans trois quartiers différents de New York. Mac et Stella se rendent dans un quartier du Queens où l'électricité a été coupée durant le match des Knicks qui s'est déroulé la nuit précédente. Un jeune homme y est mort par électrocution sur les rails du métro, pourtant non alimentés à ce moment. Les experts constatent que quelqu'un a essayé de se débarrasser du corps et qu'il s'agit d'un meurtre. Danny s'occupe du décès du propriétaire d'une galerie d'art. Quant à Aidan et Flack, ils enquêtent sur la mort mystérieuse d'un ouvrier sur son lieu de travail...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806070000 +0200" stop="20260806075500 +0200">
+    <title lang="fr">Les experts : Manhattan - S01E12</title>
+    <desc lang="fr">Le "Westminster Kennel Club Dog Show" a lieu tous les ans au Madison Square Garden. Une compétition au cours de laquelle les propriétaires des chiens espèrent chacun remporter le premier prix. Cette fois, la compétition est perturbée par le meurtre d'Elaine Curtis, âgée d'une vingtaine d'années. La jeune femme a été retrouvée morte dans une tente de la Croix-Rouge, une aiguille à tricoter plantée dans le coeur. L'un des participants serait-il impliqué dans le drame ? Par ailleurs, Stella et Danny recherchent le meurtrier d'un cycliste, découvert poignardé au bord de la route. Ils doivent tout d'abord localiser précisément la scène du crime...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806075500 +0200" stop="20260806084000 +0200">
+    <title lang="fr">Les experts - S08E11</title>
+    <desc lang="fr">Las Vegas est en pleine effervescence. Le célèbre rodéo annuel vient de débuter et plusieurs milliers de spectateurs ont fait le déplacement pour assister à l'événement, retransmis par de nombreuses chaînes de télévision. Les experts sont appelés à inspecter deux scènes de crimes, des homicides qui semblent avoir un lien avec un élevage illégal de taureaux. Mais Nick et Catherine éprouvent des difficultés à rassembler les preuves...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806084000 +0200" stop="20260806093500 +0200">
+    <title lang="fr">Les experts - S08E12</title>
+    <desc lang="fr">Comme plusieurs de ses collègues, Grissom a la grippe. Mais il n'a guère l'occasion de se reposer, car Madeline Klein, vice-procureur, lui confie une enquête de la plus haute importance. Depuis de longs mois, elle tente de mettre hors d'état de nuire un gang latino dont le chef va bientôt sortir de prison. Malheureusement, son témoin-clé vient d'être assassiné avec une rare sauvagerie. Klein espère que la police scientifique pourra trouver des preuves de la culpabilité de membres du gang dans cette affaire. Mais lorsque Warrick et Grissom se rendent dans l'appartement du chef de la bande pour rechercher des indices, tout explose...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806093500 +0200" stop="20260806094000 +0200">
+    <title lang="fr">vox nachrichten - S41E148</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806094000 +0200" stop="20260806103500 +0200">
+    <title lang="fr">Les experts - S08E15</title>
+    <desc lang="fr">Un homme, arrêté quelques heures plus tôt pour conduite en état d'ivresse, prend feu dans les locaux de la police. En essayant de comprendre ce qui a pu se produire, l'équipe de Grissom se retrouve à mener l'enquête sur plusieurs victimes improbables, dont trois personnes au sang vert et un couple de personnes âgées, inexplicablement mort dans son lit...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806103500 +0200" stop="20260806112500 +0200">
+    <title lang="fr">Les experts - S08E16</title>
+    <desc lang="fr">Jim Brass appelle l'équipe de Grissom sur une singulière scène de crime. Débute alors une enquête pour expliquer la mort d'Annabelle Bundt, une vedette de la télévision américaine, retrouvée morte dans sa chambre d'hôtel. Grissom et son équipe commencent par fouiller la pièce et remarquent qu'elle ne contient aucune boisson alcoolisée. La découverte de divers emballages apprend à Catherine que la vedette était boulimique. Les inspecteurs interrogent ensuite les proches de la victime et comprennent que plusieurs membres de son entourage lui en voulaient. Peut-être au point de souhaiter la supprimer...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806112500 +0200" stop="20260806122000 +0200">
+    <title lang="fr">Les experts - S08E17</title>
+    <desc lang="fr">Au cours d'une cérémonie funéraire, le cercueil se brise, laissant tomber non pas un, mais deux corps. Un cadavre inconnu a en effet été placé dans le cercueil, aux côtés du défunt qui devait être inhumé. La police de Las Vegas ouvre une enquête. Rapidement, l'identité de l'inconnu est établie : il s'agit d'un ancien policier devenu détective privé, une connaissance de Warrick. Peu après, Warrick est retrouvé hagard, couvert de sang et un pistolet à la main, aux côtés du corps d'un mafieux, directeur d'une boîte de nuit. Warrick, qui ne parvient pas à se souvenir de ce qu'il faisait à l'heure supposée du crime, devient le suspect numéro un dans cette affaire. Abattu, il se met en tête de reconstituer son propre emploi du temps. Catherine tente de le soutenir du mieux qu'elle peut...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806122000 +0200" stop="20260806131000 +0200">
+    <title lang="fr">Les experts : Miami - S08E14</title>
+    <desc lang="fr">James Bradstone, un médecin qui attend son exécution depuis quinze ans dans le couloir de la mort, voit sa sentence suspendue à la 11e heure. De nouveaux éléments permettent, en effet, de remettre en cause la déposition d'un témoin oculaire. Bradstone était accusé d'avoir tué toute sa famille. Le fils du détenu est le seul survivant de la tuerie. Il a été retrouvé inconscient et fortement choqué. Il s'est révélé incapable d'identifier le meurtrier. Les experts rouvrent le dossier et apprennent que la femme de Bradstone avait une liaison avec un certain Donald Newhouse. Celui-ci était présent non loin de la scène de crime le jour du drame...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806131000 +0200" stop="20260806140500 +0200">
+    <title lang="fr">Les experts : Miami - S08E15</title>
+    <desc lang="fr">Un homme est tombé du ciel, semblant provenir de nulle part. Horatio et son équipe constatent qu'il a dû chuter d'une très grande hauteur, car il a cassé des branches en s'écrasant. Une enquête de routine permet de déterminer qu'un hélicoptère a traversé le ciel de la ville au moment de la mort de la victime. L'appareil n'avait pas enregistré de plan de vol auprès des autorités, et Beau Lendell, son pilote attitré, prétend qu'il n'était pas en ville lorsque l'incident est survenu. Tom Loman, qui effectue des analyses sur le cadavre, estime que les dommages occasionnés sur les organes du mort ne peuvent avoir été produits que dans un environnement à la gravité zéro...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806140500 +0200" stop="20260806150000 +0200">
+    <title lang="fr">Les experts : Miami - S08E17</title>
+    <desc lang="fr">L'équipe d'Horatio enquête sur le meurtre d'une réceptionniste, Renee Dorsett. Son corps a été retrouvé dans la cage d'ascenseur de l'immeuble où elle travaillait : la jeune femme a été tuée auparavant avec une hache de pompier. Elle était détestée par tous ses collègues, accusée de les dénoncer auprès de son patron. La liste des suspects est longue et l'enquête s'annonce compliquée. L'équipe découvre par ailleurs qu'avant cela, Renee avait été employée par une grande entreprise d'investissement et qu'elle avait été obligée de licencier un grand nombre d'employés. L'une d'entre eux s'était suicidée après son licenciement...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806150000 +0200" stop="20260806160000 +0200">
+    <title lang="fr">Shopping Queen - S14E140</title>
+    <desc lang="fr">Motto in Düsseldorf: Gewagte Kombi! Kreiere einen Sommerlook mit Sandalen und Socken! Pro Woche treten fünf Frauen an fünf aufeinanderfolgenden Tagen gegeneinander an, um die Frau mit dem besten Stil zu werden. Am Ende der Woche wird die "Shopping Queen" gekürt.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806160000 +0200" stop="20260806170000 +0200">
+    <title lang="fr">Das Duell - Zwischen Tüll und Tränen - S05E18</title>
+    <desc lang="fr">In diesem Duell treten die besten Brautmodenausstatter:innen Deutschlands gegeneinander an. Zwei bekannte Expert:innen haben pro Folge die Chance, den Traum einer Braut von ihrem perfekten Hochzeitskleid zu erfüllen. Jeder von ihnen darf drei Kleider präsentieren. Entscheidet sich die Braut für eines der Kleider, kürt sie damit auch den Gewinner:in des Duells. Heute im Duell: Olja Georgi vs. Uwe Herrmann</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806170000 +0200" stop="20260806180000 +0200">
+    <title lang="fr">Zwischen Tüll und Tränen - S11E89</title>
+    <desc lang="fr">Bräute suchen nach dem perfekten Brautkleid. Doch welches Modell passt zur Figur und ins Budget? Heute in: Heidelberg / "Mein Brautkleid" Bad Lauterberg / "Feist Style" Berlin / "Vanity Bridal"</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806180000 +0200" stop="20260806190000 +0200">
+    <title lang="fr">First Dates - Ein Tisch für zwei - S06E152</title>
+    <desc lang="fr">Außerdem treffen diese Singles im Restaurant aufeinander: Patrick (41) und Shirley (42). Shirley ist minimal enttäuscht über den Altersunterschied. Dabei stört sie keinesfalls, dass Patrick ein Jahr jünger ist als sie. Sie irritiert vielmehr, dass er NUR ein Jahr jünger ist. Als Thomas (60) Lisa (59) nach ihrem Kinderwunsch fragt, lachen beide schallend. Sie teilen denselben Humor. Und noch viel mehr! Ein Blind Date wie aus dem Bilderbuch für Blind Dates. Helena (62) ist kurz davor, das Blind Date mit Wolfgang (76) abzubrechen. Nach seinem Satz "Schon wieder eine Krankenschwester!" versucht er, zu retten, was noch zu retten ist. Gelingt es ihm?</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806190000 +0200" stop="20260806201500 +0200">
+    <title lang="fr">Das perfekte Dinner - S30E127</title>
+    <desc lang="fr">Frederik, 33 Jahre, aus Köln, serviert heute ein Drei-Gänge-Menü. Motto: Noch nie in Asien, aber Hunger drauf Vorspeise: Warm werden mit rohem Fisch - Hamachi / Avocado und Wasabi / Kaviar / Fenchel Hauptspeise: Schweinebauch auf Weltreise - Süßkartoffel und Kokos / wilder Brokkoli Nachspeise: Yuzu hat das letzte Wort - Yuzu / Ananas / Pandan / Miso - Sorbet / Ragout / Mousse / Sauce</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806201500 +0200" stop="20260806223500 +0200">
+    <title lang="fr">Justice League</title>
+    <desc lang="fr">Après la mort de Clark Kent des mains de Doomsday, Batman réévalue ses méthodes extrêmes. Il décide de réunir des héros pour former une équipe de combattants qui l'aidera à défendre la Terre de toutes sortes de menaces. En compagnie de Wonder Woman, Batman cherche l'ancienne star de football cybernétiquement renforcée Vic Stone, le speedster Barry Allen et le guerrier atlante Arthur Curry. Ensemble, ils affrontent Steppenwolf, le messager et commandant en second du seigneur de guerre étranger Darkseid, qui est chargé de trouver trois artefacts cachés sur la Terre. La tâche ne s'avère pas simple. Ces recrues vont devoir faire face aux démons de leur passé et en venir à bout...</desc>
+    <category lang="fr">Film / Film fantastique</category>
+  </programme>
+  <programme channel="Vox.de" start="20260806223500 +0200" stop="20260807012000 +0200">
+    <title lang="fr">Man of Steel</title>
+    <desc lang="fr">Clark, un garçon adopté par Jonathan et Marta Kent, vit à Smalville, une petite ville du Kansas. Doté d'une force extraordinaire pour son âge, le jeune Clark se rend compte qu'il n'est pas comme les autres. Devenu adulte, il part en voyage, à la recherche de ses origines, et découvre qu'il est né sur une planète nommée Krypton. Conscient que son destin est étroitement lié à celui de la Terre, menacé, Clark apprend à maîtriser ses pouvoirs surnaturels et son personnage, Superman. Bientôt, il est pris pour cible par deux autres survivants de la planète Krypton, le général Zod et sa complice Faora...</desc>
+    <category lang="fr">Film / Film fantastique</category>
+  </programme>
   <programme channel="VoxAfrica.af" start="20260806010000 +0200" stop="20260806013000 +0200">
     <title lang="fr">Vous et Nous</title>
     <desc lang="fr">Une émission hebdomadaire avec des reportages et interviews à travers lesquels nous vous proposons une connexion Afrique Amérique inédite. Un choc des cultures bienvenu !</desc>
@@ -35473,6 +35746,30 @@
     <title lang="fr">Turning Point</title>
     <desc lang="fr">Dr. David Jeremiah, founder of the non-profit organization Turning Point for God, delivers the God's word and the importance of his preaching. The bestselling author, radio presenter, television personality and senior pastor of Shadow Mountain Community Church shares his views on how we can navigate today's ever-changing world as devout Christians.</desc>
     <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260806070000 +0200" stop="20260806100000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260806100000 +0200" stop="20260806130000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260806130000 +0200" stop="20260806160000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260806160000 +0200" stop="20260806190000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260806190000 +0200" stop="20260806220000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1065" start="20260806220000 +0200" stop="20260807010000 +0200">
+    <title lang="fr">ON TV</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.1071" start="20260806010000 +0200" stop="20260806063000 +0200">
     <title lang="fr">InfoServices</title>
@@ -41863,6 +42160,71 @@
     <desc lang="fr">Dans la région de Santa Monica, en Californie, des volcans entrent en éruption et relâchent des tarantules géantes cracheuses de lave en fusion. Les créatures monstrueuses ont un seul objectif : détruire Los Angeles et ses alentours. Colton West, un acteur sur le retour qui avait connu la gloire dans des films d'action des années 90, va tout faire pour sauver son fils Wyatt et son épouse Olivia. Pendant ce temps, l'armée commence à se déployer dans la ville...</desc>
     <category lang="fr">Téléfilm / Téléfilm de science-fiction</category>
   </programme>
+  <programme channel="oqee.1211" start="20260806060100 +0200" stop="20260806072300 +0200">
+    <title lang="fr">Blood Conscious : Le lac maudit</title>
+    <desc lang="fr">Kevin et sa soeur Brittney, accompagnés de Tony, le fiancée de celle-ci, rejoignent leurs parents dans leur maison située au bord d'un lac. A leur arrivée, ils ont à peine le temps de découvrir horrifiés que leurs parents et tous leurs voisins ont été assassinés qu'ils sont mis en joue par le tueur. Celui-ci, qui semble ne pas avoir toute sa raison, prétend qu'il n'a pas eu d'autre choix que d'abattre tous les habitants des lieux car ils étaient possédés par des forces démoniaques. Il intime l'ordre aux trois jeunes gens de s'enfermer dans la maison et de n'ouvrir à personne avant le lever du jour, puis quitte les lieux en utilisant leur voiture...</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806072300 +0200" stop="20260806084600 +0200">
+    <title lang="fr">Recovery</title>
+    <desc lang="fr">La nuit avant leur diplôme d'études secondaires, Jessie et ses amis sont guidés par un \"Find My iPhone\" application pour récupérer son appareil perdu à partir d'une maison dont les déments locataires veulent faire d'elle un membre de chair et de sang de la famille.</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806084600 +0200" stop="20260806100300 +0200">
+    <title lang="fr">La bête tue de sang froid</title>
+    <desc lang="fr">Pour les fêtes de fin d'année, Lisa, qui poursuit ses études en Allemagne, a décidé d'inviter sa copine Margaret, chez elle à Milan. Les deux jeunes femmes prennent ensemble le train pour l'Italie et discutent tranquillement en dégustant des sandwichs qu'elles ont préparés. Au cours du voyage, elles font la connaissance de deux voyous, Blacky et Curly, qui se sont acoquinés avec une jeune femme, élégante bourgeoise offrant ses charmes pour son plaisir. Ce trio va très vite transformer le voyage de Lisa et Margaret en cauchemar en leur faisant subir des viols et des humiliations...</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806100300 +0200" stop="20260806114600 +0200">
+    <title lang="fr">The House at the End of Time</title>
+    <desc lang="fr">Dulce, son mari et leurs deux fils emménagent dans une vieille maison. Rapidement, la mère de famille est témoin de phénomènes surnaturels et pense devenir folle. Un soir, elle découvre son mari mort tandis que ses fils ont disparu. Accusée de meurtre, Dulce est condamnée à une lourde peine. Trente ans plus tard, à sa sortie de prison, elle est assignée à résidence dans la maison où le drame s'est déroulé. Epaulée par un prêtre, elle tente de comprendre ce qui s'est passé la nuit du drame...</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806114600 +0200" stop="20260806132200 +0200">
+    <title lang="fr">Dead Mary</title>
+    <desc lang="fr">Kim vient tout juste de se séparer de son petit ami Matt. Pourtant, elle accepte de partir avec lui dans une région reculée où se trouve un magnifique lac. Leurs amis Eve, Baker et Dash les accompagnent ainsi que les pétillantes Lily et Amber. Tout promet de se dérouler à merveille : Kim a réussi à obtenir qu'on leur prête une petite cabane isolée où ils pourront faire la fête sans être dérangés. Mais la séparation de Kim et Matt alourdit l'ambiance. Et lorsque la nuit approche, l'un des cinq jeunes propose un jeu censé faire peur. Face à un miroir, ils invoquent le nom d'une sorcière. Durant la nuit qui suit, Matt entend des bruits étranges. Il décide de vérifier ce dont il s'agit...</desc>
+    <category lang="fr">Téléfilm / Téléfilm d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806132200 +0200" stop="20260806144100 +0200">
+    <title lang="fr">Mort ou presque</title>
+    <desc lang="fr">Katherine Roshak, une jeune et brillante professeur en psychiatrie, spécialiste du comportement des jumeaux, devrait savoir faire face aux cauchemars qui l'envahissent depuis quelque temps. Pourtant, elle n'arrive pas à les maîtriser ou à les contrôler. Sa mère, qui s'est suicidée quatre ans plus tôt, ne cesse de lui apparaître pendant son sommeil. Décidée à en avoir le coeur net, Katherine se rend sur la tombe de la défunte et découvre avec horreur que le cercueil est vide. Franchement alarmée, elle poursuit son enquête dans des morgues diverses où disparaissent des cadavres, et dans des cimetières variés où se promènent des spectres et des revenants...</desc>
+    <category lang="fr">Téléfilm / Téléfilm policier</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806144100 +0200" stop="20260806163400 +0200">
+    <title lang="fr">Black Journal</title>
+    <desc lang="fr">Dans sa jeunesse, Léa était fascinée par la magie noire. Aussi, après son mariage et la naissance de son fils, a-t-elle tout naturellement continué à préparer des potions de crapauds et des décoctions de lézards pour protéger le cher bambin des maladies et du malheur. Avec l'âge, le danger grandit. Le chérubin, devenu adulte, est à présent menacé par deux terribles fléaux, les femmes et la guerre. Les bouillons de bestioles n'y suffisent plus. C'est avec un tranchoir que Léa écartera de la route de son fils ses amis comme ses ennemis, ensuite habilement transformés en savon ou en savoureux gâteaux secs...</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806163400 +0200" stop="20260806180500 +0200">
+    <title lang="fr">Awaken</title>
+    <desc lang="fr">Un groupe d'inconnus se réveille sur une île isolée, sans savoir comment ils sont arrivés là. Très vite, ils découvrent qu'ils sont traqués par une organisation qui capture des humains pour alimenter un trafic d'organes. Parmi eux, une jeune femme déterminée tente de comprendre qui les a enlevés et comment s'échapper. La survie devient une course contre la montre face à des mercenaires impitoyables.</desc>
+    <category lang="fr">Film / Thriller</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806180500 +0200" stop="20260806192800 +0200">
+    <title lang="fr">Deadsight</title>
+    <desc lang="fr">Alors qu'un virus mortel ravage la région, Ben reprend connaissance à l'arrière d'une ambulance. Il est amnésique et a perdu la vue. Ses appels au secours restant sans réponse, il finit pas se libérer. Après avoir échappé de justesse à l'attaque d'un zombie, il avance sans but sur une route déserte. Il trouve refuge dans une ferme abandonnée où il est rejoint par Mara, une policière enceinte. Assaillis par les zombies, les deux survivants ne peuvent compter que sur eux-mêmes pour sortir de cet enfer...</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806192800 +0200" stop="20260806210000 +0200">
+    <title lang="fr">Reeker</title>
+    <desc lang="fr">Jack, Nelson, Trip, Gretchen et Cookie se rendent au coeur du désert californien pour participer à une rave avec une centaine d'autres jeunes. Mais, au cours de leur voyage, dès la première halte, Gretchen, la conductrice, constate une fuite dans le réservoir de sa voiture. Le groupe d'amis se retrouve donc immobilisé à la station-service, sise face à un motel. Ils réalisent que celui-ci semble avoir été abandonné en toute hâte par son personnel et ses clients. La radio et le téléphone n'émettent plus que des sons brouillés. Ils perçoivent malgré tout des messages d'urgence et des signaux de détresse faisant allusion à une mystérieuse catastrophe...</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806210000 +0200" stop="20260806222900 +0200">
+    <title lang="fr">The Clearing</title>
+    <desc lang="fr">Tom entretient une relation difficile avec Mira, sa fille préadolescente. Sur les conseils de son épouse, mais un peu à contrecoeur, il part faire du camping dans la forêt avec Mira afin de tenter un rapprochement en l'initiant aux techniques de survie. Mais la première soirée tourne rapidement au vinaigre entre le père et la fille avant de devenir un cauchemar sanglant. Les deux campeurs sont en effet attaqués par une horde de zombies. Tandis que Tom est piégé dans sa caravane, Mira, elle, se retrouve livrée à elle-même. Tom, un survivaliste aguerri, va alors utiliser toutes ses compétences pour retrouver et sauver sa fille...</desc>
+    <category lang="fr">Téléfilm / Téléfilm d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806222900 +0200" stop="20260806235500 +0200">
+    <title lang="fr">Night Caller</title>
+    <desc lang="fr">Après l'appel d'un homme visiblement perturbé, la médium Clementine Carter, qui fait de la voyance par téléphone, a la vision d'un meurtre atroce. Persuadée que son mystérieux correspondant est un tueur, elle contacte la police, mais sa déclaration n'est pas prise au sérieux. L'inconnu la rappelle à plusieurs reprises, déclenchant à chaque fois de nouvelles visions sanglantes. Clementine décide alors de traquer le psychopathe avec l'aide de son père, un ancien policier aujourd'hui cloué dans un fauteuil roulant. De son côté, le tueur poursuit son entreprise macabre, poussé par les apparitions de son père, un tueur en série arrêté et exécuté des années plus tôt...</desc>
+    <category lang="fr">Téléfilm / Téléfilm d'horreur</category>
+  </programme>
+  <programme channel="oqee.1211" start="20260806235500 +0200" stop="20260807012100 +0200">
+    <title lang="fr">Night Caller</title>
+    <desc lang="fr">Après l'appel d'un homme visiblement perturbé, la médium Clementine Carter, qui fait de la voyance par téléphone, a la vision d'un meurtre atroce. Persuadée que son mystérieux correspondant est un tueur, elle contacte la police, mais sa déclaration n'est pas prise au sérieux. L'inconnu la rappelle à plusieurs reprises, déclenchant à chaque fois de nouvelles visions sanglantes. Clementine décide alors de traquer le psychopathe avec l'aide de son père, un ancien policier aujourd'hui cloué dans un fauteuil roulant. De son côté, le tueur poursuit son entreprise macabre, poussé par les apparitions de son père, un tueur en série arrêté et exécuté des années plus tôt...</desc>
+    <category lang="fr">Téléfilm / Téléfilm d'horreur</category>
+  </programme>
   <programme channel="oqee.1212" start="20260806001500 +0200" stop="20260806010000 +0200">
     <title lang="fr">The Best Immigrant - S01E04</title>
     <desc lang="fr">Pour fêter les records d'audience de l'émission, Lauren offre aux candidats un dîner dans un restaurant chic. Mais tout n'est que manipulation : les règles du jeu changent soudainement, mettant tout le monde sur les nerfs. Pendant ce temps, Tarik exécute une mission risquée pour la résistance, tandis que Muna et Jamal, qui tentent d'échapper aux caméras, se font rattraper par la production...</desc>
@@ -42140,12 +42502,12 @@
   </programme>
   <programme channel="oqee.1217" start="20260806020000 +0200" stop="20260806022800 +0200">
     <title lang="fr">Mousso Massibo - S01E21</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806022800 +0200" stop="20260806025700 +0200">
     <title lang="fr">Mousso Massibo - S01E22</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806025700 +0200" stop="20260806030000 +0200">
@@ -42179,12 +42541,12 @@
   </programme>
   <programme channel="oqee.1217" start="20260806060000 +0200" stop="20260806063000 +0200">
     <title lang="fr">Mousso Massibo - S01E21</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806063000 +0200" stop="20260806070000 +0200">
     <title lang="fr">Mousso Massibo - S01E22</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806070000 +0200" stop="20260806073000 +0200">
@@ -42214,12 +42576,12 @@
   </programme>
   <programme channel="oqee.1217" start="20260806100000 +0200" stop="20260806103000 +0200">
     <title lang="fr">Mousso Massibo - S01E21</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806103000 +0200" stop="20260806110000 +0200">
     <title lang="fr">Mousso Massibo - S01E22</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806110000 +0200" stop="20260806113000 +0200">
@@ -42249,12 +42611,12 @@
   </programme>
   <programme channel="oqee.1217" start="20260806140000 +0200" stop="20260806143000 +0200">
     <title lang="fr">Mousso Massibo - S01E21</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806143000 +0200" stop="20260806150000 +0200">
     <title lang="fr">Mousso Massibo - S01E22</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806150000 +0200" stop="20260806153000 +0200">
@@ -42284,12 +42646,12 @@
   </programme>
   <programme channel="oqee.1217" start="20260806180000 +0200" stop="20260806182900 +0200">
     <title lang="fr">Mousso Massibo - S01E23</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806182900 +0200" stop="20260806190000 +0200">
     <title lang="fr">Mousso Massibo - S01E24</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806190000 +0200" stop="20260806192900 +0200">
@@ -42319,12 +42681,12 @@
   </programme>
   <programme channel="oqee.1217" start="20260806220000 +0200" stop="20260806223000 +0200">
     <title lang="fr">Mousso Massibo - S01E23</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806223000 +0200" stop="20260806230000 +0200">
     <title lang="fr">Mousso Massibo - S01E24</title>
-    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de mourir sans descendance, Mory épouse Iya, une veuve de 40 ans, timide, aimable et respectueuse, dans l'espoir de devenir enfin père.</desc>
+    <desc lang="fr">Dans le village d'Ourembaya, Mory Fofana, 48 ans, traditionnaliste, jaloux et sans ressources, rêve d'avoir de nombreux enfants. Mais sa femme, Domani, 32 ans, jalouse, menteuse et égoïste, refuse d'en faire. Après des années d'attente, craignant de...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20260806230000 +0200" stop="20260806232800 +0200">
@@ -45579,6 +45941,11 @@
     <desc lang="fr">Elodie Ageron et Sandrine Arcizet s'intéressent aux bienfaits des animaux sur les enfants. Responsabilisation, bien-être, apprentissage : ce n'est que du bonheur pour les plus jeunes. Au programme, biberonnage de chevreaux, séance "calinage" de cochons d'inde ou encore jeu de l'oie sur le tri sélectif.</desc>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
+  <programme channel="oqee.1430" start="20260806040800 +0200" stop="20260806043500 +0200">
+    <title lang="fr">Les animaux de l'été</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron proposent de découvrir des animaux extraordinaires. Qu'ils changent d'apparence pour se cacher ou qu'ils soient capables de vivre éternellement, zoom sur les pouvoirs les plus mystérieux de ces animaux vraiment pas comme les autres.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
   <programme channel="oqee.1430" start="20260806043500 +0200" stop="20260806050200 +0200">
     <title lang="fr">Les animaux de l'été</title>
     <desc lang="fr">Les Animaux de l'été vous donnent rendez-vous pendant encore tout le mois d'août. Ce dimanche, Elodie Ageron et Sandrine Arcizet s'intéressent aux petits animaux qui vivent dans nos jardins. Hérissons, oiseaux, papillons ou encore coccinelles… Conseils et astuces pour les protéger.</desc>
@@ -45615,6 +45982,10 @@
   <programme channel="oqee.1430" start="20260806075100 +0200" stop="20260806081800 +0200">
     <title lang="fr">Les animaux de la 8</title>
     <desc lang="fr">Sandrine Arcizet et Elodie Ageron font le tour de l'île d'Oléron, à la découverte d'animaux malins ou marins. Elodie rejoint Emilie, l'unique bergère de l'île, et ses moutons d'Ouessant, pour une balade matinale entre marais et prairies. Sandrine surfe avec Benoit et sa chienne Wapy. Cette jeune border collie est devenue une véritable star locale. Enfin nos deux complices profitent de la marée basse pour observer la faune maritime locale.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260806081800 +0200" stop="20260806084500 +0200">
+    <title lang="fr">Les animaux de la 8</title>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
   <programme channel="oqee.1430" start="20260806084500 +0200" stop="20260806091400 +0200">
@@ -45656,6 +46027,25 @@
     <desc lang="fr">Sandrine Arcizet et Elodie Ageron se rendent à Beauval. Classé quatrième plus beau zoo du monde, ce parc accueille plus de 35 000 animaux, et certains sont vraiment extraordinaires, comme le céphalophe et l'arapaïma. Sandrine prépare un exercice d'enrichissement avec Mélanie, la soigneuse des magots. Enfin, elle participe au suivi de Hanya, une femelle koala de 17 ans, chouchoutée par ses soigneurs.</desc>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
+  <programme channel="oqee.1430" start="20260806130200 +0200" stop="20260806133100 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron partent à la rencontre de femmes engagées dans la cause animale. Dans son vaste domaine du XVIIIe siècle, Pascale accueille des animaux maltraités. Elodie et Sandrine rejoignent une ostéopathe, puis se rendent chez Carine, qui a créé un refuge pour les renards blessés.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260806133100 +0200" stop="20260806135700 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Elodie Ageron se rend, tout près de Paris, dans une crèche réservée aux chiens. Puis, elle rencontre Antoine, orthoprothésiste. Il fabrique des attelles et des prothèses pour les animaux blessés ou handicapés. Elodie Ageron, de son côté, s'intéresse au neurofeedback. Cette pratique étudie l'activité électrique du cerveau. Et les animaux aussi peuvent en bénéficier.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260806135700 +0200" stop="20260806142800 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <desc lang="fr">Sandrine Arcizet et Elodie Ageron proposent un numéro spécial en Floride. Sur la petite île d'Islamorada, Sandrine rencontre Michael, un plongeur passionné qui tente de repeupler les récifs. Dans le parc national des Everglades, les deux exploratrices prennent place à bord d'un hydroglisseur.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260806142800 +0200" stop="20260806145800 +0200">
+    <title lang="fr">Les animaux de la 8</title>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
   <programme channel="oqee.1430" start="20260806145800 +0200" stop="20260806152600 +0200">
     <title lang="fr">Les animaux de la 8</title>
     <category lang="fr">Magazine / Magazine animalier</category>
@@ -45676,6 +46066,10 @@
   <programme channel="oqee.1430" start="20260806165100 +0200" stop="20260806172000 +0200">
     <title lang="fr">Les animaux de la 8</title>
     <desc lang="fr">Sandrine Arcizet et Elodie Ageron découvrent l'espace zoologique de Saint-Martin-la-Plaine. Ce parc lutte contre le trafic d'animaux sauvages en les recueillant.</desc>
+    <category lang="fr">Magazine / Magazine animalier</category>
+  </programme>
+  <programme channel="oqee.1430" start="20260806172000 +0200" stop="20260806175000 +0200">
+    <title lang="fr">Les animaux de la 8</title>
     <category lang="fr">Magazine / Magazine animalier</category>
   </programme>
   <programme channel="oqee.1430" start="20260806175000 +0200" stop="20260806181800 +0200">
@@ -46153,6 +46547,11 @@
     <desc lang="fr">Programa divulgativo sobre el mundo de la moda.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.242" start="20260806080100 +0200" stop="20260806083000 +0200">
+    <title lang="fr">Flash Moda</title>
+    <desc lang="fr">Repasamos las claves de su éxito para llevar más de cuarenta años en la profesión de moda como empresario y diseñador al mismo tiempo. Para celebrar sus más de 4 décadas, ha elaborado una exposición fotográfica itinerante por toda España.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
   <programme channel="oqee.242" start="20260806083000 +0200" stop="20260806092000 +0200">
     <title lang="fr">Lucía en la Telaraña - S01E05</title>
     <desc lang="fr">El asesinato de Lucía Garrido se lleva a juicio en septiembre del año 2019: cuatro acusados se sientan en el baquillo para someterse a la deliberación de un jurado popular. Sin embargo, durante las semanas que dura el proceso se suceden numerosas anomalías que podrían condicionar el veredicto. </desc>
@@ -46181,6 +46580,16 @@
     <title lang="fr">Los misterios de Laura - S02E08</title>
     <desc lang="fr">Un mago es detenido en la ciudad y, durante su noche en el calabozo, inexplicablemente, se perpetra el asesinato de su gran rival. La víctima es otro ilusionista que se estaba popularizando mucho y empezaba a hacerle sombra entre sus seguidores. Sin embargo, las circunstancias en las que se produce el crimen le dan una coartada incontestable al principal sospechoso, pues estaba en prisión. La rareza del caso lo convierte en una investigación idónea para Laura, que no puede evitar sospechar que el mago esconde algo que la policía no puede entrever. Laura está convencida de que el mago ha conseguido realizar el truco más grande y enigmático de toda su carrera, un truco que le ha permitido engañar a todos y poder cometer el crimen. Y para poder atraparle, Laura tendrá que descubrir el secreto que oculta dicho truco.</desc>
     <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.242" start="20260806133000 +0200" stop="20260806140000 +0200">
+    <title lang="fr">Zoom tendencias</title>
+    <desc lang="fr">ZOOM TENDENCIAS viaja cada semana por diferentes rincones de España, mostrándonos innovadoras propuestas gastronómicas y hoteleras. Descubriendo las últimas tendencias en bienestar y ocio; y recorriendo nuestro rico patrimonio histórico, cultural y artístico.</desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.242" start="20260806140000 +0200" stop="20260806150000 +0200">
+    <title lang="fr">Seis hermanas - S02E71</title>
+    <desc lang="fr">C'est une série située dans l'Espagne des années 1913-1916. Elle raconte l'histoire de la famille Silva dont les membres jouissent de la vie jusqu'à ce que la mort du père la fasse basculée. Restées seules, six sœurs Adela, Diana, Celia, Blanca, Francisca et Elisa vont lutter pour maintenir la famille unie en faisant face à une société et à une époque où les femmes n'ont pas voix au chapitre.</desc>
+    <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.242" start="20260806150000 +0200" stop="20260806155500 +0200">
     <title lang="fr">Acacias 38</title>
@@ -49027,6 +49436,11 @@
     <title lang="fr">Aicha</title>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.335" start="20260806040000 +0200" stop="20260806043000 +0200">
+    <title lang="fr">Tinoubka (Documentaire amazigh)</title>
+    <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
   <programme channel="oqee.335" start="20260806043000 +0200" stop="20260806050500 +0200">
     <title lang="fr">Tinoubka (Documentaire amazigh)</title>
     <desc lang="fr">Série documentaire proposée par la rédaction de la chaîne Al Aoula qui fait découvrir certains aspects de la société marocaine.</desc>
@@ -49088,6 +49502,23 @@
     <title lang="fr">Ahlam City</title>
     <desc lang="fr">Après plusieurs années de dur labeur, Zineb parvient enfin à acquérir la maison de ses rêves. Très vite, ce rêve de vie paisible tournera court suite à un conflit avec leur voisin, "Zaitouni", propriétaire d'un terrain qu'il entend bien exploiter. En dépit de tous ces désaccords et contre toute attente naîtra une histoire d'amour entre le fils de ce dernier et la fille de la famille Hammadi. Cela parviendra-t-il à apaiser les tensions et à mettre un terme à la rivalité entre les deux clans? </desc>
     <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260806130000 +0200" stop="20260806132000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260806132000 +0200" stop="20260806140000 +0200">
+    <title lang="fr">Sla O Slam</title>
+    <desc lang="fr">La série raconte l'histoire de Karima qui revient à sa ville natale Bejaad où elle va reprendre le travail de sa mère et commencera à organiser des fêtes de mariage. Ses amis d'enfance seront là pour lui aider. </desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.335" start="20260806140000 +0200" stop="20260806142000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.335" start="20260806142000 +0200" stop="20260806144000 +0200">
+    <title lang="fr">Journal Télévisé</title>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.335" start="20260806144000 +0200" stop="20260806163500 +0200">
     <title lang="fr">Jamaatna Zina</title>
@@ -55436,6 +55867,11 @@
     <desc lang="fr">A la fin des années 2000, Slimani, un criminel d'origine marocaine spécialisé dans les braquages, a pour projet de cambrioler une société danoise qui stocke une grande quantité d'argent liquide. Pour l'accompagner, il engage Kasper, un boxeur amateur attiré par l'appât du gain. Malgré leur préparation méticuleuse pour un braquage rapide, brutal, sans bavure et sans trace, une erreur va tout changer. Il faut désormais tout abandonner et disparaître au plus vite...</desc>
     <category lang="fr">Film / Thriller</category>
   </programme>
+  <programme channel="oqee.613" start="20260806131200 +0200" stop="20260806150000 +0200">
+    <title lang="fr">Ma frère</title>
+    <desc lang="fr">Shaï et Djeneba, deux jeunes femmes de 20 ans, sont amies depuis l'enfance. Cet été-là, elles sont animatrices pour la première fois dans une colonie de vacances. Elles accompagnent dans la Drôme une bande d'enfants qui, comme elles, ont grandi entre les tours de la Place des Fêtes à Paris. A l'aube de l'âge adulte, elles devront faire des choix pour dessiner leur avenir et réinventer leur amitié...</desc>
+    <category lang="fr">Film / Comédie</category>
+  </programme>
   <programme channel="oqee.613" start="20260806150000 +0200" stop="20260806162900 +0200">
     <title lang="fr">L'été de Jahia</title>
     <desc lang="fr">Jahia, une adolescente burkinabée, vit avec sa mère dans un centre pour demandeurs d'asile en Belgique. Tendue et déterminée, l'adolescente gère leur quotidien avec le sérieux d'un adulte. De son côté, Mila a quitté la Biélorussie avec sa famille. Curieuse, insatiable, elle vit chaque jour comme une échappée belle. Cet été-là, par-delà les différences, leurs solitudes se croisent. Entre elles naît une amitié rare, intense, comme une évidence dans un monde incertain. Mais le jour où Mila reçoit l'ordre de quitter le territoire, ce qui semblait inébranlable menace soudain de voler en éclats...</desc>
@@ -55586,6 +56022,200 @@
     <desc lang="fr">Les Ghost Brothers enquêtent sur des rumeurs d'activités paranormales dans le Thornhaven Manor : sont-elles causées par une victime de meurtre et sa famille ?</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
+  <programme channel="oqee.658" start="20260806000000 +0200" stop="20260806010000 +0200">
+    <title lang="fr">Jeek Ak Keureum</title>
+    <desc lang="fr">Talk-show traitant de faits de société.Présenté par Francesca Diafouné/Aissatou Sarr.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806010000 +0200" stop="20260806020000 +0200">
+    <title lang="fr">Waxal way…</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806020000 +0200" stop="20260806025000 +0200">
+    <title lang="fr">Journal 20h00 RTS</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806025000 +0200" stop="20260806042000 +0200">
+    <title lang="fr">Kenkélibaa</title>
+    <desc lang="fr">Matinale avec invités et différentes rubriques sur des sujets d'actualité présentée par Sarah Louyah.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806042000 +0200" stop="20260806045000 +0200">
+    <title lang="fr">Parlons Santé</title>
+    <desc lang="fr">Un magazine de santé en français présenté par Ramata Dème.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806045000 +0200" stop="20260806050000 +0200">
+    <title lang="fr">Interlude</title>
+    <desc lang="fr">Musique traditionnelle sénégalaise</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806050000 +0200" stop="20260806053000 +0200">
+    <title lang="fr">Tafsir du Coran</title>
+    <desc lang="fr">Traduction du Coran.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806053000 +0200" stop="20260806060000 +0200">
+    <title lang="fr">Xaima xam xam</title>
+    <desc lang="fr">Un magazine de jeux concours sur la connaissance du coran et des hadiths. Présenté par Oustaz Sylla.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806060000 +0200" stop="20260806063000 +0200">
+    <title lang="fr">Récital Coran</title>
+    <desc lang="fr">Magazine religieux.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806063000 +0200" stop="20260806080000 +0200">
+    <title lang="fr">Kenkélibaa</title>
+    <desc lang="fr">Matinale avec invités et différentes rubriques sur des sujets d'actualité présentée par Sarah Louyah.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806080000 +0200" stop="20260806090000 +0200">
+    <title lang="fr">Clubs des Sports</title>
+    <desc lang="fr">Magazine des éditorialistes des sports présenté par Ibrahima Mboup/Thierno Dramé.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806090000 +0200" stop="20260806103000 +0200">
+    <title lang="fr">Kenkélibaa</title>
+    <desc lang="fr">Matinale avec invités et différentes rubriques sur des sujets d'actualité présentée par Sarah Louyah.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806103000 +0200" stop="20260806104500 +0200">
+    <title lang="fr">Journal Balante</title>
+    <desc lang="fr">Edition d'informations en langue Balante.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806104500 +0200" stop="20260806110000 +0200">
+    <title lang="fr">Journal en Mandjack</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806110000 +0200" stop="20260806120000 +0200">
+    <title lang="fr">Jeek Ak Keureum</title>
+    <desc lang="fr">Talk-show traitant de faits de société.Présenté par Francesca Diafouné/Aissatou Sarr.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806120000 +0200" stop="20260806123000 +0200">
+    <title lang="fr">Le point</title>
+    <desc lang="fr">Un magazine de la rédaction avec un invité traitant de l'actualité. Présenté par Ousmane Ngary Faye.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806123000 +0200" stop="20260806124500 +0200">
+    <title lang="fr">Journal en Joola</title>
+    <desc lang="fr">Edition d'informations langue en Joola.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806124500 +0200" stop="20260806130000 +0200">
+    <title lang="fr">Interlude</title>
+    <desc lang="fr">Musique traditionnelle sénégalaise</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806130000 +0200" stop="20260806133000 +0200">
+    <title lang="fr">Journal 13h</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806133000 +0200" stop="20260806140000 +0200">
+    <title lang="fr">Journal Xibaar</title>
+    <desc lang="fr">Bulletin d'information sur l'actualité nationale et internationale, présenté dans la langue nationale sénégalaise : le wolof.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806140000 +0200" stop="20260806141500 +0200">
+    <title lang="fr">Journal en Manding</title>
+    <desc lang="fr">Edition d'informations en langue Manding.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806141500 +0200" stop="20260806144500 +0200">
+    <title lang="fr">Guew Bii</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806144500 +0200" stop="20260806153000 +0200">
+    <title lang="fr">Clubs des Sports</title>
+    <desc lang="fr">Magazine des éditorialistes des sports présenté par Ibrahima Mboup/Thierno Dramé.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806153000 +0200" stop="20260806154000 +0200">
+    <title lang="fr">Journal en Bassari</title>
+    <desc lang="fr">Edition d'informations en langue Bassari.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806154000 +0200" stop="20260806160000 +0200">
+    <title lang="fr">Journal Puulaar</title>
+    <desc lang="fr">Edition d'informations en langue Pulaar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806160000 +0200" stop="20260806170000 +0200">
+    <title lang="fr">Jeek Ak Keureum</title>
+    <desc lang="fr">Talk-show traitant de faits de société.Présenté par Francesca Diafouné/Aissatou Sarr.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806170000 +0200" stop="20260806171500 +0200">
+    <title lang="fr">Journal en Soninké</title>
+    <desc lang="fr">Edition d'informations en langue Soninké.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806171500 +0200" stop="20260806173000 +0200">
+    <title lang="fr">Journal en Sérère</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806173000 +0200" stop="20260806180000 +0200">
+    <title lang="fr">Appels religieux</title>
+    <desc lang="fr">Un programme religieux à suivre sur TFM Sénégal.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806180000 +0200" stop="20260806183000 +0200">
+    <title lang="fr">Yeurmande</title>
+    <desc lang="fr">Il s'agit dans ce film d'un homme dénommé Demba qui veut amener son oncle Père Alpha à la Mecque. Mais son petit frère lui demande de l'amener à l'étranger. Demba annule dès lors le voyage de son oncle. Ce dernier, très en colère contre toute la famille, commence à leur causer d'énormes difficultés. La famille va même jusqu'à vendre leur maison. A son retour, Demba va rétablir les choses à la normale.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806183000 +0200" stop="20260806190000 +0200">
+    <title lang="fr">Interlude</title>
+    <desc lang="fr">Musique traditionnelle sénégalaise</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806190000 +0200" stop="20260806193000 +0200">
+    <title lang="fr">Xibaar yi</title>
+    <desc lang="fr">Edition d'informations en langue wolof.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806193000 +0200" stop="20260806195500 +0200">
+    <title lang="fr">Interlude</title>
+    <desc lang="fr">Musique traditionnelle sénégalaise</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806195500 +0200" stop="20260806200000 +0200">
+    <title lang="fr">Publicité</title>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806200000 +0200" stop="20260806205000 +0200">
+    <title lang="fr">Journal 20h00 RTS</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806205000 +0200" stop="20260806210500 +0200">
+    <title lang="fr">Publi-reportages</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806210500 +0200" stop="20260806213000 +0200">
+    <title lang="fr">Al mizaan</title>
+    <desc lang="fr">Une émission religieuse présentée par Imam Idrissa Gaye.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806213000 +0200" stop="20260806220000 +0200">
+    <title lang="fr">La voie du croyant</title>
+    <desc lang="fr">Une émission religieuse présentée par Imam Mokhtar Ndiaye.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806220000 +0200" stop="20260806230000 +0200">
+    <title lang="fr">Spécial Gamou</title>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806230000 +0200" stop="20260806233000 +0200">
+    <title lang="fr">Journal du soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.658" start="20260806233000 +0200" stop="20260807000000 +0200">
+    <title lang="fr">Kaddug islam</title>
+    <desc lang="fr">Une émission religieuse présentée par Imam Ousmane Sarr.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
   <programme channel="oqee.667" start="20260806000000 +0200" stop="20260806002500 +0200">
     <title lang="fr">Elif ve Arkadaşları</title>
     <desc lang="fr">Program, çocukların günlük yaşamından kesitler sunan sıcak ve samimi hikâyelerle ekrana geliyor. Arkadaşlar arasında yaşanan küçük anlaşmazlıklar, oyunlar ve birlikte geçirilen zamanlar üzerinden dostluk, paylaşma, empati ve sorumluluk gibi değerler anlatılıyor. Her bölümde çocukların kendilerinden bir parça bulabileceği olaylar ele alınırken, çözüm odaklı yaklaşımlar ön plana çıkıyor. Renkli animasyonlar ve akıcı anlatımı sayesinde program, çocukların sosyal ve duygusal gelişimine katkı sağlayan güvenli ve keyifli bir animasyon deneyimi sunuyor.</desc>
@@ -55679,7 +56309,7 @@
     <category lang="fr">Magazine / Magazine culinaire</category>
   </programme>
   <programme channel="oqee.67" start="20260806134500 +0200" stop="20260806150000 +0200">
-    <title lang="fr">La ruleta de la suerte</title>
+    <title lang="fr">La ruleta de la suerte - S20E4757</title>
     <desc lang="fr">Clásico concurso en el que tres participantes deben adivinar las letras correctas que forman una palabra o una frase con la ayuda de una ruleta que cuenta con 24 opciones. La presentación del programa corre a cargo de Jorge Fernández con la colaboración de Laura Moure.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
@@ -58554,7 +59184,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806013100 +0200" stop="20260806020000 +0200">
     <title lang="fr">12 minutes with</title>
-    <desc lang="fr">In-depth interviews with influential Europeans shaping politics, business, science and the future of the continent.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806014600 +0200" stop="20260806020000 +0200">
@@ -58785,7 +59414,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806084600 +0200" stop="20260806093000 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806084900 +0200" stop="20260806090000 +0200">
@@ -58845,7 +59473,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806104600 +0200" stop="20260806110000 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806104900 +0200" stop="20260806110000 +0200">
@@ -58905,12 +59532,10 @@
   </programme>
   <programme channel="oqee.802" start="20260806122900 +0200" stop="20260806125200 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806125200 +0200" stop="20260806130000 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806130000 +0200" stop="20260806131500 +0200">
@@ -58945,7 +59570,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806134600 +0200" stop="20260806140000 +0200">
     <title lang="fr">Euronews Investigates</title>
-    <desc lang="fr">Euronews Investigates: untold stories impacting everyday Europeans — conflict, climate, migration, security.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.802" start="20260806134800 +0200" stop="20260806140000 +0200">
@@ -58990,7 +59614,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806144200 +0200" stop="20260806150000 +0200">
     <title lang="fr">12 minutes with</title>
-    <desc lang="fr">In-depth interviews with influential Europeans shaping politics, business, science and the future of the continent.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806144500 +0200" stop="20260806150000 +0200">
@@ -59098,7 +59721,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806174600 +0200" stop="20260806180000 +0200">
     <title lang="fr">Euronews Investigates</title>
-    <desc lang="fr">Euronews Investigates: untold stories impacting everyday Europeans — conflict, climate, migration, security.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.802" start="20260806180000 +0200" stop="20260806181500 +0200">
@@ -59143,7 +59765,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806192900 +0200" stop="20260806195200 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806192900 +0200" stop="20260806195100 +0200">
@@ -59156,7 +59777,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806195200 +0200" stop="20260806200000 +0200">
     <title lang="fr">The Ring</title>
-    <desc lang="fr">Euronews' weekly show where Europe's most outspoken voices clash on the continent's biggest political debates.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806200000 +0200" stop="20260806201400 +0200">
@@ -59250,7 +59870,6 @@
   </programme>
   <programme channel="oqee.802" start="20260806224600 +0200" stop="20260806230000 +0200">
     <title lang="fr">12 minutes with</title>
-    <desc lang="fr">In-depth interviews with influential Europeans shaping politics, business, science and the future of the continent.</desc>
     <category lang="fr">Magazine / Magazine politique</category>
   </programme>
   <programme channel="oqee.802" start="20260806230000 +0200" stop="20260806231500 +0200">
@@ -59277,6 +59896,109 @@
     <title lang="fr">Explore Angola</title>
     <desc lang="fr">Explore Angola is a documentary series about this African country that has a lot to offer to tourists. Angola became independent in 1975, after a long history of Portuguese rule, and since then built a strong cultural identity. Find out what makes is special, from wildlife and historical landmarks, to the popular Kizomba music that makes everyone dance. Discover the amazing landscapes with coasts, rivers and national parks full of abundant flora and rare animal species.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806010000 +0200" stop="20260806020000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806020000 +0200" stop="20260806024500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806024500 +0200" stop="20260806031500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806031500 +0200" stop="20260806041500 +0200">
+    <title lang="fr">Iubire ca în filme</title>
+    <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806041500 +0200" stop="20260806050000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806050000 +0200" stop="20260806093000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806093000 +0200" stop="20260806120000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806120000 +0200" stop="20260806130000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806130000 +0200" stop="20260806131500 +0200">
+    <title lang="fr">Teleshopping</title>
+    <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806131500 +0200" stop="20260806140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806140000 +0200" stop="20260806150000 +0200">
+    <title lang="fr">Apropo TV</title>
+    <desc lang="fr">"Apropo" este unul dintre cele mai folosite cuvinte din vocabularul românilor. Fie ca sunt în maşină, la serviciu, acasă, pe stradă sau pur şi simplu aleg un iaurt dintr-un supermarket, cu "apropo" îşi încep românii cele mai multe dintre discuţii. Tocmai de aceea, ProTV a născocit o emisiune care să se numească simplu Apropo TV, care să satisfacă cele mai multe dintre curiozităţile telespectatorilor şi să le dea câteva subiecte zdravene de vorbit cel puţin pentru câteva zile.</desc>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806150000 +0200" stop="20260806160000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806160000 +0200" stop="20260806170000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806170000 +0200" stop="20260806180000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806180000 +0200" stop="20260806193000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806193000 +0200" stop="20260806201500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806201500 +0200" stop="20260806211500 +0200">
+    <title lang="fr">Iubire ca în filme</title>
+    <desc lang="fr">"Iubire ca în filme" este un serial românesc de televiziune care urmărește povestea Ioanei, o tânără modestă ce ajunge, printr-o întâmplare neașteptată, să trăiască o viață dublă. Pentru a-și ajuta familia, ea acceptă să intre într-o lume complet diferită de a ei, unde trebuie să joace un rol riscant, iar granița dintre adevăr și aparență devine tot mai fragilă. Pe fundalul acestei situații complicate, ia naștere o poveste de dragoste marcată de obstacole, neînțelegeri și alegeri dificile. Relațiile dintre personaje evoluează constant, iar secretele ies la iveală în momente-cheie, schimbând destine și punând la încercare loialitatea și sentimentele.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806211500 +0200" stop="20260806221500 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">"Lecţii de viaţă" este o producţie de tip ficţiune, bazată pe situaţii şi întâmplări reale, din viaţa cotidiană a familiilor.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806221500 +0200" stop="20260806224500 +0200">
+    <title lang="fr">Teleshopping</title>
+    <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806224500 +0200" stop="20260806231500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260806231500 +0200" stop="20260807010000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
   </programme>
   <programme channel="oqee.835" start="20260806000000 +0200" stop="20260806002500 +0200">
     <title lang="fr">RTL Nachtjournal - S18E149</title>
