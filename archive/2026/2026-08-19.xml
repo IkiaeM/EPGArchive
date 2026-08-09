@@ -668,6 +668,10 @@
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
   </channel>
+  <channel id="TVVendee.fr">
+    <display-name>TV Vendée</display-name>
+    <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/TV_Vendee_color.png"/>
+  </channel>
   <channel id="TahitiNuiTV.fr">
     <display-name>Tahiti Nui TV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~4f89934309c38843.png/480x480/quality/100/tntv-france.png"/>
@@ -799,6 +803,10 @@
   <channel id="beINSPORTSMAX9.fr">
     <display-name>beIN SPORTS MAX 9</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~3149edbf3b3b1738.png/480x480/quality/100/bein-sports-max-9.png"/>
+  </channel>
+  <channel id="oqee.1024">
+    <display-name>ART Hekayat 1</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2448/w256"/>
   </channel>
   <channel id="oqee.1036">
     <display-name>Global Africa Telesud</display-name>
@@ -1064,6 +1072,10 @@
     <display-name>TVE Internacional</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1578/w256"/>
   </channel>
+  <channel id="oqee.366">
+    <display-name>Canal 24 Horas</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1580/w256"/>
+  </channel>
   <channel id="oqee.368">
     <display-name>Rai Uno</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/1589/w256"/>
@@ -1083,6 +1095,14 @@
   <channel id="oqee.382">
     <display-name>CNN International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1324/w256"/>
+  </channel>
+  <channel id="oqee.386">
+    <display-name>ART Aflam 1</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1040/w256"/>
+  </channel>
+  <channel id="oqee.396">
+    <display-name>Sky News International</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1320/w256"/>
   </channel>
   <channel id="oqee.401">
     <display-name>Le Figaro TV Île-de-France</display-name>
@@ -1116,6 +1136,10 @@
     <display-name>TV5 Turkey</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2094/w256"/>
   </channel>
+  <channel id="oqee.484">
+    <display-name>Euro D</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3201/w256"/>
+  </channel>
   <channel id="oqee.485">
     <display-name>Star TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1640/w256"/>
@@ -1127,6 +1151,10 @@
   <channel id="oqee.49">
     <display-name>English Club TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/56/w256"/>
+  </channel>
+  <channel id="oqee.490">
+    <display-name>CCTV-4</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1828/w256"/>
   </channel>
   <channel id="oqee.501">
     <display-name>CGTN Français</display-name>
@@ -1171,6 +1199,10 @@
   <channel id="oqee.664">
     <display-name>iTVN</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1536/w256"/>
+  </channel>
+  <channel id="oqee.67">
+    <display-name>Antena 3</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/972/w256"/>
   </channel>
   <channel id="oqee.68">
     <display-name>Atres Series</display-name>
@@ -1247,6 +1279,10 @@
   <channel id="oqee.950">
     <display-name>Showmax</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2325/w256"/>
+  </channel>
+  <channel id="oqee.953">
+    <display-name>TRT Belgesel</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/2345/w256"/>
   </channel>
   <channel id="oqee.954">
     <display-name>BeIN Iz</display-name>
@@ -4522,6 +4558,14 @@
     <title lang="fr">Le 12-17</title>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
+  <programme channel="BFMGrandLille.fr" start="20260819170000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">Bonsoir le Nord</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="BFMGrandLille.fr" start="20260819190000 +0200" stop="20260819230000 +0200">
+    <title lang="fr">Bonsoir le Nord</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="BFMGrandLille.fr" start="20260819230000 +0200" stop="20260820063000 +0200">
     <title lang="fr">Programmes de la nuit BFM Lille</title>
     <desc lang="fr">Suivez le programme de la nuit sur BFM Lille.</desc>
@@ -4596,6 +4640,76 @@
     <title lang="fr">4 good</title>
     <category lang="fr">Divers / Talk-show</category>
   </programme>
+  <programme channel="BSmartTV.fr" start="20260819010000 +0200" stop="20260819013000 +0200">
+    <title lang="fr">Rebonds</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819013000 +0200" stop="20260819020000 +0200">
+    <title lang="fr">Sous la robe</title>
+    <category lang="fr">Magazine / Magazine judiciaire</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819020000 +0200" stop="20260819021500 +0200">
+    <title lang="fr">Smart Bourse</title>
+    <desc lang="fr">Actualité boursière, macroéconomie, stratégies d'entreprise, finances personnelles : Smart Bourse, c'est l'émission qui vous permet de suivre les mouvements de la Planète Marchés chaque jour en direct à 17h, et en supplément le lundi à 13h30 pour le Plan de Trading.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819021500 +0200" stop="20260819023000 +0200">
+    <title lang="fr">Art et marché</title>
+    <desc lang="fr">Art et Marché vous emmène toutes les semaines à la rencontre des acteurs du marché de l'art. Tendances, fiscalité, règlementation... quinze minutes pour comprendre comment développer son patrimoine artistique.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819023000 +0200" stop="20260819033000 +0200">
+    <title lang="fr">Smart Impact</title>
+    <desc lang="fr"> Une émission de solutions animée par Thomas Hugues. Chaque jour, des témoignages d'entrepreneurs et d'experts autour de la transition écologique, et des enjeux RSE. Smart Impact, le magazine de l'économie responsable et durable.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819033000 +0200" stop="20260819043000 +0200">
+    <title lang="fr">4 good</title>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819043000 +0200" stop="20260819050000 +0200">
+    <title lang="fr">Rebonds</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819050000 +0200" stop="20260819053000 +0200">
+    <title lang="fr">Sous la robe</title>
+    <category lang="fr">Magazine / Magazine judiciaire</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819053000 +0200" stop="20260819054500 +0200">
+    <title lang="fr">Smart Bourse</title>
+    <desc lang="fr">Actualité boursière, macroéconomie, stratégies d'entreprise, finances personnelles : Smart Bourse, c'est l'émission qui vous permet de suivre les mouvements de la Planète Marchés chaque jour en direct à 17h, et en supplément le lundi à 13h30 pour le Plan de Trading.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819054500 +0200" stop="20260819060000 +0200">
+    <title lang="fr">Art et marché</title>
+    <desc lang="fr">Art et Marché vous emmène toutes les semaines à la rencontre des acteurs du marché de l'art. Tendances, fiscalité, règlementation... quinze minutes pour comprendre comment développer son patrimoine artistique.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819060000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">Smart Impact</title>
+    <desc lang="fr"> Une émission de solutions animée par Thomas Hugues. Chaque jour, des témoignages d'entrepreneurs et d'experts autour de la transition écologique, et des enjeux RSE. Smart Impact, le magazine de l'économie responsable et durable.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819070000 +0200" stop="20260819073000 +0200">
+    <title lang="fr">Smart Job</title>
+    <desc lang="fr">Le premier programme court dédié à la transformation digitale de l'industrie La gestion des données est un enjeu crucial au cœur de la transformation digitale du secteur industriel. Rencontre avec des industriels qui ont accompli cette transformation : témoignages, décryptages et analyses, pour mieux comprendre les enjeux de cette transition inédite.</desc>
+    <category lang="fr">Magazine / Magazine de l'emploi</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819073000 +0200" stop="20260819080000 +0200">
+    <title lang="fr">Smart Immo</title>
+    <desc lang="fr">Le rendez-vous qui donne la parole aux acteurs de l'immobilier et du logement. En plateau, Gilane Barret reçoit les professionnels du secteur pour faire un gros plan sur la situation actuelle et se projeter sur l'avenir.</desc>
+    <category lang="fr">Magazine / Magazine de l'emploi</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819080000 +0200" stop="20260819083000 +0200">
+    <title lang="fr">Smart capital</title>
+    <desc lang="fr">Smart Capital décrypte les enjeux clés de la finance d'entreprise. A travers des interviews d'experts, des analyses et des retours d'expérience, l'émission met en lumière les décisions qui transforment les organisations et façonnent l'économie réelle.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819083000 +0200" stop="20260819090000 +0200">
+    <title lang="fr">Smart Tech</title>
+    <desc lang="fr"> Le magazine quotidien de l'innovation présenté par Delphine Sabattier. De la recherche médicale à l'éducation en passant par la cybersécurité, la mobilité ou encore la finance, tout ce qu'il faut savoir pour rester à la pointe des innovations numériques et mieux comprendre le monde de demain. Du lundi au vendredi à 12h et 19h.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
   <programme channel="BSmartTV.fr" start="20260819090000 +0200" stop="20260819094500 +0200">
     <title lang="fr">Smart cyber</title>
     <category lang="fr">Magazine / Magazine scientifique</category>
@@ -4604,6 +4718,36 @@
     <title lang="fr">Bossa nova</title>
     <desc lang="fr">Des entrepreneuses de tous secteurs et tous horizons racontent leur parcours et reviennent sur leurs stratégies d'entreprise. Interviewées face caméra pendant une demi-heure, elles partagent aussi leurs expériences notamment en dispensant des conseils à leurs pairs.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819100000 +0200" stop="20260819103000 +0200">
+    <title lang="fr">Lex inside</title>
+    <desc lang="fr">L'émission qui donne du sens à l'actualité juridique Chaque semaine, Lex Inside, animé par Arnaud Dumourier, analyse l'actualité juridique avec des experts. A travers des interviews et des analyses, l'émission décrypte les évolutions législatives et jurisprudentielles, offrant une perspective unique sur le droit.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819103000 +0200" stop="20260819110000 +0200">
+    <title lang="fr">Smart Women</title>
+    <desc lang="fr">L'émission qui donne le pouvoir aux femmes. Découvrez des personnalités qui incarnent ou accompagnent l'accomplissement professionnel des femmes. Que ce soit dans les réseaux, les collectifs ou au sein des entreprises, les initiatives se multiplient pour faire émerger des rôles-modèles et donner aux femmes leur juste place dans le monde du travail.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819110000 +0200" stop="20260819120000 +0200">
+    <title lang="fr">Smart Impact</title>
+    <desc lang="fr"> Une émission de solutions animée par Thomas Hugues. Chaque jour, des témoignages d'entrepreneurs et d'experts autour de la transition écologique, et des enjeux RSE. Smart Impact, le magazine de l'économie responsable et durable.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819120000 +0200" stop="20260819121500 +0200">
+    <title lang="fr">Smart Bourse</title>
+    <desc lang="fr">Actualité boursière, macroéconomie, stratégies d'entreprise, finances personnelles : Smart Bourse, c'est l'émission qui vous permet de suivre les mouvements de la Planète Marchés chaque jour en direct à 17h, et en supplément le lundi à 13h30 pour le Plan de Trading.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819121500 +0200" stop="20260819123000 +0200">
+    <title lang="fr">Art et marché</title>
+    <desc lang="fr">Art et Marché vous emmène toutes les semaines à la rencontre des acteurs du marché de l'art. Tendances, fiscalité, règlementation... quinze minutes pour comprendre comment développer son patrimoine artistique.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819123000 +0200" stop="20260819130000 +0200">
+    <title lang="fr">Smart Tech</title>
+    <desc lang="fr"> Le magazine quotidien de l'innovation présenté par Delphine Sabattier. De la recherche médicale à l'éducation en passant par la cybersécurité, la mobilité ou encore la finance, tout ce qu'il faut savoir pour rester à la pointe des innovations numériques et mieux comprendre le monde de demain. Du lundi au vendredi à 12h et 19h.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
   </programme>
   <programme channel="BSmartTV.fr" start="20260819130000 +0200" stop="20260819133000 +0200">
     <title lang="fr">Smart patrimoine</title>
@@ -4615,6 +4759,16 @@
     <desc lang="fr">Le rendez-vous qui donne la parole aux acteurs de l'immobilier et du logement. En plateau, Gilane Barret reçoit les professionnels du secteur pour faire un gros plan sur la situation actuelle et se projeter sur l'avenir.</desc>
     <category lang="fr">Magazine / Magazine de l'emploi</category>
   </programme>
+  <programme channel="BSmartTV.fr" start="20260819140000 +0200" stop="20260819143000 +0200">
+    <title lang="fr">Smart Job</title>
+    <desc lang="fr">Le premier programme court dédié à la transformation digitale de l'industrie La gestion des données est un enjeu crucial au cœur de la transformation digitale du secteur industriel. Rencontre avec des industriels qui ont accompli cette transformation : témoignages, décryptages et analyses, pour mieux comprendre les enjeux de cette transition inédite.</desc>
+    <category lang="fr">Magazine / Magazine de l'emploi</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819143000 +0200" stop="20260819150000 +0200">
+    <title lang="fr">Smart capital</title>
+    <desc lang="fr">Smart Capital décrypte les enjeux clés de la finance d'entreprise. A travers des interviews d'experts, des analyses et des retours d'expérience, l'émission met en lumière les décisions qui transforment les organisations et façonnent l'économie réelle.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
   <programme channel="BSmartTV.fr" start="20260819150000 +0200" stop="20260819151500 +0200">
     <title lang="fr">Art et marché</title>
     <desc lang="fr">Art et Marché vous emmène toutes les semaines à la rencontre des acteurs du marché de l'art. Tendances, fiscalité, règlementation... quinze minutes pour comprendre comment développer son patrimoine artistique.</desc>
@@ -4622,6 +4776,80 @@
   </programme>
   <programme channel="BSmartTV.fr" start="20260819151500 +0200" stop="20260819160000 +0200">
     <title lang="fr">Smart cyber</title>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819160000 +0200" stop="20260819163000 +0200">
+    <title lang="fr">Smart Tech</title>
+    <desc lang="fr"> Le magazine quotidien de l'innovation présenté par Delphine Sabattier. De la recherche médicale à l'éducation en passant par la cybersécurité, la mobilité ou encore la finance, tout ce qu'il faut savoir pour rester à la pointe des innovations numériques et mieux comprendre le monde de demain. Du lundi au vendredi à 12h et 19h.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819163000 +0200" stop="20260819170000 +0200">
+    <title lang="fr">Lex inside</title>
+    <desc lang="fr">L'émission qui donne du sens à l'actualité juridique Chaque semaine, Lex Inside, animé par Arnaud Dumourier, analyse l'actualité juridique avec des experts. A travers des interviews et des analyses, l'émission décrypte les évolutions législatives et jurisprudentielles, offrant une perspective unique sur le droit.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819170000 +0200" stop="20260819171500 +0200">
+    <title lang="fr">Smart Bourse</title>
+    <desc lang="fr">Actualité boursière, macroéconomie, stratégies d'entreprise, finances personnelles : Smart Bourse, c'est l'émission qui vous permet de suivre les mouvements de la Planète Marchés chaque jour en direct à 17h, et en supplément le lundi à 13h30 pour le Plan de Trading.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819171500 +0200" stop="20260819173000 +0200">
+    <title lang="fr">Art et marché</title>
+    <desc lang="fr">Art et Marché vous emmène toutes les semaines à la rencontre des acteurs du marché de l'art. Tendances, fiscalité, règlementation... quinze minutes pour comprendre comment développer son patrimoine artistique.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819173000 +0200" stop="20260819183000 +0200">
+    <title lang="fr">Smart Impact</title>
+    <desc lang="fr"> Une émission de solutions animée par Thomas Hugues. Chaque jour, des témoignages d'entrepreneurs et d'experts autour de la transition écologique, et des enjeux RSE. Smart Impact, le magazine de l'économie responsable et durable.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819183000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">Smart capital</title>
+    <desc lang="fr">Smart Capital décrypte les enjeux clés de la finance d'entreprise. A travers des interviews d'experts, des analyses et des retours d'expérience, l'émission met en lumière les décisions qui transforment les organisations et façonnent l'économie réelle.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819190000 +0200" stop="20260819193000 +0200">
+    <title lang="fr">Smart patrimoine</title>
+    <desc lang="fr">Le rendez-vous de vos finances personnelles Trente minutes pour mieux comprendre comment faire fructifier vos placements. Immobilier, fiscalité du patrimoine, ISR, cryptomonnaies, marché de l'art : les meilleurs spécialistes répondent à vos interrogations.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819193000 +0200" stop="20260819200000 +0200">
+    <title lang="fr">Smart Women</title>
+    <desc lang="fr">L'émission qui donne le pouvoir aux femmes. Découvrez des personnalités qui incarnent ou accompagnent l'accomplissement professionnel des femmes. Que ce soit dans les réseaux, les collectifs ou au sein des entreprises, les initiatives se multiplient pour faire émerger des rôles-modèles et donner aux femmes leur juste place dans le monde du travail.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819200000 +0200" stop="20260819204500 +0200">
+    <title lang="fr">Smart cyber</title>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819204500 +0200" stop="20260819210000 +0200">
+    <title lang="fr">Bossa nova</title>
+    <desc lang="fr">Des entrepreneuses de tous secteurs et tous horizons racontent leur parcours et reviennent sur leurs stratégies d'entreprise. Interviewées face caméra pendant une demi-heure, elles partagent aussi leurs expériences notamment en dispensant des conseils à leurs pairs.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819210000 +0200" stop="20260819213000 +0200">
+    <title lang="fr">Lex inside</title>
+    <desc lang="fr">L'émission qui donne du sens à l'actualité juridique Chaque semaine, Lex Inside, animé par Arnaud Dumourier, analyse l'actualité juridique avec des experts. A travers des interviews et des analyses, l'émission décrypte les évolutions législatives et jurisprudentielles, offrant une perspective unique sur le droit.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819213000 +0200" stop="20260819220000 +0200">
+    <title lang="fr">Smart Job</title>
+    <desc lang="fr">Le premier programme court dédié à la transformation digitale de l'industrie La gestion des données est un enjeu crucial au cœur de la transformation digitale du secteur industriel. Rencontre avec des industriels qui ont accompli cette transformation : témoignages, décryptages et analyses, pour mieux comprendre les enjeux de cette transition inédite.</desc>
+    <category lang="fr">Magazine / Magazine de l'emploi</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819220000 +0200" stop="20260819223000 +0200">
+    <title lang="fr">Smart patrimoine</title>
+    <desc lang="fr">Le rendez-vous de vos finances personnelles Trente minutes pour mieux comprendre comment faire fructifier vos placements. Immobilier, fiscalité du patrimoine, ISR, cryptomonnaies, marché de l'art : les meilleurs spécialistes répondent à vos interrogations.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819223000 +0200" stop="20260819233000 +0200">
+    <title lang="fr">Smart Impact</title>
+    <desc lang="fr"> Une émission de solutions animée par Thomas Hugues. Chaque jour, des témoignages d'entrepreneurs et d'experts autour de la transition écologique, et des enjeux RSE. Smart Impact, le magazine de l'économie responsable et durable.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="BSmartTV.fr" start="20260819233000 +0200" stop="20260820000000 +0200">
+    <title lang="fr">Smart Tech</title>
+    <desc lang="fr"> Le magazine quotidien de l'innovation présenté par Delphine Sabattier. De la recherche médicale à l'éducation en passant par la cybersécurité, la mobilité ou encore la finance, tout ce qu'il faut savoir pour rester à la pointe des innovations numériques et mieux comprendre le monde de demain. Du lundi au vendredi à 12h et 19h.</desc>
     <category lang="fr">Magazine / Magazine scientifique</category>
   </programme>
   <programme channel="Boing.fr" start="20260819000000 +0200" stop="20260819001000 +0200">
@@ -12780,7 +13008,7 @@
     <category lang="fr">Emission sportive / Snooker</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260819050000 +0200" stop="20260819070000 +0200">
-    <title lang="fr">Cyclisme : Tour d'Espagne - Cabezon de la Sal_L'Angliru (202,7 km)</title>
+    <title lang="fr">Cyclisme : Tour d'Espagne - Tour d'Espagne</title>
     <desc lang="fr">Il s'agit de l'étape la plus longue de cette Vuelta. Les difficultés sont concentrées dans le dernier tronçon. La Mozqueta et El Cordal, deux cols de 1re catégorie, serviront de prélude à la montée vers le redoutable Altu de L'Angliru.</desc>
     <category lang="fr">Emission sportive / Cyclisme</category>
   </programme>
@@ -22930,8 +23158,20 @@
     <title lang="fr">Bonjour la Normandie</title>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
+  <programme channel="LaChaineNormande.fr" start="20260819123000 +0200" stop="20260819130000 +0200">
+    <title lang="fr">Le 12.30 - 17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
   <programme channel="LaChaineNormande.fr" start="20260819130000 +0200" stop="20260819170000 +0200">
     <title lang="fr">Le 12.30 - 17</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="LaChaineNormande.fr" start="20260819170000 +0200" stop="20260819180000 +0200">
+    <title lang="fr">Bonsoir la Normandie</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="LaChaineNormande.fr" start="20260819180000 +0200" stop="20260819210000 +0200">
+    <title lang="fr">Bonsoir la Normandie</title>
     <category lang="fr">Magazine / Magazine régional</category>
   </programme>
   <programme channel="LaChaineNormande.fr" start="20260819210000 +0200" stop="20260820063000 +0200">
@@ -32419,9 +32659,8 @@
     <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="TFM.af" start="20260819130000 +0200" stop="20260819133000 +0200">
-    <title lang="fr">JT TFM</title>
-    <desc lang="fr">Suivez le journal télévisé d'informations actuelles.</desc>
-    <category lang="fr">Divers / Journal</category>
+    <title lang="fr">Xiibaar Yi</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="TFM.af" start="20260819133000 +0200" stop="20260819140000 +0200">
     <title lang="fr">Pub et Musique</title>
@@ -32449,9 +32688,9 @@
     <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TFM.af" start="20260819180000 +0200" stop="20260819190000 +0200">
-    <title lang="fr">Kouthia Show</title>
-    <desc lang="fr">TFM vous offre des moments de détente avec Kouthia Show.</desc>
-    <category lang="fr">Divers / Talk-show</category>
+    <title lang="fr">Fileu</title>
+    <desc lang="fr">Elle aborde des faits divers, des anecdotes quotidiennes et des actualités locales, tout en invitant les téléspectateurs à donner leur avis.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="TFM.af" start="20260819190000 +0200" stop="20260819193000 +0200">
     <title lang="fr">Clips et Pub</title>
@@ -34271,6 +34510,16 @@
     <title lang="fr">Mon robot et moi</title>
     <desc lang="fr">Eugène est un génie de la robotique qui a construit son propre robot appelé C.H.I.P. Accompagnés de ses meilleurs amis, Maia et Joseph, ils vivent ensemble des aventures rocambolesques dans leur école de robotique.</desc>
     <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260819000000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="TVVendee.fr" start="20260819070000 +0200" stop="20260819090000 +0200">
+    <title lang="fr">La matinale</title>
+    <desc lang="fr">Toute l'actualité et les informations à retenir du département de Vendée pour bien débuter la journée. </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
   </programme>
   <programme channel="TahitiNuiTV.fr" start="20260819000300 +0200" stop="20260819002300 +0200">
     <title lang="fr">Ahitea</title>
@@ -37824,6 +38073,18 @@
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
     <desc lang="fr">Profitez des grands championnats et les meilleurs événements sportifs sur beIN Sports, la chaîne qui couvre toutes sortes de disciplines avec un accent particulier sur les sports d'équipe.</desc>
     <category lang="fr">Magazine sportif / Multisports</category>
+  </programme>
+  <programme channel="oqee.1024" start="20260819010000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">ART Hekayat 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1024" start="20260819070000 +0200" stop="20260819100000 +0200">
+    <title lang="fr">ART Hekayat 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1024" start="20260819220000 +0200" stop="20260820010000 +0200">
+    <title lang="fr">ART Hekayat 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="oqee.1036" start="20260819000100 +0200" stop="20260819005300 +0200">
     <title lang="fr">La Bande à Carlyle - S02E201</title>
@@ -52654,7 +52915,72 @@
     <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.338" start="20260819010000 +0200" stop="20260819013000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819013000 +0200" stop="20260819020000 +0200">
+    <title lang="fr">Behind the News</title>
+    <desc lang="fr">Current affairs programme that looks behind various important news stories from across the globe to provide deeper meaning and explanation.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819020000 +0200" stop="20260819020500 +0200">
+    <title lang="fr">News Summary</title>
+    <desc lang="fr">News Summary provides the latest news and top headlines in the Middle East and around the world. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819020500 +0200" stop="20260819030000 +0200">
+    <title lang="fr">On the scale</title>
+    <desc lang="fr">"On the Scale" is a current affairs and analysis program that explores global events by assessing their real weight and consequences. Political crises, conflicts, economic shifts and social developments are examined through expert commentary and detailed discussion. By placing each story within a broader context, the program helps viewers understand how local events can expand into regional and global issues that shape international dynamics.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819030000 +0200" stop="20260819040000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819040000 +0200" stop="20260819043000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819043000 +0200" stop="20260819050000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819050000 +0200" stop="20260819060000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819060000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819070000 +0200" stop="20260819080000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819080000 +0200" stop="20260819090000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.338" start="20260819090000 +0200" stop="20260819100000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819100000 +0200" stop="20260819110000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819110000 +0200" stop="20260819120000 +0200">
     <title lang="fr">News Bulletin</title>
     <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -52669,7 +52995,77 @@
     <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.338" start="20260819140000 +0200" stop="20260819150000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.338" start="20260819150000 +0200" stop="20260819160000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819160000 +0200" stop="20260819170000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819170000 +0200" stop="20260819180000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819180000 +0200" stop="20260819180500 +0200">
+    <title lang="fr">News Summary</title>
+    <desc lang="fr">News Summary provides the latest news and top headlines in the Middle East and around the world. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819180500 +0200" stop="20260819183000 +0200">
+    <title lang="fr">From Washington</title>
+    <desc lang="fr">Follow a variety of journalists, thinkers, analysts and decision makers as they discuss the week's most important news related to American affairs, with emphasis on those dealing with the Arab World. They will explore stories and issues that are of interests to viewers and from a variety of fields such as politics, economy, culture, and more.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819183000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819190000 +0200" stop="20260819193000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819193000 +0200" stop="20260819200000 +0200">
+    <title lang="fr">Behind the News</title>
+    <desc lang="fr">Current affairs programme that looks behind various important news stories from across the globe to provide deeper meaning and explanation.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819200000 +0200" stop="20260819210000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819210000 +0200" stop="20260819210500 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819210500 +0200" stop="20260819213000 +0200">
+    <title lang="fr">News Summary</title>
+    <desc lang="fr">News Summary provides the latest news and top headlines in the Middle East and around the world. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819213000 +0200" stop="20260819220000 +0200">
+    <title lang="fr">Scenarios</title>
+    <desc lang="fr">The programme focuses on the political outlook and thoroughly examines possible political scenarios for various local and global events. It is based on the study of possible future indicators as well as current data. </desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819220000 +0200" stop="20260819230000 +0200">
+    <title lang="fr">News Bulletin</title>
+    <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.338" start="20260819230000 +0200" stop="20260820000000 +0200">
     <title lang="fr">News Bulletin</title>
     <desc lang="fr">International news is followed closely and shared with readers on a regular basis, ensuring that global developments are delivered in a timely and reliable manner. Special attention is given to political, social, and economic events taking place across the Arab world, providing in-depth coverage and clear insights. These updates aim to keep audiences informed about major regional changes while maintaining a broad international perspective.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -53620,6 +54016,191 @@
     <desc lang="fr">Junto a sus seres queridos, los aprendices crearán una prenda que muestre su identidad, siguiendo los consejos de Juana Martín. En el Museo de Arte Contemporáneo Helga de Alvear, de Cáceres, convertirán dos obras de la artista Rosa Brun en prendas. Alejandro G.Palomo regresa al taller como invitado.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.366" start="20260819000000 +0200" stop="20260819003000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819003000 +0200" stop="20260819010000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819010000 +0200" stop="20260819013000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819013000 +0200" stop="20260819020000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819020000 +0200" stop="20260819023000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819023000 +0200" stop="20260819030000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819030000 +0200" stop="20260819033000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819033000 +0200" stop="20260819040000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819040000 +0200" stop="20260819043000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819043000 +0200" stop="20260819050000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819050000 +0200" stop="20260819053000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819053000 +0200" stop="20260819060000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819060000 +0200" stop="20260819063000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819063000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">TD Internacional 24 Horas</title>
+    <desc lang="fr">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819070000 +0200" stop="20260819083000 +0200">
+    <title lang="fr">Telediario Matinal</title>
+    <desc lang="fr">Sirun Demirjian y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819083000 +0200" stop="20260819103500 +0200">
+    <title lang="fr">La hora de La 1: La hora de la actualidad - S09E163</title>
+    <desc lang="fr">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819103500 +0200" stop="20260819110000 +0200">
+    <title lang="fr">Diario 24</title>
+    <desc lang="fr">Espacio de información nacional e internacional diaria.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819110000 +0200" stop="20260819140000 +0200">
+    <title lang="fr">Diario 24</title>
+    <desc lang="fr">Espacio de información nacional e internacional diaria.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819140000 +0200" stop="20260819142800 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819142800 +0200" stop="20260819145500 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819145500 +0200" stop="20260819153000 +0200">
+    <title lang="fr">Telediario 1</title>
+    <desc lang="fr">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819153000 +0200" stop="20260819153500 +0200">
+    <title lang="fr">Teledeporte, directo al Mundial</title>
+    <desc lang="fr">El programa imprescindible si quieres saber todo del Mundial. Con todo lo que pase en el campeonato, informaciones de enviados especiales, resúmenes de todos los partidos de la jornada, las imágenes impactantes y curiosas de lo que ocurra en los 3 países sede.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819153500 +0200" stop="20260819153800 +0200">
+    <title lang="fr">El tiempo</title>
+    <desc lang="fr">Retransmisión del parte meteorológico para España en el día de hoy.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819153800 +0200" stop="20260819154300 +0200">
+    <title lang="fr">Historias inspiradoras</title>
+    <desc lang="fr">Emisión de diferentes reportajes de Historias de superación.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819154300 +0200" stop="20260819160000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819160000 +0200" stop="20260819163000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819163000 +0200" stop="20260819170000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819170000 +0200" stop="20260819200000 +0200">
+    <title lang="fr">La tarde en 24H</title>
+    <desc lang="fr">Informativo en directo de noticias, entrevistas y reportajes con dedicación especial a la economía, internacional, cultura y deporte. </desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819200000 +0200" stop="20260819202800 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819202800 +0200" stop="20260819205800 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819205800 +0200" stop="20260819213700 +0200">
+    <title lang="fr">Telediario 2</title>
+    <desc lang="fr">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819213700 +0200" stop="20260819214200 +0200">
+    <title lang="fr">Deportes 2</title>
+    <desc lang="fr">Actualidad deportiva diaria nacional e internacional.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819214200 +0200" stop="20260819220000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819220000 +0200" stop="20260819223000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819223000 +0200" stop="20260819230000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819230000 +0200" stop="20260819233000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.366" start="20260819233000 +0200" stop="20260820000000 +0200">
+    <title lang="fr">Noticias 24H</title>
+    <desc lang="fr">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.368" start="20260819005500 +0200" stop="20260819010000 +0200">
     <title lang="fr">Che tempo fa</title>
     <desc lang="fr">L'appuntamento con le previsioni del tempo gestito dall'Aeronautica militare.</desc>
@@ -54260,6 +54841,16 @@
     <desc lang="fr">Rubrica di cultura protestante in Italia e nel mondo.</desc>
     <category lang="fr">Magazine / Magazine religieux</category>
   </programme>
+  <programme channel="oqee.374" start="20260819012000 +0200" stop="20260819015500 +0200">
+    <title lang="fr">Sulla via di Damasco</title>
+    <desc lang="fr">Un racconto approfondito sulla variegata realtà ecumenica, umana e sociale, dedita al volontariato sul territorio non solo italiano.</desc>
+    <category lang="fr">Magazine / Magazine religieux</category>
+  </programme>
+  <programme channel="oqee.374" start="20260819015500 +0200" stop="20260819060000 +0200">
+    <title lang="fr">RAInews24</title>
+    <desc lang="fr">Il programma presenta le ultime notizie in tempo reale. News attualità e aggiornamenti su politica, cronaca, esteri, economia, sport e attualità.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.374" start="20260819060000 +0200" stop="20260819080000 +0200">
     <title lang="fr">RAInews24</title>
     <desc lang="fr">Il programma presenta le ultime notizie in tempo reale. News attualità e aggiornamenti su politica, cronaca, esteri, economia, sport e attualità.</desc>
@@ -54325,12 +54916,22 @@
     <desc lang="fr">Monica Ghezzi ci racconta una Parma inedita, sospesa tra i palazzi signorili e le cupole del Correggio e il quartiere Oltretorrente, dimenticato da Dio e dagli uomini.</desc>
     <category lang="fr">Documentaire / Documentaire nature</category>
   </programme>
+  <programme channel="oqee.374" start="20260819164500 +0200" stop="20260819174500 +0200">
+    <title lang="fr">Overland</title>
+    <desc lang="fr">aq - Uganda - Somalia - Malesia - DOCUMENTARIO - Ogni giorno dal lunedì al venerdì il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del - pianeta le storie, i popoli, gli usi, i costumi, i colori, le speranze, le difficoltà. Un archivio di immagini prezioso per la memoria di un mondo sempre più a rischio tra cambiamenti climatici e sociopolitici. - Una produzione Overland Network Realizzazione di Filippo e Beppe Tenti Delegato Rai Milvia Licari</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
   <programme channel="oqee.374" start="20260819164500 +0200" stop="20260819174000 +0200">
     <title lang="fr">Overland</title>
     <desc lang="fr">Afganistan - Kazakistan - DOCUMENTARIO - Ogni giorno dal lunedì al venerdì il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pianeta - le storie, i popoli, gli usi, i costumi, i colori, le speranze, le difficoltà. - Una produzione Overland Network Realizzazione di Filippo e Beppe Tenti Delegato Rai Giulia Lanza</desc>
     <category lang="fr">Documentaire / Documentaire découvertes</category>
   </programme>
   <programme channel="oqee.374" start="20260819174000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">Geo Magazine</title>
+    <desc lang="fr">Se dici Geo dici natura, dici terra, dici mare, dici vento. Se dici Geo racconti i passi degli uomini che attraversano questa terra, parli dei loro cibi, della loro difficile convivenza con l'ambiente che li circonda. Un racconto emozionante che ha al suo centro la natura e l'ambiente, che ha a cuore il futuro del nostro Pianeta e le tradizioni del nostro Paese. </desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="oqee.374" start="20260819174500 +0200" stop="20260819190000 +0200">
     <title lang="fr">Geo Magazine</title>
     <desc lang="fr">Se dici Geo dici natura, dici terra, dici mare, dici vento. Se dici Geo racconti i passi degli uomini che attraversano questa terra, parli dei loro cibi, della loro difficile convivenza con l'ambiente che li circonda. Un racconto emozionante che ha al suo centro la natura e l'ambiente, che ha a cuore il futuro del nostro Pianeta e le tradizioni del nostro Paese. </desc>
     <category lang="fr">Magazine / Magazine de la nature</category>
@@ -54356,9 +54957,13 @@
     <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.374" start="20260819204500 +0200" stop="20260819211500 +0200">
-    <title lang="fr">L'appartamento sold out - S01E03</title>
-    <desc lang="fr">Mentre Armando e Osama sospettano un tradimento, gelosie e tensioni aumentano. Ma attorno a un pasto condiviso e ad alcuni gesti inaspettati, iniziano a germogliare piccoli atti di empatia e nuova consapevolezza.</desc>
+    <title lang="fr">L'appartamento sold out - S01E08</title>
     <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.374" start="20260819211500 +0200" stop="20260819231000 +0200">
+    <title lang="fr">Un giorno in Pretura</title>
+    <desc lang="fr">Nell'estate del 2021, a Busnago in Brianza, un ragazzo disabile denuncia ai Carabinieri una donna per avere drogato e rapinato l'anziano padre. È l'inizio di un'indagine che porta all'arresto di Tiziana Morandi, 47 anni, meglio conosciuta appunto, come "la Mantide della Brianza". Secondo l'accusa, la donna, presentandosi come massaggiatrice su Facebook, avrebbe attirato in casa sua numerosi uomini per poi stordirli con un potente sonnifero e derubarli. L'imputata si dichiara innocente, si descrive come una ingenua, una persona che in vita sua ha fatto solo del bene. Ma sarà vero? </desc>
+    <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="oqee.374" start="20260819211500 +0200" stop="20260819230000 +0200">
     <title lang="fr">Un giorno in Pretura</title>
@@ -54369,12 +54974,26 @@
     <title lang="fr">TG3 Sera</title>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.374" start="20260819231000 +0200" stop="20260819232000 +0200">
+    <title lang="fr">TG3 Sera</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.374" start="20260819231000 +0200" stop="20260819231500 +0200">
     <title lang="fr">Meteo 3</title>
     <desc lang="fr">Le previsioni del tempo. Meteo per le prossime 24 ore.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.374" start="20260819231500 +0200" stop="20260820001000 +0200">
+    <title lang="fr">Appresso alla musica</title>
+    <desc lang="fr">Renzo Arbore e Gegè Telesforo offrono uno sguardo unico e coinvolgente sulla storia della musica italiana e internazionale della seconda metà del Novecento attraverso aneddoti, curiosità e contributi video spesso inediti tratti dagli show e dai programmi televisivi di Renzo Arbore. Particolare attenzione alle rarità e al ripasso di canzoni bellissime forse un po' sbiadite nella nostra memoria, ma che senz'altro fanno parte della storia della musica del nostro Paese.</desc>
+    <category lang="fr">Magazine / Magazine musical</category>
+  </programme>
+  <programme channel="oqee.374" start="20260819232000 +0200" stop="20260819232500 +0200">
+    <title lang="fr">Meteo 3</title>
+    <desc lang="fr">Le previsioni del tempo. Meteo per le prossime 24 ore.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.374" start="20260819232500 +0200" stop="20260820001500 +0200">
     <title lang="fr">Appresso alla musica</title>
     <desc lang="fr">Renzo Arbore e Gegè Telesforo offrono uno sguardo unico e coinvolgente sulla storia della musica italiana e internazionale della seconda metà del Novecento attraverso aneddoti, curiosità e contributi video spesso inediti tratti dagli show e dai programmi televisivi di Renzo Arbore. Particolare attenzione alle rarità e al ripasso di canzoni bellissime forse un po' sbiadite nella nostra memoria, ma che senz'altro fanno parte della storia della musica del nostro Paese.</desc>
     <category lang="fr">Magazine / Magazine musical</category>
@@ -54528,6 +55147,240 @@
     <title lang="fr">World Sport</title>
     <desc lang="fr">One of the CNN's longest running programmes that allows viewers to find out all the global sports news, see all the important events and most interesting parts, and enjoy the interviews with sports pundits and various sports stars.</desc>
     <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.386" start="20260819010000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20260819070000 +0200" stop="20260819100000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20260819130000 +0200" stop="20260819160000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20260819160000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20260819190000 +0200" stop="20260819220000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20260819220000 +0200" stop="20260820010000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819000000 +0200" stop="20260819003000 +0200">
+    <title lang="fr">The Wrap</title>
+    <desc lang="fr">De 22 heures à minuit, cette émission de débat est consacrée à l'analyse et à l'interprétation de l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819003000 +0200" stop="20260819010000 +0200">
+    <title lang="fr">The Wrap</title>
+    <desc lang="fr">De 22 heures à minuit, cette émission de débat est consacrée à l'analyse et à l'interprétation de l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819010000 +0200" stop="20260819020000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819020000 +0200" stop="20260819030000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819030000 +0200" stop="20260819040000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819040000 +0200" stop="20260819050000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819050000 +0200" stop="20260819060000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819060000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819070000 +0200" stop="20260819073000 +0200">
+    <title lang="fr">Sky News @ Breakfast</title>
+    <desc lang="fr">Des interviews de personnalités sur les principaux sujets de l'actualité du matin, ainsi que les dernières informations des correspondants de Sky News.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819073000 +0200" stop="20260819080000 +0200">
+    <title lang="fr">Sky News @ Breakfast</title>
+    <desc lang="fr">Des interviews de personnalités sur les principaux sujets de l'actualité du matin, ainsi que les dernières informations des correspondants de Sky News.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819080000 +0200" stop="20260819083000 +0200">
+    <title lang="fr">Mornings with Ridge and Frost</title>
+    <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819083000 +0200" stop="20260819090000 +0200">
+    <title lang="fr">Mornings with Ridge and Frost</title>
+    <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819090000 +0200" stop="20260819093000 +0200">
+    <title lang="fr">Mornings with Ridge and Frost</title>
+    <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819093000 +0200" stop="20260819100000 +0200">
+    <title lang="fr">Mornings with Ridge and Frost</title>
+    <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819100000 +0200" stop="20260819103000 +0200">
+    <title lang="fr">Mornings with Ridge and Frost</title>
+    <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819103000 +0200" stop="20260819110000 +0200">
+    <title lang="fr">Mornings with Ridge and Frost</title>
+    <desc lang="fr">Le matin, Sophy Ridge et Wilfred Frost proposent un tour d'horizon de l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819110000 +0200" stop="20260819113000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819113000 +0200" stop="20260819120000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819120000 +0200" stop="20260819123000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819123000 +0200" stop="20260819130000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819130000 +0200" stop="20260819133000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819133000 +0200" stop="20260819140000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819140000 +0200" stop="20260819143000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819143000 +0200" stop="20260819150000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819150000 +0200" stop="20260819153000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819153000 +0200" stop="20260819160000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819160000 +0200" stop="20260819163000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819163000 +0200" stop="20260819170000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819170000 +0200" stop="20260819173000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819173000 +0200" stop="20260819180000 +0200">
+    <title lang="fr">Sky News Today</title>
+    <desc lang="fr">Un tour d'horizon complet des actualités nationales et internationales, accompagné d'analyses d'experts, pour une perspective détaillée sur l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819180000 +0200" stop="20260819183000 +0200">
+    <title lang="fr">The News Hour with Mark Austin</title>
+    <desc lang="fr">The News Hour with Mark Austin est une émission de Sky News dans laquelle le présentateur présente les actualités les plus importantes de la journée.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819183000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">The News Hour with Mark Austin</title>
+    <desc lang="fr">The News Hour with Mark Austin est une émission de Sky News dans laquelle le présentateur présente les actualités les plus importantes de la journée.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819190000 +0200" stop="20260819193000 +0200">
+    <title lang="fr">The News Hour with Mark Austin</title>
+    <desc lang="fr">The News Hour with Mark Austin est une émission de Sky News dans laquelle le présentateur présente les actualités les plus importantes de la journée.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819193000 +0200" stop="20260819200000 +0200">
+    <title lang="fr">The News Hour with Mark Austin</title>
+    <desc lang="fr">The News Hour with Mark Austin est une émission de Sky News dans laquelle le présentateur présente les actualités les plus importantes de la journée.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819200000 +0200" stop="20260819203000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819203000 +0200" stop="20260819210000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819210000 +0200" stop="20260819213000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819213000 +0200" stop="20260819220000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819220000 +0200" stop="20260819223000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819223000 +0200" stop="20260819230000 +0200">
+    <title lang="fr">Sky News</title>
+    <desc lang="fr">Un tour d'horizon complet des principales actualités du jour au Royaume-Uni et dans le monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819230000 +0200" stop="20260819233000 +0200">
+    <title lang="fr">The Wrap</title>
+    <desc lang="fr">De 22 heures à minuit, cette émission de débat est consacrée à l'analyse et à l'interprétation de l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.396" start="20260819233000 +0200" stop="20260820000000 +0200">
+    <title lang="fr">The Wrap</title>
+    <desc lang="fr">De 22 heures à minuit, cette émission de débat est consacrée à l'analyse et à l'interprétation de l'actualité du jour.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.401" start="20260819000000 +0200" stop="20260819010000 +0200">
     <title lang="fr">Le Club Le Figaro Idées - S02E20</title>
@@ -56331,6 +57184,56 @@
     <desc lang="fr">"Ana Haber", günün en önemli gelişmelerini tarafsız, güvenilir ve hızlı bir şekilde izleyicilere aktaran kapsamlı bir haber bültenidir. Türkiye ve dünyadan sıcak gelişmeler, uzman yorumları ve canlı bağlantılarla ekrana gelir.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.484" start="20260819013000 +0200" stop="20260819041000 +0200">
+    <title lang="fr">Gelinim Mutfakta</title>
+    <desc lang="fr">Gelinlerin her gün belirlenen menülerle yemekler hazırladığı ve haftalık büyük ödül için yarıştığı popüler bir yemek programıdır. Kaynanaların verdiği puanlarla şekillenen rekabette lezzet, sunum ve strateji öne çıkarken, hafta sonunda en yüksek puanı toplayan yarışmacı ödülün sahibi olur.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819041000 +0200" stop="20260819060000 +0200">
+    <title lang="fr">Les frères rivaux</title>
+    <desc lang="fr">Kuzey et Güney, deux frères que tout oppose, sont liés par un terrible secret qui les éloigne de manière inéluctable. Les frères sont tous deux amoureux de Çemre, qui vient d'emménager dans le quartier.</desc>
+    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819060000 +0200" stop="20260819083000 +0200">
+    <title lang="fr">Küçük Ağa</title>
+    <desc lang="fr">Küçük Ağa on yıllık evliliklerini bitirmeye karar veren Sinem ve Ali çiftinin yaşadıkları üzerinden günümüz aile yapısını ele alır. Sinem başarılı bir nörolog, Ali ise reklam dünyasında önemli projelere imza atan bir ajans çalışanıdır. Anne ve babasının ayrılığından etkilenen altı yaşındaki Mehmet Can, ailesini yeniden bir araya getirmek için evde, okulda ve çevresinde çeşitli yaramazlıklara başvurur. Farklı kültürlerden gelen aile büyüklerinin de sürece dahil olmasıyla olaylar karmaşık hale gelir. Dizi çocuk bakışıyla aile içi değerlerin önemini duygusal ve samimi bir anlatımla izleyiciye aktarır.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819083000 +0200" stop="20260819110000 +0200">
+    <title lang="fr">Yaprak Dökümü</title>
+    <desc lang="fr">Yaprak Dökümü güçlü ahlaki değerlere sahip Ali Rıza Bey ve ailesinin İstanbul'a taşınmasıyla başlayan çözülme sürecini konu alır. Bir haksızlığa boyun eğmeyerek görevinden istifa eden Ali Rıza Bey, çocuklarını doğru değerlerle yetiştirme çabasını büyük şehirde de sürdürmek ister. Ancak değişen toplumsal yapı, modern yaşamın cazibesi ve kuşaklar arası çatışmalar aile bireylerini farklı yönlere sürükler. Sevgi, sadakat, fedakarlık ve hayal kırıklıklarıyla örülü bu hikayede aile bağlarının zamanla nasıl zayıfladığı ve her bireyin kendi sınavıyla yüzleşmesi etkileyici bir dille anlatılır.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819110000 +0200" stop="20260819120000 +0200">
+    <title lang="fr">Kanal D Haber Gün Arası</title>
+    <desc lang="fr">Günün ortasında ekrana gelen haber bülteni, ülke ve dünyada yaşanan gelişmeleri hızlı, güvenilir ve anlaşılır bir şekilde izleyiciye aktarıyor. Son dakika haberleri, siyaset, ekonomi, yaşam ve gündem başlıklarıyla birlikte günün öne çıkan olayları derleniyor. Sade ve bilgilendirici anlatımıyla hazırlanan program, izleyicilere güncel gelişmeleri kaçırmadan takip etme imkânı sunuyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819120000 +0200" stop="20260819130000 +0200">
+    <title lang="fr">Magazin D Yaz</title>
+    <desc lang="fr">Yaz sezonunun canlı atmosferini ekrana taşıyan program, magazin dünyasındaki güncel gelişmeleri, ünlü isimlerin tatil rotalarını ve eğlence hayatından öne çıkan haberleri izleyiciyle buluşturuyor. Renkli görüntüler ve güncel içeriklerle hazırlanan yapım, yaz aylarının enerjisini yansıtırken magazin gündemini eğlenceli ve akıcı bir formatta sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819130000 +0200" stop="20260819153000 +0200">
+    <title lang="fr">Gelinim Mutfakta</title>
+    <desc lang="fr">Gelinlerin her gün belirlenen menülerle yemekler hazırladığı ve haftalık büyük ödül için yarıştığı popüler bir yemek programıdır. Kaynanaların verdiği puanlarla şekillenen rekabette lezzet, sunum ve strateji öne çıkarken, hafta sonunda en yüksek puanı toplayan yarışmacı ödülün sahibi olur.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819153000 +0200" stop="20260819171500 +0200">
+    <title lang="fr">Aşk-ı Memnu</title>
+    <desc lang="fr">Toplumun baskısı ve aile içi dengeler arasında gelişen yasak bir aşk hikâyesini anlatır. Güçlü duygular, ihanet ve bastırılmış arzular karakterlerin hayatlarını geri dönülmez şekilde etkiler. Zengin bir ailenin içinde geçen hikâye, her karakterin kendi iç çatışmalarıyla yüzleşmesini sağlar. Dramatik anlatımı ve yoğun duygusal yapısıyla, aşkın yıkıcı ve kaçınılmaz yönlerini etkileyici bir şekilde ortaya koyar.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819171500 +0200" stop="20260819180000 +0200">
+    <title lang="fr">Sıcak Gelişme</title>
+    <desc lang="fr">Gün boyunca yaşanan önemli olayları ve son dakika gelişmelerini hızlı ve güvenilir şekilde izleyiciye aktaran bir haber bültenidir. Siyaset, ekonomi, dünya gündemi ve toplumsal olaylar gibi farklı alanlardaki gelişmeler sade ve anlaşılır bir dille sunulur. Dinamik yapısı sayesinde izleyiciyi güncel tutmayı hedefler. Kısa sürede en önemli başlıkları öne çıkararak bilgilendirici ve akıcı bir haber deneyimi sağlar.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.484" start="20260819180000 +0200" stop="20260820013000 +0200">
+    <title lang="fr">Kanal D Ana Haber</title>
+    <desc lang="fr">Kanal D Ana Haber, gün boyunca yaşanan tüm gelişmeleri tarafsız ve anlaşılır bir dille izleyiciye aktarıyor. Türkiye ve dünyadan son dakika haberleri, siyaset, ekonomi, spor ve hava durumu başlıkları, deneyimli sunucular eşliğinde kapsamlı bir gündem özeti olarak ekrana taşınıyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.485" start="20260819013000 +0200" stop="20260819040000 +0200">
     <title lang="fr">Güzel Köylü</title>
     <desc lang="fr">İstanbul'un karmaşık, yorucu ve yoğun temposundan tamamen sıkılan şehirli Gül, hayatına yeni bir yön vermek amacıyla Muğla'nın huzur dolu, sıcacık bir Ege kasabasına doğru yola çıkar. Bu şirin kasabaya ayak basmasıyla birlikte onun için bambaşka bir dünyanın kapıları aralanır. Alıştığı şehir hayatından çok farklı bir kültürle ve rengarenk kasaba karakterleriyle tanışan Gül'ün yaşamı baştan aşağıya değişir. Doğal güzelliklerin içinde hem kasaba hayatının komik zorluklarına ayak uydurmaya çalışan hem de kalbini buradaki sürpriz bir aşka kaptıran genç kadını, kahkaha ve romantizm dolu yepyeni bir macera beklemektedir.</desc>
@@ -56532,6 +57435,46 @@
   <programme channel="oqee.49" start="20260819045500 +0200" stop="20260819050000 +0200">
     <title lang="fr">All About</title>
     <desc lang="fr">In this episode: interesting facts about greatest mysteries in history (part 2).</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819020000 +0200" stop="20260819030000 +0200">
+    <title lang="fr">Global News</title>
+    <desc lang="fr">International news and current affairs from CCTV-4 (China Central Television 4). Global News brings you the latest stories from around the world.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819043000 +0200" stop="20260819051500 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819051500 +0200" stop="20260819060000 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819073000 +0200" stop="20260819081500 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819081500 +0200" stop="20260819090000 +0200">
+    <title lang="fr">TV Drama</title>
+    <desc lang="fr">A series of television dramas from the People's Republic of China. These programmes look at all aspects of life's rich tapestry – with suspense, joy, humour, romance, sadness, family affairs and more. </desc>
+    <category lang="fr">Téléfilm / Téléfilm dramatique</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819140000 +0200" stop="20260819144500 +0200">
+    <title lang="fr">On the Way</title>
+    <desc lang="fr">From the visual angle of a traveler to show the beauty of China and the world</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819144500 +0200" stop="20260819150000 +0200">
+    <title lang="fr">Nostalgia</title>
+    <desc lang="fr">Past stories, Nostalgia.</desc>
+    <category lang="fr">Magazine / Magazine de la nature</category>
+  </programme>
+  <programme channel="oqee.490" start="20260819235000 +0200" stop="20260820003000 +0200">
+    <title lang="fr">Discoveries</title>
+    <desc lang="fr">China is a country with a very early civilization and a rich history. The ancient Chinese invented the compass, gunpowder, the art of paper-making and block printing, and many other things that have contributed immensely to the progress of mankind. Combining scientific inquiry with human interest, this the story will explore some of the greatest discoveries made in the country, bringing the audience closer to its fascinating tradition and diverse national heritage.</desc>
     <category lang="fr">Documentaire / Documentaire education</category>
   </programme>
   <programme channel="oqee.501" start="20260819000000 +0200" stop="20260819004500 +0200">
@@ -58439,6 +59382,108 @@
     <desc lang="fr">38-letnia Anna jest przebojową prawniczką. Kobieta ma dobrą relację z 15-letnią córką, jest za to rozczarowana swoim małżeństwem. Uważa, że mąż zmienił się w zaniedbanego nudziarza i sprzeciwia się wszelkim zmianom, np. kupieniu większego domu. Anna, szukając mimo wszystko nowej nieruchomości, poznaje 30-letniego Darka. Mąż Andrzej odkrywa romans i żąda rozwodu. Anna się zgadza i wprowadza się do kochanka. Przed pierwszą rozprawą okazuje się, jak bardzo Andrzej się zmienił.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
+  <programme channel="oqee.67" start="20260819023000 +0200" stop="20260819031500 +0200">
+    <title lang="fr">Sportium Game Show</title>
+    <desc lang="fr">Espacio conducido por Sofía Del Prado y con la colaboración de Gemma Manzanero, Marc Vila y Juanma Pastor, en el que se repasan las mejores apuestas y cuotas deportivas, y donde se descubren toda la variedad de juegos de casino, slots y poker de Sportium.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819031500 +0200" stop="20260819033500 +0200">
+    <title lang="fr">Pazy: Que te recuerden como has vivido</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819033500 +0200" stop="20260819043500 +0200">
+    <title lang="fr">Galería del coleccionista</title>
+    <desc lang="fr">Espacio comercial con demostraciones de distintos productos que los espectadores pueden adquirir llamando por teléfono.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819043500 +0200" stop="20260819060000 +0200">
+    <title lang="fr">Juwelo</title>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819060000 +0200" stop="20260819061500 +0200">
+    <title lang="fr">Pazy: Que te recuerden como has vivido</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819061500 +0200" stop="20260819085500 +0200">
+    <title lang="fr">Las noticias de la mañana</title>
+    <desc lang="fr">Primer noticiario de la jornada, en el que se ofrece un avance de las principales noticias del día. Manu Sánchez dirige y conduce este informativo matinal. Con la información del tiempo a cargo de Mercedes Martín.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819085500 +0200" stop="20260819132000 +0200">
+    <title lang="fr">Espejo Público de Verano</title>
+    <desc lang="fr">Edición de verano del magacín matinal de la cadena, cuyo eje central es la actualidad nacional e internacional. El programa incluye reportajes, entrevistas, tertulias y debates, así como secciones sobre gastronomía, moda, belleza, salud y crónica de sucesos.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819132000 +0200" stop="20260819134500 +0200">
+    <title lang="fr">Cocina abierta de Karlos Arguiñano - S15E3038</title>
+    <desc lang="fr">Karlos Arguiñano, el cocinero más famoso de la televisión, ofrece cada día nuevas recetas y trucos culinarios en este programa de Antena 3. El cocinero vasco hace las delicias de los aficionados a los fogones ofreciendo a diario ideas para realizar suculentos platos.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819134500 +0200" stop="20260819150000 +0200">
+    <title lang="fr">La ruleta de la suerte - S20E4522</title>
+    <desc lang="fr">Clásico concurso en el que tres participantes deben adivinar las letras correctas que forman una palabra o una frase con la ayuda de una ruleta que cuenta con 24 opciones. La presentación del programa corre a cargo de Jorge Fernández con la colaboración de Laura Moure.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819150000 +0200" stop="20260819153000 +0200">
+    <title lang="fr">Antena 3 Noticias 1</title>
+    <desc lang="fr">Informativo que se emite cada mediodía, de lunes a viernes, y que presenta las noticias más relevantes que han ocurrido a lo largo de la jornada de la mano de Sandra Golpe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819153000 +0200" stop="20260819153500 +0200">
+    <title lang="fr">Deportes</title>
+    <desc lang="fr">Espacio de mediodía de Antena 3 dedicado a la información deportiva, presentado por Rocío Martínez, Alba Dueñas y Angie Rigueiro. Un repaso a los resultados deportivos de la jornada en el ámbito nacional e internacional.</desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819153500 +0200" stop="20260819154000 +0200">
+    <title lang="fr">Al detalle - S01E220</title>
+    <desc lang="fr">Espacio informativo dedicado al análisis en profundidad de temas de interés para la sociedad y cuestiones relevantes de la actualidad.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819154000 +0200" stop="20260819154500 +0200">
+    <title lang="fr">Tu tiempo con Roberto Brasero</title>
+    <desc lang="fr">Tras el informativo, Roberto Brasero presenta este espacio que ofrece al espectador una información meteorológica cercana y directa, así como todos los aspectos que afectan al medio ambiente del planeta.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819154500 +0200" stop="20260819170000 +0200">
+    <title lang="fr">Sueños de libertad - S01E629</title>
+    <desc lang="fr">Año 1958. Begoña Montes huye a través del bosque junto a la pequeña Julia, su hijastra. Begoña es la nueva esposa Jesús de la Reina, el viudo de oro de la comarca, dueño de una importante empresa de productos de tocador, Perfumerías de la Reina.Begoña corre con la niña, cuando Jesús las alcanza y dispara a sangre fría. ¿Habrá herido a Begoña? ¿Qué ha ocurrido para que Jesús pierda la cabeza y dispare a su propia mujer?</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819170000 +0200" stop="20260819200000 +0200">
+    <title lang="fr">YAS verano - S04E971</title>
+    <desc lang="fr">Espacio dedicado a los asuntos de más actualidad con los mejores colaboradores e invitados. Es un programa presentado por la periodista Pepa Romero.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819200000 +0200" stop="20260819210000 +0200">
+    <title lang="fr">Pasapalabra - S05E1592</title>
+    <desc lang="fr">Concurso presentado por Roberto Leal, que se basa en las habilidades con el lenguaje. Durante los 30 minutos que dura el espacio, los concursantes, ayudados por famosos, tendrán que superar pruebas diferentes que giran alrededor del alfabeto y las palabras.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819210000 +0200" stop="20260819213000 +0200">
+    <title lang="fr">Antena 3 Noticias 2</title>
+    <desc lang="fr">Informativo nocturno, emitido de lunes a viernes, que recoge las noticias que se han producido a lo largo de la jornada de la mano de Vicente Vallés y Esther Vaquero. El espacio aborda la información de carácter general, que va sucedida de la información deportiva.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819213000 +0200" stop="20260819213500 +0200">
+    <title lang="fr">Deportes</title>
+    <desc lang="fr">Espacio nocturno de Antena 3 dedicado a la información deportiva, presentado por Rocío Martínez, Alba Dueñas y Angie Rigueiro. Un repaso a los resultados deportivos de la jornada en el ámbito nacional e internacional.</desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819213500 +0200" stop="20260819214500 +0200">
+    <title lang="fr">El tiempo</title>
+    <desc lang="fr">Programa informativo dedicado a la previsión del tiempo y a la información meteorológica.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819214500 +0200" stop="20260819230000 +0200">
+    <title lang="fr">El hormiguero</title>
+    <desc lang="fr">Pablo Motos capitanea un equipo de desenfadados personajes dispuestos a diseccionar cada día la actualidad en tono jocoso. El programa incluye experimentos científicos, actuaciones musicales y entrevistas con los más destacados personajes del mundo del espectáculo.</desc>
+    <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="oqee.67" start="20260819230000 +0200" stop="20260820004500 +0200">
+    <title lang="fr">¡Salta!</title>
+    <desc lang="fr">¡Salta! pone a prueba los conocimientos de cultura general y también la valentía de cinco concursantes que compiten por un premio de 50.000 euros. Su objetivo es cruzar un imponente puente de 40 metros de largo respondiendo correctamente diez rondas de preguntas.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
   <programme channel="oqee.68" start="20260819000900 +0200" stop="20260819011200 +0200">
     <title lang="fr">Astrid et Raphaëlle</title>
     <desc lang="fr">Le commandant Raphaëlle Coste fait équipe avec Astrid Nielsen, une autiste Asperger, archiviste à la documentation criminelle de la police. Après une première enquête qui leur permet de se rencontrer, elles reprennent leur collaboration et, au fil des différentes affaires qu'elles élucident, apprennent à mieux se connaître. Ce duo d'enquêtrices permet de retrouver Lola Dewaere et Sara Mortensen, vue dans "Plus belle la vie". Une série qui, comme "Good Doctor" ou "The Bridge" (et adaptations), aborde la thématique de l'autisme.</desc>
@@ -58463,6 +59508,106 @@
     <title lang="fr">Con el culo al aire</title>
     <desc lang="fr">Disfruta de los mejores momentos y todos los capítulos de CON EL CULO AL AIRE en Atresplayer. Serie protagonizada por Paco Tous, María León, Raúl Arévalo, Raúl Fernández, Iñaki Miramón, Toni Acosta, Carmen Ruiz, Goizalde Núñez, Hiba Abouk, Cesáreo Estébanez, Vicente Romero, Jesse Johnson, Sélica Torcal, Natalia Roig, Henar Jiménez, Víctor Palmero, Adam Jezierski. Tino es el líder y alma del camping. Un churrero que va con su furgoneta de feria en feria y que siempre ha vivido acampando. Alardea de llevar un tipo de vida alternativo, al margen de la legalidad y de sus vecinos</desc>
     <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819060000 +0200" stop="20260819061000 +0200">
+    <title lang="fr">Más de series</title>
+    <desc lang="fr">Si quieres saber más sobre tu serie favorita o pasar un rato muy divertido, no te pierdas este programa que muestra curiosidades sobre las series de Atresmedia. </desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819061000 +0200" stop="20260819072000 +0200">
+    <title lang="fr">Con el culo al aire</title>
+    <desc lang="fr">Disfruta de los mejores momentos y todos los capítulos de CON EL CULO AL AIRE en Atresplayer. Serie protagonizada por Paco Tous, María León, Raúl Arévalo, Raúl Fernández, Iñaki Miramón, Toni Acosta, Carmen Ruiz, Goizalde Núñez, Hiba Abouk, Cesáreo Estébanez, Vicente Romero, Jesse Johnson, Sélica Torcal, Natalia Roig, Henar Jiménez, Víctor Palmero, Adam Jezierski. Tino es el líder y alma del camping. Un churrero que va con su furgoneta de feria en feria y que siempre ha vivido acampando. Alardea de llevar un tipo de vida alternativo, al margen de la legalidad y de sus vecinos</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819072000 +0200" stop="20260819083000 +0200">
+    <title lang="fr">Con el culo al aire</title>
+    <desc lang="fr">Disfruta de los mejores momentos y todos los capítulos de CON EL CULO AL AIRE en Atresplayer. Serie protagonizada por Paco Tous, María León, Raúl Arévalo, Raúl Fernández, Iñaki Miramón, Toni Acosta, Carmen Ruiz, Goizalde Núñez, Hiba Abouk, Cesáreo Estébanez, Vicente Romero, Jesse Johnson, Sélica Torcal, Natalia Roig, Henar Jiménez, Víctor Palmero, Adam Jezierski. Tino es el líder y alma del camping. Un churrero que va con su furgoneta de feria en feria y que siempre ha vivido acampando. Alardea de llevar un tipo de vida alternativo, al margen de la legalidad y de sus vecinos</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819083000 +0200" stop="20260819094500 +0200">
+    <title lang="fr">Aquí no hay quien viva</title>
+    <desc lang="fr">Lucía (María Adánez) y Roberto (Daniel Guzmán) son una pareja de novios que acaba de mudarse a un curioso edificio. Los vecinos son seres un tanto especiales entre los que no falta una familia de clase media, una pareja de homosexuales y un nutrido grupo de cotillas. "Aquí no hay quien viva" es una telecomedia producida por Miramón Mendi, la compañía del polifacético José Luis Moreno, para Antena 3. Aparte de los ya mencionados, el reparto incluye a varios nombres habituales del cine español actual, como Emma Penella, Gemma Cuervo, Adrià Collado, Loles León o Luis Merlo.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819094500 +0200" stop="20260819110000 +0200">
+    <title lang="fr">Aquí no hay quien viva</title>
+    <desc lang="fr">Lucía (María Adánez) y Roberto (Daniel Guzmán) son una pareja de novios que acaba de mudarse a un curioso edificio. Los vecinos son seres un tanto especiales entre los que no falta una familia de clase media, una pareja de homosexuales y un nutrido grupo de cotillas. "Aquí no hay quien viva" es una telecomedia producida por Miramón Mendi, la compañía del polifacético José Luis Moreno, para Antena 3. Aparte de los ya mencionados, el reparto incluye a varios nombres habituales del cine español actual, como Emma Penella, Gemma Cuervo, Adrià Collado, Loles León o Luis Merlo.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819110000 +0200" stop="20260819115400 +0200">
+    <title lang="fr">Father Brown</title>
+    <desc lang="fr">Prêtre Catholique en sa paroisse de Kembleford dans le Corswold en Angleterre d'après-guerre, le père Brown met occasionnellement à la disposition de la police ses compétences d'enquêteur lorsque ceux-ci font fausse route. Doué d'un sens inné de l'observation et animé d'un profond désir de justice, il s'engage avec zèle dans cette activité annexe, au détriment parfois de ses engagements cléricaux.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819115400 +0200" stop="20260819124800 +0200">
+    <title lang="fr">Father Brown</title>
+    <desc lang="fr">Prêtre Catholique en sa paroisse de Kembleford dans le Corswold en Angleterre d'après-guerre, le père Brown met occasionnellement à la disposition de la police ses compétences d'enquêteur lorsque ceux-ci font fausse route. Doué d'un sens inné de l'observation et animé d'un profond désir de justice, il s'engage avec zèle dans cette activité annexe, au détriment parfois de ses engagements cléricaux.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819124800 +0200" stop="20260819134200 +0200">
+    <title lang="fr">Father Brown</title>
+    <desc lang="fr">Prêtre Catholique en sa paroisse de Kembleford dans le Corswold en Angleterre d'après-guerre, le père Brown met occasionnellement à la disposition de la police ses compétences d'enquêteur lorsque ceux-ci font fausse route. Doué d'un sens inné de l'observation et animé d'un profond désir de justice, il s'engage avec zèle dans cette activité annexe, au détriment parfois de ses engagements cléricaux.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819134200 +0200" stop="20260819143600 +0200">
+    <title lang="fr">Father Brown</title>
+    <desc lang="fr">Prêtre Catholique en sa paroisse de Kembleford dans le Corswold en Angleterre d'après-guerre, le père Brown met occasionnellement à la disposition de la police ses compétences d'enquêteur lorsque ceux-ci font fausse route. Doué d'un sens inné de l'observation et animé d'un profond désir de justice, il s'engage avec zèle dans cette activité annexe, au détriment parfois de ses engagements cléricaux.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819143600 +0200" stop="20260819153000 +0200">
+    <title lang="fr">Father Brown</title>
+    <desc lang="fr">Prêtre Catholique en sa paroisse de Kembleford dans le Corswold en Angleterre d'après-guerre, le père Brown met occasionnellement à la disposition de la police ses compétences d'enquêteur lorsque ceux-ci font fausse route. Doué d'un sens inné de l'observation et animé d'un profond désir de justice, il s'engage avec zèle dans cette activité annexe, au détriment parfois de ses engagements cléricaux.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819153000 +0200" stop="20260819162500 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">A Toronto, au Canada, à la fin du XIXe siècle, le jeune inspecteur William Murdoch, passionné par les sciences, utilise des méthodes révolutionnaires pour mener ses enquêtes. Afin de confondre les criminels, il n'hésite pas à faire analyser des empreintes, à effectuer des tests sanguins ou encore à proposer toutes sortes de procédés modernes. Subissant souvent les moqueries de ses collègues et de son supérieur, il est heureusement soutenu par Julia Ogden, médecin pathologiste. Une série policière sympathique, avec un enquêteur très en avance sur son époque.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819162500 +0200" stop="20260819172000 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">A Toronto, au Canada, à la fin du XIXe siècle, le jeune inspecteur William Murdoch, passionné par les sciences, utilise des méthodes révolutionnaires pour mener ses enquêtes. Afin de confondre les criminels, il n'hésite pas à faire analyser des empreintes, à effectuer des tests sanguins ou encore à proposer toutes sortes de procédés modernes. Subissant souvent les moqueries de ses collègues et de son supérieur, il est heureusement soutenu par Julia Ogden, médecin pathologiste. Une série policière sympathique, avec un enquêteur très en avance sur son époque.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819172000 +0200" stop="20260819181500 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">A Toronto, au Canada, à la fin du XIXe siècle, le jeune inspecteur William Murdoch, passionné par les sciences, utilise des méthodes révolutionnaires pour mener ses enquêtes. Afin de confondre les criminels, il n'hésite pas à faire analyser des empreintes, à effectuer des tests sanguins ou encore à proposer toutes sortes de procédés modernes. Subissant souvent les moqueries de ses collègues et de son supérieur, il est heureusement soutenu par Julia Ogden, médecin pathologiste. Une série policière sympathique, avec un enquêteur très en avance sur son époque.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819181500 +0200" stop="20260819191000 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">A Toronto, au Canada, à la fin du XIXe siècle, le jeune inspecteur William Murdoch, passionné par les sciences, utilise des méthodes révolutionnaires pour mener ses enquêtes. Afin de confondre les criminels, il n'hésite pas à faire analyser des empreintes, à effectuer des tests sanguins ou encore à proposer toutes sortes de procédés modernes. Subissant souvent les moqueries de ses collègues et de son supérieur, il est heureusement soutenu par Julia Ogden, médecin pathologiste. Une série policière sympathique, avec un enquêteur très en avance sur son époque.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819191000 +0200" stop="20260819200500 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">A Toronto, au Canada, à la fin du XIXe siècle, le jeune inspecteur William Murdoch, passionné par les sciences, utilise des méthodes révolutionnaires pour mener ses enquêtes. Afin de confondre les criminels, il n'hésite pas à faire analyser des empreintes, à effectuer des tests sanguins ou encore à proposer toutes sortes de procédés modernes. Subissant souvent les moqueries de ses collègues et de son supérieur, il est heureusement soutenu par Julia Ogden, médecin pathologiste. Une série policière sympathique, avec un enquêteur très en avance sur son époque.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819200500 +0200" stop="20260819210000 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">A Toronto, au Canada, à la fin du XIXe siècle, le jeune inspecteur William Murdoch, passionné par les sciences, utilise des méthodes révolutionnaires pour mener ses enquêtes. Afin de confondre les criminels, il n'hésite pas à faire analyser des empreintes, à effectuer des tests sanguins ou encore à proposer toutes sortes de procédés modernes. Subissant souvent les moqueries de ses collègues et de son supérieur, il est heureusement soutenu par Julia Ogden, médecin pathologiste. Une série policière sympathique, avec un enquêteur très en avance sur son époque.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819210000 +0200" stop="20260819215000 +0200">
+    <title lang="fr">Les mystères de Laura</title>
+    <desc lang="fr">Laura Diamond est une enquêtrice hors pair de la police de New York, en passe de se séparer de Jake, le père de ses turbulents jumeaux. Jongler entre ces deux rôles, mère et policière, n'et pas une mince affaire, et donne lieu parfois à des situations pour le moins incongrues. Passant d'une enquête à l'autre, sa vie se complique lorsqu'elle est amenée à travailler sur une nouvelle affaire d'importance. Les suspects s'enchaînent jusqu'à une conclusion pour le moins inattendue. Dans cette adaptation d'une série espagnole éponyme, Laura est incarnée par Debra Messing, de la célèbre sitcom "Will et Grace".</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819215000 +0200" stop="20260819224000 +0200">
+    <title lang="fr">Les mystères de Laura</title>
+    <desc lang="fr">Laura Diamond est une enquêtrice hors pair de la police de New York, en passe de se séparer de Jake, le père de ses turbulents jumeaux. Jongler entre ces deux rôles, mère et policière, n'et pas une mince affaire, et donne lieu parfois à des situations pour le moins incongrues. Passant d'une enquête à l'autre, sa vie se complique lorsqu'elle est amenée à travailler sur une nouvelle affaire d'importance. Les suspects s'enchaînent jusqu'à une conclusion pour le moins inattendue. Dans cette adaptation d'une série espagnole éponyme, Laura est incarnée par Debra Messing, de la célèbre sitcom "Will et Grace".</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819224000 +0200" stop="20260819233000 +0200">
+    <title lang="fr">Les mystères de Laura</title>
+    <desc lang="fr">Laura Diamond est une enquêtrice hors pair de la police de New York, en passe de se séparer de Jake, le père de ses turbulents jumeaux. Jongler entre ces deux rôles, mère et policière, n'et pas une mince affaire, et donne lieu parfois à des situations pour le moins incongrues. Passant d'une enquête à l'autre, sa vie se complique lorsqu'elle est amenée à travailler sur une nouvelle affaire d'importance. Les suspects s'enchaînent jusqu'à une conclusion pour le moins inattendue. Dans cette adaptation d'une série espagnole éponyme, Laura est incarnée par Debra Messing, de la célèbre sitcom "Will et Grace".</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="oqee.68" start="20260819233000 +0200" stop="20260820002000 +0200">
+    <title lang="fr">Les mystères de Laura</title>
+    <desc lang="fr">Laura Diamond est une enquêtrice hors pair de la police de New York, en passe de se séparer de Jake, le père de ses turbulents jumeaux. Jongler entre ces deux rôles, mère et policière, n'et pas une mince affaire, et donne lieu parfois à des situations pour le moins incongrues. Passant d'une enquête à l'autre, sa vie se complique lorsqu'elle est amenée à travailler sur une nouvelle affaire d'importance. Les suspects s'enchaînent jusqu'à une conclusion pour le moins inattendue. Dans cette adaptation d'une série espagnole éponyme, Laura est incarnée par Debra Messing, de la célèbre sitcom "Will et Grace".</desc>
+    <category lang="fr">Série / Série policière</category>
   </programme>
   <programme channel="oqee.681" start="20260819000000 +0200" stop="20260819001000 +0200">
     <title lang="fr">NHK Newsline</title>
@@ -61949,10 +63094,35 @@
     <desc lang="fr">Bahar, yıllarca ailesini her şeyin önünde tutarak kendi hayatını geri planda bırakan bir kadının, beklenmedik bir dönüm noktasının ardından yaşadığı büyük değişimi konu alıyor. Hayatını yeniden sorgulayan Bahar, geçmişiyle yüzleşirken hayallerini ve kendisini yeniden keşfetme yolculuğuna çıkar. Aile ilişkileri, fedakârlık, umut ve aşk temaları etrafında şekillenen hikâye; duygusal sahneleri ve güçlü karakterleriyle izleyiciyi içine çekiyor. Bahar, yeniden başlama cesaretinin ve değişimin mümkün olduğunu etkileyici bir anlatımla ekrana taşıyor.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.948" start="20260819010000 +0200" stop="20260819020000 +0200">
+    <title lang="fr">Artı Futbol</title>
+    <desc lang="fr">Artı Futbol, yerli ve yabancı futbol gündemini detaylı biçimde ele alan, geniş haber içeriği ve özel röportajlarla zenginleşen kapsamlı bir spor programıdır. Programda takımların son durumu, maç analizleri, teknik direktör açıklamaları ve futbolun perde arkasındaki gelişmeler izleyiciye sunulur. Artı Futbol, futbolseverler için güncel haberlerin ve derin analizlerin takip edilebileceği güvenilir bir kaynak olmasının yanı sıra, yorum ve uzman görüşleriyle de zenginleşir.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819020000 +0200" stop="20260819030000 +0200">
+    <title lang="fr">Dünya Kupası Yolu</title>
+    <desc lang="fr">Dünya Kupası Yolu, milli ve uluslararası takımların Dünya Kupası'na uzanan zorlu yolculuklarını ekranlara taşıyor. Takımların hazırlık kampı, maç analizleri, yıldız oyuncuların performansları ve teknik direktörlerin stratejileri programın temelini oluşturuyor. Spor yorumcuları ve konuklarla yapılan değerlendirmeler, izleyicilere turnuva öncesi kapsamlı bir bakış sunuyor.</desc>
+    <category lang="fr">Magazine sportif / Futsal</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819030000 +0200" stop="20260819040000 +0200">
+    <title lang="fr">Spor Gündemi</title>
+    <desc lang="fr">Spor Gündemi, gün içerisinde spor dünyasında yaşanan tüm önemli gelişmeleri geniş bir perspektiften ele alıyor. Liglerden son durum, takımların form grafikleri, transfer dedikoduları ve maç önü analizleri bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Spor Gündemi, izleyicilere kapsamlı ve güncel bir spor panoraması sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819040000 +0200" stop="20260819070000 +0200">
+    <title lang="fr">Süper Kupa Finaller</title>
+    <desc lang="fr">Sezonun en büyük hesaplaşmalarına sahne olan finaller, tüm detaylarıyla bu programda yeniden hayat buluyor. Kupaya uzanan yolda yaşanan kritik anlar, unutulmaz goller ve maçların seyrini değiştiren kırılma noktaları kapsamlı analizlerle ekrana geliyor. Yıldız oyuncuların performansları, teknik hamleler ve taktiksel detaylar, tempolu ve sürükleyici bir anlatımla futbolseverlere aktarılıyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
   <programme channel="oqee.948" start="20260819070000 +0200" stop="20260819100000 +0200">
     <title lang="fr">Sabah Sporu</title>
     <desc lang="fr">Sabah Sporu, spor dünyasının nabzını tutan, güne dinamik bir başlangıç sunan özel bir kuşak. Futboldan basketbola, motor sporlarından bireysel branşlara kadar en güncel haberler, geceden kalan gelişmeler ve canlı bağlantılar bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Sabah Sporu, her sabah sporseverlere kapsamlı bir bilgi akışı sunuyor.</desc>
     <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819100000 +0200" stop="20260819130000 +0200">
+    <title lang="fr">Spor Ajansı</title>
+    <desc lang="fr">Spor Ajansı, spor gündemini anbean takip eden izleyiciler için hazırlandı. Futbol, basketbol, voleybol ve daha birçok branştaki son dakika haberleri; transfer söylentileri, istatistik analizleri ve özel röportajlar Spor Ajansı'nda. Deneyimli ekibin yorumları ve geniş haber ağıyla Spor Ajansı, sporseverlere günün en doğru ve hızlı spor bilgilerini ulaştırıyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260819130000 +0200" stop="20260819140000 +0200">
     <title lang="fr">Gün Ortası</title>
@@ -61962,6 +63132,36 @@
   <programme channel="oqee.948" start="20260819140000 +0200" stop="20260819170000 +0200">
     <title lang="fr">Spor Gündemi</title>
     <desc lang="fr">Spor Gündemi, gün içerisinde spor dünyasında yaşanan tüm önemli gelişmeleri geniş bir perspektiften ele alıyor. Liglerden son durum, takımların form grafikleri, transfer dedikoduları ve maç önü analizleri bu programda. Uzman yorumcuların değerlendirmeleriyle desteklenen Spor Gündemi, izleyicilere kapsamlı ve güncel bir spor panoraması sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819170000 +0200" stop="20260819190000 +0200">
+    <title lang="fr">Ana Haber</title>
+    <desc lang="fr">Ana Haber, spor dünyasının gün boyunca yaşadığı tüm gelişmeleri en doğru ve hızlı şekilde ekranlara taşıyor. Maç sonuçları, kulüp açıklamaları, transfer haberleri ve özel röportajlar profesyonel bir sunumla izleyiciye aktarılıyor. Sporun tüm branşlarında güçlü bir haber akışı sunan Ana Haber, a spor'un en güvenilir bilgi kaynağı olmaya devam ediyor.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819190000 +0200" stop="20260819194500 +0200">
+    <title lang="fr">Skorbord</title>
+    <desc lang="fr">Skorbord, günün maçlarından en taze skorları, performans verilerini ve öne çıkan istatistikleri tek bir çatı altında topluyor. Futboldan basketbola, Avrupa liglerinden yerel karşılaşmalara kadar geniş bir yelpazede detaylı bilgilere ulaşabileceğiniz Skorbord, hızlı ve net anlatımıyla sporseverlerin vazgeçilmezi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819194500 +0200" stop="20260819200000 +0200">
+    <title lang="fr">Devre Arası</title>
+    <desc lang="fr">Devre Arası, futbol maçlarının ilk 45 dakikasında yaşanan tüm önemli anları uzman yorumlarla ele alıyor. İlk yarının taktik analizleri, oyuncu performansları, kritik pozisyonların değerlendirilmesi ve ikinci yarıya dair beklentiler bu programda. Derinlikli analizleriyle Devre Arası, maç keyfini artıran önemli bir ara değerlendirme programı.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819200000 +0200" stop="20260819210000 +0200">
+    <title lang="fr">Skorbord</title>
+    <desc lang="fr">Skorbord, günün maçlarından en taze skorları, performans verilerini ve öne çıkan istatistikleri tek bir çatı altında topluyor. Futboldan basketbola, Avrupa liglerinden yerel karşılaşmalara kadar geniş bir yelpazede detaylı bilgilere ulaşabileceğiniz Skorbord, hızlı ve net anlatımıyla sporseverlerin vazgeçilmezi.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819210000 +0200" stop="20260819230000 +0200">
+    <title lang="fr">90+1</title>
+    <desc lang="fr">"90+1", futbolun en kritik anlarını mercek altına alan, maçların kaderini değiştiren pozisyonları analiz eden özel bir program. Sahadaki mücadeleyi, teknik detayları ve gündemin öne çıkan başlıklarını uzman yorumlarla ekrana getiriyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260819230000 +0200" stop="20260820010000 +0200">
+    <title lang="fr">Futbol Meydanı</title>
+    <desc lang="fr">Sahada yaşanan mücadeleler, transfer kulisleri ve haftanın tartışılan pozisyonları Futbol Meydanı'nda geniş bir perspektifle ele alınıyor. Futbol gündemine damga vuran olaylar, yorumlar ve analizlerle ekranlara taşınırken, spor dünyasında öne çıkan başlıklar detaylı biçimde değerlendiriliyor.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.950" start="20260819010000 +0200" stop="20260819031500 +0200">
@@ -62008,6 +63208,21 @@
     <title lang="fr">Yağmur Zamanı</title>
     <desc lang="fr">Tutku, aşk ve kaderin yön verdiği bu hikayede bir adam geçmişiyle yüzleşmek zorunda kalır. Yıllar boyunca saklanan duygular ve yarım kalan hesaplaşmalar gün yüzüne çıkar. Hayata umutla tutunan cesur bir kadın, onun karanlık dünyasında yeni bir yol açar. İki farklı hayat, acılar ve seçimlerle dolu bir kaderde kesişir. Aşk ve tutku kadar pişmanlık ve fedakarlık da hikayenin merkezindedir. Güçlü karakterler, sert yaşam koşulları karşısında ayakta kalmaya çalışırken insanın iç dünyası derinlemesine işlenir.</desc>
     <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.953" start="20260819012500 +0200" stop="20260819021500 +0200">
+    <title lang="fr">Chemins d'école, chemins de tous les dangers</title>
+    <desc lang="fr">Au Népal, le petit Ali et ses camarades bravent tous les obstacles pour se rendre à l'école depuis leur village perdu de Kumpur, perché à 4000 mètres.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.953" start="20260819021500 +0200" stop="20260819032000 +0200">
+    <title lang="fr">Şehirden Uzakta</title>
+    <desc lang="fr">Şehirden Uzakta, TRT Belgesel kanalında, Kıvanç Kasabalı ile Anadolu'nun sıcak insanlarını ve doğal güzelliklerini keşfe çıkan bir belgesel. Kasabalı, her bölümde Anadolu'nun farklı köylerine giderek, yerel halkın yaşamını, geleneklerini ve doğayla iç içe olan huzurlu yaşamlarını anlatıyor. Bu program, modern hayatın gürültüsünden uzak, samimi ve sakin bir yaşam arayanlar için ilham verici bir keşif sunuyor.</desc>
+    <category lang="fr">Documentaire / Documentaire voyage</category>
+  </programme>
+  <programme channel="oqee.953" start="20260819032000 +0200" stop="20260819040500 +0200">
+    <title lang="fr">Gönüllü Veteriner</title>
+    <desc lang="fr">Gönüllü Veteriner, TRT Belgesel kanalında yayınlanan ve hayvan sağlığına adanmış gönüllü veterinerlerin hayatına odaklanan bir belgesel dizisidir. Program, gönüllü veterinerlerin hayvanların sağlığı için verdikleri mücadeleleri, karşılaştıkları zorlukları ve fedakarlıklarını izleyiciye aktarır. Her bölümde, veterinerlerin çeşitli yerlerdeki hayvanlarla ilgilenirken yaşadıkları deneyimler ve bu süreçteki duygusal anlar izlenir. Hayvan hakları ve veterinerlik mesleğinin önemine dikkat çekerken, aynı zamanda toplumda hayvanlara karşı duyarlılığı artırmayı amaçlar.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
   <programme channel="oqee.954" start="20260819001500 +0200" stop="20260819005000 +0200">
     <title lang="fr">Yabancı Şef</title>
