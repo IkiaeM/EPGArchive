@@ -27,6 +27,9 @@
   <channel id="4Plus.ch">
     <display-name>4Plus.ch</display-name>
   </channel>
+  <channel id="526194">
+    <display-name>ETB 2</display-name>
+  </channel>
   <channel id="5Plus.ch">
     <display-name>5Plus.ch</display-name>
   </channel>
@@ -2523,6 +2526,10 @@
     <display-name>Trace Toca</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/Trace_Toca_color.png"/>
   </channel>
+  <channel id="TraceTropical.fr">
+    <display-name>Trace Tropical</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjYaCZUHfwSB1sDQf0PzbUDiV0QuRvOe3_71eJSgUphA_fj2yGS9oeYhk1w&amp;amp;s"/>
+  </channel>
   <channel id="TraceUrban.fr">
     <display-name>Trace Urban</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~b672a3a7ae0004dc.png/480x480/quality/100/trace-urban.png"/>
@@ -2557,6 +2564,10 @@
   </channel>
   <channel id="VEDIA.ch">
     <display-name>VEDIA.ch</display-name>
+  </channel>
+  <channel id="VISION.ca">
+    <display-name>VISION</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0S2BefV-5_vnN4tzmvGG80Ux1-fu0xrK-V7sg2qE4tzlzQE4u3cznBCSq7TQ&amp;amp;s"/>
   </channel>
   <channel id="VOO.be">
     <display-name>VOO</display-name>
@@ -2764,6 +2775,10 @@
   <channel id="oqee.1082">
     <display-name>Sqool TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2674/w256"/>
+  </channel>
+  <channel id="oqee.1085">
+    <display-name>Rotana Cinéma+ FR</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2690/w256"/>
   </channel>
   <channel id="oqee.1093">
     <display-name>Rotana Aflam+</display-name>
@@ -3056,6 +3071,10 @@
   <channel id="oqee.1371">
     <display-name>Desire TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3682/w256"/>
+  </channel>
+  <channel id="oqee.1373">
+    <display-name>Rakuten TV Action</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3788/w256"/>
   </channel>
   <channel id="oqee.1375">
     <display-name>100% Comedy</display-name>
@@ -4636,6 +4655,32 @@
     <desc lang="fr">Aucune description</desc>
     <category lang="fr">Séries policières</category>
     <icon src="https://media.teleboy.ch/media/raw/7a742281008d82d7e9c96550324834e45d878133.jpg"/>
+  </programme>
+  <programme channel="526194" start="20260924004500 +0000" stop="20260924020500 +0000">
+    <title lang="fr">Euskadi quédate</title>
+    <desc lang="fr">La información más cercana de Euskadi, los datos imprescindibles para tu día a día, la última hora de nuestra actualidad, las historias que nos llegan muy adentro. Todo contando de forma amable y positiva. De la mano de Odei Esnaola, todas las tardes, de lunes a viernes, en ETB2.</desc>
+  </programme>
+  <programme channel="526194" start="20260924020500 +0000" stop="20260924030000 +0000">
+    <title lang="fr">A bocados</title>
+    <desc lang="fr">El chef Enrique Sánchez elabora una receta con productos andaluces, con denominación de origen o reconocido prestigio. Este espacio acerca los productos agroalimentarios, naturales y andaluces de calidad, a la audiencia.</desc>
+  </programme>
+  <programme channel="526194" start="20260924030000 +0000" stop="20260924034000 +0000">
+    <title lang="fr">Teleberri 2</title>
+  </programme>
+  <programme channel="526194" start="20260924034000 +0000" stop="20260924040000 +0000">
+    <title lang="fr">Kirolak ETB2</title>
+    <desc lang="fr">Información deportiva.</desc>
+  </programme>
+  <programme channel="526194" start="20260924040000 +0000" stop="20260924040500 +0000">
+    <title lang="fr">KULTplanak</title>
+    <desc lang="fr">Espacio que repasa, en formato breve, la agenda cultural de Euskal Herria.</desc>
+  </programme>
+  <programme channel="526194" start="20260924040500 +0000" stop="20260924042000 +0000">
+    <title lang="fr">Eguraldia ETB2</title>
+  </programme>
+  <programme channel="526194" start="20260924042000 +0000" stop="20260925000000 +0000">
+    <title lang="fr">Euskal Herria Desde el Aire</title>
+    <desc lang="fr">Serie documental que realiza un espectacular viaje para los sentidos que recorre Euskadi desde el aire, mostrando su esencia como nunca antes se ha visto.</desc>
   </programme>
   <programme channel="5Plus.ch" start="20260924005000 +0200" stop="20260924040000 +0200">
     <title lang="fr">FBI: Most Wanted</title>
@@ -44328,38 +44373,31 @@ Stéphane Bellavance
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924063000 +0200" stop="20260924073000 +0200">
     <title lang="fr">Bonjour Dici</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924073000 +0200" stop="20260924123000 +0200">
     <title lang="fr">Bonjour Dici</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924123000 +0200" stop="20260924130000 +0200">
     <title lang="fr">Bonjour Dici</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924130000 +0200" stop="20260924170000 +0200">
     <title lang="fr">Bonjour Dici</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~e400299a5d987122.jpeg/640x360/quality/80/bonjour-dici.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924170000 +0200" stop="20260924183000 +0200">
     <title lang="fr">Bonsoir Dici</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ef79bbe24d015a8.jpeg/640x360/quality/80/bonsoir-dici.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924183000 +0200" stop="20260924193000 +0200">
     <title lang="fr">Bonsoir Dici</title>
-    <category lang="fr">Culture Infos</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6ef79bbe24d015a8.jpeg/640x360/quality/80/bonsoir-dici.jpg"/>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="DiciTvProvence.fr" start="20260924193000 +0200" stop="20260925063000 +0200">
     <title lang="fr">Le JT du Sud</title>
-    <category lang="fr">Autre</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a6b60507d734e805.jpeg/640x360/quality/80/le-jt-du-sud.jpg"/>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="DigitalCongo.af" start="20260924000000 +0200" stop="20260924010000 +0200">
     <title lang="fr">La chaîne numérique, la chaîne des sports !</title>
@@ -49623,6 +49661,11 @@ Stéphane Bellavance
     <category lang="fr">Sport</category>
     <icon src="https://images.voomotion.be/Events/2026/06/11/37/2618861_A.jpg"/>
   </programme>
+  <programme channel="ElevenSports1FR.be" start="20260924001500 +0200" stop="20260924010000 +0200">
+    <title lang="fr">Being Mario Götze (Episode 2) (2/5)</title>
+    <desc lang="fr">«Episode 2»Une immersion exclusive dans la vie et la carrière de Mario Götze.</desc>
+    <category lang="fr">Documentaire</category>
+  </programme>
   <programme channel="ElevenSports1FR.be" start="20260924010000 +0200" stop="20260924032000 +0200">
     <title lang="fr">Atlético Madrid / Real Madrid</title>
     <desc lang="fr">Le derby madrilène reste l'un des grands rendez-vous de la saison. Rivalité et tension sont garanties.</desc>
@@ -51186,9 +51229,9 @@ Pour « Enquêtes Criminelles », la famille de Léa a accepté de témoigner, m
     <category lang="fr">Emission sportive / Automobilisme</category>
   </programme>
   <programme channel="Eurosport1.fr" start="20260924050000 +0200" stop="20260924063000 +0200">
-    <title lang="fr">Cyclisme : Tour de Croatie - Biograd na moru - Novalja (114,5 km)</title>
-    <desc lang="fr">Retransmission des étapes du Tour de Croatie, une course professionnelle de cyclisme sur route.. La course a été créée en 1994, après avoir été une course amateur les cinq premières années de son histoire, elle devient finalement professionnelle et intègre l'UCI Europe Tour. Au programme de très belles étapes le long de la côte Adriatique.</desc>
-    <category lang="fr">Emission sportive / Cyclisme</category>
+    <title lang="fr">Cyclisme : Tour de Croatie</title>
+    <category lang="fr">Sport</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~baa4bb435f390045.jpeg/640x360/quality/80/cyclisme-tour-de-croatie.jpg"/>
   </programme>
   <programme channel="Eurosport1.fr" start="20260924063000 +0200" stop="20260924083000 +0200">
     <title lang="fr">Snooker : Open de Grande-Bretagne - Open de Grande-Bretagne</title>
@@ -53754,9 +53797,8 @@ Pour « Enquêtes Criminelles », la famille de Léa a accepté de témoigner, m
   </programme>
   <programme channel="France2.fr" start="20260924050500 +0200" stop="20260924060000 +0200">
     <title lang="fr">Tout le monde veut prendre sa place</title>
-    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place.</desc>
-    <category lang="fr">Jeu</category>
-    <icon src="https://images.voomotion.be/Events/2026/04/03/17/2422924_A.jpg"/>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="France2.fr" start="20260924060000 +0200" stop="20260924063500 +0200">
     <title lang="fr">Le 6h info</title>
@@ -53840,6 +53882,7 @@ Pour « Enquêtes Criminelles », la famille de Léa a accepté de témoigner, m
   </programme>
   <programme channel="France2.fr" start="20260924150500 +0200" stop="20260924162500 +0200">
     <title lang="fr">Le Mag de la santé</title>
+    <desc lang="fr">Du lundi au vendredi, "Le Mag de la santé" informe les téléspectateurs sur tous les sujets concernant la santé, la forme, la beauté et le bien-être.</desc>
     <category lang="fr">Magazine / Magazine de la santé</category>
   </programme>
   <programme channel="France2.fr" start="20260924162500 +0200" stop="20260924172000 +0200">
@@ -59769,6 +59812,12 @@ Pour « Enquêtes Criminelles », la famille de Léa a accepté de témoigner, m
     <title lang="fr">Le livre unique</title>
     <desc lang="fr">Didier, un cheminot aixois de 62 ans, collectionne les oeuvres des plus grands street artistes français, peintes à même les pages d'un grand carnet qui ne le quitte jamais.</desc>
     <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="France3ProvenceAlpes.fr" start="20260924000000 +0200" stop="20260924002800 +0200">
+    <title lang="fr">music.box</title>
+    <desc lang="fr">Des concerts intimistes, enregistrés dans un lieu mythique, le studio Ferber, à Paris.</desc>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~a13b2029587eab1e.jpeg/640x360/quality/80/music-box.jpg"/>
   </programme>
   <programme channel="France3ProvenceAlpes.fr" start="20260924002800 +0200" stop="20260924005600 +0200">
     <title lang="fr">music.box</title>
@@ -66327,6 +66376,42 @@ Acteurs : Mark Coles Smith (Jay Swan), Tuuli Narkle (Mary), Robyn Malcolm (Simmo
     <title lang="fr">Des tubes, des légendes</title>
     <category lang="fr">Divertissement</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50611/canal-ouah/GEN169/KALAC_TV_FALLBACK_AFR_16x9-t4_4"/>
+  </programme>
+  <programme channel="Ketnet.be" start="20260924060000 +0200" stop="20260924060500 +0200">
+    <title lang="fr">Tik Tak</title>
+    <desc lang="fr">Nieuwe reeks afleveringen van het legendarische programma voor peuters.</desc>
+    <category lang="fr">Emission Enfants</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/42/2622835_A.jpg"/>
+  </programme>
+  <programme channel="Ketnet.be" start="20260924060500 +0200" stop="20260924061000 +0200">
+    <title lang="fr">Bumba (Bumbalu heeft veel hoeden) S1 (61/100)</title>
+    <desc lang="fr">«Bumbalu heeft veel hoeden»Vlaamse animatiereeks. Bumba, Bumbala en Bumbina verkennen met al hun vriendjes op een grappige en educatieve manier de wereld waarin ze leven.</desc>
+    <category lang="fr">Dessin animé</category>
+    <icon src="https://images.voomotion.be/Events/2025/06/12/44/2090920_A.jpg"/>
+  </programme>
+  <programme channel="Ketnet.be" start="20260924061000 +0200" stop="20260924061500 +0200">
+    <title lang="fr">Timbalo (Toto en Zaza kamperen) S2 (9/26)</title>
+    <desc lang="fr">«Toto en Zaza kamperen»Zaza eet een boterham na een dag op het strand met de vier vrienden. De bloemen dansen van links en rechts en Zaza en Toto kamperen met een tent in het bos.</desc>
+    <category lang="fr">Dessin animé</category>
+    <icon src="https://images.voomotion.be/Events/2025/12/31/11/2647188_A.jpg"/>
+  </programme>
+  <programme channel="Ketnet.be" start="20260924061500 +0200" stop="20260924062000 +0200">
+    <title lang="fr">Ellie de olifant (Op de boerderij) S1 (n°16)</title>
+    <desc lang="fr">«Op de boerderij»Op de boerderij helpen Ellie en haar vriendjes met schilderen, timmeren, poetsen en sjouwen. Als het tijd is voor de lunch, heeft Konijn alle boterhammen al opgegeten - zonder te beseffen dat ze voor iedereen waren. Ellie bedenkt een oplossing waarbij de boerderij goed van pas komt! Samen met de anderen vindt Konijn een manier om alles weer goed te maken.</desc>
+    <category lang="fr">Dessin animé</category>
+    <icon src="https://images.voomotion.be/Events/2025/10/21/48/2603567_A.jpg"/>
+  </programme>
+  <programme channel="Ketnet.be" start="20260924062000 +0200" stop="20260924062500 +0200">
+    <title lang="fr">Sarah doet yoga S1</title>
+    <desc lang="fr">Sarah woont in een kleurrijke blokkentoren met een gezellig voortuintje aan de rand van de stad. Ze betovert iedereen met haar mooie glimlach! Samen met Sokpop probeert ze leuke yogahoudingen uit. Doen jullie allemaal mee?</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/01/08/48/2658059_A.jpg"/>
+  </programme>
+  <programme channel="Ketnet.be" start="20260924062500 +0200" stop="20260924063000 +0200">
+    <title lang="fr">Simon (Une petite bête de rien du tout) S1 (9/52)</title>
+    <desc lang="fr">«Une petite bête de rien du tout»Simon zijn vriendjes komen spelen in de tuin. Ferdinand vindt het leuk om de rest schrik aan te jagen met kleine insecten. Zijn vriendjes gaan zich verstoppen op zolder. Maar daar zit een grote spin!</desc>
+    <category lang="fr">Dessin animé</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/17/2689044_A.jpg"/>
   </programme>
   <programme channel="Ketnet.be" start="20260924063000 +0200" stop="20260924063500 +0200">
     <title lang="fr">Kaatjes Kameraadjes (Lichaam: Viktor moet naar de dokter) S2 (24/25)</title>
@@ -79373,6 +79458,17 @@ Réalisateur(s) : Masamitsu Hidaka, Joop Pieëte, Hiroshi Haraguchi
     <category lang="fr">Divertissement</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50485/canal-ouah/GEN169/myCANAL_16x9_MEA_1920x1080_Generique_Replay_Factory81-y69H"/>
   </programme>
+  <programme channel="MirabelleTV.fr" start="20260924000000 +0200" stop="20260924020000 +0200">
+    <title lang="fr">Graoully Match</title>
+    <category lang="fr">Sport</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~13caa034bda38c4c.jpeg/640x360/quality/80/graoully-match.jpg"/>
+  </programme>
+  <programme channel="MirabelleTV.fr" start="20260924020000 +0200" stop="20260924070000 +0200">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">Rediffusion des programmes de la soirée.</desc>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ecdd9b764479b6a8.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
+  </programme>
   <programme channel="MirabelleTV.fr" start="20260924070000 +0200" stop="20260924080000 +0200">
     <title lang="fr">Moselle Info</title>
     <category lang="fr">Autre</category>
@@ -90413,14 +90509,18 @@ Acteurs : Melissa Guers (Lise), Roschdy Zem (Bruno), Chiara Mastroianni (Céline
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="Pulaagu.fr" start="20260924060000 +0200" stop="20260924063000 +0200">
-    <title lang="fr">No Warriwoo - S02E08</title>
+    <title lang="fr">No Warriwoo</title>
     <desc lang="fr">Djiba est la fille de l'imam de Misiidé. Sara, fils d'un potier, vit dans le Roundé près du fleuve. Malgré leurs différences sociales, ils tombent éperdument amoureux mais se heurtent à l'opposition farouche de leurs familles.</desc>
-    <category lang="fr">Série / Série dramatique</category>
+    <category lang="fr">Series</category>
+    <episode-num>0.7.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/plmws/images.media-press.cloud/7fce/7fcefccbbb5c433196c64090cbde78db"/>
   </programme>
   <programme channel="Pulaagu.fr" start="20260924063000 +0200" stop="20260924070000 +0200">
-    <title lang="fr">Tigelle et Kelleka - S01E13</title>
-    <desc lang="fr">Dans la maison familiale, deux soeurs aux tempéraments opposés, Tigelle et Kelleka, cohabitent difficilement avec leur frère Abou. Entre rivalités, conflits autour de l'héritage et secrets de famille, leur quotidien oscille entre comédie et drame. Au coeur de leurs relations difficiles se trouve un lourd secret : Kelleka dissimule depuis toujours la véritable identité du père de sa fille, Mariatou.</desc>
-    <category lang="fr">Série / Série dramatique</category>
+    <title lang="fr">Tigelle et Kelleka - Saison 1</title>
+    <desc lang="fr">Deux soeurs qui partagent le même toit et que tout oppose entretiennent des relations conflictuelles, alimentées par un lourd secret de famille.</desc>
+    <category lang="fr">Series</category>
+    <episode-num>0.12.</episode-num>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/plmws/images.media-press.cloud/495a/495a12b7e1894577b5c07e514fdce8c6"/>
   </programme>
   <programme channel="Pulaagu.fr" start="20260924070000 +0200" stop="20260924073000 +0200">
     <title lang="fr">Tigelle et Kelleka - S01E14</title>
@@ -118022,11 +118122,26 @@ Présentateur(s) : Élodie Poyade
     <desc lang="fr">TRACE Ayiti consacre 60 minutes aux plus grands succès de cet artiste, ses meilleurs titres et ses plus grand succès rien que pour toi c'est dans Focus est l'émission à ne pas manquer!</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="TraceGospel.af" start="20260924020000 +0200" stop="20260924030000 +0200">
+    <title lang="fr">MBOA gospel</title>
+    <desc lang="fr">Le Gospel made in Cameroun est à l'honneur sur ta chaîne préférée.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924030000 +0200" stop="20260924040000 +0200">
+    <title lang="fr">New Gospel</title>
+    <desc lang="fr">"New", l'émission qui, pendant une heure, propose de faire découvrir les nouveaux clips des artistes les plus en vogue avant tout le monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
   <programme channel="TraceGospel.af" start="20260924030000 +0200" stop="20260924050000 +0200">
     <title lang="fr">SOUNDS OF AFRICA</title>
     <desc lang="fr">Le meilleur des clips du continent africain et de sa diaspora!</desc>
     <episode-num>0.1622.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924040000 +0200" stop="20260924070000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924050000 +0200" stop="20260924060000 +0200">
     <title lang="fr">GET UP AND PRAISE INTERNATIONAL</title>
@@ -118039,6 +118154,11 @@ Présentateur(s) : Élodie Poyade
     <desc lang="fr">GET UP &amp; PRAISE est le coup de fouet dont nous avons tous besoin le matin ! Profitez d'une série de chants de louange et d'adoration qui ont été sélectionnés pour vous donner un coup de fouet et vous préparer à la journée qui s'annonce !</desc>
     <episode-num>0.1622.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924070000 +0200" stop="20260924100000 +0200">
+    <title lang="fr">Wake up</title>
+    <desc lang="fr">Pendant 3 heures la parole de Dieu résonne comme des mot doux à votre réveil.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924070000 +0200" stop="20260924080000 +0200">
     <title lang="fr">GOSPEL HITS</title>
@@ -118059,10 +118179,14 @@ Présentateur(s) : Élodie Poyade
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
   </programme>
   <programme channel="TraceGospel.af" start="20260924100000 +0200" stop="20260924110000 +0200">
-    <title lang="fr">GOSPEL HITS</title>
-    <desc lang="fr">Ne vous inquiétez pas des petites choses, comme si vos succès gospel préférés ne sont pas en tête des charts. Au lieu de cela, profitez d'une session gospel spécialement organisée juste pour vous, présentée par Gospel Hits !</desc>
-    <episode-num>0.5940.</episode-num>
-    <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+    <title lang="fr">Morning Live</title>
+    <desc lang="fr">Démarrez vos journées remplis d'énergie avec votre rendez vous 100% Live.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924110000 +0200" stop="20260924140000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924110000 +0200" stop="20260924120000 +0200">
     <title lang="fr">GOSPEL HITS</title>
@@ -118082,11 +118206,21 @@ Présentateur(s) : Élodie Poyade
     <episode-num>0.5942.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
   </programme>
+  <programme channel="TraceGospel.af" start="20260924140000 +0200" stop="20260924144500 +0200">
+    <title lang="fr">Hit 10 Gospel</title>
+    <desc lang="fr">Le classement des 10 meilleurs hits africains qui cartonnent en ce moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
   <programme channel="TraceGospel.af" start="20260924140000 +0200" stop="20260924150000 +0200">
     <title lang="fr">GOSPEL HITS</title>
     <desc lang="fr">Ne vous inquiétez pas des petites choses, comme si vos succès gospel préférés ne sont pas en tête des charts. Au lieu de cela, profitez d'une session gospel spécialement organisée juste pour vous, présentée par Gospel Hits !</desc>
     <episode-num>0.5943.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924144500 +0200" stop="20260924160000 +0200">
+    <title lang="fr">New Gospel</title>
+    <desc lang="fr">"New", l'émission qui, pendant une heure, propose de faire découvrir les nouveaux clips des artistes les plus en vogue avant tout le monde.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924150000 +0200" stop="20260924154500 +0200">
     <title lang="fr">BEST US 10</title>
@@ -118100,11 +118234,21 @@ Présentateur(s) : Élodie Poyade
     <episode-num>0.1689.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
   </programme>
+  <programme channel="TraceGospel.af" start="20260924160000 +0200" stop="20260924164500 +0200">
+    <title lang="fr">US Hit</title>
+    <desc lang="fr">Le classement des 10 hits américains les plus joués aux Etats Unis!</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
   <programme channel="TraceGospel.af" start="20260924160000 +0200" stop="20260924170000 +0200">
     <title lang="fr">GOSPEL HITS</title>
     <desc lang="fr">Ne vous inquiétez pas des petites choses, comme si vos succès gospel préférés ne sont pas en tête des charts. Au lieu de cela, profitez d'une session gospel spécialement organisée juste pour vous, présentée par Gospel Hits !</desc>
     <episode-num>0.5944.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924164500 +0200" stop="20260924180000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924170000 +0200" stop="20260924180000 +0200">
     <title lang="fr">NEWCOMERS</title>
@@ -118113,16 +118257,25 @@ Présentateur(s) : Élodie Poyade
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
   </programme>
   <programme channel="TraceGospel.af" start="20260924180000 +0200" stop="20260924190000 +0200">
-    <title lang="fr">FOCUS</title>
-    <desc lang="fr">Les meilleures vidéos de ton artiste préféré,Focus est l'émission à ne pas manquer! TRACE Gospel consacre 60 minutes aux plus grands succès de cet artiste.</desc>
-    <episode-num>0.1863.</episode-num>
-    <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+    <title lang="fr">MBOA gospel</title>
+    <desc lang="fr">Le Gospel made in Cameroun est à l'honneur sur ta chaîne préférée.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924190000 +0200" stop="20260924194500 +0200">
+    <title lang="fr">Hit 10 Gospel</title>
+    <desc lang="fr">Le classement des hits Gospel de la semaine...</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924190000 +0200" stop="20260924200000 +0200">
     <title lang="fr">GOSPEL HITS</title>
     <desc lang="fr">Ne vous inquiétez pas des petites choses, comme si vos succès gospel préférés ne sont pas en tête des charts. Au lieu de cela, profitez d'une session gospel spécialement organisée juste pour vous, présentée par Gospel Hits !</desc>
     <episode-num>0.5945.</episode-num>
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924194500 +0200" stop="20260924220000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924200000 +0200" stop="20260924210000 +0200">
     <title lang="fr">GOSPEL HITS</title>
@@ -118137,10 +118290,14 @@ Présentateur(s) : Élodie Poyade
     <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
   </programme>
   <programme channel="TraceGospel.af" start="20260924220000 +0200" stop="20260924230000 +0200">
-    <title lang="fr">WORLD WIDE WORSHIP INTERNATIONAL</title>
-    <desc lang="fr">Rejoignez la communauté mondiale des fidèles et entrez dans votre soirée avec des chants de psaumes et d'hymnes uniquement sur World Wide Worship.</desc>
-    <episode-num>0.1622.</episode-num>
-    <icon src="https://filesapp.trace.tv/files/images/source/Trace_TV_Logo_w_1280_h_329.png"/>
+    <title lang="fr">Urban pop vibes</title>
+    <desc lang="fr">Le meilleur de la pop urbaine rassemblé dans une playlist specialement dédiée à cette nouvelle forme d'expression du Gospel.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20260924230000 +0200" stop="20260925020000 +0200">
+    <title lang="fr">Gospel by night</title>
+    <desc lang="fr">Une selection spéciale de musiques cultes et de gospel contemporain.</desc>
+    <category lang="fr">Divers / Variétés</category>
   </programme>
   <programme channel="TraceGospel.af" start="20260924230000 +0200" stop="20260925030000 +0200">
     <title lang="fr">NEW HORIZON</title>
@@ -118667,6 +118824,51 @@ Présentateur(s) : Élodie Poyade
     <title lang="fr">Playlist</title>
     <desc lang="fr">100% musique, 100% clips.</desc>
     <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924000000 +0200" stop="20260924020000 +0200">
+    <title lang="fr">Trace classic</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~091d417ca4debcd2.jpeg/640x360/quality/80/trace-classic.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924020000 +0200" stop="20260924070000 +0200">
+    <title lang="fr">Night session</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~6eca925d0b67a0c7.jpeg/640x360/quality/80/night-session.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924070000 +0200" stop="20260924100000 +0200">
+    <title lang="fr">Good Morning Trace</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~48e445115079d05c.jpeg/640x360/quality/80/good-morning-trace.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924100000 +0200" stop="20260924104500 +0200">
+    <title lang="fr">Hit 10</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~da1f17ce79308a73.jpeg/640x360/quality/80/hit-10.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924104500 +0200" stop="20260924200000 +0200">
+    <title lang="fr">Caribbean Vibes</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~4eddd29c6153433c.jpeg/640x360/quality/80/caribbean-vibes.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924200000 +0200" stop="20260924204500 +0200">
+    <title lang="fr">Hit 10</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~da1f17ce79308a73.jpeg/640x360/quality/80/hit-10.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924204500 +0200" stop="20260924210000 +0200">
+    <title lang="fr">Caribbean Vibes</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~4eddd29c6153433c.jpeg/640x360/quality/80/caribbean-vibes.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924210000 +0200" stop="20260924230000 +0200">
+    <title lang="fr">Caribbean Vibes</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~4eddd29c6153433c.jpeg/640x360/quality/80/caribbean-vibes.jpg"/>
+  </programme>
+  <programme channel="TraceTropical.fr" start="20260924230000 +0200" stop="20260925000000 +0200">
+    <title lang="fr">Focus</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~collection~bf9cb5026592ee1b.jpeg/640x360/quality/80/focus.jpg"/>
   </programme>
   <programme channel="TraceUrban.fr" start="20260924000000 +0200" stop="20260924010000 +0200">
     <title lang="fr">Street cred</title>
@@ -119840,6 +120042,534 @@ Présentateur(s) : Arnaud Stiepen
 </desc>
     <category lang="fr">Magazine scientifique</category>
     <icon src="https://tv.cdnartwhere.eu/cache/i2/Dcw7DoMwDADQu3guBEpsp5wli0nCRyUC4SBVqnr3Zn3D-8IkmmCEtZRTR2-82bIsSduc4ibNeSXVRnVvw37c0ZvA9KJhCIicLMvkXD8jRctVmcjBA7Lou45997QfdF2VWUI5rmqM8PsD.jpg"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924000000 +0200" stop="20260924010000 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">
+(S11EP17) Murdoch and Ogden must put aside dealing with a personal matter when Nate Desmond is charged with murder.
+
+Année : 2008
+
+
+
+Avec :
+Yannick Bisson (Detective William Murdoch)
+Hélène Joy (Dr. Julia Ogden)
+Jonny Harris (Constable Crabtree)
+Thomas Craig (Inspector Brackenreid)
+Georgina Reilly (Dr. Emily Grace)
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924010000 +0200" stop="20260924020000 +0200">
+    <title lang="fr">Elle écrit au meurtre</title>
+    <desc lang="fr">
+When a woman is electrocuted in her locked bathroom, Amos chuckles that even Jessica can&amp;#039;t make a murder out of it.
+
+Année : 1984
+
+
+
+Avec :
+Parker Stevenson (Michael Dugby)
+Angela Lansbury (Jessica Fletcher)
+John Astin (Harry Pierce)
+Paul Benedict (Frederick Hoffman)
+Christopher Stone (Adam Frobisher)
+Evelyn Keyes (Edna)
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924020000 +0200" stop="20260924040000 +0200">
+    <title lang="fr">Inspecteur Barnaby</title>
+    <desc lang="fr">
+(S01EP02) Barnaby and Troy investigate the brutal murder of a mysterious secretary of a writers circle.
+
+Année : 1997
+
+
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924040000 +0200" stop="20260924050000 +0200">
+    <title lang="fr">Affaires non classées</title>
+    <desc lang="fr">
+Sam (Amanda Burton) is bothered by the apparent suicide of the wife of a prominent academic but she wonders if her judgement is impaired by illness. She takes herself off the case and accepts to investigate evidence for the canonization of a nun.
+
+Année : 1996
+
+
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924050000 +0200" stop="20260924060000 +0200">
+    <title lang="fr">Les enquêtes de Murdoch</title>
+    <desc lang="fr">
+(S11EP17) Murdoch and Ogden must put aside dealing with a personal matter when Nate Desmond is charged with murder.
+
+Année : 2008
+
+
+
+Avec :
+Yannick Bisson (Detective William Murdoch)
+Hélène Joy (Dr. Julia Ogden)
+Jonny Harris (Constable Crabtree)
+Thomas Craig (Inspector Brackenreid)
+Georgina Reilly (Dr. Emily Grace)
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924060000 +0200" stop="20260924080000 +0200">
+    <title lang="fr">Columbo: Des sourires et des armes</title>
+    <desc lang="fr">
+U.S. 1978. An irresistible Irish poet hides a devious scheme of murder behind his lifting verse.
+
+Année : 1978
+
+Réalisation :
+L. Penn
+Leo Penn
+
+
+
+Avec :
+Peter Falk
+Clive Revill
+Jeanette Nolan
+
+
+
+</desc>
+    <category lang="fr">Drama Movie</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924080000 +0200" stop="20260924083000 +0200">
+    <title lang="fr">700 Club Canada</title>
+    <desc lang="fr">
+Stories of personal healing and triumph.
+
+Année : 2011
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924083000 +0200" stop="20260924090000 +0200">
+    <title lang="fr">Tribal Trails</title>
+    <desc lang="fr">
+Interviews and singing of First Nations people across Canada.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924090000 +0200" stop="20260924093000 +0200">
+    <title lang="fr">Tomorrow's World</title>
+    <desc lang="fr">
+Christian living talk show to preach the Gospel of the Kingdom of God, declare the end-time prophecies and proclaim the Ezekiel warning.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924093000 +0200" stop="20260924100000 +0200">
+    <title lang="fr">Prophecy USA</title>
+    <desc lang="fr">
+In this program minister Rick Pearson discusses the hidden mysteries of America&amp;#039;s role in Bible Prophecy.
+
+Année : 2020
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924100000 +0200" stop="20260924103000 +0200">
+    <title lang="fr">The Prophetic Connection</title>
+    <desc lang="fr">
+Rev. Dr. John Tweedie takes you to the Holy Land to discover how the prophecies of the Bible connect to the past, present and future of Israel.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924103000 +0200" stop="20260924110000 +0200">
+    <title lang="fr">Enjoying Everyday Life</title>
+    <desc lang="fr">
+Joyce Meyer&amp;#039;s animated sermons on contemporary Christian topics.
+
+Année : 1997
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924110000 +0200" stop="20260924113000 +0200">
+    <title lang="fr">700 Club Canada</title>
+    <desc lang="fr">
+Stories of personal healing and triumph.
+
+Année : 2011
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924113000 +0200" stop="20260924120000 +0200">
+    <title lang="fr">Creflo Dollar</title>
+    <desc lang="fr">
+Religious program with host Creflo A. Dollar Jr.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924120000 +0200" stop="20260924123000 +0200">
+    <title lang="fr">Tribal Trails</title>
+    <desc lang="fr">
+Interviews and singing of First Nations people across Canada.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924123000 +0200" stop="20260924130000 +0200">
+    <title lang="fr">Tomorrow's World</title>
+    <desc lang="fr">
+Christian living talk show to preach the Gospel of the Kingdom of God, declare the end-time prophecies and proclaim the Ezekiel warning.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924130000 +0200" stop="20260924133000 +0200">
+    <title lang="fr">Quick Study</title>
+    <desc lang="fr">
+Program exploring the world&amp;#039;s oldest book, the Bible, by going through all of its pages in one year. All 66 books of the Bible are uncovered and searched with Biblical Archeology, Expository Teaching and Creation Science segments.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924133000 +0200" stop="20260924140000 +0200">
+    <title lang="fr">David's Key</title>
+    <desc lang="fr">
+The &amp;#039;Key of David&amp;#039; analyzes world events through the clear light of Bible prophecy.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924140000 +0200" stop="20260924143000 +0200">
+    <title lang="fr">Daily Mass</title>
+    <desc lang="fr">
+The National Catholic Broadcasting Council presents The Daily Catholic Mass.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924143000 +0200" stop="20260924150000 +0200">
+    <title lang="fr">Eternally Yours</title>
+    <desc lang="fr">
+Inspiring music, interesting testimonials and an eternal message of hope.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924150000 +0200" stop="20260924153000 +0200">
+    <title lang="fr">Life Today With James Robison</title>
+    <desc lang="fr">
+James and Betty Robison host guests who speak on a variety of topics, offering hope and help.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924153000 +0200" stop="20260924160000 +0200">
+    <title lang="fr">Tribal Trails</title>
+    <desc lang="fr">
+Interviews and singing of First Nations people across Canada.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924160000 +0200" stop="20260924163000 +0200">
+    <title lang="fr">Enjoying Everyday Life</title>
+    <desc lang="fr">
+Joyce Meyer&amp;#039;s animated sermons on contemporary Christian topics.
+
+Année : 1997
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924163000 +0200" stop="20260924170000 +0200">
+    <title lang="fr">700 Club Canada</title>
+    <desc lang="fr">
+Stories of personal healing and triumph.
+
+Année : 2011
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924170000 +0200" stop="20260924173000 +0200">
+    <title lang="fr">Quick Study</title>
+    <desc lang="fr">
+Program exploring the world&amp;#039;s oldest book, the Bible, by going through all of its pages in one year. All 66 books of the Bible are uncovered and searched with Biblical Archeology, Expository Teaching and Creation Science segments.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924173000 +0200" stop="20260924180000 +0200">
+    <title lang="fr">International Fellowship of Christians and Jews</title>
+    <desc lang="fr">
+Learn more about The International Fellowship of Christians and Jews of Canada, a leading Canadian religious charity building bridges between Christians and Jews, blessing Israel and the Jewish people.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924180000 +0200" stop="20260924183000 +0200">
+    <title lang="fr">Daily Mass</title>
+    <desc lang="fr">
+The National Catholic Broadcasting Council presents The Daily Catholic Mass.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924183000 +0200" stop="20260924190000 +0200">
+    <title lang="fr">Word for Today - Discovering the Footsteps of God</title>
+    <desc lang="fr">
+Pastor Stéphane Chauvette leads by sharing a living and exciting word. His messages are interspersed with current events, historical facts and a little touch of humor.
+
+Année : 2020
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924190000 +0200" stop="20260924193000 +0200">
+    <title lang="fr">Tribal Trails</title>
+    <desc lang="fr">
+Interviews and singing of First Nations people across Canada.
+
+
+
+
+
+</desc>
+    <category lang="fr">Others Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924193000 +0200" stop="20260924200000 +0200">
+    <title lang="fr">Last of the Summer Wine</title>
+    <desc lang="fr">
+Compo and Clegg are minus one playmate now that Blamire has gone, but things soon look up when Foggy Dewhurst arrives on the scene and makes his presence felt.
+
+
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924200000 +0200" stop="20260924210000 +0200">
+    <title lang="fr">La petite maison dans la prairie</title>
+    <desc lang="fr">
+(S02EP01) The family faces a financial crisis when Charles (Michael Landon) is unable to collect his back wages. Caroline: Karen Grassle. Laura: Melissa Gilbert
+
+Année : 1974
+
+Réalisation :
+Michael Landon
+
+
+Scénario :
+Michael Landon
+
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924210000 +0200" stop="20260924220000 +0200">
+    <title lang="fr">Flics toujours</title>
+    <desc lang="fr">
+(S11EP01) A newly divorced Sasha is forced to work with ex-husband Ned Hancock. Gerry returns to his roots in Bermondsey for his youngest daughter&amp;#039;s wedding, where he is thrown into a case involving the possible murder of an architecture student.
+
+Année : 2004
+
+Réalisation :
+Andy Hay
+
+
+Scénario :
+Simon Allen
+
+
+Avec :
+Dennis Waterman (Gerald &amp;quot;Gerry&amp;quot; Standing)
+Denis Lawson (Steve McAndrew)
+Nicholas Lyndhurst (Danny Griffin)
+Tamzin Outhwaite (DCI Sasha Miller)
+Susie Blake (Sarah Paxton)
+David Hayman (Ralph Paxton)
+Barnaby Kay (DAC Ned Hancock)
+Amy Nuttall (Caitlin Standing)
+David Newman (Robin)
+John MacMillan (Archie Paxton)
+Tim Potter (Bryan Fawson)
+Andrew Jarvis (Wayne Pelham)
+Harry Peacock (Ronald Culley)
+
+
+
+</desc>
+    <category lang="fr">Drama Program</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
+  </programme>
+  <programme channel="VISION.ca" start="20260924220000 +0200" stop="20260925000000 +0200">
+    <title lang="fr">Columbo: Des sourires et des armes</title>
+    <desc lang="fr">
+U.S. 1978. An irresistible Irish poet hides a devious scheme of murder behind his lifting verse.
+
+Année : 1978
+
+Réalisation :
+L. Penn
+Leo Penn
+
+
+
+Avec :
+Peter Falk
+Clive Revill
+Jeanette Nolan
+
+
+
+</desc>
+    <category lang="fr">Drama Movie</category>
+    <icon src="https://i.imgur.com/5CHM14O.png"/>
   </programme>
   <programme channel="VOO.be" start="20260924000000 +0200" stop="20260924003000 +0200">
     <title lang="fr">Unspun World with John Simpson S6</title>
@@ -128560,6 +129290,38 @@ L’état a récemment été contraint de restreindre et de plafonner ses aides 
     <desc lang="fr">Experts, parents, élèves, associations… Chaque matin, dans "La Matinale", Patrice Boisfer met en lumière celles et ceux qui font bouger l'éducation.</desc>
     <category lang="fr">Magazine / Magazine éducatif</category>
   </programme>
+  <programme channel="oqee.1085" start="20260924010000 +0200" stop="20260924040000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924040000 +0200" stop="20260924070000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924070000 +0200" stop="20260924100000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924100000 +0200" stop="20260924130000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924130000 +0200" stop="20260924160000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924160000 +0200" stop="20260924190000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924190000 +0200" stop="20260924220000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20260924220000 +0200" stop="20260925010000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
   <programme channel="oqee.1093" start="20260924010000 +0200" stop="20260924040000 +0200">
     <title lang="fr">Rotana Aflam+</title>
     <category lang="fr">Magazine / Magazine du cinéma</category>
@@ -134877,6 +135639,7 @@ L’état a récemment été contraint de restreindre et de plafonner ses aides 
   </programme>
   <programme channel="oqee.1212" start="20260924150500 +0200" stop="20260924162500 +0200">
     <title lang="fr">Le Mag de la santé</title>
+    <desc lang="fr">Du lundi au vendredi, "Le Mag de la santé" informe les téléspectateurs sur tous les sujets concernant la santé, la forme, la beauté et le bien-être.</desc>
     <category lang="fr">Magazine / Magazine de la santé</category>
   </programme>
   <programme channel="oqee.1212" start="20260924162500 +0200" stop="20260924172000 +0200">
@@ -135866,6 +136629,7 @@ L’état a récemment été contraint de restreindre et de plafonner ses aides 
   </programme>
   <programme channel="oqee.1228" start="20260924150500 +0200" stop="20260924162500 +0200">
     <title lang="fr">Le Mag de la santé</title>
+    <desc lang="fr">Du lundi au vendredi, "Le Mag de la santé" informe les téléspectateurs sur tous les sujets concernant la santé, la forme, la beauté et le bien-être.</desc>
     <category lang="fr">Magazine / Magazine de la santé</category>
   </programme>
   <programme channel="oqee.1228" start="20260924162500 +0200" stop="20260924172000 +0200">
@@ -142794,6 +143558,26 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Brianna Garcia (Megan Fiore) is training hard all by herself for the upcoming title bout, while reigning champ Hayley Logan is resting on her laurels, to the disgust of her trainer Jerry Finch. To ensure this fight goes no further than good PR for his fighter, Jerry has a word with Brianna after the presser, paying her to throw the match. But her former trainer, Chris Diaz (Juan Lucho), tells Brianna she needs to do what she knows is right.</desc>
     <category lang="fr">Film / Film pornographique</category>
   </programme>
+  <programme channel="oqee.1373" start="20260924001036 +0200" stop="20260924015626 +0200">
+    <title lang="fr">Maximum Conviction</title>
+    <desc lang="fr">Deux anciens agents des services secrets sont chargés de surveiller l'entrée de deux mystérieuses détenues dans une vieille prison. Peu après leur arrivée, des mercenaires prennent la prison d'assaut. Ils découvrent alors l'identité des deux détenues…</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260924015627 +0200" stop="20260924033951 +0200">
+    <title lang="fr">King of Killers</title>
+    <desc lang="fr">Marcus Garan, ex-tueur à gages, accepte un contrat de 10 millions de dollars pour éliminer le plus redoutable assassin du monde. Arrivé à Tokyo, il découvre qu’il n’est pas seul : d’autres tueurs sont en lice. Tous entrent alors dans une traque mortelle où chacun peut devenir la cible.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260924033952 +0200" stop="20260924053128 +0200">
+    <title lang="fr">Hierarchy : Braquage au sommet</title>
+    <desc lang="fr">Deux frères adoptifs s’apprêtent à réaliser le braquage le plus risqué de leur vie, un coup qui pourrait les libérer à jamais. Mais traqués par une mafia impitoyable et une police prête à tout pour les arrêter, ils devront choisir entre la fuite, la loyauté… ou la survie.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260924053129 +0200" stop="20260924065602 +0200">
+    <title lang="fr">Gun</title>
+    <desc lang="fr">La police de Detroit cible Rich (50 Cent), un trafiquant d’armes charismatique, alors que la violence par armes à feu s’intensifie. Son ancien ami Angel (Val Kilmer), travaillant secrètement avec le détective Rogers, infiltre l’opération de Rich.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20260924065603 +0200" stop="20260924083939 +0200">
+    <title lang="fr">Dragon Eyes</title>
+    <desc lang="fr">Le quartier de St Jude a sombré dans le chaos et la violence depuis qu'il est devenu l'enjeu d'une lutte sans merci entre deux gangs, celui de Dash et celui d'Antoine. La situation change le jour où arrive en ville un étranger nommé Ryan Hong.</desc>
+  </programme>
   <programme channel="oqee.1375" start="20260924011210 +0200" stop="20260924030726 +0200">
     <title lang="fr">Juste Pour Rire - S01E05</title>
     <desc lang="fr">Juste Pour Rire fête ses 25 ans ! Retrouvez-les meilleurs moments du Festival !</desc>
@@ -142961,6 +143745,38 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Amour &amp; Amnésie</title>
     <desc lang="fr">Un homme tombe amoureux d'une femme qui souffre de graves troubles de la mémoire à court terme.</desc>
   </programme>
+  <programme channel="oqee.1385" start="20260924084227 +0200" stop="20260924102347 +0200">
+    <title lang="fr">The Samaritan</title>
+    <desc lang="fr">Après avoir purgé 25 ans de prison pour le meurtre de son partenaire Eddy, Foley est libéré, déterminé à mener une vie honnête. Il trouve un travail et tente d’aller de l’avant, mais le fils vengeur d’Eddy, Ethan, le retrouve et le pousse à participer à une arnaque à haut risque.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924102348 +0200" stop="20260924122307 +0200">
+    <title lang="fr">Big Mommas: Like Father, Like Son</title>
+    <desc lang="fr">L'agent du FBI Malcolm Turner et son beau-fils Trent s'infiltrent dans une école d'arts du spectacle pour filles après que Trent ait été témoin d'un meurtre.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924122308 +0200" stop="20260924143337 +0200">
+    <title lang="fr">Le Mytho</title>
+    <desc lang="fr">Danny est un brillant chirurgien esthétique qui a toujours prétendu être marié pour éviter toute forme d’engagement. Lorsqu’il trouve finalement la femme de ses rêves, il ne joue pas de ce stratagème mais l’alliance qui lui servait d’alibi est découverte.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924143338 +0200" stop="20260924165605 +0200">
+    <title lang="fr">House of Sand and Fog</title>
+    <desc lang="fr">Une épouse abandonnée et expulsée de sa maison, entre dans un conflit tragique avec les nouveaux propriétaires de la maison.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924165606 +0200" stop="20260924185321 +0200">
+    <title lang="fr">Gunner</title>
+    <desc lang="fr">Lee Gunner, vétéran de guerre, part camper avec ses deux fils et leur oncle pour renouer avec eux. Mais leur séjour tourne mal lorsqu’ils attirent accidentellement l’attention d’un gang de motards impliqué dans un trafic de drogue.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924185322 +0200" stop="20260924203830 +0200">
+    <title lang="fr">Le cri du faucon</title>
+    <desc lang="fr">Une petite frappe en cavale va devenir le coach de catch et allié de Zak, un jeune homme trisomique. Zak est lui aussi en fuite, il a quitté son foyer en vue d'essayer de réaliser son rêve : celui de devenir une catcheur professionnel et rejoindre l'école de catch de Saltwater Redneck.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924203831 +0200" stop="20260924220830 +0200">
+    <title lang="fr">L'Ombre du Passé</title>
+    <desc lang="fr">Un riche homme d'affaires plonge tête baissée dans un monde de criminels tordus pour retrouver son frère disparu. Cette mission menace de détruire sa famille alors qu'il lutte pour maintenir sa santé mentale.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20260924220831 +0200" stop="20260925002831 +0200">
+    <title lang="fr">The Punisher</title>
+    <desc lang="fr">Ancien membre de la Delta Force, puis agent spécial du FBI, Frank Castle s'apprête à prendre sa retraite pour vivre une vie paisible aux côtés de sa femme et de son fils. Sa dernière opération a coûté la vie du fils de Howard Saint, parrain de la mafia, et celui-ci veut se venger.</desc>
+  </programme>
   <programme channel="oqee.1386" start="20260924000254 +0200" stop="20260924015015 +0200">
     <title lang="fr">Women In Trouble</title>
     <desc lang="fr">Un jour dans la vie de 10 femmes à priori très différentes : une star du porno, une hôtesse de l’air, une psychiatre, une masseuse, une serveuse, deux call-girls, etc. Toutes ont un point commun : l’ennui.</desc>
@@ -142977,6 +143793,42 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Imogene</title>
     <desc lang="fr">Après avoir tout tenté pour attirer l’attention de son petit ami qui vient de la quitter, Imogene, auteur new yorkaise sans succès, se voit obligée de retourner dans le New Jersey où elle doit à nouveau cohabiter avec sa famille plutôt excentrique.</desc>
   </programme>
+  <programme channel="oqee.1386" start="20260924073041 +0200" stop="20260924092434 +0200">
+    <title lang="fr">Zookeeper</title>
+    <desc lang="fr">Griffin Keyes, un gardien de zoo rondouillard et solitaire, est plus à l'aise avec les animaux qu'avec les femmes. Il décide alors de démissionner afin de trouver l'amour. Les animaux lui révèlent alors qu'ils parlent et décident de l'aider.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924092435 +0200" stop="20260924110839 +0200">
+    <title lang="fr">La Panthère Rose 2</title>
+    <desc lang="fr">C’est la panique : plusieurs trésors légendaires ont été dérobés à travers le monde. Afin de découvrir l’identité du voleur, l’inspecteur Clouseau, aussi intrépide que maladroit et gaffeur, est placé à la tête d’une équipe d’experts internationaux.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924110840 +0200" stop="20260924124704 +0200">
+    <title lang="fr">George and the Dragon</title>
+    <desc lang="fr">Le jour où Luna, la fille du roi, disparaît, Georges, un valeureux chevalier, accompagné de son fidèle guerrier Garth, partent à la recherche de la princesse. En affrontant de multiples dangers, leur route va croiser celle dun gigantesque dragon et de dangereux mercenaires.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924124705 +0200" stop="20260924142216 +0200">
+    <title lang="fr">5 fantômes en terminale</title>
+    <desc lang="fr">On ne peut pas vraiment dire que Modesto fait figure de modèle de sociabilité. Même à l'époque des boums, le garçon avait déjà tendance à rester dans son coin. Autant dire que les choses ne se sont pas arrangées depuis qu'il s'est découvert une faculté pour voir et communiquer avec les fantômes.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924142217 +0200" stop="20260924163738 +0200">
+    <title lang="fr">Birdman</title>
+    <desc lang="fr">L'acteur Riggan Thomson, connu pour avoir incarné un super-héros, monte une pièce à Broadway autour de son propre personnage dans l'espoir de renouer avec sa gloire passée...</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924163739 +0200" stop="20260924182754 +0200">
+    <title lang="fr">Super papa</title>
+    <desc lang="fr">Joe Scheffer a l'impression d'avoir tout raté dans sa vie. Tout bascule quand il est humilié par Mark McKinney en présence de sa fille. Il décide de se prendre en main et de tout changer.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924182755 +0200" stop="20260924200150 +0200">
+    <title lang="fr">Hold Up</title>
+    <desc lang="fr">Plusieurs braquages opérés par des gangs différents ont lieu simultanément dans la même banque. Un des otages tente de comprendre les raisons de cette troublante coïncidence. Mais en tombant sous le charme d'une guichetière aguicheuse, la tâche ne lui est pas facilitée...</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924200151 +0200" stop="20260924214657 +0200">
+    <title lang="fr">Endiablé</title>
+    <desc lang="fr">Timide, Elliot Richards tente désespérément d’attirer l’attention d’Alison. L’occasion est donc trop belle lorsque le diable lui propose d'exaucer sept vœux en échange de son âme.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20260924214658 +0200" stop="20260925000114 +0200">
+    <title lang="fr">Hitch - Expert en Séduction</title>
+    <desc lang="fr">New York "date doctor" Alex Hitchens (Will Smith) tries to charm gossip columnist Sara Melas (Eva Mendes) at the same time he is coaching shy Albert (Kevin James) on how to win the love of beautiful heiress Allegra Cole (Amber Valletta).</desc>
+  </programme>
   <programme channel="oqee.1387" start="20260924011925 +0200" stop="20260924032037 +0200">
     <title lang="fr">The Nest</title>
     <desc lang="fr">Dans les années 1980, Rory, un ancien courtier devenu un ambitieux entrepreneur, convainc Allison, son épouse américaine, et leurs deux enfants de quitter le confort d’une banlieue cossue des États-Unis pour s’installer en Angleterre, son pays de naissance.</desc>
@@ -142989,41 +143841,141 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Madea's Family Reunion (Affaire de femmes)</title>
     <desc lang="fr">Une matriarche qui ne se laisse pas faire tente d'organiser une réunion de famille pour rassembler sa famille à un moment où elle ne pourrait pas être plus divisée.</desc>
   </programme>
+  <programme channel="oqee.1387" start="20260924073124 +0200" stop="20260924090945 +0200">
+    <title lang="fr">Une Affaire d'amour</title>
+    <desc lang="fr">Mauvais timing : Thomas débarque à l'improviste chez son ex-copine, Sarah Pohl, une journaliste en pleine enquête sur des sans-papiers.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924090946 +0200" stop="20260924105630 +0200">
+    <title lang="fr">On sera 2!</title>
+    <desc lang="fr">Afin de survivre à la fièvre des mariages de l'été, les vieux amis célibataires Ben et Alice, décident de devenir l'accompagnant de l'autre à chaque fois que l'un d'entre eux sera invité.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924105631 +0200" stop="20260924123732 +0200">
+    <title lang="fr">Amour et préjugés</title>
+    <desc lang="fr">Une jeune policière rêvant de trouver l'amour et un propriétaire de bar entre dans un jeu romantique du chat et de la souris alors qu'ils voulaient orienter leurs vies amoureuses dans d'autres directions.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924123733 +0200" stop="20260924143605 +0200">
+    <title lang="fr">Juste un peu d'alchimie</title>
+    <desc lang="fr">Oli tombe amoureuse d'Eric, une étoile brillante du cinéma et de la télévision. Elle va vivre une merveilleuse romance dans un monde de glamour.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924143606 +0200" stop="20260924161844 +0200">
+    <title lang="fr">Célibataire cherche l'amour</title>
+    <desc lang="fr">Lucy Neal, une violoniste, se remet en question après que son ex petit ami ait décidé de rompre, la jugeant trop frigide. Afin de lui prouver le contraire, elle se lance dans la création d'une liste de choses “sexy” à réaliser.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924161845 +0200" stop="20260924181927 +0200">
+    <title lang="fr">Si je reste</title>
+    <desc lang="fr">Mia Hall (Chloë Grace Moretz) hésite entre poursuivre ses rêves musicaux à Juilliard ou suivre une autre voie pour être avec l'amour de sa vie, Adam. C'était sans compter sur un accident de voiture.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924181928 +0200" stop="20260924200511 +0200">
+    <title lang="fr">Ainsi va la vie</title>
+    <desc lang="fr">Oren Little, agent immobilier bourru et égoïste, voit sa vie chamboulée lorsque son fils lui confie sa fille de 9 ans dont il ne soupçonnait pas l'existence. Oren tente alors de s'en débarrasser en l'imposant à sa voisine. Mais les choses ne sont pas toujours aussi simples.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924200512 +0200" stop="20260924215545 +0200">
+    <title lang="fr">Coup de Foudre à Oxford</title>
+    <desc lang="fr">Caro Drake, émotionnellement gardée, arrive à Oxford avec le seul objectif d'obtenir son doctorat, mais à travers une amitié turbulente avec un charmant jeune homme, Caro commence à s'ouvrir au mystère des nouvelles expériences, à la vulnérabilité et à l'amour.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924215546 +0200" stop="20260924234336 +0200">
+    <title lang="fr">For Love or Money</title>
+    <desc lang="fr">Mark a une vie de rêve : il est sur le point de devenir multimillionnaire et d’épouser son amour de jeunesse, Connie. Mais les choses ne sont parfaites qu’en surface : Mark découvre par hasard que Connie ne l’aime pas et compte juste voler sa fortune une fois le mariage prononcé.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20260924234337 +0200" stop="20260925013344 +0200">
+    <title lang="fr">Lucky girl</title>
+    <desc lang="fr">Ashley est la femme la plus chanceuse de New York. Mais sa chance s'intervertit bizarrement avec celle du jeune homme le plus malchanceux de la ville.</desc>
+  </programme>
   <programme channel="oqee.1388" start="20260924013232 +0200" stop="20260924022635 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Le soir du Nouvel An, Catherine Carroll reçoit 53 coups de couteau et meurt sur le sol de la salle de bains de sa maison. Son fils de 19 ans, Greg Parsons, découvre la scène de crime et, une semaine plus tard, est arrêté et accusé de meurtre.</desc>
+    <desc lang="fr">Lorsqu'une jeune femme de 25 ans disparaît du quartier des bars de Portland, dans le Maine, sa mère soupçonne immédiatement un acte criminel et lance une campagne d'affichage signalant sa disparition.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924022636 +0200" stop="20260924032041 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Le soir du Nouvel An, Catherine Carroll reçoit 53 coups de couteau et meurt sur le sol de la salle de bains de sa maison. Son fils de 19 ans, Greg Parsons, découvre la scène de crime et, une semaine plus tard, est arrêté et accusé de meurtre.</desc>
+    <desc lang="fr">Lorsqu'une jeune femme de 25 ans disparaît du quartier des bars de Portland, dans le Maine, sa mère soupçonne immédiatement un acte criminel et lance une campagne d'affichage signalant sa disparition.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924032042 +0200" stop="20260924041044 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">Le soir du Nouvel An, Catherine Carroll reçoit 53 coups de couteau et meurt sur le sol de la salle de bains de sa maison. Son fils de 19 ans, Greg Parsons, découvre la scène de crime et, une semaine plus tard, est arrêté et accusé de meurtre.</desc>
+    <desc lang="fr">Lorsqu'une jeune femme de 25 ans disparaît du quartier des bars de Portland, dans le Maine, sa mère soupçonne immédiatement un acte criminel et lance une campagne d'affichage signalant sa disparition.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924041045 +0200" stop="20260924043654 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un avocat de Géorgie tombe amoureux d'une assistante juridique sexy, passionnée de courses de chevaux, sans se douter qu'elle est sur le point de devenir son pire cauchemar.</desc>
+    <desc lang="fr">Une riche Canadienne expatriée à Dubaï signale la disparition de son mari. Les inspecteurs découvrent bientôt son corps en décomposition dans une boîte située dans la buanderie de l'immeuble.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924043655 +0200" stop="20260924050656 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un avocat de Géorgie tombe amoureux d'une assistante juridique sexy, passionnée de courses de chevaux, sans se douter qu'elle est sur le point de devenir son pire cauchemar.</desc>
+    <desc lang="fr">Une riche Canadienne expatriée à Dubaï signale la disparition de son mari. Les inspecteurs découvrent bientôt son corps en décomposition dans une boîte située dans la buanderie de l'immeuble.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924050657 +0200" stop="20260924053323 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un avocat de Géorgie tombe amoureux d'une assistante juridique sexy, passionnée de courses de chevaux, sans se douter qu'elle est sur le point de devenir son pire cauchemar.</desc>
+    <desc lang="fr">Une riche Canadienne expatriée à Dubaï signale la disparition de son mari. Les inspecteurs découvrent bientôt son corps en décomposition dans une boîte située dans la buanderie de l'immeuble.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924053324 +0200" stop="20260924060454 +0200">
     <title lang="fr">Expert Witness</title>
-    <desc lang="fr">Le dernier épisode de la série qui raconte l'histoire interne des experts, une armée de scientifiques légistes qui aident les détectives à résoudre certains des crimes majeurs les plus complexes du Royaume-Uni.</desc>
+    <desc lang="fr">Ce programme révèle comment de nouvelles preuves médico-légales, découvertes par un expert, ont permis d'appréhender un tueur et de résoudre une erreur judiciaire notoire. Un expert qualifié ne se contente pas d'analyser les preuves existantes.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924060455 +0200" stop="20260924063707 +0200">
     <title lang="fr">Expert Witness</title>
-    <desc lang="fr">Le dernier épisode de la série qui raconte l'histoire interne des experts, une armée de scientifiques légistes qui aident les détectives à résoudre certains des crimes majeurs les plus complexes du Royaume-Uni.</desc>
+    <desc lang="fr">Ce programme révèle comment de nouvelles preuves médico-légales, découvertes par un expert, ont permis d'appréhender un tueur et de résoudre une erreur judiciaire notoire. Un expert qualifié ne se contente pas d'analyser les preuves existantes.</desc>
   </programme>
   <programme channel="oqee.1388" start="20260924063708 +0200" stop="20260924070912 +0200">
     <title lang="fr">Expert Witness</title>
-    <desc lang="fr">Le dernier épisode de la série qui raconte l'histoire interne des experts, une armée de scientifiques légistes qui aident les détectives à résoudre certains des crimes majeurs les plus complexes du Royaume-Uni.</desc>
+    <desc lang="fr">Ce programme révèle comment de nouvelles preuves médico-légales, découvertes par un expert, ont permis d'appréhender un tueur et de résoudre une erreur judiciaire notoire. Un expert qualifié ne se contente pas d'analyser les preuves existantes.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924070913 +0200" stop="20260924075931 +0200">
+    <title lang="fr">Robocop : La Série</title>
+    <desc lang="fr">Avec l'aide de son père, un capitaine à la retraite, Robocop part à la poursuite d'un dangereux terroriste, récemment évadé de prison. Plus tard, Russel Murphy, le père de Robocop, est grièvement blessé par le fugitif...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924075932 +0200" stop="20260924084946 +0200">
+    <title lang="fr">Robocop : La Série</title>
+    <desc lang="fr">Avec l'aide de son père, un capitaine à la retraite, Robocop part à la poursuite d'un dangereux terroriste, récemment évadé de prison. Plus tard, Russel Murphy, le père de Robocop, est grièvement blessé par le fugitif...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924084947 +0200" stop="20260924094006 +0200">
+    <title lang="fr">Robocop : La Série</title>
+    <desc lang="fr">Avec l'aide de son père, un capitaine à la retraite, Robocop part à la poursuite d'un dangereux terroriste, récemment évadé de prison. Plus tard, Russel Murphy, le père de Robocop, est grièvement blessé par le fugitif...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924094007 +0200" stop="20260924104542 +0200">
+    <title lang="fr">Bron</title>
+    <desc lang="fr">Le corps d'une femme est découvert sur le pont de l'Øresund, qui relie Malmö, en Suède, à Copenhague, au Danemark. Le cadavre a été coupé en deux à la taille. Saga Norén, de la police criminelle de Malmö, brillante mais socialement inadaptée, est mise sur l'affaire.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924104543 +0200" stop="20260924115120 +0200">
+    <title lang="fr">Bron</title>
+    <desc lang="fr">Le corps d'une femme est découvert sur le pont de l'Øresund, qui relie Malmö, en Suède, à Copenhague, au Danemark. Le cadavre a été coupé en deux à la taille. Saga Norén, de la police criminelle de Malmö, brillante mais socialement inadaptée, est mise sur l'affaire.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924115121 +0200" stop="20260924134033 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Grâce à une législation favorable, Udo Walmer a obtenu la garde exclusive de son fils avec qui il vit à Cologne. La mort de sa mère qui s'était retirée en France oblige Udo à venir à son enterrement, accompagné de sa soeur Catherine et de son fils Julien.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924134034 +0200" stop="20260924152430 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Grâce à une législation favorable, Udo Walmer a obtenu la garde exclusive de son fils avec qui il vit à Cologne. La mort de sa mère qui s'était retirée en France oblige Udo à venir à son enterrement, accompagné de sa soeur Catherine et de son fils Julien.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924152431 +0200" stop="20260924161514 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">La patrouille se retrouve confrontée à des voyous qui harcèlent les locataires d'un vieil immeuble. Le nouveau propriétaire du bâtiment a prévu de le raser...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924161515 +0200" stop="20260924170614 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">La patrouille se retrouve confrontée à des voyous qui harcèlent les locataires d'un vieil immeuble. Le nouveau propriétaire du bâtiment a prévu de le raser...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924170615 +0200" stop="20260924175703 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">La patrouille se retrouve confrontée à des voyous qui harcèlent les locataires d'un vieil immeuble. Le nouveau propriétaire du bâtiment a prévu de le raser...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924175704 +0200" stop="20260924184738 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">La patrouille se retrouve confrontée à des voyous qui harcèlent les locataires d'un vieil immeuble. Le nouveau propriétaire du bâtiment a prévu de le raser...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924184739 +0200" stop="20260924203232 +0200">
+    <title lang="fr">Diane, Femme flic</title>
+    <desc lang="fr">Une affaire mêlant un suicide en réalité criminel, le milieu de la mode et des top models, une relation mère-fille marquée par l’alcool et la violence, et un passé enfoui.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924203233 +0200" stop="20260924221438 +0200">
+    <title lang="fr">Diane, Femme flic</title>
+    <desc lang="fr">Une affaire mêlant un suicide en réalité criminel, le milieu de la mode et des top models, une relation mère-fille marquée par l’alcool et la violence, et un passé enfoui.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924221439 +0200" stop="20260924235058 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Grâce à une législation favorable, Udo Walmer a obtenu la garde exclusive de son fils avec qui il vit à Cologne. La mort de sa mère qui s'était retirée en France oblige Udo à venir à son enterrement, accompagné de sa soeur Catherine et de son fils Julien.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20260924235059 +0200" stop="20260925013555 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">Grâce à une législation favorable, Udo Walmer a obtenu la garde exclusive de son fils avec qui il vit à Cologne. La mort de sa mère qui s'était retirée en France oblige Udo à venir à son enterrement, accompagné de sa soeur Catherine et de son fils Julien.</desc>
   </programme>
   <programme channel="oqee.1389" start="20260924000100 +0200" stop="20260924000700 +0200">
     <title lang="fr">Alfred &amp; Wilfred</title>
@@ -166118,12 +167070,27 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="oqee.812" start="20260924041500 +0200" stop="20260924045700 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20260924041500 +0200" stop="20260924050000 +0200">
     <title lang="fr">Lecţii de viaţă</title>
     <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
+  <programme channel="oqee.812" start="20260924045700 +0200" stop="20260924060000 +0200">
+    <title lang="fr">Ştirile Pro TV</title>
+    <desc lang="fr">De luni până vineri, jurnalul de ştiri de dimineaţă curge în cascade, cu informaţii adunate după miezul nopţii, cu reportaje realizate în zori sau cu o serie de repere ale zilei în curs.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260924050000 +0200" stop="20260924093000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924060000 +0200" stop="20260924093000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -166136,6 +167103,11 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924130000 +0200" stop="20260924140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.812" start="20260924130000 +0200" stop="20260924131500 +0200">
     <title lang="fr">Teleshopping</title>
@@ -166167,10 +167139,30 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.812" start="20260924180000 +0200" stop="20260924190000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20260924180000 +0200" stop="20260924193000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924190000 +0200" stop="20260924192500 +0200">
+    <title lang="fr">Ştirile sportive</title>
+    <desc lang="fr">Cele mai importante informații din lumea sportului, prezentate într-un format dinamic și accesibil: rezultate, declarații exclusive, imagini spectaculoase și analize ale celor mai relevante competiții interne și internaționale. De la fotbal și sporturi de echipă, până la performanțe individuale remarcabile, jurnalul sportiv aduce zilnic pulsul actualității sportive.</desc>
+    <category lang="fr">Divers / JT sport</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924192500 +0200" stop="20260924193000 +0200">
+    <title lang="fr">Vremea</title>
+    <desc lang="fr">Prognoza meteo actualizată oferă informații esențiale despre evoluția vremii la nivel național și internațional: temperaturi, precipitații, fenomene extreme și tendințe pentru zilele următoare. Prezentată clar și concis, rubrica meteo îi ajută pe telespectatori să își planifice activitățile zilnice în funcție de condițiile atmosferice.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924193000 +0200" stop="20260924203000 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.812" start="20260924193000 +0200" stop="20260924210000 +0200">
     <title lang="fr">Las Fierbinţi</title>
@@ -166182,10 +167174,25 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="oqee.812" start="20260924203000 +0200" stop="20260924204500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924204500 +0200" stop="20260924213000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20260924210000 +0200" stop="20260924214500 +0200">
     <title lang="fr">Lecţii de viaţă</title>
     <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924213000 +0200" stop="20260924220000 +0200">
+    <title lang="fr">La Bloc</title>
+    <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.812" start="20260924213000 +0200" stop="20260924223000 +0200">
     <title lang="fr">La Bloc</title>
@@ -166193,6 +167200,11 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.812" start="20260924214500 +0200" stop="20260924224500 +0200">
+    <title lang="fr">La Bloc</title>
+    <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20260924220000 +0200" stop="20260924231500 +0200">
     <title lang="fr">La Bloc</title>
     <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
     <category lang="fr">Série / Série humoristique</category>
@@ -168401,8 +169413,8 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.948" start="20260924010000 +0200" stop="20260924020000 +0200">
-    <title lang="fr">90+1</title>
-    <desc lang="fr">"90+1", futbolun en kritik anlarını mercek altına alan, maçların kaderini değiştiren pozisyonları analiz eden özel bir program. Sahadaki mücadeleyi, teknik detayları ve gündemin öne çıkan başlıklarını uzman yorumlarla ekrana getiriyor.</desc>
+    <title lang="fr">Futbol Meydanı</title>
+    <desc lang="fr">Sahada yaşanan mücadeleler, transfer kulisleri ve haftanın tartışılan pozisyonları Futbol Meydanı'nda geniş bir perspektifle ele alınıyor. Futbol gündemine damga vuran olaylar, yorumlar ve analizlerle ekranlara taşınırken, spor dünyasında öne çıkan başlıklar detaylı biçimde değerlendiriliyor.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260924020000 +0200" stop="20260924030000 +0200">
@@ -168411,14 +169423,24 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260924030000 +0200" stop="20260924040000 +0200">
-    <title lang="fr">Futbol Meydanı</title>
-    <desc lang="fr">Sahada yaşanan mücadeleler, transfer kulisleri ve haftanın tartışılan pozisyonları Futbol Meydanı'nda geniş bir perspektifle ele alınıyor. Futbol gündemine damga vuran olaylar, yorumlar ve analizlerle ekranlara taşınırken, spor dünyasında öne çıkan başlıklar detaylı biçimde değerlendiriliyor.</desc>
+    <title lang="fr">Arşiv Odası</title>
+    <desc lang="fr">Geçmişin izlerini bugüne taşıyan "Arşiv Odası", tarihî görüntüler, unutulmaz olaylar ve yıllara damga vuran anlarla izleyiciyi zaman içinde yolculuğa çıkarıyor. Özenle derlenen arşiv kayıtlarıyla hem bilgilendiriyor hem de nostalji dolu bir ekran deneyimi sunuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260924040000 +0200" stop="20260924060000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260924040000 +0200" stop="20260924070000 +0200">
     <title lang="fr">Ziraat Türkiye Kupası Özetler</title>
     <desc lang="fr">Ziraat Türkiye Kupası Özetler, grup maçlarındaki öne çıkan anları, golleri, takım ve oyuncu performanslarını izleyiciye anlaşılır bir şekilde sunan bir spor programıdır. Program, izleyiciyi maçların detaylarından haberdar ederken, maç sonuçlarını ve önemli gelişmeleri de aktarır.</desc>
     <category lang="fr">Magazine sportif / Football</category>
+  </programme>
+  <programme channel="oqee.948" start="20260924060000 +0200" stop="20260924070000 +0200">
+    <title lang="fr">Avrupa'da Türk Takımları</title>
+    <desc lang="fr">Avrupa'da Türk Takımları, Türk temsilcilerimizin Avrupa kupalarındaki maçlarını, performanslarını ve yolculuklarını ayrıntılarıyla ele alıyor. Maç analizleri, kadro değerlendirmeleri, teknik yorumlar ve Avrupa futbolu içindeki Türk izi bu programda izleyiciyle buluşuyor.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20260924070000 +0200" stop="20260924100000 +0200">
     <title lang="fr">Sabah Sporu</title>
@@ -168445,6 +169467,11 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Ana Haber, spor dünyasının gün boyunca yaşadığı tüm gelişmeleri en doğru ve hızlı şekilde ekranlara taşıyor. Maç sonuçları, kulüp açıklamaları, transfer haberleri ve özel röportajlar profesyonel bir sunumla izleyiciye aktarılıyor. Sporun tüm branşlarında güçlü bir haber akışı sunan Ana Haber, a spor'un en güvenilir bilgi kaynağı olmaya devam ediyor.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.948" start="20260924190000 +0200" stop="20260924204500 +0200">
+    <title lang="fr">Ligue des Nations : le résumé</title>
+    <desc lang="fr">Avec des analyses, commentaires et interviews, ce magazine vous fait découvrir la Ligue des Nations de football en vous montrant les plus beaux buts et les résumés des plus belles affiches. </desc>
+    <category lang="fr">Magazine sportif / Football</category>
+  </programme>
   <programme channel="oqee.948" start="20260924190000 +0200" stop="20260924200000 +0200">
     <title lang="fr">Avrupa'dan Futbol</title>
     <desc lang="fr">Avrupa'dan Futbol, Avrupa liglerinde yaşanan maçlar, takımların performansları, transfer haberleri ve futbolun nabzını tutan tüm gelişmeleri derinlemesine aktarır. Premier League'den La Liga'ya, Bundesliga'dan Serie A'ya uzanan geniş bir futbol panoraması sunan program, kıtadaki futbol heyecanını ekranlara taşır.</desc>
@@ -168455,7 +169482,17 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig. La plus haute compétition de football de Turquie. Cette compétition professionnelle, placée sous la supervision de la Fédération de Turquie de football, a été fondée en 1959.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
+  <programme channel="oqee.948" start="20260924204500 +0200" stop="20260924223000 +0200">
+    <title lang="fr">Football : Ligue des Nations UEFA</title>
+    <desc lang="fr">Retransmission de matchs disputés dans le cadre de la Ligue des Nations de football. Créée en 2014 par l'UEFA, la Ligue des nations est une compétition masculine européenne de football, répartie en quatre divisions de plusieurs groupes. La première édition a eu lieu lors de la saison 2018/2019. </desc>
+    <category lang="fr">Emission sportive / Football</category>
+  </programme>
   <programme channel="oqee.948" start="20260924220000 +0200" stop="20260925010000 +0200">
+    <title lang="fr">Son Sayfa</title>
+    <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.948" start="20260924223000 +0200" stop="20260925010000 +0200">
     <title lang="fr">Son Sayfa</title>
     <desc lang="fr">Futbol ve diğer spor dallarındaki güncel gelişmeleri, maç özetlerini ve öne çıkan haberleri izleyiciye anlaşılır bir dille sunan bir spor programıdır. İzleyiciyi spor dünyasındaki önemli gelişmelerden haberdar ederken, takım ve oyuncu performanslarını da analiz ederek spor gündemini takip etme imkânı sağlar.</desc>
     <category lang="fr">Magazine / Magazine sportif</category>

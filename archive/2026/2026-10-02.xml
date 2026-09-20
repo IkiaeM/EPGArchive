@@ -152,6 +152,10 @@
     <display-name>DemainTV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~effa4114de086963.png/480x480/quality/100/demain-tv.png"/>
   </channel>
+  <channel id="DiciTvProvence.fr">
+    <display-name>BFM DICI HAUTE-PROVENCE</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~80b0472d341b708b.png/480x480/quality/100/bfm-dici-haute-provence.png"/>
+  </channel>
   <channel id="DiscoveryChannel.fr">
     <display-name>Discovery Channel</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~14a98ca33c9c2ff1.png/480x480/quality/100/discovery-channel.png"/>
@@ -367,6 +371,10 @@
   <channel id="LuxeTV.fr">
     <display-name>Luxe TV</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~1f30e3d55096de3b.png/480x480/quality/100/luxe-tv.png"/>
+  </channel>
+  <channel id="M6.fr">
+    <display-name>M6</display-name>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png"/>
   </channel>
   <channel id="M6Music.fr">
     <display-name>M6 Music</display-name>
@@ -604,6 +612,10 @@
     <display-name>TRACE CARIBBEAN</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/TRACE_CARIBBEAN_color.png"/>
   </channel>
+  <channel id="TraceGospel.af">
+    <display-name>Trace Gospel</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180620/canal-ouah/CHN43FB/TRACEGOSPEL_myCANAL_640x480?=.png"/>
+  </channel>
   <channel id="TraceKitoko.af">
     <display-name>Trace Kitoko</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180621/canal-ouah/CHN43FB/TRACEKITOKO_myCANAL640x480?=.png"/>
@@ -715,6 +727,10 @@
   <channel id="oqee.1065">
     <display-name>ON TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
+  </channel>
+  <channel id="oqee.1085">
+    <display-name>Rotana Cinéma+ FR</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2690/w256"/>
   </channel>
   <channel id="oqee.1090">
     <display-name>Rotana Kids</display-name>
@@ -1063,6 +1079,10 @@
   <channel id="oqee.802">
     <display-name>Euronews International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1314/w256"/>
+  </channel>
+  <channel id="oqee.812">
+    <display-name>Pro TV International</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1028/w256"/>
   </channel>
   <channel id="oqee.835">
     <display-name>RTL</display-name>
@@ -2079,6 +2099,11 @@
     <title lang="fr">Fin des programmes</title>
     <desc lang="fr">Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
     <category lang="fr">Divers / Fin</category>
+  </programme>
+  <programme channel="Arte.fr" start="20261002050500 +0200" stop="20261002060000 +0200">
+    <title lang="fr">Les étonnantes techniques des bâtisseurs de la pyramide de Khéops - S46E04</title>
+    <desc lang="fr">La pyramide de Khéops a surgi du plateau de Gizeh il y a quatre mille cinq cents ans. Mais par qui et comment ce chef-d'oeuvre d'ingénierie a-t-il été érigé ? Grâce aux fouilles menées par l'égyptologue Mark Lehner, qui ont permis de mettre au jour les vestiges d'un village et des milliers de fragments d'objets du quotidien, on sait désormais que les ouvriers n'étaient pas des esclaves, mais une armée de volontaires qualifiés, organisés et bien traités. De leur côté, l'archéologue français Pierre Tallet et son équipe ont récemment exhumé, dans un port de la mer Rouge, des papyrus exceptionnels : le journal de bord d'un fonctionnaire du pharaon, Merer. Celui-ci chapeautait les bateliers chargés d'acheminer, au fil du Nil et sur des lacs artificiels, les blocs de calcaire et de granit jusqu'au chantier.</desc>
+    <category lang="fr">Documentaire / Documentaire sciences et technique</category>
   </programme>
   <programme channel="Arte.fr" start="20261002060000 +0200" stop="20261002065500 +0200">
     <title lang="fr">Hunga Tonga, la colère du volcan des abysses</title>
@@ -6209,7 +6234,7 @@
     <category lang="fr">Divers / Fin</category>
   </programme>
   <programme channel="CanalPlusSport.ch" start="20261002061500 +0200" stop="20261002074100 +0200">
-    <title lang="fr">Formule 1 : Grand Prix de Bahreïn - Grand Prix de Bahreïn</title>
+    <title lang="fr">Formule 1 : Grand Prix de Bahreïn</title>
     <category lang="fr">Emission sportive / Formule 1</category>
   </programme>
   <programme channel="CanalPlusSport.ch" start="20261002074100 +0200" stop="20261002075300 +0200">
@@ -6243,7 +6268,7 @@
     <category lang="fr">Emission sportive / Rallye</category>
   </programme>
   <programme channel="CanalPlusSport.ch" start="20261002095000 +0200" stop="20261002111100 +0200">
-    <title lang="fr">Formule 1 : Grand Prix de Bahreïn - Grand Prix de Bahreïn</title>
+    <title lang="fr">Formule 1 : Grand Prix de Bahreïn</title>
     <desc lang="fr">En s'imposant lors du Grand Prix d'Italie, Kimi Antonelli (Mercedes) a conforté son statut de patron de la Formule 1, du haut de ses 20 ans. Le jeune Italien, qui devançait largement son équipier George Russell au classement, entend bien conforter son fauteuil de leader ce week-end. Lors des essais libres 2, les pilotes et écuries continueront de peaufiner les réglages de leurs monoplaces sur les longues rectilignes du tracé urbain de Baku.</desc>
     <category lang="fr">Emission sportive / Formule 1</category>
   </programme>
@@ -6308,7 +6333,7 @@
     <category lang="fr">Documentaire / Documentaire sport</category>
   </programme>
   <programme channel="CanalPlusSport.ch" start="20261002210000 +0200" stop="20261002222100 +0200">
-    <title lang="fr">Formule 1 : Grand Prix de Bahreïn - Grand Prix de Bahreïn</title>
+    <title lang="fr">Formule 1 : Grand Prix de Bahreïn</title>
     <desc lang="fr">En s'imposant lors du Grand Prix d'Italie, Kimi Antonelli (Mercedes) a conforté son statut de patron de la Formule 1, du haut de ses 20 ans. Le jeune Italien, qui devançait largement son équipier George Russell au classement, entend bien conforter son fauteuil de leader ce week-end. Lors des essais libres 2, les pilotes et écuries continueront de peaufiner les réglages de leurs monoplaces sur les longues rectilignes du tracé urbain de Baku.</desc>
     <category lang="fr">Emission sportive / Formule 1</category>
   </programme>
@@ -8614,6 +8639,34 @@
     <desc lang="fr">Tambour Battant est une émission présentée par Antoine Spire avec ses co-animateurs : Patrick Tudoret, Marie-Christine Weiner et Thibault Valentin. Ils vous font découvrir des auteurs et des ouvrages différemment grâce à leurs invités et des chroniques littéraires. Ce programme aborde des questions sociales, philosophiques, scientifiques, historiques, littéraires ou artistiques. Un thème principal rythme l'émission.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002063000 +0200" stop="20261002073000 +0200">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002073000 +0200" stop="20261002123000 +0200">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002123000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002130000 +0200" stop="20261002170000 +0200">
+    <title lang="fr">Bonjour Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002170000 +0200" stop="20261002183000 +0200">
+    <title lang="fr">Bonsoir Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002183000 +0200" stop="20261002193000 +0200">
+    <title lang="fr">Bonsoir Dici</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="DiciTvProvence.fr" start="20261002193000 +0200" stop="20261003080000 +0200">
+    <title lang="fr">Le JT du Sud</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="DiscoveryChannel.fr" start="20261002000000 +0200" stop="20261002003000 +0200">
     <title lang="fr">Au coeur des douanes : Espagne - S03E06</title>
     <desc lang="fr">Le quotidien des services de sécurité et de douane aux frontières espagnoles, confrontés à la menace de potentiels terroristes, de trafiquants de drogue et de trafiquants d'armes.</desc>
@@ -10162,6 +10215,11 @@
     <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="France2.fr" start="20261002060000 +0200" stop="20261002063500 +0200">
+    <title lang="fr">Le 6h info</title>
+    <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="France2.fr" start="20261002063500 +0200" stop="20261002080000 +0200">
     <title lang="fr">Télématin</title>
     <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux et sans dramatisation.</desc>
@@ -10191,6 +10249,21 @@
     <title lang="fr">Chacun son tour</title>
     <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
     <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="France2.fr" start="20261002112500 +0200" stop="20261002115500 +0200">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="France2.fr" start="20261002115500 +0200" stop="20261002125500 +0200">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="France2.fr" start="20261002125500 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="France2.fr" start="20261002130000 +0200" stop="20261002134000 +0200">
     <title lang="fr">Journal 13h00</title>
@@ -16633,6 +16706,61 @@
     <desc lang="fr">Rediffusions des programmes de la journée et retour sur l'actualité.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="LCI.fr" start="20261002050000 +0200" stop="20261002053000 +0200">
+    <title lang="fr">Le 5H Info</title>
+    <desc lang="fr">Le premier rendez-vous d'information de la journée, qui propose un tour d'horizon rapide, clair et complet des événements marquants en France et dans le monde.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002053000 +0200" stop="20261002060000 +0200">
+    <title lang="fr">Le 5H30 Info</title>
+    <desc lang="fr">Le premier rendez-vous d'information de la journée, qui propose un tour d'horizon rapide, clair et complet des événements marquants en France et dans le monde.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002060000 +0200" stop="20261002082500 +0200">
+    <title lang="fr">La matinale LCI</title>
+    <desc lang="fr">Jean-Baptiste Boursier et son équipe réveillent les téléspectateurs, avec Nicolas Doze (économie), Solenn Riou (international), Christophe Barbier (politique), Anicet Mbida (innovation), Sandra Marconi (société) et Laurène Barrière.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002082500 +0200" stop="20261002090000 +0200">
+    <title lang="fr">L'interview d'Amélie Carrouër</title>
+    <desc lang="fr">Amélie Carrouër incarne le retour de l'interview de la "Matinale LCI". Chaque matin, elle reçoit une personnalité au coeur de l'actualité.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002090000 +0200" stop="20261002120000 +0200">
+    <title lang="fr">LCI Live</title>
+    <desc lang="fr">LCI Live suit l'actualité en temps réel et accompagne les téléspectateurs grâce au direct, aux images du terrain et à une couverture au plus près des événements.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002120000 +0200" stop="20261002143000 +0200">
+    <title lang="fr">Brunet sans filtre</title>
+    <desc lang="fr">Un rendez-vous aux allures de JT grand format, en abordant sans détour les sujets qui font débat : politique, société, enjeux internationaux, ou encore argent public. Avec Renaud Pila et Isabelle Saporta, les échanges vont à l'essentiel.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002143000 +0200" stop="20261002170000 +0200">
+    <title lang="fr">LCI Direct</title>
+    <desc lang="fr">Trois heures d'antenne pour éclairer, analyser et débattre, durant lequel experts et invités aident à comprendre les enjeux locaux et mondiaux à travers reportages, images et témoignages.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002170000 +0200" stop="20261002180000 +0200">
+    <title lang="fr">Le grand dossier</title>
+    <desc lang="fr">Plus d'une heure d'analyse et de décryptage autour d'un thème majeur, politique, économique, international ou sociétal. Avec les meilleurs spécialistes et les équipes de terrain, l'émission clarifie un fait marquant du jour.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002180000 +0200" stop="20261002200000 +0200">
+    <title lang="fr">24 Heures</title>
+    <desc lang="fr">Deux heures pour marquer un temps d'arrêt et tout comprendre de l'actualité. Politique, conflits, défis économiques, sociaux et environnementaux : les clés de lecture et questions aux acteurs majeurs pour que chacun se fasse son opinion.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002200000 +0200" stop="20261002220000 +0200">
+    <title lang="fr">20H Haddad</title>
+    <desc lang="fr">A 20 heures, une lecture différente de l'actualité autour des faits marquants et d'un grand entretien.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="LCI.fr" start="20261002220000 +0200" stop="20261003000000 +0200">
+    <title lang="fr">Nivat soir</title>
+    <desc lang="fr">Editorialistes, experts et différents invités politiques se succèdent pour confronter leurs idées et éclairer l'actualité française et internationale.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="LEquipe21.fr" start="20261002003700 +0200" stop="20261002020700 +0200">
     <title lang="fr">L'Equipe du soir</title>
     <desc lang="fr">Lancée en 2008, "L'Équipe du soir" fait peau neuve. Toujours présenté par Olivier Ménard, l'emblématique talk-show de la chaîne revient à la rentrée avec une équipe de chroniqueurs renouvelée et resserrée. Les intervenants conservés seront davantage présents autour de la table afin d'apporter un nouvel élan aux débats et aux analyses. L'émission change également de rythme, quittant la grille du week-end pour une diffusion du mardi au vendredi.</desc>
@@ -17452,6 +17580,115 @@
     <title lang="fr">Luxe.this Week</title>
     <desc lang="fr">All news of luxury and art of living of the week.</desc>
     <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002003000 +0200" stop="20261002014500 +0200">
+    <title lang="fr">Recherche appartement ou maison - S17E05</title>
+    <desc lang="fr">En Bourgogne, Romain Cartier va rencontrer Christine, une septuagénaire qui veut recréer chez elle l'ambiance cabaret. A Lille, Fanny et Benoît, musiciens classiques, souhaitent investir dans un appartement dans l'hyper-centre.</desc>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002014500 +0200" stop="20261002025500 +0200">
+    <title lang="fr">Recherche appartement ou maison</title>
+    <desc lang="fr">Sylcie, 64 ans, a vendu sa maison à Saint-Maur-des-Fossés en région parisienne pour se rapprocher de sa famille en s'installant à Lyon. Elle a pris une location à Villefranche, près de Lyon, pour trouver facilement la maison de ses rêves, mais n'a pas encore eu de coup de coeur. A Rennes, Sandrine, 51 ans, Olivier, 47 ans, et leurs deux grands enfants sont en location dans un appartement et cherchent à acquérir une grande maison familiale. Agnès Bardoux va les aider.</desc>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002025500 +0200" stop="20261002060000 +0200">
+    <title lang="fr">Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002060000 +0200" stop="20261002080500 +0200">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002080500 +0200" stop="20261002094500 +0200">
+    <title lang="fr">My boutique Téléshop'</title>
+    <desc lang="fr">Marie-Ange Nardi et Charlotte Rosier, entourées d'inventeurs, d'experts et de testeurs, dévoilent une sélection de produits astucieux, originaux et exclusifs.</desc>
+    <category lang="fr">Magazine / Magazine de télé-achat</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002094500 +0200" stop="20261002113000 +0200">
+    <title lang="fr">Ça peut vous arriver</title>
+    <desc lang="fr">Entouré d'avocats et d'experts, Julien Courbet tente de résoudre des problèmes mais aussi apporter des infos juridiques et conseils spécifiques. L'émission donne la parole à toutes les parties afin que toutes les situations litigieuses trouvent un dénouement positif.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002113000 +0200" stop="20261002124000 +0200">
+    <title lang="fr">Ça peut vous arriver chez vous</title>
+    <desc lang="fr">Une malfaçon dans une habitation, une voiture vendue avec un vice caché, une robe de mariée livrée trop petite ou tâchée, un vol charter annulé et non remboursé… Cinq envoyés spéciaux sillonnent les régions, recueillent les témoignages des Français et illustrent chacun des cas en images. </desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002124000 +0200" stop="20261002124500 +0200">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002124500 +0200" stop="20261002133500 +0200">
+    <title lang="fr">Le 12.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002133500 +0200" stop="20261002134000 +0200">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002134000 +0200" stop="20261002145000 +0200">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <category lang="fr">Magazine / Magazine de reportages</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002145000 +0200" stop="20261002155000 +0200">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <category lang="fr">Magazine / Magazine de reportages</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002155000 +0200" stop="20261002165000 +0200">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <category lang="fr">Magazine / Magazine de reportages</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002165000 +0200" stop="20261002172500 +0200">
+    <title lang="fr">Un jour, un doc</title>
+    <desc lang="fr">Grands débats de société, nouvelles tendances, retour sur des évènements marquants et des faits divers hors normes, ou encore récits de vie des people et des têtes couronnées, " Un jour, un doc " propose tous les après-midis une grande variété de documentaires et de sujets qui font vibrer le cœur des Français. Chaque jour, partez à la découverte d'histoires et de personnages incroyables en France ou à l'étranger.</desc>
+    <category lang="fr">Magazine / Magazine de reportages</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002172500 +0200" stop="20261002183500 +0200">
+    <title lang="fr">La roue de la fortune</title>
+    <desc lang="fr">"La roue de la fortune", l'un des jeux les plus célèbres de l'histoire de la télévision française, fait son grand retour dans une version modernisée et renouvelée. La règle est simple : il faut deviner des mots et des expressions cachés, tout en tournant une roue géante pour remporter des gains et des cadeaux. Trois candidats s'affrontent à travers cinq manches. A la fin de la cinquième manche, celui ayant amassé le plus d'argent accède à la finale.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002183500 +0200" stop="20261002194000 +0200">
+    <title lang="fr">La meilleure cuisine régionale, c'est chez moi ! - S03E10</title>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002194000 +0200" stop="20261002194500 +0200">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Un bulletin détaillé et pédagogique, qui permet de connaître l'évolution de la météo au quotidien.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002194500 +0200" stop="20261002204000 +0200">
+    <title lang="fr">Le 19.45</title>
+    <desc lang="fr">En 18 minutes, vous saurez tout sur l'actualité grâce à cette émission qui conjugue force des images, pédagogie dans le traitement des informations et rythme d'un journal qui va à l'essentiel.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002204000 +0200" stop="20261002211000 +0200">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Loin d'être un long fleuve tranquille, la vie de couple est émaillée de conflits, de disputes et de réconciliations, comme en témoigne le quotidien de quatre d'entre eux. Parmi eux, les trentenaires Cédric et Marion, qui se surnomment mutuellement "poussin", les jeunes parents Emma et Fabien, récemment installés à la campagne avec leur petite Chloé, José et Liliane, mariés depuis plus de vingt ans, sans oublier les inénarrables Huguette et Raymond, des retraités à la méchanceté gratuite. Librement adapté de la série espagnole "Escenas de matrimonio", ce programme court évoque avec humour les hauts et les bas de la vie de couple.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002211000 +0200" stop="20261002221000 +0200">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <desc lang="fr">De nouveaux invités viennent vivre un rêve d'enfant : faire tourner la roue la plus mythique du petit écran. Sont réunis Roselyne Bachelot, Gil Alma et Miss France 2026, les humoriste Marine Leonardi et Emy, accompagnées du comédien Arié Elmaleh, et les animateurs Nelson Monfort, Sophie Davant et Jérôme Anthony.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002221000 +0200" stop="20261002232500 +0200">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <desc lang="fr">Entre Banqueroute, Echange et autres cases piégées, rien n'est jamais gagné d'avance ! Pour cette soirée exceptionnelle, Eric Antoine promet une avalanche de nouveautés : de nouvelles cases, une cagnotte solidaire et une caverne spéciale pour l'occasion.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="M6.fr" start="20261002232500 +0200" stop="20261003003500 +0200">
+    <title lang="fr">La roue de la fortune célébrités</title>
+    <desc lang="fr">Eric Antoine propose à des célébrités de réaliser un vieux rêve d'enfant : tourner la roue la plus culte de la télévision. Chaque candidat tente de résoudre les énigmes pour accéder à la finale et récolter un maximum d'argent pour l'association dont il défend les couleurs.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="M6Music.fr" start="20261002000000 +0200" stop="20261002020000 +0200">
     <title lang="fr">Hits of the World</title>
@@ -20106,6 +20343,76 @@
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="ParisPremiere.fr" start="20261002070000 +0200" stop="20261002111500 +0200">
+    <title lang="fr">Caméra café</title>
+    <desc lang="fr">Devant la machine à café défile tout le personnel de l'entreprise GES, qui s'y retrouve pour évoquer ses tracas d'ordre professionnel ou privé. Parmi les employés, on compte notamment le délégué syndical Hervé Dumont, le truculent commercial Jean-Claude Convenant, Sylvain Müller, le comptable naïf, et son alter ego Maeva Capucin, Jeanne Bignon, qui élève seule ses trois enfants ou encore Jean-Guy Lecointre, DRH de l'entreprise âgé d'une cinquantaine d'années. Déclinée en 570 épisodes, cette série qui aborde la vie en entreprise par le biais de l'humour a connu un franc succès et a même eu droit à un long métrage intitulé "Espace détente".</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002111500 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Kaamelott</title>
+    <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002130000 +0200" stop="20261002135000 +0200">
+    <title lang="fr">Elementary - S02E08</title>
+    <desc lang="fr">Holmes et Watson enquêtent sur le meurtre d'une jeune femme, probable maîtresse du milliardaire Ian Gale, inventeur du téléphone moderne. D'abord soupçonné, l'homme s'avère très malade et avoue que la victime était en fait sa fille cachée. Avant de quitter New York, Mycroft annonce à son frère que leur père pourrait couper les vivres de Sherlock s'il ne retourne pas bientôt à Londres, ce qui n'arrange pas le détective...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002135000 +0200" stop="20261002144000 +0200">
+    <title lang="fr">Elementary - S02E12</title>
+    <desc lang="fr">La petite fille d'une famille aisée est kidnappée. Sherlock prend l'affaire en main. Lors de la demande de rançon, il reconnaît la voix du commanditaire : il s'agit d'un des lieutenants de Moriarty. Persuadé qu'elle est à l'origine de l'enlèvement, Sherlock demande à rencontrer la criminelle avec qui il continue d'entretenir une correspondance. Incarcérée, celle-ci a obtenu certains avantages en échange d'informations, et propose sa collaboration dans cette enquête. Joan Watson craint les conséquences éventuelles de retrouvailles entre le détective et la criminelle...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002144000 +0200" stop="20261002152500 +0200">
+    <title lang="fr">Elementary - S02E19</title>
+    <desc lang="fr">Un entrepreneur de pompes funèbres est tué lors d'un cambiolage. Son cou présente des traces de morsures qui rappellent à Watson une ancienne affaire où Andrew Coville, le tueur présumé, était décédé au cours d'une intervention chirurgicale à laquelle elle assistait. Doutant de la culpabilité de cet homme, elle se lance avec Sherlock dans une vaste recherche d'après les empreintes dentaires retrouvées sur les victimes. Mais leur enquête s'avère plus complexe qu'ils ne l'avaient imaginé. En effet, les empreintes dentaires de Coville ont été utilisées, dans une prison, pour fabriquer plusieurs dentiers...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002152500 +0200" stop="20261002161000 +0200">
+    <title lang="fr">Elementary - S02E20</title>
+    <desc lang="fr">Un pickpocket meurt dans d'étranges circonstances au commissariat, peu de temps après son arrestation. Watson reconnaît aussitôt les signes de la maladie du charbon, une affection grave due à une bactérie proche de l'anthrax. Tandis que l'équipe tente de déterminer la provenance de la toxine et la probabilité d'un attentat, dans l'espoir de prévenir une propagation et des morts supplémentaires, Sherlock apprend le décès d'un ami de longue date, Alistair Moore. Ce dernier, comédien, semble avoir succombé à une overdose. Il était pourtant devenu sobre et ne touchait plus à rien depuis des années...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002161000 +0200" stop="20261002170000 +0200">
+    <title lang="fr">Elementary - S02E21</title>
+    <desc lang="fr">Mycroft, le frère de Sherlock, arrive à New York. Pour Holmes, c'est une surprise dont il se serait bien passé. D'autant plus lorsqu'il apprend ses motivations, qui lui valent de se disputer avec Joan. Officiellement, Mycroft vient parler affaires. En réalité, sa visite n'a d'autre but que de se rapprocher de Joan, avec qui il est resté en contact. Dans le même temps, Watson demande à Sherlock d'aider Tess à retrouver sa soeur disparue. La jeune femme appartenait au même groupe de soutien aux drogués anonymes que lui. Leur enquête les mène dans le milieu très confidentiel, voire dangereux, des drones de surveillance...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002170000 +0200" stop="20261002174500 +0200">
+    <title lang="fr">Elementary - S03E01</title>
+    <desc lang="fr">Désormais à son compte, Watson n'a pas eu de nouvelles de Sherlock depuis son départ précipité du MI-6 à Londres huit mois plus tôt. Alors qu'elle enquête sur le meurtre de Karen Loyd, un témoin clé dans le procès d'Elana March, une dangereuse et redoutable chef de cartel, Joan voit débarquer son ancien associé. Il est accompagné de Kitty Winter, sa nouvelle protégée, prêt à l'aider dans la résolution de cette affaire sur laquelle elle planche depuis deux mois. Mais Gregson n'acceptera la réintégration qu'avec l'accord de Watson. Lorsque Joan découvre qu'elle est suivie, elle soupçonne cette personne de travailler pour le compte de March.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002174500 +0200" stop="20261002183000 +0200">
+    <title lang="fr">Elementary - S03E11</title>
+    <desc lang="fr">Holmes et Watson se plongent dans le passé d'une jeune femme assassinée, qui montre des blessures semblables à celles subies par Kitty. Watson retrouve un téléphone portable appartenant à la victime, grâce auquel elle remonte jusqu'à un suspect : Simon de Merville. Cet individu travaille pour une maison close qu'il fournit en jeunes femmes, toutes des immigrées clandestines kidnappées. En fouillant la maison close, la police découvre plusieurs femmes et un cadavre, mais pas de traces de Simon. Holmes pense que, blessé, il a été soigné par sa soeur Violet. Kitty intervient pour piéger Violet et retrouver Simon...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002183000 +0200" stop="20261002191500 +0200">
+    <title lang="fr">Elementary - S03E13</title>
+    <desc lang="fr">Par ennui, après que Kitty soit partie, Sherlock accepte la mission plutôt banale d'une cliente persuadée que son mari, un avocat disparu depuis deux jours, la trompe. Des collègues lui disent que quelqu'un au bureau répond au téléphone lorsqu'on essaye de le contacter, en assurant qu'il travaille toujours. Mais le détective privé ne va tarder à découvrir que l'homme, devenu marchand de dette après avoir été licencié, a en fait été assassiné. Par ailleurs, Holmes est plutôt sceptique concernant les sentiments que Joan éprouve envers Andrew. L'enquête s'annonce plus sombre et compliquée que prévue. De son côté, Watson doit voir son père...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002191500 +0200" stop="20261002200500 +0200">
+    <title lang="fr">Elementary - S04E01</title>
+    <desc lang="fr">Alors que Sherlock risque la prison pour s'être attaqué à son ancien dealer, son père est en route pour remettre de l'ordre dans sa vie. Bien que licenciés de leur poste de consultants pour la police, Holmes et Watson enquêtent sur la disparition d'une femme, dont le mari fait figure de suspect idéal. Les apparences sont peut-être trompeuses, car de nouveaux éléments viennent remettre en cause la validité des indices recueillis. Sherlock, qui remarque tout, a certainement une idée derrière la tête. La police n'est pas forcément de son avis. Watson, toujours empêtrée dans ses problèmes personnels, collabore néanmoins avec efficacité...</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002200500 +0200" stop="20261002210000 +0200">
+    <title lang="fr">Elementary - S04E02</title>
+    <desc lang="fr">Le père de Sherlock, Morland Holmes, propose de les réintégrer, lui et Joan, dans une enquête sur un triple homicide dans une installation de recherche en neuroscience. Joan est sceptique à propos de l'offre de Morland mais Sherlock explique que les transactions avec son père impliquent toujours un coût. Joan rencontre Morland et est frappée par sa sincérité. L'affaire est conclue et Sherlock accepte l'offre de son père, mais Joan découvre que Morland a manipulé le Procureur du District. Elle l'avertit qu'elle ne laissera personne faire du mal à Sherlock.</desc>
+    <category lang="fr">Série / Série policière</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002210000 +0200" stop="20261002224500 +0200">
+    <title lang="fr">Salt</title>
+    <desc lang="fr">Evelyn Salt, un agent de la CIA, a toujours réussi à mener à bien les missions les plus périlleuses. Extrêmement appréciée de sa hiérarchie, elle bénéficie de la confiance totale de tous les services internes. Tout se complique lorsque la jeune femme est désignée par un agent russe retenu captif comme une espionne à la solde de la Russie. Personne ne veut y croire. Avant qu'une procédure d'interrogatoire ne soit initiée à son encontre, Salt prend la fuite. Son instinct de survie et son implacable savoir-faire lui permettront-ils d'échapper à la CIA ? Elle tente par tous les moyens de percer le secret de ceux qui veulent ruiner sa réputation...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="ParisPremiere.fr" start="20261002224500 +0200" stop="20261003002500 +0200">
+    <title lang="fr">Lara Croft : Tomb Raider</title>
+    <desc lang="fr">Lara Croft, jeune héritière d'un célèbre archéologue, par ailleurs spécialiste des objets anciens et des civilisations disparues, passe son temps à s'entraîner aux sports de combat. La mort de son père, survenue une quinzaine d'années auparavant, est une douleur qu'elle n'arrive pas à surmonter. A Venise, une société secrète, les Illuminati, met tout en oeuvre pour entrer en possession du "Triangle de lumière", un objet sacré auquel une ancienne prophétie prête le don de contrôler le monde. En fouillant dans son grenier, Lara s'aperçoit qu'elle possède une horloge, sorte de clé permettant de retrouver le triangle magique...</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
   <programme channel="PinkTV.fr" start="20261002000000 +0200" stop="20261002011000 +0200">
     <title lang="fr">Accro au sexe</title>
     <desc lang="fr">Super excité, Elias Roy va enchaîner deux plans, deux actifs masqués très demandeurs, et en final un plan à trois avec Stephan Raw et Hugo Delage.</desc>
@@ -21523,7 +21830,7 @@
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="Sat1.de" start="20261002170000 +0200" stop="20261002173000 +0200">
-    <title lang="fr">Notruf</title>
+    <title lang="fr">Notruf - S02E379</title>
     <desc lang="fr">Ein Routine-Krankentransport wird für zwei Rettungssanitäter zum hochkritischen Notfall - ein Patient kämpft plötzlich um sein Leben.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -23154,6 +23461,26 @@
     <desc lang="fr">Lucie est une petite fille qui habite au 64 rue du Zoo, à quelques pas d'un zoo. Chaque nuit, elle y rejoint les animaux qui l'attendent impatiemment et écoute leurs histoires insolites de la vie sauvage.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
+  <programme channel="TVPitchoun.fr" start="20261002060000 +0200" stop="20261002060300 +0200">
+    <title lang="fr">Danse de Pitchoun</title>
+    <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002060300 +0200" stop="20261002061500 +0200">
+    <title lang="fr">L'abécédaire des animaux</title>
+    <desc lang="fr">Accompagnée et commentée par Guillaume, une découverte des animaux qui peuplent les différents milieux et les différentes régions de la planète Terre, en suivant l'alphabet.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002061500 +0200" stop="20261002064000 +0200">
+    <title lang="fr">Corneil et Bernie</title>
+    <desc lang="fr">Corneil, un petit chien surdoué. Tout bascule le jour où ses riches propriétaires décident d'engager Bernie, un adolescent drôle et excentrique, comme \" dogsitter \". Celui-ci ne va pas tarder à découvrir le don de Corneil et le mettre à profit pour mener à bien ses plans les plus farfelus.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002064000 +0200" stop="20261002070000 +0200">
+    <title lang="fr">Mon robot et moi</title>
+    <desc lang="fr">Eugène est un génie de la robotique qui a construit son propre robot appelé C.H.I.P. Accompagnés de ses meilleurs amis, Maia et Joseph, ils vivent ensemble des aventures rocambolesques dans leur école de robotique.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="TVPitchoun.fr" start="20261002070000 +0200" stop="20261002070300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
     <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
@@ -23209,6 +23536,36 @@
     <desc lang="fr">Lucie est une petite fille qui habite au 64 rue du Zoo, à quelques pas d'un zoo. Chaque nuit, elle y rejoint les animaux qui l'attendent impatiemment et écoute leurs histoires insolites de la vie sauvage.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
+  <programme channel="TVPitchoun.fr" start="20261002090000 +0200" stop="20261002090300 +0200">
+    <title lang="fr">Danse de Pitchoun</title>
+    <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002090300 +0200" stop="20261002090800 +0200">
+    <title lang="fr">La fabrique ludique</title>
+    <desc lang="fr">Découpez, collez, créez avec Clara, tous les jours sur TV Pitchoun ! Apprenez à fabriquer vos objets vous-mêmes avec les tutos de Clara \" Do It Yourself \".</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002090800 +0200" stop="20261002092200 +0200">
+    <title lang="fr">Didou</title>
+    <desc lang="fr">Didou le petit lapin et son amie Yoko la coccinelle apprennent à dessiner aux enfants. Dès que le dessin est colorié, il devient réel comme par magie et les deux amis peuvent entrer dans la maison, ou monter dans une fusée.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002092200 +0200" stop="20261002093200 +0200">
+    <title lang="fr">Molang</title>
+    <desc lang="fr">Molang, un lapin fantaisiste et rêveur, et son ami Piu Piu, petit poussin timide et émotif, partagent une grande histoire d'amitié en dépit de leurs différences. Qu'ils atterrissent sur la Lune ou arrosent leur jardin potager, les deux amis vivent les événements de manière très différente, créant naturellement des situations imprévues. Leur solidarité et la créativité dont ils font preuve font de ces moments parfois difficiles des instants de bonheur partagés.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002093200 +0200" stop="20261002095300 +0200">
+    <title lang="fr">Mouk</title>
+    <desc lang="fr">Découvrez Mouk et Chavapa, les deux jeunes globe-trotters avides d'aventure qui parcourent le monde à vélo dans Mouk !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002095300 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Bienvenue à Paper Port</title>
+    <desc lang="fr">Mathilde est une jeune fille exceptionnelle ! Chaque matin, elle se réveille avec un nouveau pouvoir étonnant qui disparaît le lendemain... Il n'y a que Charlie, son meilleur ami, qui connait son secret. Ensemble, ils vont vivre d'incroyables aventures dans la ville portuaire de Paper Port.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
   <programme channel="TVPitchoun.fr" start="20261002100000 +0200" stop="20261002100300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
     <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
@@ -23233,6 +23590,61 @@
     <title lang="fr">64 rue du zoo</title>
     <desc lang="fr">Lucie est une petite fille qui habite au 64 rue du Zoo, à quelques pas d'un zoo. Chaque nuit, elle y rejoint les animaux qui l'attendent impatiemment et écoute leurs histoires insolites de la vie sauvage.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002110000 +0200" stop="20261002110300 +0200">
+    <title lang="fr">Danse de Pitchoun</title>
+    <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002110300 +0200" stop="20261002111600 +0200">
+    <title lang="fr">Mon robot et moi</title>
+    <desc lang="fr">Eugène est un génie de la robotique qui a construit son propre robot appelé C.H.I.P. Accompagnés de ses meilleurs amis, Maia et Joseph, ils vivent ensemble des aventures rocambolesques dans leur école de robotique.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002111600 +0200" stop="20261002114000 +0200">
+    <title lang="fr">Corneil et Bernie</title>
+    <desc lang="fr">Corneil, un petit chien surdoué. Tout bascule le jour où ses riches propriétaires décident d'engager Bernie, un adolescent drôle et excentrique, comme \" dogsitter \". Celui-ci ne va pas tarder à découvrir le don de Corneil et le mettre à profit pour mener à bien ses plans les plus farfelus.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002114000 +0200" stop="20261002114200 +0200">
+    <title lang="fr">La fabrique ludique</title>
+    <desc lang="fr">Découpez, collez, créez avec Clara, tous les jours sur TV Pitchoun ! Apprenez à fabriquer vos objets vous-mêmes avec les tutos de Clara \" Do It Yourself \".</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002114200 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Bienvenue à Paper Port</title>
+    <desc lang="fr">Mathilde est une jeune fille exceptionnelle ! Chaque matin, elle se réveille avec un nouveau pouvoir étonnant qui disparaît le lendemain... Il n'y a que Charlie, son meilleur ami, qui connait son secret. Ensemble, ils vont vivre d'incroyables aventures dans la ville portuaire de Paper Port.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002120000 +0200" stop="20261002120300 +0200">
+    <title lang="fr">Danse de Pitchoun</title>
+    <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002120300 +0200" stop="20261002120500 +0200">
+    <title lang="fr">L'Agenda des Pitchouns</title>
+    <desc lang="fr">Toutes les sorties à faire en famille dans les jours qui viennent, ainsi que des bons plans à retrouver partout en France.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002120500 +0200" stop="20261002122000 +0200">
+    <title lang="fr">Didou</title>
+    <desc lang="fr">Didou le petit lapin et son amie Yoko la coccinelle apprennent à dessiner aux enfants. Dès que le dessin est colorié, il devient réel comme par magie et les deux amis peuvent entrer dans la maison, ou monter dans une fusée.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002122000 +0200" stop="20261002124000 +0200">
+    <title lang="fr">Mouk</title>
+    <desc lang="fr">Découvrez Mouk et Chavapa, les deux jeunes globe-trotters avides d'aventure qui parcourent le monde à vélo dans Mouk !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002124000 +0200" stop="20261002125000 +0200">
+    <title lang="fr">Nasredine</title>
+    <desc lang="fr">Nasredine est un personnage mythique de la culture orientale, un individu rusé qui adore jouer des tours. Par sa logique imprévisible, Nasredine tourne en ridicule les vicissitudes de ce monde avec esprit et humour.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002125000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Pirata &amp; Capitano</title>
+    <desc lang="fr">Pirata &amp; Capitano : Embarquez avec Pirata, son équipage et son meilleur ami Capitano ! Chaque virée en mer est l'occasion de chercher un trésor, de porter secours à une espèce en danger, de rencontrer de nouveaux amis ou de découvrir des îles mystérieuses. Une série sur l'entraide et le bien vivre ensemble en voguant sur le grand océan…alors, hissez les voiles et levez l'ancre, en route pour l'aventure !</desc>
+    <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="TVPitchoun.fr" start="20261002130000 +0200" stop="20261002130300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
@@ -23317,6 +23729,31 @@
   <programme channel="TVPitchoun.fr" start="20261002164000 +0200" stop="20261002170000 +0200">
     <title lang="fr">Corneil et Bernie</title>
     <desc lang="fr">Corneil, un petit chien surdoué. Tout bascule le jour où ses riches propriétaires décident d'engager Bernie, un adolescent drôle et excentrique, comme \" dogsitter \". Celui-ci ne va pas tarder à découvrir le don de Corneil et le mettre à profit pour mener à bien ses plans les plus farfelus.</desc>
+    <category lang="fr">Dessin animé / Dessin animé</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002170000 +0200" stop="20261002170300 +0200">
+    <title lang="fr">Danse de Pitchoun</title>
+    <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002170300 +0200" stop="20261002170800 +0200">
+    <title lang="fr">La fabrique ludique</title>
+    <desc lang="fr">Découpez, collez, créez avec Clara, tous les jours sur TV Pitchoun ! Apprenez à fabriquer vos objets vous-mêmes avec les tutos de Clara \" Do It Yourself \".</desc>
+    <category lang="fr">Divers / Emission jeunesse</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002170800 +0200" stop="20261002172800 +0200">
+    <title lang="fr">Didou</title>
+    <desc lang="fr">Didou le petit lapin et son amie Yoko la coccinelle apprennent à dessiner aux enfants. Dès que le dessin est colorié, il devient réel comme par magie et les deux amis peuvent entrer dans la maison, ou monter dans une fusée.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002172800 +0200" stop="20261002175000 +0200">
+    <title lang="fr">Mouk</title>
+    <desc lang="fr">Découvrez Mouk et Chavapa, les deux jeunes globe-trotters avides d'aventure qui parcourent le monde à vélo dans Mouk !</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="TVPitchoun.fr" start="20261002175000 +0200" stop="20261002180000 +0200">
+    <title lang="fr">64 rue du zoo</title>
+    <desc lang="fr">Lucie est une petite fille qui habite au 64 rue du Zoo, à quelques pas d'un zoo. Chaque nuit, elle y rejoint les animaux qui l'attendent impatiemment et écoute leurs histoires insolites de la vie sauvage.</desc>
     <category lang="fr">Dessin animé / Dessin animé</category>
   </programme>
   <programme channel="TVPitchoun.fr" start="20261002180000 +0200" stop="20261002180300 +0200">
@@ -24233,6 +24670,81 @@
     <title lang="fr">Global hits</title>
     <desc lang="fr">Tous les passeports sont tamponnés et les visas approuvés, alors prenons notre envol et allons dans le monde entier avec d'incroyables BANGERS ! Bienvenue dans le monde des HITS INTERNATIONAUX !</desc>
     <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002020000 +0200" stop="20261002030000 +0200">
+    <title lang="fr">Kitoko gospel</title>
+    <desc lang="fr">Notre Playlist 100% congolaise avec les plus gros artistes des deux Congos.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002030000 +0200" stop="20261002040000 +0200">
+    <title lang="fr">New Gospel</title>
+    <desc lang="fr">"New", l'émission qui, pendant une heure, propose de faire découvrir les nouveaux clips des artistes les plus en vogue avant tout le monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002040000 +0200" stop="20261002070000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002070000 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Wake up</title>
+    <desc lang="fr">Pendant 3 heures la parole de Dieu résonne comme des mot doux à votre réveil.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002100000 +0200" stop="20261002110000 +0200">
+    <title lang="fr">Morning Live</title>
+    <desc lang="fr">Démarrez vos journées remplis d'énergie avec votre rendez vous 100% Live.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002110000 +0200" stop="20261002140000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002140000 +0200" stop="20261002144500 +0200">
+    <title lang="fr">Hit 10 Gospel</title>
+    <desc lang="fr">Le classement des 10 meilleurs hits africains qui cartonnent en ce moment.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002144500 +0200" stop="20261002160000 +0200">
+    <title lang="fr">New Gospel</title>
+    <desc lang="fr">"New", l'émission qui, pendant une heure, propose de faire découvrir les nouveaux clips des artistes les plus en vogue avant tout le monde.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002160000 +0200" stop="20261002164500 +0200">
+    <title lang="fr">US Hit</title>
+    <desc lang="fr">Le classement des 10 hits américains les plus joués aux Etats Unis!</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002164500 +0200" stop="20261002180000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002180000 +0200" stop="20261002190000 +0200">
+    <title lang="fr">Kitoko gospel</title>
+    <desc lang="fr">Notre Playlist 100% congolaise avec les plus gros artistes des deux Congos.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002190000 +0200" stop="20261002194500 +0200">
+    <title lang="fr">Hit 10 Gospel</title>
+    <desc lang="fr">Le classement des hits Gospel de la semaine...</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002194500 +0200" stop="20261002220000 +0200">
+    <title lang="fr">Hits non stop Gospel</title>
+    <desc lang="fr">Les meilleurs hits de la semaine s'enchaînent pour rythmer ta journée.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002220000 +0200" stop="20261002230000 +0200">
+    <title lang="fr">French vibes</title>
+    <desc lang="fr">Notre playlist 100% française avec les meilleurs artistes francophones...</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="TraceGospel.af" start="20261002230000 +0200" stop="20261003020000 +0200">
+    <title lang="fr">Gospel by night</title>
+    <desc lang="fr">Une selection spéciale de musiques cultes et de gospel contemporain.</desc>
+    <category lang="fr">Divers / Variétés</category>
   </programme>
   <programme channel="TraceKitoko.af" start="20261002000000 +0200" stop="20261002010000 +0200">
     <title lang="fr">Bilengia Congo</title>
@@ -27080,6 +27592,38 @@
   <programme channel="oqee.1065" start="20261002220000 +0200" stop="20261003010000 +0200">
     <title lang="fr">ON TV</title>
     <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002010000 +0200" stop="20261002040000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002040000 +0200" stop="20261002070000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002070000 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002100000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002130000 +0200" stop="20261002160000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002160000 +0200" stop="20261002190000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002190000 +0200" stop="20261002220000 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.1085" start="20261002220000 +0200" stop="20261003010100 +0200">
+    <title lang="fr">Rotana Cinéma+ FR</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
   </programme>
   <programme channel="oqee.1090" start="20261002060000 +0200" stop="20261002090000 +0200">
     <title lang="fr">Vivez le meilleur de Rotana Kids</title>
@@ -31002,6 +31546,11 @@
     <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.1212" start="20261002060000 +0200" stop="20261002063500 +0200">
+    <title lang="fr">Le 6h info</title>
+    <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.1212" start="20261002063500 +0200" stop="20261002080000 +0200">
     <title lang="fr">Télématin</title>
     <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux et sans dramatisation.</desc>
@@ -31031,6 +31580,21 @@
     <title lang="fr">Chacun son tour</title>
     <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
     <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1212" start="20261002112500 +0200" stop="20261002115500 +0200">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1212" start="20261002115500 +0200" stop="20261002125500 +0200">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1212" start="20261002125500 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.1212" start="20261002130000 +0200" stop="20261002134000 +0200">
     <title lang="fr">Journal 13h00</title>
@@ -31193,7 +31757,7 @@
   </programme>
   <programme channel="oqee.1217" start="20261002063000 +0200" stop="20261002070000 +0200">
     <title lang="fr">Alabaa mike wole kagni - S01E04</title>
-    <desc lang="fr">À la mort du roi Fakiya, le royaume vacille.À la mort du roi Fakiya, le royaume vacille. "Deux héritiers s'affrontent : Doukouré, fils aîné respecté pour sa droiture et désigné successeur légitime, face à M'Boma, brillant mais rongé par une jalousie dévorante." Alors que le peuple pleure encore son souverain, les conseillers choisissent leur camp. Les promesses s'achètent, les trahisons s'enracinent. "M'Boma est prêt à tout pour s'emparer de la couronne.</desc>
+    <desc lang="fr">À la mort du roi Fakiya, le royaume vacille.À la mort du roi Fakiya, le royaume vacille. Deux héritiers s'affrontent : Doukouré, fils aîné respecté pour sa droiture et désigné successeur légitime, face à M'Boma, brillant mais rongé par une jalousie...</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20261002070000 +0200" stop="20261002073000 +0200">
@@ -31216,6 +31780,16 @@
     <desc lang="fr">En choisissant d'être polygames, les deux amis Moustapha Camara et Ousmane Diaby, ne s'attendaient pas un tel tourbillon ! Tensions, jalousie, rivalités et règlements de compte en famille et entre épouses. Des situations qui dépassent totalement les deux hommes jusqu'à parfois à leur faire regretter le choix d'être polygames.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.1217" start="20261002090000 +0200" stop="20261002093000 +0200">
+    <title lang="fr">Sinaya - S01E37</title>
+    <desc lang="fr">Lorsque Karamoko, un homme riche, se remarie, son foyer devient le théâtre de conflits incessants, entre une première épouse jalouse et la seconde tout en douceur. Par ailleurs, sa fille unique sombre dans la délinquance et la drogue. Tensions, manipulations et maraboutages menacent de détruire l'unité familiale.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002093000 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Sinaya - S01E38</title>
+    <desc lang="fr">Lorsque Karamoko, un homme riche, se remarie, son foyer devient le théâtre de conflits incessants, entre une première épouse jalouse et la seconde tout en douceur. Par ailleurs, sa fille unique sombre dans la délinquance et la drogue. Tensions, manipulations et maraboutages menacent de détruire l'unité familiale.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="oqee.1217" start="20261002100000 +0200" stop="20261002103000 +0200">
     <title lang="fr">Alabaa mike wole kagni - S01E03</title>
     <desc lang="fr">À la mort du roi Fakiya, le royaume vacille.À la mort du roi Fakiya, le royaume vacille. "Deux héritiers s'affrontent : Doukouré, fils aîné respecté pour sa droiture et désigné successeur légitime, face à M'Boma, brillant mais rongé par une jalousie dévorante." Alors que le peuple pleure encore son souverain, les conseillers choisissent leur camp. Les promesses s'achètent, les trahisons s'enracinent. "M'Boma est prêt à tout pour s'emparer de la couronne.</desc>
@@ -31224,6 +31798,26 @@
   <programme channel="oqee.1217" start="20261002103000 +0200" stop="20261002110000 +0200">
     <title lang="fr">Alabaa mike wole kagni - S01E04</title>
     <desc lang="fr">À la mort du roi Fakiya, le royaume vacille.À la mort du roi Fakiya, le royaume vacille. Deux héritiers s'affrontent : Doukouré, fils aîné respecté pour sa droiture et désigné successeur légitime, face à M'Boma, brillant mais rongé par une jalousie...</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002110000 +0200" stop="20261002113000 +0200">
+    <title lang="fr">Nimissa - S02E03</title>
+    <desc lang="fr">Camara, père autoritaire et respecté, incarne la tradition. "N'famory, fougueux mais immature, se débat avec ses élans." Sayon, sensible et rebelle, cherche sa liberté. "La tante, stricte mais plus douce, tente de préserver l'équilibre." Sa fille, amoureuse de N'famory, est prisonnière d'un amour interdit.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002113000 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Nimissa - S02E04</title>
+    <desc lang="fr">Camara, père autoritaire et respecté, incarne la tradition. "N'famory, fougueux mais immature, se débat avec ses élans." Sayon, sensible et rebelle, cherche sa liberté. "La tante, stricte mais plus douce, tente de préserver l'équilibre." Sa fille, amoureuse de N'famory, est prisonnière d'un amour interdit.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002120000 +0200" stop="20261002123000 +0200">
+    <title lang="fr">Polygamie - S02E39</title>
+    <desc lang="fr">En choisissant d'être polygames, les deux amis Moustapha Camara et Ousmane Diaby, ne s'attendaient pas un tel tourbillon ! Tensions, jalousie, rivalités et règlements de compte en famille et entre épouses. Des situations qui dépassent totalement les deux hommes jusqu'à parfois à leur faire regretter le choix d'être polygames.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002123000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Polygamie - S02E40</title>
+    <desc lang="fr">En choisissant d'être polygames, les deux amis Moustapha Camara et Ousmane Diaby, ne s'attendaient pas un tel tourbillon ! Tensions, jalousie, rivalités et règlements de compte en famille et entre épouses. Des situations qui dépassent totalement les deux hommes jusqu'à parfois à leur faire regretter le choix d'être polygames.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20261002130000 +0200" stop="20261002133000 +0200">
@@ -31264,6 +31858,16 @@
   <programme channel="oqee.1217" start="20261002163000 +0200" stop="20261002170000 +0200">
     <title lang="fr">Polygamie - S02E40</title>
     <desc lang="fr">En choisissant d'être polygames, les deux amis Moustapha Camara et Ousmane Diaby, ne s'attendaient pas un tel tourbillon ! Tensions, jalousie, rivalités et règlements de compte en famille et entre épouses. Des situations qui dépassent totalement les deux hommes jusqu'à parfois à leur faire regretter le choix d'être polygames.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002170000 +0200" stop="20261002173000 +0200">
+    <title lang="fr">Sinaya - S01E37</title>
+    <desc lang="fr">Lorsque Karamoko, un homme riche, se remarie, son foyer devient le théâtre de conflits incessants, entre une première épouse jalouse et la seconde tout en douceur. Par ailleurs, sa fille unique sombre dans la délinquance et la drogue. Tensions, manipulations et maraboutages menacent de détruire l'unité familiale.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.1217" start="20261002173000 +0200" stop="20261002180000 +0200">
+    <title lang="fr">Sinaya - S01E38</title>
+    <desc lang="fr">Lorsque Karamoko, un homme riche, se remarie, son foyer devient le théâtre de conflits incessants, entre une première épouse jalouse et la seconde tout en douceur. Par ailleurs, sa fille unique sombre dans la délinquance et la drogue. Tensions, manipulations et maraboutages menacent de détruire l'unité familiale.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.1217" start="20261002180000 +0200" stop="20261002183000 +0200">
@@ -31551,6 +32155,11 @@
     <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.1228" start="20261002060000 +0200" stop="20261002063500 +0200">
+    <title lang="fr">Le 6h info</title>
+    <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.1228" start="20261002063500 +0200" stop="20261002080000 +0200">
     <title lang="fr">Télématin</title>
     <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux et sans dramatisation.</desc>
@@ -31580,6 +32189,21 @@
     <title lang="fr">Chacun son tour</title>
     <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
     <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1228" start="20261002112500 +0200" stop="20261002115500 +0200">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Des participants tirés au sort parmi le public doivent répondre à des questions de culture générale dans l'espoir de se qualifier pour la deuxième épreuve : le billard japonais, un jeu d'adresse qui peut rapporter cadeaux et argent. Les candidats qui perdent leur duel de culture générale réintègrent le public et peuvent donc être à nouveau tirés au sort.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1228" start="20261002115500 +0200" stop="20261002125500 +0200">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.1228" start="20261002125500 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Journal Météo Climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts. </desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.1228" start="20261002130000 +0200" stop="20261002134000 +0200">
     <title lang="fr">Journal 13h00</title>
@@ -33292,12 +33916,30 @@
     <desc lang="fr">The presenters report on the latest news in India, covering various topics from politics and finance to technology, health and more. </desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="oqee.1396" start="20261002090000 +0200" stop="20261002093000 +0200">
+    <title lang="fr">The Autocar Show</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1396" start="20261002093000 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Newsroom 365</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="oqee.1396" start="20261002100000 +0200" stop="20261002103000 +0200">
     <title lang="fr">Times Live 30</title>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.1396" start="20261002103000 +0200" stop="20261002113000 +0200">
     <title lang="fr">Times Network India Economic Conclave (IEC)</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1396" start="20261002113000 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Times Now Live Wire</title>
+    <desc lang="fr">A quick summary from India's most watched English news channel, featuring stories from across the globe that are making international headlines with interviews and analysis on the day's events.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1396" start="20261002120000 +0200" stop="20261002123000 +0200">
+    <title lang="fr">Times Now Live Wire</title>
+    <desc lang="fr">A quick summary from India's most watched English news channel, featuring stories from across the globe that are making international headlines with interviews and analysis on the day's events.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.1396" start="20261002123000 +0200" stop="20261002133000 +0200">
@@ -39557,6 +40199,11 @@
     <desc lang="fr">Lakshmi, a determined woman, tackles the ups and downs of life in a traditional joint family, supporting her husband Shriniwas as he works tirelessly to create their dream home.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.445" start="20261002063000 +0200" stop="20261002070000 +0200">
+    <title lang="fr">Tumm Se Tumm Tak</title>
+    <desc lang="fr">Anu, a kind 20-year-old, and Aryavardhan, a resolute 45-year-old businessman, defy societal norms and family resistance, overcoming struggles to demonstrate that love transcends age or boundaries.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="oqee.445" start="20261002070000 +0200" stop="20261002073000 +0200">
     <title lang="fr">Gangaa Mai Ki Betiyaan</title>
     <desc lang="fr">Abandoned for not bearing a son, a resolute Ganga raises her three daughters against the backdrop of Varanasi, and their triumphs, despite the injustice and hardship, become her greatest victory.</desc>
@@ -39577,6 +40224,11 @@
     <desc lang="fr">Lakshmi, a determined woman, tackles the ups and downs of life in a traditional joint family, supporting her husband Shriniwas as he works tirelessly to create their dream home.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="oqee.445" start="20261002093000 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Gangaa Mai Ki Betiyaan</title>
+    <desc lang="fr">Abandoned for not bearing a son, a resolute Ganga raises her three daughters against the backdrop of Varanasi, and their triumphs, despite the injustice and hardship, become her greatest victory.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
   <programme channel="oqee.445" start="20261002100000 +0200" stop="20261002103000 +0200">
     <title lang="fr">Jagaddhatri</title>
     <desc lang="fr">After an evening of recitation and song, Shreemoti and Rajiv discover four friends dead. Panicked, Shreemoti calls Swayambhu, who arrives and questions Rajiv, farmhouse owner, about the tragedy.</desc>
@@ -39585,6 +40237,21 @@
   <programme channel="oqee.445" start="20261002103000 +0200" stop="20261002110000 +0200">
     <title lang="fr">Vasudha</title>
     <desc lang="fr">A happy-go-lucky Vasudha comes as a maid to business leader Chandrika's house and craves her approval despite their ideological differences. Will she find acceptance in Chandrika's world?</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.445" start="20261002110000 +0200" stop="20261002113000 +0200">
+    <title lang="fr">Dilo Ki Ram Leela</title>
+    <desc lang="fr">A wealthy woman enters an arranged marriage hoping to win her father's affection. As family tensions rise, she unexpectedly discovers love and a new purpose.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.445" start="20261002113000 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Tu Hi Re Dil Mein</title>
+    <desc lang="fr">Vrinda marries her dream man, Sanjay, to bring him luck. However, Sanjay loves Divya. Living as a caretaker, Vrinda silently sacrifices her happiness, waiting on fate.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.445" start="20261002120000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Lakshmi Nivas</title>
+    <desc lang="fr">Lakshmi, a determined woman, tackles the ups and downs of life in a traditional joint family, supporting her husband Shriniwas as he works tirelessly to create their dream home.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.445" start="20261002130000 +0200" stop="20261002133000 +0200">
@@ -39625,6 +40292,11 @@
   <programme channel="oqee.445" start="20261002163000 +0200" stop="20261002170000 +0200">
     <title lang="fr">Dilo Ki Ram Leela</title>
     <desc lang="fr">A wealthy woman enters an arranged marriage hoping to win her father's affection. As family tensions rise, she unexpectedly discovers love and a new purpose.</desc>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.445" start="20261002170000 +0200" stop="20261002180000 +0200">
+    <title lang="fr">Lakshmi Nivas</title>
+    <desc lang="fr">Lakshmi, a determined woman, tackles the ups and downs of life in a traditional joint family, supporting her husband Shriniwas as he works tirelessly to create their dream home.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.445" start="20261002180000 +0200" stop="20261002183000 +0200">
@@ -40490,7 +41162,17 @@
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20261002062000 +0200" stop="20261002063500 +0200">
+    <title lang="fr">Die Welt am Morgen</title>
+    <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002062000 +0200" stop="20261002064000 +0200">
+    <title lang="fr">Die Welt am Morgen</title>
+    <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002063500 +0200" stop="20261002070000 +0200">
     <title lang="fr">Die Welt am Morgen</title>
     <desc lang="fr">Mit "Die Welt am Morgen" startet WELT aus Europas modernstem Newsstudio in den Tag. Die Sendung liefert den Zuschauern einen kompakten Überblick über die Themen, die Deutschland und die Welt bewegen. Mit journalistischer Kompetenz, klarer Analyse und modernster Studiotechnologie verbindet "Die Welt am Morgen" Breaking News, Hintergründe und Live-Berichterstattung zu einem informativen Morgenformat.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -40550,6 +41232,11 @@
     <desc lang="fr">Profilierte Kommentatoren bewerten die Ereignisse des Tages und ordnen sie in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger ein. Unterschiedliche Perspektiven treffen auf pointierte Analysen, wodurch ein vielschichtiger Blick auf Politik und Gesellschaft entsteht. Die Runde bietet Raum für klare Haltung, kontroverse Einschätzungen &amp; persönliche Bewertungen.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="oqee.56" start="20261002090000 +0200" stop="20261002090500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002090000 +0200" stop="20261002091500 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
@@ -40580,6 +41267,11 @@
     <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20261002100000 +0200" stop="20261002100500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002100000 +0200" stop="20261002101500 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
@@ -40595,15 +41287,30 @@
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20261002104000 +0200" stop="20261002104500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002104000 +0200" stop="20261002105000 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20261002104500 +0200" stop="20261002110000 +0200">
+    <title lang="fr">Börsenflash</title>
+    <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
   <programme channel="oqee.56" start="20261002105000 +0200" stop="20261002110000 +0200">
     <title lang="fr">Börsenflash</title>
     <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002110000 +0200" stop="20261002110500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20261002110000 +0200" stop="20261002111500 +0200">
     <title lang="fr">WELT Newsroom</title>
@@ -40620,19 +41327,39 @@
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20261002114000 +0200" stop="20261002114500 +0200">
+    <title lang="fr">WELT Newsroom</title>
+    <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002114000 +0200" stop="20261002115000 +0200">
     <title lang="fr">WELT Newsroom</title>
     <desc lang="fr">Live‑Schalten, Pressekonferenzen, Gespräche mit Studiogästen &amp; präzise Erläuterungen an der Vidiwall sorgen dafür, dass Zusammenhänge verständlich werden und aktuelle Meldungen sofort eingeordnet werden. Die Sendung begleitet den Tag dynamisch, bietet Orientierung im schnellen Nachrichtengeschehen und zeigt, was hinter den Schlagzeilen steckt und welche Bedeutung neue Informationen wirklich haben.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002114500 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Börsenflash</title>
+    <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.56" start="20261002115000 +0200" stop="20261002120000 +0200">
     <title lang="fr">Börsenflash</title>
     <desc lang="fr">Dieses Wirtschaftsmagazin bietet Anlegern sowie wirtschaftlich Interessierten einen kompakten und fundierten Überblick über die aktuellen Entwicklungen an den internationalen Börsen. Im Fokus stehen relevante Marktbewegungen, wirtschaftliche Trends und zentrale Einflussfaktoren, die das globale Finanzgeschehen prägen. Es unterstützt dabei wirtschaftliche Zusammenhänge besser zu verstehen und fundierte Entscheidungen im Finanzumfeld zu treffen.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20261002120000 +0200" stop="20261002120500 +0200">
+    <title lang="fr">Die Welt am Mittag</title>
+    <desc lang="fr">Ab 12 Uhr liefert "Die Welt am Mittag" einen kompakten Überblick über das aktuelle Tagesgeschehen. Die Sendung fasst die wichtigsten Entwicklungen aus Politik, Wirtschaft, Gesellschaft und Sport zusammen und ordnet die Top-Themen des Tages ein. Auch die aktuellen Entwicklungen an den Börsen und den internationalen Finanzmärkten sind fester Bestandteil der Sendung.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002120000 +0200" stop="20261002121500 +0200">
     <title lang="fr">Die Welt am Mittag</title>
     <desc lang="fr">Ab 12 Uhr liefert "Die Welt am Mittag" einen kompakten Überblick über das aktuelle Tagesgeschehen. Die Sendung fasst die wichtigsten Entwicklungen aus Politik, Wirtschaft, Gesellschaft und Sport zusammen und ordnet die Top-Themen des Tages ein. Auch die aktuellen Entwicklungen an den Börsen und den internationalen Finanzmärkten sind fester Bestandteil der Sendung.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002121000 +0200" stop="20261002123000 +0200">
+    <title lang="fr">WELT - Meinung am Mittag</title>
+    <desc lang="fr">Jeden Mittag liefern profilierte Kommentatoren eine pointierte Einordnung der aktuellen Ereignisse und bewerten den Tag in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger. Das Format bietet eine vielseitige Plattform für tägliche Einschätzungen, ordnet politische und gesellschaftliche Entwicklungen ein und setzt Impulse für die Debatten des restlichen Tages.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20261002121500 +0200" stop="20261002122000 +0200">
@@ -40745,12 +41472,22 @@
     <desc lang="fr">Wo steht der Dax, und wie sieht der Dow Jones nach Börsenschluss in New York aus? Das Wirtschaftsmagazin berichtet von der Frankfurter Börse und analysiert Trends auf dem internationalen Aktienmarkt. Wichtige Analysten kommen zu Wort und schätzen die Lage an den Börsen ein, geben einen Überblick über die Situation auf den internationalen Finanzmärkten und auf die wirtschaftliche Lage.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
+  <programme channel="oqee.56" start="20261002180000 +0200" stop="20261002181000 +0200">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002180000 +0200" stop="20261002180500 +0200">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.56" start="20261002180500 +0200" stop="20261002181500 +0200">
+    <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
+    <desc lang="fr">Jeden Abend ordnen profilierte Kommentatoren die Ereignisse des Tages ein und bewerten sie in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger. Unterschiedliche Persönlichkeiten bringen ihre Perspektiven ein und schaffen damit eine lebendige Mischung aus pointierten Einschätzungen, analytischer Schärfe und persönlicher Haltung.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002181000 +0200" stop="20261002181500 +0200">
     <title lang="fr">Meine WELT - Meine Meinung zum Tag</title>
     <desc lang="fr">Jeden Abend ordnen profilierte Kommentatoren die Ereignisse des Tages ein und bewerten sie in klaren Kategorien wie Gewinner, Verlierer, wichtigste Nachricht oder größter Aufreger. Unterschiedliche Persönlichkeiten bringen ihre Perspektiven ein und schaffen damit eine lebendige Mischung aus pointierten Einschätzungen, analytischer Schärfe und persönlicher Haltung.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
@@ -40765,7 +41502,17 @@
     <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.56" start="20261002185500 +0200" stop="20261002191000 +0200">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.56" start="20261002185500 +0200" stop="20261002191500 +0200">
+    <title lang="fr">Die Welt am Abend</title>
+    <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002191000 +0200" stop="20261002193000 +0200">
     <title lang="fr">Die Welt am Abend</title>
     <desc lang="fr">"Die Welt am Abend" blickt auf die wichtigsten Ereignisse des Tages zurück und fasst Entwicklungen aus aller Welt kompakt zusammen. Die Sendung interpretiert und analysiert aktuelle Themen, ordnet Hintergründe verständlich ein und bietet eine fundierte Perspektive auf das Geschehen. Zudem wagt sie einen Ausblick darauf, welche Themen den nächsten Tag prägen könnten.</desc>
     <category lang="fr">Divers / Journal</category>
@@ -40800,12 +41547,22 @@
     <desc lang="fr">Dans cet épisode notamment : les douaniers découvrent 5000 cartouches de munition introduites en contrebande par le pont Hidalgo vers le Mexique.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
+  <programme channel="oqee.56" start="20261002220500 +0200" stop="20261002230500 +0200">
+    <title lang="fr">Borderforce USA : the Bridges - S02E09</title>
+    <desc lang="fr">Dans cet épisode : un trafiquant de drogue cache des pilules dans ses sous-vêtements ; des immigrants tentent de traverser le Rio Grande ; une famille désespérée insiste pour entrer aux Etats-Unis. </desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
   <programme channel="oqee.56" start="20261002220500 +0200" stop="20261002230000 +0200">
     <title lang="fr">Borderforce USA : the Bridges - S02E09</title>
     <desc lang="fr">Dans cet épisode : un trafiquant de drogue cache des pilules dans ses sous-vêtements ; des immigrants tentent de traverser le Rio Grande ; une famille désespérée insiste pour entrer aux Etats-Unis. </desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
   <programme channel="oqee.56" start="20261002230000 +0200" stop="20261002235500 +0200">
+    <title lang="fr">Borderforce USA : the Bridges - S02E10</title>
+    <desc lang="fr">Le Rio Grande matérialise la frontière entre le Texas et le Mexique, constituant une des frontières les plus célèbres et les plus surveillées du monde. Vingt-huit ponts relient les deux pays, voies de passage pour les hommes et les marchandises, mais aussi point de transit pour la contrebande. Cette série suit le travail des agents de la douane et de ceux de la police des frontières qui veillent sur ces points stratégiques.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.56" start="20261002230500 +0200" stop="20261002235500 +0200">
     <title lang="fr">Borderforce USA : the Bridges - S02E10</title>
     <desc lang="fr">Le Rio Grande matérialise la frontière entre le Texas et le Mexique, constituant une des frontières les plus célèbres et les plus surveillées du monde. Vingt-huit ponts relient les deux pays, voies de passage pour les hommes et les marchandises, mais aussi point de transit pour la contrebande. Cette série suit le travail des agents de la douane et de ceux de la police des frontières qui veillent sur ces points stratégiques.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
@@ -42071,6 +42828,21 @@
     <desc lang="fr">Dziennikarze przedstawiają uzupełnienia do wiadomości zaprezentowanych w "Faktach" na antenie TVN oraz rozmawiają z zaproszonymi do studia gośćmi na temat bieżących wydarzeń.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.663" start="20261002060000 +0200" stop="20261002063000 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002063000 +0200" stop="20261002065200 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002065200 +0200" stop="20261002070000 +0200">
+    <title lang="fr">Konkret24 Weryfikuje</title>
+    <desc lang="fr">Magazyn pokazuje, w jaki sposób skutecznie weryfikować informacje krążące w sieci. Twórcy zdradzają tajniki fact-checkingu i wyjaśniają, jak nie wpaść w pułapkę internetowej manipulacji. Program przybliża też proste techniki, dzięki którym rozpoznanie autorów o niskiej wiarygodności staje się dużo łatwiejsze.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="oqee.663" start="20261002070000 +0200" stop="20261002073000 +0200">
     <title lang="fr">Serwis informacyjny, pogoda</title>
     <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
@@ -42091,6 +42863,21 @@
     <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.663" start="20261002090000 +0200" stop="20261002093000 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002093000 +0200" stop="20261002095500 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002095500 +0200" stop="20261002100000 +0200">
+    <title lang="fr">Biznes</title>
+    <desc lang="fr">Aktualne informacje ekonomiczno-biznesowe oparte na doniesieniach ze świata i na krajowych notowaniach giełdowych, walutowych oraz towarowych.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
   <programme channel="oqee.663" start="20261002100000 +0200" stop="20261002103000 +0200">
     <title lang="fr">Serwis informacyjny, pogoda</title>
     <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
@@ -42105,6 +42892,31 @@
     <title lang="fr">Biznes</title>
     <desc lang="fr">Aktualne informacje ekonomiczno-biznesowe oparte na doniesieniach ze świata i na krajowych notowaniach giełdowych, walutowych oraz towarowych.</desc>
     <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002110000 +0200" stop="20261002113000 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002113000 +0200" stop="20261002115500 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002115500 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Biznes</title>
+    <desc lang="fr">Aktualne informacje ekonomiczno-biznesowe oparte na doniesieniach ze świata i na krajowych notowaniach giełdowych, walutowych oraz towarowych.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002120000 +0200" stop="20261002123000 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.663" start="20261002123000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Serwis informacyjny, pogoda</title>
+    <desc lang="fr">Aktualne wiadomości z kraju i ze świata. Relacje korespondentów na temat bieżącej sytuacji politycznej, społecznej i gospodarczej. Codziennie profesjonalnie przygotowany serwis krajowy i zagraniczny. W programie znajdą się także informacje o prognozie pogody.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.663" start="20261002130000 +0200" stop="20261002133000 +0200">
     <title lang="fr">Serwis informacyjny, pogoda</title>
@@ -44944,6 +45756,103 @@
     <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="oqee.812" start="20261002010000 +0200" stop="20261002020000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002020000 +0200" stop="20261002034500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002034500 +0200" stop="20261002041500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002041500 +0200" stop="20261002060000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002060000 +0200" stop="20261002093000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002093000 +0200" stop="20261002120000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002120000 +0200" stop="20261002130000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002130000 +0200" stop="20261002131500 +0200">
+    <title lang="fr">Teleshopping</title>
+    <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002131500 +0200" stop="20261002140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002140000 +0200" stop="20261002143000 +0200">
+    <title lang="fr">Superspeed</title>
+    <desc lang="fr">"Super Speed" - o emisiune prezentată de Costin Giurgea, cu maşini, teste incredibile şi vedete care vor fi puse în situaţii inedite. Jurnalistul are o vastă experienţă în presa auto şi este pregătit să le aducă românilor o emisiune plină de dinamism şi distracţie.</desc>
+    <category lang="fr">Magazine sportif / Automobilisme</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002143000 +0200" stop="20261002150000 +0200">
+    <title lang="fr">Umami: al 5-lea gust</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002150000 +0200" stop="20261002160000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002160000 +0200" stop="20261002170000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002170000 +0200" stop="20261002180000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002180000 +0200" stop="20261002193000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002193000 +0200" stop="20261002204500 +0200">
+    <title lang="fr">Inimă de ţigan</title>
+    <desc lang="fr">"Inimă de țigan" îl urmărește pe Codruț, un tânăr ambițios cu visul de a deveni medic, și pe Irina, o tânără dintr‑o familie înstărită, care se îndrăgostesc cu pasiune în ciuda diferențelor dintre lumi și a așteptărilor celor din jur. Pe fundalul unei comunități tradiționale pline de obiceiuri, secrete și reguli stricte, cei doi luptă pentru dragostea lor, înfruntând prejudecăți, alianțe potrivite și conflicte care par să îi despartă. O poveste intensă despre sacrificiu, curaj și dorința de a merge dincolo de limitările impuse de societate.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002204500 +0200" stop="20261002213000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002213000 +0200" stop="20261002223000 +0200">
+    <title lang="fr">La Bloc</title>
+    <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002223000 +0200" stop="20261002230000 +0200">
+    <title lang="fr">Teleshopping</title>
+    <desc lang="fr">"Teleshopping" este o emisiune dedicată prezentării și comercializării de produse variate direct telespectatorilor. Programul oferă demonstrații practice, explicații detaliate și oferte speciale, facilitând achiziția rapidă și comodă a produselor prezentate. Fiecare ediție combină informații despre caracteristicile produselor, sfaturi utile de utilizare și promoții atractive, transformând vizionarea într-o experiență interactivă și utilă pentru public.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="oqee.812" start="20261002230000 +0200" stop="20261003010000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
   <programme channel="oqee.835" start="20261002000000 +0200" stop="20261002003500 +0200">
     <title lang="fr">RTL Nachtjournal - S18E190</title>
     <category lang="fr">Divers / Journal</category>
@@ -45003,12 +45912,12 @@
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="oqee.835" start="20261002155500 +0200" stop="20261002170000 +0200">
-    <title lang="fr">Ulrich Wetzel - Das Strafgericht - S07E71</title>
+    <title lang="fr">Ulrich Wetzel - Das Strafgericht</title>
     <desc lang="fr">Angelika Sperling soll eine Torte vergiftet haben, um den Ruf der Confiserie ihrer Enkelin Jule Ziegler zu ruinieren. Als Motiv gilt der Umbau ihrer Backstube zur Confiserie, welche die 26-jährige "Backjule" für ihre Livestreams nutzt. Damit zieht sie viele Fans an, die den Hof ihres Großcousins André Sperling zuparken. Der Landwirt baut genau die Bittermandeln an, mit denen die Torte vergiftet wurde - weshalb nun auch er unter Verdacht steht.</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="oqee.835" start="20261002170000 +0200" stop="20261002173000 +0200">
-    <title lang="fr">Ulrich Wetzel - Das Jugendgericht - S02E59</title>
+    <title lang="fr">Ulrich Wetzel - Das Jugendgericht - S02E78</title>
     <desc lang="fr">Feueralarm in der Villa einer wohlhabenden 58-Jährigen. Mehrere Luxus-Einkaufstaschen gehen in Flammen auf, während die Großmutter Irene Wolf im Haus schläft. Der Verdacht fällt auf ihren 16-jährigen Enkel Tim, der seine Oma kurz zuvor im Netz als Alkoholikerin bloßstellte. Nach Anzeige- und Kündigungsdrohungen gegen ihn und seine Mutter, eskaliert der Konflikt. Handelte er aus Rache oder hegte noch jemand einen Groll gegen die gut betuchte Dame?</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
