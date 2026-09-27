@@ -680,6 +680,18 @@
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
   </channel>
+  <channel id="TV5MondeAsie.fr">
+    <display-name>TV5 Monde Asie</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
+  </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
+  </channel>
+  <channel id="TV5MondePacifique.fr">
+    <display-name>TV5 Monde Pacifique</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;amp;s"/>
+  </channel>
   <channel id="TVPitchoun.fr">
     <display-name>TV Pitchoun</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/3c/PITCHOUN_TV_2018.png"/>
@@ -1152,6 +1164,10 @@
     <display-name>CNN International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1324/w256"/>
   </channel>
+  <channel id="oqee.386">
+    <display-name>ART Aflam 1</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1040/w256"/>
+  </channel>
   <channel id="oqee.396">
     <display-name>Sky News International</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1320/w256"/>
@@ -1323,6 +1339,10 @@
   <channel id="oqee.772">
     <display-name>360</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1644/w256"/>
+  </channel>
+  <channel id="oqee.801">
+    <display-name>CGTN Documentaire</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2110/w256"/>
   </channel>
   <channel id="oqee.802">
     <display-name>Euronews International</display-name>
@@ -17762,7 +17782,7 @@
   </programme>
   <programme channel="France3CorseViaStella.fr" start="20261006095300 +0200" stop="20261006104900 +0200">
     <title lang="fr">Odissea</title>
-    <desc lang="fr">Karine Veraldi rencontre Augustin Rinaldi, un jeune botaniste lancé sur les traces de l'Immortelle des frimas, une</desc>
+    <desc lang="fr">Karine Veraldi rencontre Augustin Rinaldi, un jeune botaniste lancé sur les traces de l'Immortelle des frimas, une plante légendaire cachée dans les sommets corses. Fascinée par sa quête, elle l'accompagne dans le Haut-Asco, où chaque étape révèle les extraordinaires capacités d'adaptation de la flore insulaire. Mais un laboratoire convoite les ...</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="France3CorseViaStella.fr" start="20261006104900 +0200" stop="20261006111700 +0200">
@@ -33731,6 +33751,28 @@
     <desc lang="fr">Patrick poursuit son enquête sur l'agresseur de Lili. Il est de plus en plus convaincu que sa mère est incapable de s'occuper d'elle et de son petit frère.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="TV5MondeAsie.fr" start="20261006000000 +0200" stop="20261006002413 +0200">
+    <title lang="fr">Secrets de nos vallées</title>
+    <desc lang="fr">Fario, the mountain's secret
+
+The Gordolasque valley, between the Southern Alps and the Mediterranean, is a preserved haven where fauna and flora coexist in harmony. Romain Passeron follows the cycle of trout swimming upstream and discovers ancestral know-how: the restocking of high-altitude lakes.
+
+Presentation: Romain Passeron
+Directed by: Cédric Ragnolo, Kévin Sempé (Monaco/France, 2024)
+</desc>
+    <category lang="fr">Documentary</category>
+    <icon src="https://bo-apac.tv5monde.com/sites/default/files/styles/slide_small/public/2026-09/Secrets_de_nos_vallees_7.png.jpeg?itok=mDpDdKtn"/>
+  </programme>
+  <programme channel="TV5MondeInfo.fr" start="20261006000000 +0200" stop="20261006003000 +0200">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
+  <programme channel="TV5MondePacifique.fr" start="20261006000000 +0200" stop="20261006002600 +0200">
+    <title lang="fr">Le journal de la RTS</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
   <programme channel="TVPitchoun.fr" start="20261006000000 +0200" stop="20261006000300 +0200">
     <title lang="fr">Danse de Pitchoun</title>
     <desc lang="fr">Avec Pitchoun, Juliana, Clara, Guillaume et Valentin, dans un décor gai et coloré, petits et grands apprennent à danser au rythme de la musique.</desc>
@@ -35932,6 +35974,19 @@
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="Telenantes.fr" start="20261006205900 +0200" stop="20261006210500 +0200">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261006210500 +0200" stop="20261006212400 +0200">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261006212400 +0200" stop="20261006213000 +0200">
+    <title lang="fr">Job info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261006213000 +0200" stop="20261006213600 +0200">
     <title lang="fr">Nantes info</title>
     <desc lang="fr">Journal</desc>
     <category lang="fr">Divers / Journal</category>
@@ -56374,6 +56429,7 @@
   </programme>
   <programme channel="oqee.264" start="20261006131800 +0200" stop="20261006134500 +0200">
     <title lang="fr">Cosy, le mag déco</title>
+    <desc lang="fr">Face au Mont Ventoux, Caroline Boeglin visite un mas transformé par deux Parisiens tombés amoureux du Gard. Après le</desc>
     <category lang="fr">Magazine / Magazine de la décoration</category>
   </programme>
   <programme channel="oqee.264" start="20261006134500 +0200" stop="20261006134900 +0200">
@@ -59719,6 +59775,34 @@
     <desc lang="fr">One of the CNN's longest running programmes that allows viewers to find out all the global sports news, see all the important events and most interesting parts, and enjoy the interviews with sports pundits and various sports stars.</desc>
     <category lang="fr">Divers / JT sport</category>
   </programme>
+  <programme channel="oqee.386" start="20261006010000 +0200" stop="20261006070000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20261006070000 +0200" stop="20261006100000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20261006100000 +0200" stop="20261006130000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20261006130000 +0200" stop="20261006160000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20261006160000 +0200" stop="20261006190000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20261006190000 +0200" stop="20261006220000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
+  <programme channel="oqee.386" start="20261006220000 +0200" stop="20261007010000 +0200">
+    <title lang="fr">ART Aflam 1</title>
+    <category lang="fr">Magazine / Magazine du cinéma</category>
+  </programme>
   <programme channel="oqee.396" start="20261006000000 +0200" stop="20261006003000 +0200">
     <title lang="fr">The Wrap</title>
     <desc lang="fr">De 22 heures à minuit, cette émission de débat est consacrée à l'analyse et à l'interprétation de l'actualité du jour.</desc>
@@ -60307,16 +60391,17 @@
   </programme>
   <programme channel="oqee.422" start="20261006021400 +0200" stop="20261006031500 +0200">
     <title lang="fr">Notícias do Atlântico</title>
-    <desc lang="fr">"Notícias do Atlântico" é um produto informativo, mais integrado, em que Açores e Madeira cruzam os alinhamentos respetivos e decidem quem, no dia-a-dia, marca a atualidade das ilhas e abre este renovado espaço informativo, para depois passar ao colega apresentador do outro arquipélago a continuação do programa, através do qual servimos, diariamente, uma hora de notícias aos espetadores de todas as antenas da RTP Internacional.</desc>
+    <desc lang="fr">A atualidade informativa do Arquipélago dos Açores com emissão na RTP Internacional.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.422" start="20261006031500 +0200" stop="20261006035800 +0200">
     <title lang="fr">Sinais de vida</title>
-    <desc lang="fr">"Sinais de Vida" é uma série em que acompanhamos a rotina de uma equipa de Cirurgia Geral e de médicos de Medicina Interna do Hospital de Santa Catarina. Paralelamente, acompanhamos as histórias que decorrem no ambiente fascinante do Jardim Zoológico de Lisboa.</desc>
+    <desc lang="fr">Apesar do sofrimento que sente ao reviver o dia em que o filho morreu, Alice pede a Patrícia para lhe contar porque é que não teve o filho que esperava de David. Patrícia explica a Alice que quando o filho dela morreu afastou-se de David e aceitou o pedido dele para que não dissesse nada à mulher.</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="oqee.422" start="20261006035800 +0200" stop="20261006042700 +0200">
     <title lang="fr">Documentary</title>
+    <desc lang="fr">Documentary</desc>
     <category lang="fr">Documentaire / Documentaire autre</category>
   </programme>
   <programme channel="oqee.422" start="20261006042700 +0200" stop="20261006045400 +0200">
@@ -61058,6 +61143,46 @@
     <desc lang="fr">Chaque jour, Yann et Marie-Caroline vous en donnent + : un rendez-vous quotidien où l'actualité se vit en direct. Toutes les 30 minutes, retrouvez l'Actu du + et la météo des Isérois.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="oqee.471" start="20261006003700 +0200" stop="20261006004000 +0200">
+    <title lang="fr">Sponsor</title>
+    <desc lang="fr">Toplumsal farkındalık oluşturmayı hedefleyen sponsor ve kamu spotları, izleyicilere değer katan içeriklerle buluşuyor. Sağlık, çevre bilinci, eğitim, dayanışma ve sosyal sorumluluk gibi önemli konuları ele alan bu kısa ama etkili anlatımlar, geniş kitlelere ulaşmayı amaçlıyor. Kurumların ve markaların desteğiyle hazırlanan bu spotlar, yalnızca bilgilendirmekle kalmıyor; izleyicileri harekete geçmeye ve daha bilinçli bir toplumun parçası olmaya davet ediyor.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006004000 +0200" stop="20261006004300 +0200">
+    <title lang="fr">Hava-Yol-Para Durumu</title>
+    <desc lang="fr">"Hava-Yol-Para Durumu", günün hava koşullarını, yol ve trafik bilgisini, ekonomi ve piyasalardaki son durumu tek çatı altında sunan pratik bir bilgilendirme programıdır. Günlük yaşamın akışını etkileyen tüm veriler hızlı ve anlaşılır bir şekilde izleyiciye aktarılır.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006004300 +0200" stop="20261006004400 +0200">
+    <title lang="fr">Bilginin Kökleri</title>
+    <desc lang="fr">Bilginin Kökleri, bilgi, öğrenme ve bilişsel gelişim üzerine odaklanan bir eğitim programıdır. Programda öğrenme kuramları, zeka türleri ve bilimin temel kavramları ele alınarak izleyiciye sade ve anlaşılır bir anlatımla bilgi sunulur.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006004400 +0200" stop="20261006005000 +0200">
+    <title lang="fr">Hatırla!</title>
+    <desc lang="fr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006005000 +0200" stop="20261006010000 +0200">
+    <title lang="fr">İslam Düşünürleri</title>
+    <desc lang="fr">İslam Düşünürleri programı, tarih boyunca İslam düşüncesine yön vermiş alimleri, filozofları ve mütefekkirleri detaylı bir şekilde ele alıyor. Her bölümde bir düşünürün hayatı, eserleri, felsefi ve teolojik katkıları izleyiciye aktarılıyor. Program, sadece tarihsel bilgi sunmakla kalmayıp, bu fikirlerin günümüz dünyasındaki yansımalarını da tartışıyor. Farklı bakış açılarıyla İslam düşüncesinin zenginliğini ve çeşitliliğini ortaya koyan program, izleyiciyi entelektüel bir yolculuğa çıkarıyor. Konular arasında teoloji, felsefe, tasavvuf, ahlak ve toplumsal düşünceler yer alıyor. Programın amacı, izleyiciye hem bilgi kazandırmak hem de düşünmeye teşvik etmek. Akademik bir dil kullanılsa da, programın sunumu her seviyeden izleyici için anlaşılır ve ilgi çekici şekilde hazırlanmıştır.</desc>
+    <category lang="fr">Documentaire / Documentaire education</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006010000 +0200" stop="20261006015000 +0200">
+    <title lang="fr">Buluşma Noktası</title>
+    <desc lang="fr">Buluşma Noktası, TV5 ekranlarında güncel gelişmelerin ve toplumu ilgilendiren konuların masaya yatırıldığı kapsamlı bir tartışma programıdır. Programda uzman konuklar, akademisyenler ve yorumcular bir araya gelerek gündemdeki olayları farklı açılardan değerlendirir. Analizler, görüşler ve karşılıklı fikir alışverişiyle izleyiciye derinlikli bir perspektif sunulur. Program, düşünmeye teşvik eden yapısıyla dikkat çeker.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006015000 +0200" stop="20261006015200 +0200">
+    <title lang="fr">Sponsor</title>
+    <desc lang="fr">Toplumsal farkındalık oluşturmayı hedefleyen sponsor ve kamu spotları, izleyicilere değer katan içeriklerle buluşuyor. Sağlık, çevre bilinci, eğitim, dayanışma ve sosyal sorumluluk gibi önemli konuları ele alan bu kısa ama etkili anlatımlar, geniş kitlelere ulaşmayı amaçlıyor. Kurumların ve markaların desteğiyle hazırlanan bu spotlar, yalnızca bilgilendirmekle kalmıyor; izleyicileri harekete geçmeye ve daha bilinçli bir toplumun parçası olmaya davet ediyor.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006015200 +0200" stop="20261006015300 +0200">
+    <title lang="fr">Namaz Vakti</title>
+    <desc lang="fr">Namaz Vakti, ibadet vakitlerini merkeze alan ve dini içerikleri izleyiciyle buluşturan bir yayın formatıdır. Günlük namaz vakitleri, bilgilendirici açıklamalar ve manevi hatırlatmalar üzerinden hazırlanan içerik, izleyicinin ibadet düzenine rehberlik etmeyi amaçlar. Program, dini yaşamın günlük ritmini hatırlatırken aynı zamanda bilgilendirici bir akış sunar. Manevi farkındalığı artırmayı hedefleyen yapısıyla düzenli ve sade bir içerik deneyimi sağlar.</desc>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
   <programme channel="oqee.471" start="20261006015300 +0200" stop="20261006024300 +0200">
     <title lang="fr">Buluşma Noktası</title>
     <desc lang="fr">Buluşma Noktası, TV5 ekranlarında güncel gelişmelerin ve toplumu ilgilendiren konuların masaya yatırıldığı kapsamlı bir tartışma programıdır. Programda uzman konuklar, akademisyenler ve yorumcular bir araya gelerek gündemdeki olayları farklı açılardan değerlendirir. Analizler, görüşler ve karşılıklı fikir alışverişiyle izleyiciye derinlikli bir perspektif sunulur. Program, düşünmeye teşvik eden yapısıyla dikkat çeker.</desc>
@@ -61477,6 +61602,16 @@
     <title lang="fr">Haberin Var Mı?</title>
     <desc lang="fr">Gündemde öne çıkan gelişmelerin ele alındığı programda siyaset, ekonomi ve toplumsal konular detaylı biçimde masaya yatırılır. Günün dikkat çeken başlıkları farklı bakış açılarıyla analiz edilirken, yaşanan gelişmelerin arka planı ve etkileri kapsamlı şekilde ele alınır. Tartışmalar, yorumlar ve değerlendirmelerle izleyiciye daha geniş bir perspektif sunulur.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006214700 +0200" stop="20261006215200 +0200">
+    <title lang="fr">Sponsor</title>
+    <desc lang="fr">Toplumsal farkındalık oluşturmayı hedefleyen sponsor ve kamu spotları, izleyicilere değer katan içeriklerle buluşuyor. Sağlık, çevre bilinci, eğitim, dayanışma ve sosyal sorumluluk gibi önemli konuları ele alan bu kısa ama etkili anlatımlar, geniş kitlelere ulaşmayı amaçlıyor. Kurumların ve markaların desteğiyle hazırlanan bu spotlar, yalnızca bilgilendirmekle kalmıyor; izleyicileri harekete geçmeye ve daha bilinçli bir toplumun parçası olmaya davet ediyor.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.471" start="20261006215200 +0200" stop="20261006215300 +0200">
+    <title lang="fr">Ekonomi Terimleri</title>
+    <desc lang="fr">"Ekonomi Terimleri", finans dünyasında sıkça duyulan kavramları sade ve anlaşılır bir dille açıklayan bilgilendirici bir programdır. Enflasyondan bütçe açığına, faiz oranlarından piyasa dinamiklerine kadar temel terimleri herkesin kolayca anlayabileceği şekilde ele alır. Ekonomiyi anlamak isteyen izleyiciler için pratik ve öğretici bir rehber.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="oqee.471" start="20261006215300 +0200" stop="20261006224000 +0200">
     <title lang="fr">Haberin Var Mı?</title>
@@ -68579,6 +68714,151 @@
     <desc lang="fr">Genel kültür, hızlı düşünme ve dikkat gerektiren sorular üzerinden yarışmacıların bilgi düzeyi test edilir. Farklı alanlardan gelen sorular sayesinde hem eğlenceli hem de öğretici bir rekabet ortamı oluşur. Yarışmacılar zamanla yarışırken aynı zamanda strateji ve odaklanma becerilerini de kullanmak zorunda kalır. Program, izleyiciye hem bilgi kazandıran hem de eğlenceli vakit geçirmeyi sağlayan dinamik bir format sunar.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.801" start="20261006000000 +0200" stop="20261006010000 +0200">
+    <title lang="fr">Special Edition</title>
+    <desc lang="fr">A Chinese documentary series that explores important and complex subjects through a distinctive national perspective. With exceptional cinematography, refined editing, and high production values, each episode presents compelling stories that combine strong visual storytelling with thoughtful insight. The series offers viewers a visually rich and intellectually engaging experience that highlights diverse themes with depth and clarity.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006010000 +0200" stop="20261006013000 +0200">
+    <title lang="fr">Journeys and Discoveries</title>
+    <desc lang="fr">Travel documentary series exploring China in all its rich and diverse splendour. These programmes celebrate the natural beauty, history, wildlife and people of this fascinating country. Brought to you by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006013000 +0200" stop="20261006020000 +0200">
+    <title lang="fr">History in the Frame</title>
+    <desc lang="fr">History in the Frame is a documentary series that explores historical events through visual storytelling. It combines archival footage, expert commentary, and carefully crafted narratives to bring important moments of history to life in a clear and engaging way. Each episode highlights significant events and contexts, offering viewers a deeper understanding of how the past has shaped the present. With a balanced approach and strong production quality, the series presents history in an accessible and compelling format.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006020000 +0200" stop="20261006030000 +0200">
+    <title lang="fr">Best Eats</title>
+    <desc lang="fr">Best Eats is a documentary series that explores flavors, signature dishes, and culinary traditions from around the world. Each episode takes viewers on a journey through local cuisines, cooking techniques, and food cultures, showcasing the stories behind beloved meals and ingredients. With visually rich storytelling and immersive narration, the series highlights how food connects people, reflects heritage, and shapes cultural identity across different regions and communities.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006030000 +0200" stop="20261006033000 +0200">
+    <title lang="fr">Youthful China</title>
+    <desc lang="fr">The youth of a country is the future of that country. A series of documentaries focusing on the younger generation of China in which you get to see what they are achieving and what makes them tick!</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006033000 +0200" stop="20261006040000 +0200">
+    <title lang="fr">Pixel Collage</title>
+    <desc lang="fr">Pixel Collage is a documentary series that explores digital art, creativity, and contemporary visual culture. It focuses on how artists and designers use technology, design tools, and mixed media techniques to create innovative visual works. Each episode reveals the creative process behind digital compositions while highlighting the evolution of artistic expression in the modern era. The series offers viewers an insightful look into the intersection of art, design, and technology.</desc>
+    <category lang="fr">Documentaire / Documentaire beaux-arts</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006040000 +0200" stop="20261006050000 +0200">
+    <title lang="fr">Today's Top Pick</title>
+    <desc lang="fr">Rebroadcasts of our most-viewed and most popular stories of the season. Featuring documentaries by top Chinese documentary producers on important social, economic, environmental and other policy-driven issues.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006050000 +0200" stop="20261006053000 +0200">
+    <title lang="fr">Humanities and Geography</title>
+    <desc lang="fr">This documentary series explores wildlife, nature and human society, highlighting the connection between the natural world and the people who share it. Through diverse stories and striking imagery, the program reveals how communities and ecosystems interact across different regions. Produced by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006053000 +0200" stop="20261006060000 +0200">
+    <title lang="fr">Living China</title>
+    <desc lang="fr">An insight into what life in the country of China is like. This programme includes everything from the cultural aspects, the food and nature to the thriving cities which lay in one of the world's largest and most powerful economic superpowers. Remote little community villages are also explored as the series delves into both the historical and traditional aspects of living in China, whether it be highly urban areas with masses of technological expansion or extremely rural settlements with traditions which can date back hundreds of years.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006060000 +0200" stop="20261006070000 +0200">
+    <title lang="fr">Special Edition</title>
+    <desc lang="fr">A Chinese documentary series that explores important and complex subjects through a distinctive national perspective. With exceptional cinematography, refined editing, and high production values, each episode presents compelling stories that combine strong visual storytelling with thoughtful insight. The series offers viewers a visually rich and intellectually engaging experience that highlights diverse themes with depth and clarity.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006070000 +0200" stop="20261006073000 +0200">
+    <title lang="fr">Journeys and Discoveries</title>
+    <desc lang="fr">Travel documentary series exploring China in all its rich and diverse splendour. These programmes celebrate the natural beauty, history, wildlife and people of this fascinating country. Brought to you by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006073000 +0200" stop="20261006080000 +0200">
+    <title lang="fr">History in the Frame</title>
+    <desc lang="fr">History in the Frame is a documentary series that explores historical events through visual storytelling. It combines archival footage, expert commentary, and carefully crafted narratives to bring important moments of history to life in a clear and engaging way. Each episode highlights significant events and contexts, offering viewers a deeper understanding of how the past has shaped the present. With a balanced approach and strong production quality, the series presents history in an accessible and compelling format.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006080000 +0200" stop="20261006090000 +0200">
+    <title lang="fr">Best Eats</title>
+    <desc lang="fr">Best Eats is a documentary series that explores flavors, signature dishes, and culinary traditions from around the world. Each episode takes viewers on a journey through local cuisines, cooking techniques, and food cultures, showcasing the stories behind beloved meals and ingredients. With visually rich storytelling and immersive narration, the series highlights how food connects people, reflects heritage, and shapes cultural identity across different regions and communities.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006090000 +0200" stop="20261006093000 +0200">
+    <title lang="fr">Youthful China</title>
+    <desc lang="fr">The youth of a country is the future of that country. A series of documentaries focusing on the younger generation of China in which you get to see what they are achieving and what makes them tick!</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006093000 +0200" stop="20261006100000 +0200">
+    <title lang="fr">Pixel Collage</title>
+    <desc lang="fr">Pixel Collage is a documentary series that explores digital art, creativity, and contemporary visual culture. It focuses on how artists and designers use technology, design tools, and mixed media techniques to create innovative visual works. Each episode reveals the creative process behind digital compositions while highlighting the evolution of artistic expression in the modern era. The series offers viewers an insightful look into the intersection of art, design, and technology.</desc>
+    <category lang="fr">Documentaire / Documentaire beaux-arts</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006100000 +0200" stop="20261006110000 +0200">
+    <title lang="fr">Today's Top Pick</title>
+    <desc lang="fr">Rebroadcasts of our most-viewed and most popular stories of the season. Featuring documentaries by top Chinese documentary producers on important social, economic, environmental and other policy-driven issues.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006110000 +0200" stop="20261006113000 +0200">
+    <title lang="fr">Humanities and Geography</title>
+    <desc lang="fr">This documentary series explores wildlife, nature and human society, highlighting the connection between the natural world and the people who share it. Through diverse stories and striking imagery, the program reveals how communities and ecosystems interact across different regions. Produced by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006113000 +0200" stop="20261006120000 +0200">
+    <title lang="fr">Living China</title>
+    <desc lang="fr">An insight into what life in the country of China is like. This programme includes everything from the cultural aspects, the food and nature to the thriving cities which lay in one of the world's largest and most powerful economic superpowers. Remote little community villages are also explored as the series delves into both the historical and traditional aspects of living in China, whether it be highly urban areas with masses of technological expansion or extremely rural settlements with traditions which can date back hundreds of years.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006120000 +0200" stop="20261006130000 +0200">
+    <title lang="fr">Special Edition</title>
+    <desc lang="fr">A Chinese documentary series that explores important and complex subjects through a distinctive national perspective. With exceptional cinematography, refined editing, and high production values, each episode presents compelling stories that combine strong visual storytelling with thoughtful insight. The series offers viewers a visually rich and intellectually engaging experience that highlights diverse themes with depth and clarity.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006130000 +0200" stop="20261006133000 +0200">
+    <title lang="fr">Journeys and Discoveries</title>
+    <desc lang="fr">Travel documentary series exploring China in all its rich and diverse splendour. These programmes celebrate the natural beauty, history, wildlife and people of this fascinating country. Brought to you by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006133000 +0200" stop="20261006140000 +0200">
+    <title lang="fr">History in the Frame</title>
+    <desc lang="fr">History in the Frame is a documentary series that explores historical events through visual storytelling. It combines archival footage, expert commentary, and carefully crafted narratives to bring important moments of history to life in a clear and engaging way. Each episode highlights significant events and contexts, offering viewers a deeper understanding of how the past has shaped the present. With a balanced approach and strong production quality, the series presents history in an accessible and compelling format.</desc>
+    <category lang="fr">Documentaire / Documentaire histoire</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006140000 +0200" stop="20261006150000 +0200">
+    <title lang="fr">Best Eats</title>
+    <desc lang="fr">Best Eats is a documentary series that explores flavors, signature dishes, and culinary traditions from around the world. Each episode takes viewers on a journey through local cuisines, cooking techniques, and food cultures, showcasing the stories behind beloved meals and ingredients. With visually rich storytelling and immersive narration, the series highlights how food connects people, reflects heritage, and shapes cultural identity across different regions and communities.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006150000 +0200" stop="20261006153000 +0200">
+    <title lang="fr">Youthful China</title>
+    <desc lang="fr">The youth of a country is the future of that country. A series of documentaries focusing on the younger generation of China in which you get to see what they are achieving and what makes them tick!</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006153000 +0200" stop="20261006160000 +0200">
+    <title lang="fr">Pixel Collage</title>
+    <desc lang="fr">Pixel Collage is a documentary series that explores digital art, creativity, and contemporary visual culture. It focuses on how artists and designers use technology, design tools, and mixed media techniques to create innovative visual works. Each episode reveals the creative process behind digital compositions while highlighting the evolution of artistic expression in the modern era. The series offers viewers an insightful look into the intersection of art, design, and technology.</desc>
+    <category lang="fr">Documentaire / Documentaire beaux-arts</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006160000 +0200" stop="20261006170000 +0200">
+    <title lang="fr">Today's Top Pick</title>
+    <desc lang="fr">Rebroadcasts of our most-viewed and most popular stories of the season. Featuring documentaries by top Chinese documentary producers on important social, economic, environmental and other policy-driven issues.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006170000 +0200" stop="20261006173000 +0200">
+    <title lang="fr">Humanities and Geography</title>
+    <desc lang="fr">This documentary series explores wildlife, nature and human society, highlighting the connection between the natural world and the people who share it. Through diverse stories and striking imagery, the program reveals how communities and ecosystems interact across different regions. Produced by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006173000 +0200" stop="20261006180000 +0200">
+    <title lang="fr">Living China</title>
+    <desc lang="fr">An insight into what life in the country of China is like. This programme includes everything from the cultural aspects, the food and nature to the thriving cities which lay in one of the world's largest and most powerful economic superpowers. Remote little community villages are also explored as the series delves into both the historical and traditional aspects of living in China, whether it be highly urban areas with masses of technological expansion or extremely rural settlements with traditions which can date back hundreds of years.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006230000 +0200" stop="20261006233000 +0200">
+    <title lang="fr">Humanities and Geography</title>
+    <desc lang="fr">This documentary series explores wildlife, nature and human society, highlighting the connection between the natural world and the people who share it. Through diverse stories and striking imagery, the program reveals how communities and ecosystems interact across different regions. Produced by China Global Television Network.</desc>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.801" start="20261006233000 +0200" stop="20261007000000 +0200">
+    <title lang="fr">Living China</title>
+    <desc lang="fr">An insight into what life in the country of China is like. This programme includes everything from the cultural aspects, the food and nature to the thriving cities which lay in one of the world's largest and most powerful economic superpowers. Remote little community villages are also explored as the series delves into both the historical and traditional aspects of living in China, whether it be highly urban areas with masses of technological expansion or extremely rural settlements with traditions which can date back hundreds of years.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="oqee.802" start="20261006000000 +0200" stop="20261006001500 +0200">
     <title lang="fr">The European Debrief</title>
     <desc lang="fr">Live headlines, breaking news, analysis and interviews from Europe's News Centre.</desc>
@@ -70334,6 +70614,11 @@
     <title lang="fr">Kuzey Yildizi</title>
     <desc lang="fr">Çocukluktan nişanlı olan Kuzey ve Yıldız'ın hikayesi 20 yıl sonra bambaşka bir şekilde kesişiyor. Kuzey terk edilip dolandırıldıktan sonra üç kızıyla Karadeniz'in yaylalarına dönüyor. Yıldız ise yılların öfkesiyle onu İstanbul'a geri göndermek için uğraşıyor. İnatlaşmalar, komik olaylar ve duygusal yüzleşmelerle dolu bu romantik komedi dizisi aşkın ikinci şansını anlatıyor. Ersoy Güler'in yönettiği yapımda aile, dostluk ve Karadeniz kültürü sıcak bir şekilde işleniyor. İzleyiciyi güldüren ve duygulandıran sezonun sevilen dizilerinden biri.</desc>
     <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="oqee.948" start="20261006010000 +0200" stop="20261006020000 +0200">
+    <title lang="fr">Artı Futbol</title>
+    <desc lang="fr">Artı Futbol, yerli ve yabancı futbol gündemini detaylı biçimde ele alan, geniş haber içeriği ve özel röportajlarla zenginleşen kapsamlı bir spor programıdır. Programda takımların son durumu, maç analizleri, teknik direktör açıklamaları ve futbolun perde arkasındaki gelişmeler izleyiciye sunulur. Artı Futbol, futbolseverler için güncel haberlerin ve derin analizlerin takip edilebileceği güvenilir bir kaynak olmasının yanı sıra, yorum ve uzman görüşleriyle de zenginleşir.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
   </programme>
   <programme channel="oqee.948" start="20261006020000 +0200" stop="20261006030000 +0200">
     <title lang="fr">Ziraat Türkiye Kupası Özetler</title>
