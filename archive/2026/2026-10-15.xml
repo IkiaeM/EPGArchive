@@ -27,6 +27,9 @@
   <channel id="4Plus.ch">
     <display-name>4Plus.ch</display-name>
   </channel>
+  <channel id="526194">
+    <display-name>ETB 2</display-name>
+  </channel>
   <channel id="5Plus.ch">
     <display-name>5Plus.ch</display-name>
   </channel>
@@ -1754,6 +1757,10 @@
     <display-name>Paris Première</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~ecf598fd002ccb9a.png/480x480/quality/100/paris-premiere.png"/>
   </channel>
+  <channel id="PassionNovelas.af">
+    <display-name>Passion Novelas</display-name>
+    <icon src="http://cdn.startimestv.com/static/files/console/bb61d558-adab-45ed-86c8-4cdf317792a4.png?l=320"/>
+  </channel>
   <channel id="PenthouseBlack.fr">
     <display-name>Penthouse Black</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3Q6HPCMdoQvtMB0bl17lfw2-uybgBaS9R9NMSmh5hwcAuJR_PkZ_IkUWfg&amp;amp;s"/>
@@ -3020,6 +3027,10 @@
   <channel id="oqee.1372">
     <display-name>Fashion TV Secrets</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3680/w256"/>
+  </channel>
+  <channel id="oqee.1373">
+    <display-name>Rakuten TV Action</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3788/w256"/>
   </channel>
   <channel id="oqee.1375">
     <display-name>100% Comedy</display-name>
@@ -4620,6 +4631,36 @@
     <category lang="fr">Action</category>
     <icon src="https://media.teleboy.ch/media/raw/2f33bba774e247047c15f7e1280af696b0d94000.jpg"/>
   </programme>
+  <programme channel="526194" start="20261015004500 +0000" stop="20261015020000 +0000">
+    <title lang="fr">Euskadi quédate</title>
+    <desc lang="fr">La información más cercana de Euskadi, los datos imprescindibles para tu día a día, la última hora de nuestra actualidad, las historias que nos llegan muy adentro. Todo contando de forma amable y positiva. De la mano de Odei Esnaola, todas las tardes, de lunes a viernes, en ETB2.</desc>
+  </programme>
+  <programme channel="526194" start="20261015020000 +0000" stop="20261015030000 +0000">
+    <title lang="fr">A bocados</title>
+    <desc lang="fr">El chef Enrique Sánchez elabora una receta con productos andaluces, con denominación de origen o reconocido prestigio. Este espacio acerca los productos agroalimentarios, naturales y andaluces de calidad, a la audiencia.</desc>
+  </programme>
+  <programme channel="526194" start="20261015030000 +0000" stop="20261015034000 +0000">
+    <title lang="fr">Teleberri 2</title>
+  </programme>
+  <programme channel="526194" start="20261015034000 +0000" stop="20261015040000 +0000">
+    <title lang="fr">Kirolak ETB2</title>
+    <desc lang="fr">Información deportiva.</desc>
+  </programme>
+  <programme channel="526194" start="20261015040000 +0000" stop="20261015040500 +0000">
+    <title lang="fr">KULTplanak</title>
+    <desc lang="fr">Espacio que repasa, en formato breve, la agenda cultural de Euskal Herria.</desc>
+  </programme>
+  <programme channel="526194" start="20261015040500 +0000" stop="20261015042500 +0000">
+    <title lang="fr">Eguraldia ETB2</title>
+  </programme>
+  <programme channel="526194" start="20261015042500 +0000" stop="20261015044000 +0000">
+    <title lang="fr">La noche de...</title>
+    <desc lang="fr">La actualidad diaria del Festival de San Sebastián, con sus protagonistas y los mejores momentos, en un espacio diario de 15 minutos presentado por Sara Gandara desde Donostia.</desc>
+  </programme>
+  <programme channel="526194" start="20261015044000 +0000" stop="20261016000000 +0000">
+    <title lang="fr">Euskal Herria Desde el Aire</title>
+    <desc lang="fr">Serie documental que realiza un espectacular viaje para los sentidos que recorre Euskadi desde el aire, mostrando su esencia como nunca antes se ha visto.</desc>
+  </programme>
   <programme channel="5Plus.ch" start="20261015004500 +0200" stop="20261015015000 +0200">
     <title lang="fr">FBI: Most Wanted</title>
     <desc lang="fr">Aucune description</desc>
@@ -5834,9 +5875,9 @@
     <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="AB1.fr" start="20261015054500 +0200" stop="20261015061000 +0200">
-    <title lang="fr">Les années fac</title>
-    <category lang="fr">Série TV</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~8e049e3a99a9a0eb.jpeg/640x360/quality/80/les-annees-fac.jpg"/>
+    <title lang="fr">Les années fac - S01E04</title>
+    <desc lang="fr">Luc et Anthony ont passé la nuit à décharger des cageots de fruits aux Halles pour gagner un peu d'argent...</desc>
+    <category lang="fr">Série / Série sentimentale</category>
   </programme>
   <programme channel="AB1.fr" start="20261015061000 +0200" stop="20261015063500 +0200">
     <title lang="fr">Les années fac - S01E05</title>
@@ -11468,10 +11509,20 @@ Présentateur(s) : Karine Baste
     <desc lang="fr">L'une des plus célèbres photos des massacres perpétrés par les Einsatzgruppen nazis, n'est plus un mystère. Grâce au travail conjoint d'un historien, d'enquêteurs numériques et d'un logiciel d'IA, l'identité du tueur a pu, quatre-vingts ans après, être révélée avec certitude.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
+  <programme channel="Arte.de" start="20261015034500 +0200" stop="20261015043000 +0200">
+    <title lang="fr">28 minutes</title>
+    <desc lang="fr">Retour sur l'actualité de la semaine : les trois ans du 7-Octobre ; la colère lycéenne et un "Acte V" ; la proposition de budget de Marine Le Pen ; l'astronaute Sophie Adenot de retour sur Terre ; le décès de Maricarmen Abascal en Espagne.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Arte.de" start="20261015034500 +0200" stop="20261015044300 +0200">
     <title lang="fr">28 minutes</title>
     <desc lang="fr">Retour sur l'actualité de la semaine : les trois ans du 7-Octobre ; la colère lycéenne et un "Acte V" ; la proposition de budget de Marine Le Pen ; l'astronaute Sophie Adenot de retour sur Terre ; le décès de Maricarmen Abascal en Espagne.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="Arte.de" start="20261015043000 +0200" stop="20261015050000 +0200">
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
+    <category lang="fr">Divers / Fin</category>
   </programme>
   <programme channel="Arte.de" start="20261015044300 +0200" stop="20261015050000 +0200">
     <title lang="fr">Fin des programmes</title>
@@ -11481,12 +11532,14 @@ Présentateur(s) : Karine Baste
   <programme channel="Arte.de" start="20261015050000 +0200" stop="20261015053000 +0200">
     <title lang="fr">Nomade des mers, les escales de l'innovation - S01E09</title>
     <desc lang="fr">A peine parti de Madagascar, le Nomade des mers subit une nouvelle avarie. Dans une nuit noire sans lune, un coup de vent a brutalement cassé le mât. Heureusement, le bateau approche des Seychelles et met le cap sur la capitale, Victoria. Mais à l'arrivée, une autre déconvenue attend Corentin et son équipage. Loin d'être découragés, les marins reprennent espoir et partent à la rencontre de ceux qui transforment les huiles usagées en biodiesel. Corentin mesure l'importance de cette innovation car c'est grâce au peu de diesel que contient le réservoir du bateau qu'il a pu rejoindre Victoria, quelques heures auparavant.</desc>
-    <category lang="fr">Documentaire / Documentaire voyage</category>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img1.oqee.net/pictures/2900096/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20261015053000 +0200" stop="20261015055500 +0200">
     <title lang="fr">Nomade des mers, les escales de l'innovation - S02E08</title>
     <desc lang="fr">Rudement éprouvé par deux mois de traversée du Pacifique, le "Nomade des mers" accoste au Yacht Harbor de San Francisco. Corentin a été rejoint par Caroline Plutz, une jeune femme designer qui travaille en Belgique sur le "myco-matériau", une matière vivante à base de mycélium, capable de remplacer le plastique.</desc>
-    <category lang="fr">Documentaire / Documentaire voyage</category>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img1.oqee.net/pictures/2900096/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20261015053000 +0200" stop="20261015060000 +0200">
     <title lang="fr">Nomade des mers, les escales de l'innovation - S02E08</title>
@@ -11496,7 +11549,8 @@ Présentateur(s) : Karine Baste
   <programme channel="Arte.de" start="20261015055500 +0200" stop="20261015065000 +0200">
     <title lang="fr">Kourou, des bagnes et des fusées</title>
     <desc lang="fr">Kourou est aujourd'hui un important site de lancement de fusées. Autrefois, les îles du large servaient de bagne. Le deux sites ne sont éloignés que de quelques kilomètres.</desc>
-    <category lang="fr">Documentaire / Documentaire découvertes</category>
+    <category lang="fr">Documentaire</category>
+    <icon src="https://img1.oqee.net/pictures/2027412/wide_generic/h1080"/>
   </programme>
   <programme channel="Arte.de" start="20261015060000 +0200" stop="20261015065000 +0200">
     <title lang="fr">Kourou, des bagnes et des fusées</title>
@@ -13250,6 +13304,11 @@ Présentateur(s) : Karine Baste
     <title lang="fr">Bonsoir la Côte d'Azur</title>
     <category lang="fr">Magazine d'information</category>
     <icon src="http://static-cdn.tv.sfr.net/data/img/pl/4/1/4/15263414.jpg"/>
+  </programme>
+  <programme channel="BBC1.uk" start="20261015010000 +0200" stop="20261015014500 +0200">
+    <title lang="fr">The Celebrity Inner Circle</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~7bb068e501bcb33a.jpeg/640x360/quality/80/the-celebrity-inner-circle.jpg"/>
   </programme>
   <programme channel="BBC1.uk" start="20261015014500 +0200" stop="20261015015000 +0200">
     <title lang="fr">Weather For the Week Ahead</title>
@@ -16705,6 +16764,13 @@ Année : 2026
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Pillow Time</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015000400 +0200" stop="20261015000700 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode « Faire une pause » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers où la sérénité et le repos prennent le pas sur le tumulte quotidien. Alors que la nuit tombe, les protagonistes se préparent à abandonner les tracas de la journée. L'épisode s'ouvre sur un cadre apaisant, où les personnages principaux, chacun à leur manière, cherchent à trouver refuge dans le sommeil. À travers des moments de tendresse et de réflexion, ils explorent les pensées qui les hantent, dévoilant ainsi des facettes de leur personnalité souvent cachées. L'ambiance intime invite à la contemplation, tandis que des dialogues subtils révèlent les préoccupations et les rêves de chacun. Au fur et à mesure que les lumières s'éteignent, une atmosphère de calme s'installe, promettant aux spectateurs une évasion douce et réconfortante, propice à la détente avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015000700 +0200" stop="20261015001100 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
@@ -16716,11 +16782,27 @@ Année : 2026
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Journey</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015001100 +0200" stop="20261015001400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
+
+Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plongeant le groupe dans un tourbillon d'émotions contradictoires. Les rires laissent place aux larmes, et les secrets les plus sombres menacent d'éclater au grand jour. Alors que la nuit avance, chacun devra faire face à ses démons intérieurs, apprenant que parfois, le véritable sommeil ne peut être trouvé qu'en acceptant la vérité sur soi-même.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015001400 +0200" stop="20261015001700 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où les ombres prennent vie, « La nuit tombée » plonge le spectateur dans une atmosphère troublante et captivante. Au cœur de cette intrigue, nous suivons l’histoire d’un groupe d’amis qui, après une soirée festive, décide de se réunir dans une vieille maison de campagne, réputée pour ses légendes sinistres. Alors que la nuit avance, une série d’événements inexplicables et troublants commence à se dérouler. Les rires laissent place à l'angoisse lorsque des apparitions étranges et des bruits mystérieux perturbent leur tranquillité. Chacun des protagonistes doit alors faire face à ses propres peurs et secrets, révélant des tensions latentes au sein du groupe. Alors que les frontières entre le réel et l'imaginaire s'estompent, ils réalisent que la nuit a le pouvoir de révéler des vérités insoupçonnées, transformant leur amitié en un véritable cauchemar. Qui sortira indemne de cette expérience troublante ?</desc>
     <category lang="fr">Série TV</category>
     <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015001700 +0200" stop="20261015002100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers réconfortant où le rythme de la vie quotidienne ralentit. Alors que le soleil se couche, les personnages principaux se préparent pour un moment de détente bien mérité. L'épisode met en scène une famille unie, qui se retrouve dans le salon, partageant des histoires et des rires, tout en savourant la chaleur d'un foyer. Les enfants, excités par la fin de la journée, apprennent l'importance du repos et de la sérénité, tandis que les adultes, incarnant la sagesse et la bienveillance, leur montrent comment se laisser aller à la douceur de la nuit. Au fil des scènes, des moments de complicité se dessinent, illustrant la beauté des liens familiaux et la magie d'un simple rituel nocturne. Cet épisode, à la fois tendre et éducatif, évoque l'importance du sommeil pour le bien-être de chacun.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015001700 +0200" stop="20261015002000 +0200">
@@ -16735,12 +16817,22 @@ Année : 2026
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015002500 +0200" stop="20261015002800 +0200">
-    <title lang="fr">Close Your Eyes</title>
-    <desc lang="fr">Dream and Smile</desc>
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015002800 +0200" stop="20261015003200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015003200 +0200" stop="20261015003600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode "Temps de rêver" de la série "Ferme les yeux", les téléspectateurs sont invités à plonger dans un monde de sérénité et de mystère. L'épisode s'ouvre sur une atmosphère apaisante, où les personnages principaux, cherchant un refuge dans la douceur de la nuit, se préparent à un voyage intérieur. Alors qu'ils ferment les yeux, un univers onirique se déploie, révélant des souvenirs enfouis et des désirs inavoués. Chaque personnage fait face à ses propres démons, oscillant entre réalité et rêve, dans un ballet délicat où le subconscient prend le pas sur la raison. Au fur et à mesure que les histoires individuelles se tissent, des thèmes universels tels que l'amour, la perte et la rédemption émergent, offrant une réflexion profonde sur la nature des rêves et des aspirations. Cet épisode captivant invite le spectateur à se laisser porter par la magie des songes, tout en posant des questions sur la frontière entre le réel et l'imaginaire.</desc>
     <category lang="fr">Série TV</category>
     <episode-num>0.1.</episode-num>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
@@ -16760,9 +16852,25 @@ Année : 2026
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Sleepy Time</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015004000 +0200" stop="20261015004300 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode « Faire une pause » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers où la sérénité et le repos prennent le pas sur le tumulte quotidien. Alors que la nuit tombe, les protagonistes se préparent à abandonner les tracas de la journée. L'épisode s'ouvre sur un cadre apaisant, où les personnages principaux, chacun à leur manière, cherchent à trouver refuge dans le sommeil. À travers des moments de tendresse et de réflexion, ils explorent les pensées qui les hantent, dévoilant ainsi des facettes de leur personnalité souvent cachées. L'ambiance intime invite à la contemplation, tandis que des dialogues subtils révèlent les préoccupations et les rêves de chacun. Au fur et à mesure que les lumières s'éteignent, une atmosphère de calme s'installe, promettant aux spectateurs une évasion douce et réconfortante, propice à la détente avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015004300 +0200" stop="20261015004700 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015004700 +0200" stop="20261015005100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
+
+Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plongeant le groupe dans un tourbillon d'émotions contradictoires. Les rires laissent place aux larmes, et les secrets les plus sombres menacent d'éclater au grand jour. Alors que la nuit avance, chacun devra faire face à ses démons intérieurs, apprenant que parfois, le véritable sommeil ne peut être trouvé qu'en acceptant la vérité sur soi-même.</desc>
     <category lang="fr">Série TV</category>
     <episode-num>0.0.</episode-num>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
@@ -16782,6 +16890,13 @@ Année : 2026
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Time 2</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015005400 +0200" stop="20261015005800 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers réconfortant où le rythme de la vie quotidienne ralentit. Alors que le soleil se couche, les personnages principaux se préparent pour un moment de détente bien mérité. L'épisode met en scène une famille unie, qui se retrouve dans le salon, partageant des histoires et des rires, tout en savourant la chaleur d'un foyer. Les enfants, excités par la fin de la journée, apprennent l'importance du repos et de la sérénité, tandis que les adultes, incarnant la sagesse et la bienveillance, leur montrent comment se laisser aller à la douceur de la nuit. Au fil des scènes, des moments de complicité se dessinent, illustrant la beauté des liens familiaux et la magie d'un simple rituel nocturne. Cet épisode, à la fois tendre et éducatif, évoque l'importance du sommeil pour le bien-être de chacun.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015005800 +0200" stop="20261015010100 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à se plonger dans un univers de sérénité et de réconfort. Alors que la nuit tombe, un protagoniste sans nom, qui semble être le reflet de chacun d'entre nous, se prépare à quitter les tumultes du quotidien. Il s'assoit dans un espace intime, entouré d'une ambiance chaleureuse, et prend un moment pour respirer profondément, se déconnectant des préoccupations de la journée. Les lumières s'adoucissent, créant une atmosphère propice à la détente. À travers des images apaisantes et des sons réconfortants, cet épisode nous guide vers un état de relaxation profonde, invitant chacun à fermer les yeux et à se laisser aller. Les pensées s'estompent lentement, tandis que l'on se prépare à plonger dans le monde des rêves. Une expérience immersive qui nous rappelle l'importance de prendre du temps pour soi et de se recentrer avant le sommeil.</desc>
@@ -16793,6 +16908,12 @@ Année : 2026
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Tranquil Time 2</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015010100 +0200" stop="20261015010400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers intimiste et poétique, l'épisode "Coucher de soleil" de la série "Ferme les yeux" nous plonge dans la vie quotidienne d'un groupe d'amis réunis pour une soirée de partage et de confidences. Alors que le soleil se couche lentement à l'horizon, chaque personnage est invité à fermer les yeux et à se laisser porter par ses pensées. L'atmosphère est empreinte de douceur, mais également de tension, car des secrets enfouis refont surface. Parmi eux, Clara (Marie Dupin), une artiste en quête d'inspiration, lutte contre ses doutes et ses peurs, tandis que Julien (Thomas Leroy), un jeune homme en proie à des choix difficiles, doit faire face à son passé. Les échanges sincères révèlent des blessures cachées et des espoirs inavoués, transformant cette simple soirée en un moment de catharsis collective. Ce voyage émotionnel nous rappelle l'importance de l'amitié et de l'écoute dans les moments de vulnérabilité.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015010400 +0200" stop="20261015010800 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où la réalité et le rêve se mêlent, l'épisode « Nuit lumineuse » de la série « Ferme les yeux » invite les spectateurs à un voyage introspectif. L'histoire suit Camille, une jeune femme en proie à des insomnies chroniques, qui trouve refuge dans un univers onirique où les frontières entre le tangible et l'imaginaire s'effacent. Chaque nuit, elle s'assoit dans son lit, ferme les yeux et se laisse emporter par des visions étranges peuplées de personnages mystérieux et d'événements troublants. Alors qu'elle navigue à travers ses rêves, Camille découvre des souvenirs enfouis et des désirs inassouvis qui la poussent à confronter ses peurs les plus profondes. Au fil de ces nuits lumineuses, elle se rend compte que ces voyages nocturnes pourraient détenir la clé pour comprendre les traumatismes de son passé. Mais à quel prix ? Entre rêve et réalité, Camille devra trouver le courage d'affronter ses démons avant que le sommeil ne devienne un piège inextricable.</desc>
@@ -16802,6 +16923,12 @@ Année : 2026
   <programme channel="BabyTV.fr" start="20261015010700 +0200" stop="20261015011100 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Starry Night 2</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015010800 +0200" stop="20261015011200 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série, le protagoniste invite les spectateurs à plonger dans un univers où la sérénité et la tranquillité sont au cœur de l'expérience. En s'installant confortablement, il propose une immersion dans un rituel nocturne qui va au-delà du simple acte de dormir. À travers des récits réconfortants et des moments de méditation guidée, il explore les différentes manières de se détendre et de lâcher prise après une journée mouvementée. Les personnages rencontrés au fil de cet épisode partagent leurs propres stratégies de relaxation, que ce soit par la musique douce, des histoires apaisantes ou des exercices de respiration. Chaque instant est conçu pour aider le spectateur à se déconnecter du stress quotidien et à embrasser une ambiance propice au repos. Cet épisode promet une évasion douce, invitant chacun à fermer les yeux et à se laisser porter vers un sommeil réparateur.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015011200 +0200" stop="20261015011500 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -16813,6 +16940,12 @@ Année : 2026
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Nightfall 2</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015011500 +0200" stop="20261015011900 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où l'imagination est la clé pour surmonter les défis du quotidien, « Ferme les yeux » nous plonge dans l'univers d'un groupe d'enfants qui, chaque soir, se réunissent pour partager leurs rêves et leurs aspirations avant de s'endormir. L'épisode « Atteindre les étoiles » met en avant Lila, une petite fille rêveuse qui aspire à devenir astronome. Au fur et à mesure que la nuit tombe, elle entraîne ses camarades dans une aventure fantastique où ils explorent des galaxies lointaines et rencontrent des créatures célestes. Ensemble, ils doivent apprendre à surmonter leurs peurs et à croire en eux-mêmes pour réaliser leurs rêves. Alors qu'ils voyagent à travers des paysages étoilés et des constellations éclatantes, les enfants découvrent des leçons précieuses sur l'amitié, la solidarité et la puissance de l'imagination. Ce voyage nocturne les amènera à réaliser que, même dans l'obscurité, il est possible d'atteindre les étoiles.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015011900 +0200" stop="20261015012200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où le sommeil devient un véritable enjeu, l'épisode « Après le crépuscule » de la série « Ferme les yeux » plonge les spectateurs dans l'univers troublant de la nuit. Alors que les personnages principaux se préparent à s'endormir, des réalités alternatives commencent à émerger, brouillant la frontière entre le rêve et la réalité. Au cœur de cette intrigue, nous suivons Camille (nom de l'acteur), une jeune femme en quête de réponses sur des événements mystérieux qui l'ont marquée dans son enfance. Avec l'aide de son ami d'enfance, Lucas (nom de l'acteur), ils s'engagent dans une exploration psychologique, déterrant des secrets enfouis qui pourraient changer leur perception du monde. Les visions nocturnes et les rencontres inattendues les mènent à une compréhension plus profonde de leurs peurs et désirs. Cet épisode captivant interroge notre rapport à l'inconscient et à la vulnérabilité humaine, tout en nous plongeant dans une atmosphère à la fois onirique et inquiétante.</desc>
@@ -16822,6 +16955,12 @@ Année : 2026
   <programme channel="BabyTV.fr" start="20261015012100 +0200" stop="20261015012500 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Chill Out 2</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015012200 +0200" stop="20261015012600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers où la douceur de la nuit contraste avec les inquiétudes de la journée, cet épisode de la série invite les téléspectateurs à plonger dans un voyage introspectif. Le protagoniste, assis dans son fauteuil, se prépare à affronter ses propres démons. Alors que la lumière s'estompe, il est entouré d'une ambiance apaisante qui lui permet de se remémorer des souvenirs enfouis, des rêves inachevés et des espoirs perdus. La narration, empreinte de mélancolie, dévoile les pensées profondes de ce personnage qui oscille entre le besoin de repos et l'angoisse de l'inconnu qui l'attend. À travers des flashbacks délicatement tissés, le spectateur découvre les relations complexes qui ont façonné sa vie, notamment des interactions significatives avec des proches et des amis. Cet épisode, tout en douceur, rappelle l'importance de la réflexion et du lâcher-prise, invitant chacun à trouver la paix avant de plonger dans le sommeil.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015012600 +0200" stop="20261015013000 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -16835,6 +16974,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Time 1</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015013000 +0200" stop="20261015013400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où les rêves et la réalité s'entremêlent, l'épisode « Lune brillante » de la série « Ferme les yeux » invite les spectateurs à plonger dans un voyage onirique captivant. Alors que la nuit tombe, une voix apaisante guide les téléspectateurs à travers un rituel de préparation au sommeil, les incitant à se détendre et à fermer les yeux. Mais derrière cette douceur apparente se cache une exploration des peurs et des désirs cachés qui surgissent dans l'obscurité. Les personnages principaux, chacun avec leur propre histoire, naviguent à travers des paysages mentaux surréalistes, où les souvenirs et les fantasmes prennent vie. À mesure qu'ils s'enfoncent dans cet univers onirique, ils doivent affronter leurs démons intérieurs et trouver un sens à leurs luttes personnelles. Ce voyage hypnotique et visuellement enchanteur interroge la nature même du sommeil et de l'évasion, tout en offrant un aperçu poignant des émotions humaines.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015013400 +0200" stop="20261015013700 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers de sérénité et de réconfort. Alors que la nuit s'installe, le protagoniste, un jeune enfant aux rêves débordants, se prépare à rejoindre le royaume des songes. Il est guidé par une voix douce et rassurante qui l'encourage à s'asseoir confortablement, à fermer les yeux et à laisser les tensions de la journée s'évanouir. À travers une narration apaisante, l'épisode explore les rituels du coucher, où chaque geste devient une invitation à la détente. Des images évocatrices de paysages nocturnes, de constellations scintillantes et de créatures imaginaires viennent enrichir cette expérience immersive. Loin des préoccupations quotidiennes, le jeune protagoniste découvre un monde où l'imaginaire prend vie, promouvant un message essentiel sur l'importance du sommeil et de la relaxation pour le bien-être.</desc>
@@ -16844,6 +16989,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015013600 +0200" stop="20261015014000 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Tranquil Time 1</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015013700 +0200" stop="20261015014100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où le sommeil devient une échappatoire à la réalité, « Dormir avec un sourire » nous plonge dans l'univers de personnages en quête de réconfort et d'apaisement. Au cœur de cet épisode captivant, nous suivons Émilie (Céline Sallette), une jeune femme confrontée à des angoisses nocturnes qui perturbent son quotidien. Chaque soir, alors qu'elle se prépare à rejoindre les bras de Morphée, des souvenirs douloureux et des craintes inexprimées refont surface, transformant ses nuits en véritables cauchemars. Pour surmonter cette lutte intérieure, elle décide de consulter un spécialiste du sommeil, le Dr Martin (Olivier Gourmet), qui l'accompagne dans une exploration introspective de ses peurs. Au fil des séances, Émilie découvre des facettes de sa personnalité qu'elle avait longtemps refoulées, tout en tissant des liens inattendus avec d'autres patients partageant des luttes similaires. Ce voyage émotionnel, où le sommeil et l'éveil se mêlent, invite à réfléchir sur l'importance de la santé mentale et de l'acceptation de soi.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015014100 +0200" stop="20261015014500 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -16855,6 +17006,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Starry Night 1</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015014500 +0200" stop="20261015015000 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où la réalité et le rêve s'entrelacent, l'épisode « Temps d'arrêt » de la série « Ferme les yeux » plonge le spectateur dans l'univers mystérieux d'un groupe de personnages confrontés à leurs propres démons. L'intrigue débute dans une atmosphère apaisante, où chacun est invité à se détendre, à fermer les yeux et à se laisser emporter par la mélodie d'une voix rassurante. Mais cette tranquillité apparente cache des enjeux plus profonds. Alors que les protagonistes s'installent dans une routine nocturne, des souvenirs enfouis et des secrets longtemps gardés commencent à émerger, perturbant le calme. Les tensions montent alors que chacun doit faire face à ses peurs intérieures et aux conséquences de ses choix passés. À travers une narration immersive, cet épisode explore les thèmes de l'introspection, de la rédemption et de la lutte contre les ombres du passé, tout en maintenant un suspense captivant qui incite à l'exploration de l'inconnu.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015015000 +0200" stop="20261015015300 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où l'imagination prend vie, « Rêver et sourire » invite les spectateurs à plonger dans l'univers enchanteur d'un enfant qui s'apprête à s'endormir. Lorsque la nuit tombe, et que les étoiles scintillent dans le ciel, il est temps pour lui de quitter le tumulte du quotidien. Avec un doux murmure, une voix réconfortante l'invite à fermer les yeux, à s'installer confortablement et à laisser ses pensées vagabonder. À travers une série de séquences oniriques, l'enfant explore des paysages féeriques, peuplés de créatures fantastiques et de personnages hauts en couleur, chacun lui offrant des leçons de vie et des moments de joie. Alors qu'il navigue entre rêve et réalité, il découvre la puissance de l'imagination, apprenant à surmonter ses peurs et à embrasser ses désirs les plus profonds. Ce voyage initiatique, empreint de douceur et de magie, prépare le terrain pour des nuits paisibles et des réveils enchantés.</desc>
@@ -16864,6 +17021,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015015100 +0200" stop="20261015015400 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Nightfall 1</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015015300 +0200" stop="20261015015800 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode captivant de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un monde où le quotidien se mêle à la magie du sommeil. L'histoire suit un groupe d'enfants curieux qui, après une journée d'aventures et de découvertes, sont encouragés à se préparer pour la nuit. À travers des jeux imaginatifs et des récits enchanteurs, les jeunes protagonistes apprennent l'importance de la détente et de la rêverie. Chacun d'eux partage ses craintes et ses espoirs avant de se laisser emporter par le sommeil. L'épisode explore les thèmes de l'amitié, de l'imagination et du réconfort, tout en montrant comment le simple acte de se détendre peut être un véritable voyage intérieur. Les doux conseils d'un narrateur apaisant guident les enfants vers un sommeil serein, leur permettant d'explorer des mondes fantastiques au-delà de leur imagination. C'est une ode à la magie des nuits paisibles et aux rêves qui s'éveillent lorsque l'on ferme les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015015800 +0200" stop="20261015020100 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -16875,9 +17038,21 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Chill Out 1</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015020100 +0200" stop="20261015020400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers où le quotidien se mêle à l'imaginaire, l'épisode "Poser la tête" de la série "Ferme les yeux" nous plonge dans l'intimité d'un groupe de personnages en quête de réconfort. L'intrigue se déroule dans une atmosphère à la fois douce et troublante, où chaque protagoniste doit affronter ses propres démons intérieurs. Alors que la nuit tombe, les tensions s'accumulent et les secrets enfouis refont surface. Les personnages, chacun avec leurs histoires et leurs blessures, se retrouvent assis ensemble, cherchant à se détendre avant de sombrer dans le sommeil. Mais au-delà de la simple routine du coucher, cet épisode révèle des vérités poignantes sur la vulnérabilité humaine et l'importance des liens affectifs. À travers des échanges sincères et des moments de réflexion, "Poser la tête" nous invite à explorer les thèmes de la solitude, de l'introspection et de la nécessité de se reconnecter à soi-même et aux autres avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015020400 +0200" stop="20261015020800 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans l'épisode « Temps de dormir » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans l'univers intime et réconfortant de l'heure du coucher. Alors que le jour laisse place à la nuit, les personnages principaux se préparent à quitter les tumultes de la journée pour se plonger dans un monde de rêves. L'épisode explore les rituels apaisants qui précèdent le sommeil, mettant en lumière l'importance de ce moment de transition. Des histoires racontées au coin du feu aux doux câlins partagés, chaque scène est une ode à la sérénité et à la sécurité que l'on ressent dans l'intimité du foyer. Les interactions entre les personnages révèlent des émotions profondes et des souvenirs partagés, illustrant comment ces instants de tendresse et de réconfort aident à surmonter les peurs nocturnes. Au fil des minutes, le spectateur est invité à se laisser bercer par cette atmosphère douce et chaleureuse, propice à l'apaisement.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015020800 +0200" stop="20261015021100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un cadre mystérieux et envoûtant, l'épisode « Pleine lune » de la série « Ferme les yeux » plonge les spectateurs dans une atmosphère intrigante. Alors que la nuit s'installe, un groupe de personnages hétéroclites se réunit pour une séance de relaxation guidée. L'animatrice, une figure charismatique et énigmatique, invite chacun à fermer les yeux, à s'asseoir confortablement et à se laisser emporter par un voyage intérieur. Cependant, ce qui commence comme une simple invitation à la méditation se transforme rapidement en une exploration des peurs et des désirs enfouis. Les participants, chacun portant ses propres secrets, se retrouvent confrontés à des visions troublantes qui les obligent à affronter leur passé. Au fil de cet exercice, des tensions émergent, des vérités cachées sont révélées et les liens entre les personnages se compliquent. Alors que la pleine lune éclaire leurs visages, la frontière entre réalité et illusion s'efface, promettant une nuit riche en révélations.</desc>
     <category lang="fr">Série TV</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
@@ -16891,6 +17066,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Over the Moon</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015021500 +0200" stop="20261015021800 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015021800 +0200" stop="20261015022200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
@@ -16902,6 +17084,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">After Dusk</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015022200 +0200" stop="20261015022500 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode "Temps de rêver" de la série "Ferme les yeux", les téléspectateurs sont invités à plonger dans un monde de sérénité et de mystère. L'épisode s'ouvre sur une atmosphère apaisante, où les personnages principaux, cherchant un refuge dans la douceur de la nuit, se préparent à un voyage intérieur. Alors qu'ils ferment les yeux, un univers onirique se déploie, révélant des souvenirs enfouis et des désirs inavoués. Chaque personnage fait face à ses propres démons, oscillant entre réalité et rêve, dans un ballet délicat où le subconscient prend le pas sur la raison. Au fur et à mesure que les histoires individuelles se tissent, des thèmes universels tels que l'amour, la perte et la rédemption émergent, offrant une réflexion profonde sur la nature des rêves et des aspirations. Cet épisode captivant invite le spectateur à se laisser porter par la magie des songes, tout en posant des questions sur la frontière entre le réel et l'imaginaire.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015022500 +0200" stop="20261015022800 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans l'épisode « Temps de tranquillité » de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers intime et apaisant. Alors que la nuit tombe sur un petit village, un groupe d'amis se réunit pour partager des moments de complicité et de réconfort. Au fur et à mesure que les conversations s'intensifient, les tensions sous-jacentes commencent à se révéler, dévoilant les secrets et les désirs inavoués de chacun. Chacun des protagonistes, en quête de sérénité, doit faire face à ses propres démons intérieurs, tout en s'efforçant de maintenir l'harmonie du groupe. Les rires et les larmes se mêlent, créant une atmosphère à la fois légère et poignante. Alors que la nuit avance, les révélations s'accumulent, et il devient clair que le chemin vers la tranquillité est semé d'embûches. Cet épisode explore les thèmes de l'amitié, de la vulnérabilité et de la recherche d'un refuge émotionnel dans un monde en constante agitation.</desc>
@@ -16912,6 +17101,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015022600 +0200" stop="20261015023000 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Pillow Time</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015022800 +0200" stop="20261015023200 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode « Faire une pause » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers où la sérénité et le repos prennent le pas sur le tumulte quotidien. Alors que la nuit tombe, les protagonistes se préparent à abandonner les tracas de la journée. L'épisode s'ouvre sur un cadre apaisant, où les personnages principaux, chacun à leur manière, cherchent à trouver refuge dans le sommeil. À travers des moments de tendresse et de réflexion, ils explorent les pensées qui les hantent, dévoilant ainsi des facettes de leur personnalité souvent cachées. L'ambiance intime invite à la contemplation, tandis que des dialogues subtils révèlent les préoccupations et les rêves de chacun. Au fur et à mesure que les lumières s'éteignent, une atmosphère de calme s'installe, promettant aux spectateurs une évasion douce et réconfortante, propice à la détente avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015023200 +0200" stop="20261015023600 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -16926,6 +17122,15 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Journey</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015023600 +0200" stop="20261015023900 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
+
+Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plongeant le groupe dans un tourbillon d'émotions contradictoires. Les rires laissent place aux larmes, et les secrets les plus sombres menacent d'éclater au grand jour. Alors que la nuit avance, chacun devra faire face à ses démons intérieurs, apprenant que parfois, le véritable sommeil ne peut être trouvé qu'en acceptant la vérité sur soi-même.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015023900 +0200" stop="20261015024200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où les ombres prennent vie, « La nuit tombée » plonge le spectateur dans une atmosphère troublante et captivante. Au cœur de cette intrigue, nous suivons l’histoire d’un groupe d’amis qui, après une soirée festive, décide de se réunir dans une vieille maison de campagne, réputée pour ses légendes sinistres. Alors que la nuit avance, une série d’événements inexplicables et troublants commence à se dérouler. Les rires laissent place à l'angoisse lorsque des apparitions étranges et des bruits mystérieux perturbent leur tranquillité. Chacun des protagonistes doit alors faire face à ses propres peurs et secrets, révélant des tensions latentes au sein du groupe. Alors que les frontières entre le réel et l'imaginaire s'estompent, ils réalisent que la nuit a le pouvoir de révéler des vérités insoupçonnées, transformant leur amitié en un véritable cauchemar. Qui sortira indemne de cette expérience troublante ?</desc>
@@ -16937,6 +17142,13 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Twilight Time</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015024200 +0200" stop="20261015024600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers réconfortant où le rythme de la vie quotidienne ralentit. Alors que le soleil se couche, les personnages principaux se préparent pour un moment de détente bien mérité. L'épisode met en scène une famille unie, qui se retrouve dans le salon, partageant des histoires et des rires, tout en savourant la chaleur d'un foyer. Les enfants, excités par la fin de la journée, apprennent l'importance du repos et de la sérénité, tandis que les adultes, incarnant la sagesse et la bienveillance, leur montrent comment se laisser aller à la douceur de la nuit. Au fil des scènes, des moments de complicité se dessinent, illustrant la beauté des liens familiaux et la magie d'un simple rituel nocturne. Cet épisode, à la fois tendre et éducatif, évoque l'importance du sommeil pour le bien-être de chacun.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015024600 +0200" stop="20261015025000 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à se plonger dans un univers de sérénité et de réconfort. Alors que la nuit tombe, un protagoniste sans nom, qui semble être le reflet de chacun d'entre nous, se prépare à quitter les tumultes du quotidien. Il s'assoit dans un espace intime, entouré d'une ambiance chaleureuse, et prend un moment pour respirer profondément, se déconnectant des préoccupations de la journée. Les lumières s'adoucissent, créant une atmosphère propice à la détente. À travers des images apaisantes et des sons réconfortants, cet épisode nous guide vers un état de relaxation profonde, invitant chacun à fermer les yeux et à se laisser aller. Les pensées s'estompent lentement, tandis que l'on se prépare à plonger dans le monde des rêves. Une expérience immersive qui nous rappelle l'importance de prendre du temps pour soi et de se recentrer avant le sommeil.</desc>
@@ -16945,12 +17157,22 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015025000 +0200" stop="20261015025300 +0200">
-    <title lang="fr">Close Your Eyes</title>
-    <desc lang="fr">Dream and Smile</desc>
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015025300 +0200" stop="20261015025700 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015025700 +0200" stop="20261015030100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode "Temps de rêver" de la série "Ferme les yeux", les téléspectateurs sont invités à plonger dans un monde de sérénité et de mystère. L'épisode s'ouvre sur une atmosphère apaisante, où les personnages principaux, cherchant un refuge dans la douceur de la nuit, se préparent à un voyage intérieur. Alors qu'ils ferment les yeux, un univers onirique se déploie, révélant des souvenirs enfouis et des désirs inavoués. Chaque personnage fait face à ses propres démons, oscillant entre réalité et rêve, dans un ballet délicat où le subconscient prend le pas sur la raison. Au fur et à mesure que les histoires individuelles se tissent, des thèmes universels tels que l'amour, la perte et la rédemption émergent, offrant une réflexion profonde sur la nature des rêves et des aspirations. Cet épisode captivant invite le spectateur à se laisser porter par la magie des songes, tout en posant des questions sur la frontière entre le réel et l'imaginaire.</desc>
     <category lang="fr">Série TV</category>
     <episode-num>0.1.</episode-num>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
@@ -16970,6 +17192,13 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Sleepy Time</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015030500 +0200" stop="20261015030800 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode « Faire une pause » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers où la sérénité et le repos prennent le pas sur le tumulte quotidien. Alors que la nuit tombe, les protagonistes se préparent à abandonner les tracas de la journée. L'épisode s'ouvre sur un cadre apaisant, où les personnages principaux, chacun à leur manière, cherchent à trouver refuge dans le sommeil. À travers des moments de tendresse et de réflexion, ils explorent les pensées qui les hantent, dévoilant ainsi des facettes de leur personnalité souvent cachées. L'ambiance intime invite à la contemplation, tandis que des dialogues subtils révèlent les préoccupations et les rêves de chacun. Au fur et à mesure que les lumières s'éteignent, une atmosphère de calme s'installe, promettant aux spectateurs une évasion douce et réconfortante, propice à la détente avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015030800 +0200" stop="20261015031200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
@@ -16983,6 +17212,15 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Twinkling Stars</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015031200 +0200" stop="20261015031600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
+
+Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plongeant le groupe dans un tourbillon d'émotions contradictoires. Les rires laissent place aux larmes, et les secrets les plus sombres menacent d'éclater au grand jour. Alors que la nuit avance, chacun devra faire face à ses démons intérieurs, apprenant que parfois, le véritable sommeil ne peut être trouvé qu'en acceptant la vérité sur soi-même.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015031600 +0200" stop="20261015031900 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où les ombres prennent vie, « La nuit tombée » plonge le spectateur dans une atmosphère troublante et captivante. Au cœur de cette intrigue, nous suivons l’histoire d’un groupe d’amis qui, après une soirée festive, décide de se réunir dans une vieille maison de campagne, réputée pour ses légendes sinistres. Alors que la nuit avance, une série d’événements inexplicables et troublants commence à se dérouler. Les rires laissent place à l'angoisse lorsque des apparitions étranges et des bruits mystérieux perturbent leur tranquillité. Chacun des protagonistes doit alors faire face à ses propres peurs et secrets, révélant des tensions latentes au sein du groupe. Alors que les frontières entre le réel et l'imaginaire s'estompent, ils réalisent que la nuit a le pouvoir de révéler des vérités insoupçonnées, transformant leur amitié en un véritable cauchemar. Qui sortira indemne de cette expérience troublante ?</desc>
@@ -16993,6 +17231,13 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
   <programme channel="BabyTV.fr" start="20261015031800 +0200" stop="20261015032200 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Time 2</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015031900 +0200" stop="20261015032200 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers réconfortant où le rythme de la vie quotidienne ralentit. Alors que le soleil se couche, les personnages principaux se préparent pour un moment de détente bien mérité. L'épisode met en scène une famille unie, qui se retrouve dans le salon, partageant des histoires et des rires, tout en savourant la chaleur d'un foyer. Les enfants, excités par la fin de la journée, apprennent l'importance du repos et de la sérénité, tandis que les adultes, incarnant la sagesse et la bienveillance, leur montrent comment se laisser aller à la douceur de la nuit. Au fil des scènes, des moments de complicité se dessinent, illustrant la beauté des liens familiaux et la magie d'un simple rituel nocturne. Cet épisode, à la fois tendre et éducatif, évoque l'importance du sommeil pour le bien-être de chacun.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015032200 +0200" stop="20261015032600 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17005,6 +17250,12 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Tranquil Time 2</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015032600 +0200" stop="20261015032900 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers intimiste et poétique, l'épisode "Coucher de soleil" de la série "Ferme les yeux" nous plonge dans la vie quotidienne d'un groupe d'amis réunis pour une soirée de partage et de confidences. Alors que le soleil se couche lentement à l'horizon, chaque personnage est invité à fermer les yeux et à se laisser porter par ses pensées. L'atmosphère est empreinte de douceur, mais également de tension, car des secrets enfouis refont surface. Parmi eux, Clara (Marie Dupin), une artiste en quête d'inspiration, lutte contre ses doutes et ses peurs, tandis que Julien (Thomas Leroy), un jeune homme en proie à des choix difficiles, doit faire face à son passé. Les échanges sincères révèlent des blessures cachées et des espoirs inavoués, transformant cette simple soirée en un moment de catharsis collective. Ce voyage émotionnel nous rappelle l'importance de l'amitié et de l'écoute dans les moments de vulnérabilité.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015032900 +0200" stop="20261015033300 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où la réalité et le rêve se mêlent, l'épisode « Nuit lumineuse » de la série « Ferme les yeux » invite les spectateurs à un voyage introspectif. L'histoire suit Camille, une jeune femme en proie à des insomnies chroniques, qui trouve refuge dans un univers onirique où les frontières entre le tangible et l'imaginaire s'effacent. Chaque nuit, elle s'assoit dans son lit, ferme les yeux et se laisse emporter par des visions étranges peuplées de personnages mystérieux et d'événements troublants. Alors qu'elle navigue à travers ses rêves, Camille découvre des souvenirs enfouis et des désirs inassouvis qui la poussent à confronter ses peurs les plus profondes. Au fil de ces nuits lumineuses, elle se rend compte que ces voyages nocturnes pourraient détenir la clé pour comprendre les traumatismes de son passé. Mais à quel prix ? Entre rêve et réalité, Camille devra trouver le courage d'affronter ses démons avant que le sommeil ne devienne un piège inextricable.</desc>
@@ -17014,6 +17265,12 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
   <programme channel="BabyTV.fr" start="20261015033200 +0200" stop="20261015033600 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Starry Night 2</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015033300 +0200" stop="20261015033600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série, le protagoniste invite les spectateurs à plonger dans un univers où la sérénité et la tranquillité sont au cœur de l'expérience. En s'installant confortablement, il propose une immersion dans un rituel nocturne qui va au-delà du simple acte de dormir. À travers des récits réconfortants et des moments de méditation guidée, il explore les différentes manières de se détendre et de lâcher prise après une journée mouvementée. Les personnages rencontrés au fil de cet épisode partagent leurs propres stratégies de relaxation, que ce soit par la musique douce, des histoires apaisantes ou des exercices de respiration. Chaque instant est conçu pour aider le spectateur à se déconnecter du stress quotidien et à embrasser une ambiance propice au repos. Cet épisode promet une évasion douce, invitant chacun à fermer les yeux et à se laisser porter vers un sommeil réparateur.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015033600 +0200" stop="20261015034000 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17025,6 +17282,12 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Nightfall 2</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015034000 +0200" stop="20261015034400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où l'imagination est la clé pour surmonter les défis du quotidien, « Ferme les yeux » nous plonge dans l'univers d'un groupe d'enfants qui, chaque soir, se réunissent pour partager leurs rêves et leurs aspirations avant de s'endormir. L'épisode « Atteindre les étoiles » met en avant Lila, une petite fille rêveuse qui aspire à devenir astronome. Au fur et à mesure que la nuit tombe, elle entraîne ses camarades dans une aventure fantastique où ils explorent des galaxies lointaines et rencontrent des créatures célestes. Ensemble, ils doivent apprendre à surmonter leurs peurs et à croire en eux-mêmes pour réaliser leurs rêves. Alors qu'ils voyagent à travers des paysages étoilés et des constellations éclatantes, les enfants découvrent des leçons précieuses sur l'amitié, la solidarité et la puissance de l'imagination. Ce voyage nocturne les amènera à réaliser que, même dans l'obscurité, il est possible d'atteindre les étoiles.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015034400 +0200" stop="20261015034700 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où le sommeil devient un véritable enjeu, l'épisode « Après le crépuscule » de la série « Ferme les yeux » plonge les spectateurs dans l'univers troublant de la nuit. Alors que les personnages principaux se préparent à s'endormir, des réalités alternatives commencent à émerger, brouillant la frontière entre le rêve et la réalité. Au cœur de cette intrigue, nous suivons Camille (nom de l'acteur), une jeune femme en quête de réponses sur des événements mystérieux qui l'ont marquée dans son enfance. Avec l'aide de son ami d'enfance, Lucas (nom de l'acteur), ils s'engagent dans une exploration psychologique, déterrant des secrets enfouis qui pourraient changer leur perception du monde. Les visions nocturnes et les rencontres inattendues les mènent à une compréhension plus profonde de leurs peurs et désirs. Cet épisode captivant interroge notre rapport à l'inconscient et à la vulnérabilité humaine, tout en nous plongeant dans une atmosphère à la fois onirique et inquiétante.</desc>
@@ -17034,6 +17297,12 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
   <programme channel="BabyTV.fr" start="20261015034600 +0200" stop="20261015035000 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Chill Out 2</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015034700 +0200" stop="20261015035100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers où la douceur de la nuit contraste avec les inquiétudes de la journée, cet épisode de la série invite les téléspectateurs à plonger dans un voyage introspectif. Le protagoniste, assis dans son fauteuil, se prépare à affronter ses propres démons. Alors que la lumière s'estompe, il est entouré d'une ambiance apaisante qui lui permet de se remémorer des souvenirs enfouis, des rêves inachevés et des espoirs perdus. La narration, empreinte de mélancolie, dévoile les pensées profondes de ce personnage qui oscille entre le besoin de repos et l'angoisse de l'inconnu qui l'attend. À travers des flashbacks délicatement tissés, le spectateur découvre les relations complexes qui ont façonné sa vie, notamment des interactions significatives avec des proches et des amis. Cet épisode, tout en douceur, rappelle l'importance de la réflexion et du lâcher-prise, invitant chacun à trouver la paix avant de plonger dans le sommeil.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015035100 +0200" stop="20261015035500 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17047,6 +17316,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Time 1</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015035500 +0200" stop="20261015035800 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où les rêves et la réalité s'entremêlent, l'épisode « Lune brillante » de la série « Ferme les yeux » invite les spectateurs à plonger dans un voyage onirique captivant. Alors que la nuit tombe, une voix apaisante guide les téléspectateurs à travers un rituel de préparation au sommeil, les incitant à se détendre et à fermer les yeux. Mais derrière cette douceur apparente se cache une exploration des peurs et des désirs cachés qui surgissent dans l'obscurité. Les personnages principaux, chacun avec leur propre histoire, naviguent à travers des paysages mentaux surréalistes, où les souvenirs et les fantasmes prennent vie. À mesure qu'ils s'enfoncent dans cet univers onirique, ils doivent affronter leurs démons intérieurs et trouver un sens à leurs luttes personnelles. Ce voyage hypnotique et visuellement enchanteur interroge la nature même du sommeil et de l'évasion, tout en offrant un aperçu poignant des émotions humaines.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015035800 +0200" stop="20261015040200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers de sérénité et de réconfort. Alors que la nuit s'installe, le protagoniste, un jeune enfant aux rêves débordants, se prépare à rejoindre le royaume des songes. Il est guidé par une voix douce et rassurante qui l'encourage à s'asseoir confortablement, à fermer les yeux et à laisser les tensions de la journée s'évanouir. À travers une narration apaisante, l'épisode explore les rituels du coucher, où chaque geste devient une invitation à la détente. Des images évocatrices de paysages nocturnes, de constellations scintillantes et de créatures imaginaires viennent enrichir cette expérience immersive. Loin des préoccupations quotidiennes, le jeune protagoniste découvre un monde où l'imaginaire prend vie, promouvant un message essentiel sur l'importance du sommeil et de la relaxation pour le bien-être.</desc>
@@ -17056,6 +17331,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015040100 +0200" stop="20261015040500 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Tranquil Time 1</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015040200 +0200" stop="20261015040600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où le sommeil devient une échappatoire à la réalité, « Dormir avec un sourire » nous plonge dans l'univers de personnages en quête de réconfort et d'apaisement. Au cœur de cet épisode captivant, nous suivons Émilie (Céline Sallette), une jeune femme confrontée à des angoisses nocturnes qui perturbent son quotidien. Chaque soir, alors qu'elle se prépare à rejoindre les bras de Morphée, des souvenirs douloureux et des craintes inexprimées refont surface, transformant ses nuits en véritables cauchemars. Pour surmonter cette lutte intérieure, elle décide de consulter un spécialiste du sommeil, le Dr Martin (Olivier Gourmet), qui l'accompagne dans une exploration introspective de ses peurs. Au fil des séances, Émilie découvre des facettes de sa personnalité qu'elle avait longtemps refoulées, tout en tissant des liens inattendus avec d'autres patients partageant des luttes similaires. Ce voyage émotionnel, où le sommeil et l'éveil se mêlent, invite à réfléchir sur l'importance de la santé mentale et de l'acceptation de soi.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015040600 +0200" stop="20261015040900 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17067,6 +17348,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Starry Night 1</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015040900 +0200" stop="20261015041400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un monde où la réalité et le rêve s'entrelacent, l'épisode « Temps d'arrêt » de la série « Ferme les yeux » plonge le spectateur dans l'univers mystérieux d'un groupe de personnages confrontés à leurs propres démons. L'intrigue débute dans une atmosphère apaisante, où chacun est invité à se détendre, à fermer les yeux et à se laisser emporter par la mélodie d'une voix rassurante. Mais cette tranquillité apparente cache des enjeux plus profonds. Alors que les protagonistes s'installent dans une routine nocturne, des souvenirs enfouis et des secrets longtemps gardés commencent à émerger, perturbant le calme. Les tensions montent alors que chacun doit faire face à ses peurs intérieures et aux conséquences de ses choix passés. À travers une narration immersive, cet épisode explore les thèmes de l'introspection, de la rédemption et de la lutte contre les ombres du passé, tout en maintenant un suspense captivant qui incite à l'exploration de l'inconnu.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015041400 +0200" stop="20261015041800 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où l'imagination prend vie, « Rêver et sourire » invite les spectateurs à plonger dans l'univers enchanteur d'un enfant qui s'apprête à s'endormir. Lorsque la nuit tombe, et que les étoiles scintillent dans le ciel, il est temps pour lui de quitter le tumulte du quotidien. Avec un doux murmure, une voix réconfortante l'invite à fermer les yeux, à s'installer confortablement et à laisser ses pensées vagabonder. À travers une série de séquences oniriques, l'enfant explore des paysages féeriques, peuplés de créatures fantastiques et de personnages hauts en couleur, chacun lui offrant des leçons de vie et des moments de joie. Alors qu'il navigue entre rêve et réalité, il découvre la puissance de l'imagination, apprenant à surmonter ses peurs et à embrasser ses désirs les plus profonds. Ce voyage initiatique, empreint de douceur et de magie, prépare le terrain pour des nuits paisibles et des réveils enchantés.</desc>
@@ -17076,6 +17363,12 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015041600 +0200" stop="20261015041900 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Nightfall 1</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015041800 +0200" stop="20261015042300 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode captivant de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un monde où le quotidien se mêle à la magie du sommeil. L'histoire suit un groupe d'enfants curieux qui, après une journée d'aventures et de découvertes, sont encouragés à se préparer pour la nuit. À travers des jeux imaginatifs et des récits enchanteurs, les jeunes protagonistes apprennent l'importance de la détente et de la rêverie. Chacun d'eux partage ses craintes et ses espoirs avant de se laisser emporter par le sommeil. L'épisode explore les thèmes de l'amitié, de l'imagination et du réconfort, tout en montrant comment le simple acte de se détendre peut être un véritable voyage intérieur. Les doux conseils d'un narrateur apaisant guident les enfants vers un sommeil serein, leur permettant d'explorer des mondes fantastiques au-delà de leur imagination. C'est une ode à la magie des nuits paisibles et aux rêves qui s'éveillent lorsque l'on ferme les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015042200 +0200" stop="20261015042600 +0200">
     <title lang="fr">Close Your Eyes</title>
@@ -17087,9 +17380,21 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <category lang="fr">Série TV</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015042600 +0200" stop="20261015042900 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers où le quotidien se mêle à l'imaginaire, l'épisode "Poser la tête" de la série "Ferme les yeux" nous plonge dans l'intimité d'un groupe de personnages en quête de réconfort. L'intrigue se déroule dans une atmosphère à la fois douce et troublante, où chaque protagoniste doit affronter ses propres démons intérieurs. Alors que la nuit tombe, les tensions s'accumulent et les secrets enfouis refont surface. Les personnages, chacun avec leurs histoires et leurs blessures, se retrouvent assis ensemble, cherchant à se détendre avant de sombrer dans le sommeil. Mais au-delà de la simple routine du coucher, cet épisode révèle des vérités poignantes sur la vulnérabilité humaine et l'importance des liens affectifs. À travers des échanges sincères et des moments de réflexion, "Poser la tête" nous invite à explorer les thèmes de la solitude, de l'introspection et de la nécessité de se reconnecter à soi-même et aux autres avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015042900 +0200" stop="20261015043300 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans l'épisode « Temps de dormir » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans l'univers intime et réconfortant de l'heure du coucher. Alors que le jour laisse place à la nuit, les personnages principaux se préparent à quitter les tumultes de la journée pour se plonger dans un monde de rêves. L'épisode explore les rituels apaisants qui précèdent le sommeil, mettant en lumière l'importance de ce moment de transition. Des histoires racontées au coin du feu aux doux câlins partagés, chaque scène est une ode à la sérénité et à la sécurité que l'on ressent dans l'intimité du foyer. Les interactions entre les personnages révèlent des émotions profondes et des souvenirs partagés, illustrant comment ces instants de tendresse et de réconfort aident à surmonter les peurs nocturnes. Au fil des minutes, le spectateur est invité à se laisser bercer par cette atmosphère douce et chaleureuse, propice à l'apaisement.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015043300 +0200" stop="20261015043600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un cadre mystérieux et envoûtant, l'épisode « Pleine lune » de la série « Ferme les yeux » plonge les spectateurs dans une atmosphère intrigante. Alors que la nuit s'installe, un groupe de personnages hétéroclites se réunit pour une séance de relaxation guidée. L'animatrice, une figure charismatique et énigmatique, invite chacun à fermer les yeux, à s'asseoir confortablement et à se laisser emporter par un voyage intérieur. Cependant, ce qui commence comme une simple invitation à la méditation se transforme rapidement en une exploration des peurs et des désirs enfouis. Les participants, chacun portant ses propres secrets, se retrouvent confrontés à des visions troublantes qui les obligent à affronter leur passé. Au fil de cet exercice, des tensions émergent, des vérités cachées sont révélées et les liens entre les personnages se compliquent. Alors que la pleine lune éclaire leurs visages, la frontière entre réalité et illusion s'efface, promettant une nuit riche en révélations.</desc>
     <category lang="fr">Série TV</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
@@ -17103,6 +17408,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Over the Moon</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015043900 +0200" stop="20261015044300 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015044300 +0200" stop="20261015044700 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
@@ -17113,6 +17425,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015044400 +0200" stop="20261015044700 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">After Dusk</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015044700 +0200" stop="20261015045000 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode "Temps de rêver" de la série "Ferme les yeux", les téléspectateurs sont invités à plonger dans un monde de sérénité et de mystère. L'épisode s'ouvre sur une atmosphère apaisante, où les personnages principaux, cherchant un refuge dans la douceur de la nuit, se préparent à un voyage intérieur. Alors qu'ils ferment les yeux, un univers onirique se déploie, révélant des souvenirs enfouis et des désirs inavoués. Chaque personnage fait face à ses propres démons, oscillant entre réalité et rêve, dans un ballet délicat où le subconscient prend le pas sur la raison. Au fur et à mesure que les histoires individuelles se tissent, des thèmes universels tels que l'amour, la perte et la rédemption émergent, offrant une réflexion profonde sur la nature des rêves et des aspirations. Cet épisode captivant invite le spectateur à se laisser porter par la magie des songes, tout en posant des questions sur la frontière entre le réel et l'imaginaire.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015045000 +0200" stop="20261015045300 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17125,6 +17444,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Pillow Time</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015045300 +0200" stop="20261015045700 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode « Faire une pause » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers où la sérénité et le repos prennent le pas sur le tumulte quotidien. Alors que la nuit tombe, les protagonistes se préparent à abandonner les tracas de la journée. L'épisode s'ouvre sur un cadre apaisant, où les personnages principaux, chacun à leur manière, cherchent à trouver refuge dans le sommeil. À travers des moments de tendresse et de réflexion, ils explorent les pensées qui les hantent, dévoilant ainsi des facettes de leur personnalité souvent cachées. L'ambiance intime invite à la contemplation, tandis que des dialogues subtils révèlent les préoccupations et les rêves de chacun. Au fur et à mesure que les lumières s'éteignent, une atmosphère de calme s'installe, promettant aux spectateurs une évasion douce et réconfortante, propice à la détente avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015045700 +0200" stop="20261015050000 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
@@ -17135,6 +17461,15 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
   <programme channel="BabyTV.fr" start="20261015045800 +0200" stop="20261015050200 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Journey</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015050000 +0200" stop="20261015050400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
+
+Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plongeant le groupe dans un tourbillon d'émotions contradictoires. Les rires laissent place aux larmes, et les secrets les plus sombres menacent d'éclater au grand jour. Alors que la nuit avance, chacun devra faire face à ses démons intérieurs, apprenant que parfois, le véritable sommeil ne peut être trouvé qu'en acceptant la vérité sur soi-même.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015050400 +0200" stop="20261015050700 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17147,6 +17482,13 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Twilight Time</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015050700 +0200" stop="20261015051100 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers réconfortant où le rythme de la vie quotidienne ralentit. Alors que le soleil se couche, les personnages principaux se préparent pour un moment de détente bien mérité. L'épisode met en scène une famille unie, qui se retrouve dans le salon, partageant des histoires et des rires, tout en savourant la chaleur d'un foyer. Les enfants, excités par la fin de la journée, apprennent l'importance du repos et de la sérénité, tandis que les adultes, incarnant la sagesse et la bienveillance, leur montrent comment se laisser aller à la douceur de la nuit. Au fil des scènes, des moments de complicité se dessinent, illustrant la beauté des liens familiaux et la magie d'un simple rituel nocturne. Cet épisode, à la fois tendre et éducatif, évoque l'importance du sommeil pour le bien-être de chacun.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015051100 +0200" stop="20261015051500 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à se plonger dans un univers de sérénité et de réconfort. Alors que la nuit tombe, un protagoniste sans nom, qui semble être le reflet de chacun d'entre nous, se prépare à quitter les tumultes du quotidien. Il s'assoit dans un espace intime, entouré d'une ambiance chaleureuse, et prend un moment pour respirer profondément, se déconnectant des préoccupations de la journée. Les lumières s'adoucissent, créant une atmosphère propice à la détente. À travers des images apaisantes et des sons réconfortants, cet épisode nous guide vers un état de relaxation profonde, invitant chacun à fermer les yeux et à se laisser aller. Les pensées s'estompent lentement, tandis que l'on se prépare à plonger dans le monde des rêves. Une expérience immersive qui nous rappelle l'importance de prendre du temps pour soi et de se recentrer avant le sommeil.</desc>
@@ -17158,9 +17500,23 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Dream and Smile</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015051500 +0200" stop="20261015051800 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015051800 +0200" stop="20261015052200 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Ferme les yeux, assieds-toi et mets-toi à l'aise. C'est l'heure d'aller au lit.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015052200 +0200" stop="20261015052600 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode "Temps de rêver" de la série "Ferme les yeux", les téléspectateurs sont invités à plonger dans un monde de sérénité et de mystère. L'épisode s'ouvre sur une atmosphère apaisante, où les personnages principaux, cherchant un refuge dans la douceur de la nuit, se préparent à un voyage intérieur. Alors qu'ils ferment les yeux, un univers onirique se déploie, révélant des souvenirs enfouis et des désirs inavoués. Chaque personnage fait face à ses propres démons, oscillant entre réalité et rêve, dans un ballet délicat où le subconscient prend le pas sur la raison. Au fur et à mesure que les histoires individuelles se tissent, des thèmes universels tels que l'amour, la perte et la rédemption émergent, offrant une réflexion profonde sur la nature des rêves et des aspirations. Cet épisode captivant invite le spectateur à se laisser porter par la magie des songes, tout en posant des questions sur la frontière entre le réel et l'imaginaire.</desc>
     <category lang="fr">Série TV</category>
     <episode-num>0.1.</episode-num>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
@@ -17177,8 +17533,11 @@ L'épisode explore les thèmes de l'amitié, du réconfort et des peurs nocturne
     <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015052900 +0200" stop="20261015053300 +0200">
-    <title lang="fr">Close Your Eyes</title>
-    <desc lang="fr">Sleepy Time</desc>
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans l'épisode « Faire une pause » de la série « Ferme les yeux », les téléspectateurs sont invités à plonger dans un univers où la sérénité et le repos prennent le pas sur le tumulte quotidien. Alors que la nuit tombe, les protagonistes se préparent à abandonner les tracas de la journée. L'épisode s'ouvre sur un cadre apaisant, où les personnages principaux, chacun à leur manière, cherchent à trouver refuge dans le sommeil. À travers des moments de tendresse et de réflexion, ils explorent les pensées qui les hantent, dévoilant ainsi des facettes de leur personnalité souvent cachées. L'ambiance intime invite à la contemplation, tandis que des dialogues subtils révèlent les préoccupations et les rêves de chacun. Au fur et à mesure que les lumières s'éteignent, une atmosphère de calme s'installe, promettant aux spectateurs une évasion douce et réconfortante, propice à la détente avant de fermer les yeux.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015053300 +0200" stop="20261015053700 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -17193,6 +17552,15 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Twinkling Stars</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015053700 +0200" stop="20261015054000 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers onirique où le sommeil devient un terrain d'exploration, un groupe d'amis se retrouve pour une soirée tranquille, pleine de rires et de confidences. Alors qu'ils s'installent confortablement, une atmosphère mystérieuse s'installe, teintée d'un léger malaise. Chaque personnage, confronté à ses propres angoisses et secrets, se voit peu à peu entraîné dans un voyage intérieur. Les discussions innocentes se transforment en révélations troublantes, et des souvenirs enfouis refont surface, mettant à jour des tensions et des rivalités anciennes. 
+
+Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plongeant le groupe dans un tourbillon d'émotions contradictoires. Les rires laissent place aux larmes, et les secrets les plus sombres menacent d'éclater au grand jour. Alors que la nuit avance, chacun devra faire face à ses démons intérieurs, apprenant que parfois, le véritable sommeil ne peut être trouvé qu'en acceptant la vérité sur soi-même.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.0.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015054000 +0200" stop="20261015054400 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans un monde où les ombres prennent vie, « La nuit tombée » plonge le spectateur dans une atmosphère troublante et captivante. Au cœur de cette intrigue, nous suivons l’histoire d’un groupe d’amis qui, après une soirée festive, décide de se réunir dans une vieille maison de campagne, réputée pour ses légendes sinistres. Alors que la nuit avance, une série d’événements inexplicables et troublants commence à se dérouler. Les rires laissent place à l'angoisse lorsque des apparitions étranges et des bruits mystérieux perturbent leur tranquillité. Chacun des protagonistes doit alors faire face à ses propres peurs et secrets, révélant des tensions latentes au sein du groupe. Alors que les frontières entre le réel et l'imaginaire s'estompent, ils réalisent que la nuit a le pouvoir de révéler des vérités insoupçonnées, transformant leur amitié en un véritable cauchemar. Qui sortira indemne de cette expérience troublante ?</desc>
@@ -17204,6 +17572,13 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Relaxing Time 2</desc>
   </programme>
+  <programme channel="BabyTV.fr" start="20261015054400 +0200" stop="20261015054700 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à plonger dans un univers réconfortant où le rythme de la vie quotidienne ralentit. Alors que le soleil se couche, les personnages principaux se préparent pour un moment de détente bien mérité. L'épisode met en scène une famille unie, qui se retrouve dans le salon, partageant des histoires et des rires, tout en savourant la chaleur d'un foyer. Les enfants, excités par la fin de la journée, apprennent l'importance du repos et de la sérénité, tandis que les adultes, incarnant la sagesse et la bienveillance, leur montrent comment se laisser aller à la douceur de la nuit. Au fil des scènes, des moments de complicité se dessinent, illustrant la beauté des liens familiaux et la magie d'un simple rituel nocturne. Cet épisode, à la fois tendre et éducatif, évoque l'importance du sommeil pour le bien-être de chacun.</desc>
+    <category lang="fr">Série TV</category>
+    <episode-num>0.1.</episode-num>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
+  </programme>
   <programme channel="BabyTV.fr" start="20261015054700 +0200" stop="20261015055100 +0200">
     <title lang="fr">Ferme les yeux</title>
     <desc lang="fr">Dans cet épisode apaisant de la série « Ferme les yeux », le spectateur est invité à se plonger dans un univers de sérénité et de réconfort. Alors que la nuit tombe, un protagoniste sans nom, qui semble être le reflet de chacun d'entre nous, se prépare à quitter les tumultes du quotidien. Il s'assoit dans un espace intime, entouré d'une ambiance chaleureuse, et prend un moment pour respirer profondément, se déconnectant des préoccupations de la journée. Les lumières s'adoucissent, créant une atmosphère propice à la détente. À travers des images apaisantes et des sons réconfortants, cet épisode nous guide vers un état de relaxation profonde, invitant chacun à fermer les yeux et à se laisser aller. Les pensées s'estompent lentement, tandis que l'on se prépare à plonger dans le monde des rêves. Une expérience immersive qui nous rappelle l'importance de prendre du temps pour soi et de se recentrer avant le sommeil.</desc>
@@ -17214,6 +17589,12 @@ Au fil des heures, la frontière entre le réel et l'imaginaire s'estompe, plong
   <programme channel="BabyTV.fr" start="20261015055000 +0200" stop="20261015055300 +0200">
     <title lang="fr">Close Your Eyes</title>
     <desc lang="fr">Tranquil Time 2</desc>
+  </programme>
+  <programme channel="BabyTV.fr" start="20261015055100 +0200" stop="20261015055400 +0200">
+    <title lang="fr">Ferme les yeux</title>
+    <desc lang="fr">Dans un univers intimiste et poétique, l'épisode "Coucher de soleil" de la série "Ferme les yeux" nous plonge dans la vie quotidienne d'un groupe d'amis réunis pour une soirée de partage et de confidences. Alors que le soleil se couche lentement à l'horizon, chaque personnage est invité à fermer les yeux et à se laisser porter par ses pensées. L'atmosphère est empreinte de douceur, mais également de tension, car des secrets enfouis refont surface. Parmi eux, Clara (Marie Dupin), une artiste en quête d'inspiration, lutte contre ses doutes et ses peurs, tandis que Julien (Thomas Leroy), un jeune homme en proie à des choix difficiles, doit faire face à son passé. Les échanges sincères révèlent des blessures cachées et des espoirs inavoués, transformant cette simple soirée en un moment de catharsis collective. Ce voyage émotionnel nous rappelle l'importance de l'amitié et de l'écoute dans les moments de vulnérabilité.</desc>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~aedfda1a6c19ebb0.jpeg/640x360/quality/80/ferme-les-yeux.jpg"/>
   </programme>
   <programme channel="BabyTV.fr" start="20261015055400 +0200" stop="20261015055800 +0200">
     <title lang="fr">Ferme les yeux</title>
@@ -39814,9 +40195,8 @@ Acteurs : Hugh Dancy, Jeffrey Donovan, Odelya Halevi, Mehcad Brooks (Jalen Shaw)
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20261015045500 +0200" stop="20261015063600 +0200">
     <title lang="fr">Les Lyonnais</title>
-    <desc lang="fr">Edmond Vidal, ancien leader du gang des Lyonnais dans les années 1970, a cessé toute activité criminelle. Il a connu la rédemption grâce à son épouse, la patiente Janou. Aujourd'hui, il se consacre à sa famille. Mais Serge Suttel, son ami d'enfance et ancien complice, n'a rien renié de son passé...</desc>
-    <category lang="fr">Cinema</category>
-    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/unit/151509/canal-ouah_50002/STD169/myCANAL_16x9_MEA_1920x1080-k_Db"/>
+    <desc lang="fr">Dans les années 1970, Edmond Vidal, dit Momon, appartenait au redoutable gang des Lyonnais, qu'il formait avec Serge Suttel, ami d'enfance qui a connu comme lui l'existence précaire des gitans. Momon, aujourd'hui âgé de 60 ans, se souvient de cette jeunesse mouvementée, mais il chérit plus que tout sa tranquillité retrouvée. Grâce à son épouse Janou, qui a tant souffert par sa faute, l'homme a réussi à se ranger. Cette rédemption providentielle lui permet désormais de s'occuper paisiblement de ses enfants et de ses petits-enfants. Or, Serge Suttel n'a pas connu le même itinéraire, car l'ami de toujours n'est pas près de changer...</desc>
+    <category lang="fr">Film / Film policier</category>
   </programme>
   <programme channel="CinePlusFrisson.ch" start="20261015045600 +0200" stop="20261015063600 +0200">
     <title lang="fr">Les Lyonnais</title>
@@ -48655,6 +49035,18 @@ Acteurs : Hugh Dancy, Jeffrey Donovan, Odelya Halevi, Mehcad Brooks (Jalen Shaw)
     <desc lang="fr">Aucune donnée de programme disponible.</desc>
     <category lang="fr">Sport</category>
     <icon src="https://images.voomotion.be/Events/2026/06/11/37/2618861_A.jpg"/>
+  </programme>
+  <programme channel="ElevenSports1FR.be" start="20261015001000 +0200" stop="20261015003500 +0200">
+    <title lang="fr">Real Madrid - Rangers</title>
+    <desc lang="fr">Avant cette nouvelle saison, les clubs européens se donnent rendez-vous pour les premiers tests amicaux. Duel intéressant entre la classe de la maison blanche et la hargne écossaise.</desc>
+    <category lang="fr">Mag Sport</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/00/2621616_A.jpg"/>
+  </programme>
+  <programme channel="ElevenSports1FR.be" start="20261015003500 +0200" stop="20261015025000 +0200">
+    <title lang="fr">FC Barcelone / Getafe</title>
+    <desc lang="fr">Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.</desc>
+    <category lang="fr">Football</category>
+    <icon src="https://images.voomotion.be/Events/2026/08/11/55/2730816_A.jpg"/>
   </programme>
   <programme channel="ElevenSports1FR.be" start="20261015025000 +0200" stop="20261015030500 +0200">
     <title lang="fr">Episode 1</title>
@@ -61285,6 +61677,16 @@ Réalisateur(s) : Hippolyte Burkhart-Uhlen
     <category lang="fr">Autre</category>
     <icon src="https://www.programme-tv.net/imgre/fit/~1~tel~2026~10~06~6bd3010b-2654-4b29-93bc-99f8c178126c.jpg/370x208/quality/80/focus-point/279,226/paul-mirabel-et-laury-thilleman-complices-aime-jacquet-en-pleine-forme-stephane-bern-les-stars-dans-les-tribunes-de-france-belgique-photos.jpg"/>
   </programme>
+  <programme channel="Guadeloupe1.fr" start="20261015000700 +0200" stop="20261015002000 +0200">
+    <title lang="fr">Kaz o péyi</title>
+    <desc lang="fr"> Un magazine pratique de proximité qui répond à toutes les questions liées au logement et à l'habitat. </desc>
+    <category lang="fr">Magazine</category>
+  </programme>
+  <programme channel="Guadeloupe1.fr" start="20261015002000 +0200" stop="20261015004700 +0200">
+    <title lang="fr">Bo kaz</title>
+    <desc lang="fr"> Tous les mercredis, Ayma se rend dans les quartiers pour nous permettre de découvrir, en immersion, les acteurs de la société Guadeloupéenne. </desc>
+    <category lang="fr">Magazine</category>
+  </programme>
   <programme channel="Guadeloupe1.fr" start="20261015004700 +0200" stop="20261015005100 +0200">
     <title lang="fr">Kalina</title>
     <desc lang="fr"> Dans ce jeu d'aventure, quatre équipes de quatre candidats s'affrontent à travers des épreuves physiques, mentales et culturelles, pour retrouver le légendaire trésor des ancêtres Kalinagos, les premiers habitants de la Caraïbe. Chaque épisode mêle défis sportifs, stratégie, écologie, transmission et dépassement de soi, dans un cadre naturel exceptionnel. </desc>
@@ -62072,6 +62474,24 @@ Réalisateur(s) : Hippolyte Burkhart-Uhlen
   </programme>
   <programme channel="GulliAfrica.af" start="20261015234500 +0200" stop="20261016001000 +0200">
     <title lang="fr">Supa Strikas - Saison 2</title>
+  </programme>
+  <programme channel="Guyane1.fr" start="20261015000000 +0200" stop="20261015000100 +0200">
+    <title lang="fr">Guyane soir - les titres</title>
+    <desc lang="fr">Les grands titres des actualités du jour, développés par la suite lors de l'édition du journal.</desc>
+    <category lang="fr">Actualites</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/plmws/images.media-press.cloud/4bd5/4bd5ecb9b38142288d01a5637ebd0f26"/>
+  </programme>
+  <programme channel="Guyane1.fr" start="20261015000100 +0200" stop="20261015003000 +0200">
+    <title lang="fr">Journal 20h00</title>
+    <desc lang="fr">Les principales informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
+    <category lang="fr">Actualites</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/plmws/images.media-press.cloud/6a38/6a38fdc796604bddbb15af5c04ea3c48"/>
+  </programme>
+  <programme channel="Guyane1.fr" start="20261015003000 +0200" stop="20261015005000 +0200">
+    <title lang="fr">Guyane Soir</title>
+    <desc lang="fr">Une couverture complète de l'actualité de La Guyane.</desc>
+    <category lang="fr">Actualites</category>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/plmws/images.media-press.cloud/de40/de40ca0bf4ff4c34a7a9deb0abc1cf19"/>
   </programme>
   <programme channel="Guyane1.fr" start="20261015005000 +0200" stop="20261015010000 +0200">
     <title lang="fr">Météo</title>
@@ -71886,9 +72306,10 @@ Année : 2026
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="MTV.fr" start="20261015051300 +0200" stop="20261015060000 +0200">
-    <title lang="fr">Geordie Shore - S20E04</title>
-    <desc lang="fr">Sam prend une grande décision lorsque le groupe s'envole pour le Portugal. Le groupe s'éclate en Algarve mais des tensions entre Bethan, Beau et Abbie menacent de tout gâcher.</desc>
-    <category lang="fr">Série / Série de téléréalité</category>
+    <title lang="fr">Geordie Shore</title>
+    <desc lang="fr">"Geordie Shore" propose de suivre le quotidien de huit jeunes gens (quatre filles et quatre garçons) qui cohabitent dans une villa. Les candidats sont plutôt vantards et fêtards.</desc>
+    <category lang="fr">Série</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/11/08/2621574_A.jpg"/>
   </programme>
   <programme channel="MTV.fr" start="20261015060000 +0200" stop="20261015062200 +0200">
     <title lang="fr">Ridiculous - S35E41</title>
@@ -82417,7 +82838,7 @@ Présentateur(s) : Élodie Poyade
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20261015072500 +0200" stop="20261015074700 +0200">
     <title lang="fr">Paw Patrol, la Pat'Patrouille - S12E06</title>
-    <desc lang="fr">La saison 12 suit les nouvelles missions de la Pat' Patrouille. Avec leurs nouveaux amis, ils volent au secours de la Grande Vallée. Aucune mission n'est trop dure, car ces chiens ils assurent.</desc>
+    <desc lang="fr">Marjorie disparaît mystérieusement alors qu'elle allait rejoint Zarigan sur l'île des Phoques en paddle./M. Hellinger demande à la Patrouille de Détectives de l'aider à retrouver ses chatons.</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="NickelodeonJunior.fr" start="20261015074700 +0200" stop="20261015081000 +0200">
@@ -84136,33 +84557,33 @@ Présentateur(s) : Élodie Poyade
   </programme>
   <programme channel="OLTV.fr" start="20261015060000 +0200" stop="20261015090000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261015090000 +0200" stop="20261015120000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261015120000 +0200" stop="20261015150000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261015150000 +0200" stop="20261015180000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261015180000 +0200" stop="20261015210000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261015210000 +0200" stop="20261016060000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="ONETV.ch" start="20261015005000 +0200" stop="20261015010000 +0200">
     <title lang="fr">Rencontrons Nous</title>
@@ -85942,6 +86363,134 @@ Présentateur(s) : Élodie Poyade
     <title lang="fr">La maison sur le lac</title>
     <desc lang="fr">Après la mort soudaine de sa femme, Mike Noonan, auteur de romans à succès, décide de se retirer dans leur chalet du Maine, au bord d'un lac. Effondré, il ne parvient pas à surmonter sa douleur et souffre du syndrome de la page blanche. Alors qu'il est retiré du monde, il reçoit la visite d'étranges fantômes semblant tout droit sortis de ses pires cauchemars. Il comprend peu à peu que sa femme disparue tente d'établir le contact avec lui. Il fait aussi la connaissance de Mattie, veuve, et de sa fillette, âgée de 3 ans. La jeune femme est au beau milieu d'une bataille juridique pour la garde de Kyra.</desc>
     <category lang="fr">Téléfilm / Téléfilm de suspense</category>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015003300 +0200" stop="20261015012500 +0200">
+    <title lang="fr">Destins croisés S1 E53</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015012500 +0200" stop="20261015015900 +0200">
+    <title lang="fr">Deniz S2 E23</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015015900 +0200" stop="20261015020000 +0200">
+    <title lang="fr">Fin</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015020000 +0200" stop="20261015021500 +0200">
+    <title lang="fr">Deniz S2 E23</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015021500 +0200" stop="20261015030400 +0200">
+    <title lang="fr">L'amour n'a pas d'âge S1 E144</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015030400 +0200" stop="20261015035300 +0200">
+    <title lang="fr">Rouge carmin S1 E29</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015035300 +0200" stop="20261015044400 +0200">
+    <title lang="fr">Destins croisés S1 E52</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015044400 +0200" stop="20261015053600 +0200">
+    <title lang="fr">Deniz S2 E22</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015053600 +0200" stop="20261015062400 +0200">
+    <title lang="fr">L'amour n'a pas d'âge S1 E144</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015062400 +0200" stop="20261015071400 +0200">
+    <title lang="fr">Rouge carmin S1 E29</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015071400 +0200" stop="20261015080400 +0200">
+    <title lang="fr">Destins croisés S1 E52</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015080400 +0200" stop="20261015085700 +0200">
+    <title lang="fr">Deniz S2 E22</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015085700 +0200" stop="20261015093100 +0200">
+    <title lang="fr">Fitness S1 E6</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015093100 +0200" stop="20261015101600 +0200">
+    <title lang="fr">L'amour n'a pas d'âge S1 E145</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015101600 +0200" stop="20261015110400 +0200">
+    <title lang="fr">Rouge carmin S1 E30</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015110400 +0200" stop="20261015115500 +0200">
+    <title lang="fr">Destins croisés S1 E53</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015115500 +0200" stop="20261015124600 +0200">
+    <title lang="fr">Deniz S2 E23</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015124600 +0200" stop="20261015133300 +0200">
+    <title lang="fr">Rouge carmin S1 E30</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015133300 +0200" stop="20261015142400 +0200">
+    <title lang="fr">L'amour n'a pas d'âge S1 E145</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015142400 +0200" stop="20261015152500 +0200">
+    <title lang="fr">L'amour presque parfait S1 E3</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015152500 +0200" stop="20261015161400 +0200">
+    <title lang="fr">Deniz S2 E24</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015161400 +0200" stop="20261015170300 +0200">
+    <title lang="fr">L'amour n'a pas d'âge S1 E146</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015170300 +0200" stop="20261015174900 +0200">
+    <title lang="fr">Destins croisés S1 E53</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015174900 +0200" stop="20261015183300 +0200">
+    <title lang="fr">Rouge carmin S1 E30</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015183300 +0200" stop="20261015191900 +0200">
+    <title lang="fr">Deniz S2 E24</title>
+    <desc lang="fr">Deniz a tout ce dont une femme peut rêver. Mais quand son mari disparait sans laisser de trace, sa vie est bouleversée. Désespérée avec ses deux enfants et son père, Deniz va rencontrer Mirat qui deviendra son amant et son sauveur.</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015191900 +0200" stop="20261015200300 +0200">
+    <title lang="fr">L'amour n'a pas d'âge S1 E146</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015200300 +0200" stop="20261015205400 +0200">
+    <title lang="fr">Destins croisés S1 E53</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015205400 +0200" stop="20261015214200 +0200">
+    <title lang="fr">Rouge carmin S1 E31</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015214200 +0200" stop="20261015215500 +0200">
+    <title lang="fr">Travel S1 E10</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015215500 +0200" stop="20261015224400 +0200">
+    <title lang="fr">Destins croisés S1 E54</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015224400 +0200" stop="20261015235400 +0200">
+    <title lang="fr">L'amour presque parfait S1 E3</title>
+    <desc lang="fr">NA</desc>
+  </programme>
+  <programme channel="PassionNovelas.af" start="20261015235400 +0200" stop="20261016004000 +0200">
+    <title lang="fr">Rouge carmin S1 E31</title>
+    <desc lang="fr">NA</desc>
   </programme>
   <programme channel="PenthouseBlack.fr" start="20261015000000 +0200" stop="20261015020000 +0200">
     <title lang="fr">Erotic Ebonys V12</title>
@@ -102152,17 +102701,17 @@ Alors que Blade fait face à des adversaires de plus en plus redoutables, il doi
   <programme channel="TL7SaintEtienne.fr" start="20261015051400 +0200" stop="20261015052900 +0200">
     <title lang="fr">Côté scène rétro</title>
     <desc lang="fr">Magazine qui vous offre le portrait intimiste d'un artiste ou d'un événement culturel.</desc>
-    <category lang="fr">Magazine / Magazine musical</category>
+    <category lang="fr">Magazine</category>
   </programme>
   <programme channel="TL7SaintEtienne.fr" start="20261015052900 +0200" stop="20261015054400 +0200">
     <title lang="fr">JT TL7</title>
     <desc lang="fr">Le JT dédié à l'actualités de la Loire.</desc>
-    <category lang="fr">Divers / Journal</category>
+    <category lang="fr">Divers</category>
   </programme>
   <programme channel="TL7SaintEtienne.fr" start="20261015054400 +0200" stop="20261015060100 +0200">
     <title lang="fr">Grand tourisme</title>
     <desc lang="fr">Reportage touristique, sur les meilleurs destinations à découvrir.</desc>
-    <category lang="fr">Magazine / Magazine du tourisme</category>
+    <category lang="fr">Magazine</category>
   </programme>
   <programme channel="TL7SaintEtienne.fr" start="20261015060100 +0200" stop="20261015061600 +0200">
     <title lang="fr">Pass' Moi l'Assoc</title>
@@ -109780,6 +110329,36 @@ Année : 2022
     <title lang="fr">La chaîne généraliste du Togo</title>
     <category lang="fr">Divertissement</category>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x360/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50572/canal-ouah/GEN169/TVT_FALLBACK_AFR_16x9-otL8"/>
+  </programme>
+  <programme channel="TVTours.fr" start="20261015000000 +0200" stop="20261015001400 +0200">
+    <title lang="fr">Trois...Quatre !</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~bd47340187fb16fe.jpeg/640x360/quality/80/trois-quatre.jpg"/>
+  </programme>
+  <programme channel="TVTours.fr" start="20261015001400 +0200" stop="20261015001500 +0200">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~37401ccdd0ebf501.jpeg/640x360/quality/80/meteo.jpg"/>
+  </programme>
+  <programme channel="TVTours.fr" start="20261015001500 +0200" stop="20261015001800 +0200">
+    <title lang="fr">Val de Loire en direct</title>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~34fa7e2adb8abb68.jpeg/640x360/quality/80/val-de-loire-en-direct.jpg"/>
+  </programme>
+  <programme channel="TVTours.fr" start="20261015001800 +0200" stop="20261015003000 +0200">
+    <title lang="fr">Retro zapping</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2139bf6e1985d429.jpeg/640x360/quality/80/retro-zapping.jpg"/>
+  </programme>
+  <programme channel="TVTours.fr" start="20261015003000 +0200" stop="20261015004200 +0200">
+    <title lang="fr">Local génial</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~668dc29a8788c2cb.jpeg/640x360/quality/80/local-genial.jpg"/>
+  </programme>
+  <programme channel="TVTours.fr" start="20261015004200 +0200" stop="20261015010000 +0200">
+    <title lang="fr">Local génial</title>
+    <category lang="fr">Culture Infos</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~668dc29a8788c2cb.jpeg/640x360/quality/80/local-genial.jpg"/>
   </programme>
   <programme channel="TVTours.fr" start="20261015010000 +0200" stop="20261015013000 +0200">
     <title lang="fr">Le JT TV Tours</title>
@@ -123344,7 +123923,6 @@ Valentine, 22 ans, est cavalière. Son rêve : faire partie du prestigieux spect
   </programme>
   <programme channel="beINSPORTS1.fr" start="20261015024500 +0200" stop="20261015044500 +0200">
     <title lang="fr">Football : Ligue 2 BKT - Nantes / Reims</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS1.fr" start="20261015030000 +0200" stop="20261015050000 +0200">
@@ -123543,7 +124121,6 @@ Valentine, 22 ans, est cavalière. Son rêve : faire partie du prestigieux spect
   </programme>
   <programme channel="beINSPORTS2.fr" start="20261015120000 +0200" stop="20261015140000 +0200">
     <title lang="fr">Football : Ligue 2 BKT - Nantes / Reims</title>
-    <desc lang="fr">Retransmission d'une rencontre disputée dans le cadre de la Ligue 2, la deuxième division du championnat de football professionnel en France, créée en 1933 et placée sous l'égide de la Ligue de football professionnel (LFP). Clubs relégués, promus, adeptes de l'ascenseur et pensionnaires de longue date, tous visent un seul et même objectif : glaner un des précieux sésames pour la Ligue 1.</desc>
     <category lang="fr">Emission sportive / Football</category>
   </programme>
   <programme channel="beINSPORTS2.fr" start="20261015140000 +0200" stop="20261015160000 +0200">
@@ -142692,6 +143269,22 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <desc lang="fr">Une découverte de la plus grande collection de films de mode ! Choisissez parmi des centaines de films de mode de vos créateurs et maisons préférés.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="oqee.1373" start="20261015001258 +0200" stop="20261015015525 +0200">
+    <title lang="fr">L'étranger</title>
+    <desc lang="fr">Lex Walker apprend que sa fille est morte. Se rendant à Los Angeles pour identifier le corps, il découvre que ce dernier n'est pas celui de sa fille ; il décide alors de mener son enquête.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20261015015526 +0200" stop="20261015035934 +0200">
+    <title lang="fr">Darkland Undercover</title>
+    <desc lang="fr">Emprisonné depuis sept ans, Zaid accepte de se mettre au service de la police en échange de sa libération. Il va devoir infiltrer un gang violent pour espérer sortir un jour de prison et revoir son fils Noah.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20261015035935 +0200" stop="20261015054745 +0200">
+    <title lang="fr">The Cash Collector</title>
+    <desc lang="fr">Un champion d'arts martiaux se met à travailler comme collecteur de dettes. Le travail semble assez facile, jusqu’à ce qu'un client ne l'entraîne dans une situation plus sombre à laquelle il ne s'attendait pas.</desc>
+  </programme>
+  <programme channel="oqee.1373" start="20261015054746 +0200" stop="20261015072747 +0200">
+    <title lang="fr">Soldiers of Fortune</title>
+    <desc lang="fr">Des millionnaires, amateurs de sensations fortes payent des fortunes pour être infiltrés au sein d'opérations militaires encadrées par des professionnels du combat. Mais face à des adversaires plus coriaces et plus meurtriers que prévus, les choses dérapent</desc>
+  </programme>
   <programme channel="oqee.1375" start="20261015001623 +0200" stop="20261015012640 +0200">
     <title lang="fr">Surprise sur prise - S01E23</title>
     <desc lang="fr">L’émission culte qui piège les célébrités grâce à la complicité de leurs proches pour le plus grand plaisir du public. Entre caméras cachées et mises en scène délirantes, Surprise sur prise mêle humour, émotion et surprises inattendues.</desc>
@@ -142768,6 +143361,42 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Aloha</title>
     <desc lang="fr">Un entrepreneur militaire reconnu revient sur le site de ses plus grands triomphes de carrière et renoue avec un amour de son passé, tout en craquant de manière inattendue pour une dure à cuire de l'Air Force qui lui est assignée.</desc>
   </programme>
+  <programme channel="oqee.1385" start="20261015082241 +0200" stop="20261015102746 +0200">
+    <title lang="fr">Undercover – Une Histoire Vraie</title>
+    <desc lang="fr">UNDERCOVER est tiré de l’émouvante histoire vraie d’un père ouvrier et de son fils adolescent, Rick Wershe Jr., qui devint informateur pour le FBI puis dealer de drogue, avant d’être abandonné par ceux qui l’avaient utilisé, et condamné à perpétuité.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015102747 +0200" stop="20261015120948 +0200">
+    <title lang="fr">Virgin secrets</title>
+    <desc lang="fr">Ronnie a tout du jeune homme parfait : il est séduisant, issu d’une famille aisée, et il s’apprête à rejoindre une prestigieuse université. Mais par-dessus tout, il accompagne la fille la plus en vue du lycée, Mélissa, au bal de fin d’année.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015120949 +0200" stop="20261015135644 +0200">
+    <title lang="fr">Stay</title>
+    <desc lang="fr">Un jeune homme dépressif annonce à son psychiatre qu'il va se suicider dans trois jours. Celui-ci va l'entraîner dans un voyage cauchemardesque entre la vie et la mort à travers la ville.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015135645 +0200" stop="20261015155015 +0200">
+    <title lang="fr">Usurpation</title>
+    <desc lang="fr">Katie déménage en ville avec sa jeune fille pour démarrer une nouvelle vie. Elle devient rapidement amie avec un autre couple qui commence à se poser des questions après avoir observé son étrange comportement.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015155016 +0200" stop="20261015173258 +0200">
+    <title lang="fr">Stratton</title>
+    <desc lang="fr">Stratton, agent du MI6, s’infiltre avec son coéquipier Marty dans un laboratoire iranien pour intercepter le vol de molécules chimiques mortelles. Mais à leur arrivée, celles-ci ont déjà disparu et la mission tourne mal…</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015173259 +0200" stop="20261015193637 +0200">
+    <title lang="fr">Les 3 crimes de West Memphis</title>
+    <desc lang="fr">En 1993, trois enfants sont retrouvés mort à West Memphis, ville de l'Arkansas. Accusés d'être des satanistes adorateurs de musique Heavy Metal, trois adolescents ont été condamnés l'année suivante à perpétuité pour ce triple meurtre.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015193638 +0200" stop="20261015220447 +0200">
+    <title lang="fr">Chevalier</title>
+    <desc lang="fr">Un jeune écuyer se lance dans une aventure qui va changer sa vie, lui faire gagner le cœur d'une belle jeune fille et secouer le monde médiéval.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015220448 +0200" stop="20261015235818 +0200">
+    <title lang="fr">Témoin à Louer</title>
+    <desc lang="fr">Doug Harris a un vrai problème: le jeune homme, qui n'a pas une vie sociale très riche, est sur le point de se marier, mais n'a pas de témoin.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261015235819 +0200" stop="20261016014631 +0200">
+    <title lang="fr">Borat, nouvelle mission filmée</title>
+    <desc lang="fr">Dans cette suite hilarante, le quatrième meilleur journaliste du Kazakhstan, Borat Sagdiyev, doit offrir un "cadeau" au vice-président américain.</desc>
+  </programme>
   <programme channel="oqee.1386" start="20261015000006 +0200" stop="20261015014550 +0200">
     <title lang="fr">Teeth</title>
     <desc lang="fr">Une adolescente dotée d'une étrange mutation corporelle commence à réaliser qu'elle peut l'utiliser à son avantage après une rencontre effrayante avec un garçon de l'école.</desc>
@@ -142788,6 +143417,42 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Mon beauf, ma sœur et moi</title>
     <desc lang="fr">Patrick a toujours eu une relation agressive avec sa petite sœur Marilyn. Mais quand elle ramène à la maison son fiancé star de la télé, Ryan, la guerre est déclarée dans ce film désopilant et cauchemardesque sur une famille qui s'aime à en tuer.</desc>
   </programme>
+  <programme channel="oqee.1386" start="20261015081711 +0200" stop="20261015100307 +0200">
+    <title lang="fr">Fool's Paradise</title>
+    <desc lang="fr">Un publiciste malchanceux a sa chance lorsqu'il découvre qu'un homme muet récemment libéré d'un établissement de santé mentale ressemble étrangement à un acteur de méthode qui refuse de quitter sa caravane.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015100308 +0200" stop="20261015115053 +0200">
+    <title lang="fr">Simplement irrésistible</title>
+    <desc lang="fr">Un cadre d'un grand magasin essaye de ne pas tomber amoureux d’une jeune femme qui, selon lui, acquiert des pouvoirs magiques depuis qu'elle a hérité d’un restaurant.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015115054 +0200" stop="20261015141040 +0200">
+    <title lang="fr">Les Aiguilleurs</title>
+    <desc lang="fr">Nick Falzone a tout : une femme charmante, des enfants, un métier de contrôleur aérien où il excelle. Mais Russell Bell débarque, maître zen et casse-cou à moto, et une rivalité s'installe.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015141041 +0200" stop="20261015162457 +0200">
+    <title lang="fr">Hitch - Expert en Séduction</title>
+    <desc lang="fr">New York "date doctor" Alex Hitchens (Will Smith) tries to charm gossip columnist Sara Melas (Eva Mendes) at the same time he is coaching shy Albert (Kevin James) on how to win the love of beautiful heiress Allegra Cole (Amber Valletta).</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015162458 +0200" stop="20261015175955 +0200">
+    <title lang="fr">Big movie</title>
+    <desc lang="fr">La parodie ultime des plus grands blockbusters, de X-Men à Pirates des Caraïbes en passant par le Monde de Narnia et Harry Potter.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015175956 +0200" stop="20261015193914 +0200">
+    <title lang="fr">Jet Lag</title>
+    <desc lang="fr">Le directeur zélé d’une petite entreprise américaine et ses deux associés partent en Europe pour conclure le contrat le plus important de leurs carrières. Mais ce qui commence comme un simple voyage d’affaire dérape rapidement et l’équipée se retrouve dans des situations improbables...</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015193915 +0200" stop="20261015211758 +0200">
+    <title lang="fr">Allumeuses!</title>
+    <desc lang="fr">Trois amies croquent la vie à pleines dents et n'ont pas besoin d'hommes pour être heureuses. Jusqu'au jour où l'une d'entre elles tombe amoureuse... Christina s'est toujours efforcée de respecter une règle d'or en matière de mecs: "Eviter toute relation sérieuse avec le sexe opposé".</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015211759 +0200" stop="20261015230106 +0200">
+    <title lang="fr">L'Arnaqueuse</title>
+    <desc lang="fr">Peg Dahl est une jeune femme qui espère quitter sa ville natale de Buffalo. Elle se lance dans le business du recouvrement de dettes. La guerre est déclarée avec le Roi des chasseurs de dettes de Buffalo.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261015230107 +0200" stop="20261016005437 +0200">
+    <title lang="fr">Témoin à Louer</title>
+    <desc lang="fr">Doug Harris a un vrai problème: le jeune homme, qui n'a pas une vie sociale très riche, est sur le point de se marier, mais n'a pas de témoin.</desc>
+  </programme>
   <programme channel="oqee.1387" start="20261015002735 +0200" stop="20261015022305 +0200">
     <title lang="fr">Valley Girl</title>
     <desc lang="fr">Dans cette adaptation du classique de 83, Julie (Jessica Rothe) incarne parfaitement la petite fille parfaite qui voit son univers bouleversé lorsqu'elle tombe amoureuse de Randy (Josh Whitehouse), un punk rocker d'Hollywood !</desc>
@@ -142804,33 +143469,137 @@ Le compagnon de la victime, qui entraînait son chien à l’attaque en toute il
     <title lang="fr">Juste un peu d'alchimie</title>
     <desc lang="fr">Oli tombe amoureuse d'Eric, une étoile brillante du cinéma et de la télévision. Elle va vivre une merveilleuse romance dans un monde de glamour.</desc>
   </programme>
+  <programme channel="oqee.1387" start="20261015074838 +0200" stop="20261015100804 +0200">
+    <title lang="fr">The Best Offer</title>
+    <desc lang="fr">Virgil Oldman, un expert en art reclus, acquiert des tableaux inestimables en trompant leurs propriétaires sur leur valeur. Engagé par la mystérieuse Claire Ibbetson pour évaluer son patrimoine, Virgil découvre des pièces mécaniques et demande l’aide de son ami Robert pour les réassembler.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015100805 +0200" stop="20261015115838 +0200">
+    <title lang="fr">Coup de Foudre à Oxford</title>
+    <desc lang="fr">Caro Drake, émotionnellement gardée, arrive à Oxford avec le seul objectif d'obtenir son doctorat, mais à travers une amitié turbulente avec un charmant jeune homme, Caro commence à s'ouvrir au mystère des nouvelles expériences, à la vulnérabilité et à l'amour.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015115839 +0200" stop="20261015134301 +0200">
+    <title lang="fr">Good Advice</title>
+    <desc lang="fr">Ryan Turner est un jeune banquier-investisseur qui connaît un succès incomparable. Ryan court beaucoup trop les jupons et couche régulièrement avec ses clientes, y compris, malheureusement pour lui, Veronica Simpson, la femme de son plus important client, Donald Simpson.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015134302 +0200" stop="20261015152541 +0200">
+    <title lang="fr">Very Good Girls</title>
+    <desc lang="fr">Lors de leur premier été après la fin du lycée, deux adolescentes new-yorkaises se promettent de perdre leur virginité. Lorsqu'elles tombent toutes les deux amoureuses du même artiste de street art, l'amitié des deux jeunes filles est mise à rude épreuve pour la première fois.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015152542 +0200" stop="20261015170312 +0200">
+    <title lang="fr">The Escort</title>
+    <desc lang="fr">Prêt à tout pour trouver un sujet d’article intéressant, un journaliste suit une prostituée diplômée de Stanford et s’introduit dans le monde des escorts girls de luxe.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015170313 +0200" stop="20261015185320 +0200">
+    <title lang="fr">Lucky girl</title>
+    <desc lang="fr">Ashley est la femme la plus chanceuse de New York. Mais sa chance s'intervertit bizarrement avec celle du jeune homme le plus malchanceux de la ville.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015185321 +0200" stop="20261015203124 +0200">
+    <title lang="fr">Le merveilleux jardin secret de Bella Brown</title>
+    <desc lang="fr">Bella, jeune femme fantasque, risque l’expulsion si elle ne remet pas son jardin en état. Elle fait alors la rencontre d’Alfie, son voisin bougon et passionné de jardinage, qui va bouleverser sa vie.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015203125 +0200" stop="20261015221557 +0200">
+    <title lang="fr">Blue State</title>
+    <desc lang="fr">Dans cette charmante comédie romantique, un fervent libéral (Breckin Meyer), après la défaite de son candidat aux élection, tient sa promesse de partir au Canada et rencontre en chemin une jeune femme aussi sexy que mystérieuse (Anna Paquin).</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015221558 +0200" stop="20261015235917 +0200">
+    <title lang="fr">Tous les chemins mènent à Rome</title>
+    <desc lang="fr">Une mère de famille un peu à cran, se voit partir en road trip en Italie avec son amour de jeunesse Italien, afin de rattraper sa fille rebelle, qui souhaite rejoindre New-York à tout prix.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261015235918 +0200" stop="20261016014411 +0200">
+    <title lang="fr">Dixieland</title>
+    <desc lang="fr">Un jeune homme récemment sorti de prison, malchanceux et imprévisible, et une jeune fille séduisante et issue d’une famille déséquilibrée, se retrouvent entraînés dans une spirale criminelle alors qu’ils essaient de fuir leur petite ville sans avenir à la recherche d’une vie meilleure.</desc>
+  </programme>
   <programme channel="oqee.1388" start="20261015010417 +0200" stop="20261015025741 +0200">
     <title lang="fr">Une femme d'honneur</title>
-    <desc lang="fr">Au cours d'un cambriolage, le gardien d'une propriété est tué d'une balle tirée par l'un d'eux. Isabelle Florent et ses hommes s'étonnent de constater que seul un livre a été dérobé dans la bibliothèque.</desc>
+    <desc lang="fr">La brigade quadrille la région pour retrouver des prisonniers en cavale et leur otage : une religieuse. Parallèlement, le cadavre d'une jeune femme de 35 ans tuée par balle est retrouvé sur le bord d'une route.</desc>
   </programme>
   <programme channel="oqee.1388" start="20261015025742 +0200" stop="20261015035145 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">6 juin 1998. Brooke Sutton, six ans, découvre à son réveil que sa grand-mère a été assassinée dans la maison de sa petite ville de l'Ohio. Elle-même couverte de sang, Brooke court chercher de l'aide auprès d'un voisin. Les enquêteurs sont appelés sur les lieux.</desc>
+    <desc lang="fr">Le corps nu de Nicola Parsons est retrouvé bâillonné et ligoté dans un jardin d'enfants abandonné à Plymouth, en Angleterre. Des coups de couteau ont été portés à sa poitrine, un tissu a été noué autour de son cou et l'autopsie confirme que la jeune femme de 18 ans a été violée.</desc>
   </programme>
   <programme channel="oqee.1388" start="20261015035146 +0200" stop="20261015044550 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">6 juin 1998. Brooke Sutton, six ans, découvre à son réveil que sa grand-mère a été assassinée dans la maison de sa petite ville de l'Ohio. Elle-même couverte de sang, Brooke court chercher de l'aide auprès d'un voisin. Les enquêteurs sont appelés sur les lieux.</desc>
+    <desc lang="fr">Le corps nu de Nicola Parsons est retrouvé bâillonné et ligoté dans un jardin d'enfants abandonné à Plymouth, en Angleterre. Des coups de couteau ont été portés à sa poitrine, un tissu a été noué autour de son cou et l'autopsie confirme que la jeune femme de 18 ans a été violée.</desc>
   </programme>
   <programme channel="oqee.1388" start="20261015044551 +0200" stop="20261015053953 +0200">
     <title lang="fr">Cold Blood</title>
-    <desc lang="fr">6 juin 1998. Brooke Sutton, six ans, découvre à son réveil que sa grand-mère a été assassinée dans la maison de sa petite ville de l'Ohio. Elle-même couverte de sang, Brooke court chercher de l'aide auprès d'un voisin. Les enquêteurs sont appelés sur les lieux.</desc>
+    <desc lang="fr">Le corps nu de Nicola Parsons est retrouvé bâillonné et ligoté dans un jardin d'enfants abandonné à Plymouth, en Angleterre. Des coups de couteau ont été portés à sa poitrine, un tissu a été noué autour de son cou et l'autopsie confirme que la jeune femme de 18 ans a été violée.</desc>
   </programme>
   <programme channel="oqee.1388" start="20261015053954 +0200" stop="20261015060603 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un jeune escroc allemand s'installe en Amérique, adopte diverses identités et tue de nombreuses personnes en cours de route.</desc>
+    <desc lang="fr">Un homme est assassiné par l'amant de sa femme infidèle, qui vivait dans leur placard.</desc>
   </programme>
   <programme channel="oqee.1388" start="20261015060604 +0200" stop="20261015063605 +0200">
     <title lang="fr">Bizarre Murders</title>
-    <desc lang="fr">Un jeune escroc allemand s'installe en Amérique, adopte diverses identités et tue de nombreuses personnes en cours de route.</desc>
+    <desc lang="fr">Un homme est assassiné par l'amant de sa femme infidèle, qui vivait dans leur placard.</desc>
   </programme>
   <programme channel="oqee.1388" start="20261015063606 +0200" stop="20261015070811 +0200">
     <title lang="fr">Expert Witness</title>
-    <desc lang="fr">La violence domestique est un crime qui ne devrait jamais être toléré. Pourtant, chaque semaine en Angleterre et au Pays de Galles, deux femmes sont tuées par un partenaire actuel ou ancien.</desc>
+    <desc lang="fr">La première histoire de cet épisode révèle comment, dans le monde de l'art, la science médico-légale a découvert des contrefaçons présentées comme authentiques.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015070812 +0200" stop="20261015075829 +0200">
+    <title lang="fr">Robocop : La Série</title>
+    <desc lang="fr">Des vétérans protestent contre l'exposition aux gaz toxiques dont ils ont été les premières victimes. Robocop doit alors agir vite pour réussir à sauver Diana des expériences militaires qui peuvent la détruire...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015075830 +0200" stop="20261015084846 +0200">
+    <title lang="fr">Robocop : La Série</title>
+    <desc lang="fr">Des vétérans protestent contre l'exposition aux gaz toxiques dont ils ont été les premières victimes. Robocop doit alors agir vite pour réussir à sauver Diana des expériences militaires qui peuvent la détruire...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015084847 +0200" stop="20261015093903 +0200">
+    <title lang="fr">Robocop : La Série</title>
+    <desc lang="fr">Des vétérans protestent contre l'exposition aux gaz toxiques dont ils ont été les premières victimes. Robocop doit alors agir vite pour réussir à sauver Diana des expériences militaires qui peuvent la détruire...</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015093904 +0200" stop="20261015104456 +0200">
+    <title lang="fr">Bron</title>
+    <desc lang="fr">Le tueur poursuit son jeu du chat et de la souris : il est parvenu à convaincre quatre personnes souffrant de schizophrénie de commettre quatre crimes parfaitement synchronisés. La raison avancée : mettre en lumière les conséquences des coupes budgétaires dans les hôpitaux psychiatriques.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015104457 +0200" stop="20261015115058 +0200">
+    <title lang="fr">Bron</title>
+    <desc lang="fr">Le tueur poursuit son jeu du chat et de la souris : il est parvenu à convaincre quatre personnes souffrant de schizophrénie de commettre quatre crimes parfaitement synchronisés. La raison avancée : mettre en lumière les conséquences des coupes budgétaires dans les hôpitaux psychiatriques.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015115059 +0200" stop="20261015133633 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">La brigade quadrille la région pour retrouver des prisonniers en cavale et leur otage : une religieuse. Parallèlement, le cadavre d'une jeune femme de 35 ans tuée par balle est retrouvé sur le bord d'une route.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015133634 +0200" stop="20261015151826 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">La brigade quadrille la région pour retrouver des prisonniers en cavale et leur otage : une religieuse. Parallèlement, le cadavre d'une jeune femme de 35 ans tuée par balle est retrouvé sur le bord d'une route.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015151827 +0200" stop="20261015160921 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">Chris se retrouve confronté à des souvenirs pénibles le jour où elle doit témoigner devant la Cour martiale au nom d'une femme pilote qui s'est écrasée avec son jet, entrainant la mort de son copilote. T.C. et Victor mènent une enquête sur le cambriolage organisé de touristes qui tourne à l'homicide</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015160922 +0200" stop="20261015170026 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">Chris se retrouve confronté à des souvenirs pénibles le jour où elle doit témoigner devant la Cour martiale au nom d'une femme pilote qui s'est écrasée avec son jet, entrainant la mort de son copilote. T.C. et Victor mènent une enquête sur le cambriolage organisé de touristes qui tourne à l'homicide</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015170027 +0200" stop="20261015175120 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">Chris se retrouve confronté à des souvenirs pénibles le jour où elle doit témoigner devant la Cour martiale au nom d'une femme pilote qui s'est écrasée avec son jet, entrainant la mort de son copilote. T.C. et Victor mènent une enquête sur le cambriolage organisé de touristes qui tourne à l'homicide</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015175121 +0200" stop="20261015184219 +0200">
+    <title lang="fr">Pacific Blue</title>
+    <desc lang="fr">Chris se retrouve confronté à des souvenirs pénibles le jour où elle doit témoigner devant la Cour martiale au nom d'une femme pilote qui s'est écrasée avec son jet, entrainant la mort de son copilote. T.C. et Victor mènent une enquête sur le cambriolage organisé de touristes qui tourne à l'homicide</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015184220 +0200" stop="20261015193406 +0200">
+    <title lang="fr">Rex, chien flic</title>
+    <desc lang="fr">Un homme est retrouvé assassiné par balle sur un marché Viennois. Le commissaire Moser et son équipe évoquent une possible affaire de jalousie. Ils découvrent bientôt que la victime connaissait Irina, une jeune femme russe très attirante, propriétaire d'un stand au marché.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015193407 +0200" stop="20261015202654 +0200">
+    <title lang="fr">Rex, chien flic</title>
+    <desc lang="fr">Un homme est retrouvé assassiné par balle sur un marché Viennois. Le commissaire Moser et son équipe évoquent une possible affaire de jalousie. Ils découvrent bientôt que la victime connaissait Irina, une jeune femme russe très attirante, propriétaire d'un stand au marché.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015202655 +0200" stop="20261015211801 +0200">
+    <title lang="fr">Rex, chien flic</title>
+    <desc lang="fr">Un homme est retrouvé assassiné par balle sur un marché Viennois. Le commissaire Moser et son équipe évoquent une possible affaire de jalousie. Ils découvrent bientôt que la victime connaissait Irina, une jeune femme russe très attirante, propriétaire d'un stand au marché.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015211802 +0200" stop="20261015231655 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">La brigade quadrille la région pour retrouver des prisonniers en cavale et leur otage : une religieuse. Parallèlement, le cadavre d'une jeune femme de 35 ans tuée par balle est retrouvé sur le bord d'une route.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261015231656 +0200" stop="20261016010332 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">La brigade quadrille la région pour retrouver des prisonniers en cavale et leur otage : une religieuse. Parallèlement, le cadavre d'une jeune femme de 35 ans tuée par balle est retrouvé sur le bord d'une route.</desc>
   </programme>
   <programme channel="oqee.1389" start="20261015001000 +0200" stop="20261015003100 +0200">
     <title lang="fr">Easy Talk</title>
@@ -156000,7 +156769,6 @@ Promesse tenue ?</desc>
   </programme>
   <programme channel="oqee.396" start="20261015220000 +0200" stop="20261015230000 +0200">
     <title lang="fr">The World with Yalda Hakim</title>
-    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20261015220000 +0200" stop="20261015223000 +0200">
@@ -169009,15 +169777,30 @@ Promesse tenue ?</desc>
     <desc lang="fr">Prognoza meteo actualizată oferă informații esențiale despre evoluția vremii la nivel național și internațional: temperaturi, precipitații, fenomene extreme și tendințe pentru zilele următoare. Prezentată clar și concis, rubrica meteo îi ajută pe telespectatori să își planifice activitățile zilnice în funcție de condițiile atmosferice.</desc>
     <category lang="fr">Divers / Météo</category>
   </programme>
+  <programme channel="oqee.812" start="20261015193000 +0200" stop="20261015201500 +0200">
+    <title lang="fr">Las Fierbinţi</title>
+    <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="oqee.812" start="20261015193000 +0200" stop="20261015203000 +0200">
     <title lang="fr">Las Fierbinţi</title>
     <desc lang="fr">Acţiunea se petrece în satul Fierbinţi, acolo unde existenţa locuitorilor se desfăşoară lent, într-un paradis rural care s-a adaptat, în stil pur românesc, la vremurile moderne. Viceprimarul Vasile (Gheorghe Ifrim) vrea să-i ia locul actualului primar şi se bazează pe sprijinul cârciumarului Bobiţă (Mihai Bobonete) şi al prietenului acestuia Giani (Costi Diţă), şmecheraşul tipic de provincie.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="oqee.812" start="20261015201500 +0200" stop="20261015210000 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20261015203000 +0200" stop="20261015213000 +0200">
     <title lang="fr">Lecţii de viaţă</title>
     <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20261015210000 +0200" stop="20261015213000 +0200">
+    <title lang="fr">La Bloc</title>
+    <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="oqee.812" start="20261015213000 +0200" stop="20261015220000 +0200">
     <title lang="fr">La Bloc</title>

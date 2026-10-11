@@ -3021,6 +3021,22 @@
     <display-name>100% Comedy</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3781/w256"/>
   </channel>
+  <channel id="oqee.1385">
+    <display-name>Rakuten TV Top Films</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3790/w256"/>
+  </channel>
+  <channel id="oqee.1386">
+    <display-name>Rakuten TV Comédies</display-name>
+    <icon src="https://img2.oqee.net/channel_pictures/3791/w256"/>
+  </channel>
+  <channel id="oqee.1387">
+    <display-name>Rakuten TV Romance</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3796/w256"/>
+  </channel>
+  <channel id="oqee.1388">
+    <display-name>Rakuten TV Crime</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/3794/w256"/>
+  </channel>
   <channel id="oqee.1389">
     <display-name>LingoToons</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3810/w256"/>
@@ -4769,7 +4785,7 @@
   <programme channel="6ter.fr" start="20261016014000 +0200" stop="20261016063000 +0200">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Autre</category>
+    <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
   <programme channel="6ter.fr" start="20261016063000 +0200" stop="20261016072000 +0200">
     <title lang="fr">Une vie rêvée - S01E61</title>
@@ -9343,10 +9359,9 @@ Acteurs : Nicolas Gob (Antoine Verlay), Eléonore Bernheim (Florence Chassagne),
     <category lang="fr">Film / Film d'action</category>
   </programme>
   <programme channel="Action.fr" start="20261016052900 +0200" stop="20261016064200 +0200">
-    <title lang="fr">Manipulations (Episode 5) S1 (5/6)</title>
-    <desc lang="fr">«Episode 5»Joseph, qui s'est rapproché de Caroline, tente d'amasser un maximum de preuves pour faire tomber Mathias. Après enquête, il retrouve la trace de Cathy.</desc>
-    <category lang="fr">Série Dramatique</category>
-    <icon src="https://images.voomotion.be/Events/2026/04/29/45/2412210_A.jpg"/>
+    <title lang="fr">Manipulations - S01E05</title>
+    <desc lang="fr">Joseph, qui s'est rapproché de Caroline, tente d'amasser un maximum de preuves pour faire tomber Mathias. Après une enquête difficile, il retrouve la trace de Cathy. De son côté, Mathias continue un jeu qui devient de plus en plus dangereux. Obligé de s'exposer, il semble perdu. Mais son esprit machiavélique est plein de ressources, et il retourne la situation à son profit, au grand dam de Joseph...</desc>
+    <category lang="fr">Série / Série dramatique</category>
   </programme>
   <programme channel="Action.fr" start="20261016064200 +0200" stop="20261016065200 +0200">
     <title lang="fr">Fin des programmes</title>
@@ -11056,6 +11071,11 @@ Réalisateur(s) : Lionel Smila
     <desc lang="fr">Dimanche 30 août 2026, Edouard Philippe, candidat à la présidentielle française, a retroussé les manches et nous a offert une leçon de frites. Visionnée plus d'un million de fois en trois jours sur Instagram, la vidéo suscite des réactions contrastées.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
   </programme>
+  <programme channel="Arte.de" start="20261016035000 +0200" stop="20261016043500 +0200">
+    <title lang="fr">28 minutes</title>
+    <desc lang="fr">Retour sur l'actualité internationale : les relations commerciales entre l'Europe et la Chine ; la doctrine française de maintien de l'ordre ; l'extrême droite allemande à la présidence d'un parlement ; la reporter de guerre Anna Politkovskaïa ; la compréhension de notre cerveau.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
   <programme channel="Arte.de" start="20261016035000 +0200" stop="20261016050000 +0200">
     <title lang="fr">28 minutes</title>
     <desc lang="fr">Retour sur l'actualité internationale : les relations commerciales entre l'Europe et la Chine ; la doctrine française de maintien de l'ordre ; l'extrême droite allemande à la présidence d'un parlement ; la reporter de guerre Anna Politkovskaïa ; la compréhension de notre cerveau.</desc>
@@ -11065,6 +11085,11 @@ Réalisateur(s) : Lionel Smila
     <title lang="fr">28 minutes</title>
     <desc lang="fr">28 minutes samedi apporte un éclairage tout particulier à l'actualité sociétale et internationale de la semaine écoulée. Renaud Dély invite chaque semaine une personnalité connue et reconnue dans son domaine. À ses côtés tout au long de l'émission, elle réagira aux débats et autres séquences de ce rendez-vous hebdomadaire.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="Arte.de" start="20261016043500 +0200" stop="20261016050000 +0200">
+    <title lang="fr">Fin des programmes</title>
+    <desc lang="fr">Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
+    <category lang="fr">Divers / Fin</category>
   </programme>
   <programme channel="Arte.de" start="20261016043600 +0200" stop="20261016050000 +0200">
     <title lang="fr">Fin des programmes</title>
@@ -39730,8 +39755,9 @@ Présentateur(s) : Arthur
   </programme>
   <programme channel="ComediePlus.fr" start="20261016052900 +0200" stop="20261016065300 +0200">
     <title lang="fr">Comédie Club Tour Québec : Virginie Fortin</title>
-    <desc lang="fr">Le Comédie Club Tour, c'est la prescription stand up d'une star de la discipline. Pour cette nouvelle saison, il s'exporte à Québec, et c'est Virginie Fortin qui propose sa sélection de nouveaux humoristes québécois. Elle a confié la présentation de chaque émission à quatre MC confirmés, et lance chaque soirée avec une petite fiction savoureuse, histoire de mettre dans l'ambiance.</desc>
-    <category lang="fr">Divers / Divertissement-humour</category>
+    <desc lang="fr">Le COMÉDIE CLUB TOUR, c'est la prescription "stand up" d'une star de la discipline. Pour cette nouvelle saison, il s'exporte à Quebec, et c'est Virginie Fortin qui propose sa sélection de nouveaux humoristes québécois. Elle a confié la présentation de chaque émission à quatre MC confirmés, et lance chaque soirée avec une petite fiction savoureuse, histoire de mettre dans l'ambiance.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2025/11/25/52/2624246_A.jpg"/>
   </programme>
   <programme channel="ComediePlus.fr" start="20261016065300 +0200" stop="20261016075000 +0200">
     <title lang="fr">Le zap</title>
@@ -40279,14 +40305,14 @@ Présentateur(s) : Arthur
     <category lang="fr">Divers / Divertissement-humour</category>
   </programme>
   <programme channel="ComedyCentral.fr" start="20261016052000 +0200" stop="20261016054000 +0200">
-    <title lang="fr">Beavis &amp; Butthead - S02E09</title>
-    <desc lang="fr">Beavis et Butt-Head quarantenaires se font passer pour des vétérans pour avoir de la bière gratuite. / Beavis et Butt-Head essayent de devenir riches en faisant un élevage de chiens.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+    <title lang="fr">Beavis &amp; Butthead</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~23374fe4b6bd77ab.jpeg/640x360/quality/80/beavis-butthead.jpg"/>
   </programme>
   <programme channel="ComedyCentral.fr" start="20261016054000 +0200" stop="20261016060000 +0200">
-    <title lang="fr">Beavis &amp; Butthead - S02E10</title>
-    <desc lang="fr">Beavis et Butt-Head remplissent leur maison de déchets pour serrer des filles. / Beavis et Butt-Head essayent l'acupuncture. Beavis veut passer le reste de sa vie avec 50 aiguilles dans le visage.</desc>
-    <category lang="fr">Série / Série d'animation</category>
+    <title lang="fr">Beavis &amp; Butthead</title>
+    <category lang="fr">Série TV</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~127d7920e64ef456.jpeg/640x360/quality/80/beavis-butthead.jpg"/>
   </programme>
   <programme channel="ComedyCentral.fr" start="20261016060000 +0200" stop="20261016062000 +0200">
     <title lang="fr">Un gars du Queens - S08E02</title>
@@ -62567,6 +62593,11 @@ Présentateur(s) : Faustine Bollaert
     <episode-num>15.0.</episode-num>
     <icon src="https://tv.virginplus.ca/api/artwork/v3/artworks/artworkSelection/ASSET/TMS/EP018951690070/SHOWCARD_BACKGROUND/2048x1024"/>
   </programme>
+  <programme channel="KANAALZ.be" start="20261016000100 +0200" stop="20261016001100 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/01/2621263_A.jpg"/>
+  </programme>
   <programme channel="KANAALZ.be" start="20261016000100 +0200" stop="20261016000700 +0200">
     <title lang="fr">Z-Beurs S2</title>
     <category lang="fr">Magazine</category>
@@ -62594,11 +62625,114 @@ Présentateur(s) : Faustine Bollaert
     <category lang="fr">Magazine</category>
     <icon src="https://images.voomotion.be/Events/2025/11/25/58/2622515_A.jpg"/>
   </programme>
+  <programme channel="KANAALZ.be" start="20261016003300 +0200" stop="20261016060000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
   <programme channel="KANAALZ.be" start="20261016003300 +0200" stop="20261016004300 +0200">
     <title lang="fr">Herhalingslus S14</title>
     <desc lang="fr">Herhalingslus.</desc>
     <category lang="fr">Divertissement</category>
     <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016060000 +0200" stop="20261016100000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016100000 +0200" stop="20261016150000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016150000 +0200" stop="20261016200000 +0200">
+    <title lang="fr">Herhalingslus S14</title>
+    <desc lang="fr">Herhalingslus.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/28/22/2622449_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016200000 +0200" stop="20261016201100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016201100 +0200" stop="20261016202000 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/01/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016202000 +0200" stop="20261016205500 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016205500 +0200" stop="20261016210600 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016210600 +0200" stop="20261016211500 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/01/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016211500 +0200" stop="20261016215000 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016215000 +0200" stop="20261016220100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016220100 +0200" stop="20261016221100 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/01/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016221100 +0200" stop="20261016224500 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016224500 +0200" stop="20261016225600 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016225600 +0200" stop="20261016230600 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/01/2621263_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016230600 +0200" stop="20261016234000 +0200">
+    <title lang="fr">Trends Talk S6</title>
+    <desc lang="fr">Talkshow waarbij verschillende actualiteiten en belangrijke thema's worden besproken.</desc>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://images.voomotion.be/Events/2026/04/27/18/2619968_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016234000 +0200" stop="20261016235100 +0200">
+    <title lang="fr">Z - Nieuws S17</title>
+    <desc lang="fr">Z-Nieuws.</desc>
+    <category lang="fr">Infos</category>
+    <icon src="https://images.voomotion.be/Events/2026/06/12/09/2621445_A.jpg"/>
+  </programme>
+  <programme channel="KANAALZ.be" start="20261016235100 +0200" stop="20261017000100 +0200">
+    <title lang="fr">Z-Beurs S2</title>
+    <category lang="fr">Magazine</category>
+    <icon src="https://images.voomotion.be/Events/2026/09/20/01/2621263_A.jpg"/>
   </programme>
   <programme channel="KIKA.de" start="20261016060000 +0200" stop="20261016060500 +0200">
     <title lang="fr">Kikaninchen Schnipselwelt</title>
@@ -75516,7 +75650,7 @@ Présentateur(s) : Élodie Poyade
   </programme>
   <programme channel="NT1.fr" start="20261016200000 +0200" stop="20261016210500 +0200">
     <title lang="fr">La villa des coeurs brisés - S11E40</title>
-    <desc lang="fr">Direction Puerto Escondido, au Mexique, pour des "coeurs brisés" qui embarquent pour une aventure placée sous le signe de la vérité et de l'authenticité.</desc>
+    <desc lang="fr">Éloïse accepte de partir avec Tom, au grand désarroi de Nacca. Mais la cérémonie n'a pas livré tous ses secrets, Laura refuse son bracelet argenté et réclame l'or, pendant que Nicolo décroche le sien, laissant Loanne effondrée. Après un week-end off, Maïssane débarque avec sa boîte noire et une vidéo qui va mettre Clément au tapis. La Villa des Cœurs Brisés Saison 11 Episode 40</desc>
     <category lang="fr">Divers / Téléréalité</category>
   </programme>
   <programme channel="NT1.fr" start="20261016210500 +0200" stop="20261016211000 +0200">
@@ -79761,33 +79895,33 @@ Présentateur(s) : Élodie Poyade
   </programme>
   <programme channel="OLTV.fr" start="20261016060000 +0200" stop="20261016090000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261016090000 +0200" stop="20261016120000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261016120000 +0200" stop="20261016150000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261016150000 +0200" stop="20261016180000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261016180000 +0200" stop="20261016210000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="OLTV.fr" start="20261016210000 +0200" stop="20261017060000 +0200">
     <title lang="fr">La chaîne officielle de l'Olympique Lyonnais</title>
-    <category lang="fr">Sport</category>
-    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~2f63560846c9b9ea.jpeg/640x360/quality/80/la-chaine-officielle-de-l-olympique-lyonnais.jpg"/>
+    <desc lang="fr">Consultez la grille des programmes pour suivre la chaîne officielle de l'Olympique Lyonnais.</desc>
+    <category lang="fr">Magazine sportif / Football</category>
   </programme>
   <programme channel="ONETV.ch" start="20261016004000 +0200" stop="20261016005000 +0200">
     <title lang="fr">Rencontrons Nous</title>
@@ -81508,7 +81642,8 @@ Présentateur(s) : Élodie Poyade
   <programme channel="ParisPremiere.fr" start="20261016023000 +0200" stop="20261016070000 +0200">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
-    <category lang="fr">Divers / Programme indéterminé</category>
+    <category lang="fr">Autre</category>
+    <icon src="https://www.programme-tv.net/imgre/fit/~2~program~ecdd9b764479b6a8.jpeg/640x360/quality/80/programmes-de-la-nuit.jpg"/>
   </programme>
   <programme channel="ParisPremiere.fr" start="20261016070000 +0200" stop="20261016111500 +0200">
     <title lang="fr">Caméra café</title>
@@ -88326,8 +88461,9 @@ Présentateur(s) : Urbain Ortmans
   </programme>
   <programme channel="RTL2.de" start="20261016051000 +0200" stop="20261016060000 +0200">
     <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller</title>
-    <desc lang="fr">Nach dem Tod ihrer Mutter muss Bianca deren mit Trödel und Hausrat vollgestellte Wohnung besenrein übergeben. Doch Bianca und ihre Geschwister Gabi und Volker sowie ihr Lebensgefährte Horst sind mit der Haushaltsauflösung völlig überfordert. Sie haben keine Ahnung, was noch verkauft werden kann und was in den Müll gehört. Außerdem braucht die Familie Geld, um die Beerdigungskosten zu bezahlen.</desc>
-    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+    <desc lang="fr">In wenigen Wochen muss die mit Trödel und Hausrat vollgestellte Wohnung besenrein übergeben werden.</desc>
+    <category lang="fr">Reality</category>
+    <icon src="https://media.teleboy.ch/media/raw/3337a8f7aaba9f27498106917bd66f622eb6b219.jpg"/>
   </programme>
   <programme channel="RTL2.de" start="20261016060000 +0200" stop="20261016070000 +0200">
     <title lang="fr">Der Trödeltrupp - Das Geld liegt im Keller</title>
@@ -96250,6 +96386,7 @@ Feuilleton.
   </programme>
   <programme channel="TF1.fr" start="20261016115000 +0200" stop="20261016125500 +0200">
     <title lang="fr">Les douze coups de midi</title>
+    <desc lang="fr">Les " 12 Coups de Midi " s'engagent aux côtés de l'association ELA, qui œuvre au quotidien pour lutter contre les leucodystrophies. Fidèles à cet engagement, Jean-Luc Reichmann et les " 12 Coups de Midi " s'associent une nouvelle fois à l'opération " Mets tes baskets ", qui vise à sensibiliser les élèves, les établissements scolaires et les entreprises à la lutte contre les leucodystrophies, et à mobiliser le plus grand nombre autour de cette cause.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="TF1.fr" start="20261016125500 +0200" stop="20261016130000 +0200">
@@ -96309,7 +96446,7 @@ Feuilleton.
   </programme>
   <programme channel="TF1.fr" start="20261016200000 +0200" stop="20261016204500 +0200">
     <title lang="fr">JT 20h</title>
-    <desc lang="fr">Le journal télévisé présente les faits marquants et les événements essentiels de l'actualité nationale et internationale, tout en mettant en valeur l'actualité régionale.</desc>
+    <desc lang="fr">" JT 20h WE " du vendredi 16 octobre 2026. Du vendredi au dimanche, la rédaction de TF1 propose "LE 20H" un rendez-vous d'information exposant avec clarté l'actualité française et internationale présentée par Anne-Claire Coudray ou Audrey Crespo-Mara, sa joker.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="TF1.fr" start="20261016204500 +0200" stop="20261016205000 +0200">
@@ -96343,7 +96480,7 @@ Feuilleton.
     <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="TF1.fr" start="20261016235500 +0200" stop="20261017014000 +0200">
-    <title lang="fr">Vendredi, tout est permis avec Arthur</title>
+    <title lang="fr">Vendredi, tout est permis avec Arthur - S14E268</title>
     <desc lang="fr">Les personnalités du "PAF" craignent cette invitation qu'ils ne peuvent pourtant refuser malgré le risque encouru : se retrouver dans les images drôles des zappings durant des années. En effet, les invités n'ignorent pas qu'Arthur, traditionnel maître de céans, s'apprête à les placer dans des situations aussi incongrues qu'hilarantes.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
@@ -111648,16 +111785,14 @@ Année : 2026
     <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Toonami.fr" start="20261016051500 +0200" stop="20261016053500 +0200">
-    <title lang="fr">La ligue des justiciers : nouvelle génération (Ego et superego) S4 (23/26)</title>
-    <desc lang="fr">«Ego et superego»En Markovia, on affiche une politique d'ouverture aux méta-humains qui peuvent même, s'ils le souhaitent, venir grossir les rangs des Infinitors. Violet, confronté à des sentiments amoureux de la part de Harper, ne sait pas trop où iel en est et décide d'aller voir Brion, afin de voir s'il existe toujours un espoir entre eux. De leurs côtés, Zatanna, Tigresse, Nightwing et Kalduram demandent l'aide des Trogowogs pour reconstituer le car scolaire et ainsi, faire un saut dans la zone fantôme... où Superboy a juré fidélité au général Zod.</desc>
-    <category lang="fr">Série Animation</category>
-    <icon src="https://images.voomotion.be/Events/2026/06/10/19/2711811_A.jpg"/>
+    <title lang="fr">La ligue des justiciers : nouvelle génération - S04E23</title>
+    <desc lang="fr">En Markovia, on affiche une politique d'ouverture aux méta-humains qui peuvent même, s'ils le souhaitent, venir grossir les rangs des Infinitors. Violet, confronté à des sentiments amoureux de la part de Harper, ne sait pas trop où iel en est et décide d'aller voir Brion, afin de voir s'il existe toujours un espoir entre eux. De leurs côtés, Zatanna, Tigresse, Nightwing et Kalduram demandent l'aide des Trogowogs pour reconstituer le car scolaire et ainsi, faire un saut dans la zone fantôme… où Superboy a juré fidélité au général Zod.</desc>
+    <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Toonami.fr" start="20261016053500 +0200" stop="20261016060000 +0200">
-    <title lang="fr">La ligue des justiciers : nouvelle génération (Zenith and Abyss) S4 (24/26)</title>
-    <desc lang="fr">«Zenith and Abyss»Nightwing et son équipe sont dans la Zone Fantôme pour récupérer Superboy. Mais il refuse de les suivre. Il est toujours sous l'emprise du clan Zod. Pendant ce temps, Miss Martian arrive à communiquer avec Kaizer-Thrall qui contient le cerveau de Danny Chase. Celui-ci leur apprend que Superboy est toujours en vie dans le Zone fantôme. Ils décident d'installer un Boom Tube pour récupérer Conner. Mais, Lor-Zod leur tend un piège pour sauver ses parents.</desc>
-    <category lang="fr">Série Animation</category>
-    <icon src="https://images.voomotion.be/Events/2026/06/10/19/2711811_A.jpg"/>
+    <title lang="fr">La ligue des justiciers : nouvelle génération - S04E24</title>
+    <desc lang="fr">Nightwing et son équipe sont dans la Zone Fantôme pour récupérer Superboy. Mais il refuse de les suivre. Il est toujours sous l'emprise du clan Zod. Pendant ce temps, Miss Martian arrive à communiquer avec Kaizer-Thrall qui contient le cerveau de Danny Chase. Celui-ci leur apprend que Superboy est toujours en vie dans le Zone fantôme. Ils décident d'installer un Boom Tube pour récupérer Conner. Mais, Lor-Zod leur tend un piège pour sauver ses parents.</desc>
+    <category lang="fr">Série / Série d'animation</category>
   </programme>
   <programme channel="Toonami.fr" start="20261016060000 +0200" stop="20261016062500 +0200">
     <title lang="fr">Bungo Stray Dogs - S02E06</title>
@@ -130698,6 +130833,431 @@ Pour s’échapper de sa routine, Pauline, 34 ans a démissionné de son poste c
     <desc lang="fr">Una cita semanal con personalidades de las artes, la ciencia, la política y el deporte que viven en París o la visitan. Más que una escala, un puente entre París y América Latina.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
+  <programme channel="oqee.1246" start="20261016050000 +0200" stop="20261016051500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016051500 +0200" stop="20261016055400 +0200">
+    <title lang="fr">El debate</title>
+    <desc lang="fr">Nuestro equipo periodístico e invitados analizan los temas centrales de la actualidad en América Latina y el mundo, en conversaciones que ofrecen contexto y perspectivas diversas.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016055400 +0200" stop="20261016060000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016060000 +0200" stop="20261016061000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016061000 +0200" stop="20261016061600 +0200">
+    <title lang="fr">Los observadores</title>
+    <desc lang="fr">Un programa colaborativo realizado a partir de videos, fotografías y testimonios enviados por testigos de primera mano, que se verifican en la redacción de France 24.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016061600 +0200" stop="20261016063000 +0200">
+    <title lang="fr">Corresponsales</title>
+    <desc lang="fr">Los corresponsales de la cadena francesa France 24 nos traen las noticias e imágenes que marcan la jornada informativa desde diversos rincones del planeta. </desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016063000 +0200" stop="20261016064000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016064000 +0200" stop="20261016070000 +0200">
+    <title lang="fr">Boleto de vuelta</title>
+    <desc lang="fr">Un recorrido por los países que han marcado la agenda noticiosa mundial, las ciudades transformadas por la guerra, desastres naturales o industriales.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016070000 +0200" stop="20261016071000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016071000 +0200" stop="20261016071600 +0200">
+    <title lang="fr">Cultura</title>
+    <desc lang="fr">¿Cómo nos relatan el mundo los cineastas, los novelistas y los artistas en general? Léa Hurel sale al encuentro de la cultura y el compromiso con su época.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016071600 +0200" stop="20261016073000 +0200">
+    <title lang="fr">Ventana a Europa</title>
+    <desc lang="fr">Las últimas noticias políticas y sociales de Europa, con informes y análisis de nuestros corresponsales en terreno para comprender las claves de la actualidad del continente.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016073000 +0200" stop="20261016074000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016074000 +0200" stop="20261016074700 +0200">
+    <title lang="fr">Migrantes</title>
+    <desc lang="fr">Dejan sus casas, pueblos y familias por una vida mejor. Una mirada humana a la migración masiva en el mundo y sus historias, con los valores periodísticos de France 24.</desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016074700 +0200" stop="20261016075300 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016075300 +0200" stop="20261016080000 +0200">
+    <title lang="fr">En 5 minutos</title>
+    <desc lang="fr">Edición corta de la revista informativa.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016080000 +0200" stop="20261016081000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016081000 +0200" stop="20261016084600 +0200">
+    <title lang="fr">El debate</title>
+    <desc lang="fr">Nuestro equipo periodístico e invitados analizan los temas centrales de la actualidad en América Latina y el mundo, en conversaciones que ofrecen contexto y perspectivas diversas.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016084600 +0200" stop="20261016090000 +0200">
+    <title lang="fr">Expreso de Oriente</title>
+    <desc lang="fr">Las últimas noticias políticas y sociales de Medio Oriente, con reportes de nuestros corresponsales en terreno para comprender mejor los desafíos y cambios que marcan la región.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016090000 +0200" stop="20261016091000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016091000 +0200" stop="20261016091600 +0200">
+    <title lang="fr">Ciencia y Tecnología</title>
+    <desc lang="fr">Nos presenta los descubrimientos más recientes, a sus protagonistas y el acelerado ritmo con que las nuevas tecnologías transforman y sorprenden al mundo cada día.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016091600 +0200" stop="20261016093000 +0200">
+    <title lang="fr">Africa 7 días</title>
+    <desc lang="fr">Todas las últimas noticias africanas sobre el desarrollo, costumbres y cultura del continente</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016093000 +0200" stop="20261016094000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016094000 +0200" stop="20261016094600 +0200">
+    <title lang="fr">Medio ambiente</title>
+    <desc lang="fr">La Tierra es un planeta con amenazas pero también lleno de ideas innovadoras y soluciones sostenibles.</desc>
+    <category lang="fr">Magazine / Magazine de l'environnement</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016094600 +0200" stop="20261016100000 +0200">
+    <title lang="fr">Ellas hoy</title>
+    <desc lang="fr">Un espacio donde mujeres con voz propia analizan la actualidad internacional y aportan miradas frescas, críticas y necesarias en un mundo aún dominado por perspectivas masculinas.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016100000 +0200" stop="20261016101000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016101000 +0200" stop="20261016102300 +0200">
+    <title lang="fr">Corresponsales</title>
+    <desc lang="fr">Los corresponsales de la cadena francesa France 24 nos traen las noticias e imágenes que marcan la jornada informativa desde diversos rincones del planeta. </desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016102300 +0200" stop="20261016103000 +0200">
+    <title lang="fr">Enlace</title>
+    <desc lang="fr">Magazine informativo de France 24 con la actualidad informativa europea y del resto del mundo. </desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016103000 +0200" stop="20261016104000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016104000 +0200" stop="20261016105400 +0200">
+    <title lang="fr">Programa a determinar</title>
+    <desc lang="fr">Reportajes exclusivos, artículos y análisis detallados que exploran a fondo los eventos políticos y sociales que marcan el rumbo del vasto continente asiático.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016105400 +0200" stop="20261016110000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016110000 +0200" stop="20261016111000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016111000 +0200" stop="20261016112300 +0200">
+    <title lang="fr">Escala en París</title>
+    <desc lang="fr">Una cita semanal con personalidades de las artes, la ciencia, la política y el deporte que viven en París o la visitan. Más que una escala, un puente entre París y América Latina.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016112300 +0200" stop="20261016113000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016113000 +0200" stop="20261016114000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016114000 +0200" stop="20261016115400 +0200">
+    <title lang="fr">Reporteros</title>
+    <desc lang="fr">Reportajes de fondo, producidos por los periodistas de France 24 alrededor del mundo, que abordan en profundidad un tema o un hecho de actualidad.</desc>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016115400 +0200" stop="20261016120000 +0200">
+    <title lang="fr">Ciencia y Tecnología</title>
+    <desc lang="fr">Nos presenta los descubrimientos más recientes, a sus protagonistas y el acelerado ritmo con que las nuevas tecnologías transforman y sorprenden al mundo cada día.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016120000 +0200" stop="20261016121000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016121000 +0200" stop="20261016122300 +0200">
+    <title lang="fr">La entrevista</title>
+    <desc lang="fr">Una cita semanal con los protagonistas de la información, con entrevistas y análisis clave para comprender el tema que marca la agenda del momento.</desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016122300 +0200" stop="20261016123000 +0200">
+    <title lang="fr">Historia</title>
+    <desc lang="fr">France 24 vuelve sobre las fechas más grandes de la historia en América Latina y en el resto del mundo, poniéndolas en perspectiva con la actualidad.</desc>
+    <category lang="fr">Magazine / Magazine historique</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016123000 +0200" stop="20261016124000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016124000 +0200" stop="20261016125300 +0200">
+    <title lang="fr">Africa 7 días</title>
+    <desc lang="fr">Todas las últimas noticias africanas sobre el desarrollo, costumbres y cultura del continente</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016125300 +0200" stop="20261016130000 +0200">
+    <title lang="fr">En 5 minutos</title>
+    <desc lang="fr">Edición corta de la revista informativa.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016130000 +0200" stop="20261016131000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016131000 +0200" stop="20261016132400 +0200">
+    <title lang="fr">Ventana a Europa</title>
+    <desc lang="fr">Las últimas noticias políticas y sociales de Europa, con informes y análisis de nuestros corresponsales en terreno para comprender las claves de la actualidad del continente.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016132400 +0200" stop="20261016133000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016133000 +0200" stop="20261016134000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016134000 +0200" stop="20261016134600 +0200">
+    <title lang="fr">Cultura</title>
+    <desc lang="fr">¿Cómo nos relatan el mundo los cineastas, los novelistas y los artistas en general? Léa Hurel sale al encuentro de la cultura y el compromiso con su época.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016134600 +0200" stop="20261016140000 +0200">
+    <title lang="fr">Corresponsales</title>
+    <desc lang="fr">Los corresponsales de la cadena francesa France 24 nos traen las noticias e imágenes que marcan la jornada informativa desde diversos rincones del planeta. </desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016140000 +0200" stop="20261016143000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016143000 +0200" stop="20261016145400 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016145400 +0200" stop="20261016150000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016150000 +0200" stop="20261016153000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016153000 +0200" stop="20261016154500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016154500 +0200" stop="20261016160000 +0200">
+    <title lang="fr">Ventana a Europa</title>
+    <desc lang="fr">Las últimas noticias políticas y sociales de Europa, con informes y análisis de nuestros corresponsales en terreno para comprender las claves de la actualidad del continente.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016160000 +0200" stop="20261016161500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016161500 +0200" stop="20261016162400 +0200">
+    <title lang="fr">Ciencia y Tecnología</title>
+    <desc lang="fr">Nos presenta los descubrimientos más recientes, a sus protagonistas y el acelerado ritmo con que las nuevas tecnologías transforman y sorprenden al mundo cada día.</desc>
+    <category lang="fr">Magazine / Magazine scientifique</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016162400 +0200" stop="20261016163000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016163000 +0200" stop="20261016164500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016164500 +0200" stop="20261016170000 +0200">
+    <title lang="fr">Africa 7 días</title>
+    <desc lang="fr">Todas las últimas noticias africanas sobre el desarrollo, costumbres y cultura del continente</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016170000 +0200" stop="20261016171500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016171500 +0200" stop="20261016172000 +0200">
+    <title lang="fr">Revista de prensa</title>
+    <desc lang="fr">¿Qué dicen los medios digitales del mundo sobre el tema del día? Nuestros columnistas revisan portadas internacionales y los debates que marcan la actualidad.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016172000 +0200" stop="20261016180000 +0200">
+    <title lang="fr">El debate</title>
+    <desc lang="fr">Nuestro equipo periodístico e invitados analizan los temas centrales de la actualidad en América Latina y el mundo, en conversaciones que ofrecen contexto y perspectivas diversas.</desc>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016180000 +0200" stop="20261016181600 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016181600 +0200" stop="20261016183000 +0200">
+    <title lang="fr">Invitado del día</title>
+    <desc lang="fr">En compañía de invitados y periodistas de la prensa hispanohablante, France24 entrevistas a las caras relacionadas con la actualidad. </desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016183000 +0200" stop="20261016184600 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016184600 +0200" stop="20261016190000 +0200">
+    <title lang="fr">Escala en París</title>
+    <desc lang="fr">Una cita semanal con personalidades de las artes, la ciencia, la política y el deporte que viven en París o la visitan. Más que una escala, un puente entre París y América Latina.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016190000 +0200" stop="20261016193000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016193000 +0200" stop="20261016195400 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016195400 +0200" stop="20261016200000 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016200000 +0200" stop="20261016203000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016203000 +0200" stop="20261016205000 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016205000 +0200" stop="20261016210000 +0200">
+    <title lang="fr">Cultura</title>
+    <desc lang="fr">¿Cómo nos relatan el mundo los cineastas, los novelistas y los artistas en general? Léa Hurel sale al encuentro de la cultura y el compromiso con su época.</desc>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016210000 +0200" stop="20261016211500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016211500 +0200" stop="20261016213000 +0200">
+    <title lang="fr">Ventana a Europa</title>
+    <desc lang="fr">Las últimas noticias políticas y sociales de Europa, con informes y análisis de nuestros corresponsales en terreno para comprender las claves de la actualidad del continente.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016213000 +0200" stop="20261016214500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016214500 +0200" stop="20261016220000 +0200">
+    <title lang="fr">Corresponsales</title>
+    <desc lang="fr">Los corresponsales de la cadena francesa France 24 nos traen las noticias e imágenes que marcan la jornada informativa desde diversos rincones del planeta. </desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016220000 +0200" stop="20261016221500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016221500 +0200" stop="20261016222100 +0200">
+    <title lang="fr">En foco</title>
+    <desc lang="fr">Cada día, France 24 ofrece un reportaje en profundidad sobre la actualidad internacional, elaborado por nuestros corresponsales desplegados en todos los continentes.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016222100 +0200" stop="20261016223000 +0200">
+    <title lang="fr">Invitado del día</title>
+    <desc lang="fr">En compañía de invitados y periodistas de la prensa hispanohablante, France24 entrevistas a las caras relacionadas con la actualidad. </desc>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016223000 +0200" stop="20261016224500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016224500 +0200" stop="20261016230000 +0200">
+    <title lang="fr">Ellas hoy</title>
+    <desc lang="fr">Un espacio donde mujeres con voz propia analizan la actualidad internacional y aportan miradas frescas, críticas y necesarias en un mundo aún dominado por perspectivas masculinas.</desc>
+    <category lang="fr">Magazine / Magazine de la femme</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016230000 +0200" stop="20261016231500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016231500 +0200" stop="20261016233000 +0200">
+    <title lang="fr">Programa a determinar</title>
+    <desc lang="fr">Reportajes exclusivos, artículos y análisis detallados que exploran a fondo los eventos políticos y sociales que marcan el rumbo del vasto continente asiático.</desc>
+    <category lang="fr">Documentaire / Documentaire découvertes</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016233000 +0200" stop="20261016234500 +0200">
+    <title lang="fr">Noticias</title>
+    <desc lang="fr">Noticias de última hora y noticias mundiales de France 24 sobre negocios, política, deportes y cultura.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.1246" start="20261016234500 +0200" stop="20261017000000 +0200">
+    <title lang="fr">Africa 7 días</title>
+    <desc lang="fr">Todas las últimas noticias africanas sobre el desarrollo, costumbres y cultura del continente</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
   <programme channel="oqee.1249" start="20261016010000 +0200" stop="20261016020000 +0200">
     <title lang="fr">A Haber Gece</title>
     <desc lang="fr">A Haber Gece, gece kuşağında yayınlanan haber programıdır. Türkiye ve dünyada gün içinde yaşanan kritik olaylar, son dakika haberleri ve gündemin öne çıkan başlıkları sade ve anlaşılır bir dille izleyiciyle buluşuyor. İzleyici gece boyunca haber akışını bu kuşakta derli toplu şekilde takip ediyor.</desc>
@@ -136353,6 +136913,78 @@ Reportage édifiant au cœur d’une justice américaine sévère et expéditive
   <programme channel="oqee.1375" start="20261016233733 +0200" stop="20261017012507 +0200">
     <title lang="fr">Spectacles - S01E01</title>
     <desc lang="fr">Yassine Belattar signe un stand-up décapant où il assume sa réputation de trublion du paysage médiatique. Dans ce qu’il appelle lui-même un « stand-up anti-stand-up », il décortique la société avec une ironie fine et un humour acéré. Sans épargner personne, il joue avec les limites sans jamais les franchir, livrant un spectacle intelligent, provocateur et résolument libre.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261016014632 +0200" stop="20261016034014 +0200">
+    <title lang="fr">Blue steel</title>
+    <desc lang="fr">Une nouvelle recrue de la police s'engage dans un jeu du chat et de la souris avec un psychopathe armé qui devient obsédé par elle.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261016034015 +0200" stop="20261016053450 +0200">
+    <title lang="fr">Siberia</title>
+    <desc lang="fr">Un négociant en diamants tente de vendre des pierres aux origines douteuses à des acheteurs russes. Alors que la vente commence à capoter et qu'il découvre l'univers sombre du commerce de diamants, sa rencontre avec la gérante russe d'un café tourne à l'obsession.</desc>
+  </programme>
+  <programme channel="oqee.1385" start="20261016053451 +0200" stop="20261016071939 +0200">
+    <title lang="fr">La Panthère Rose</title>
+    <desc lang="fr">Un célèbre entraîneur de football est assassiné et sa bague, ornée du fameux diamant ‘’La Panthère Rose’’ a disparu. L’inspecteur en chef Dreyfuss confie l’enquête à l’inspecteur Jacques Clouseau, le plus maladroit, le plus empoté, le plus incapable des agents de police.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261016005438 +0200" stop="20261016024250 +0200">
+    <title lang="fr">Borat, nouvelle mission filmée</title>
+    <desc lang="fr">Dans cette suite hilarante, le quatrième meilleur journaliste du Kazakhstan, Borat Sagdiyev, doit offrir un "cadeau" au vice-président américain.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261016024251 +0200" stop="20261016041754 +0200">
+    <title lang="fr">The Walking Deceased</title>
+    <desc lang="fr">Un mois après l'apocalypse zombie, un groupe de survivants cherche un endroit où se réfugier.</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261016041755 +0200" stop="20261016055021 +0200">
+    <title lang="fr">Les amis à vendre</title>
+    <desc lang="fr">Dans un futur proche, louer des amis est devenue une habitude courante chez les nantis, leur épargnant bien des déceptions affectives. Quand Jacques et Odile tombent sur les Begond, à un prix intéressant, ils savent faire l’affaire qui les rendra plus brillants aux yeux de leurs relations…</desc>
+  </programme>
+  <programme channel="oqee.1386" start="20261016055022 +0200" stop="20261016073025 +0200">
+    <title lang="fr">Scary Camp</title>
+    <desc lang="fr">Sam souffre de trous noirs et ne comprend pas pourquoi il est entouré de gens assassinés. Il se tourne alors vers une amie fan de films d’horreur pour avoir des conseils. Sam doit faire face à une terrible hypothèse : et si c’était lui, l’assassin ?</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261016014412 +0200" stop="20261016034407 +0200">
+    <title lang="fr">Le baiser du serpent</title>
+    <desc lang="fr">En Angleterre, au XVIIe siècle, un architecte de jardin hollandais (Ewan McGregor, « Moulin Rouge ! ») est entraîné dans un réseau de passion et de trahison après avoir été engagé par un riche marchand.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261016034408 +0200" stop="20261016052104 +0200">
+    <title lang="fr">Dirty 30</title>
+    <desc lang="fr">C’est un peu l’impasse dans la vie des amies de toujours Kate (Mamrie Hart), Evie (Grace Helbig) et Charlie (Hannah Hart). A la veille de son trentième anniversaire, Kate accepte de laisser Evie et Charlie lui organiser une fête.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261016052105 +0200" stop="20261016065926 +0200">
+    <title lang="fr">Une Affaire d'amour</title>
+    <desc lang="fr">Mauvais timing : Thomas débarque à l'improviste chez son ex-copine, Sarah Pohl, une journaliste en pleine enquête sur des sans-papiers.</desc>
+  </programme>
+  <programme channel="oqee.1387" start="20261016065927 +0200" stop="20261016084135 +0200">
+    <title lang="fr">Little Manhattan</title>
+    <desc lang="fr">Dans une ville connue pour son effervescence, deux jeunes amis sont sur le point de se lancer dans la plus grande des aventures. Gabe et Rosemary se connaissent depuis presque toujours, mais lorsqu'ils se retrouvent face à face lors d'un cours de karaté, ils se voient sous un jour nouveau.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016010333 +0200" stop="20261016025534 +0200">
+    <title lang="fr">Une femme d'honneur</title>
+    <desc lang="fr">La brigade quadrille la région pour retrouver des prisonniers en cavale et leur otage : une religieuse. Parallèlement, le cadavre d'une jeune femme de 35 ans tuée par balle est retrouvé sur le bord d'une route.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016025535 +0200" stop="20261016034937 +0200">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le corps nu de Nicola Parsons est retrouvé bâillonné et ligoté dans un jardin d'enfants abandonné à Plymouth, en Angleterre. Des coups de couteau ont été portés à sa poitrine, un tissu a été noué autour de son cou et l'autopsie confirme que la jeune femme de 18 ans a été violée.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016034938 +0200" stop="20261016044342 +0200">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le corps nu de Nicola Parsons est retrouvé bâillonné et ligoté dans un jardin d'enfants abandonné à Plymouth, en Angleterre. Des coups de couteau ont été portés à sa poitrine, un tissu a été noué autour de son cou et l'autopsie confirme que la jeune femme de 18 ans a été violée.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016044343 +0200" stop="20261016053747 +0200">
+    <title lang="fr">Cold Blood</title>
+    <desc lang="fr">Le corps nu de Nicola Parsons est retrouvé bâillonné et ligoté dans un jardin d'enfants abandonné à Plymouth, en Angleterre. Des coups de couteau ont été portés à sa poitrine, un tissu a été noué autour de son cou et l'autopsie confirme que la jeune femme de 18 ans a été violée.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016053748 +0200" stop="20261016060414 +0200">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Un homme est assassiné par l'amant de sa femme infidèle, qui vivait dans leur placard.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016060415 +0200" stop="20261016063223 +0200">
+    <title lang="fr">Bizarre Murders</title>
+    <desc lang="fr">Un homme est assassiné par l'amant de sa femme infidèle, qui vivait dans leur placard.</desc>
+  </programme>
+  <programme channel="oqee.1388" start="20261016063224 +0200" stop="20261016070433 +0200">
+    <title lang="fr">Expert Witness</title>
+    <desc lang="fr">La première histoire de cet épisode révèle comment, dans le monde de l'art, la science médico-légale a découvert des contrefaçons présentées comme authentiques.</desc>
   </programme>
   <programme channel="oqee.1389" start="20261016000300 +0200" stop="20261016001500 +0200">
     <title lang="fr">Life Around</title>
@@ -158855,10 +159487,20 @@ Reportage édifiant au cœur d’une justice américaine sévère et expéditive
     <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
     <category lang="fr">Série / Série humoristique</category>
   </programme>
+  <programme channel="oqee.812" start="20261016041500 +0200" stop="20261016045700 +0200">
+    <title lang="fr">Lecţii de viaţă</title>
+    <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
+    <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
   <programme channel="oqee.812" start="20261016041500 +0200" stop="20261016060000 +0200">
     <title lang="fr">Lecţii de viaţă</title>
     <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
+  </programme>
+  <programme channel="oqee.812" start="20261016045700 +0200" stop="20261016060000 +0200">
+    <title lang="fr">Ştirile Pro TV</title>
+    <desc lang="fr">De luni până vineri, jurnalul de ştiri de dimineaţă curge în cascade, cu informaţii adunate după miezul nopţii, cu reportaje realizate în zori sau cu o serie de repere ale zilei în curs.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.812" start="20261016060000 +0200" stop="20261016093000 +0200">
     <title lang="fr">Ştirile ProTv</title>
@@ -158873,6 +159515,11 @@ Reportage édifiant au cœur d’une justice américaine sévère et expéditive
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261016130000 +0200" stop="20261016140000 +0200">
+    <title lang="fr">Ce spun românii</title>
+    <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.812" start="20261016130000 +0200" stop="20261016131500 +0200">
     <title lang="fr">Teleshopping</title>
@@ -158908,10 +159555,25 @@ Reportage édifiant au cœur d’une justice américaine sévère et expéditive
     <desc lang="fr">Emisiunea prezentată de Cabral Ibacka este o competiţie amuzantă între două familii, care concurează pentru a câştiga premii substanţiale. Atmosfera din platou este una destinsă, plină de energie, iar familiile împreună cu gazda emisiunii se vor distra şi vor aduce zâmbetul pe buze tuturor telespectatorilor.</desc>
     <category lang="fr">Divers / Jeu</category>
   </programme>
+  <programme channel="oqee.812" start="20261016180000 +0200" stop="20261016190000 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="oqee.812" start="20261016180000 +0200" stop="20261016193000 +0200">
     <title lang="fr">Ştirile ProTv</title>
     <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261016190000 +0200" stop="20261016192500 +0200">
+    <title lang="fr">Ştirile ProTv</title>
+    <desc lang="fr">Buletin informativ care aduce zilnic cele mai importante evenimente din țară și din lume. Ediția oferă știri de actualitate din domeniul politic, economic și social, reportaje din teren, analize relevante, informații despre vreme și sport, prezentate într-un format clar și dinamic, pentru o imagine completă a zilei.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.812" start="20261016192500 +0200" stop="20261016193000 +0200">
+    <title lang="fr">Vremea</title>
+    <desc lang="fr">Prognoza meteo actualizată oferă informații esențiale despre evoluția vremii la nivel național și internațional: temperaturi, precipitații, fenomene extreme și tendințe pentru zilele următoare. Prezentată clar și concis, rubrica meteo îi ajută pe telespectatori să își planifice activitățile zilnice în funcție de condițiile atmosferice.</desc>
+    <category lang="fr">Divers / Météo</category>
   </programme>
   <programme channel="oqee.812" start="20261016193000 +0200" stop="20261016204500 +0200">
     <title lang="fr">Inimă de ţigan</title>
@@ -158923,7 +159585,17 @@ Reportage édifiant au cœur d’une justice américaine sévère et expéditive
     <desc lang="fr">Tratează în fiecare episod câte o poveste dramatică a unei familii, prezentând inclusiv încercările pe care personajele le traversează pentru a rezolva situația cu care se confruntă și pe care.</desc>
     <category lang="fr">Documentaire / Documentaire fiction</category>
   </programme>
+  <programme channel="oqee.812" start="20261016213000 +0200" stop="20261016220000 +0200">
+    <title lang="fr">La Bloc</title>
+    <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
   <programme channel="oqee.812" start="20261016213000 +0200" stop="20261016223000 +0200">
+    <title lang="fr">La Bloc</title>
+    <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="oqee.812" start="20261016220000 +0200" stop="20261016231500 +0200">
     <title lang="fr">La Bloc</title>
     <desc lang="fr">La bloc prezintă destinul mioritic a două personaje a căror existenţă se învârte în jurul blocului în care locuiesc. Nelu Curcă şi Costel Jurcă, taximetrist, respectiv gestionar, sunt protagoniştii sitcomului. Alături de consoartele lor, Suzy, respectiv, Lilly, cei mai de vază locatari ai Blocului încearcă să lupte pentru mâncare, cablu şi putere.</desc>
     <category lang="fr">Série / Série humoristique</category>
@@ -158934,6 +159606,10 @@ Reportage édifiant au cœur d’une justice américaine sévère et expéditive
     <category lang="fr">Magazine / Magazine du consommateur</category>
   </programme>
   <programme channel="oqee.812" start="20261016230000 +0200" stop="20261017010000 +0200">
+    <title lang="fr">Vorbeşte lumea</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="oqee.812" start="20261016231500 +0200" stop="20261017010000 +0200">
     <title lang="fr">Vorbeşte lumea</title>
     <category lang="fr">Magazine / Magazine de l'art de vivre</category>
   </programme>
