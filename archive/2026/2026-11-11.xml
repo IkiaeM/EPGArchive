@@ -588,6 +588,10 @@
     <display-name>RMC WOW</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCWOWmono.png"/>
   </channel>
+  <channel id="RTI1.ci">
+    <display-name>RTI1</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180171/canal-ouah/CHN43FB/RTI1_myCANAL_640x480?=.png"/>
+  </channel>
   <channel id="RTL2.de">
     <display-name>RTL2</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL2_color.png"/>
@@ -827,6 +831,10 @@
   <channel id="oqee.1065">
     <display-name>ON TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
+  </channel>
+  <channel id="oqee.1072">
+    <display-name>All Flamenco</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2604/w256"/>
   </channel>
   <channel id="oqee.1081">
     <display-name>Maison &amp; Travaux TV</display-name>
@@ -1176,6 +1184,10 @@
     <display-name>20 Minutes TV Île-de-France</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3715/w256"/>
   </channel>
+  <channel id="oqee.581">
+    <display-name>B4U Movies</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1666/w256"/>
+  </channel>
   <channel id="oqee.611">
     <display-name>France 24 English</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2647/w256"/>
@@ -1240,6 +1252,10 @@
     <display-name>Equinoxe TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1446/w256"/>
   </channel>
+  <channel id="oqee.71">
+    <display-name>Galicia TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/832/w256"/>
+  </channel>
   <channel id="oqee.754">
     <display-name>Arirang</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/1553/w256"/>
@@ -1247,6 +1263,10 @@
   <channel id="oqee.766">
     <display-name>Moselle TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/3992/w256"/>
+  </channel>
+  <channel id="oqee.772">
+    <display-name>360</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1644/w256"/>
   </channel>
   <channel id="oqee.773">
     <display-name>Ulusal Kanal</display-name>
@@ -13600,9 +13620,19 @@
     <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="Euronews.fr" start="20261111160000 +0100" stop="20261111161200 +0100">
+    <title lang="fr">Europe le debrief</title>
+    <desc lang="fr">Toutes les demi-heures, un très vaste panel d'informations européennes et internationales est présenté et détaillé, images à l'appui.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="Euronews.fr" start="20261111160000 +0100" stop="20261111163000 +0100">
     <title lang="fr">Europe Today</title>
     <desc lang="fr">L'émission phare du matin d'Euronews avec les actualités et les analyses qui influencent l'Europe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Euronews.fr" start="20261111161200 +0100" stop="20261111163000 +0100">
+    <title lang="fr">News</title>
+    <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Euronews.fr" start="20261111163000 +0100" stop="20261111164200 +0100">
@@ -13610,10 +13640,20 @@
     <desc lang="fr">Toutes les demi-heures, un très vaste panel d'informations européennes et internationales est présenté et détaillé, images à l'appui.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="Euronews.fr" start="20261111164200 +0100" stop="20261111164800 +0100">
+    <title lang="fr">News</title>
+    <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="Euronews.fr" start="20261111164200 +0100" stop="20261111170000 +0100">
     <title lang="fr">Euroverify</title>
     <desc lang="fr">Une équipe de journalistes spécialisés dans la vérification des faits et la démystification des plus grands sujets et rumeurs concernant l'Europe et …</desc>
     <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="Euronews.fr" start="20261111164800 +0100" stop="20261111170000 +0100">
+    <title lang="fr">Business Line</title>
+    <desc lang="fr">Un magazine spécialisé dans l'économie qui vous apporte une analyse de toutes les importantes nouvelles du monde du commerce et du business.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="Euronews.fr" start="20261111170000 +0100" stop="20261111173000 +0100">
     <title lang="fr">News</title>
@@ -31955,6 +31995,239 @@
     <desc lang="fr">La saison à peine commencée, les équipes d'orpailleurs de l'ouest de l'Australie sont déjà confrontés à une kyrielle de difficultés, matérielles et financières. Une des équipes doit revoir ses objectifs à la baisse quand elle ne parvient pas à extraire autant d'or que prévu.</desc>
     <category lang="fr">Documentaire / Documentaire téléréalité</category>
   </programme>
+  <programme channel="RTI1.ci" start="20261111002800 +0100" stop="20261111012100 +0100">
+    <title lang="fr">Escale familiale</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111012100 +0100" stop="20261111030400 +0100">
+    <title lang="fr">Tempo</title>
+    <desc lang="fr">Emission de divertissement hebdomadaire présentée par Didier Bléou.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111030400 +0100" stop="20261111033200 +0100">
+    <title lang="fr">Vidéo night</title>
+    <desc lang="fr">Vidéo Night est un programme de divertissement qui offre une diversité des clips.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111033200 +0100" stop="20261111040000 +0100">
+    <title lang="fr">Babiwood</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111040000 +0100" stop="20261111043000 +0100">
+    <title lang="fr">JT 20H RTI</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111043000 +0100" stop="20261111043400 +0100">
+    <title lang="fr">Hymme national</title>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111043400 +0100" stop="20261111055500 +0100">
+    <title lang="fr">Mie</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111055500 +0100" stop="20261111060000 +0100">
+    <title lang="fr">Hymme national</title>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111060000 +0100" stop="20261111062700 +0100">
+    <title lang="fr">Coeur d'ébène</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111062700 +0100" stop="20261111063000 +0100">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111063000 +0100" stop="20261111064500 +0100">
+    <title lang="fr">Le journal 06h30</title>
+    <desc lang="fr">Le journal 06H30 est un journal télévisé qui, pendant environ 30 minutes, traite des informations nationales et internationales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111064500 +0100" stop="20261111074200 +0100">
+    <title lang="fr">Coeur d'ébène</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111074200 +0100" stop="20261111075800 +0100">
+    <title lang="fr">Select Ivoire</title>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111075800 +0100" stop="20261111080000 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111080000 +0100" stop="20261111084500 +0100">
+    <title lang="fr">Les aromes du coeur</title>
+    <desc lang="fr">Elevée par son père, Maíra a toujours cru sa mère morte, un mensonge pour la protéger de Zoé, qui l'a rejetée à sa naissance à cause de son handicap. Des années plus tard, Zoé réapparaît en demandant pardon mais avec des intentions cachées. La réunion rêvée se transforme en un long et périlleux voyage...</desc>
+    <category lang="fr">Feuilleton / Feuilleton dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111084500 +0100" stop="20261111090000 +0100">
+    <title lang="fr">Reg'art</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111090000 +0100" stop="20261111093000 +0100">
+    <title lang="fr">La Côte d'Ivoire en marche</title>
+    <desc lang="fr">La Côte d'Ivoire en marche est un magazine consacré à l'économie ivoirienne et au développement urbain national.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111093000 +0100" stop="20261111100000 +0100">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111100000 +0100" stop="20261111110000 +0100">
+    <title lang="fr">Ça fait l'actualité</title>
+    <desc lang="fr">Un magazine informatif qui traite les actualités nationales et internationales.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111110000 +0100" stop="20261111112800 +0100">
+    <title lang="fr">Intrigue à Baby</title>
+    <desc lang="fr">Inspirée de faits réels, cette série dramatique aborde le quotidien et les intrigues des familles ivoiriennes. </desc>
+    <category lang="fr">Série / Comédie dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111112800 +0100" stop="20261111113000 +0100">
+    <title lang="fr">RTI pub music</title>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111113000 +0100" stop="20261111120000 +0100">
+    <title lang="fr">Les RDV de la DCM</title>
+    <desc lang="fr">Rendez-vous " est l'émission des petites annonces. Cette émission est une vitrine pour tout individu ou professionnel souhaitant annoncer un événement, un concert, une soirée, un festival…</desc>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111120000 +0100" stop="20261111125200 +0100">
+    <title lang="fr">Allume ta télé</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111125200 +0100" stop="20261111125700 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111125700 +0100" stop="20261111130000 +0100">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111130000 +0100" stop="20261111133100 +0100">
+    <title lang="fr">JT 13H RTI</title>
+    <desc lang="fr"> Le journal 13H est un journal télévisé qui, pendant environ 30 minutes, traite des informations nationales et internationales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111133100 +0100" stop="20261111133500 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111133500 +0100" stop="20261111142300 +0100">
+    <title lang="fr">Les aromes du coeur</title>
+    <desc lang="fr">Elevée par son père, Maíra a toujours cru sa mère morte, un mensonge pour la protéger de Zoé, qui l'a rejetée à sa naissance à cause de son handicap. Des années plus tard, Zoé réapparaît en demandant pardon mais avec des intentions cachées. La réunion rêvée se transforme en un long et périlleux voyage...</desc>
+    <category lang="fr">Feuilleton / Feuilleton dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111142300 +0100" stop="20261111145200 +0100">
+    <title lang="fr">Rouge à lèvres</title>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111145200 +0100" stop="20261111150000 +0100">
+    <title lang="fr">Topic Japan</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111150000 +0100" stop="20261111150700 +0100">
+    <title lang="fr">Flash 15h</title>
+    <desc lang="fr">Flash 15h est un journal d'information présenté quotidiennement.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111150700 +0100" stop="20261111160000 +0100">
+    <title lang="fr">Deux couples, un foyer</title>
+    <desc lang="fr">Stéphane et Bastien, deux amis de toujours, sont mariés à Astrid et Audrey. Tous les quatre décident de vivre sous le même toit, mais les deux couples se rendent compte que la vie conjugale n'a pas grand chose à voir avec l'amitié.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111160000 +0100" stop="20261111165400 +0100">
+    <title lang="fr">Arte Découverte</title>
+    <desc lang="fr">Arte Découverte est un magazine d'information qui traite la thématique relative au domaine des arts.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111165400 +0100" stop="20261111170000 +0100">
+    <title lang="fr">Capsules</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111170000 +0100" stop="20261111174600 +0100">
+    <title lang="fr">Les infos en langues nationales</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111174600 +0100" stop="20261111180000 +0100">
+    <title lang="fr">Les Schtroumpfs</title>
+    <desc lang="fr">Les nouvelles aventures des petits êtres bleus qui vivent dans des maisons en forme de champignons dans un village caché en plein cœur de la forêt, et qui cherchent à se défendre face à leur ennemi de toujours, Gargamel. Le sorcier fait tout son possible pour les capturer avec l'aide de son perfide chat Azraël. Même l'adorable bébé Schtroumpf est de la partie et toute la fine équipe dispose d'une bonne dose d'imagination pour contrer Gargamel.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111180000 +0100" stop="20261111181100 +0100">
+    <title lang="fr">Infos régionales</title>
+    <desc lang="fr">Infos régionales est un journal d'information qui traite l'actualité des régions et des villes ivoiriennes.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111181100 +0100" stop="20261111185600 +0100">
+    <title lang="fr">Escale familiale</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111185600 +0100" stop="20261111190500 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111190500 +0100" stop="20261111195500 +0100">
+    <title lang="fr">Legacy</title>
+    <desc lang="fr">Il y a 30 ans, Sébastian Price a fondé un empire colossal. Lorsqu'il annonce sa future retraite, les membres de sa richissime famille s'observent et placent leur pion dans l'espoir de le remplacer. Quand une tragédie survient et que Sébastian meurt prématurément, la lutte pour le pouvoir devient effroyable, entre Angélique, son ex-femme, Felicity, son impitoyable fille aînée, Dineo, sa seconde épouse ou S.J, son playboy de fils.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111195500 +0100" stop="20261111195600 +0100">
+    <title lang="fr">La chaîne qui rassemble</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111195600 +0100" stop="20261111200000 +0100">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111200000 +0100" stop="20261111203200 +0100">
+    <title lang="fr">JT 20H RTI</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111203200 +0100" stop="20261111204000 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111204000 +0100" stop="20261111204500 +0100">
+    <title lang="fr">Humour</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111204500 +0100" stop="20261111204700 +0100">
+    <title lang="fr">Spot présidence la devise</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111204700 +0100" stop="20261111210100 +0100">
+    <title lang="fr">Compte rendu conseil ministres</title>
+    <category lang="fr">Magazine / Magazine politique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111210100 +0100" stop="20261111211600 +0100">
+    <title lang="fr">Le consommateur</title>
+    <desc lang="fr">Émission qui traite les sujets sur l'économie et les droits des consommateurs.</desc>
+    <category lang="fr">Magazine / Magazine du consommateur</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111211600 +0100" stop="20261111225000 +0100">
+    <title lang="fr">Côte Ouest</title>
+    <category lang="fr">Feuilleton / Feuilleton sentimental</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111225000 +0100" stop="20261111230000 +0100">
+    <title lang="fr">Infos régionales</title>
+    <desc lang="fr">Infos régionales est un journal d'information qui traite l'actualité des régions et des villes ivoiriennes.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111230000 +0100" stop="20261111233200 +0100">
+    <title lang="fr">JT 23H</title>
+    <desc lang="fr">Le journal 23h vous offre le résumé de l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261111233200 +0100" stop="20261112002600 +0100">
+    <title lang="fr">Allume ta télé</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
   <programme channel="RTL2.de" start="20261111001500 +0100" stop="20261111020000 +0100">
     <title lang="fr">Hartz und herzlich - S09E13</title>
     <desc lang="fr">Nach ihrer Hochzeit kämpfen Valeska und Serkan mit massiven Geldsorgen durch eine hohe Gasnachzahlung. Während Ralf mit Peggys Hilfe Hanf anbaut, plant Sascha auf dem Kölner CSD einen Heiratsantrag für Mike.</desc>
@@ -32485,7 +32758,7 @@
     <category lang="fr">Documentaire / Documentaire justice</category>
   </programme>
   <programme channel="Sat1.de" start="20261111170000 +0100" stop="20261111173000 +0100">
-    <title lang="fr">Notruf</title>
+    <title lang="fr">Notruf - S02E395</title>
     <desc lang="fr">In Bayern können Sie samstags von 17:00-18:00 Uhr das SAT.1 Bayern-Magazin empfangen. In allen anderen Verbreitungsgebieten empfangen Sie "NOTRUF". // Verletzt und unberechenbar: Wirres Gebrabbel, eine Glasscherbe in der Hand, Blut am Oberschenkel. Notfallsanitäterin Stephanie Lange findet einen Mann in seiner eigenen Welt gefangen. Während der Wundversorgung müssen die Retter jeden Moment damit rechnen, dass die Situation eskaliert.</desc>
     <category lang="fr">Documentaire / Documentaire société</category>
   </programme>
@@ -36921,6 +37194,593 @@
     <title lang="fr">Nantes soir</title>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="Telenantes.fr" start="20261111050900 +0100" stop="20261111051500 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111051500 +0100" stop="20261111053100 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111053100 +0100" stop="20261111053700 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111053700 +0100" stop="20261111054000 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111054000 +0100" stop="20261111054600 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111054600 +0100" stop="20261111055800 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111055800 +0100" stop="20261111060000 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111060000 +0100" stop="20261111060600 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111060600 +0100" stop="20261111061200 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111061200 +0100" stop="20261111061800 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111061800 +0100" stop="20261111062400 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111062400 +0100" stop="20261111063000 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111063000 +0100" stop="20261111063600 +0100">
+    <title lang="fr">Job info</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111063600 +0100" stop="20261111064000 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111064000 +0100" stop="20261111064800 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111064800 +0100" stop="20261111070000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111070000 +0100" stop="20261111070100 +0100">
+    <title lang="fr">Intro Ouest Matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111070100 +0100" stop="20261111070700 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111070700 +0100" stop="20261111070800 +0100">
+    <title lang="fr">Trafic Matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111070800 +0100" stop="20261111071400 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111071400 +0100" stop="20261111071800 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111071800 +0100" stop="20261111072400 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111072400 +0100" stop="20261111072700 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111072700 +0100" stop="20261111072800 +0100">
+    <title lang="fr">Trafic Matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111072800 +0100" stop="20261111072900 +0100">
+    <title lang="fr">Intro Ouest Matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111072900 +0100" stop="20261111073500 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111073500 +0100" stop="20261111073700 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111073700 +0100" stop="20261111074600 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111074600 +0100" stop="20261111075400 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111075400 +0100" stop="20261111080000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111080000 +0100" stop="20261111080100 +0100">
+    <title lang="fr">Intro Ouest Matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111080100 +0100" stop="20261111080700 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111080700 +0100" stop="20261111081100 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111081100 +0100" stop="20261111081900 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111081900 +0100" stop="20261111082700 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111082700 +0100" stop="20261111083000 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111083000 +0100" stop="20261111083800 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111083800 +0100" stop="20261111084400 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111084400 +0100" stop="20261111084700 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111084700 +0100" stop="20261111085300 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111085300 +0100" stop="20261111085800 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111085800 +0100" stop="20261111090100 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111090100 +0100" stop="20261111090700 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111090700 +0100" stop="20261111091900 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111091900 +0100" stop="20261111092100 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111092100 +0100" stop="20261111093000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111093000 +0100" stop="20261111093800 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111093800 +0100" stop="20261111094400 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111094400 +0100" stop="20261111094600 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111094600 +0100" stop="20261111100000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111100000 +0100" stop="20261111101200 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111101200 +0100" stop="20261111101400 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111101400 +0100" stop="20261111102000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111102000 +0100" stop="20261111103300 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111103300 +0100" stop="20261111104900 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111104900 +0100" stop="20261111105500 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111105500 +0100" stop="20261111112100 +0100">
+    <title lang="fr">Nantes Foot</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111112100 +0100" stop="20261111113300 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111113300 +0100" stop="20261111114500 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111114500 +0100" stop="20261111120000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111120000 +0100" stop="20261111121000 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111121000 +0100" stop="20261111121200 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111121200 +0100" stop="20261111122900 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111122900 +0100" stop="20261111123800 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111123800 +0100" stop="20261111124400 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111124400 +0100" stop="20261111125600 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111125600 +0100" stop="20261111125800 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111125800 +0100" stop="20261111130800 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111130800 +0100" stop="20261111133600 +0100">
+    <title lang="fr">L'entretien politique</title>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111133600 +0100" stop="20261111134600 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111134600 +0100" stop="20261111135900 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111135900 +0100" stop="20261111140100 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111140100 +0100" stop="20261111141100 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111141100 +0100" stop="20261111143700 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">Présenté par Cyril VIGUIER, Le Grand JT des Territoires mobilise 200 journalistes en proximité qui remontent des reportages de tous les territoires. Et il les diffuse dans le monde entier, via TV5 Monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111143700 +0100" stop="20261111144900 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111144900 +0100" stop="20261111145100 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111145100 +0100" stop="20261111150400 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111150400 +0100" stop="20261111151700 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111151700 +0100" stop="20261111152700 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111152700 +0100" stop="20261111153900 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111153900 +0100" stop="20261111160500 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">Présenté par Cyril VIGUIER, Le Grand JT des Territoires mobilise 200 journalistes en proximité qui remontent des reportages de tous les territoires. Et il les diffuse dans le monde entier, via TV5 Monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111160500 +0100" stop="20261111161500 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111161500 +0100" stop="20261111162100 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111162100 +0100" stop="20261111162700 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111162700 +0100" stop="20261111163900 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111163900 +0100" stop="20261111164100 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111164100 +0100" stop="20261111164700 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111164700 +0100" stop="20261111165700 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111165700 +0100" stop="20261111170000 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111170000 +0100" stop="20261111171000 +0100">
+    <title lang="fr">Ouest Actu</title>
+    <category lang="fr">Magazine / Magazine régional</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111171000 +0100" stop="20261111171300 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111171300 +0100" stop="20261111172800 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111172800 +0100" stop="20261111175900 +0100">
+    <title lang="fr">Nantes Foot</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111175900 +0100" stop="20261111180100 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111181400 +0100" stop="20261111182300 +0100">
+    <title lang="fr">Plateau</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111182300 +0100" stop="20261111182700 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111182700 +0100" stop="20261111182800 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111182900 +0100" stop="20261111184200 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111184200 +0100" stop="20261111184800 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111184800 +0100" stop="20261111185400 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111185400 +0100" stop="20261111185600 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111185600 +0100" stop="20261111191500 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111191500 +0100" stop="20261111192800 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111192800 +0100" stop="20261111193000 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111193000 +0100" stop="20261111194600 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111194600 +0100" stop="20261111195200 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111195200 +0100" stop="20261111195800 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111195800 +0100" stop="20261111201200 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111201200 +0100" stop="20261111202700 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111202700 +0100" stop="20261111202900 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111202900 +0100" stop="20261111204200 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111204200 +0100" stop="20261111204800 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111204800 +0100" stop="20261111205400 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111205400 +0100" stop="20261111205600 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111205600 +0100" stop="20261111205900 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111205900 +0100" stop="20261111210500 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111210500 +0100" stop="20261111211800 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111211800 +0100" stop="20261111213000 +0100">
+    <title lang="fr">Nantes matin</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111213000 +0100" stop="20261111213600 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111213600 +0100" stop="20261111214900 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111214900 +0100" stop="20261111220200 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111220200 +0100" stop="20261111220800 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111220800 +0100" stop="20261111223400 +0100">
+    <title lang="fr">Le grand journal des territoires</title>
+    <desc lang="fr">Présenté par Cyril VIGUIER, Le Grand JT des Territoires mobilise 200 journalistes en proximité qui remontent des reportages de tous les territoires. Et il les diffuse dans le monde entier, via TV5 Monde.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111223400 +0100" stop="20261111224000 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111224000 +0100" stop="20261111230600 +0100">
+    <title lang="fr">L'entretien politique</title>
+    <category lang="fr">Divers / Interview</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111230600 +0100" stop="20261111231400 +0100">
+    <title lang="fr">Nantes info</title>
+    <desc lang="fr">Journal</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111231400 +0100" stop="20261111232000 +0100">
+    <title lang="fr">Nantes soir</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111232000 +0100" stop="20261111232400 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111232400 +0100" stop="20261111232600 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111232600 +0100" stop="20261111233900 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111233900 +0100" stop="20261111235200 +0100">
+    <title lang="fr">Grand Format</title>
+    <desc lang="fr">Une couverture "grand format" pour les grands événements d'actualité en Loire-Atlantique.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111235200 +0100" stop="20261111235500 +0100">
+    <title lang="fr">Focus</title>
+    <desc lang="fr">Magazine d'information. Dans Focus, retrouvez nos grands reportages consacrés à l'information locale. L'occasion de prendre du recul et de vous donner encore un peu plus la parole ! </desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="Telenantes.fr" start="20261111235500 +0100" stop="20261112000100 +0100">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques locales pour la région de Bretagne, ainsi que pour toute la France.</desc>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
   <programme channel="Teva.fr" start="20261111001500 +0100" stop="20261111011500 +0100">
     <title lang="fr">Rizzoli &amp; Isles - S05E07</title>
     <desc lang="fr">Un libraire est retrouvé mort, torturé dans sa boutique spécialisée dans les livres rares. Le tueur semble avoir recherché un objet. Jane pense d'abord à une chose qui se trouverait dans le coffre-fort de la victime, mais celui-ci est vide. Puis elle trouve un livre caché derrière la plinthe du mur, dans lequel est écrit le nom d'un prêtre. Interrogé, ce dernier avoue qu'il devait récupérer le livre en cas de mort du libraire et le remettre à un professeur spécialisé dans les livres anciens. Mais même avec l'aide de cet expert, Maura ne comprend pas quelle énigme peut se cacher dans le recueil, qui se révèle en outre être une contrefaçon...</desc>
@@ -37201,10 +38061,25 @@
     <desc lang="fr">Alors qu'ils sont à la recherche de Rick Prime, Morty et Rick tombent sur Evil Morty. Tandis que tous trois se disputent, Rick Prime en profite pour les capturer, ainsi que d'autres versions de Rick. Le grand-père et son petit-fils sortent ensuite vainqueurs d'un combat de gladiateurs contre ces autres Rick. Ils découvrent ensuite que Rick Prime a construit une machine qui lui permet d'effacer n'importe qui dans n'importe quel univers...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="Toonami.fr" start="20261111144500 +0100" stop="20261111155500 +0100">
+    <title lang="fr">Justice League : Warworld</title>
+    <desc lang="fr">Jusqu'à présent, la Ligue des Justiciers n'était qu'une association informelle d'individus dotés de super-pouvoirs. Mais une menace inédite va changer la donne. Batman, Superman, Wonder Woman et les autres super-héros se retrouvent projetés dans le Warworld, une arène de gladiateurs. Dans ce monde, les combats ne cessent jamais et sont d'une incroyable brutalité. Alors qu'ils n'ont plus qu'un vague souvenir de qui ils sont, les super-héros doivent s'unir pour devenir une force invincible...</desc>
+    <category lang="fr">Téléfilm / Téléfilm d'animation</category>
+  </programme>
   <programme channel="Toonami.fr" start="20261111144500 +0100" stop="20261111160500 +0100">
     <title lang="fr">Justice League : Warworld</title>
     <desc lang="fr">Jusqu'à présent, la Ligue des Justiciers n'était qu'une association informelle d'individus dotés de super-pouvoirs. Mais une menace inédite va changer la donne. Batman, Superman, Wonder Woman et les autres super-héros se retrouvent projetés dans le Warworld, une arène de gladiateurs. Dans ce monde, les combats ne cessent jamais et sont d'une incroyable brutalité. Alors qu'ils n'ont plus qu'un vague souvenir de qui ils sont, les super-héros doivent s'unir pour devenir une force invincible...</desc>
     <category lang="fr">Téléfilm / Téléfilm d'animation</category>
+  </programme>
+  <programme channel="Toonami.fr" start="20261111155500 +0100" stop="20261111160000 +0100">
+    <title lang="fr">La Ligue des Justiciers : Action - S01E35</title>
+    <desc lang="fr">Darkseid charge ses acolytes de lui livrer Superman pour lui régler son compte une bonne fois pour toutes. Mais ces derniers font une erreur et enlèvent Sid Sharp, un journaliste du Daily Planet qui venait d'enfiler une tenue de superhéros. Superman décide alors d'aller sauver son nouvel ami...</desc>
+    <category lang="fr">Dessin animé / Dessin animé d'action</category>
+  </programme>
+  <programme channel="Toonami.fr" start="20261111160000 +0100" stop="20261111160500 +0100">
+    <title lang="fr">La Ligue des Justiciers : Action - S01E36</title>
+    <desc lang="fr">Luthor invente un rayon qui sépare les membres de la Ligue des Justiciers en deux avatars : l'un passif et bon, l'autre agressif et méchant...</desc>
+    <category lang="fr">Dessin animé / Dessin animé d'action</category>
   </programme>
   <programme channel="Toonami.fr" start="20261111160500 +0100" stop="20261111163000 +0100">
     <title lang="fr">Dragon Ball Super - S01E29</title>
@@ -38767,6 +39642,16 @@
     <title lang="fr">Focus Spécial</title>
     <desc lang="fr">Présentée exceptionnellement par Tatiana Tisseur..Mervil Villa présidente de l'association Famille Je Vous. Aime Jean-Philippe Duclona - Secrétaire général. L'insertion et la ré-insertion au coeur de l'association</desc>
     <category lang="fr">Divers / Talk-show</category>
+  </programme>
+  <programme channel="VoxAfrica.af" start="20261111162800 +0100" stop="20261111164200 +0100">
+    <title lang="fr">VoxNews</title>
+    <desc lang="fr">VoxNews est le journal télévisé des rédactions de VoxAfrica.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="VoxAfrica.af" start="20261111164200 +0100" stop="20261111165500 +0100">
+    <title lang="fr">Eco News</title>
+    <desc lang="fr">Le journal de l'économie, votre émission quotidienne d'information économique sur l'Afrique.</desc>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
   </programme>
   <programme channel="VoxAfrica.af" start="20261111165500 +0100" stop="20261111170200 +0100">
     <title lang="fr">Lidwine répond à vos questions</title>
@@ -40371,6 +41256,130 @@
   <programme channel="oqee.1065" start="20261111223000 +0100" stop="20261112070000 +0100">
     <title lang="fr">Missunderstand</title>
     <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111000000 +0100" stop="20261111003000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111003000 +0100" stop="20261111010100 +0100">
+    <title lang="fr">Documental</title>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111010100 +0100" stop="20261111012600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111012600 +0100" stop="20261111022600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111022600 +0100" stop="20261111023100 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111034900 +0100" stop="20261111041600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111041600 +0100" stop="20261111050600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111050600 +0100" stop="20261111051700 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111051700 +0100" stop="20261111053200 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111053200 +0100" stop="20261111062200 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111062200 +0100" stop="20261111062800 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111062800 +0100" stop="20261111073600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111073600 +0100" stop="20261111083100 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111083100 +0100" stop="20261111090000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111090000 +0100" stop="20261111093900 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111093900 +0100" stop="20261111105200 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111105200 +0100" stop="20261111112000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111112000 +0100" stop="20261111121200 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111121200 +0100" stop="20261111131400 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111131400 +0100" stop="20261111134900 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111134900 +0100" stop="20261111145500 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111145500 +0100" stop="20261111155600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111155600 +0100" stop="20261111165800 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111165800 +0100" stop="20261111170600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111170600 +0100" stop="20261111180300 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111180300 +0100" stop="20261111190900 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111190900 +0100" stop="20261111193400 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111193400 +0100" stop="20261111202800 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111202800 +0100" stop="20261111215400 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111215400 +0100" stop="20261111230600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261111230600 +0100" stop="20261112000000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.1081" start="20261111000300 +0100" stop="20261111000400 +0100">
     <title lang="fr">DIY Jardin - S01E06</title>
@@ -55880,12 +56889,10 @@
   </programme>
   <programme channel="oqee.396" start="20261111200000 +0100" stop="20261111203000 +0100">
     <title lang="fr">The Cathy Newman Show</title>
-    <desc lang="fr">Highlights from the Cathy Newman show, including news-making interviews, debate and straight-talking analysis from Westminster and beyond.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.396" start="20261111203000 +0100" stop="20261111210000 +0100">
     <title lang="fr">The Cathy Newman Show</title>
-    <desc lang="fr">Highlights from the Cathy Newman show, including news-making interviews, debate and straight-talking analysis from Westminster and beyond.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.396" start="20261111210000 +0100" stop="20261111213000 +0100">
@@ -55900,12 +56907,10 @@
   </programme>
   <programme channel="oqee.396" start="20261111220000 +0100" stop="20261111223000 +0100">
     <title lang="fr">The World with Yalda Hakim</title>
-    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20261111223000 +0100" stop="20261111230000 +0100">
     <title lang="fr">The World with Yalda Hakim</title>
-    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20261111230000 +0100" stop="20261111233000 +0100">
@@ -59796,6 +60801,46 @@
   <programme channel="oqee.568" start="20261111233900 +0100" stop="20261112000700 +0100">
     <title lang="fr">100% voyance</title>
     <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111014000 +0100" stop="20261111033400 +0100">
+    <title lang="fr">The Demon Disorder</title>
+    <desc lang="fr">Tells the story of Graham, Jake and Phillip Reilly and their deceased father. Their pasts collide when a family secret is discovered, leading their father's garage to become the site of revenge from beyond the grave.</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111033400 +0100" stop="20261111070000 +0100">
+    <title lang="fr">Race</title>
+    <desc lang="fr">Two stepbrothers own a huge stud farm and a horse racing business. When they learn that they have a common love interest, one of them tries to kill the other and inherit the insurance money.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111070000 +0100" stop="20261111090900 +0100">
+    <title lang="fr">Ek Aur Prem Deewani</title>
+    <desc lang="fr">After falling in love with her music teacher, a princess wishes to break off her engagement with a US-based man. As a result, her wedding day turns out to be full of unexpected events.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111090900 +0100" stop="20261111115500 +0100">
+    <title lang="fr">Kaali Topi Laal Roomaal</title>
+    <desc lang="fr">Commando Vijay arrests a terrorist, Master DD. However, he realises that Master DD is just a pawn and tries to find the real culprit.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111115500 +0100" stop="20261111144600 +0100">
+    <title lang="fr">Kehte Hain Muzko Raaja</title>
+    <desc lang="fr">Biswajeet is a common man performing road tricks to earn his living. Somehow he gets mistaken for a rich man Raja who is either supposed to be missing or dead. Biswajeet masquerades as Raja gets into his palatial home and tries to find out the truth. Clearly Raja had many enemies probably keen on his wealth. Even during this song there are many who seem to want to bump him off.</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111144600 +0100" stop="20261111174500 +0100">
+    <title lang="fr">Mera Karam Mera Dharam</title>
+    <desc lang="fr">Ajay, a businessman, provides funds to Sarjuprasad to develop his hometown. When he learns that the money has been misappropriated by Sarjuprasad, he resolves to set things right.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111174500 +0100" stop="20261111211700 +0100">
+    <title lang="fr">Wafadaar</title>
+    <desc lang="fr">This is an action film, released in 1985, starring Rajnikant, Padmini Kolhapure and Anupam Kher.</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="oqee.581" start="20261111211700 +0100" stop="20261112002600 +0100">
+    <title lang="fr">Koyelaanchal</title>
+    <desc lang="fr">Things are back to "normal" at the squad when Bobby returns to work. Gina still hasn't officially announced anything; however, after thinking it over she accepts James' proposal for marriage. Bobby and Andy look into a shooting death that occurred during a robbery at a bar. The suspect that the patrons point to is a man whom Bobby and Andy discover is dying and was on a mixture of drugs and alcohol at the time that he shot his gun at someone. Meanwhile, the rest of the squad stakes out the hotel where a serial rapist has been committing his crimes. Gina, now anxious to get married, gets James to make arrangements for a quick ceremony. They'll have a family type ceremony later. Bobby is glad to be back on the job.</desc>
+    <category lang="fr">Film / Film d'action</category>
   </programme>
   <programme channel="oqee.611" start="20261111000000 +0100" stop="20261111001000 +0100">
     <title lang="fr">Le journal France 24 (EN)</title>
@@ -63782,6 +64827,135 @@
     <desc lang="fr">Retrospective de la journée par le biais de la presse quotidienne camerounaise. Suivez les actualités écrites sous des regards opposés et en tirez des conclusions objectives et neutres.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
+  <programme channel="oqee.71" start="20261111004900 +0100" stop="20261111014900 +0100">
+    <title lang="fr">Conexión Galicia</title>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111014900 +0100" stop="20261111021400 +0100">
+    <title lang="fr">Zigzag</title>
+    <desc lang="fr">Programa que lles achega aos espectadores galegos toda a actualidade cultural, presentado de luns a venres por Pilar G. Rego e por María Solar os sábados.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111021400 +0100" stop="20261111023800 +0100">
+    <title lang="fr">No foco</title>
+    <desc lang="fr">Presentado por Jesús Peleteiro, espazo semanal de reportaxes, que afonda nas claves da actualidade e profunda nos asuntos informativos que suscitan o interese dos espectadores, cun enfoque rigoroso e especializado.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111023800 +0100" stop="20261111034400 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111034400 +0100" stop="20261111044900 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111044900 +0100" stop="20261111055100 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111055100 +0100" stop="20261111065600 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111065600 +0100" stop="20261111070000 +0100">
+    <title lang="fr">Información estado do mar mañá</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111070000 +0100" stop="20261111080000 +0100">
+    <title lang="fr">Galicia por diante</title>
+    <desc lang="fr">Faladoiro informativo presentado por Celia Rúa e Luís Ojea dende o estudio multimedia da Radio Galega.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111080000 +0100" stop="20261111105000 +0100">
+    <title lang="fr">Bos Días</title>
+    <desc lang="fr">Espacio matinal realizado por los servicios informativos de Televisión de Galicia que hace un repaso de la actualidad. La información da paso a una entrevista diaria así como conexiones en directo y otras secciones de salud, gastronomía y opinión.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111105000 +0100" stop="20261111105500 +0100">
+    <title lang="fr">Mira ti</title>
+    <category lang="fr">Documentaire / Documentaire autre</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111105500 +0100" stop="20261111110100 +0100">
+    <title lang="fr">O agro</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111110100 +0100" stop="20261111113000 +0100">
+    <title lang="fr">Pulso activo</title>
+    <desc lang="fr">A TVG pon o corpo en movemento con 'Pulso activo', un novo formato diario de saúde e benestar. O espazo, presentado por Eddy Insua, propón unha rutina diaria de exercicio adaptado para mellorar a saúde, combater o sedentarismo e encher as mañás de enerxía positiva.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111113000 +0100" stop="20261111135400 +0100">
+    <title lang="fr">O termómetro</title>
+    <desc lang="fr">Magazine diario, presentado por Javier Romero, Noelia Rey e Bernardo Montaña, que lle toma o pulso cada mañá a Galicia. Centrado na realidade social galega, ofrece unha ampla cobertura en directo da actualidade. "O Termómetro" falará este venres do auxe da Formación Profesional, dos alcumes e da final do Mundial que disputará o domingo a selección española.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111135400 +0100" stop="20261111143000 +0100">
+    <title lang="fr">Galicia Noticias Mañá</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111143000 +0100" stop="20261111152000 +0100">
+    <title lang="fr">Telexornal mediodía</title>
+    <desc lang="fr">Presenta Marta Darriba ao mediodía, Pablo Muñoz no serán e David Valverde na fin de semana.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111152000 +0100" stop="20261111153700 +0100">
+    <title lang="fr">Telexornal deportes mediodía</title>
+    <desc lang="fr">Información deportiva a cargo de Sevi Martínez.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111153700 +0100" stop="20261111154700 +0100">
+    <title lang="fr">O tempo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111154700 +0100" stop="20261111163300 +0100">
+    <title lang="fr">Atrápame se podes</title>
+    <desc lang="fr">Concurso de preguntas e respostas que convida o espectador a xogar desde casa e dá aos concursantes a oportunidade de gañaren importantes premios. Presentado por Rodrigo Vázquez.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111163300 +0100" stop="20261111170300 +0100">
+    <title lang="fr">Taxi Quiz: Pagas... Ou Cobras</title>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111170300 +0100" stop="20261111175100 +0100">
+    <title lang="fr">Mira Ti Que Ben. Imos De Voda</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111175100 +0100" stop="20261111202600 +0100">
+    <title lang="fr">Hora galega</title>
+    <desc lang="fr">Programa vivo e variado, presentado por Quique Morales e Rocío Durán, onde as grandes protagonistas son as historias cotiás dos galegos e galegas.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111202600 +0100" stop="20261111210000 +0100">
+    <title lang="fr">A voltas co prato</title>
+    <desc lang="fr">Cada día, dous cociñeiros traballan contra o reloxo para ofertar un prato que conquiste o padal do convidado ou convidada do día. Presentado por Fran Cañotas.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111210000 +0100" stop="20261111213700 +0100">
+    <title lang="fr">Telexornal serán</title>
+    <desc lang="fr">Presenta Marta Darriba ao mediodía, Pablo Muñoz no serán e David Valverde na fin de semana.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111213700 +0100" stop="20261111214500 +0100">
+    <title lang="fr">O tempo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111214500 +0100" stop="20261111224500 +0100">
+    <title lang="fr">Land Rober + Show</title>
+    <desc lang="fr">"Land Rober + Show" volverá pintar a mona con sketchs de ficción, o seu xa popular prezo xusto, xogos co público e entrevistas a personaxes de todo tipo, tanto de Galicia como de toda España. Ademais de Roberto Vilar e Eva Iglesias, o espazo de humor conta coa presenza de Xurxo Carreño, Patricia Pérez, Ana Ageitos e Dani Fernández como colaboradores.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111224500 +0100" stop="20261111231400 +0100">
+    <title lang="fr">O amor está en Galicia</title>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111231400 +0100" stop="20261111234800 +0100">
+    <title lang="fr">O amor está en Galicia</title>
+    <category lang="fr">Divers / Téléréalité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261111234800 +0100" stop="20261112004700 +0100">
+    <title lang="fr">Como galegos</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
   <programme channel="oqee.754" start="20261111000000 +0100" stop="20261111003000 +0100">
     <title lang="fr">TRIP IN KOREA</title>
     <desc lang="fr">Audiences are guided through Korea's most captivating destinations, from bustling cities and historic sites to serene countryside and hidden gems. Each episode explores local culture, traditions, cuisine, and seasonal events, offering travel tips and personal experiences. By following the program, viewers gain inspiration for their own journeys, a richer appreciation of Korea's diversity, and insight into the country's natural beauty and cultural heritage.</desc>
@@ -64221,6 +65395,61 @@
     <title lang="fr">Préface</title>
     <desc lang="fr">Magazine culturel qui fait valoir la culture, la tradition, l'art et le patrimoine du département de Vendée.</desc>
     <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111000000 +0100" stop="20261111014500 +0100">
+    <title lang="fr">Zamanı Geldi</title>
+    <desc lang="fr">Zamanı Geldi, Kanal 360'ta hafta içi sabah saatlerinde yayınlanan güncel haber programıdır. Program, Türkiye ve dünyadan yaşanan son gelişmeleri, siyaset, ekonomi ve toplum gündemini kapsamlı şekilde ele alır. Günün öne çıkan haberleri, sosyal medyada öne çıkan başlıklar ve kamuoyunu ilgilendiren konular yorum ve analizlerle izleyiciye aktarılır. Bilgilendirici ve dinamik yapısıyla Zamanı Geldi, güne gündemi yakalayarak başlamak isteyen izleyiciler için hazırlanmıştır.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111014500 +0100" stop="20261111030000 +0100">
+    <title lang="fr">Pınar Altuğ Atacan ile Kim O?</title>
+    <desc lang="fr">Pınar Altuğ Atacan, ünlü konuklarıyla sohbetin en doğal ve en keyifli hâlini ekrana taşıyor.Konukların bilinmeyen yönleri, hayatlarına dair özel hikâyeleri ve merak edilen anıları samimi bir dille paylaşılıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111030000 +0100" stop="20261111033000 +0100">
+    <title lang="fr">Ataman'la Devri Alem</title>
+    <desc lang="fr">Ataman'la Devri Alem, dünyanın farklı bölgelerini keşfetmeyi seven izleyiciler için hazırlanan kapsamlı bir gezi programı. Programda doğa harikaları, tarihi eserler, kültürel yaşam ve farklı coğrafyaların kendine has atmosferi detaylı bir anlatımla izleyiciye sunuluyor. Eğitici yönü güçlü olan program, hem belgesel hem de seyahat içeriklerini bir araya getirerek bilgi ve keşif dolu bir ekran deneyimi yaşatıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111033000 +0100" stop="20261111044500 +0100">
+    <title lang="fr">Öykü Cengiz ile O Anın Öyküsü</title>
+    <desc lang="fr">Öykü Cengiz ile O An'ın Öyküsü, 360'ta başlayacak yeni yaşam programıdır. Sunucu Öykü Cengiz konuklarıyla birlikte fotoğraflar ve anlatılar eşliğinde özel anların perde arkasını keşfeder. Samimi sohbetler, unutulmaz hatıralar ve kişisel öyküler izleyicilere aktarılır ve her bölüm farklı bakış açıları sunar.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111044500 +0100" stop="20261111064500 +0100">
+    <title lang="fr">Gökyüzünden</title>
+    <desc lang="fr">Gökyüzünden, Kanal 360'ta yayınlanan görsel ağırlıklı bir gezi ve yaşam programıdır. Programda, Anadolu'nun dört bir yanındaki doğal güzellikler, tarihi şehirler, kültürel miraslar ve çarpıcı coğrafi alanlar drone ile çekilmiş kuş bakışı görüntülerle izleyiciye sunulur. Anadolu'nun eşsiz manzaraları, dağlar, göller, vadiler ve mimari değerler, sakin anlatım ve görsel zenginlikle aktarılır. Bu sayede izleyici, Türkiye'yi yüksekten bir bakışla keşfederken aynı zamanda çeşitli yörelerin güzelliklerini ve atmosferini hissedebilir. Program, foto-video tutkunları ile doğa ve seyahat meraklıları için görsel bir deneyim niteliğindedir.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111064500 +0100" stop="20261111130000 +0100">
+    <title lang="fr">Zamanı Geldi</title>
+    <desc lang="fr">Zamanı Geldi, Kanal 360'ta hafta içi sabah saatlerinde yayınlanan güncel haber programıdır. Program, Türkiye ve dünyadan yaşanan son gelişmeleri, siyaset, ekonomi ve toplum gündemini kapsamlı şekilde ele alır. Günün öne çıkan haberleri, sosyal medyada öne çıkan başlıklar ve kamuoyunu ilgilendiren konular yorum ve analizlerle izleyiciye aktarılır. Bilgilendirici ve dinamik yapısıyla Zamanı Geldi, güne gündemi yakalayarak başlamak isteyen izleyiciler için hazırlanmıştır.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111130000 +0100" stop="20261111140000 +0100">
+    <title lang="fr">Seren'le Buluşalım</title>
+    <desc lang="fr">Mutfakta hazırlanan birbirinden lezzetli tarifler, pratik püf noktaları ve keyifli sohbetlerle izleyiciyle buluşuyor. Günlük sofralara ilham verecek yemekler, farklı tatlar ve kolay uygulanabilecek öneriler samimi bir anlatımla aktarılıyor. Lezzetli tarifleri keşfetmek ve mutfakta yeni fikirler edinmek isteyenler için keyifli bir içerik sunuluyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111140000 +0100" stop="20261111150000 +0100">
+    <title lang="fr">Ataman'la Devri Alem</title>
+    <desc lang="fr">Ataman'la Devri Alem, dünyanın farklı bölgelerini keşfetmeyi seven izleyiciler için hazırlanan kapsamlı bir gezi programı. Programda doğa harikaları, tarihi eserler, kültürel yaşam ve farklı coğrafyaların kendine has atmosferi detaylı bir anlatımla izleyiciye sunuluyor. Eğitici yönü güçlü olan program, hem belgesel hem de seyahat içeriklerini bir araya getirerek bilgi ve keşif dolu bir ekran deneyimi yaşatıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111150000 +0100" stop="20261111170000 +0100">
+    <title lang="fr">Lezzet Peşinde</title>
+    <desc lang="fr">Lezzet Peşinde, 360'ta yayınlanan ve Türkiye'nin zengin mutfak kültürünü ekrana taşıyan bir yaşam programıdır. Programda farklı şehirlerin yöresel lezzetleri keşfedilirken usta şefler, üreticiler ve lezzet duraklarıyla yapılan ziyaretler izleyiciyle buluşur. Her bölümde tatların kökeni, yapım süreçleri ve geleneksel tarifler ele alınır. İzleyici sadece yemeklerin tariflerini değil, aynı zamanda kültürel bağlarını ve üretim hikayelerini de öğrenir. Program gastronomi tutkunlarına hem bilgi hem ilham verir ve farklı lezzet rotalarına dair fikirler sunar.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111170000 +0100" stop="20261111223000 +0100">
+    <title lang="fr">Ben Bilirim</title>
+    <desc lang="fr">Genel kültür, hızlı düşünme ve dikkat gerektiren sorular üzerinden yarışmacıların bilgi düzeyi test edilir. Farklı alanlardan gelen sorular sayesinde hem eğlenceli hem de öğretici bir rekabet ortamı oluşur. Yarışmacılar zamanla yarışırken aynı zamanda strateji ve odaklanma becerilerini de kullanmak zorunda kalır. Program, izleyiciye hem bilgi kazandıran hem de eğlenceli vakit geçirmeyi sağlayan dinamik bir format sunar.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.772" start="20261111224500 +0100" stop="20261112000000 +0100">
+    <title lang="fr">Ben Bilirim</title>
+    <desc lang="fr">Genel kültür, hızlı düşünme ve dikkat gerektiren sorular üzerinden yarışmacıların bilgi düzeyi test edilir. Farklı alanlardan gelen sorular sayesinde hem eğlenceli hem de öğretici bir rekabet ortamı oluşur. Yarışmacılar zamanla yarışırken aynı zamanda strateji ve odaklanma becerilerini de kullanmak zorunda kalır. Program, izleyiciye hem bilgi kazandıran hem de eğlenceli vakit geçirmeyi sağlayan dinamik bir format sunar.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.773" start="20261111060000 +0100" stop="20261111090000 +0100">
     <title lang="fr">Günaydın Türkiye</title>

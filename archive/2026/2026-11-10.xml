@@ -600,6 +600,10 @@
     <display-name>RTB</display-name>
     <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/50513/CHN43FB/rtb.jpg?=.png"/>
   </channel>
+  <channel id="RTI1.ci">
+    <display-name>RTI1</display-name>
+    <icon src="https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180171/canal-ouah/CHN43FB/RTI1_myCANAL_640x480?=.png"/>
+  </channel>
   <channel id="RTL2.de">
     <display-name>RTL2</display-name>
     <icon src="https://static-cdn.tv.sfr.net/data/logos/tv_services/RTL2_color.png"/>
@@ -687,6 +691,14 @@
   <channel id="TV5Monde.fr">
     <display-name>TV5 Monde</display-name>
     <icon src="https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png"/>
+  </channel>
+  <channel id="TV5MondeInfo.fr">
+    <display-name>TV5 Monde Info</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblq2bYzk22pzh2Eb652NvyfwpDfXQp0k6b9YYytZSQyGbDXTSSxuHeQuNn9E&amp;amp;s"/>
+  </channel>
+  <channel id="TV5Style.fr">
+    <display-name>TV5 Style</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bBhY8llmKCpPQJDCta8lgkZdSxsWvEZA3V5qqLi8H1XqH0paQ6dVLfwgSjo&amp;amp;s"/>
   </channel>
   <channel id="TVMonaco.fr">
     <display-name>TV Monaco</display-name>
@@ -843,6 +855,10 @@
   <channel id="oqee.1065">
     <display-name>ON TV</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/2556/w256"/>
+  </channel>
+  <channel id="oqee.1072">
+    <display-name>All Flamenco</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/2604/w256"/>
   </channel>
   <channel id="oqee.1081">
     <display-name>Maison &amp; Travaux TV</display-name>
@@ -1216,6 +1232,10 @@
     <display-name>20 Minutes TV Île-de-France</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/3715/w256"/>
   </channel>
+  <channel id="oqee.581">
+    <display-name>B4U Movies</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1666/w256"/>
+  </channel>
   <channel id="oqee.611">
     <display-name>France 24 English</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/2647/w256"/>
@@ -1288,6 +1308,10 @@
     <display-name>Mediaset Italia</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/1595/w256"/>
   </channel>
+  <channel id="oqee.71">
+    <display-name>Galicia TV</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/832/w256"/>
+  </channel>
   <channel id="oqee.754">
     <display-name>Arirang</display-name>
     <icon src="https://img2.oqee.net/channel_pictures/1553/w256"/>
@@ -1299,6 +1323,10 @@
   <channel id="oqee.771">
     <display-name>New Tang Dynasty Television</display-name>
     <icon src="https://img1.oqee.net/channel_pictures/1862/w256"/>
+  </channel>
+  <channel id="oqee.772">
+    <display-name>360</display-name>
+    <icon src="https://img1.oqee.net/channel_pictures/1644/w256"/>
   </channel>
   <channel id="oqee.773">
     <display-name>Ulusal Kanal</display-name>
@@ -13919,9 +13947,24 @@
     <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="Euronews.fr" start="20261110060000 +0100" stop="20261110061200 +0100">
+    <title lang="fr">Debout l'Europe</title>
+    <desc lang="fr">Un flash d'information internationale délivré régulièrement par la rédaction d'Euronews.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="Euronews.fr" start="20261110060000 +0100" stop="20261110063000 +0100">
     <title lang="fr">Europe Today</title>
     <desc lang="fr">L'émission phare du matin d'Euronews avec les actualités et les analyses qui influencent l'Europe.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="Euronews.fr" start="20261110061200 +0100" stop="20261110062000 +0100">
+    <title lang="fr">Made in Europe</title>
+    <desc lang="fr">Focus sur les innovations, entreprises et initiatives européennes dans les domaines de la technologie, de l'industrie, de l'environnement, de la santé ou de l'alimentation.</desc>
+    <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+  </programme>
+  <programme channel="Euronews.fr" start="20261110062000 +0100" stop="20261110063000 +0100">
+    <title lang="fr">News</title>
+    <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Euronews.fr" start="20261110063000 +0100" stop="20261110064200 +0100">
@@ -13930,9 +13973,9 @@
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Euronews.fr" start="20261110064200 +0100" stop="20261110070000 +0100">
-    <title lang="fr">Euroverify</title>
-    <desc lang="fr">Une équipe de journalistes spécialisés dans la vérification des faits et la démystification des plus grands sujets et rumeurs concernant l'Europe et …</desc>
-    <category lang="fr">Divers / Autre</category>
+    <title lang="fr">News</title>
+    <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Euronews.fr" start="20261110070000 +0100" stop="20261110073000 +0100">
     <title lang="fr">Europe Today</title>
@@ -14314,6 +14357,11 @@
     <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
+  <programme channel="Euronews.fr" start="20261110190000 +0100" stop="20261110193000 +0100">
+    <title lang="fr">News</title>
+    <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="Euronews.fr" start="20261110190000 +0100" stop="20261110191200 +0100">
     <title lang="fr">Europe le debrief</title>
     <desc lang="fr">Toutes les demi-heures, un très vaste panel d'informations européennes et internationales est présenté et détaillé, images à l'appui.</desc>
@@ -14324,6 +14372,11 @@
     <desc lang="fr">Un magazine d'interviews qui donne la parole à des personnalités influentes pour analyser l'actualité, les enjeux politiques et les défis majeurs de l'Europe et du monde.</desc>
     <category lang="fr">Magazine / Magazine de géopolitique</category>
   </programme>
+  <programme channel="Euronews.fr" start="20261110193000 +0100" stop="20261110194200 +0100">
+    <title lang="fr">Europe le debrief</title>
+    <desc lang="fr">Toutes les demi-heures, un très vaste panel d'informations européennes et internationales est présenté et détaillé, images à l'appui.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
   <programme channel="Euronews.fr" start="20261110193000 +0100" stop="20261110193700 +0100">
     <title lang="fr">Europe le debrief</title>
     <desc lang="fr">Toutes les demi-heures, un très vaste panel d'informations européennes et internationales est présenté et détaillé, images à l'appui.</desc>
@@ -14333,6 +14386,11 @@
     <title lang="fr">Made in Europe</title>
     <desc lang="fr">Focus sur les innovations, entreprises et initiatives européennes dans les domaines de la technologie, de l'industrie, de l'environnement, de la santé ou de l'alimentation.</desc>
     <category lang="fr">Documentaire / Documentaire sciences et technique</category>
+  </programme>
+  <programme channel="Euronews.fr" start="20261110194200 +0100" stop="20261110200000 +0100">
+    <title lang="fr">News</title>
+    <desc lang="fr">L'info internationale toutes les 15 minutes de 5h00 à 10h00 CET et toutes les demi-heures le reste de la journée. euronews: un regard différent sur l'actualité.</desc>
+    <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="Euronews.fr" start="20261110194700 +0100" stop="20261110200000 +0100">
     <title lang="fr">Made in Europe</title>
@@ -30932,6 +30990,227 @@
     <desc lang="fr">Un spectacle hors norme du chanteur ivoirien, considéré comme un monument et qui compte à son actif plus de cinquante années de carrière. Un moment inoubliable.</desc>
     <category lang="fr">Divers / Divertissement</category>
   </programme>
+  <programme channel="RTI1.ci" start="20261110002600 +0100" stop="20261110012200 +0100">
+    <title lang="fr">Escale familiale</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110012200 +0100" stop="20261110030600 +0100">
+    <title lang="fr">Daro</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110030600 +0100" stop="20261110033500 +0100">
+    <title lang="fr">Vidéo night</title>
+    <desc lang="fr">Vidéo Night est un programme de divertissement qui offre une diversité des clips.</desc>
+    <category lang="fr">Divers / Clips</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110033500 +0100" stop="20261110040000 +0100">
+    <title lang="fr">Intrigue à Baby</title>
+    <desc lang="fr">Inspirée de faits réels, cette série dramatique aborde le quotidien et les intrigues des familles ivoiriennes. </desc>
+    <category lang="fr">Série / Comédie dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110040000 +0100" stop="20261110043000 +0100">
+    <title lang="fr">JT 20H RTI</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110043000 +0100" stop="20261110043400 +0100">
+    <title lang="fr">Hymme national</title>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110043400 +0100" stop="20261110055500 +0100">
+    <title lang="fr">Mie</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110055500 +0100" stop="20261110060000 +0100">
+    <title lang="fr">Hymme national</title>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110060000 +0100" stop="20261110062700 +0100">
+    <title lang="fr">Coeur d'ébène</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110062700 +0100" stop="20261110063000 +0100">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110063000 +0100" stop="20261110064500 +0100">
+    <title lang="fr">Le journal 06h30</title>
+    <desc lang="fr">Le journal 06H30 est un journal télévisé qui, pendant environ 30 minutes, traite des informations nationales et internationales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110064500 +0100" stop="20261110074200 +0100">
+    <title lang="fr">Coeur d'ébène</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110074200 +0100" stop="20261110080000 +0100">
+    <title lang="fr">Select Ivoire</title>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110080000 +0100" stop="20261110084500 +0100">
+    <title lang="fr">Les aromes du coeur</title>
+    <desc lang="fr">Elevée par son père, Maíra a toujours cru sa mère morte, un mensonge pour la protéger de Zoé, qui l'a rejetée à sa naissance à cause de son handicap. Des années plus tard, Zoé réapparaît en demandant pardon mais avec des intentions cachées. La réunion rêvée se transforme en un long et périlleux voyage...</desc>
+    <category lang="fr">Feuilleton / Feuilleton dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110084500 +0100" stop="20261110090000 +0100">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110090000 +0100" stop="20261110100200 +0100">
+    <title lang="fr">Lundi Sport</title>
+    <desc lang="fr">Découvrez l'actu sport du week-end écoulé. Adrien Espinosa accueille chaque semaine un invité sur le canapé de Lundi sport. Retrouvez Stéphanie Marlier pour l'actu des " Cagous d'ailleurs " et découvrez le défi sportif (et surtout loufoque) en fin d'émission. Un rendez-vous plein d'énergie pour les sportifs et les novices !</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110100200 +0100" stop="20261110110000 +0100">
+    <title lang="fr">Le club de la presse</title>
+    <category lang="fr">Divers / Débat</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110110000 +0100" stop="20261110113000 +0100">
+    <title lang="fr">Intrigue à Baby</title>
+    <desc lang="fr">Inspirée de faits réels, cette série dramatique aborde le quotidien et les intrigues des familles ivoiriennes. </desc>
+    <category lang="fr">Série / Comédie dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110113000 +0100" stop="20261110120000 +0100">
+    <title lang="fr">Les RDV de la DCM</title>
+    <desc lang="fr">Rendez-vous " est l'émission des petites annonces. Cette émission est une vitrine pour tout individu ou professionnel souhaitant annoncer un événement, un concert, une soirée, un festival…</desc>
+    <category lang="fr">Divers / Autre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110120000 +0100" stop="20261110125200 +0100">
+    <title lang="fr">Allume ta télé</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110125200 +0100" stop="20261110125600 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110125600 +0100" stop="20261110130000 +0100">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110130000 +0100" stop="20261110133100 +0100">
+    <title lang="fr">JT 13H RTI</title>
+    <desc lang="fr"> Le journal 13H est un journal télévisé qui, pendant environ 30 minutes, traite des informations nationales et internationales.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110133100 +0100" stop="20261110133800 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110133800 +0100" stop="20261110142500 +0100">
+    <title lang="fr">Les aromes du coeur</title>
+    <desc lang="fr">Elevée par son père, Maíra a toujours cru sa mère morte, un mensonge pour la protéger de Zoé, qui l'a rejetée à sa naissance à cause de son handicap. Des années plus tard, Zoé réapparaît en demandant pardon mais avec des intentions cachées. La réunion rêvée se transforme en un long et périlleux voyage...</desc>
+    <category lang="fr">Feuilleton / Feuilleton dramatique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110142500 +0100" stop="20261110145300 +0100">
+    <title lang="fr">Rouge à lèvres</title>
+    <category lang="fr">Série / Série Autre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110145300 +0100" stop="20261110150000 +0100">
+    <title lang="fr">Capsules</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110150000 +0100" stop="20261110150700 +0100">
+    <title lang="fr">Flash 15h</title>
+    <desc lang="fr">Flash 15h est un journal d'information présenté quotidiennement.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110150700 +0100" stop="20261110160000 +0100">
+    <title lang="fr">Deux couples, un foyer</title>
+    <desc lang="fr">Stéphane et Bastien, deux amis de toujours, sont mariés à Astrid et Audrey. Tous les quatre décident de vivre sous le même toit, mais les deux couples se rendent compte que la vie conjugale n'a pas grand chose à voir avec l'amitié.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110160000 +0100" stop="20261110163000 +0100">
+    <title lang="fr">Ça fait l'actualité</title>
+    <desc lang="fr">Un magazine informatif qui traite les actualités nationales et internationales.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110163000 +0100" stop="20261110170000 +0100">
+    <title lang="fr">Programme non communiqué</title>
+    <desc lang="fr">Notre rédaction s'efforce de vous fournir un aperçu aussi précis que possible des programmes des chaînes de télévision. Néanmoins, il arrive de temps en temps qu'au moment de la date limite de rédaction, aucune information sur les programmes ne soit disponible pour les différents programmes de la chaîne.</desc>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110170000 +0100" stop="20261110174600 +0100">
+    <title lang="fr">Les infos en langues nationales</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110174600 +0100" stop="20261110180000 +0100">
+    <title lang="fr">Les Schtroumpfs</title>
+    <desc lang="fr">Les nouvelles aventures des petits êtres bleus qui vivent dans des maisons en forme de champignons dans un village caché en plein cœur de la forêt, et qui cherchent à se défendre face à leur ennemi de toujours, Gargamel. Le sorcier fait tout son possible pour les capturer avec l'aide de son perfide chat Azraël. Même l'adorable bébé Schtroumpf est de la partie et toute la fine équipe dispose d'une bonne dose d'imagination pour contrer Gargamel.</desc>
+    <category lang="fr">Série / Série d'animation</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110180000 +0100" stop="20261110181100 +0100">
+    <title lang="fr">Infos régionales</title>
+    <desc lang="fr">Infos régionales est un journal d'information qui traite l'actualité des régions et des villes ivoiriennes.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110181100 +0100" stop="20261110185600 +0100">
+    <title lang="fr">Escale familiale</title>
+    <category lang="fr">Magazine / Magazine de l'art de vivre</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110185600 +0100" stop="20261110190500 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110190500 +0100" stop="20261110195500 +0100">
+    <title lang="fr">Legacy</title>
+    <desc lang="fr">Il y a 30 ans, Sébastian Price a fondé un empire colossal. Lorsqu'il annonce sa future retraite, les membres de sa richissime famille s'observent et placent leur pion dans l'espoir de le remplacer. Quand une tragédie survient et que Sébastian meurt prématurément, la lutte pour le pouvoir devient effroyable, entre Angélique, son ex-femme, Felicity, son impitoyable fille aînée, Dineo, sa seconde épouse ou S.J, son playboy de fils.</desc>
+    <category lang="fr">Série / Série sentimentale</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110195500 +0100" stop="20261110195600 +0100">
+    <title lang="fr">Spot présidence le drapeau</title>
+    <category lang="fr">Divers / Programme indéterminé</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110195600 +0100" stop="20261110200000 +0100">
+    <title lang="fr">Météo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110200000 +0100" stop="20261110203200 +0100">
+    <title lang="fr">JT 20H RTI</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110203200 +0100" stop="20261110204200 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110204200 +0100" stop="20261110204700 +0100">
+    <title lang="fr">Humour</title>
+    <category lang="fr">Série / Série humoristique</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110204700 +0100" stop="20261110205000 +0100">
+    <title lang="fr">Spot présidence la devise</title>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110205000 +0100" stop="20261110221900 +0100">
+    <title lang="fr">Le Débat</title>
+    <desc lang="fr">Émission consacrée aux discussions sur les divers sujets actuels. </desc>
+    <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110221900 +0100" stop="20261110222000 +0100">
+    <title lang="fr">Agenda</title>
+    <desc lang="fr">Agenda est un magazine qui offre une diversité d'informations actuelles.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110222000 +0100" stop="20261110224900 +0100">
+    <title lang="fr">Au cœur de notre patrimoine</title>
+    <category lang="fr">Magazine / Magazine culturel</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110224900 +0100" stop="20261110230000 +0100">
+    <title lang="fr">Infos régionales</title>
+    <desc lang="fr">Infos régionales est un journal d'information qui traite l'actualité des régions et des villes ivoiriennes.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110230000 +0100" stop="20261110233300 +0100">
+    <title lang="fr">JT 23H</title>
+    <desc lang="fr">Le journal 23h vous offre le résumé de l'actualité nationale et internationale.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="RTI1.ci" start="20261110233300 +0100" stop="20261111002800 +0100">
+    <title lang="fr">Allume ta télé</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
   <programme channel="RTL2.de" start="20261110001500 +0100" stop="20261110011500 +0100">
     <title lang="fr">Der Promihof - S02E03</title>
     <desc lang="fr">Auf dem Promihof stehen Entscheidungen über Sicherheit und Jackpot an. Redo will mit festen Aufgaben Ordnung in den Hofalltag bringen, stößt bei Matthias aber auf Widerstand. Ein kostspieliger Einkauf im City Shop sorgt für Nachschub. Auf der "Open Beatz"-Party rückt das Feiern in den Mittelpunkt - und Kevin hält Julia und Vanessa mit seinen Flirts auf Trab. Auch zwischen den Schulfreunden Jasmin und Fabian könnte sich mehr entwickeln.</desc>
@@ -34413,6 +34692,23 @@
     <desc lang="fr">Pour des parents, enseigner la valeur de l'argent à leurs enfants est un défi de tous les jours. Mais ce défi devient encore plus grand lorsque leur fille, Jade, commence à fréquenter un garçon dont la richesse est symbolisée par la Porsche qu'il conduit. Comment maintenir leurs principes ?</desc>
     <category lang="fr">Série / Série dramatique</category>
   </programme>
+  <programme channel="TV5MondeInfo.fr" start="20261110000000 +0100" stop="20261110003000 +0100">
+    <title lang="fr">L'actu</title>
+    <desc lang="fr">Pas de description</desc>
+    <category lang="fr">News &amp; Current Affairs</category>
+  </programme>
+  <programme channel="TV5Style.fr" start="20261110000000 +0100" stop="20261110002113 +0100">
+    <title lang="fr">La cuisine d'Isabelle et Ricardo</title>
+    <desc lang="fr">Around Bell Pepper
+
+The chef highlights bell peppers with a hot dish and a salad: stuffed shells with cottage cheese and spinach in roasted pepper sauce, and a preparation with grilled peppers and zucchini.
+
+Presentation: Isabelle Deschamps Plante
+</desc>
+    <category lang="fr">Lifestyle</category>
+    <episode-num>1.17.</episode-num>
+    <icon src="https://bo-apac.tv5monde.com/sites/default/files/styles/slide_small/public/2026-02/La_cuisine_d_Isabelle_et_Ricardo_S2_ep2_2.jpg.jpeg?itok=L6WSrQaI"/>
+  </programme>
   <programme channel="TVMonaco.fr" start="20261110001000 +0100" stop="20261110004000 +0100">
     <title lang="fr">L'actu</title>
     <desc lang="fr">Le journal de TVMONACO : les temps forts de la semaine.</desc>
@@ -36805,10 +37101,25 @@
     <desc lang="fr">Soupçonnant que la population de Virginie a rejoint une secte, le président Andre Curtis convoque Rick et lui demande de l'accompagner sur place pour enquêter. Le Président tient également à ce qu'Helen Wong, sa thérapeute, soit présente. A leur arrivée, les trois acolytes découvrent que tout l'Etat est tombé sous la coupe de Unity...</desc>
     <category lang="fr">Série / Série d'animation</category>
   </programme>
+  <programme channel="Toonami.fr" start="20261110144500 +0100" stop="20261110155500 +0100">
+    <title lang="fr">Green Lantern : les chevaliers d'émeraude</title>
+    <desc lang="fr">Tandis que la planète d'où est originaire la troupe de Green Lantern est attaquée par un ancien ennemi, Hal Jordan achève la formation d'une nouvelle recrue, Arisia, en lui faisant le récit de ses débuts et du parcours de plusieurs de ses camarades...</desc>
+    <category lang="fr">Téléfilm / Téléfilm d'animation</category>
+  </programme>
   <programme channel="Toonami.fr" start="20261110144500 +0100" stop="20261110160500 +0100">
     <title lang="fr">Green Lantern : les chevaliers d'émeraude</title>
     <desc lang="fr">Tandis que la planète d'où est originaire la troupe de Green Lantern est attaquée par un ancien ennemi, Hal Jordan achève la formation d'une nouvelle recrue, Arisia, en lui faisant le récit de ses débuts et du parcours de plusieurs de ses camarades...</desc>
     <category lang="fr">Téléfilm / Téléfilm d'animation</category>
+  </programme>
+  <programme channel="Toonami.fr" start="20261110155500 +0100" stop="20261110160000 +0100">
+    <title lang="fr">La Ligue des Justiciers : Action - S01E33</title>
+    <desc lang="fr">Joker frees Luthor with a mother box and forces him to spend the day together hopping all over the world with the Justice League hot on their trail trying to catch up.</desc>
+    <category lang="fr">Dessin animé / Dessin animé d'action</category>
+  </programme>
+  <programme channel="Toonami.fr" start="20261110160000 +0100" stop="20261110160500 +0100">
+    <title lang="fr">La Ligue des Justiciers : Action - S01E34</title>
+    <desc lang="fr">La Calculette pirate les Sphères-T de Mister Terrific qui doit alors faire équipe avec Firestorm. Mais rapidement, son ancienne rivalité avec le Professeurs Stein, son ancien camarade de chambre à la fac, refait surface...</desc>
+    <category lang="fr">Dessin animé / Dessin animé d'action</category>
   </programme>
   <programme channel="Toonami.fr" start="20261110160500 +0100" stop="20261110163000 +0100">
     <title lang="fr">Dragon Ball Super - S01E27</title>
@@ -38284,6 +38595,16 @@
     <title lang="fr">Africa 54</title>
     <desc lang="fr">A daily news magazine that focuses on a younger demographic looking at technological trends, lifestyles, entertainment and other issues that resonate on the 54 countries that make up Africa.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="VoxAfrica.af" start="20261110060000 +0100" stop="20261110063200 +0100">
+    <title lang="fr">Straight Talk Africa</title>
+    <desc lang="fr">Haydé Adams hosts this call-in programme that examines topics of special interest to Africans, including politics, economic development, press freedom, health, social issues and conflict resolution.</desc>
+    <category lang="fr">Magazine / Magazine de découvertes</category>
+  </programme>
+  <programme channel="VoxAfrica.af" start="20261110063200 +0100" stop="20261110070000 +0100">
+    <title lang="fr">Clinic Matters</title>
+    <desc lang="fr">The series that dramatizes the everyday experience of a busy doctor, his committed nurses and their different patients with their unusual character and attitude.</desc>
+    <category lang="fr">Série / Série humoristique</category>
   </programme>
   <programme channel="VoxAfrica.af" start="20261110070000 +0100" stop="20261110073000 +0100">
     <title lang="fr">VoxNews Evening</title>
@@ -39974,6 +40295,78 @@
     <title lang="fr">Qoloub 'Amera</title>
     <desc lang="fr">Préparée et présentée par Dr Nadia Amara, spécialisés dans les études islamiques, et abordant diverses questions religieuses et sociale</desc>
     <category lang="fr">Magazine / Magazine de société</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110000000 +0100" stop="20261110013700 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110013700 +0100" stop="20261110033400 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110033400 +0100" stop="20261110042000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110042000 +0100" stop="20261110053800 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110053800 +0100" stop="20261110065500 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110065500 +0100" stop="20261110083600 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110083600 +0100" stop="20261110085800 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110085800 +0100" stop="20261110102700 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110102700 +0100" stop="20261110113400 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110113400 +0100" stop="20261110113500 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110124700 +0100" stop="20261110133500 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110133500 +0100" stop="20261110140300 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110140300 +0100" stop="20261110152900 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110152900 +0100" stop="20261110165100 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110165100 +0100" stop="20261110175000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110175000 +0100" stop="20261110202700 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Emission spéciale</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110202700 +0100" stop="20261110222000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.1072" start="20261110222000 +0100" stop="20261111000000 +0100">
+    <title lang="fr">Programa TBA</title>
+    <category lang="fr">Divers / Divertissement</category>
   </programme>
   <programme channel="oqee.1081" start="20261110000100 +0100" stop="20261110000200 +0100">
     <title lang="fr">DIY Jardin - S01E05</title>
@@ -60139,12 +60532,10 @@
   </programme>
   <programme channel="oqee.396" start="20261110200000 +0100" stop="20261110203000 +0100">
     <title lang="fr">The Cathy Newman Show</title>
-    <desc lang="fr">Highlights from the Cathy Newman show, including news-making interviews, debate and straight-talking analysis from Westminster and beyond.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.396" start="20261110203000 +0100" stop="20261110210000 +0100">
     <title lang="fr">The Cathy Newman Show</title>
-    <desc lang="fr">Highlights from the Cathy Newman show, including news-making interviews, debate and straight-talking analysis from Westminster and beyond.</desc>
     <category lang="fr">Magazine / Magazine d'actualité</category>
   </programme>
   <programme channel="oqee.396" start="20261110210000 +0100" stop="20261110213000 +0100">
@@ -60159,12 +60550,10 @@
   </programme>
   <programme channel="oqee.396" start="20261110220000 +0100" stop="20261110223000 +0100">
     <title lang="fr">The World with Yalda Hakim</title>
-    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20261110223000 +0100" stop="20261110230000 +0100">
     <title lang="fr">The World with Yalda Hakim</title>
-    <desc lang="fr">Eyewitness reports, interviews and analysis on the big stories around the world with Yalda Hakim.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.396" start="20261110230000 +0100" stop="20261110233000 +0100">
@@ -60523,7 +60912,7 @@
   </programme>
   <programme channel="oqee.422" start="20261110001500 +0100" stop="20261110004500 +0100">
     <title lang="fr">Visita guiada</title>
-    <desc lang="fr">Programa de televisão e de rádio sobre peças da história da arte e da cultura portuguesas. Em cada emissão o programa elege uma peça-protagonista, num arco temporal de cerca de 800 anos e abrangendo todo o território nacional, ilhas incluídas.</desc>
+    <desc lang="fr">O processo de mestiçagem entre homens portugueses e mulheres indianas começou logo a partir de 1510. Mas, ao contrário do Brasil, as culturas indianas resistiram a essa mestiçagem. Uma visita guiada pela historiadora Ângela Barreto Xavier.</desc>
     <category lang="fr">Magazine / Magazine d'information</category>
   </programme>
   <programme channel="oqee.422" start="20261110004500 +0100" stop="20261110005700 +0100">
@@ -60538,7 +60927,7 @@
   </programme>
   <programme channel="oqee.422" start="20261110020100 +0100" stop="20261110030000 +0100">
     <title lang="fr">Notícias do Atlântico</title>
-    <desc lang="fr">"Notícias do Atlântico" é um produto informativo, mais integrado, em que Açores e Madeira cruzam os alinhamentos respetivos e decidem quem, no dia-a-dia, marca a atualidade das ilhas e abre este renovado espaço informativo, para depois passar ao colega apresentador do outro arquipélago a continuação do programa, através do qual servimos, diariamente, uma hora de notícias aos espetadores de todas as antenas da RTP Internacional.</desc>
+    <desc lang="fr">A atualidade informativa do Arquipélago dos Açores com emissão na RTP Internacional.</desc>
     <category lang="fr">Divers / Journal</category>
   </programme>
   <programme channel="oqee.422" start="20261110030000 +0100" stop="20261110034500 +0100">
@@ -64000,6 +64389,46 @@
   <programme channel="oqee.568" start="20261110233900 +0100" stop="20261111000700 +0100">
     <title lang="fr">100% voyance</title>
     <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110015600 +0100" stop="20261110042000 +0100">
+    <title lang="fr">Papi Gudia</title>
+    <desc lang="fr">A child murderer and black magic practitioner transfers his soul to a doll before death and wreaks havoc in the lives of the doll's new owners: a boy and his elder sister.</desc>
+    <category lang="fr">Film / Film d'horreur</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110042000 +0100" stop="20261110070000 +0100">
+    <title lang="fr">Samay-when the time strikes</title>
+    <desc lang="fr">ACP Malvika Chauhan, a widowed mother, is assigned to investigate the murder of a businessman. However, she suspects it to be a serial killer as more murders take place in the city.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110070000 +0100" stop="20261110091000 +0100">
+    <title lang="fr">Prithipal Singh... A Story</title>
+    <desc lang="fr">Based on the true story of legendary Indian hokey player Prithipal Singh, who struggles to start a new life after walking away from the sport. </desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110091000 +0100" stop="20261110124200 +0100">
+    <title lang="fr">Jigri Dost</title>
+    <desc lang="fr">When rustic farmer Gopi (Jeetendra) visits a lawyer's home, he's mistaken for Anand, a wealthy attorney who's engaged to the lawyer's beautiful daughter. When the real Anand shows up, the two discover they could be twins and agree to switch places. Will true love win out once the truth is revealed? Or have they sown the seeds of ruin for them both? Directed by Ravikant Nagaich, this entertaining comedy stars Komal, Mumtaz and Aruna Irani.</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110124200 +0100" stop="20261110154300 +0100">
+    <title lang="fr">Agnivarsha</title>
+    <desc lang="fr">In a kingdom stricken with drought, two rival priests, Yavakri and Parvasu, try to appease the rain god, Indra. However, their efforts result in adultery, treachery and bloodshed.</desc>
+    <category lang="fr">Film / Drame</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110154300 +0100" stop="20261110191200 +0100">
+    <title lang="fr">Meri Haan Teri Naa</title>
+    <desc lang="fr">Childhood friends Ashok and Julie are very close and believe friendship is above love. However, when Julie's father dies, Ashok and his wife bring her to their house and try to find a groom for her.</desc>
+    <category lang="fr">Film / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110191200 +0100" stop="20261110221600 +0100">
+    <title lang="fr">Avinash</title>
+    <desc lang="fr">A dealer of stolen goods and a singer, Avinash finds his life turned upside down when goons break into his house, assault his fiancée, Dr. Sapna, and his brother, Sumit; kill his mother; abduct and then torture him in order to compel him to tell them about the whereabouts of a missing video film. He attempts to fight back, is shot at sea, and is believed to have perished. He does survive, but has lost his memory. Soon he will not only be chased by goons, but a woman, Nisha, will attempt to seduce him; another woman, Alka, will claim to be his wife; Rajan, a Police Inspector, will befriend him; and a terrorist, Pratap, and his goons are determined to get the video-film at any and all cost.</desc>
+    <category lang="fr">Film / Film d'action</category>
+  </programme>
+  <programme channel="oqee.581" start="20261110221600 +0100" stop="20261111014000 +0100">
+    <title lang="fr">Juaari</title>
+    <desc lang="fr">Vijay, a young man, resorts to gambling in order to free his lover, Anita, who is held captive by Sanga. He soon runs out of luck when he gets arrested.</desc>
+    <category lang="fr">Film / Drame</category>
   </programme>
   <programme channel="oqee.611" start="20261110000000 +0100" stop="20261110001000 +0100">
     <title lang="fr">Le journal France 24 (EN)</title>
@@ -68037,6 +68466,132 @@
     <desc lang="fr">Programma dal titolo e contenuto sconosciuto, da definirsi in seguito. </desc>
     <category lang="fr">Divers / Programme indéterminé</category>
   </programme>
+  <programme channel="oqee.71" start="20261110020000 +0100" stop="20261110025000 +0100">
+    <title lang="fr">Libro de familia</title>
+    <category lang="fr">Série / Comédie dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110025000 +0100" stop="20261110030000 +0100">
+    <title lang="fr">Meus</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110030000 +0100" stop="20261110035700 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110035700 +0100" stop="20261110040000 +0100">
+    <title lang="fr">Latexos da cidade</title>
+    <category lang="fr">Documentaire / Documentaire société</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110040000 +0100" stop="20261110050000 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110050000 +0100" stop="20261110053000 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110053000 +0100" stop="20261110060000 +0100">
+    <title lang="fr">Zigzag</title>
+    <desc lang="fr">Programa que lles achega aos espectadores galegos toda a actualidade cultural, presentado de luns a venres por Pilar G. Rego e por María Solar os sábados.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110060000 +0100" stop="20261110065600 +0100">
+    <title lang="fr">Pazo de Familia</title>
+    <category lang="fr">Série / Série dramatique</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110065600 +0100" stop="20261110070000 +0100">
+    <title lang="fr">Información estado do mar mañá</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110070000 +0100" stop="20261110080000 +0100">
+    <title lang="fr">Galicia por diante</title>
+    <desc lang="fr">Faladoiro informativo presentado por Celia Rúa e Luís Ojea dende o estudio multimedia da Radio Galega.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110080000 +0100" stop="20261110105600 +0100">
+    <title lang="fr">Bos Días</title>
+    <desc lang="fr">Espacio matinal realizado por los servicios informativos de Televisión de Galicia que hace un repaso de la actualidad. La información da paso a una entrevista diaria así como conexiones en directo y otras secciones de salud, gastronomía y opinión.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110105600 +0100" stop="20261110110200 +0100">
+    <title lang="fr">O agro</title>
+    <category lang="fr">Magazine / Magazine de l'économie</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110110200 +0100" stop="20261110113000 +0100">
+    <title lang="fr">Pulso activo</title>
+    <desc lang="fr">A TVG pon o corpo en movemento con 'Pulso activo', un novo formato diario de saúde e benestar. O espazo, presentado por Eddy Insua, propón unha rutina diaria de exercicio adaptado para mellorar a saúde, combater o sedentarismo e encher as mañás de enerxía positiva.</desc>
+    <category lang="fr">Magazine / Magazine médical</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110113000 +0100" stop="20261110135400 +0100">
+    <title lang="fr">O termómetro</title>
+    <desc lang="fr">Magazine diario, presentado por Javier Romero, Noelia Rey e Bernardo Montaña, que lle toma o pulso cada mañá a Galicia. Centrado na realidade social galega, ofrece unha ampla cobertura en directo da actualidade. "O Termómetro" falará este venres do auxe da Formación Profesional, dos alcumes e da final do Mundial que disputará o domingo a selección española.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110135400 +0100" stop="20261110143000 +0100">
+    <title lang="fr">Galicia Noticias Mañá</title>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110143000 +0100" stop="20261110152000 +0100">
+    <title lang="fr">Telexornal mediodía</title>
+    <desc lang="fr">Presenta Marta Darriba ao mediodía, Pablo Muñoz no serán e David Valverde na fin de semana.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110152000 +0100" stop="20261110153900 +0100">
+    <title lang="fr">Telexornal deportes mediodía</title>
+    <desc lang="fr">Información deportiva a cargo de Sevi Martínez.</desc>
+    <category lang="fr">Magazine / Magazine sportif</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110153900 +0100" stop="20261110154800 +0100">
+    <title lang="fr">O tempo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110154800 +0100" stop="20261110163500 +0100">
+    <title lang="fr">Atrápame se podes</title>
+    <desc lang="fr">Concurso de preguntas e respostas que convida o espectador a xogar desde casa e dá aos concursantes a oportunidade de gañaren importantes premios. Presentado por Rodrigo Vázquez.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110163500 +0100" stop="20261110170200 +0100">
+    <title lang="fr">Taxi Quiz: Pagas... Ou Cobras</title>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110170200 +0100" stop="20261110174700 +0100">
+    <title lang="fr">Mira Ti Que Ben. Imos De Voda</title>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110174700 +0100" stop="20261110202500 +0100">
+    <title lang="fr">Hora galega</title>
+    <desc lang="fr">Programa vivo e variado, presentado por Quique Morales e Rocío Durán, onde as grandes protagonistas son as historias cotiás dos galegos e galegas.</desc>
+    <category lang="fr">Magazine / Magazine d'actualité</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110202500 +0100" stop="20261110210000 +0100">
+    <title lang="fr">A voltas co prato</title>
+    <desc lang="fr">Cada día, dous cociñeiros traballan contra o reloxo para ofertar un prato que conquiste o padal do convidado ou convidada do día. Presentado por Fran Cañotas.</desc>
+    <category lang="fr">Magazine / Magazine culinaire</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110210000 +0100" stop="20261110213700 +0100">
+    <title lang="fr">Telexornal serán</title>
+    <desc lang="fr">Presenta Marta Darriba ao mediodía, Pablo Muñoz no serán e David Valverde na fin de semana.</desc>
+    <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110213700 +0100" stop="20261110214500 +0100">
+    <title lang="fr">O tempo</title>
+    <category lang="fr">Divers / Météo</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110214500 +0100" stop="20261110224500 +0100">
+    <title lang="fr">Land Rober + Show</title>
+    <desc lang="fr">"Land Rober + Show" volverá pintar a mona con sketchs de ficción, o seu xa popular prezo xusto, xogos co público e entrevistas a personaxes de todo tipo, tanto de Galicia como de toda España. Ademais de Roberto Vilar e Eva Iglesias, o espazo de humor conta coa presenza de Xurxo Carreño, Patricia Pérez, Ana Ageitos e Dani Fernández como colaboradores.</desc>
+    <category lang="fr">Divers / Variétés</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110224500 +0100" stop="20261110234100 +0100">
+    <title lang="fr">A Grande Escolla</title>
+    <desc lang="fr">Nuevo formato en el que una celebridad de fuera llega a Galicia en busca de un producto con sello gallego, y será la presentadora y "personal shopper" Noelia Rey quien le propondrá tres opciones, entre las que solo podrá escoger una.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.71" start="20261110234100 +0100" stop="20261111004900 +0100">
+    <title lang="fr">Tesouros no faiado</title>
+    <desc lang="fr">Programa que busca tesouros esquecidos nos rochos e palleiras. Amosa o descubrimento, o valor e a transformación de obxectos que deixan de ser un refugallo para cobrar a importancia que merecen.</desc>
+    <category lang="fr">Documentaire / Documentaire téléréalité</category>
+  </programme>
   <programme channel="oqee.754" start="20261110000000 +0100" stop="20261110003000 +0100">
     <title lang="fr">TRIP IN KOREA</title>
     <desc lang="fr">Audiences are guided through Korea's most captivating destinations, from bustling cities and historic sites to serene countryside and hidden gems. Each episode explores local culture, traditions, cuisine, and seasonal events, offering travel tips and personal experiences. By following the program, viewers gain inspiration for their own journeys, a richer appreciation of Korea's diversity, and insight into the country's natural beauty and cultural heritage.</desc>
@@ -68470,6 +69025,66 @@
   <programme channel="oqee.771" start="20261110043000 +0100" stop="20261110050000 +0100">
     <title lang="fr">NTD Taiwan News</title>
     <category lang="fr">Divers / Journal</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110000000 +0100" stop="20261110014500 +0100">
+    <title lang="fr">Zamanı Geldi</title>
+    <desc lang="fr">Zamanı Geldi, Kanal 360'ta hafta içi sabah saatlerinde yayınlanan güncel haber programıdır. Program, Türkiye ve dünyadan yaşanan son gelişmeleri, siyaset, ekonomi ve toplum gündemini kapsamlı şekilde ele alır. Günün öne çıkan haberleri, sosyal medyada öne çıkan başlıklar ve kamuoyunu ilgilendiren konular yorum ve analizlerle izleyiciye aktarılır. Bilgilendirici ve dinamik yapısıyla Zamanı Geldi, güne gündemi yakalayarak başlamak isteyen izleyiciler için hazırlanmıştır.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110014500 +0100" stop="20261110030000 +0100">
+    <title lang="fr">Pınar Altuğ Atacan ile Kim O?</title>
+    <desc lang="fr">Pınar Altuğ Atacan, ünlü konuklarıyla sohbetin en doğal ve en keyifli hâlini ekrana taşıyor.Konukların bilinmeyen yönleri, hayatlarına dair özel hikâyeleri ve merak edilen anıları samimi bir dille paylaşılıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110030000 +0100" stop="20261110033000 +0100">
+    <title lang="fr">Ataman'la Devri Alem</title>
+    <desc lang="fr">Ataman'la Devri Alem, dünyanın farklı bölgelerini keşfetmeyi seven izleyiciler için hazırlanan kapsamlı bir gezi programı. Programda doğa harikaları, tarihi eserler, kültürel yaşam ve farklı coğrafyaların kendine has atmosferi detaylı bir anlatımla izleyiciye sunuluyor. Eğitici yönü güçlü olan program, hem belgesel hem de seyahat içeriklerini bir araya getirerek bilgi ve keşif dolu bir ekran deneyimi yaşatıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110033000 +0100" stop="20261110044500 +0100">
+    <title lang="fr">Öykü Cengiz ile O Anın Öyküsü</title>
+    <desc lang="fr">Öykü Cengiz ile O An'ın Öyküsü, 360'ta başlayacak yeni yaşam programıdır. Sunucu Öykü Cengiz konuklarıyla birlikte fotoğraflar ve anlatılar eşliğinde özel anların perde arkasını keşfeder. Samimi sohbetler, unutulmaz hatıralar ve kişisel öyküler izleyicilere aktarılır ve her bölüm farklı bakış açıları sunar.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110044500 +0100" stop="20261110064500 +0100">
+    <title lang="fr">Gökyüzünden</title>
+    <desc lang="fr">Gökyüzünden, Kanal 360'ta yayınlanan görsel ağırlıklı bir gezi ve yaşam programıdır. Programda, Anadolu'nun dört bir yanındaki doğal güzellikler, tarihi şehirler, kültürel miraslar ve çarpıcı coğrafi alanlar drone ile çekilmiş kuş bakışı görüntülerle izleyiciye sunulur. Anadolu'nun eşsiz manzaraları, dağlar, göller, vadiler ve mimari değerler, sakin anlatım ve görsel zenginlikle aktarılır. Bu sayede izleyici, Türkiye'yi yüksekten bir bakışla keşfederken aynı zamanda çeşitli yörelerin güzelliklerini ve atmosferini hissedebilir. Program, foto-video tutkunları ile doğa ve seyahat meraklıları için görsel bir deneyim niteliğindedir.</desc>
+    <category lang="fr">Documentaire / Documentaire culture</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110064500 +0100" stop="20261110130000 +0100">
+    <title lang="fr">Zamanı Geldi</title>
+    <desc lang="fr">Zamanı Geldi, Kanal 360'ta hafta içi sabah saatlerinde yayınlanan güncel haber programıdır. Program, Türkiye ve dünyadan yaşanan son gelişmeleri, siyaset, ekonomi ve toplum gündemini kapsamlı şekilde ele alır. Günün öne çıkan haberleri, sosyal medyada öne çıkan başlıklar ve kamuoyunu ilgilendiren konular yorum ve analizlerle izleyiciye aktarılır. Bilgilendirici ve dinamik yapısıyla Zamanı Geldi, güne gündemi yakalayarak başlamak isteyen izleyiciler için hazırlanmıştır.</desc>
+    <category lang="fr">Magazine / Magazine d'information</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110130000 +0100" stop="20261110140000 +0100">
+    <title lang="fr">Seren'le Buluşalım</title>
+    <desc lang="fr">Mutfakta hazırlanan birbirinden lezzetli tarifler, pratik püf noktaları ve keyifli sohbetlerle izleyiciyle buluşuyor. Günlük sofralara ilham verecek yemekler, farklı tatlar ve kolay uygulanabilecek öneriler samimi bir anlatımla aktarılıyor. Lezzetli tarifleri keşfetmek ve mutfakta yeni fikirler edinmek isteyenler için keyifli bir içerik sunuluyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110140000 +0100" stop="20261110150000 +0100">
+    <title lang="fr">Ataman'la Devri Alem</title>
+    <desc lang="fr">Ataman'la Devri Alem, dünyanın farklı bölgelerini keşfetmeyi seven izleyiciler için hazırlanan kapsamlı bir gezi programı. Programda doğa harikaları, tarihi eserler, kültürel yaşam ve farklı coğrafyaların kendine has atmosferi detaylı bir anlatımla izleyiciye sunuluyor. Eğitici yönü güçlü olan program, hem belgesel hem de seyahat içeriklerini bir araya getirerek bilgi ve keşif dolu bir ekran deneyimi yaşatıyor.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110150000 +0100" stop="20261110170000 +0100">
+    <title lang="fr">Lezzet Peşinde</title>
+    <desc lang="fr">Lezzet Peşinde, 360'ta yayınlanan ve Türkiye'nin zengin mutfak kültürünü ekrana taşıyan bir yaşam programıdır. Programda farklı şehirlerin yöresel lezzetleri keşfedilirken usta şefler, üreticiler ve lezzet duraklarıyla yapılan ziyaretler izleyiciyle buluşur. Her bölümde tatların kökeni, yapım süreçleri ve geleneksel tarifler ele alınır. İzleyici sadece yemeklerin tariflerini değil, aynı zamanda kültürel bağlarını ve üretim hikayelerini de öğrenir. Program gastronomi tutkunlarına hem bilgi hem ilham verir ve farklı lezzet rotalarına dair fikirler sunar.</desc>
+    <category lang="fr">Documentaire / Documentaire gastronomie</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110170000 +0100" stop="20261110210000 +0100">
+    <title lang="fr">Ben Bilirim</title>
+    <desc lang="fr">Genel kültür, hızlı düşünme ve dikkat gerektiren sorular üzerinden yarışmacıların bilgi düzeyi test edilir. Farklı alanlardan gelen sorular sayesinde hem eğlenceli hem de öğretici bir rekabet ortamı oluşur. Yarışmacılar zamanla yarışırken aynı zamanda strateji ve odaklanma becerilerini de kullanmak zorunda kalır. Program, izleyiciye hem bilgi kazandıran hem de eğlenceli vakit geçirmeyi sağlayan dinamik bir format sunar.</desc>
+    <category lang="fr">Divers / Jeu</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110210000 +0100" stop="20261110221500 +0100">
+    <title lang="fr">Öykü Cengiz ile O Anın Öyküsü</title>
+    <desc lang="fr">Öykü Cengiz ile O An'ın Öyküsü, 360'ta başlayacak yeni yaşam programıdır. Sunucu Öykü Cengiz konuklarıyla birlikte fotoğraflar ve anlatılar eşliğinde özel anların perde arkasını keşfeder. Samimi sohbetler, unutulmaz hatıralar ve kişisel öyküler izleyicilere aktarılır ve her bölüm farklı bakış açıları sunar.</desc>
+    <category lang="fr">Divers / Divertissement</category>
+  </programme>
+  <programme channel="oqee.772" start="20261110224500 +0100" stop="20261111000000 +0100">
+    <title lang="fr">Ben Bilirim</title>
+    <desc lang="fr">Genel kültür, hızlı düşünme ve dikkat gerektiren sorular üzerinden yarışmacıların bilgi düzeyi test edilir. Farklı alanlardan gelen sorular sayesinde hem eğlenceli hem de öğretici bir rekabet ortamı oluşur. Yarışmacılar zamanla yarışırken aynı zamanda strateji ve odaklanma becerilerini de kullanmak zorunda kalır. Program, izleyiciye hem bilgi kazandıran hem de eğlenceli vakit geçirmeyi sağlayan dinamik bir format sunar.</desc>
+    <category lang="fr">Divers / Jeu</category>
   </programme>
   <programme channel="oqee.773" start="20261110060000 +0100" stop="20261110090000 +0100">
     <title lang="fr">Günaydın Türkiye</title>
